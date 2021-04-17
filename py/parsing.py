@@ -17,26 +17,15 @@ def get_number_of_suits(variant):
 
 
 URL = 'https://hanab.live/history/' + username
-# try:
 page = requests.get(URL)
 if page.status_code != 200:
     print('Username is not valid.')
     exit()
-# print(page.status_code)
-# except:
-#     exit()
 
 soup = BeautifulSoup(page.content, 'html.parser')
 
 results = soup.find(id='history-table')
 items = []
-# header
-# item = []
-# for th in results.find('tr'):
-#     if not isinstance(th, NavigableString):
-#         item.append(th.text)
-# items.append(item)
-# print(items)
 
 for tr in results.findAll('tr')[1:]:
     item = []
@@ -49,9 +38,9 @@ with open(f'../user_files/{username}_stat.txt', 'w', encoding='utf-8') as f:
     for item in items:
         file_item = ''
         for i in item:
-            file_item += '%s\t' % i
-        f.write('%s\n' % file_item.rstrip())
+            file_item += '{}\t'.format(i)
+        f.write('{}\n'.format(file_item.rstrip()))
 
 with open(f'../user_files/{username}_players.txt', 'w', encoding='utf-8') as f:
     for item in items:
-        f.write('%s\n' % item[5])
+        f.write('{}\n'.format(item[5]))

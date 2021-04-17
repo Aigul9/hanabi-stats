@@ -1,17 +1,26 @@
-with open('other_files/1oE_variants.txt', 'r') as f:
+class Variant:
+    def __init__(self, variant, var_doctype='', var_type=''):
+        self.variant = variant
+        self.var_doctype = var_doctype
+        self.var_type = var_type
+
+
+def __iter__(self):
+    return iter((self.variant, self.var_doctype, self.var_type))
+
+
+with open('../other_files/1oE_variants.txt', 'r') as f:
     unique_var = []
     for line in f.readlines():
         unique_var.append(line.strip())
 
-# print(unique_var)
-
-with open('other_files/variants.txt', 'r') as f:
-    all_var = {}
+with open('../other_files/variants.txt', 'r') as f:
+    # all_var = {}
+    all_var = []
     for line in f.readlines():
         line = line.strip()
-        all_var[line[:line.rfind('(') - 1]] = ""
-
-# print(all_var)
+        # all_var[line[:line.rfind('(') - 1]] = []
+        all_var.append(Variant(line[:line.rfind('(') - 1]))
 
 cases = {
     '6 Suits': '6 Suits',
@@ -27,29 +36,28 @@ cases = {
     'Clue Starved (5 Suits)': '5 Suits (Clue Starved)'
 }
 
-for k in all_var.keys():
-    if k in cases:
-        all_var[k] = cases[k]
+for row in all_var:
+    v = row.variant
+    if v in cases:
+        row.var_doctype, row.var_type = cases[v], 'easy'
         continue
-    # if 'Null' in k:
-    #     all_var[k] = 'Null'
-    uv = [uv for uv in unique_var if(uv in k)]
+    if 'Null' in v:
+        row.var_doctype = row.var_type = 'null'
+    uv = [uv for uv in unique_var if (uv in v)]
     if len(uv) == 1:
-        all_var[k] = "w/ 1x 1oE"
+        row.var_doctype, row.var_type = 'w/ 1x 1oE', 'sd'
     if len(uv) == 3:
-        all_var[k] = "w/ 2x 1oE"
+        row.var_doctype, row.var_type = 'w/ 2x 1oE', 'dd'
     if len(uv) == 2:
-        all_var[k] = "w/ 1x 1oE" if 'Gray Pink' in uv else "w/ 2x 1oE"
-    all_var[k] = k[-8:-1] + ' ' + all_var[k] if all_var[k] else k[-8:-1]
-    # print(all_var[k])
+        row.var_doctype = 'w/ 1x 1oE' if 'Gray Pink' in uv else 'w/ 2x 1oE'
+        row.var_type = 'sd' if 'Gray Pink' in uv else 'dd'
+    row.var_type = row.var_type if row.var_doctype else 'easy'
+    row.var_doctype = v[-8:-1] + ' ' + row.var_doctype if row.var_doctype else v[-8:-1]
 
-# print(all_var)
-
-with open('other_files/variant_types.txt', 'w') as f:
-    f.write('Variant\tType\n')
-    for k, v in all_var.items():
-        # print(v)
-        f.write('%s\t%s\n' % k % v)
+with open('../other_files/variant_types.txt', 'w') as f:
+    for row in all_var:
+        v, d, t = __iter__(row)
+        f.write('{}\t{}\t{}\n'.format(v, d, t))
 
 # for k, v in all_var.items():
 #     if v == '':

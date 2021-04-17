@@ -1,8 +1,0 @@
-TODO:
-+1. total 2p - wins, loses
-+2. total 3p+ - wins, loses
-3. as a result - excel file to user? html page?
-+4. total wins/loses
-5. total easy, single dark, null, dd - wins/loses
-+6. User enters their username, -> https://hanab.live/history/ + username
-+7. var_types - remove trailing space at the end ???

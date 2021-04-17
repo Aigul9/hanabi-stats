@@ -291,8 +291,8 @@
 461633	2	20	Pink & Brown (4 Suits)	2021-03-08 — 20:40:32 UTC	kimbifille, TimeHoodie	21	4	20
 461627	2	0	Pink & Brown (4 Suits)	2021-03-08 — 20:32:56 UTC	kimbifille, TimeHoodie	22	4	20
 461196	2	25	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2021-03-08 — 06:42:09 UTC	Fireheart, kimbifille	2	5	25
-461190	2	0	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2021-03-08 — 06:32:44 UTC	Fireheart, kimbifille	2	5	25
-461187	2	21	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2021-03-08 — 06:27:06 UTC	Fireheart, kimbifille	2	5	25
+461190	2	0	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2021-03-08 — 06:32:44 UTC	Fireheart, kimbifille	3	5	25
+461187	2	21	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2021-03-08 — 06:27:06 UTC	Fireheart, kimbifille	3	5	25
 461185	2	30	Null-Ones & Dark Prism (6 Suits)	2021-03-08 — 06:17:25 UTC	Fireheart, kimbifille	1	6	30
 461176	2	0	Null-Ones & Dark Prism (6 Suits)	2021-03-08 — 06:08:53 UTC	Fireheart, kimbifille	1	6	30
 461173	2	0	Null-Ones & Dark Prism (6 Suits)	2021-03-08 — 06:02:31 UTC	Fireheart, kimbifille	1	6	30
@@ -875,7 +875,7 @@
 406350	2	0	Dual-Color (5 Suits)	2021-01-17 — 15:54:37 UTC	JerryYang, kimbifille	52	5	25
 406345	2	0	Dual-Color (5 Suits)	2021-01-17 — 15:40:58 UTC	JerryYang, kimbifille	62	5	25
 406343	2	0	Dual-Color (5 Suits)	2021-01-17 — 15:36:01 UTC	JerryYang, kimbifille	73	5	25
-406340	2	0	Dual-Color (5 Suits)	2021-01-17 — 15:30:08 UTC	JerryYang, kimbifille	84	5	25
+406340	2	0	Dual-Color (5 Suits)	2021-01-17 — 15:30:08 UTC	JerryYang, kimbifille	85	5	25
 403684	3	30	Dual-Color Mix	2021-01-15 — 04:26:59 UTC	kimbifille, pianoblook, piper	19	6	30
 403608	3	27	Dual-Color Mix	2021-01-15 — 03:10:21 UTC	kimbifille, pianoblook, piper	25	6	30
 403542	3	0	Dual-Color Mix	2021-01-15 — 01:59:25 UTC	kimbifille, pianoblook, piper	28	6	30
@@ -1602,7 +1602,7 @@
 347212	5	0	Rainbow & Prism (4 Suits)	2020-11-18 — 19:58:22 UTC	Floriman, kimbifille, plus, TheDaniMan, timotree	2	4	20
 347207	5	0	Rainbow & Prism (4 Suits)	2020-11-18 — 19:51:25 UTC	Floriman, kimbifille, plus, TheDaniMan, timotree	3	4	20
 347192	4	0	Rainbow & Prism (4 Suits)	2020-11-18 — 19:27:24 UTC	kimbifille, plus, TheDaniMan, timotree	7	4	20
-347170	5	29	Rainbow & Light Pink (6 Suits)	2020-11-18 — 18:56:09 UTC	kimbifille, plus, TheDaniMan, TimeHoodie, timotree	4	6	30
+347170	5	29	Rainbow & Light Pink (6 Suits)	2020-11-18 — 18:56:09 UTC	kimbifille, plus, TheDaniMan, TimeHoodie, timotree	5	6	30
 347134	3	0	Pink & White (6 Suits)	2020-11-18 — 18:17:57 UTC	Fey, kimbifille, timotree	14	6	30
 347122	2	0	Rainbow & Gray (5 Suits)	2020-11-18 — 17:50:01 UTC	Fey, kimbifille	8	5	25
 347119	2	0	Rainbow & Gray (5 Suits)	2020-11-18 — 17:41:58 UTC	Fey, kimbifille	12	5	25
@@ -2340,9 +2340,9 @@
 325074	6	24	Rainbow (5 Suits)	2020-10-21 — 17:11:27 UTC	asaelr, kimbifille, pianoblook, rachyrules, TimeHoodie, Wittvector	7	5	25
 325061	3	30	Dark Prism (6 Suits)	2020-10-21 — 16:35:18 UTC	IAMJEFF, kimbifille, pianoblook	5	6	30
 325056	3	0	Dark Prism (6 Suits)	2020-10-21 — 16:17:07 UTC	IAMJEFF, kimbifille, pianoblook	6	6	30
-325054	3	0	Dark Prism (6 Suits)	2020-10-21 — 16:10:18 UTC	IAMJEFF, kimbifille, pianoblook	8	6	30
+325054	3	0	Dark Prism (6 Suits)	2020-10-21 — 16:10:18 UTC	IAMJEFF, kimbifille, pianoblook	9	6	30
 325053	3	0	Dark Prism (6 Suits)	2020-10-21 — 16:02:05 UTC	IAMJEFF, kimbifille, pianoblook	9	6	30
-325050	3	20	Prism (4 Suits)	2020-10-21 — 15:52:02 UTC	IAMJEFF, kimbifille, pianoblook	44	4	20
+325050	3	20	Prism (4 Suits)	2020-10-21 — 15:52:02 UTC	IAMJEFF, kimbifille, pianoblook	45	4	20
 325047	5	0	Rainbow & Dark Pink (5 Suits)	2020-10-21 — 15:23:11 UTC	IAMJEFF, kimbifille, pianoblook, TimeHoodie, Zakisan	3	5	25
 325043	5	0	Rainbow & Dark Pink (5 Suits)	2020-10-21 — 14:46:58 UTC	IAMJEFF, kimbifille, pianoblook, TimeHoodie, Zakisan	2	5	25
 325036	3	25	Rainbow & Dark Pink (5 Suits)	2020-10-21 — 14:10:41 UTC	kimbifille, pianoblook, TimeHoodie	8	5	25
@@ -2513,8 +2513,8 @@
 322832	4	0	Up or Down & Prism (6 Suits)	2020-10-18 — 07:03:54 UTC	Dr_Kakashi, IAMJEFF, kimbifille, piper	6	6	30
 322827	4	0	Up or Down & Prism (6 Suits)	2020-10-18 — 06:50:19 UTC	Dr_Kakashi, IAMJEFF, kimbifille, piper	10	6	30
 322822	4	0	Up or Down & Prism (6 Suits)	2020-10-18 — 06:45:38 UTC	Dr_Kakashi, IAMJEFF, kimbifille, piper	13	6	30
-322809	3	15	Rainbow & Prism (3 Suits)	2020-10-18 — 06:19:37 UTC	Dr_Kakashi, kimbifille, piper	5	3	15
-322797	3	0	Rainbow & Prism (3 Suits)	2020-10-18 — 06:03:32 UTC	Dr_Kakashi, kimbifille, piper	7	3	15
+322809	3	15	Rainbow & Prism (3 Suits)	2020-10-18 — 06:19:37 UTC	Dr_Kakashi, kimbifille, piper	6	3	15
+322797	3	0	Rainbow & Prism (3 Suits)	2020-10-18 — 06:03:32 UTC	Dr_Kakashi, kimbifille, piper	8	3	15
 322793	3	13	Rainbow & Prism (3 Suits)	2020-10-18 — 05:57:11 UTC	Dr_Kakashi, kimbifille, piper	10	3	15
 322789	2	0	Black & Omni (5 Suits)	2020-10-18 — 05:39:58 UTC	kimbifille, piper	25	5	25
 322769	3	25	Black & Omni (5 Suits)	2020-10-18 — 05:18:21 UTC	Dr_Kakashi, kimbifille, piper	4	5	25
@@ -4755,7 +4755,7 @@
 262902	4	0	Black & Dark Rainbow (6 Suits)	2020-08-05 — 22:27:13 UTC	kimbifille, pianoblook, piper, Zamiel	3	6	30
 262901	4	0	Black & Dark Rainbow (6 Suits)	2020-08-05 — 22:24:26 UTC	kimbifille, pianoblook, piper, Zamiel	5	6	30
 262891	3	30	Dual-Color (6 Suits)	2020-08-05 — 22:05:32 UTC	kimbifille, pianoblook, piper	14	6	30
-262259	3	20	Rainbow & Light Pink (4 Suits)	2020-08-05 — 04:07:04 UTC	Dr_Kakashi, IAMJEFF, kimbifille	5	4	20
+262259	3	20	Rainbow & Light Pink (4 Suits)	2020-08-05 — 04:07:04 UTC	Dr_Kakashi, IAMJEFF, kimbifille	6	4	20
 262236	3	0	Up or Down & Light Pink (6 Suits)	2020-08-05 — 03:44:56 UTC	Dr_Kakashi, IAMJEFF, kimbifille	1	6	30
 262226	3	0	Up or Down & Light Pink (6 Suits)	2020-08-05 — 03:33:31 UTC	Dr_Kakashi, IAMJEFF, kimbifille	1	6	30
 262204	3	25	Up or Down & Light Pink (5 Suits)	2020-08-05 — 03:19:21 UTC	Dr_Kakashi, IAMJEFF, kimbifille	2	5	25
@@ -5239,15 +5239,15 @@
 218706	3	24	Cocoa Rainbow (5 Suits)	2020-06-26 — 00:41:27 UTC	Dr_Kakashi, kimbifille, kooolant	22	5	25
 218680	3	0	Cocoa Rainbow (5 Suits)	2020-06-26 — 00:21:34 UTC	Dr_Kakashi, kimbifille, kooolant	23	5	25
 218665	2	0	Cocoa Rainbow (6 Suits)	2020-06-26 — 00:07:35 UTC	Dr_Kakashi, kimbifille	12	6	30
-218659	2	0	Cocoa Rainbow (6 Suits)	2020-06-26 — 00:01:17 UTC	Dr_Kakashi, kimbifille	18	6	30
-218649	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:56:02 UTC	Dr_Kakashi, kimbifille	20	6	30
+218659	2	0	Cocoa Rainbow (6 Suits)	2020-06-26 — 00:01:17 UTC	Dr_Kakashi, kimbifille	19	6	30
+218649	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:56:02 UTC	Dr_Kakashi, kimbifille	21	6	30
 218648	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:53:52 UTC	Dr_Kakashi, kimbifille	23	6	30
 218645	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:50:20 UTC	Dr_Kakashi, kimbifille	23	6	30
 218639	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:43:19 UTC	Dr_Kakashi, kimbifille	32	6	30
 218630	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:38:12 UTC	Dr_Kakashi, kimbifille	34	6	30
 218615	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:26:58 UTC	Dr_Kakashi, kimbifille	37	6	30
-218603	2	27	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:19:19 UTC	Dr_Kakashi, kimbifille	39	6	30
-218586	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:01:55 UTC	Dr_Kakashi, kimbifille	43	6	30
+218603	2	27	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:19:19 UTC	Dr_Kakashi, kimbifille	40	6	30
+218586	2	0	Cocoa Rainbow (6 Suits)	2020-06-25 — 23:01:55 UTC	Dr_Kakashi, kimbifille	44	6	30
 218581	2	25	Cocoa Rainbow (5 Suits)	2020-06-25 — 22:56:11 UTC	Dr_Kakashi, kimbifille	39	5	25
 218561	2	25	Rainbow & Pink (5 Suits)	2020-06-25 — 22:43:27 UTC	Dr_Kakashi, kimbifille	41	5	25
 218550	2	20	Rainbow & Pink (4 Suits)	2020-06-25 — 22:31:32 UTC	Dr_Kakashi, kimbifille	21	4	20
@@ -5511,7 +5511,7 @@
 203859	3	0	Light Pink (6 Suits)	2020-06-12 — 19:28:15 UTC	Fey, kimbifille, kooolant	25	6	30
 203833	3	0	Light Pink (6 Suits)	2020-06-12 — 19:14:33 UTC	Fey, kimbifille, kooolant	34	6	30
 203832	3	0	Light Pink (6 Suits)	2020-06-12 — 19:12:07 UTC	Fey, kimbifille, kooolant	38	6	30
-203824	3	30	Pink (6 Suits)	2020-06-12 — 19:02:19 UTC	Fey, kimbifille, kooolant	30	6	30
+203824	3	30	Pink (6 Suits)	2020-06-12 — 19:02:19 UTC	Fey, kimbifille, kooolant	31	6	30
 203813	2	0	Pink (6 Suits)	2020-06-12 — 18:48:56 UTC	Fey, kimbifille	92	6	30
 203808	2	23	Pink (6 Suits)	2020-06-12 — 18:42:58 UTC	kimbifille, kooolant	92	6	30
 203790	2	0	Pink (6 Suits)	2020-06-12 — 18:24:18 UTC	kimbifille, kooolant	103	6	30
@@ -5776,7 +5776,7 @@
 193699	2	0	Null (3 Suits)	2020-06-04 — 13:00:32 UTC	Fey, kimbifille	26	3	15
 193380	4	30	Pink (6 Suits)	2020-06-04 — 03:48:21 UTC	charmander, kimbifille, kooolant, XMIL	21	6	30
 193352	3	0	Pink (6 Suits)	2020-06-04 — 03:35:13 UTC	kimbifille, kooolant, XMIL	37	6	30
-193342	3	0	Pink (6 Suits)	2020-06-04 — 03:31:03 UTC	kimbifille, kooolant, XMIL	45	6	30
+193342	3	0	Pink (6 Suits)	2020-06-04 — 03:31:03 UTC	kimbifille, kooolant, XMIL	46	6	30
 193329	3	0	Pink (6 Suits)	2020-06-04 — 03:19:35 UTC	kimbifille, kooolant, XMIL	52	6	30
 193324	3	0	Pink (6 Suits)	2020-06-04 — 03:14:32 UTC	kimbifille, kooolant, XMIL	70	6	30
 193315	3	29	Pink (6 Suits)	2020-06-04 — 03:03:31 UTC	kimbifille, kooolant, XMIL	91	6	30
@@ -5796,7 +5796,7 @@
 192915	5	0	Rainbow (6 Suits)	2020-06-03 — 19:46:14 UTC	Fey, hakha3, kimbifille, kooolant, postmans	12	6	30
 192906	5	28	Rainbow (6 Suits)	2020-06-03 — 19:40:30 UTC	Fey, hakha3, kimbifille, kooolant, postmans	13	6	30
 192888	5	30	Rainbow (6 Suits)	2020-06-03 — 19:23:25 UTC	Fey, hakha3, kimbifille, kooolant, postmans	15	6	30
-192854	4	30	Rainbow (6 Suits)	2020-06-03 — 19:02:04 UTC	hakha3, kimbifille, kooolant, postmans	237	6	30
+192854	4	30	Rainbow (6 Suits)	2020-06-03 — 19:02:04 UTC	hakha3, kimbifille, kooolant, postmans	238	6	30
 192831	3	30	Rainbow (6 Suits)	2020-06-03 — 18:47:21 UTC	hakha3, kimbifille, postmans	124	6	30
 192810	3	0	Brown & Omni (4 Suits)	2020-06-03 — 18:33:10 UTC	hakha3, kimbifille, postmans	4	4	20
 192779	3	15	Brown-Ones & White (3 Suits)	2020-06-03 — 18:03:59 UTC	kimbifille, Nitrate2, postmans	1	3	15
@@ -5809,8 +5809,8 @@
 191968	6	0	Null-Ones (5 Suits)	2020-06-03 — 00:23:02 UTC	hakha3, kimbifille, kooolant, Kyle, melwen, scacc8	1	5	25
 191963	6	25	Brown-Fives (5 Suits)	2020-06-03 — 00:15:20 UTC	hakha3, kimbifille, kooolant, Kyle, melwen, Nitrate2	1	5	25
 191938	4	25	Brown-Fives (5 Suits)	2020-06-02 — 23:52:47 UTC	kimbifille, kooolant, melwen, Nitrate2	3	5	25
-191612	3	25	No Variant	2020-06-02 — 17:51:25 UTC	Fey, kimbifille, kooolant	407	5	25
-191594	3	24	No Variant	2020-06-02 — 17:28:10 UTC	Fey, kimbifille, kooolant	414	5	25
+191612	3	25	No Variant	2020-06-02 — 17:51:25 UTC	Fey, kimbifille, kooolant	408	5	25
+191594	3	24	No Variant	2020-06-02 — 17:28:10 UTC	Fey, kimbifille, kooolant	415	5	25
 191581	3	23	No Variant	2020-06-02 — 17:01:46 UTC	Fey, kimbifille, kooolant	449	5	25
 191474	3	0	Black & Brown (5 Suits)	2020-06-02 — 12:54:45 UTC	charmander, hakha3, kimbifille	9	5	25
 191470	3	0	Black & Brown (5 Suits)	2020-06-02 — 12:32:29 UTC	charmander, hakha3, kimbifille	10	5	25
@@ -5914,8 +5914,8 @@
 184926	2	0	Clue Starved (6 Suits)	2020-05-28 — 13:22:20 UTC	Dr_Kakashi, kimbifille	14	6	30
 184923	2	0	Clue Starved (6 Suits)	2020-05-28 — 13:14:06 UTC	Dr_Kakashi, kimbifille	14	6	30
 184920	2	0	Clue Starved (6 Suits)	2020-05-28 — 13:06:11 UTC	Dr_Kakashi, kimbifille	14	6	30
-184918	2	0	Clue Starved (6 Suits)	2020-05-28 — 13:02:29 UTC	Dr_Kakashi, kimbifille	13	6	30
-184916	2	0	Clue Starved (6 Suits)	2020-05-28 — 12:53:06 UTC	Dr_Kakashi, kimbifille	16	6	30
+184918	2	0	Clue Starved (6 Suits)	2020-05-28 — 13:02:29 UTC	Dr_Kakashi, kimbifille	14	6	30
+184916	2	0	Clue Starved (6 Suits)	2020-05-28 — 12:53:06 UTC	Dr_Kakashi, kimbifille	17	6	30
 184910	2	0	Clue Starved (6 Suits)	2020-05-28 — 12:38:57 UTC	Dr_Kakashi, kimbifille	17	6	30
 184908	2	0	Clue Starved (6 Suits)	2020-05-28 — 12:34:21 UTC	Dr_Kakashi, kimbifille	18	6	30
 184904	2	0	Clue Starved (6 Suits)	2020-05-28 — 12:25:20 UTC	Dr_Kakashi, kimbifille	21	6	30
@@ -6032,8 +6032,8 @@
 177641	2	29	6 Suits	2020-05-23 — 04:04:36 UTC	charmander, kimbifille	374	6	30
 177606	2	29	6 Suits	2020-05-23 — 03:45:31 UTC	charmander, kimbifille	397	6	30
 177580	2	0	6 Suits	2020-05-23 — 03:30:23 UTC	charmander, kimbifille	437	6	30
-177571	2	26	6 Suits	2020-05-23 — 03:24:30 UTC	charmander, kimbifille	493	6	30
-177553	2	0	6 Suits	2020-05-23 — 03:10:27 UTC	charmander, kimbifille	581	6	30
+177571	2	26	6 Suits	2020-05-23 — 03:24:30 UTC	charmander, kimbifille	494	6	30
+177553	2	0	6 Suits	2020-05-23 — 03:10:27 UTC	charmander, kimbifille	582	6	30
 177534	2	0	6 Suits	2020-05-23 — 03:00:20 UTC	charmander, kimbifille	656	6	30
 177461	5	23	Brown (5 Suits)	2020-05-23 — 02:10:32 UTC	Dr_Kakashi, kalisa, kimbifille, Lilliana, Nitrate2	10	5	25
 177421	5	0	Brown (5 Suits)	2020-05-23 — 01:48:41 UTC	Dr_Kakashi, kalisa, kimbifille, Lilliana, Nitrate2	15	5	25
@@ -6441,7 +6441,7 @@
 125947	2	19	Omni (4 Suits)	2020-04-17 — 22:21:42 UTC	kimbifille, kooolant	10	4	20
 125908	2	0	Omni (4 Suits)	2020-04-17 — 22:02:16 UTC	kimbifille, kooolant	19	4	20
 125890	2	0	Omni (4 Suits)	2020-04-17 — 21:54:58 UTC	kimbifille, kooolant	29	4	20
-125881	2	20	Omni (4 Suits)	2020-04-17 — 21:48:34 UTC	kimbifille, kooolant	56	4	20
+125881	2	20	Omni (4 Suits)	2020-04-17 — 21:48:34 UTC	kimbifille, kooolant	57	4	20
 125494	2	17	Throw It in a Hole (4 Suits)	2020-04-17 — 15:36:46 UTC	kimbifille, kooolant	12	4	20
 125486	2	17	Throw It in a Hole (4 Suits)	2020-04-17 — 15:22:14 UTC	kimbifille, kooolant	12	4	20
 125480	2	25	Alternating Clues (5 Suits)	2020-04-17 — 15:09:27 UTC	kimbifille, kooolant	38	5	25
