@@ -37,7 +37,7 @@ def get_stats(history_table):
 
 
 def save_stats(items, username):
-    with open(f'../user_files/{username}_stat.txt', 'w', encoding='utf-8') as f:
+    with open(f'../temp/{username}_stat.txt', 'w', encoding='utf-8') as f:
         for item in items:
             file_item = ''
             for i in item:
@@ -46,6 +46,6 @@ def save_stats(items, username):
 
 
 def save_list_of_players(items, username):
-    with open(f'../user_files/{username}_players.txt', 'w', encoding='utf-8') as f:
+    with open(f'../temp/{username}_players.txt', 'w', encoding='utf-8') as f:
         for item in items:
             f.write('{}\n'.format(item[5]))

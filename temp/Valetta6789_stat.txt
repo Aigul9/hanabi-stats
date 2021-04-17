@@ -141,7 +141,7 @@
 485462	2	0	Brown & Omni (3 Suits)	2021-03-30 — 14:55:18 UTC	HelanaAshryvr, Valetta6789	5	3	15
 485453	2	13	Brown & Omni (3 Suits)	2021-03-30 — 14:45:58 UTC	HelanaAshryvr, Valetta6789	6	3	15
 485444	2	14	Brown & Omni (3 Suits)	2021-03-30 — 14:33:12 UTC	HelanaAshryvr, Valetta6789	10	3	15
-485434	2	24	No Variant	2021-03-30 — 14:21:32 UTC	HelanaAshryvr, Valetta6789	541	5	25
+485434	2	24	No Variant	2021-03-30 — 14:21:32 UTC	HelanaAshryvr, Valetta6789	542	5	25
 485427	2	15	Rainbow & Omni (3 Suits)	2021-03-30 — 14:11:34 UTC	Lanvin, Valetta6789	12	3	15
 485423	2	0	Rainbow & Omni (3 Suits)	2021-03-30 — 14:04:39 UTC	Lanvin, Valetta6789	15	3	15
 485420	2	0	Rainbow & Omni (3 Suits)	2021-03-30 — 13:59:23 UTC	Lanvin, Valetta6789	14	3	15
@@ -543,8 +543,8 @@
 448944	2	23	White & Gray Pink (5 Suits)	2021-02-25 — 20:26:33 UTC	Fireheart, Valetta6789	7	5	25
 448938	2	25	White & Cocoa Rainbow (5 Suits)	2021-02-25 — 20:22:25 UTC	Fireheart, Valetta6789	3	5	25
 448931	2	25	Pink & Cocoa Rainbow (5 Suits)	2021-02-25 — 20:18:05 UTC	Fireheart, Valetta6789	6	5	25
-448923	2	30	Pink & Cocoa Rainbow (6 Suits)	2021-02-25 — 20:11:36 UTC	Fireheart, Valetta6789	5	6	30
-448916	2	0	Pink & Cocoa Rainbow (6 Suits)	2021-02-25 — 20:06:31 UTC	Fireheart, Valetta6789	6	6	30
+448923	2	30	Pink & Cocoa Rainbow (6 Suits)	2021-02-25 — 20:11:36 UTC	Fireheart, Valetta6789	6	6	30
+448916	2	0	Pink & Cocoa Rainbow (6 Suits)	2021-02-25 — 20:06:31 UTC	Fireheart, Valetta6789	7	6	30
 446952	2	30	Extremely Ambiguous & Light Pink (6 Suits)	2021-02-23 — 20:55:56 UTC	Fireheart, Valetta6789	1	6	30
 446939	2	0	Extremely Ambiguous & Light Pink (6 Suits)	2021-02-23 — 20:48:29 UTC	Fireheart, Valetta6789	1	6	30
 446936	2	0	Extremely Ambiguous & Light Pink (6 Suits)	2021-02-23 — 20:46:53 UTC	Fireheart, Valetta6789	1	6	30
@@ -689,7 +689,7 @@
 434595	2	0	Omni-Fives & Prism (6 Suits)	2021-02-12 — 19:09:39 UTC	Fireheart, Valetta6789	1	6	30
 434592	2	0	Omni-Fives & Prism (6 Suits)	2021-02-12 — 19:07:38 UTC	Fireheart, Valetta6789	1	6	30
 434584	2	0	Omni-Fives & Prism (6 Suits)	2021-02-12 — 19:03:01 UTC	Fireheart, Valetta6789	1	6	30
-434579	2	0	No Variant	2021-02-12 — 18:51:07 UTC	dissuade, Valetta6789	3485	5	25
+434579	2	0	No Variant	2021-02-12 — 18:51:07 UTC	dissuade, Valetta6789	3486	5	25
 434575	2	0	Up or Down (6 Suits)	2021-02-12 — 18:49:16 UTC	dissuade, Valetta6789	28	6	30
 433647	3	30	Black & Muddy Rainbow (6 Suits)	2021-02-11 — 22:09:27 UTC	Fireheart, Valetta6789, Zamiel	2	6	30
 433615	3	0	Black & Muddy Rainbow (6 Suits)	2021-02-11 — 21:51:15 UTC	Fireheart, Valetta6789, Zamiel	2	6	30
@@ -3378,8 +3378,8 @@
 88876	2	0	6 Suits	2020-03-14 — 14:12:24 UTC	IAMJEFF, Valetta6789	88	6	30
 88875	2	0	6 Suits	2020-03-14 — 14:12:10 UTC	IAMJEFF, Valetta6789	158	6	30
 88874	2	0	6 Suits	2020-03-14 — 14:11:16 UTC	IAMJEFF, Valetta6789	207	6	30
-88873	2	0	No Variant	2020-03-14 — 14:09:39 UTC	IAMJEFF, Valetta6789	1020	5	25
-88872	2	0	No Variant	2020-03-14 — 14:08:10 UTC	IAMJEFF, Valetta6789	1068	5	25
+88873	2	0	No Variant	2020-03-14 — 14:09:39 UTC	IAMJEFF, Valetta6789	1021	5	25
+88872	2	0	No Variant	2020-03-14 — 14:08:10 UTC	IAMJEFF, Valetta6789	1069	5	25
 88871	2	0	No Variant	2020-03-14 — 14:07:30 UTC	IAMJEFF, Valetta6789	1107	5	25
 88870	2	0	No Variant	2020-03-14 — 14:06:30 UTC	IAMJEFF, Valetta6789	1138	5	25
 87978	2	25	Omni & Dark Brown (5 Suits)	2020-03-12 — 21:41:04 UTC	IAMJEFF, Valetta6789	1	5	25
@@ -3795,7 +3795,7 @@
 80117	3	0	Omni & Gray (6 Suits)	2020-02-15 — 19:55:00 UTC	Fireheart, scharkbite, Valetta6789	1	6	30
 80116	3	0	Omni & Gray (6 Suits)	2020-02-15 — 19:41:49 UTC	Fireheart, scharkbite, Valetta6789	1	6	30
 80115	3	0	Omni & Gray (6 Suits)	2020-02-15 — 19:37:27 UTC	Fireheart, scharkbite, Valetta6789	1	6	30
-80113	3	0	Omni & Gray (6 Suits)	2020-02-15 — 19:28:14 UTC	Fireheart, scharkbite, Valetta6789	5	6	30
+80113	3	0	Omni & Gray (6 Suits)	2020-02-15 — 19:28:14 UTC	Fireheart, scharkbite, Valetta6789	6	6	30
 80112	3	15	Rainbow-Ones (3 Suits)	2020-02-15 — 19:18:28 UTC	Fireheart, scharkbite, Valetta6789	7	3	15
 80111	3	30	Rainbow-Ones & Pink (6 Suits)	2020-02-15 — 19:08:19 UTC	Fireheart, scharkbite, Valetta6789	1	6	30
 80110	3	20	Rainbow-Ones (4 Suits)	2020-02-15 — 18:49:31 UTC	Fireheart, Livia, Valetta6789	11	4	20
@@ -3862,8 +3862,8 @@
 79760	2	0	No Variant	2020-02-13 — 11:38:42 UTC	Fireheart, Valetta6789	95	5	25
 79759	2	0	No Variant	2020-02-13 — 11:38:20 UTC	Fireheart, Valetta6789	95	5	25
 79758	2	0	No Variant	2020-02-13 — 11:37:31 UTC	Fireheart, Valetta6789	96	5	25
-79757	2	0	No Variant	2020-02-13 — 11:37:00 UTC	Fireheart, Valetta6789	97	5	25
-79756	2	0	No Variant	2020-02-13 — 11:36:03 UTC	Fireheart, Valetta6789	98	5	25
+79757	2	0	No Variant	2020-02-13 — 11:37:00 UTC	Fireheart, Valetta6789	98	5	25
+79756	2	0	No Variant	2020-02-13 — 11:36:03 UTC	Fireheart, Valetta6789	99	5	25
 79755	2	0	No Variant	2020-02-13 — 11:35:44 UTC	Fireheart, Valetta6789	100	5	25
 79754	2	0	No Variant	2020-02-13 — 11:35:33 UTC	Fireheart, Valetta6789	101	5	25
 79753	2	0	No Variant	2020-02-13 — 11:35:04 UTC	Fireheart, Valetta6789	100	5	25
@@ -4361,8 +4361,8 @@
 74506	2	25	Pink & Gray (5 Suits)	2020-01-07 — 19:15:53 UTC	Fireheart, Valetta6789	4	5	25
 74505	2	20	Pink & Gray (5 Suits)	2020-01-07 — 19:07:19 UTC	Fireheart, Valetta6789	4	5	25
 74504	2	0	Pink & Gray (5 Suits)	2020-01-07 — 18:57:06 UTC	Fireheart, Valetta6789	4	5	25
-74503	2	22	Pink & Gray (5 Suits)	2020-01-07 — 18:52:34 UTC	Fireheart, Valetta6789	4	5	25
-74502	2	0	Pink & Gray (5 Suits)	2020-01-07 — 18:45:18 UTC	Fireheart, Valetta6789	5	5	25
+74503	2	22	Pink & Gray (5 Suits)	2020-01-07 — 18:52:34 UTC	Fireheart, Valetta6789	5	5	25
+74502	2	0	Pink & Gray (5 Suits)	2020-01-07 — 18:45:18 UTC	Fireheart, Valetta6789	6	5	25
 74501	3	25	No Variant	2020-01-07 — 18:35:40 UTC	Fireheart, hanabornoob, Valetta6789	99	5	25
 74500	3	23	Black (5 Suits)	2020-01-07 — 18:14:58 UTC	Fireheart, hanabornoob, Valetta6789	71	5	25
 74499	2	0	Black & Dark Omni (6 Suits)	2020-01-07 — 18:01:36 UTC	Fireheart, Valetta6789	4	6	30
@@ -4627,8 +4627,8 @@
 71779	2	25	Brown & Dark Omni (5 Suits)	2019-12-19 — 09:56:41 UTC	Fireheart, Valetta6789	2	5	25
 71778	2	24	Brown & Dark Omni (5 Suits)	2019-12-19 — 09:47:35 UTC	Fireheart, Valetta6789	2	5	25
 71777	2	0	Brown & Dark Omni (5 Suits)	2019-12-19 — 09:40:40 UTC	Fireheart, Valetta6789	3	5	25
-71776	2	30	Omni & Gray (6 Suits)	2019-12-19 — 09:33:39 UTC	Fireheart, Valetta6789	5	6	30
-71775	2	0	Omni & Gray (6 Suits)	2019-12-19 — 09:23:38 UTC	Fireheart, Valetta6789	5	6	30
+71776	2	30	Omni & Gray (6 Suits)	2019-12-19 — 09:33:39 UTC	Fireheart, Valetta6789	6	6	30
+71775	2	0	Omni & Gray (6 Suits)	2019-12-19 — 09:23:38 UTC	Fireheart, Valetta6789	6	6	30
 71487	2	0	Duck (6 Suits)	2019-12-16 — 10:03:39 UTC	Fireheart, Valetta6789	3	6	30
 71486	2	0	Duck (6 Suits)	2019-12-16 — 10:01:34 UTC	Fireheart, Valetta6789	3	6	30
 71485	2	0	Duck (6 Suits)	2019-12-16 — 10:00:12 UTC	Fireheart, Valetta6789	4	6	30
@@ -5146,7 +5146,7 @@
 66252	5	0	No Variant	2019-11-23 — 12:08:27 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	27	5	25
 66251	5	0	No Variant	2019-11-23 — 12:06:26 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	25	5	25
 66250	5	0	No Variant	2019-11-23 — 12:05:09 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	29	5	25
-66249	5	0	No Variant	2019-11-23 — 12:02:24 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	39	5	25
+66249	5	0	No Variant	2019-11-23 — 12:02:24 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	40	5	25
 66248	5	0	No Variant	2019-11-23 — 12:00:14 UTC	Dr_Kakashi, IAMJEFF, Livia, RaKXeR, Valetta6789	40	5	25
 66247	3	22	No Variant	2019-11-23 — 11:56:47 UTC	Livia, RaKXeR, Valetta6789	26	5	25
 66246	3	0	No Variant	2019-11-23 — 11:53:31 UTC	Livia, RaKXeR, Valetta6789	28	5	25
@@ -5224,11 +5224,11 @@
 65845	4	0	Rainbow & Pink (3 Suits)	2019-11-21 — 10:22:31 UTC	Dr_Kakashi, Fireheart, Floriman, Valetta6789	5	3	15
 65844	4	0	Rainbow & Pink (3 Suits)	2019-11-21 — 10:10:27 UTC	Dr_Kakashi, Fireheart, Floriman, Valetta6789	8	3	15
 65843	4	0	Rainbow & Pink (3 Suits)	2019-11-21 — 10:01:50 UTC	Dr_Kakashi, Fireheart, Floriman, Valetta6789	9	3	15
-65842	5	25	No Variant	2019-11-21 — 09:49:04 UTC	Dr_Kakashi, Fireheart, Floriman, RaKXeR, Valetta6789	43	5	25
+65842	5	25	No Variant	2019-11-21 — 09:49:04 UTC	Dr_Kakashi, Fireheart, Floriman, RaKXeR, Valetta6789	44	5	25
 65841	5	0	No Variant	2019-11-21 — 09:29:52 UTC	Dr_Kakashi, Fireheart, Floriman, RaKXeR, Valetta6789	45	5	25
 65839	4	22	Dark Pink (5 Suits)	2019-11-21 — 09:10:02 UTC	Dr_Kakashi, Fireheart, RaKXeR, Valetta6789	20	5	25
 65837	4	30	Dark Rainbow (6 Suits)	2019-11-21 — 08:45:05 UTC	Dr_Kakashi, Fireheart, RaKXeR, Valetta6789	26	6	30
-65836	4	0	Dark Rainbow (6 Suits)	2019-11-21 — 08:19:03 UTC	Dr_Kakashi, Fireheart, RaKXeR, Valetta6789	46	6	30
+65836	4	0	Dark Rainbow (6 Suits)	2019-11-21 — 08:19:03 UTC	Dr_Kakashi, Fireheart, RaKXeR, Valetta6789	47	6	30
 65833	4	0	No Variant	2019-11-21 — 08:04:02 UTC	Dr_Kakashi, Fireheart, RaKXeR, Valetta6789	39	5	25
 65832	3	0	Up or Down & Omni (5 Suits)	2019-11-21 — 07:56:56 UTC	Dr_Kakashi, Fireheart, Valetta6789	8	5	25
 65830	2	25	Brown & Omni (5 Suits)	2019-11-21 — 07:38:00 UTC	Fireheart, Valetta6789	5	5	25
@@ -5677,8 +5677,8 @@
 61633	2	0	Special Mix (5 Suits)	2019-10-30 — 09:57:48 UTC	Fireheart, Valetta6789	39	5	25
 61632	2	0	Special Mix (5 Suits)	2019-10-30 — 09:52:30 UTC	Fireheart, Valetta6789	39	5	25
 61631	2	0	Special Mix (5 Suits)	2019-10-30 — 09:50:14 UTC	Fireheart, Valetta6789	44	5	25
-61630	2	0	Special Mix (5 Suits)	2019-10-30 — 09:47:18 UTC	Fireheart, Valetta6789	46	5	25
-61629	2	0	Special Mix (5 Suits)	2019-10-30 — 09:40:25 UTC	Fireheart, Valetta6789	59	5	25
+61630	2	0	Special Mix (5 Suits)	2019-10-30 — 09:47:18 UTC	Fireheart, Valetta6789	47	5	25
+61629	2	0	Special Mix (5 Suits)	2019-10-30 — 09:40:25 UTC	Fireheart, Valetta6789	60	5	25
 61628	2	0	Special Mix (5 Suits)	2019-10-30 — 09:31:13 UTC	Fireheart, Valetta6789	63	5	25
 61627	2	0	Special Mix (6 Suits)	2019-10-30 — 09:24:28 UTC	Fireheart, Valetta6789	46	6	30
 61626	2	25	Gray Pink (5 Suits)	2019-10-30 — 09:18:49 UTC	Fireheart, Valetta6789	12	5	25
@@ -5997,7 +5997,7 @@
 58635	6	20	Pink-Fives (4 Suits)	2019-10-12 — 19:57:01 UTC	Fireheart, Floriman, IAMJEFF, kopen, micerang, Valetta6789	1	4	20
 58630	3	0	Black & White (5 Suits)	2019-10-12 — 19:06:33 UTC	Floriman, riking28, Valetta6789	40	5	25
 58622	3	25	No Variant	2019-10-12 — 18:30:29 UTC	Floriman, riking28, Valetta6789	1619	5	25
-58616	3	23	No Variant	2019-10-12 — 18:00:50 UTC	Floriman, riking28, Valetta6789	1862	5	25
+58616	3	23	No Variant	2019-10-12 — 18:00:50 UTC	Floriman, riking28, Valetta6789	1863	5	25
 58606	5	0	No Variant	2019-10-12 — 16:59:44 UTC	asaelr, Fireheart, Floriman, scharkbite, Valetta6789	8	5	25
 58605	5	22	No Variant	2019-10-12 — 16:50:45 UTC	asaelr, Fireheart, Floriman, scharkbite, Valetta6789	8	5	25
 58604	5	21	No Variant	2019-10-12 — 16:37:28 UTC	asaelr, Fireheart, Floriman, scharkbite, Valetta6789	9	5	25
@@ -6250,7 +6250,7 @@
 56387	4	0	White (6 Suits)	2019-09-25 — 19:24:11 UTC	Fireheart, Livia, Romain672, Valetta6789	34	6	30
 56386	4	0	White (6 Suits)	2019-09-25 — 19:10:16 UTC	Fireheart, Livia, Romain672, Valetta6789	41	6	30
 56384	5	30	Rainbow (6 Suits)	2019-09-25 — 18:50:13 UTC	awe, Fireheart, Kyle, Livia, Valetta6789	130	6	30
-56328	2	0	4 Suits	2019-09-25 — 10:08:04 UTC	cequoy, Valetta6789	240	4	20
+56328	2	0	4 Suits	2019-09-25 — 10:08:04 UTC	cequoy, Valetta6789	241	4	20
 56313	2	0	6 Suits	2019-09-25 — 08:56:08 UTC	geometry, Valetta6789	841	6	30
 56272	4	25	No Variant	2019-09-24 — 21:58:49 UTC	cequoy, Pimak, Romain672, Valetta6789	785	5	25
 56270	3	0	6 Suits	2019-09-24 — 21:29:36 UTC	cequoy, Romain672, Valetta6789	361	6	30
@@ -6267,8 +6267,8 @@
 56250	3	14	White (3 Suits)	2019-09-24 — 18:27:21 UTC	Kyle, Livia, Valetta6789	6	3	15
 56249	2	25	Throw It in a Hole (5 Suits)	2019-09-24 — 18:13:10 UTC	Romain672, Valetta6789	76	5	25
 56247	2	20	Throw It in a Hole (4 Suits)	2019-09-24 — 17:52:56 UTC	Romain672, Valetta6789	51	4	20
-56240	2	20	No Variant	2019-09-24 — 16:38:41 UTC	cequoy, Valetta6789	4082	5	25
-56236	2	0	No Variant	2019-09-24 — 16:13:34 UTC	cequoy, Valetta6789	5340	5	25
+56240	2	20	No Variant	2019-09-24 — 16:38:41 UTC	cequoy, Valetta6789	4083	5	25
+56236	2	0	No Variant	2019-09-24 — 16:13:34 UTC	cequoy, Valetta6789	5341	5	25
 56234	2	25	Omni (5 Suits)	2019-09-24 — 15:53:45 UTC	Kyle, Valetta6789	22	5	25
 56224	3	28	Black (6 Suits)	2019-09-24 — 13:28:21 UTC	asaelr, Romain672, Valetta6789	30	6	30
 56223	3	0	Black (6 Suits)	2019-09-24 — 13:05:20 UTC	asaelr, Romain672, Valetta6789	30	6	30
@@ -6351,7 +6351,7 @@
 55092	5	23	No Variant	2019-09-16 — 11:32:06 UTC	asaelr, gegegi, kodomazer, riking, Valetta6789	91	5	25
 55088	5	22	No Variant	2019-09-16 — 10:53:01 UTC	asaelr, gegegi, kodomazer, riking, Valetta6789	109	5	25
 55081	5	0	No Variant	2019-09-16 — 10:23:32 UTC	gegegi, kodomazer, riking, trebleandbess, Valetta6789	1983	5	25
-55075	3	0	No Variant	2019-09-16 — 09:37:20 UTC	Pimak, riking, Valetta6789	3229	5	25
+55075	3	0	No Variant	2019-09-16 — 09:37:20 UTC	Pimak, riking, Valetta6789	3230	5	25
 55070	3	23	No Variant	2019-09-16 — 09:04:05 UTC	kodomazer, riking, Valetta6789	1163	5	25
 55066	3	25	No Variant	2019-09-16 — 08:29:55 UTC	kodomazer, riking, Valetta6789	1275	5	25
 54988	5	25	No Variant	2019-09-15 — 20:59:31 UTC	DMoney, Floriman, Romain672, Valetta6789, Zamiel	1	5	25
@@ -6382,8 +6382,8 @@
 54613	3	24	Rainbow (5 Suits)	2019-09-13 — 10:14:48 UTC	Fireheart, Kyle, Valetta6789	29	5	25
 54611	4	25	Rainbow (5 Suits)	2019-09-13 — 09:51:42 UTC	Fireheart, hanabornoob, Livia, Valetta6789	130	5	25
 54609	3	23	No Variant	2019-09-13 — 08:57:43 UTC	kodomazer, riking, Valetta6789	2137	5	25
-54606	3	0	No Variant	2019-09-13 — 08:06:03 UTC	kodomazer, riking, Valetta6789	2582	5	25
-54605	3	25	No Variant	2019-09-13 — 07:38:43 UTC	kodomazer, riking, Valetta6789	4183	5	25
+54606	3	0	No Variant	2019-09-13 — 08:06:03 UTC	kodomazer, riking, Valetta6789	2583	5	25
+54605	3	25	No Variant	2019-09-13 — 07:38:43 UTC	kodomazer, riking, Valetta6789	4184	5	25
 54604	4	0	No Variant	2019-09-13 — 07:16:14 UTC	kodomazer, lolololanqi, riking, Valetta6789	2745	5	25
 54517	5	30	6 Suits	2019-09-12 — 21:25:42 UTC	Floriman, Libster, Razvogor, Romain672, Valetta6789	14	6	30
 54516	6	0	6 Suits	2019-09-12 — 21:02:46 UTC	Floriman, hanabornoob, Libster, Razvogor, Romain672, Valetta6789	5	6	30
@@ -6429,7 +6429,7 @@
 54173	4	25	No Variant	2019-09-10 — 20:16:40 UTC	Livia, Razvogor, Romain672, Valetta6789	2061	5	25
 54048	6	25	No Variant	2019-09-09 — 20:31:29 UTC	asaelr, Fireheart, Livia, micerang, Romain672, Valetta6789	35	5	25
 54045	5	18	No Variant	2019-09-09 — 19:57:21 UTC	asaelr, Fireheart, micerang, Romain672, Valetta6789	39	5	25
-54041	4	25	No Variant	2019-09-09 — 19:22:49 UTC	Fireheart, hanabornoob, Romain672, Valetta6789	3561	5	25
+54041	4	25	No Variant	2019-09-09 — 19:22:49 UTC	Fireheart, hanabornoob, Romain672, Valetta6789	3562	5	25
 54040	2	0	No Variant	2019-09-09 — 18:59:18 UTC	Fireheart, Valetta6789	299	5	25
 54038	2	0	No Variant	2019-09-09 — 18:48:44 UTC	Fireheart, Valetta6789	307	5	25
 54036	2	0	No Variant	2019-09-09 — 18:37:55 UTC	Fireheart, Valetta6789	314	5	25
