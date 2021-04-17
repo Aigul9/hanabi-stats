@@ -1,2 +1,2 @@
 # change to your username
-username = 'Valetta6789'
+user = 'Valetta6789'

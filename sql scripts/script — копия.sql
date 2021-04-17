@@ -1,141 +1,8 @@
-
-
-select * from stat s, players p
-where s.Players like '%' + p.Player + '%'
-order by ID
-
---average score
-select p.Player, avg(convert(int, score)) from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] = 2
-group by p.Player
-order by 2 desc
-
-select p.Player, avg(convert(int, score)) from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] > 2
-group by p.Player
-order by 2 desc
-
---number of winnings
-select p.Player, count(*), Total2p from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] = 2
-and Score=MaxScore
-group by p.Player, Total2p
-order by 2 desc
-
-select p.Player, count(*), Total3p from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] > 2
-and Score=MaxScore
-and Total3p >= 100
-group by p.Player, Total3p
-order by 2 desc
-
---percentage of winnings
-alter table players
-add Total2p int
-
-alter table players
-add Total2pHard int
-
-alter table players
-add Total2pEasy int
-
-alter table players
-add Total3pHard int
-
-alter table players
-add Total3pEasy int
-
-alter table players
-add Total3p int
-
-select * from players
-
-update players set Total2p = 
-(select count(*) from stat where players like '%' + player + '%'
-and [# of Players] = 2)
-
-update players set Total3p = 
-(select count(*) from stat where players like '%' + player + '%'
-and [# of Players] > 2)
-
-select player, cast(CAST(c AS float) / CAST(Total2p AS float) * 100 as decimal(10, 2)) as '%', Total2p from
-(select player, Total2p, count(*) as c from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] = 2
-and Score=MaxScore
-group by p.Player, Total2p) t
-order by Total2p desc
-
-select * from players
-select * from stat
-
---easy
-select player, cast(CAST(c AS float) / CAST(Total2pEasy AS float) * 100 as decimal(10, 2)) as '%',
-c as 'Wins2pEasy', Total2pEasy from
-(select player, Total2pEasy, count(*) as c from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] = 2
-and Score=MaxScore
-and EH = 'easy'
-group by p.Player, Total2pEasy) t
-order by Total2pEasy desc
-
---hard
-select player, cast(CAST(c AS float) / CAST(Total2pHard AS float) * 100 as decimal(10, 2)) as '%',
-c as 'Wins2pHard', Total2pHard from
-(select player, Total2pHard, count(*) as c from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] = 2
-and Score >= MaxScore - 4
-and EH = 'hard'
-group by p.Player, Total2pHard) t
-order by Total2pHard desc
-
-select * from stat
-where players like '%Fireheart%'
-and [# of Players] = 2
-and Score >= MaxScore - 4
-and EH = 'hard'
-
---drop table perc2
-select player, c as Wins, Total3p as 'Total3p+',
-cast(CAST(c AS float) / CAST(Total3p AS float) * 100 as decimal(10, 2)) as Percentage
-into perc2
-from
-(select player, Total3p, count(*) as c from stat s, players p
-where s.Players like '%' + p.Player + '%'
-and [# of Players] > 2
-and Score=MaxScore
---and Total3p >= 50
-group by p.Player, Total3p) t
-order by 4 desc, 1
-
-alter table players
-add Percentage float
-
-select * from perc2
-select * from players
-
-update players set players.Percentage = p2.Percentage
-from players p1
-inner join perc2 p2
-on p1.Player = p2.Player
-
---select * from players p1
---inner join perc2 p2
---on p1.Player = p2.Player
-
 --groups of players
 --self join
 select a.player, b.player from players a, players b
 where a.Player != b.Player
 
-drop table groupBy2Total
-drop table groupBy2Wins
 
 select a.player as ap, b.player as bp, count(*) as Total 
 into groupBy2Total
@@ -158,7 +25,6 @@ and [# of Players] > 2
 and Score = MaxScore
 group by a.Player, b.Player
 
-drop table groupBy2
 
 select g1.ap, g1.bp, Wins, Total, cast(CAST(Wins AS float) / CAST(Total AS float) * 100 as decimal(10, 2)) as '%'
 into groupBy2
@@ -348,35 +214,11 @@ set EH6 = case
 	else 'easy'
 end
 
---number of easy and hard games
-
---update players set Total2pHard = 
---(select count(*) from stat where players like '%' + player + '%'
---and [# of Players] = 2
---and EH = 'hard')
-
---update players set Total2pEasy = 
---(select count(*) from stat where players like '%' + player + '%'
---and [# of Players] = 2
---and EH = 'easy')
-
---update players set Total3pHard = 
---(select count(*) from stat where players like '%' + player + '%'
---and [# of Players] > 2
---and EH = 'hard')
-
---update players set Total3pEasy = 
---(select count(*) from stat where players like '%' + player + '%'
---and [# of Players] > 2
---and EH = 'easy')
 
 select * from players where Total2p > 50
 
 select * from stat
 select distinct EH from stat
-
-alter table stat
-add EH nvarchar(4)
 
 update stat set EH = 
 case [# of Players]
@@ -579,7 +421,6 @@ select * from stat where [# of Players] = 2 and Players like '%asaelr%'
 select * from stat where [# of Players] = 2 and Players like '%Zamiel%'
 select * from stat where [# of Players] = 2 and Variant like '%Dark Rainbow%'
 
-select * from groupby2
 
 update groupby2 set CoefWins = s from
 groupBy2 g1 join
@@ -614,16 +455,6 @@ select * from stat where [# of Players] = 3 and Players like '%Fireheart%' and P
 and Variant like '%Pink & Dark Rainbow%'
 order by coef desc
 
-
-select * from var_type_full where Variant like '%Pink & Dark Rainbow%'
-
-select * from coef_temp
-select * from groupby2
-
-select * from [dbo].[variant_types]
-
---loses / wins
-drop table main_temp
 
 select a1.player as 'A', a2.player as 'B',
 c1.Coef3win as 'Coef win A', c1.Coef3lose as 'Coef lose A',
