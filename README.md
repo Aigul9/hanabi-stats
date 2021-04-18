@@ -25,7 +25,7 @@ symbol | description
 -|-
 W | number of wins
 L | number of losses
-W/L | win/lost ratio
+W/L | win/loss ratio
 % | percentage
 \# | count (speedruns included)
 2p | 2-player games
