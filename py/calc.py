@@ -97,7 +97,7 @@ def get_all_stats(username):
     return {
         'Totals': totals,
         'Easy': totals_easy,
-        'Easy null': totals_null,
+        'Null': totals_null,
         'Single dark': totals_sd,
         'Double dark': totals_dd
     }
