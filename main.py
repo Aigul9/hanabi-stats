@@ -1,4 +1,5 @@
 import csv
+import time
 import py.parsing as prs
 import py.players as pl
 import py.calc as c
@@ -9,10 +10,10 @@ def r(num):
     return str(num).replace('.', ',')
 
 
-with open(f'../input/list_of_users_test.txt', 'r') as f:
+start = time.time()
+with open('../input/list_of_users.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
-offset_y = 0
 results = {}
 for u in users:
     # parsing
@@ -27,7 +28,7 @@ for u in users:
 
 print('Data is generated.')
 
-with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.tsv', 'w', newline='') as f:
+with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.csv', 'w', newline='') as f:
     w = csv.writer(f, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     w.writerow(['Username', 'Type', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
                 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
@@ -56,3 +57,5 @@ with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.tsv', 'w', n
                 t['total_3p_c'][0],
                 t['total_3p_c'][1]]
             )
+
+print('Time spent (in min):', (time.time() - start) / 60)

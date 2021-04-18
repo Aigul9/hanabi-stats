@@ -1,5 +1,8 @@
+import errno
+
 import requests
 from bs4 import BeautifulSoup
+import os
 
 
 def get_number_of_suits(variant):
@@ -17,7 +20,11 @@ def get_number_of_suits(variant):
 
 def get_history_table(username):
     url = 'https://hanab.live/history/' + username
-    page = requests.get(url)
+    try:
+        page = requests.get(url)
+    except:
+        print('Check your internet connection.')
+        exit()
     if page.status_code != 200:
         print('Username is not valid.')
         exit()
@@ -36,8 +43,20 @@ def get_stats(history_table):
     return items
 
 
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+
 def save_stats(items, username):
-    with open(f'../temp/{username}_stat.txt', 'w', encoding='utf-8') as f:
+    path = f'../temp/{username}_stat.txt'
+    mkdir_p(os.path.dirname(path))
+    with open(path, 'w', encoding='utf-8') as f:
         for item in items:
             file_item = ''
             for i in item:
@@ -46,6 +65,8 @@ def save_stats(items, username):
 
 
 def save_list_of_players(items, username):
-    with open(f'../temp/{username}_players.txt', 'w', encoding='utf-8') as f:
+    path = f'../temp/{username}_players.txt'
+    mkdir_p(os.path.dirname(path))
+    with open(path, 'w', encoding='utf-8') as f:
         for item in items:
             f.write('{}\n'.format(item[5]))
