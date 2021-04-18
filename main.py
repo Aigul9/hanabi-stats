@@ -49,7 +49,7 @@ def save_to_tsv(filename, data):
 
 
 start = time.time()
-with open('../input/list_of_users.txt', 'r') as f:
+with open('../input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
