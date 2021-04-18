@@ -1,2 +1,4 @@
 .idea
 temp/
+py/__pycache__/
+sql_scripts
