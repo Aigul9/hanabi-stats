@@ -15,7 +15,7 @@ The program parses users' statistics from https://hanab.live/, calculates percen
 ## Usage
 1. Type list of players in ```input/list_of_users.txt```
 2. Run script ```main.py```
-3. See the results in the ```output/up_to_date_stats.tsv``` or ```output/all_stats_[timestamp].tsv```.
+3. See the results in the ```output/up_to_date_stats.tsv``` or ```output/all_stats_[timestamp].tsv```
 
 The table structure:
 
@@ -28,4 +28,4 @@ L | number of losses
 2p | 2-player games
 3p+ | 3-6 player games
 
-Last available stats for active users can be found here: [results](https://github.com/Aigul9/hanabi-stats/blob/master/output/all_stat_1618769586.041046.tsv) (18/04/2021).
+Last available stats for active users can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output/up_to_date_stats.tsv) (18/04/2021).
