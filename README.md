@@ -26,6 +26,6 @@ symbol | description
 W | number of wins
 L | number of losses
 % | percentage
-\# | count
+\# | count (speedruns included)
 2p | 2-player games
 3p+ | 3-6 player games
