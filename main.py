@@ -27,7 +27,7 @@ for u in users:
 
 print('Data is generated.')
 
-with open(f'../output/all_stat_{datetime.date(datetime.now())}.csv', 'w', newline='') as f:
+with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.csv', 'w', newline='') as f:
     w = csv.writer(f, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     w.writerow(['Username', 'Type', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
                 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
