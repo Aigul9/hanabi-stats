@@ -15,4 +15,5 @@ The program parses users' statistics from https://hanab.live/, calculates percen
 ## Usage
 1. Type list of players in ```input/list_of_users.txt```
 2. Run script ```main.py```
-3. See the results in the ```output/all_stats_[timestamp].tsv```. Last available stats can be found here: https://github.com/Aigul9/hanabi-stats/blob/master/output/all_stat_1618757246.914421.tsv (18/04/2021).
+3. See the results in the ```output/all_stats_[timestamp].tsv```.
+4. Last available stats for active users can be found here: https://github.com/Aigul9/hanabi-stats/blob/master/output/all_stat_1618763121.657898.tsv (18/04/2021).
