@@ -28,7 +28,7 @@ for u in users:
 
 print('Data is generated.')
 
-with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.csv', 'w', newline='') as f:
+with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.tsv', 'w', newline='') as f:
     w = csv.writer(f, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     w.writerow(['Username', 'Type', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
                 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
@@ -58,4 +58,4 @@ with open(f'../output/all_stat_{datetime.timestamp(datetime.now())}.csv', 'w', n
                 t['total_3p_c'][1]]
             )
 
-print('Time spent (in min):', (time.time() - start) / 60)
+print('Time spent (in min):', round((time.time() - start) / 60, 2))

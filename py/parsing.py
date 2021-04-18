@@ -54,7 +54,7 @@ def mkdir_p(path):
 
 
 def save_stats(items, username):
-    path = f'../temp/{username}_stat.txt'
+    path = f'../temp/{username}_stats.txt'
     mkdir_p(os.path.dirname(path))
     with open(path, 'w', encoding='utf-8') as f:
         for item in items:
