@@ -28,4 +28,4 @@ L | number of losses
 2p | 2-player games
 3p+ | 3-6 player games
 
-Last available stats for active users can be found here: [results](https://bit.ly/3mYJAbf) (18/04/2021).
+Last available stats for active users can be found here: [results](https://github.com/Aigul9/hanabi-stats/blob/master/output/all_stat_1618769586.041046.tsv) (18/04/2021).
