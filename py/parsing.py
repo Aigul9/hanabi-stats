@@ -26,7 +26,7 @@ def get_history_table(username):
         print('Check your internet connection.')
         exit()
     if page.status_code != 200:
-        print('Username is not valid.')
+        print('Username is not valid:', username)
         exit()
     soup = BeautifulSoup(page.content, 'html.parser')
     return soup.find(id='history-table')

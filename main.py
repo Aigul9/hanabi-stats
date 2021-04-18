@@ -11,7 +11,7 @@ def r(num):
 
 
 start = time.time()
-with open('../input/list_of_users.txt', 'r') as f:
+with open('../input/all_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
@@ -23,7 +23,7 @@ for u in users:
     prs.save_list_of_players(items, u)
     # set of players
     pl.save_players_list(pl.create_players_set(u), u)
-    totals, totals_easy, totals_sd, totals_null, totals_dd = c.get_all_stats(u)
+    totals, totals_easy, totals_null, totals_sd, totals_dd = c.get_all_stats(u)
     results[u] = c.get_all_stats(u)
 
 print('Data is generated.')
