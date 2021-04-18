@@ -13,9 +13,12 @@ def r(num):
 def save_to_tsv(filename, data):
     with open(f'../output/{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'Type', 'W(%)', 'L(%)', 'W/L(%)', 'W(#)', 'L(#)',
-                    'W(%, 2p)', 'L(%, 2p)', 'W/L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
-                    'W(%, 3p+)', 'L(%, 3p+)', 'W/L(%, 3p)', 'W(#, 3p+)', 'L(#, 3p+)'])
+        w.writerow([
+            'Username', 'Type',
+            'W/L(%)', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
+            'W/L(%, 2p)', 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
+            'W/L(%, 3p)','W(%, 3p+)', 'L(%, 3p+)', 'W(#, 3p+)', 'L(#, 3p+)']
+        )
         for k, v in data.items():
             for k1, t in v.items():
                 w.writerow([
