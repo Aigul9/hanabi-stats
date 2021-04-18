@@ -15,9 +15,11 @@ The program parses users' statistics from https://hanab.live/, calculates percen
 ## Usage
 1. Type list of players in ```input/list_of_users.txt```
 2. Run script ```main.py```
-3. See the results in the ```output/all_stats_[timestamp].tsv```. The structure of the table:
+3. See the results in the ```output/all_stats_[timestamp].tsv```.
 
-column | description
+The table structure:
+
+symbol | description
 -|-
 W | number of wins
 L | number of losses
