@@ -11,11 +11,11 @@ class UserStat:
         self.max_score = max_score
 
 
-def get_percent(value_wins, value_losses, total_value):
-    if total_value != 0:
-        return round(value_wins * 100 / total_value, 2), round(value_losses * 100 / total_value, 2)
+def p(value, total):
+    if total != 0:
+        return round(value * 100 / total, 2)
     else:
-        return 0, 0
+        return 0
 
 
 def get_wins(totals_list):
@@ -34,7 +34,7 @@ def get_totals(stat_list):
     total_losses = get_losses(stat_list)
     results['total_c'] = [total_wins, total_losses, total]
     # total - %
-    results['total_p'] = get_percent(total_wins, total_losses, total)
+    results['total_p'] = [p(total_wins, total), p(total_losses, total), p(total_wins, total_losses)]
     # 2p - count
     list_2p = get_list_2p(stat_list)
     total = len(list_2p)
@@ -42,7 +42,7 @@ def get_totals(stat_list):
     total_losses = get_losses(list_2p)
     results['total_2p_c'] = [total_wins, total_losses, total]
     # 2p - %
-    results['total_2p_p'] = get_percent(total_wins, total_losses, total)
+    results['total_2p_p'] = [p(total_wins, total), p(total_losses, total), p(total_wins, total_losses)]
     # 3p - count
     list_3p = get_list_3p(stat_list)
     total = len(list_3p)
@@ -50,7 +50,7 @@ def get_totals(stat_list):
     total_losses = get_losses(list_3p)
     results['total_3p_c'] = [total_wins, total_losses, total]
     # 3p - %
-    results['total_3p_p'] = get_percent(total_wins, total_losses, total)
+    results['total_3p_p'] = [p(total_wins, total), p(total_losses, total), p(total_wins, total_losses)]
     return results
 
 
