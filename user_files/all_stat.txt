@@ -1,0 +1,384 @@
+ADrone
+Totals:
+Totals:	22.98	441	77.02	1478	2p totals:	21.85	182	78.15	651	3p totals:	23.85	259	76.15	827
+Easy:
+Totals:	26.77	348	73.23	952	2p totals:	25.41	138	74.59	405	3p totals:	27.74	210	72.26	547
+Single dark:
+Totals:	12.64	57	87.36	394	2p totals:	13.79	24	86.21	150	3p totals:	11.91	33	88.09	244
+Easy null:
+Totals:	22.78	36	77.22	122	2p totals:	17.54	20	82.46	94	3p totals:	36.36	16	63.64	28
+Double dark:
+Totals:	0.0	0	100.0	10	2p totals:	0.0	0	100.0	2	3p totals:	0.0	0	100.0	8
+
+asaelr
+Totals:
+Totals:	21.49	1241	78.51	4535	2p totals:	22.3	283	77.7	986	3p totals:	21.26	958	78.74	3549
+Easy:
+Totals:	26.42	994	73.58	2768	2p totals:	26.18	222	73.82	626	3p totals:	26.49	772	73.51	2142
+Single dark:
+Totals:	11.98	215	88.02	1579	2p totals:	14.78	55	85.22	317	3p totals:	11.25	160	88.75	1262
+Easy null:
+Totals:	21.74	30	78.26	108	2p totals:	20.0	5	80.0	20	3p totals:	22.12	25	77.88	88
+Double dark:
+Totals:	2.44	2	97.56	80	2p totals:	4.17	1	95.83	23	3p totals:	1.72	1	98.28	57
+
+DMoney
+Totals:
+Totals:	13.87	359	86.13	2230	2p totals:	16.75	64	83.25	318	3p totals:	13.37	295	86.63	1912
+Easy:
+Totals:	18.66	272	81.34	1186	2p totals:	22.45	55	77.55	190	3p totals:	17.89	217	82.11	996
+Single dark:
+Totals:	7.88	79	92.12	923	2p totals:	8.33	9	91.67	99	3p totals:	7.83	70	92.17	824
+Easy null:
+Totals:	8.82	6	91.18	62	2p totals:	0.0	0	100.0	24	3p totals:	13.64	6	86.36	38
+Double dark:
+Totals:	3.28	2	96.72	59	2p totals:	0.0	0	100.0	5	3p totals:	3.57	2	96.43	54
+
+Dr_Kakashi
+Totals:
+Totals:	13.62	1320	86.38	8369	2p totals:	10.85	473	89.15	3887	3p totals:	15.89	847	84.11	4482
+Easy:
+Totals:	18.85	1017	81.15	4378	2p totals:	17.86	352	82.14	1619	3p totals:	19.42	665	80.58	2759
+Single dark:
+Totals:	9.33	202	90.67	1963	2p totals:	7.08	50	92.92	656	3p totals:	10.42	152	89.58	1307
+Easy null:
+Totals:	10.59	50	89.41	422	2p totals:	9.54	27	90.46	256	3p totals:	12.17	23	87.83	166
+Double dark:
+Totals:	3.08	51	96.92	1606	2p totals:	3.14	44	96.86	1356	3p totals:	2.72	7	97.28	250
+
+Fireheart
+Totals:
+Totals:	15.6	1426	84.4	7714	2p totals:	14.12	724	85.88	4404	3p totals:	17.5	702	82.5	3310
+Easy:
+Totals:	22.71	974	77.29	3315	2p totals:	22.54	447	77.46	1536	3p totals:	22.85	527	77.15	1779
+Single dark:
+Totals:	10.6	338	89.4	2850	2p totals:	10.74	199	89.26	1654	3p totals:	10.41	139	89.59	1196
+Easy null:
+Totals:	15.09	88	84.91	495	2p totals:	17.75	52	82.25	241	3p totals:	12.41	36	87.59	254
+Double dark:
+Totals:	2.41	26	97.59	1054	2p totals:	2.6	26	97.4	973	3p totals:	0.0	0	100.0	81
+
+Floriman
+Totals:
+Totals:	20.18	784	79.82	3101	2p totals:	21.05	60	78.95	225	3p totals:	20.11	724	79.89	2876
+Easy:
+Totals:	25.5	620	74.5	1811	2p totals:	28.57	48	71.43	120	3p totals:	25.28	572	74.72	1691
+Single dark:
+Totals:	10.89	133	89.11	1088	2p totals:	12.35	10	87.65	71	3p totals:	10.79	123	89.21	1017
+Easy null:
+Totals:	20.31	26	79.69	102	2p totals:	5.88	2	94.12	32	3p totals:	25.53	24	74.47	70
+Double dark:
+Totals:	4.76	5	95.24	100	2p totals:	0.0	0	100.0	2	3p totals:	4.85	5	95.15	98
+
+florrat2
+Totals:
+Totals:	5.45	1116	94.55	19377	2p totals:	5.09	379	94.91	7073	3p totals:	5.65	737	94.35	12304
+Easy:
+Totals:	7.67	948	92.33	11415	2p totals:	6.45	334	93.55	4846	3p totals:	8.55	614	91.45	6569
+Single dark:
+Totals:	2.05	161	97.95	7681	2p totals:	1.95	44	98.05	2216	3p totals:	2.1	117	97.9	5465
+Easy null:
+Totals:	9.09	3	90.91	30	2p totals:	0.0	0	100.0	1	3p totals:	9.38	3	90.62	29
+Double dark:
+Totals:	1.57	4	98.43	251	2p totals:	9.09	1	90.91	10	3p totals:	1.23	3	98.77	241
+
+IAMJEFF
+Totals:
+Totals:	14.32	1063	85.68	6358	2p totals:	12.81	531	87.19	3614	3p totals:	16.24	532	83.76	2744
+Easy:
+Totals:	20.3	739	79.7	2901	2p totals:	20.91	349	79.09	1320	3p totals:	19.79	390	80.21	1581
+Single dark:
+Totals:	9.35	218	90.65	2113	2p totals:	8.15	110	91.85	1240	3p totals:	11.01	108	88.99	873
+Easy null:
+Totals:	15.18	85	84.82	475	2p totals:	16.67	51	83.33	255	3p totals:	13.39	34	86.61	220
+Double dark:
+Totals:	2.36	21	97.64	869	2p totals:	2.56	21	97.44	799	3p totals:	0.0	0	100.0	70
+
+Jake_Stiles
+Totals:
+Totals:	15.62	639	84.38	3452	2p totals:	14.7	372	85.3	2159	3p totals:	17.12	267	82.88	1293
+Easy:
+Totals:	20.61	547	79.39	2107	2p totals:	19.84	319	80.16	1289	3p totals:	21.8	228	78.2	818
+Single dark:
+Totals:	6.45	85	93.55	1233	2p totals:	5.7	49	94.3	811	3p totals:	7.86	36	92.14	422
+Easy null:
+Totals:	7.14	7	92.86	91	2p totals:	7.41	4	92.59	50	3p totals:	6.82	3	93.18	41
+Double dark:
+Totals:	0.0	0	100.0	21	2p totals:	0.0	0	100.0	9	3p totals:	0.0	0	100.0	12
+
+kimbifille
+Totals:
+Totals:	14.85	965	85.15	5534	2p totals:	11.74	385	88.26	2895	3p totals:	18.02	580	81.98	2639
+Easy:
+Totals:	24.13	688	75.87	2163	2p totals:	23.24	268	76.76	885	3p totals:	24.73	420	75.27	1278
+Single dark:
+Totals:	9.91	172	90.09	1563	2p totals:	8.49	62	91.51	668	3p totals:	10.95	110	89.05	895
+Easy null:
+Totals:	17.88	49	82.12	225	2p totals:	9.84	12	90.16	110	3p totals:	24.34	37	75.66	115
+Double dark:
+Totals:	3.42	56	96.58	1583	2p totals:	3.37	43	96.63	1232	3p totals:	3.57	13	96.43	351
+
+Kyle
+Totals:
+Totals:	16.89	1175	83.11	5780	2p totals:	16.54	212	83.46	1070	3p totals:	16.98	963	83.02	4710
+Easy:
+Totals:	22.05	955	77.95	3376	2p totals:	23.92	166	76.08	528	3p totals:	21.69	789	78.31	2848
+Single dark:
+Totals:	8.11	180	91.89	2040	2p totals:	7.39	32	92.61	401	3p totals:	8.28	148	91.72	1639
+Easy null:
+Totals:	12.62	40	87.38	277	2p totals:	10.37	14	89.63	121	3p totals:	14.29	26	85.71	156
+Double dark:
+Totals:	0.0	0	100.0	87	2p totals:	0.0	0	100.0	20	3p totals:	0.0	0	100.0	67
+
+Lanvin
+Totals:
+Totals:	15.1	717	84.9	4030	2p totals:	19.01	154	80.99	656	3p totals:	14.3	563	85.7	3374
+Easy:
+Totals:	19.26	563	80.74	2360	2p totals:	27.32	115	72.68	306	3p totals:	17.91	448	82.09	2054
+Single dark:
+Totals:	8.1	136	91.9	1542	2p totals:	9.21	34	90.79	335	3p totals:	7.79	102	92.21	1207
+Easy null:
+Totals:	13.79	16	86.21	100	2p totals:	26.67	4	73.33	11	3p totals:	11.88	12	88.12	89
+Double dark:
+Totals:	6.67	2	93.33	28	2p totals:	20.0	1	80.0	4	3p totals:	4.0	1	96.0	24
+
+Lel0uch
+Totals:
+Totals:	15.68	963	84.32	5177	2p totals:	12.31	292	87.69	2080	3p totals:	17.81	671	82.19	3097
+Easy:
+Totals:	23.1	646	76.9	2151	2p totals:	22.85	149	77.15	503	3p totals:	23.17	497	76.83	1648
+Single dark:
+Totals:	9.62	287	90.38	2695	2p totals:	8.9	133	91.1	1361	3p totals:	10.35	154	89.65	1334
+Easy null:
+Totals:	21.74	20	78.26	72	2p totals:	12.5	1	87.5	7	3p totals:	22.62	19	77.38	65
+Double dark:
+Totals:	3.72	10	96.28	259	2p totals:	4.13	9	95.87	209	3p totals:	1.96	1	98.04	50
+
+Libster
+Totals:
+Totals:	6.02	1297	93.98	20265	2p totals:	4.53	341	95.47	7186	3p totals:	6.81	956	93.19	13079
+Easy:
+Totals:	8.23	1090	91.77	12151	2p totals:	5.47	285	94.53	4925	3p totals:	10.02	805	89.98	7226
+Single dark:
+Totals:	2.42	192	97.58	7733	2p totals:	2.39	54	97.61	2210	3p totals:	2.44	138	97.56	5523
+Easy null:
+Totals:	22.45	11	77.55	38	2p totals:	12.5	1	87.5	7	3p totals:	24.39	10	75.61	31
+Double dark:
+Totals:	1.15	4	98.85	343	2p totals:	2.22	1	97.78	44	3p totals:	0.99	3	99.01	299
+
+Livia
+Totals:
+Totals:	16.62	572	83.38	2869	2p totals:	15.54	250	84.46	1359	3p totals:	17.58	322	82.42	1510
+Easy:
+Totals:	22.09	437	77.91	1541	2p totals:	20.97	182	79.03	686	3p totals:	22.97	255	77.03	855
+Single dark:
+Totals:	9.72	110	90.28	1022	2p totals:	9.64	54	90.36	506	3p totals:	9.79	56	90.21	516
+Easy null:
+Totals:	9.56	24	90.44	227	2p totals:	9.77	13	90.23	120	3p totals:	9.32	11	90.68	107
+Double dark:
+Totals:	1.25	1	98.75	79	2p totals:	2.08	1	97.92	47	3p totals:	0.0	0	100.0	32
+
+melwen
+Totals:
+Totals:	16.75	1144	83.25	5686	2p totals:	16.08	114	83.92	595	3p totals:	16.83	1030	83.17	5091
+Easy:
+Totals:	20.69	866	79.31	3320	2p totals:	17.94	103	82.06	471	3p totals:	21.12	763	78.88	2849
+Single dark:
+Totals:	9.99	239	90.01	2154	2p totals:	8.4	11	91.6	120	3p totals:	10.08	228	89.92	2034
+Easy null:
+Totals:	22.44	35	77.56	121	2p totals:	0.0	0	100.0	4	3p totals:	23.03	35	76.97	117
+Double dark:
+Totals:	4.21	4	95.79	91	2p totals:	0	0	0	0	3p totals:	4.21	4	95.79	91
+
+micerang
+Totals:
+Totals:	23.37	999	76.63	3276	2p totals:	29.42	143	70.58	343	3p totals:	22.59	856	77.41	2933
+Easy:
+Totals:	28.26	848	71.74	2153	2p totals:	35.89	117	64.11	209	3p totals:	27.33	731	72.67	1944
+Single dark:
+Totals:	12.17	132	87.83	953	2p totals:	16.67	19	83.33	95	3p totals:	11.64	113	88.36	858
+Easy null:
+Totals:	13.57	19	86.43	121	2p totals:	17.07	7	82.93	34	3p totals:	12.12	12	87.88	87
+Double dark:
+Totals:	0.0	0	100.0	49	2p totals:	0.0	0	100.0	5	3p totals:	0.0	0	100.0	44
+
+Nitrate2
+Totals:
+Totals:	21.1	426	78.9	1593	2p totals:	28.44	62	71.56	156	3p totals:	20.21	364	79.79	1437
+Easy:
+Totals:	25.11	351	74.89	1047	2p totals:	33.9	40	66.1	78	3p totals:	24.3	311	75.7	969
+Single dark:
+Totals:	11.15	63	88.85	502	2p totals:	21.18	18	78.82	67	3p totals:	9.38	45	90.62	435
+Easy null:
+Totals:	24.0	12	76.0	38	2p totals:	26.67	4	73.33	11	3p totals:	22.86	8	77.14	27
+Double dark:
+Totals:	0.0	0	100.0	6	2p totals:	0	0	0	0	3p totals:	0.0	0	100.0	6
+
+NoMercy
+Totals:
+Totals:	10.17	385	89.83	3400	2p totals:	5.85	12	94.15	193	3p totals:	10.42	373	89.58	3207
+Easy:
+Totals:	14.4	337	85.6	2003	2p totals:	9.43	10	90.57	96	3p totals:	14.64	327	85.36	1907
+Single dark:
+Totals:	3.25	40	96.75	1189	2p totals:	1.85	1	98.15	53	3p totals:	3.32	39	96.68	1136
+Easy null:
+Totals:	14.29	4	85.71	24	2p totals:	0.0	0	100.0	1	3p totals:	14.81	4	85.19	23
+Double dark:
+Totals:	2.13	4	97.87	184	2p totals:	2.27	1	97.73	43	3p totals:	2.08	3	97.92	141
+
+pianoblook
+Totals:
+Totals:	19.57	791	80.43	3250	2p totals:	22.43	194	77.57	671	3p totals:	18.8	597	81.2	2579
+Easy:
+Totals:	24.22	584	75.78	1827	2p totals:	26.39	147	73.61	410	3p totals:	23.57	437	76.43	1417
+Single dark:
+Totals:	11.92	138	88.08	1020	2p totals:	15.12	26	84.88	146	3p totals:	11.36	112	88.64	874
+Easy null:
+Totals:	22.48	58	77.52	200	2p totals:	17.65	21	82.35	98	3p totals:	26.62	37	73.38	102
+Double dark:
+Totals:	5.14	11	94.86	203	2p totals:	0.0	0	100.0	17	3p totals:	5.58	11	94.42	186
+
+piper
+Totals:
+Totals:	24.62	615	75.38	1883	2p totals:	26.18	200	73.82	564	3p totals:	23.93	415	76.07	1319
+Easy:
+Totals:	29.7	455	70.3	1077	2p totals:	30.86	158	69.14	354	3p totals:	29.12	297	70.88	723
+Single dark:
+Totals:	15.95	100	84.05	527	2p totals:	15.65	23	84.35	124	3p totals:	16.04	77	83.96	403
+Easy null:
+Totals:	29.14	51	70.86	124	2p totals:	20.65	19	79.35	73	3p totals:	38.55	32	61.45	51
+Double dark:
+Totals:	5.49	9	94.51	155	2p totals:	0.0	0	100.0	13	3p totals:	5.96	9	94.04	142
+
+RaKXeR
+Totals:
+Totals:	7.54	541	92.46	6633	2p totals:	5.61	80	94.39	1346	3p totals:	8.02	461	91.98	5287
+Easy:
+Totals:	9.68	482	90.32	4495	2p totals:	5.55	74	94.45	1260	3p totals:	11.2	408	88.8	3235
+Single dark:
+Totals:	2.7	57	97.3	2054	2p totals:	5.62	5	94.38	84	3p totals:	2.57	52	97.43	1970
+Easy null:
+Totals:	22.22	2	77.78	7	2p totals:	33.33	1	66.67	2	3p totals:	16.67	1	83.33	5
+Double dark:
+Totals:	0.0	0	100.0	77	2p totals:	0	0	0	0	3p totals:	0.0	0	100.0	77
+
+Razvogor
+Totals:
+Totals:	7.04	195	92.96	2574	2p totals:	1.94	9	98.06	456	3p totals:	8.07	186	91.93	2118
+Easy:
+Totals:	10.32	171	89.68	1486	2p totals:	2.0	9	98.0	441	3p totals:	13.42	162	86.58	1045
+Single dark:
+Totals:	2.02	22	97.98	1069	2p totals:	0.0	0	100.0	10	3p totals:	2.04	22	97.96	1059
+Easy null:
+Totals:	12.5	2	87.5	14	2p totals:	0	0	0	0	3p totals:	12.5	2	87.5	14
+Double dark:
+Totals:	0.0	0	100.0	5	2p totals:	0.0	0	100.0	5	3p totals:	0	0	0	0
+
+scharkbite
+Totals:
+Totals:	17.85	1296	82.15	5963	2p totals:	18.78	166	81.22	718	3p totals:	17.73	1130	82.27	5245
+Easy:
+Totals:	22.53	1035	77.47	3558	2p totals:	23.77	130	76.23	417	3p totals:	22.37	905	77.63	3141
+Single dark:
+Totals:	10.56	227	89.44	1922	2p totals:	12.65	32	87.35	221	3p totals:	10.28	195	89.72	1701
+Easy null:
+Totals:	12.67	28	87.33	193	2p totals:	7.32	3	92.68	38	3p totals:	13.89	25	86.11	155
+Double dark:
+Totals:	2.03	6	97.97	290	2p totals:	2.33	1	97.67	42	3p totals:	1.98	5	98.02	248
+
+sephiroth
+Totals:
+Totals:	16.14	647	83.86	3362	2p totals:	16.83	34	83.17	168	3p totals:	16.1	613	83.9	3194
+Easy:
+Totals:	19.69	516	80.31	2105	2p totals:	17.01	25	82.99	122	3p totals:	19.85	491	80.15	1983
+Single dark:
+Totals:	9.58	122	90.42	1152	2p totals:	17.02	8	82.98	39	3p totals:	9.29	114	90.71	1113
+Easy null:
+Totals:	12.86	9	87.14	61	2p totals:	33.33	1	66.67	2	3p totals:	11.94	8	88.06	59
+Double dark:
+Totals:	0.0	0	100.0	44	2p totals:	0.0	0	100.0	5	3p totals:	0.0	0	100.0	39
+
+sin_faith
+Totals:
+Totals:	14.68	396	85.32	2302	2p totals:	15.32	34	84.68	188	3p totals:	14.62	362	85.38	2114
+Easy:
+Totals:	17.78	349	82.22	1614	2p totals:	18.52	30	81.48	132	3p totals:	17.71	319	82.29	1482
+Single dark:
+Totals:	6.1	34	93.9	523	2p totals:	7.41	2	92.59	25	3p totals:	6.04	32	93.96	498
+Easy null:
+Totals:	11.4	13	88.6	101	2p totals:	7.69	2	92.31	24	3p totals:	12.5	11	87.5	77
+Double dark:
+Totals:	0.0	0	100.0	64	2p totals:	0.0	0	100.0	7	3p totals:	0.0	0	100.0	57
+
+sjdrodge
+Totals:
+Totals:	25.14	1129	74.86	3362	2p totals:	23.84	67	76.16	214	3p totals:	25.23	1062	74.77	3148
+Easy:
+Totals:	28.4	1066	71.6	2688	2p totals:	30.54	62	69.46	141	3p totals:	28.27	1004	71.73	2547
+Single dark:
+Totals:	6.84	40	93.16	545	2p totals:	9.62	5	90.38	47	3p totals:	6.57	35	93.43	498
+Easy null:
+Totals:	23.71	23	76.29	74	2p totals:	0.0	0	100.0	10	3p totals:	26.44	23	73.56	64
+Double dark:
+Totals:	0.0	0	100.0	55	2p totals:	0.0	0	100.0	16	3p totals:	0.0	0	100.0	39
+
+Sucubis
+Totals:
+Totals:	18.83	389	81.17	1677	2p totals:	25.24	26	74.76	77	3p totals:	18.49	363	81.51	1600
+Easy:
+Totals:	24.16	317	75.84	995	2p totals:	29.49	23	70.51	55	3p totals:	23.82	294	76.18	940
+Single dark:
+Totals:	9.04	64	90.96	644	2p totals:	12.5	3	87.5	21	3p totals:	8.92	61	91.08	623
+Easy null:
+Totals:	29.17	7	70.83	17	2p totals:	0.0	0	100.0	1	3p totals:	30.43	7	69.57	16
+Double dark:
+Totals:	4.55	1	95.45	21	2p totals:	0	0	0	0	3p totals:	4.55	1	95.45	21
+
+swineherd
+Totals:
+Totals:	16.87	281	83.13	1385	2p totals:	20.0	2	80.0	8	3p totals:	16.85	279	83.15	1377
+Easy:
+Totals:	21.02	230	78.98	864	2p totals:	50.0	1	50.0	1	3p totals:	20.97	229	79.03	863
+Single dark:
+Totals:	8.05	42	91.95	480	2p totals:	12.5	1	87.5	7	3p totals:	7.98	41	92.02	473
+Easy null:
+Totals:	18.37	9	81.63	40	2p totals:	0	0	0	0	3p totals:	18.37	9	81.63	40
+Double dark:
+Totals:	0.0	0	100.0	1	2p totals:	0	0	0	0	3p totals:	0.0	0	100.0	1
+
+TimeHoodie
+Totals:
+Totals:	18.46	743	81.54	3281	2p totals:	20.55	45	79.45	174	3p totals:	18.34	698	81.66	3107
+Easy:
+Totals:	23.71	590	76.29	1898	2p totals:	23.91	33	76.09	105	3p totals:	23.7	557	76.3	1793
+Single dark:
+Totals:	9.77	135	90.23	1247	2p totals:	16.0	12	84.0	63	3p totals:	9.41	123	90.59	1184
+Easy null:
+Totals:	19.57	18	80.43	74	2p totals:	0	0	0	0	3p totals:	19.57	18	80.43	74
+Double dark:
+Totals:	0.0	0	100.0	62	2p totals:	0.0	0	100.0	6	3p totals:	0.0	0	100.0	56
+
+Valetta6789
+Totals:
+Totals:	18.24	1183	81.76	5304	2p totals:	18.0	646	82.0	2943	3p totals:	18.53	537	81.47	2361
+Easy:
+Totals:	24.34	841	75.66	2614	2p totals:	27.4	442	72.6	1171	3p totals:	21.66	399	78.34	1443
+Single dark:
+Totals:	11.82	296	88.18	2209	2p totals:	11.17	182	88.83	1448	3p totals:	13.03	114	86.97	761
+Easy null:
+Totals:	19.78	36	80.22	146	2p totals:	20.63	13	79.37	50	3p totals:	19.33	23	80.67	96
+Double dark:
+Totals:	2.9	10	97.1	335	2p totals:	3.18	9	96.82	274	3p totals:	1.61	1	98.39	61
+
+Zamiel
+Totals:
+Totals:	10.5	1381	89.5	11768	2p totals:	7.65	202	92.35	2440	3p totals:	11.22	1179	88.78	9328
+Easy:
+Totals:	14.74	1173	85.26	6787	2p totals:	10.98	157	89.02	1273	3p totals:	15.56	1016	84.44	5514
+Single dark:
+Totals:	4.06	166	95.94	3926	2p totals:	3.86	33	96.14	821	3p totals:	4.11	133	95.89	3105
+Easy null:
+Totals:	8.33	36	91.67	396	2p totals:	5.46	10	94.54	173	3p totals:	10.44	26	89.56	223
+Double dark:
+Totals:	0.9	6	99.1	659	2p totals:	1.14	2	98.86	173	3p totals:	0.82	4	99.18	486
+

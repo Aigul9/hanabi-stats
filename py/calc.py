@@ -19,7 +19,7 @@ def get_percent(value_wins, value_losses, total_value):
     if total_value != 0:
         return round(value_wins * 100 / total_value, 2), round(value_losses * 100 / total_value, 2)
     else:
-        return 0
+        return 0, 0
 
 
 def get_wins(totals_list):
@@ -138,4 +138,10 @@ def get_all_stats(username):
     totals_sd = get_totals(list_sd)
     totals_null = get_totals(list_null)
     totals_dd = get_totals(list_dd)
-    return totals, totals_easy, totals_sd, totals_null, totals_dd
+    return {
+        'Totals': totals,
+        'Easy': totals_easy,
+        'Single dark': totals_sd,
+        'Easy null': totals_null,
+        'Double dark': totals_dd
+    }
