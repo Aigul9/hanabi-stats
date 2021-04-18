@@ -1,7 +1,3 @@
-import pandas as pd
-import xlsxwriter
-
-
 class UserStat:
     def __init__(self, game_id, count, score, variant, date, players, other_scores, suits, max_score):
         self.game_id = game_id
@@ -66,45 +62,13 @@ def get_list_3p(stat_list):
     return [row for row in stat_list if int(row.count) != 2]
 
 
-def save_to_file(data, caption, username, writer, offset_x, offset_y):
-    df1 = pd.DataFrame({'Count': ['wins', 'losses', 'total'], '2p': data['total_2p_c'], '3p+': data['total_3p_c'],
-                        'Total': data['total_c']})
-    df2 = pd.DataFrame(
-        {'%': ['wins', 'losses'], '2p': data['total_2p_p'], '3p+': data['total_3p_p'], 'Total': data['total_p']})
-    df1.to_excel(writer, sheet_name='stats', index=False, startrow=offset_x, startcol=offset_y)
-    df2.to_excel(writer, sheet_name='stats', index=False, startrow=offset_x + 5, startcol=offset_y)
-    workbook = writer.book
-    worksheet = writer.sheets['stats']
-    # border_fmt = workbook.add_format({'border': 1})
-    if caption == 'Totals':
-        worksheet.write(f'A{offset_x - 1}', username)
-    worksheet.write(f'A{offset_x}', caption)
-    # worksheet.conditional_format(xlsxwriter.utility.xl_range(
-    #     offset_x,
-    #     offset_y,
-    #     offset_x + len(df1),
-    #     offset_y + len(df1.columns) - 1),
-    #     {'type': 'no_errors', 'format': border_fmt}
-    # )
-    # worksheet.write(f'A{offset_x}', caption)
-    # offset_x += 5
-    # worksheet.conditional_format(xlsxwriter.utility.xl_range(
-    #     offset_x,
-    #     offset_y,
-    #     offset_x + len(df2),
-    #     offset_y + len(df2.columns) - 1),
-    #     {'type': 'no_errors', 'format': border_fmt}
-    # )
-    return offset_x + 5
-
-
 def open_stats(username):
     with open(f'../temp/{username}_stat.txt', 'r') as f:
         return [UserStat(*line.rstrip().split('\t')) for line in f.readlines()]
 
 
 def get_variant_types():
-    with open(f'../other_files/variant_types.txt', 'r') as f:
+    with open(f'../resources/variant_types.txt', 'r') as f:
         variants = {}
         for line in f.readlines():
             line = line.rstrip().split('\t')
@@ -121,14 +85,6 @@ def group_stats_by_eff(username):
     list_null = [row for row in stats if variants[row.variant] == 'null']
     list_dd = [row for row in stats if variants[row.variant] == 'dd']
     return stats, list_easy, list_sd, list_null, list_dd
-
-
-def get_writer(filename):
-    try:
-        return pd.ExcelWriter(f'../user_files/{filename}_stats.xlsx', engine='xlsxwriter')
-    except PermissionError:
-        print("Access denied. Please, close the file.")
-        exit()
 
 
 def get_all_stats(username):

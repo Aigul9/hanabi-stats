@@ -9,17 +9,15 @@ def __iter__(self):
     return iter((self.variant, self.var_doctype, self.var_type))
 
 
-with open('../other_files/1oE_variants.txt', 'r') as f:
+with open('../resources/1oE_variants.txt', 'r') as f:
     unique_var = []
     for line in f.readlines():
         unique_var.append(line.strip())
 
-with open('../other_files/variants.txt', 'r') as f:
-    # all_var = {}
+with open('../resources/variants.txt', 'r') as f:
     all_var = []
     for line in f.readlines():
         line = line.strip()
-        # all_var[line[:line.rfind('(') - 1]] = []
         all_var.append(Variant(line[:line.rfind('(') - 1]))
 
 cases = {
@@ -54,11 +52,7 @@ for row in all_var:
     row.var_type = row.var_type if row.var_doctype else 'easy'
     row.var_doctype = v[-8:-1] + ' ' + row.var_doctype if row.var_doctype else v[-8:-1]
 
-with open('../other_files/variant_types.txt', 'w') as f:
+with open('../resources/variant_types.txt', 'w') as f:
     for row in all_var:
         v, d, t = __iter__(row)
         f.write('{}\t{}\t{}\n'.format(v, d, t))
-
-# for k, v in all_var.items():
-#     if v == '':
-#         print(k)
