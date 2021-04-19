@@ -2,7 +2,7 @@
 
 The program parses users' statistics from https://hanab.live/, calculates percentage of winnings and losings for each type of variants (easy, single dark, double dark, easy null variants which are neither single nor double dark) and saves it to the file in tsv format.
 
-Last available stats for active users can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output/up_to_date_stats.tsv) (18/04/2021).
+Last available stats for active users can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output/up_to_date_stats.tsv) (19/04/2021).
 
 ## Stack of technologies
 - [Python 3.9](https://www.python.org/)

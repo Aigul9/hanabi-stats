@@ -54,13 +54,13 @@ with open('../input/list_of_players.txt', 'r') as f:
 
 results = {}
 for u in users:
-    # parsing
-    history_table = prs.get_history_table(u)
-    items = prs.get_stats(history_table)
-    prs.save_stats(items, u)
-    prs.save_list_of_players(items, u)
-    # set of players
-    pl.save_players_list(pl.create_players_set(u), u)
+    # # parsing
+    # history_table = prs.get_history_table(u)
+    # items = prs.get_stats(history_table)
+    # prs.save_stats(items, u)
+    # prs.save_list_of_players(items, u)
+    # # set of players
+    # pl.save_players_list(pl.create_players_set(u), u)
     results[u] = c.get_all_stats(u)
 
 print('Data is generated.')
