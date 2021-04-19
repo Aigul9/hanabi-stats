@@ -52,7 +52,7 @@ def save_to_tsv(filename, data):
 def save_wr(filename, data):
     with open(f'../output/highest_wr_{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'WR', 'Total games'])
+        w.writerow(['Username', 'W(%)', 'Total games'])
         for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
             w.writerow([
                 k,
@@ -77,22 +77,22 @@ for u in users:
     # prs.save_list_of_players(items, u)
     # # set of players
     # pl.save_players_list(pl.create_players_set(u), u)
-    # results[u] = c.get_all_stats(u, 'all')
-    # results_var[u] = c.get_all_stats(u, 'bga')
-    # results_var_not[u] = c.get_all_stats(u, 'not bga')
+    results[u] = c.get_all_stats(u, 'all')
+    results_var[u] = c.get_all_stats(u, 'bga')
+    results_var_not[u] = c.get_all_stats(u, 'not bga')
     # # group by players
-    players_list = wl.get_players_list(u)
-    players_dict = wl.get_players_dict(u, players_list)
-    wl.save_players_dict(u, players_dict)
+    # players_list = wl.get_players_list(u)
+    # players_dict = wl.get_players_dict(u, players_list)
+    # wl.save_players_dict(u, players_dict)
 
 
 print('Data is generated.')
 
 save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
 save_to_tsv('up_to_date_stats', results)
-# save_wr('all', results)
-# save_wr('bga', results_var)
-# save_wr('not_bga', results_var_not)
+save_wr('all', results)
+save_wr('bga', results_var)
+save_wr('not_bga', results_var_not)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
