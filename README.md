@@ -1,6 +1,6 @@
 # Hanabi stats
 
-The program parses users' statistics from https://hanab.live/, calculates percentage of winnings and losings for each type of variants (easy, single dark, double dark, easy null variants which are neither single nor double dark) and saves it to the file in tsv format.
+The program parses users' statistics from https://hanab.live/, calculates percentage of winnings and losings for each type of variants (easy, single dark, double dark, easy null variants which are neither single nor double dark), filters it by each player and saves statistics to the files in tsv format.
 
 Last available stats for active users can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output/up_to_date_stats.tsv) (19/04/2021).
 
@@ -18,8 +18,9 @@ Last available stats for active users can be found here: [click](https://github.
 1. Type list of players in ```input/list_of_users.txt```
 2. Run script ```main.py```
 3. See the results in the ```output/up_to_date_stats.tsv``` or ```output/all_stats_[timestamp].tsv```
+4. See win/loss ratio for each player in the ```output/filtered_by_players/[username]_wl_by_players.tsv```
 
-The table structure:
+The tables structure:
 
 symbol | description
 -|-

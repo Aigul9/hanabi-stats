@@ -3,7 +3,7 @@ import py.calc as c
 
 
 def get_players_list(username):
-    with open(f'../temp/{username}_players.txt', 'r') as f:
+    with open(f'../temp/{username}_players.txt', 'r', encoding='utf-8') as f:
         return [line.rstrip() for line in f.readlines()]
 
 
@@ -33,7 +33,7 @@ def get_filtered_by_player(player, stats):
 
 
 def save_players_dict(username, data):
-    with open(f'../output/{username}_wl_by_players.tsv', 'w', newline='') as file:
+    with open(f'../output/filtered_by_players/{username}_wl_by_players.tsv', 'w', newline='', encoding='utf-8') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow([
             'Player name', 'W/L(%)', 'Total games', 'Easy', 'Null', 'Single dark', 'Double dark']

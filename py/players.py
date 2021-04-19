@@ -1,5 +1,5 @@
 def create_players_set(username):
-    with open(f'../temp/{username}_players.txt', 'r') as f:
+    with open(f'../temp/{username}_players.txt', 'r', encoding='utf-8') as f:
         players = set()
         for line in f.readlines():
             players = players.union(line.strip().split(', '))

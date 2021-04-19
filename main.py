@@ -50,18 +50,18 @@ def save_to_tsv(filename, data):
 
 
 start = time.time()
-with open('../input/list_of_players_test.txt', 'r') as f:
+with open('../input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
 for u in users:
-    # # parsing
-    # history_table = prs.get_history_table(u)
-    # items = prs.get_stats(history_table)
-    # prs.save_stats(items, u)
-    # prs.save_list_of_players(items, u)
-    # # set of players
-    # pl.save_players_list(pl.create_players_set(u), u)
+    # parsing
+    history_table = prs.get_history_table(u)
+    items = prs.get_stats(history_table)
+    prs.save_stats(items, u)
+    prs.save_list_of_players(items, u)
+    # set of players
+    pl.save_players_list(pl.create_players_set(u), u)
     results[u] = c.get_all_stats(u)
     # group by players
     players_list = wl.get_players_list(u)
