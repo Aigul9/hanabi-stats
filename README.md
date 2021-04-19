@@ -5,7 +5,7 @@ The program parses users' statistics from https://hanab.live/, calculates percen
 Last available stats for active users can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output/up_to_date_stats.tsv) (19/04/2021).<br/>
 Highest winrate: [WR](https://github.com/Aigul9/hanabi-stats/blob/master/output/highest_wr_all.tsv)<br/>
 Highest winrate for bga variants: [WR bga](https://github.com/Aigul9/hanabi-stats/blob/master/output/highest_wr_bga.tsv)<br/>
-Highest winrate for non-bga variants: [WR non-bga](https://github.com/Aigul9/hanabi-stats/blob/master/output/highest_wr_not_bga.tsv)<br/>
+Highest winrate for non-speedrun variants: [WR non-speedrun](https://github.com/Aigul9/hanabi-stats/blob/master/output/highest_wr_non_speedrun.tsv)<br/>
 Find your stats here: [All users stats](https://github.com/Aigul9/hanabi-stats/tree/master/output/filtered_by_players)
 
 ## Types of variants

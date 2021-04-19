@@ -96,7 +96,7 @@ def get_all_stats(username, s_id):
             get_filtered_by_var(list_null),\
             get_filtered_by_var(list_sd), \
             get_filtered_by_var(list_dd)
-    elif s_id == 'not bga':
+    elif s_id == 'non speedrun':
         stats, list_easy, list_null, list_sd, list_dd = \
             get_filtered_by_var_not(stats), \
             get_filtered_by_var_not(list_easy), \
