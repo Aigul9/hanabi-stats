@@ -14,6 +14,8 @@ def get_players_dict(username, players):
         p_wins = c.get_wins(get_filtered_by_player(p, main_stats))
         p_losses = c.get_losses(get_filtered_by_player(p, main_stats))
         p_total = p_wins + p_losses
+        if p_total < 20:
+            continue
         p_ratio = c.p(p_wins, p_losses)
         # p_w_ratio = c.p(p_wins, p_total)
         # p_l_ratio = c.p(p_losses, p_total)
