@@ -49,6 +49,18 @@ def save_to_tsv(filename, data):
                 )
 
 
+def save_wr(data):
+    with open(f'../output/highest_wr.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Username', 'WR', 'Total games'])
+        for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
+            w.writerow([
+                k,
+                v['Totals']['total_p'][0],
+                v['Totals']['total_c'][2]
+            ])
+
+
 start = time.time()
 with open('../input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
@@ -71,7 +83,8 @@ for u in users:
 
 print('Data is generated.')
 
-# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-# save_to_tsv('up_to_date_stats', results)
+save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
+save_to_tsv('up_to_date_stats', results)
+save_wr(results)
 
 print('Time spent (in min):', round((time.time() - start) / 60, 2))

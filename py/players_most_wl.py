@@ -17,7 +17,6 @@ def get_players_dict(username, players):
         p_ratio = c.p(p_wins, p_losses)
         # p_w_ratio = c.p(p_wins, p_total)
         # p_l_ratio = c.p(p_losses, p_total)
-        ms = len(main_stats)
         easy_ratio, null_ratio, sd_ratio, dd_ratio =\
             c.p(len(get_filtered_by_player(p, list_easy)), p_total),\
             c.p(len(get_filtered_by_player(p, list_null)), p_total),\
