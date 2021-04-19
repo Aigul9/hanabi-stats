@@ -81,10 +81,10 @@ def group_stats_by_eff(username):
     stats = open_stats(username)
     variants = get_variant_types()
     list_easy = [row for row in stats if variants[row.variant] == 'easy']
-    list_sd = [row for row in stats if variants[row.variant] == 'sd']
     list_null = [row for row in stats if variants[row.variant] == 'null']
+    list_sd = [row for row in stats if variants[row.variant] == 'sd']
     list_dd = [row for row in stats if variants[row.variant] == 'dd']
-    return stats, list_easy, list_sd, list_null, list_dd
+    return stats, list_easy, list_null, list_sd, list_dd
 
 
 def get_all_stats(username):

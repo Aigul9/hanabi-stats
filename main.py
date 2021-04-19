@@ -3,6 +3,7 @@ import time
 import py.parsing as prs
 import py.players as pl
 import py.calc as c
+import py.players_most_wl as wl
 from datetime import datetime
 
 
@@ -49,7 +50,7 @@ def save_to_tsv(filename, data):
 
 
 start = time.time()
-with open('../input/list_of_players.txt', 'r') as f:
+with open('../input/list_of_players_test.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
@@ -62,10 +63,15 @@ for u in users:
     # # set of players
     # pl.save_players_list(pl.create_players_set(u), u)
     results[u] = c.get_all_stats(u)
+    # group by players
+    players_list = wl.get_players_list(u)
+    players_dict = wl.get_players_dict(u, players_list)
+    wl.save_players_dict(u, players_dict)
+
 
 print('Data is generated.')
 
-save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-save_to_tsv('up_to_date_stats', results)
+# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
+# save_to_tsv('up_to_date_stats', results)
 
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
