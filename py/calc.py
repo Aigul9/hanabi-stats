@@ -89,13 +89,20 @@ def group_stats_by_eff(username):
 
 def get_all_stats(username, s_id):
     stats, list_easy, list_null, list_sd, list_dd = group_stats_by_eff(username)
-    if s_id == 'easy':
+    if s_id == 'bga':
         stats, list_easy, list_null, list_sd, list_dd = \
             get_filtered_by_var(stats),\
             get_filtered_by_var(list_easy),\
             get_filtered_by_var(list_null),\
             get_filtered_by_var(list_sd), \
             get_filtered_by_var(list_dd)
+    elif s_id == 'not bga':
+        stats, list_easy, list_null, list_sd, list_dd = \
+            get_filtered_by_var_not(stats), \
+            get_filtered_by_var_not(list_easy), \
+            get_filtered_by_var_not(list_null), \
+            get_filtered_by_var_not(list_sd), \
+            get_filtered_by_var_not(list_dd)
     totals = get_totals(stats)
     totals_easy = get_totals(list_easy)
     totals_null = get_totals(list_null)
@@ -112,3 +119,7 @@ def get_all_stats(username, s_id):
 
 def get_filtered_by_var(stats):
     return [row for row in stats if row.variant in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
+
+
+def get_filtered_by_var_not(stats):
+    return [row for row in stats if row.variant not in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]

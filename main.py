@@ -67,6 +67,7 @@ with open('../input/list_of_players.txt', 'r') as f:
 
 results = {}
 results_var = {}
+results_var_not = {}
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -76,7 +77,8 @@ for u in users:
     # # set of players
     # pl.save_players_list(pl.create_players_set(u), u)
     results[u] = c.get_all_stats(u, 'all')
-    results_var[u] = c.get_all_stats(u, 'easy')
+    results_var[u] = c.get_all_stats(u, 'bga')
+    results_var_not[u] = c.get_all_stats(u, 'not bga')
     # # group by players
     # players_list = wl.get_players_list(u)
     # players_dict = wl.get_players_dict(u, players_list)
@@ -89,5 +91,6 @@ save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
 save_to_tsv('up_to_date_stats', results)
 save_wr('all', results)
 save_wr('bga', results_var)
+save_wr('not_bga', results_var_not)
 
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
