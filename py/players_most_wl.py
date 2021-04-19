@@ -11,6 +11,12 @@ def get_players_dict(username, players):
     results = {}
     for p in players:
         main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+        stats, list_easy, list_null, list_sd, list_dd = \
+            c.get_filtered_by_var_not(main_stats), \
+            c.get_filtered_by_var_not(list_easy), \
+            c.get_filtered_by_var_not(list_null), \
+            c.get_filtered_by_var_not(list_sd), \
+            c.get_filtered_by_var_not(list_dd)
         p_wins = c.get_wins(get_filtered_by_player(p, main_stats))
         p_losses = c.get_losses(get_filtered_by_player(p, main_stats))
         p_total = p_wins + p_losses
