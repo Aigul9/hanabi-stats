@@ -87,12 +87,19 @@ def group_stats_by_eff(username):
     return stats, list_easy, list_null, list_sd, list_dd
 
 
-def get_all_stats(username):
-    stats, list_easy, list_sd, list_null, list_dd = group_stats_by_eff(username)
+def get_all_stats(username, s_id):
+    stats, list_easy, list_null, list_sd, list_dd = group_stats_by_eff(username)
+    if s_id == 'easy':
+        stats, list_easy, list_null, list_sd, list_dd = \
+            get_filtered_by_var(stats),\
+            get_filtered_by_var(list_easy),\
+            get_filtered_by_var(list_null),\
+            get_filtered_by_var(list_sd), \
+            get_filtered_by_var(list_dd)
     totals = get_totals(stats)
     totals_easy = get_totals(list_easy)
-    totals_sd = get_totals(list_sd)
     totals_null = get_totals(list_null)
+    totals_sd = get_totals(list_sd)
     totals_dd = get_totals(list_dd)
     return {
         'Totals': totals,
@@ -101,3 +108,7 @@ def get_all_stats(username):
         'Single dark': totals_sd,
         'Double dark': totals_dd
     }
+
+
+def get_filtered_by_var(stats):
+    return [row for row in stats if row.variant in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]

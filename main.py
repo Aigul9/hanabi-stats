@@ -49,8 +49,8 @@ def save_to_tsv(filename, data):
                 )
 
 
-def save_wr(data):
-    with open(f'../output/highest_wr.tsv', 'w', newline='') as file:
+def save_wr(filename, data):
+    with open(f'../output/highest_wr_{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'WR', 'Total games'])
         for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
@@ -66,25 +66,28 @@ with open('../input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
+results_var = {}
 for u in users:
-    # parsing
-    history_table = prs.get_history_table(u)
-    items = prs.get_stats(history_table)
-    prs.save_stats(items, u)
-    prs.save_list_of_players(items, u)
-    # set of players
-    pl.save_players_list(pl.create_players_set(u), u)
-    results[u] = c.get_all_stats(u)
-    # group by players
-    players_list = wl.get_players_list(u)
-    players_dict = wl.get_players_dict(u, players_list)
-    wl.save_players_dict(u, players_dict)
+    # # parsing
+    # history_table = prs.get_history_table(u)
+    # items = prs.get_stats(history_table)
+    # prs.save_stats(items, u)
+    # prs.save_list_of_players(items, u)
+    # # set of players
+    # pl.save_players_list(pl.create_players_set(u), u)
+    results[u] = c.get_all_stats(u, 'all')
+    results_var[u] = c.get_all_stats(u, 'easy')
+    # # group by players
+    # players_list = wl.get_players_list(u)
+    # players_dict = wl.get_players_dict(u, players_list)
+    # wl.save_players_dict(u, players_dict)
 
 
 print('Data is generated.')
 
 save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
 save_to_tsv('up_to_date_stats', results)
-save_wr(results)
+save_wr('all', results)
+save_wr('bga', results_var)
 
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
