@@ -122,4 +122,11 @@ def get_filtered_by_var(stats):
 
 
 def get_filtered_by_var_not(stats):
-    return [row for row in stats if row.variant not in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
+    return [row for row in stats if row.variant not in (
+        'Rainbow (6 Suits)',
+        'No Variant',
+        '6 Suits',
+        'Black (6 Suits)',
+        'White Reversed (6 Suits)',
+        'Dark Rainbow (6 Suits)'
+    )]
