@@ -74,11 +74,11 @@ def get_overall_wr(username, players):
             continue
         p_ratio = c.p(p_wins, p_losses)
         results[p] = {'wl': p_ratio, 'total': p_total}
-    return sort_by_total_games(results)
+    return sort_by_wl_games(results)
 
 
-def sort_by_total_games(data):
-    d = {k: v for k, v in sorted(data.items(), key=lambda item: (item[1]['total'], item[1]['wl']), reverse=True)}
+def sort_by_wl_games(data):
+    d = {k: v for k, v in sorted(data.items(), key=lambda item: item[1]['wl'], reverse=True)}
     return d
 
 

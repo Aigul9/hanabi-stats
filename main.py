@@ -101,6 +101,8 @@ for u in users:
     # get top 10
     list_for_top_10 = wl.get_overall_wr(u, players_list)
     list_top_n = wl.get_top_n(10, list_for_top_10)
+    print(u)
+    print(list_top_n)
     for pl in list_top_n:
         if pl[0] in global_ranking_1:
             global_ranking_1[pl[0]] += 1
