@@ -102,6 +102,7 @@ global_ranking_top_1 = dict.fromkeys(users, 0)
 global_ranking_top_weight = dict.fromkeys(users, 0)
 global_ranking_bottom_1 = dict.fromkeys(users, 0)
 global_ranking_bottom_weight = dict.fromkeys(users, 0)
+top = 5
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -119,11 +120,13 @@ for u in users:
     # wl.save_players_dict(u, players_dict)
     # get top 10
     list_for_top_10 = wl.get_overall_wr(u, players_list)
-    list_top_n = wl.get_top_n(10, list_for_top_10)
-    list_bottom_n = wl.get_bottom_n(10, list_for_top_10)
-    # print(list_for_top_10)
-    # print(list_top_n)
-    # print(list_bottom_n)
+    # list_top_n = wl.get_top_n(10, list_for_top_10)
+    # list_bottom_n = wl.get_bottom_n(10, list_for_top_10)
+    list_top_n = wl.get_top_n(top, list_for_top_10)
+    list_bottom_n = wl.get_bottom_n(top, list_for_top_10)
+    print(u)
+    print(list_top_n)
+    print(list_bottom_n)
     assign_weights(list_top_n, global_ranking_top_1, global_ranking_top_weight, 'top')
     assign_weights(list_bottom_n, global_ranking_bottom_1, global_ranking_bottom_weight, 'bottom')
 
@@ -134,10 +137,11 @@ print('Data is generated.')
 # save_wr('all', results)
 # save_wr('bga', results_var)
 # save_wr('non_speedrun', results_var_not)
-save_ranking('top_10_count', global_sort(global_ranking_top_1))
-save_ranking('top_10_weights', global_sort(global_ranking_top_weight))
-save_ranking('bottom_10_count', global_sort(global_ranking_bottom_1))
-save_ranking('bottom_10_weights', global_sort(global_ranking_bottom_weight))
+
+save_ranking(f'top_{top}_count', global_sort(global_ranking_top_1))
+save_ranking(f'top_{top}_weights', global_sort(global_ranking_top_weight))
+save_ranking(f'bottom_{top}_count', global_sort(global_ranking_bottom_1))
+save_ranking(f'bottom_{top}_weights', global_sort(global_ranking_bottom_weight))
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
