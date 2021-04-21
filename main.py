@@ -73,6 +73,20 @@ def save_ranking(filename, data):
             ])
 
 
+def assign_weights(tb_list, global_list_1, global_list_w):
+    for pl in tb_list:
+        if pl[0] in global_list_1:
+            global_list_1[pl[0]] += 1
+            global_list_w[pl[0]] += len(tb_list) - tb_list.index(pl)
+        else:
+            global_list_1[pl[0]] = 0
+            global_list_w[pl[0]] = 0
+
+
+def global_sort(global_list):
+    return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1], item[0]))}
+
+
 start = time.time()
 print('Start time:', datetime.now())
 with open('../input/list_of_players.txt', 'r') as f:
@@ -81,8 +95,10 @@ with open('../input/list_of_players.txt', 'r') as f:
 results = {}
 results_var = {}
 results_var_not = {}
-global_ranking_1 = dict.fromkeys(users, 0)
-global_ranking_weight = dict.fromkeys(users, 0)
+global_ranking_top_1 = dict.fromkeys(users, 0)
+global_ranking_top_weight = dict.fromkeys(users, 0)
+global_ranking_bottom_1 = dict.fromkeys(users, 0)
+global_ranking_bottom_weight = dict.fromkeys(users, 0)
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -100,19 +116,13 @@ for u in users:
     # wl.save_players_dict(u, players_dict)
     # get top 10
     list_for_top_10 = wl.get_overall_wr(u, players_list)
-    list_top_n = wl.get_top_n(10, list_for_top_10)
-    print(u)
-    print(list_top_n)
-    for pl in list_top_n:
-        if pl[0] in global_ranking_1:
-            global_ranking_1[pl[0]] += 1
-            global_ranking_weight[pl[0]] += len(list_top_n) - list_top_n.index(pl)
-        else:
-            global_ranking_1[pl[0]] = 0
-            global_ranking_weight[pl[0]] = 0
-
-global_ranking_1 = {k: v for k, v in sorted(global_ranking_1.items(), key=lambda item: (-item[1], item[0]))}
-global_ranking_weight = {k: v for k, v in sorted(global_ranking_weight.items(), key=lambda item: (-item[1], item[0]))}
+    list_top_n = wl.get_top_n(5, list_for_top_10)
+    list_bottom_n = wl.get_bottom_n(5, list_for_top_10)
+    # print(list_for_top_10)
+    # print(list_top_n)
+    # print(list_bottom_n)
+    assign_weights(list_top_n, global_ranking_top_1, global_ranking_top_weight)
+    assign_weights(list_bottom_n, global_ranking_bottom_1, global_ranking_bottom_weight)
 
 print('Data is generated.')
 
@@ -121,8 +131,10 @@ print('Data is generated.')
 # save_wr('all', results)
 # save_wr('bga', results_var)
 # save_wr('non_speedrun', results_var_not)
-save_ranking('1', global_ranking_1)
-save_ranking('weight', global_ranking_weight)
+save_ranking('top_5_count', global_sort(global_ranking_top_1))
+save_ranking('top_5_weights', global_sort(global_ranking_top_weight))
+save_ranking('bottom_5_count', global_sort(global_ranking_bottom_1))
+save_ranking('bottom_5_weights', global_sort(global_ranking_bottom_weight))
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
