@@ -1,4 +1,5 @@
 import csv
+import itertools
 import py.calc as c
 
 
@@ -55,3 +56,31 @@ def save_players_dict(username, data):
                 v['sd'],
                 v['dd']
             ])
+
+
+def get_overall_wr(username, players):
+    results = {}
+    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    stats_3 = list(itertools.chain.from_iterable([
+        c.get_filtered_by_var_not(list_easy),
+        c.get_filtered_by_var_not(list_null),
+        c.get_filtered_by_var_not(list_sd)])
+    )
+    for p in players:
+        p_wins = c.get_wins(get_filtered_by_player(p, stats_3))
+        p_losses = c.get_losses(get_filtered_by_player(p, stats_3))
+        p_total = p_wins + p_losses
+        if p_total <= 100:
+            continue
+        p_ratio = c.p(p_wins, p_losses)
+        results[p] = {'wl': p_ratio, 'total': p_total}
+    return sort_by_total_games(results)
+
+
+def sort_by_total_games(data):
+    d = {k: v for k, v in sorted(data.items(), key=lambda item: (item[1]['total'], item[1]['wl']), reverse=True)}
+    return d
+
+
+def get_top_n(n, data):
+    return list(data.items())[:n]

@@ -1,5 +1,6 @@
 import csv
 import time
+import itertools
 import py.parsing as prs
 import py.players as pl
 import py.calc as c
@@ -18,7 +19,7 @@ def save_to_tsv(filename, data):
             'Username', 'Type',
             'W/L(%)', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
             'W/L(%, 2p)', 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
-            'W/L(%, 3p)','W(%, 3p+)', 'L(%, 3p+)', 'W(#, 3p+)', 'L(#, 3p+)']
+            'W/L(%, 3p)', 'W(%, 3p+)', 'L(%, 3p+)', 'W(#, 3p+)', 'L(#, 3p+)']
         )
         for k, v in data.items():
             for k1, t in v.items():
@@ -61,6 +62,17 @@ def save_wr(filename, data):
             ])
 
 
+def save_ranking(data):
+    with open(f'../output/rank.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Username', 'Rank'])
+        for k, v in data.items():
+            w.writerow([
+                k,
+                v
+            ])
+
+
 start = time.time()
 print('Start time:', datetime.now())
 with open('../input/list_of_players.txt', 'r') as f:
@@ -69,6 +81,8 @@ with open('../input/list_of_players.txt', 'r') as f:
 results = {}
 results_var = {}
 results_var_not = {}
+global_ranking = dict.fromkeys(users, 0)
+print(global_ranking)
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -77,22 +91,34 @@ for u in users:
     # prs.save_list_of_players(items, u)
     # # set of players
     # pl.save_players_list(pl.create_players_set(u), u)
-    results[u] = c.get_all_stats(u, 'all')
-    results_var[u] = c.get_all_stats(u, 'bga')
-    results_var_not[u] = c.get_all_stats(u, 'non speedrun')
+    # results[u] = c.get_all_stats(u, 'all')
+    # results_var[u] = c.get_all_stats(u, 'bga')
+    # results_var_not[u] = c.get_all_stats(u, 'non speedrun')
     # # group by players
-    # players_list = wl.get_players_list(u)
+    players_list = wl.get_players_list(u)
     # players_dict = wl.get_players_dict(u, players_list)
     # wl.save_players_dict(u, players_dict)
+    # get top 10
+    list_for_top_10 = wl.get_overall_wr(u, players_list)
+    list_top_n = wl.get_top_n(10, list_for_top_10)
+    for pl in list_top_n:
+        if pl[0] in global_ranking:
+            global_ranking[pl[0]] += 1
+        else:
+            global_ranking[pl[0]] = 0
+
+global_ranking = {k: v for k, v in sorted(global_ranking.items(), key=lambda item: (-item[1], item[0]))}
+print(global_ranking)
 
 
 print('Data is generated.')
 
-save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-save_to_tsv('up_to_date_stats', results)
-save_wr('all', results)
-save_wr('bga', results_var)
-save_wr('non_speedrun', results_var_not)
+# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
+# save_to_tsv('up_to_date_stats', results)
+# save_wr('all', results)
+# save_wr('bga', results_var)
+# save_wr('non_speedrun', results_var_not)
+save_ranking(global_ranking)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
