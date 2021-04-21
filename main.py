@@ -62,8 +62,8 @@ def save_wr(filename, data):
             ])
 
 
-def save_ranking(data):
-    with open(f'../output/rank.tsv', 'w', newline='') as file:
+def save_ranking(filename, data):
+    with open(f'../output/rank_{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank'])
         for k, v in data.items():
@@ -81,8 +81,8 @@ with open('../input/list_of_players.txt', 'r') as f:
 results = {}
 results_var = {}
 results_var_not = {}
-global_ranking = dict.fromkeys(users, 0)
-print(global_ranking)
+global_ranking_1 = dict.fromkeys(users, 0)
+global_ranking_weight = dict.fromkeys(users, 0)
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -102,14 +102,15 @@ for u in users:
     list_for_top_10 = wl.get_overall_wr(u, players_list)
     list_top_n = wl.get_top_n(10, list_for_top_10)
     for pl in list_top_n:
-        if pl[0] in global_ranking:
-            global_ranking[pl[0]] += 1
+        if pl[0] in global_ranking_1:
+            global_ranking_1[pl[0]] += 1
+            global_ranking_weight[pl[0]] += len(list_top_n) - list_top_n.index(pl)
         else:
-            global_ranking[pl[0]] = 0
+            global_ranking_1[pl[0]] = 0
+            global_ranking_weight[pl[0]] = 0
 
-global_ranking = {k: v for k, v in sorted(global_ranking.items(), key=lambda item: (-item[1], item[0]))}
-print(global_ranking)
-
+global_ranking_1 = {k: v for k, v in sorted(global_ranking_1.items(), key=lambda item: (-item[1], item[0]))}
+global_ranking_weight = {k: v for k, v in sorted(global_ranking_weight.items(), key=lambda item: (-item[1], item[0]))}
 
 print('Data is generated.')
 
@@ -118,7 +119,8 @@ print('Data is generated.')
 # save_wr('all', results)
 # save_wr('bga', results_var)
 # save_wr('non_speedrun', results_var_not)
-save_ranking(global_ranking)
+save_ranking('1', global_ranking_1)
+save_ranking('weight', global_ranking_weight)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
