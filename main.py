@@ -73,11 +73,14 @@ def save_ranking(filename, data):
             ])
 
 
-def assign_weights(tb_list, global_list_1, global_list_w):
+def assign_weights(tb_list, global_list_1, global_list_w, global_type):
     for pl in tb_list:
         if pl[0] in global_list_1:
             global_list_1[pl[0]] += 1
-            global_list_w[pl[0]] += len(tb_list) - tb_list.index(pl)
+            if global_type == 'top':
+                global_list_w[pl[0]] += len(tb_list) - tb_list.index(pl)
+            elif global_type == 'bottom':
+                global_list_w[pl[0]] += tb_list.index(pl) + 1
         else:
             global_list_1[pl[0]] = 0
             global_list_w[pl[0]] = 0
@@ -116,13 +119,13 @@ for u in users:
     # wl.save_players_dict(u, players_dict)
     # get top 10
     list_for_top_10 = wl.get_overall_wr(u, players_list)
-    list_top_n = wl.get_top_n(5, list_for_top_10)
-    list_bottom_n = wl.get_bottom_n(5, list_for_top_10)
+    list_top_n = wl.get_top_n(10, list_for_top_10)
+    list_bottom_n = wl.get_bottom_n(10, list_for_top_10)
     # print(list_for_top_10)
     # print(list_top_n)
     # print(list_bottom_n)
-    assign_weights(list_top_n, global_ranking_top_1, global_ranking_top_weight)
-    assign_weights(list_bottom_n, global_ranking_bottom_1, global_ranking_bottom_weight)
+    assign_weights(list_top_n, global_ranking_top_1, global_ranking_top_weight, 'top')
+    assign_weights(list_bottom_n, global_ranking_bottom_1, global_ranking_bottom_weight, 'bottom')
 
 print('Data is generated.')
 
@@ -131,10 +134,10 @@ print('Data is generated.')
 # save_wr('all', results)
 # save_wr('bga', results_var)
 # save_wr('non_speedrun', results_var_not)
-save_ranking('top_5_count', global_sort(global_ranking_top_1))
-save_ranking('top_5_weights', global_sort(global_ranking_top_weight))
-save_ranking('bottom_5_count', global_sort(global_ranking_bottom_1))
-save_ranking('bottom_5_weights', global_sort(global_ranking_bottom_weight))
+save_ranking('top_10_count', global_sort(global_ranking_top_1))
+save_ranking('top_10_weights', global_sort(global_ranking_top_weight))
+save_ranking('bottom_10_count', global_sort(global_ranking_bottom_1))
+save_ranking('bottom_10_weights', global_sort(global_ranking_bottom_weight))
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
