@@ -77,19 +77,16 @@ def save_ranking(data):
 
 
 def assign_weights(username, tb_list, global_type):
-    # print('global': )
     for pl in tb_list:
-        # global_ranking[pl[0]] = {'rank': 0, 'seek': [], 'avoid': []}
-        if pl[0] in global_ranking:
-            if global_type == 'top':
-                global_ranking[pl[0]][0] += len(tb_list) - tb_list.index(pl)
-                global_ranking[username][1].append(pl[0])
-            elif global_type == 'bottom':
-                global_ranking[pl[0]][0] -= tb_list.index(pl) + 1
-                global_ranking[username][2].append(pl[0])
-        else:
+        if pl[0] not in global_ranking:
             global_ranking[pl[0]] = []
             global_ranking[pl[0]] = [0, [], []]
+        if global_type == 'top':
+            global_ranking[pl[0]][0] += len(tb_list) - tb_list.index(pl)
+            global_ranking[username][1].append(pl[0])
+        elif global_type == 'bottom':
+            global_ranking[pl[0]][0] -= tb_list.index(pl) + 1
+            global_ranking[username][2].append(pl[0])
 
 
 def global_sort(global_list):
@@ -124,8 +121,10 @@ for u in users:
     # get top 10
     list_for_tops = wl.get_overall_wr(u, players_list)
     mi = len(list_for_tops) // 2
-    list_top_n = wl.get_top_n(top, dict(list(list_for_tops.items())[:mi]))
-    list_bottom_n = wl.get_bottom_n(top, dict(list(list_for_tops.items())[mi:]))
+    first_half = dict(list(list_for_tops.items())[:mi])
+    second_half = dict(list(list_for_tops.items())[mi:])
+    list_top_n = wl.get_top_n(top, first_half)
+    list_bottom_n = wl.get_bottom_n(top, second_half)
     assign_weights(u, list_top_n, 'top')
     assign_weights(u, list_bottom_n, 'bottom')
 
