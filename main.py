@@ -1,5 +1,6 @@
 import csv
 import time
+import math
 import py.parsing as prs
 import py.players as pl
 import py.calc as c
@@ -115,23 +116,23 @@ global_ranking = {k: [0, [], []] for k in users}
 top = 5
 rank_all_players = {k: [] for k in users}
 for u in users:
-    # parsing
-    history_table = prs.get_history_table(u)
-    items = prs.get_stats(history_table)
-    prs.save_stats(items, u)
-    prs.save_list_of_players(items, u)
-    # set of players
-    pl.save_players_list(pl.create_players_set(u), u)
-    results[u] = c.get_all_stats(u, 'all')
-    results_var[u] = c.get_all_stats(u, 'bga')
-    results_var_not[u] = c.get_all_stats(u, 'non speedrun')
+    # # parsing
+    # history_table = prs.get_history_table(u)
+    # items = prs.get_stats(history_table)
+    # prs.save_stats(items, u)
+    # prs.save_list_of_players(items, u)
+    # # set of players
+    # pl.save_players_list(pl.create_players_set(u), u)
+    # results[u] = c.get_all_stats(u, 'all')
+    # results_var[u] = c.get_all_stats(u, 'bga')
+    # results_var_not[u] = c.get_all_stats(u, 'non speedrun')
     # group by players
     players_list = wl.get_players_list(u)
-    players_dict = wl.get_players_dict(u, players_list)
-    wl.save_players_dict(u, players_dict)
+    # players_dict = wl.get_players_dict(u, players_list)
+    # wl.save_players_dict(u, players_dict)
     # get top 10
     list_for_tops = wl.get_overall_wr(u, players_list)
-    mi = len(list_for_tops) // 2
+    mi = math.ceil(len(list_for_tops) / 2)
     first_half = dict(list(list_for_tops.items())[:mi])
     second_half = dict(list(list_for_tops.items())[mi:])
     list_top_n = wl.get_top_n(top, first_half)
