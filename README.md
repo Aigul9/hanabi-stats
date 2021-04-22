@@ -39,8 +39,9 @@ Speedrun variants:
 1. Exclude speedrun and double dark variants.
 2. Exclude teammates with less than 100 games.
 3. Sort the list by win/loss ratio and divide it into two parts.
-4. Select top 5 and bottom 5 players (or less if not possible).
+4. Select top 5 and bottom 5 teammates (or less if not possible).
 5. If the player contains in the these lists, increase or decrease their rank from 1 to 5 depending on the place: for instance, the first player in the top 5 list receives +5 points, the last player in the bottom 5 list receives -5 points.
+6. To sum up, the rank shows the frequency of wins with different players.
 
 ## Usage
 1. Type list of players in ```input/list_of_users.txt```
