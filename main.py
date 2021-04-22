@@ -78,6 +78,8 @@ def save_ranking(data):
                 list_top.append(f'{pl} ({round(u_tops[0][pl]["wl"])}%)')
             for pl in v[2]:
                 list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
+            list_top = ['none'] if len(list_top) == 0 else list_top
+            list_bottom = ['none'] if len(list_bottom) == 0 else list_bottom
             w.writerow([
                 k,
                 v[0],
