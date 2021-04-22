@@ -66,27 +66,37 @@ def save_wr(filename, data):
 def save_ranking(data):
     with open('../output/rank.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'Rank', 'Seek (by WR desc)', 'Avoid (by WR desc)'])
+        w.writerow(['Username', 'Rank', 'Seek (WL, #)', 'Avoid (WL, #)'])
         for k, v in data.items():
+            try:
+                u_tops = rank_all_players[k]
+            except KeyError:
+                u_tops = []
+            list_top = []
+            list_bottom = []
+            for pl in v[1]:
+                list_top.append(f'{pl} ({u_tops[0][pl]["wl"]}, {u_tops[0][pl]["total"]})')
+            for pl in v[2]:
+                list_bottom.append(f'{pl} ({u_tops[1][pl]["wl"]}, {u_tops[1][pl]["total"]})')
             w.writerow([
                 k,
                 v[0],
-                ', '.join(v[1]),
-                ', '.join(v[2])
+                ', '.join(list_top),
+                ', '.join(list_bottom)
             ])
 
 
 def assign_weights(username, tb_list, global_type):
     for pl in tb_list:
-        if pl[0] not in global_ranking:
-            global_ranking[pl[0]] = []
-            global_ranking[pl[0]] = [0, [], []]
+        if pl not in global_ranking:
+            global_ranking[pl] = []
+            global_ranking[pl] = [0, [], []]
         if global_type == 'top':
-            global_ranking[pl[0]][0] += len(tb_list) - tb_list.index(pl)
-            global_ranking[username][1].append(pl[0])
+            global_ranking[pl][0] += len(tb_list) - list(tb_list.keys()).index(pl)
+            global_ranking[username][1].append(pl)
         elif global_type == 'bottom':
-            global_ranking[pl[0]][0] -= tb_list.index(pl) + 1
-            global_ranking[username][2].append(pl[0])
+            global_ranking[pl][0] -= list(tb_list.keys()).index(pl) + 1
+            global_ranking[username][2].append(pl)
 
 
 def global_sort(global_list):
@@ -103,6 +113,7 @@ results_var = {}
 results_var_not = {}
 global_ranking = {k: [0, [], []] for k in users}
 top = 5
+rank_all_players = {k: [] for k in users}
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -125,6 +136,7 @@ for u in users:
     second_half = dict(list(list_for_tops.items())[mi:])
     list_top_n = wl.get_top_n(top, first_half)
     list_bottom_n = wl.get_bottom_n(top, second_half)
+    rank_all_players[u] = [list_top_n, list_bottom_n]
     assign_weights(u, list_top_n, 'top')
     assign_weights(u, list_bottom_n, 'bottom')
 

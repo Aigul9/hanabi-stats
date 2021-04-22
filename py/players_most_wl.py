@@ -84,9 +84,9 @@ def sort_by_wl_games(data):
 
 def get_top_n(n, data):
     di = min(len(data), n)
-    return list(data.items())[:di]
+    return dict(list(data.items())[:di])
 
 
 def get_bottom_n(n, data):
     di = min(len(data), n)
-    return list(data.items())[-di:]
+    return dict(list(data.items())[-di:])
