@@ -135,6 +135,17 @@ for u in users:
     mi = math.ceil(len(list_for_tops) / 2)
     first_half = dict(list(list_for_tops.items())[:mi])
     second_half = dict(list(list_for_tops.items())[mi:])
+    # print(list_for_tops[list(list_for_tops)[mi - 2]])
+    try:
+        wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
+        p_cur = list(list_for_tops)[mi - 1]
+        wl_cur = list_for_tops[p_cur]['wl']
+        wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
+        if wl_prev - wl_cur > wl_cur - wl_next:
+            del first_half[p_cur]
+            second_half[p_cur] = list_for_tops[p_cur]
+    except IndexError:
+        pass
     list_top_n = wl.get_top_n(top, first_half)
     list_bottom_n = wl.get_bottom_n(top, second_half)
     rank_all_players[u] = [list_top_n, list_bottom_n]
