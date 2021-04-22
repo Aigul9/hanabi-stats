@@ -36,6 +36,7 @@ Speedrun variants:
 2. Run script ```main.py```
 3. See the results in the ```output``` folder.
 4. See win/loss ratio for each player in the ```output/filtered_by_players/[username]_wl_by_players.tsv```
+5. Parsing and calculations take 11s per player in average.
 
 The tables structure:
 
