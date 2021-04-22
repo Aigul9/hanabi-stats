@@ -66,7 +66,7 @@ def save_wr(filename, data):
 def save_ranking(data):
     with open('../output/rank.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'Rank', 'Seek (WL, #)', 'Avoid (WL, #)'])
+        w.writerow(['Username', 'Rank', 'Seek', 'Avoid'])
         for k, v in data.items():
             try:
                 u_tops = rank_all_players[k]
@@ -81,8 +81,8 @@ def save_ranking(data):
             w.writerow([
                 k,
                 v[0],
-                ', '.join(list_top),
-                ', '.join(list_bottom)
+                '\n'.join(list_top),
+                '\n'.join(list_bottom)
             ])
 
 
