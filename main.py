@@ -75,9 +75,9 @@ def save_ranking(data):
             list_top = []
             list_bottom = []
             for pl in v[1]:
-                list_top.append(f'{pl} ({u_tops[0][pl]["wl"]}, {u_tops[0][pl]["total"]})')
+                list_top.append(f'{pl} ({u_tops[0][pl]["wl"]}%)')
             for pl in v[2]:
-                list_bottom.append(f'{pl} ({u_tops[1][pl]["wl"]}, {u_tops[1][pl]["total"]})')
+                list_bottom.append(f'{pl} ({u_tops[1][pl]["wl"]}%)')
             w.writerow([
                 k,
                 v[0],
