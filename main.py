@@ -122,21 +122,14 @@ for u in users:
     # players_dict = wl.get_players_dict(u, players_list)
     # wl.save_players_dict(u, players_dict)
     # get top 10
-    list_for_top_10 = wl.get_overall_wr(u, players_list)
-    # list_top_n = wl.get_top_n(10, list_for_top_10)
-    # list_bottom_n = wl.get_bottom_n(10, list_for_top_10)
-    list_top_n = wl.get_top_n(top, list_for_top_10)
-    list_bottom_n = wl.get_bottom_n(top, list_for_top_10)
-    # print(u)
-    # print(list_top_n)
-    # print(list_bottom_n)
+    list_for_tops = wl.get_overall_wr(u, players_list)
+    mi = len(list_for_tops) // 2
+    list_top_n = wl.get_top_n(top, dict(list(list_for_tops.items())[:mi]))
+    list_bottom_n = wl.get_bottom_n(top, dict(list(list_for_tops.items())[mi:]))
     assign_weights(u, list_top_n, 'top')
     assign_weights(u, list_bottom_n, 'bottom')
-    # print(u)
-    # print(global_ranking)
 
 print('Data is generated.')
-# print(global_ranking)
 
 # save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
 # save_to_tsv('up_to_date_stats', results)

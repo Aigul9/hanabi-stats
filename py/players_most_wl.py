@@ -87,8 +87,4 @@ def get_top_n(n, data):
 
 
 def get_bottom_n(n, data):
-    if len(data) <= n:
-        return []
-    elif len(data) - n <= n:
-        return list(data.items())[-(len(data)-n):]
     return list(data.items())[-n:]
