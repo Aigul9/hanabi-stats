@@ -100,6 +100,25 @@ def assign_weights(username, tb_list, global_type):
             global_ranking[username][2].append(pl)
 
 
+def assign_pref(username, pref_list):
+    for pl, v in pref_list.items():
+        if pl not in global_pref:
+            global_pref[pl] = 0
+        else:
+            global_pref[pl] += v
+
+
+def save_pref(data):
+    with open('../output/preference.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Username', 'Preference'])
+        for k, v in data.items():
+            w.writerow([
+                k,
+                round(v, 2)
+            ])
+
+
 def global_sort(global_list):
     return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1][0]))}
 
@@ -113,6 +132,7 @@ results = {}
 results_var = {}
 results_var_not = {}
 global_ranking = {k: [0, [], []] for k in users}
+global_pref = {k: 0 for k in users}
 top = 5
 rank_all_players = {k: [] for k in users}
 for u in users:
@@ -132,35 +152,41 @@ for u in users:
     # wl.save_players_dict(u, players_dict)
     # get top 10
     list_for_tops = wl.get_overall_wr(u, players_list)
-    mi = math.ceil(len(list_for_tops) / 2)
-    first_half = dict(list(list_for_tops.items())[:mi])
-    second_half = dict(list(list_for_tops.items())[mi:])
-    try:
-        if len(list_for_tops) % 2 != 0:
-            wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
-            p_cur = list(list_for_tops)[mi - 1]
-            wl_cur = list_for_tops[p_cur]['wl']
-            wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
-            if wl_prev - wl_cur > wl_cur - wl_next:
-                del first_half[p_cur]
-                second_half[p_cur] = list_for_tops[p_cur]
-    except IndexError:
-        pass
-    list_top_n = wl.get_top_n(top, first_half)
-    list_bottom_n = wl.get_bottom_n(top, second_half)
-    rank_all_players[u] = [list_top_n, list_bottom_n]
-    assign_weights(u, list_top_n, 'top')
-    assign_weights(u, list_bottom_n, 'bottom')
+    # mi = math.ceil(len(list_for_tops) / 2)
+    # first_half = dict(list(list_for_tops.items())[:mi])
+    # second_half = dict(list(list_for_tops.items())[mi:])
+    # try:
+    #     if len(list_for_tops) % 2 != 0:
+    #         wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
+    #         p_cur = list(list_for_tops)[mi - 1]
+    #         wl_cur = list_for_tops[p_cur]['wl']
+    #         wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
+    #         if wl_prev - wl_cur > wl_cur - wl_next:
+    #             del first_half[p_cur]
+    #             second_half[p_cur] = list_for_tops[p_cur]
+    # except IndexError:
+    #     pass
+    # list_top_n = wl.get_top_n(top, first_half)
+    # list_bottom_n = wl.get_bottom_n(top, second_half)
+    # rank_all_players[u] = [list_top_n, list_bottom_n]
+    # assign_weights(u, list_top_n, 'top')
+    # assign_weights(u, list_bottom_n, 'bottom')
+    # preferences: {player: preference}
+    pref = wl.get_preference(list_for_tops)
+    assign_pref(u, pref)
+
 
 print('Data is generated.')
 
-save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-save_to_tsv('up_to_date_stats', results)
-save_wr('all', results)
-save_wr('bga', results_var)
-save_wr('non_speedrun', results_var_not)
+# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
+# save_to_tsv('up_to_date_stats', results)
+# save_wr('all', results)
+# save_wr('bga', results_var)
+# save_wr('non_speedrun', results_var_not)
 
-save_ranking(global_sort(global_ranking))
+# save_ranking(global_sort(global_ranking))
+global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
+save_pref(global_pref)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))

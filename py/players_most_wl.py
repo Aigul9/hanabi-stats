@@ -60,12 +60,7 @@ def save_players_dict(username, data):
 
 def get_overall_wr(username, players):
     results = {}
-    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
-    stats_3 = list(itertools.chain.from_iterable([
-        c.get_filtered_by_var_not(list_easy),
-        c.get_filtered_by_var_not(list_null),
-        c.get_filtered_by_var_not(list_sd)])
-    )
+    stats_3 = filter_var(username)
     for p in players:
         p_wins = c.get_wins(get_filtered_by_player(p, stats_3))
         p_losses = c.get_losses(get_filtered_by_player(p, stats_3))
@@ -75,6 +70,23 @@ def get_overall_wr(username, players):
         p_ratio = c.p(p_wins, p_losses)
         results[p] = {'wl': p_ratio, 'total': p_total}
     return sort_by_wl_games(results)
+
+
+def get_preference(players_by_wl):
+    results = {}
+    ld = len(players_by_wl)
+    for p in players_by_wl.keys():
+        results[p] = (ld - list(players_by_wl.keys()).index(p) - 1) / ld
+    return results
+
+
+def filter_var(username):
+    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    return list(itertools.chain.from_iterable([
+        c.get_filtered_by_var_not(list_easy),
+        c.get_filtered_by_var_not(list_null),
+        c.get_filtered_by_var_not(list_sd)])
+    )
 
 
 def sort_by_wl_games(data):
