@@ -103,9 +103,10 @@ def assign_weights(username, tb_list, global_type):
 def assign_pref(username, pref_list):
     for pl, v in pref_list.items():
         if pl not in global_pref:
-            global_pref[pl] = 0
+            global_pref[pl] = [0, 0]
         else:
-            global_pref[pl] += v
+            global_pref[pl][0] += v
+            global_pref[pl][1] += 1
 
 
 def save_pref(data):
@@ -113,10 +114,15 @@ def save_pref(data):
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Preference'])
         for k, v in data.items():
-            w.writerow([
-                k,
-                round(v, 2)
-            ])
+            w.writerow([k, v])
+
+
+def update_avg_pref():
+    for k, v in global_pref.items():
+        try:
+            global_pref[k] = round(v[0] / v[1], 2)
+        except ZeroDivisionError:
+            global_pref[k] = -1
 
 
 def global_sort(global_list):
@@ -132,7 +138,8 @@ results = {}
 results_var = {}
 results_var_not = {}
 global_ranking = {k: [0, [], []] for k in users}
-global_pref = {k: 0 for k in users}
+# preference - count
+global_pref = {k: [0, 0] for k in users}
 top = 5
 rank_all_players = {k: [] for k in users}
 for u in users:
@@ -185,6 +192,7 @@ print('Data is generated.')
 # save_wr('non_speedrun', results_var_not)
 
 # save_ranking(global_sort(global_ranking))
+update_avg_pref()
 global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
 save_pref(global_pref)
 
