@@ -62,8 +62,8 @@ def get_overall_wr(username, players):
     results = {}
     stats_3 = filter_var(username)
     for p in players:
-        p_wins = c.get_wins(c.get_list_3p(get_filtered_by_player(p, stats_3)))
-        p_losses = c.get_losses(c.get_list_3p(get_filtered_by_player(p, stats_3)))
+        p_wins = c.get_wins(get_filtered_by_player(p, stats_3))
+        p_losses = c.get_losses(get_filtered_by_player(p, stats_3))
         p_total = p_wins + p_losses
         if p_total <= 100:
             continue

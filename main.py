@@ -63,7 +63,7 @@ def save_wr(filename, data):
 
 
 def save_ranking(data):
-    with open('../output/rank_3p_avg.tsv', 'w', newline='') as file:
+    with open('../output/rank_avg.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
         for k, v in data.items():
