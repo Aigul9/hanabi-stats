@@ -63,7 +63,7 @@ def save_wr(filename, data):
 
 
 def save_ranking(data):
-    with open('../output/rank_avg.tsv', 'w', newline='') as file:
+    with open('../output/rank_2p_avg.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
         for k, v in data.items():
@@ -79,13 +79,9 @@ def save_ranking(data):
                 list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
             list_top = ['none'] if len(list_top) == 0 else list_top
             list_bottom = ['none'] if len(list_bottom) == 0 else list_bottom
-            try:
-                avg = round(v[0] / v[3], 2)
-            except ZeroDivisionError:
-                avg = 0
             w.writerow([
                 k,
-                avg,
+                v[0],
                 ', '.join(list_top),
                 ', '.join(list_bottom)
             ])
@@ -129,6 +125,14 @@ def update_avg_pref():
             global_pref[k] = round(v[0] / v[1], 2)
         except ZeroDivisionError:
             global_pref[k] = -1
+
+
+def update_avg_rank():
+    for k, v in global_ranking.items():
+        try:
+            global_ranking[k][0] = round(v[0] / v[3], 2)
+        except ZeroDivisionError:
+            global_ranking[k][0] = 0
 
 
 def global_sort(global_list):
@@ -197,7 +201,9 @@ print('Data is generated.')
 # save_wr('bga', results_var)
 # save_wr('non_speedrun', results_var_not)
 
+update_avg_rank()
 save_ranking(global_sort(global_ranking))
+
 # update_avg_pref()
 # global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
 # save_pref(global_pref)
