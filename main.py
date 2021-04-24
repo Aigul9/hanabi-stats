@@ -63,7 +63,7 @@ def save_wr(filename, data):
 
 
 def save_ranking(data):
-    with open('../output/rank_3p+.tsv', 'w', newline='') as file:
+    with open('../output/rank_avg.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
         for k, v in data.items():
@@ -79,9 +79,13 @@ def save_ranking(data):
                 list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
             list_top = ['none'] if len(list_top) == 0 else list_top
             list_bottom = ['none'] if len(list_bottom) == 0 else list_bottom
+            try:
+                avg = round(v[0] / v[3], 2)
+            except ZeroDivisionError:
+                avg = 0
             w.writerow([
                 k,
-                v[0],
+                avg,
                 ', '.join(list_top),
                 ', '.join(list_bottom)
             ])
@@ -91,13 +95,15 @@ def assign_weights(username, tb_list, global_type):
     for pl in tb_list:
         if pl not in global_ranking:
             global_ranking[pl] = []
-            global_ranking[pl] = [0, [], []]
+            global_ranking[pl] = [0, [], [], 0]
         if global_type == 'top':
             global_ranking[pl][0] += len(tb_list) - list(tb_list.keys()).index(pl)
             global_ranking[username][1].append(pl)
+            global_ranking[pl][3] += 1
         elif global_type == 'bottom':
             global_ranking[pl][0] -= list(tb_list.keys()).index(pl) + 1
             global_ranking[username][2].append(pl)
+            global_ranking[pl][3] += 1
 
 
 def assign_pref(username, pref_list):
@@ -137,7 +143,7 @@ with open('../input/list_of_players.txt', 'r') as f:
 results = {}
 results_var = {}
 results_var_not = {}
-global_ranking = {k: [0, [], []] for k in users}
+global_ranking = {k: [0, [], [], 0] for k in users}
 # preference - count
 global_pref = {k: [0, 0] for k in users}
 top = 5
