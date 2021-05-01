@@ -1,5 +1,8 @@
 import csv
 import itertools
+
+import numpy as np
+import pandas as pd
 import py.calc as c
 
 
@@ -104,3 +107,36 @@ def get_bottom_n(n, data):
     data = sort_by_wl_games(data)
     di = min(len(data), n)
     return dict(list(data.items())[-di:])
+
+
+def group_by_teams(username):
+    # df = pd.read_csv(f'../temp/{username}_stats.txt', delimiter='\t')
+    # df.columns = ["game_id", "count", "score", "variant", "date", "players",
+    #               "other_scores", "suits", "max_score"]
+    # teams = np.where((df['score'] == df['max_score']), 'Win', 'Lose')
+    # # print(teams)
+    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    results = {}
+    # df = pd.DataFrame(main_stats, columns=("game_id", "count", "score", "variant", "date", "players",
+    #                                        "other_scores", "suits", "max_score"))
+    for row in main_stats:
+        p = row.players
+        if p not in results:
+            results[p] = {'win': 0, 'loss': 0, 'total': 0}
+        if row.score == row.max_score:
+            results[p]['win'] += 1
+        else:
+            results[p]['loss'] += 1
+        results[p]['total'] += 1
+    # print(results)
+    # results = {k: v for k, v in results.items() if v['total'] >= 50}
+    return {k: v for k, v in results.items() if v['total'] >= 50}
+    # return {k: v for k, v in
+    #         sorted(results.items(), key=lambda item: -(round(item[1]['win'] / item[1]['loss'] * 100, 2)))
+    #         if v['total'] >= 50}
+    #     print(row.players)
+    # print(df.groupby('players').count().sort_values(['count'], ascending=False))
+    # print(df.groupby('players'))
+    # .filter(lambda x: (x['score'] == x['max_score']).any()).count())
+    # .count().sort_values(['count'], ascending=False))
+    # return df.groupby("players")
