@@ -2,7 +2,7 @@
 
 The program parses users' statistics from https://hanab.live/, calculates percentage of winnings and losings for each type of variants (easy, single dark, double dark, easy null variants which are neither single nor double dark), filters it by each player, gets highest winrate and saves all statistics to the files in tsv format.
 
-Last available results can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output) (22/04/2021).<br/>
+Last available results can be found here: [click](https://github.com/Aigul9/hanabi-stats/blob/master/output) (02/05/2021).<br/>
 
 ## Stack of technologies
 - [Python 3.9](https://www.python.org/)
@@ -16,10 +16,10 @@ Last available results can be found here: [click](https://github.com/Aigul9/hana
 
 ## Output content
 - ```filtered_by_players```: list of teammates sorted by win/loss ratio with at least 20 games in total;
-- ```highest_wr_all.tsv```: total winrate;
-- ```highest_wr_bga.tsv```: statistics for bga variants;
-- ```highest_wr_not_bga.tsv```: statistics for non-speedrun variants;
-- ```rank.tsv```: global hanabi rank ([see below](#rank-calculation-algorithm)) and lists of top 5 / bottom 5 teammates;
+- ```wr```: winrate using different sets of variants;
+- ```rank```: global hanabi rank ([see below](#rank-calculation-algorithm));
+- ```preference.tsv```: weighted sum of positions in the lists of other players;
+- ```teams_wr.tsv```: best hanabi teams by wr (>= 50 games, excluding speedrun variants);
 - ```up_to_date_stats.tsv```: total statistics group by variant types.
 
 ## Types of variants
