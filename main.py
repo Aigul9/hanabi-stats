@@ -197,7 +197,7 @@ top = 5
 rank_all_players = {k: [] for k in users}
 global_teams = {}
 global_hours = {}
-hours_header = [wl.add_zero(i) for i in range(0, 25)]
+hours_header = [wl.add_zero(i) for i in range(0, 24)]
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
