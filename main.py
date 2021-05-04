@@ -133,7 +133,7 @@ def save_hours(data):
         hours_header = [wl.add_zero(i) for i in range(0, 25)]
         w.writerow(['Player: WR (Total games)'] + hours_header)
         for k in data.keys():
-            w.writerow([k] + [str(data[k][h]['win']) + f' ({data[k][h]["total"]})' for h in hours_header])
+            w.writerow([k] + [str(data[k][h]['win']) + f'% ({data[k][h]["total"]})' for h in hours_header])
 
 
 def update_avg_pref():
