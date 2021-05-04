@@ -170,12 +170,14 @@ def save_plots(data):
         n = [v[key]['total'] for key in v.keys()]
         plt.figure(figsize=(12, 5))
         plt.xlabel('Hours (UTC)')
-        plt.ylabel('Win/loss ratio (%)')
-        plt.scatter(x, y)
-        for i, txt in enumerate(n):
-            plt.annotate(txt, (x[i], y[i]))
-        plt.plot(x, y)
-        plt.savefig(f'../output/plots/{k}.png')
+        # plt.ylabel('Win/loss ratio (%)')
+        plt.ylabel('Total games (#)')
+        plt.scatter(x, n)
+        for i, txt in enumerate(y):
+            plt.annotate(txt, (x[i], n[i]))
+        plt.title('Win/loss ratio (%)')
+        plt.plot(x, n)
+        plt.savefig(f'../output/plots/totals_hours/{k}.png')
 
 
 def global_sort(global_list, ind_col):
