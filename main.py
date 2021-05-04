@@ -168,7 +168,7 @@ def save_plots(data):
         x = hours_header
         y = [v[key]['win'] for key in v.keys()]
         n = [v[key]['total'] for key in v.keys()]
-        plt.figure(figsize=(6, 4))
+        plt.figure(figsize=(10, 5))
         plt.xlabel('Hours (UTC)')
         plt.ylabel('Win/loss ratio (%)')
         plt.scatter(x, y)
