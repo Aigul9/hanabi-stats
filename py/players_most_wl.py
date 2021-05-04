@@ -122,7 +122,7 @@ def get_hours(username):
     main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
     hours_header = [add_zero(i) for i in range(0, 25)]
     hours = {key: {'win': 0, 'loss': 0, 'total': 0} for key in hours_header}
-    for row in main_stats:
+    for row in c.get_filtered_by_var_not(main_stats):
         hour = row.date[15:17]
         hours = form_totals_dict(hour, hours, row)
     return hours
