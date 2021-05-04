@@ -6,6 +6,7 @@ import py.players as pl
 import py.calc as c
 import py.players_most_wl as wl
 from datetime import datetime
+from matplotlib import pyplot as plt
 
 
 def r(num):
@@ -130,7 +131,6 @@ def save_wr(data, filename, column):
 def save_hours(data):
     with open(f'../output/hours_wr.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        hours_header = [wl.add_zero(i) for i in range(0, 25)]
         w.writerow(['Player: WR (Total games)'] + hours_header)
         for k in data.keys():
             w.writerow([k] + [str(data[k][h]['win']) + f'% ({data[k][h]["total"]})' for h in hours_header])
@@ -163,6 +163,21 @@ def update_hours(data, ind_key, ind_val):
     return data
 
 
+def save_plots(data):
+    for k, v in data.items():
+        x = hours_header
+        y = [v[key]['win'] for key in v.keys()]
+        n = [v[key]['total'] for key in v.keys()]
+        plt.figure()
+        plt.xlabel('Hours (UTC)')
+        plt.ylabel('Win/loss ratio (%)')
+        plt.scatter(x, y)
+        for i, txt in enumerate(n):
+            plt.annotate(txt, (x[i], y[i]))
+        plt.plot(x, y)
+        plt.savefig(f'../output/plots/{k}.png')
+
+
 def global_sort(global_list, ind_col):
     return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1][ind_col]))}
 
@@ -182,6 +197,7 @@ top = 5
 rank_all_players = {k: [] for k in users}
 global_teams = {}
 global_hours = {}
+hours_header = [wl.add_zero(i) for i in range(0, 25)]
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -247,6 +263,7 @@ print('Data is generated.')
 
 global_hours = update_hours(global_hours, 'win', 'loss')
 save_hours(global_hours)
+save_plots(global_hours)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
