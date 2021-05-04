@@ -131,7 +131,7 @@ def save_hours(data):
     with open(f'../output/hours_wr.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         hours_header = [wl.add_zero(i) for i in range(0, 25)]
-        w.writerow(['Player'] + hours_header)
+        w.writerow(['Player: WR (Total games)'] + hours_header)
         for k in data.keys():
             w.writerow([k] + [str(data[k][h]['win']) + f' ({data[k][h]["total"]})' for h in hours_header])
 
