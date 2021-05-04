@@ -114,11 +114,33 @@ def group_by_teams(username):
     results = {}
     for row in c.get_filtered_by_var_not(main_stats):
         p = row.players
-        if p not in results:
-            results[p] = {'win': 0, 'loss': 0, 'total': 0}
-        if row.score == row.max_score:
-            results[p]['win'] += 1
-        else:
-            results[p]['loss'] += 1
-        results[p]['total'] += 1
+        results = form_totals_dict(p, results, row)
     return {k: v for k, v in results.items() if v['total'] >= 50}
+
+
+def get_hours(username):
+    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    hours_header = [add_zero(i) for i in range(0, 25)]
+    hours = {key: {'win': 0, 'loss': 0, 'total': 0} for key in hours_header}
+    for row in main_stats:
+        hour = row.date[15:17]
+        hours = form_totals_dict(hour, hours, row)
+    return hours
+
+
+def form_totals_dict(item, totals_dict, row):
+    if item not in totals_dict:
+        totals_dict[item] = {'win': 0, 'loss': 0, 'total': 0}
+    if row.score == row.max_score:
+        totals_dict[item]['win'] += 1
+    else:
+        totals_dict[item]['loss'] += 1
+    totals_dict[item]['total'] += 1
+    return totals_dict
+
+
+def add_zero(hour):
+    if hour < 10:
+        return '0' + str(hour)
+    else:
+        return str(hour)

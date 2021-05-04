@@ -119,12 +119,21 @@ def save_pref(data):
             w.writerow([k, v])
 
 
-def save_teams(data):
-    with open('../output/teams_wr.tsv', 'w', newline='') as file:
+def save_wr(data, filename, column):
+    with open(f'../output/{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Teams', 'WR', 'Total games'])
+        w.writerow([column, 'WR', 'Total games'])
         for k, v in data.items():
             w.writerow([k, v['win'], v['total']])
+
+
+def save_hours(data):
+    with open(f'../output/hours_wr.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        hours_header = [wl.add_zero(i) for i in range(0, 25)]
+        w.writerow(['Player'] + hours_header)
+        for k in data.keys():
+            w.writerow([k] + [str(data[k][h]['win']) + f' ({data[k][h]["total"]})' for h in hours_header])
 
 
 def update_avg_pref():
@@ -135,28 +144,27 @@ def update_avg_pref():
             global_pref[k] = -1
 
 
-def update_avg_rank():
-    for k, v in global_ranking.items():
+def update_wr(data, ind_key, ind_val):
+    for k, v in data.items():
         try:
-            global_ranking[k][0] = round(v[0] / v[3], 2)
+            data[k][ind_key] = round(v[ind_key] / v[ind_val], 2) * 100
         except ZeroDivisionError:
-            global_ranking[k][0] = 0
+            data[k][ind_key] = 0
+    return data
 
 
-def update_teams():
-    for k, v in global_teams.items():
-        try:
-            global_teams[k]['win'] = round(v['win'] / v['loss'], 2)
-        except ZeroDivisionError:
-            global_teams[k]['win'] = 0
+def update_hours(data, ind_key, ind_val):
+    for k, v in data.items():
+        for k1, v1 in v.items():
+            try:
+                data[k][k1][ind_key] = round(v1[ind_key] * 100 / v1[ind_val], 2)
+            except ZeroDivisionError:
+                data[k][k1][ind_key] = 0
+    return data
 
 
-def global_sort(global_list):
-    return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1][0]))}
-
-
-def global_sort_teams(global_list):
-    return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1]['win']))}
+def global_sort(global_list, ind_col):
+    return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1][ind_col]))}
 
 
 start = time.time()
@@ -173,67 +181,72 @@ global_pref = {k: [0, 0] for k in users}
 top = 5
 rank_all_players = {k: [] for k in users}
 global_teams = {}
+global_hours = {}
 for u in users:
-    # parsing
-    history_table = prs.get_history_table(u)
-    items = prs.get_stats(history_table)
-    prs.save_stats(items, u)
-    prs.save_list_of_players(items, u)
-    # set of players
-    pl.save_players_list(pl.create_players_set(u), u)
-    results[u] = c.get_all_stats(u, 'all')
-    results_var[u] = c.get_all_stats(u, 'bga')
-    results_var_not[u] = c.get_all_stats(u, 'non speedrun')
-    # group by players
-    players_list = wl.get_players_list(u)
-    players_dict = wl.get_players_dict(u, players_list)
-    wl.save_players_dict(u, players_dict)
-    # get top 10
-    list_for_tops = wl.get_overall_wr(u, players_list)
-    mi = math.ceil(len(list_for_tops) / 2)
-    first_half = dict(list(list_for_tops.items())[:mi])
-    second_half = dict(list(list_for_tops.items())[mi:])
-    try:
-        if len(list_for_tops) % 2 != 0:
-            wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
-            p_cur = list(list_for_tops)[mi - 1]
-            wl_cur = list_for_tops[p_cur]['wl']
-            wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
-            if wl_prev - wl_cur > wl_cur - wl_next:
-                del first_half[p_cur]
-                second_half[p_cur] = list_for_tops[p_cur]
-    except IndexError:
-        pass
-    list_top_n = wl.get_top_n(top, first_half)
-    list_bottom_n = wl.get_bottom_n(top, second_half)
-    rank_all_players[u] = [list_top_n, list_bottom_n]
-    assign_weights(u, list_top_n, 'top')
-    assign_weights(u, list_bottom_n, 'bottom')
-    # preferences: {player: preference}
-    pref = wl.get_preference(list_for_tops)
-    assign_pref(u, pref)
-    # group by teams
-    teams = wl.group_by_teams(u)
-    global_teams = global_teams | teams
+    # # parsing
+    # history_table = prs.get_history_table(u)
+    # items = prs.get_stats(history_table)
+    # prs.save_stats(items, u)
+    # prs.save_list_of_players(items, u)
+    # # set of players
+    # pl.save_players_list(pl.create_players_set(u), u)
+    # results[u] = c.get_all_stats(u, 'all')
+    # results_var[u] = c.get_all_stats(u, 'bga')
+    # results_var_not[u] = c.get_all_stats(u, 'non speedrun')
+    # # group by players
+    # players_list = wl.get_players_list(u)
+    # players_dict = wl.get_players_dict(u, players_list)
+    # wl.save_players_dict(u, players_dict)
+    # # get top 10
+    # list_for_tops = wl.get_overall_wr(u, players_list)
+    # mi = math.ceil(len(list_for_tops) / 2)
+    # first_half = dict(list(list_for_tops.items())[:mi])
+    # second_half = dict(list(list_for_tops.items())[mi:])
+    # try:
+    #     if len(list_for_tops) % 2 != 0:
+    #         wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
+    #         p_cur = list(list_for_tops)[mi - 1]
+    #         wl_cur = list_for_tops[p_cur]['wl']
+    #         wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
+    #         if wl_prev - wl_cur > wl_cur - wl_next:
+    #             del first_half[p_cur]
+    #             second_half[p_cur] = list_for_tops[p_cur]
+    # except IndexError:
+    #     pass
+    # list_top_n = wl.get_top_n(top, first_half)
+    # list_bottom_n = wl.get_bottom_n(top, second_half)
+    # rank_all_players[u] = [list_top_n, list_bottom_n]
+    # assign_weights(u, list_top_n, 'top')
+    # assign_weights(u, list_bottom_n, 'bottom')
+    # # preferences: {player: preference}
+    # pref = wl.get_preference(list_for_tops)
+    # assign_pref(u, pref)
+    # # group by teams
+    # teams = wl.group_by_teams(u)
+    # global_teams = global_teams | teams
+    global_hours[u] = wl.get_hours(u)
 
 
 print('Data is generated.')
 
-save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-save_to_tsv('up_to_date_stats', results)
-save_wr('all', results)
-save_wr('bga', results_var)
-save_wr('non_speedrun', results_var_not)
+# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
+# save_to_tsv('up_to_date_stats', results)
+# save_wr('all', results)
+# save_wr('bga', results_var)
+# save_wr('non_speedrun', results_var_not)
+#
+# global_ranking = update_wr(global_ranking, 0, 3)
+# save_ranking(global_sort(global_ranking, 0))
+#
+# update_avg_pref()
+# global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
+# save_pref(global_pref)
 
-update_avg_rank()
-save_ranking(global_sort(global_ranking))
+# global_teams = update_wr(global_teams, 'win', 'loss')
+# save_teams(global_sort(global_teams, 'win'), 'teams_wr', 'Team')
 
-update_avg_pref()
-global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
-save_pref(global_pref)
-
-update_teams()
-save_teams(global_sort_teams(global_teams))
+global_hours = update_hours(global_hours, 'win', 'loss')
+save_hours(global_hours)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
