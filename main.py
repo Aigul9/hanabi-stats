@@ -189,8 +189,10 @@ def save_purples(data):
     with open(f'output/purples.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Players', '# with purples'])
+        purples_list = purples.get_purples()
         for k, v in data.items():
-            w.writerow([k, v])
+            if k not in purples_list:
+                w.writerow([k, v])
 
 
 start = time.time()
