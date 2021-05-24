@@ -14,6 +14,7 @@ with open('../resources/1oE_variants.txt', 'r') as f:
     for line in f.readlines():
         unique_var.append(line.strip())
 
+
 with open('../resources/variants.txt', 'r') as f:
     all_var = []
     for line in f.readlines():
@@ -56,3 +57,9 @@ with open('../resources/variant_types.txt', 'w') as f:
     for row in all_var:
         v, d, t = __iter__(row)
         f.write('{}\t{}\t{}\n'.format(v, d, t))
+
+# all_var.sort(key=lambda var: len(var.variant), reverse=True)
+# with open('../resources/variants_sorted.txt', 'w') as f:
+#     for row in all_var:
+#         v, d, t = __iter__(row)
+#         f.write('{}\t{}\n'.format(v, len(v)))

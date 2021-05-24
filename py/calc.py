@@ -63,7 +63,7 @@ def get_list_3p(stat_list):
 
 
 def open_stats(username):
-    with open(f'../temp/{username}_stats.txt', 'r') as f:
+    with open(f'temp/{username}_stats.txt', 'r') as f:
         return [UserStat(*line.rstrip().split('\t')) for line in f.readlines()]
 
 

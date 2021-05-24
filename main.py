@@ -4,6 +4,7 @@ import math
 import py.parsing as prs
 import py.players as pl
 import py.calc as c
+import py.purples as purples
 import py.players_most_wl as wl
 from datetime import datetime
 from matplotlib import pyplot as plt
@@ -184,9 +185,17 @@ def global_sort(global_list, ind_col):
     return {k: v for k, v in sorted(global_list.items(), key=lambda item: (-item[1][ind_col]))}
 
 
+def save_purples(data):
+    with open(f'output/purples.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Players', '# with purples'])
+        for k, v in data.items():
+            w.writerow([k, v])
+
+
 start = time.time()
 print('Start time:', datetime.now())
-with open('../input/list_of_players.txt', 'r') as f:
+with open('input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 results = {}
@@ -200,6 +209,7 @@ rank_all_players = {k: [] for k in users}
 global_teams = {}
 global_hours = {}
 hours_header = [wl.add_zero(i) for i in range(0, 24)]
+global_purples = {}
 for u in users:
     # # parsing
     # history_table = prs.get_history_table(u)
@@ -242,7 +252,8 @@ for u in users:
     # # group by teams
     # teams = wl.group_by_teams(u)
     # global_teams = global_teams | teams
-    global_hours[u] = wl.get_hours(u)
+    # global_hours[u] = wl.get_hours(u)
+    global_purples[u] = purples.count_purples(u)
 
 
 print('Data is generated.')
@@ -263,9 +274,12 @@ print('Data is generated.')
 # global_teams = update_wr(global_teams, 'win', 'loss')
 # save_teams(global_sort(global_teams, 'win'), 'teams_wr', 'Team')
 
-global_hours = update_hours(global_hours, 'win', 'loss')
-save_hours(global_hours)
-save_plots(global_hours)
+# global_hours = update_hours(global_hours, 'win', 'loss')
+# save_hours(global_hours)
+# save_plots(global_hours)
+
+global_purples = {k: v for k, v in sorted(global_purples.items(), key=lambda item: -item[1])}
+save_purples(global_purples)
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))

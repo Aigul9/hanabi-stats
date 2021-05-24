@@ -1,8 +1,5 @@
 import csv
 import itertools
-
-import numpy as np
-import pandas as pd
 import py.calc as c
 
 
@@ -110,7 +107,8 @@ def get_bottom_n(n, data):
 
 
 def group_by_teams(username):
-    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    main_stats = c.open_stats(username)
+    # main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
     results = {}
     for row in c.get_filtered_by_var_not(main_stats):
         p = row.players
@@ -119,7 +117,8 @@ def group_by_teams(username):
 
 
 def get_hours(username):
-    main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
+    main_stats = c.open_stats(username)
+    # main_stats, list_easy, list_null, list_sd, list_dd = c.group_stats_by_eff(username)
     hours_header = [add_zero(i) for i in range(0, 24)]
     hours = {key: {'win': 0, 'loss': 0, 'total': 0} for key in hours_header}
     for row in c.get_filtered_by_var_not(main_stats):
