@@ -8,7 +8,7 @@ def get_purples():
 
 def count_purples(username):
     k = 0
-    main_stats = c.open_stats(username)
+    main_stats = c.get_list_3p(c.open_stats(username))
     purples = get_purples()
     for game in main_stats:
         if any(p in game.players for p in purples) and username not in purples:
