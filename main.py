@@ -282,6 +282,7 @@ print('Data is generated.')
 
 global_purples = {k: v for k, v in sorted(global_purples.items(), key=lambda item: -item[1])}
 save_purples(global_purples)
+purples.get_games('Valetta6789')
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
