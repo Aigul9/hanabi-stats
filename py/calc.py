@@ -1,3 +1,6 @@
+from datetime import datetime
+
+
 class UserStat:
     def __init__(self, game_id, count, score, variant, date, players, other_scores, suits, max_score):
         self.game_id = game_id
@@ -63,7 +66,7 @@ def get_list_3p(stat_list):
 
 
 def open_stats(username):
-    with open(f'temp/{username}_stats.txt', 'r') as f:
+    with open(f'../temp/{username}_stats.txt', 'r') as f:
         return [UserStat(*line.rstrip().split('\t')) for line in f.readlines()]
 
 
@@ -130,3 +133,15 @@ def get_filtered_by_var_not(stats):
         'White Reversed (6 Suits)',
         'Dark Rainbow (6 Suits)'
     )]
+
+
+def get_games_by_month(username):
+    stats = get_list_3p(open_stats(username))
+    months = {}
+    for game in stats:
+        d_game = game.date[:7]
+        if d_game in months:
+            months[d_game] += 1
+        else:
+            months[d_game] = 1
+    return dict(sorted(months.items()))

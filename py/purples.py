@@ -41,3 +41,21 @@ def filter_purple_games(username):
 def count_purples(username):
     games = filter_purple_games(username)
     return len(games)
+
+
+def get_teachers(username):
+    stats = c.open_stats(username)
+    d_end = datetime(2019, 10, 20)
+    teachers = {}
+    for game in stats:
+        d_game = datetime.strptime(game.date[:10], '%Y-%m-%d')
+        if d_game < d_end:
+            t_list = game.players.split(', ')
+            t_list.remove(username)
+            for t in t_list:
+                if t in teachers:
+                    teachers[t] += 1
+                else:
+                    teachers[t] = 0
+    teachers = dict(sorted(teachers.items(), key=lambda item: -item[1]))
+    print(teachers)

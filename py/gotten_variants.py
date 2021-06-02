@@ -20,12 +20,18 @@ def get_gotten_vars(username):
     stats.sort(key=lambda x: x.game_id)
     for game in stats:
         v = game.variant
+        k = game.count
         if v not in all_vars:
+            all_vars[v] = {'2': 'n', '3': 'n', '4': 'n', '5': 'n', '6': 'n'}
             if game.score == game.max_score:
-                all_vars[v] = 'gotten'
+                all_vars[v][k] = 'y'
             else:
-                all_vars[v] = 'not gotten'
+                all_vars[v][k] = 'n'
+    count = 0
     for k, v in sorted(all_vars.items()):
-        if v == 'gotten':
-            print(k, end='\n')
-    print(len([all_vars for i in all_vars if all_vars[i] == 'gotten']))
+        for i in v:
+            # print(k, v, i)
+            if v[i] == 'y':
+                count += 1
+                print(k, end='\n')
+    print(count)
