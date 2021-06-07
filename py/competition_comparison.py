@@ -54,6 +54,10 @@ def join_teams(teams):
     return ', '.join(teams)
 
 
+def id_to_link(game_id):
+    return f'hanab.live/replay/{game_id}'
+
+
 def combine_dict(stats):
     combined_stats = {}
     for seed in stats[0].keys():
@@ -75,6 +79,7 @@ def save_row(all_stats):
             for s in all_stats:
                 stats_list = s[k]
                 stats_list['team'] = join_teams(stats_list['team'])
+                stats_list['game_id'] = id_to_link(stats_list['game_id'])
                 stats_list = update_clue(stats_list)
                 stats_list = list(stats_list.values())
                 stats_list.append(k)
@@ -94,7 +99,10 @@ def save_column(combined_stats):
                 teams.append(join_teams(team))
             w.writerow(['Team', *teams])
             w.writerow(['Seed', k, k])
-            w.writerow(['Game id', *v['game_id']])
+            links = []
+            for game_id in v['game_id']:
+                links.append(id_to_link(game_id))
+            w.writerow(['Link', *links])
             w.writerow(['Turns', *v['turns']])
             w.writerow(['Play', *v[0]])
             w.writerow(['Discard', *v[1]])
@@ -105,6 +113,5 @@ def save_column(combined_stats):
 lib_games, val_games = load_games()
 lib_stats = generate_stats(lib_games)
 val_stats = generate_stats(val_games)
-# save_row([lib_stats, val_stats])
+save_row([lib_stats, val_stats])
 save_column(combine_dict([lib_stats, val_stats]))
-
