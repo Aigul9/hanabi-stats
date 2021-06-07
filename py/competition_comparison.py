@@ -89,11 +89,11 @@ def save_column(combined_stats):
             header.append(f'Team {str(i)}')
         w.writerow(['Column', *header])
         for k, v in combined_stats.items():
-            w.writerow(['Seed', k, k])
             teams = []
             for team in v['team']:
                 teams.append(join_teams(team))
-            w.writerow(['Teams', *teams])
+            w.writerow(['Team', *teams])
+            w.writerow(['Seed', k, k])
             w.writerow(['Game id', *v['game_id']])
             w.writerow(['Turns', *v['turns']])
             w.writerow(['Play', *v[0]])
