@@ -56,11 +56,13 @@ def combine_dict(stats):
 def save(all_stats):
     with open(f'../output/comp_comparison.tsv', 'w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
-        w.writerow(['Team', 'Game id', 'Turns', 'Play', 'Discard', 'Color clue', 'Rank clue', 'Seed'])
+        w.writerow(['Team', 'Game id', 'Turns', 'Play', 'Discard', 'Clue', 'Seed'])
         for k in all_stats[0].keys():
             for i in range(len(all_stats)):
                 stats_list = all_stats[i][k]
                 stats_list['team'] = ', '.join(stats_list['team'])
+                stats_list[2] = stats_list[2] + stats_list[3]
+                del stats_list[3]
                 stats_list = list(stats_list.values())
                 stats_list.append(k)
                 w.writerow(stats_list)
