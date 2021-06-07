@@ -34,10 +34,13 @@ def generate_stats(ids):
     for i in ids:
         game = export_game(i)
         actions = game['actions']
-        stats['team'] = game['players']
-        stats['turns'] = len(actions)
+        seed = game['seed']
+        stats[seed] = {}
+        stats[seed]['team'] = game['players']
+        stats[seed]['game_id'] = game['id']
+        stats[seed]['turns'] = len(actions)
         for t in action_types:
-            stats[t] = get_action_type_length(actions, t)
+            stats[seed][t] = get_action_type_length(actions, t)
     return stats
 
 
@@ -53,15 +56,19 @@ def combine_dict(stats):
 def save(all_stats):
     with open(f'../output/comp_comparison.tsv', 'w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
-        w.writerow(['Team', 'Turns', 'Play', 'Discard', 'Color clue', 'Rank clue'])
-        for stats in all_stats:
-            stats_list = list(stats.values())
-            stats_list[0] = ', '.join(stats_list[0])
-            w.writerow(stats_list)
+        w.writerow(['Team', 'Game id', 'Turns', 'Play', 'Discard', 'Color clue', 'Rank clue', 'Seed'])
+        for k in all_stats[0].keys():
+            for i in range(len(all_stats)):
+                stats_list = all_stats[i][k]
+                stats_list['team'] = ', '.join(stats_list['team'])
+                stats_list = list(stats_list.values())
+                stats_list.append(k)
+                w.writerow(stats_list)
 
 
 lib_games, val_games = load_games()
 lib_stats = generate_stats(lib_games)
 val_stats = generate_stats(val_games)
+# print(lib_stats)
 save([lib_stats, val_stats])
 
