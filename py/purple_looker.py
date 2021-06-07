@@ -28,7 +28,7 @@ def group_stats(stats):
 
 
 def save(grouped_stats, user):
-    with open(f'grouped_stats_{user}.csv', 'w', newline='') as f:
+    with open(f'../output/grouped_stats_{user}.csv', 'w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
         for k, v in grouped_stats.items():
             month = calendar.month_abbr[int(k[5:])]
