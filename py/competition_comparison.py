@@ -113,5 +113,5 @@ def save_column(combined_stats):
 lib_games, val_games = load_games()
 lib_stats = generate_stats(lib_games)
 val_stats = generate_stats(val_games)
-save_row([lib_stats, val_stats])
+# save_row([lib_stats, val_stats])
 save_column(combine_dict([lib_stats, val_stats]))
