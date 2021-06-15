@@ -1,6 +1,6 @@
 .idea
 temp/
-py/__pycache__/
+__pycache__/
 sql_scripts
 test.py
 main.log
