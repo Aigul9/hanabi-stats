@@ -35,7 +35,7 @@ def filter_contains(array, field, condition, options):
 
 
 def save(data):
-    with open(f'../../output/HQL.txt', 'w') as f:
+    with open(f'../../output/misc/HQL.txt', 'w') as f:
         for line in data:
             f.write(str(line))
             f.write('\n')

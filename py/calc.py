@@ -1,19 +1,3 @@
-from datetime import datetime
-
-
-class UserStat:
-    def __init__(self, game_id, count, score, variant, date, players, other_scores, suits, max_score):
-        self.game_id = game_id
-        self.count = count
-        self.score = score
-        self.variant = variant
-        self.date = date
-        self.players = players
-        self.other_scores = other_scores
-        self.suits = suits
-        self.max_score = max_score
-
-
 def p(value, total):
     if total != 0:
         return round(value * 100 / total, 2)
@@ -21,12 +5,31 @@ def p(value, total):
         return 0
 
 
+def get_number_of_suits(variant):
+    default_suits = {
+        '3 Suits': 3,
+        '4 Suits': 4,
+        'No Variant': 5,
+        '6 Suits': 6,
+        'Dual-Color Mix': 6,
+        'Ambiguous Mix': 6,
+        'Ambiguous & Dual-Color': 6
+    }
+    return default_suits.get(variant, variant[-8:-7])
+
+
+def get_max_score(variant):
+    return int(get_number_of_suits(variant)) * 5
+
+
 def get_wins(totals_list):
-    return len([row for row in totals_list if row.score == row.max_score])
+    return len([row for row in totals_list
+                if row['score'] == get_max_score(row['options']['variantName'])])
 
 
 def get_losses(totals_list):
-    return len([row for row in totals_list if row.score != row.max_score])
+    return len([row for row in totals_list
+                if row['score'] != get_max_score(row['options']['variantName'])])
 
 
 def get_totals(stat_list):
@@ -58,20 +61,15 @@ def get_totals(stat_list):
 
 
 def get_list_2p(stat_list):
-    return [row for row in stat_list if int(row.count) == 2]
+    return [row for row in stat_list if row['options']['numPlayers'] == 2]
 
 
 def get_list_3p(stat_list):
-    return [row for row in stat_list if int(row.count) != 2]
-
-
-def open_stats(username):
-    with open(f'../temp/{username}_stats.txt', 'r') as f:
-        return [UserStat(*line.rstrip().split('\t')) for line in f.readlines()]
+    return [row for row in stat_list if row['options']['numPlayers'] != 2]
 
 
 def get_variant_types():
-    with open(f'../resources/variant_types.txt', 'r') as f:
+    with open(f'resources/variant_types.txt', 'r') as f:
         variants = {}
         for line in f.readlines():
             line = line.rstrip().split('\t')
@@ -80,32 +78,24 @@ def get_variant_types():
     return variants
 
 
-def group_stats_by_eff(username):
-    stats = open_stats(username)
+def group_stats_by_eff(stats):
     variants = get_variant_types()
-    list_easy = [row for row in stats if variants[row.variant] == 'easy']
-    list_null = [row for row in stats if variants[row.variant] == 'null']
-    list_sd = [row for row in stats if variants[row.variant] == 'sd']
-    list_dd = [row for row in stats if variants[row.variant] == 'dd']
-    return stats, list_easy, list_null, list_sd, list_dd
+    list_easy = [row for row in stats if variants[row['options']['variantName']] == 'easy']
+    list_null = [row for row in stats if variants[row['options']['variantName']] == 'null']
+    list_sd = [row for row in stats if variants[row['options']['variantName']] == 'sd']
+    list_dd = [row for row in stats if variants[row['options']['variantName']] == 'dd']
+    return filter_speedruns(stats), filter_speedruns(list_easy), filter_speedruns(list_null), filter_speedruns(list_sd), filter_speedruns(list_dd)
 
 
-def get_all_stats(username, s_id):
-    stats, list_easy, list_null, list_sd, list_dd = group_stats_by_eff(username)
+def get_all_stats(items, s_id):
+    stats, list_easy, list_null, list_sd, list_dd = group_stats_by_eff(items)
     if s_id == 'bga':
         stats, list_easy, list_null, list_sd, list_dd = \
-            get_filtered_by_var(stats),\
-            get_filtered_by_var(list_easy),\
-            get_filtered_by_var(list_null),\
-            get_filtered_by_var(list_sd), \
-            get_filtered_by_var(list_dd)
-    elif s_id == 'non speedrun':
-        stats, list_easy, list_null, list_sd, list_dd = \
-            get_filtered_by_var_not(stats), \
-            get_filtered_by_var_not(list_easy), \
-            get_filtered_by_var_not(list_null), \
-            get_filtered_by_var_not(list_sd), \
-            get_filtered_by_var_not(list_dd)
+            filter_bga(stats), \
+            filter_bga(list_easy), \
+            filter_bga(list_null), \
+            filter_bga(list_sd), \
+            filter_bga(list_dd)
     totals = get_totals(stats)
     totals_easy = get_totals(list_easy)
     totals_null = get_totals(list_null)
@@ -120,26 +110,19 @@ def get_all_stats(username, s_id):
     }
 
 
-def get_filtered_by_var(stats):
-    return [row for row in stats if row.variant in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
+def filter_bga(stats):
+    return [row for row in stats if row['options']['variantName'] in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
 
 
-def get_filtered_by_var_not(stats):
-    return [row for row in stats if row.variant not in (
-        'Rainbow (6 Suits)',
-        'No Variant',
-        '6 Suits',
-        'Black (6 Suits)',
-        'White Reversed (6 Suits)',
-        'Dark Rainbow (6 Suits)'
-    )]
+def filter_speedruns(stats):
+    return [row for row in stats if not row['options']['speedrun']]
 
 
-def get_games_by_month(username):
-    stats = get_list_3p(open_stats(username))
+def get_games_by_month(stats):
+    stats = get_list_3p(stats)
     months = {}
     for game in stats:
-        d_game = game.date[:7]
+        d_game = game['datetimeFinished'][:7]
         if d_game in months:
             months[d_game] += 1
         else:

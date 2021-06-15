@@ -1,8 +1,8 @@
 import csv
 import time
 import math
+import logging
 import py.parsing as prs
-import py.players as pl
 import py.calc as c
 import py.purples as purples
 import py.players_most_wl as wl
@@ -15,7 +15,7 @@ def r(num):
 
 
 def save_to_tsv(filename, data):
-    with open(f'../output/{filename}.tsv', 'w', newline='') as file:
+    with open(f'output/{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow([
             'Username', 'Type',
@@ -28,24 +28,18 @@ def save_to_tsv(filename, data):
                 w.writerow([
                     k,
                     k1,
-                    # r(t['total_p'][0]),
                     t['total_p'][2],
                     t['total_p'][0],
-                    # r(t['total_p'][1]),
                     t['total_p'][1],
                     t['total_c'][0],
                     t['total_c'][1],
-                    # r(t['total_2p_p'][0]),
                     t['total_2p_p'][2],
                     t['total_2p_p'][0],
-                    # r(t['total_2p_p'][1]),
                     t['total_2p_p'][1],
                     t['total_2p_c'][0],
                     t['total_2p_c'][1],
-                    # r(t['total_3p_p'][0]),
                     t['total_3p_p'][2],
                     t['total_3p_p'][0],
-                    # r(t['total_3p_p'][1]),
                     t['total_3p_p'][1],
                     t['total_3p_c'][0],
                     t['total_3p_c'][1]]
@@ -53,7 +47,7 @@ def save_to_tsv(filename, data):
 
 
 def save_wr(filename, data):
-    with open(f'../output/wr/highest_wr_{filename}.tsv', 'w', newline='') as file:
+    with open(f'output/wr/highest_wr_{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'W(%)', 'Total games'])
         for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
@@ -65,7 +59,7 @@ def save_wr(filename, data):
 
 
 def save_ranking(data):
-    with open('../output/rank/rank_avg.tsv', 'w', newline='') as file:
+    with open('output/rank/rank_avg.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
         for k, v in data.items():
@@ -79,8 +73,10 @@ def save_ranking(data):
                 list_top.append(f'{pl} ({round(u_tops[0][pl]["wl"])}%)')
             for pl in v[2]:
                 list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
-            list_top = ['none'] if len(list_top) == 0 else list_top
-            list_bottom = ['none'] if len(list_bottom) == 0 else list_bottom
+            if len(list_top) == 0 or len(list_bottom) == 0:
+                continue
+            # list_top = ['none'] if len(list_top) == 0 else list_top
+            # list_bottom = ['none'] if len(list_bottom) == 0 else list_bottom
             w.writerow([
                 k,
                 v[0],
@@ -104,7 +100,7 @@ def assign_weights(username, tb_list, global_type):
             global_ranking[pl][3] += 1
 
 
-def assign_pref(username, pref_list):
+def assign_pref(pref_list):
     for pl, v in pref_list.items():
         if pl not in global_pref:
             global_pref[pl] = [0, 0]
@@ -114,15 +110,15 @@ def assign_pref(username, pref_list):
 
 
 def save_pref(data):
-    with open('../output/preference.tsv', 'w', newline='') as file:
+    with open('output/preference.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Preference'])
         for k, v in data.items():
             w.writerow([k, v])
 
 
-def save_wr(data, filename, column):
-    with open(f'../output/{filename}.tsv', 'w', newline='') as file:
+def save_data(data, filename, column):
+    with open(f'output/{filename}.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow([column, 'WR', 'Total games'])
         for k, v in data.items():
@@ -130,7 +126,7 @@ def save_wr(data, filename, column):
 
 
 def save_hours(data):
-    with open(f'../output/hours_wr.tsv', 'w', newline='') as file:
+    with open(f'output/hours_wr.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Player: WR (Total games)'] + hours_header)
         for k in data.keys():
@@ -148,7 +144,16 @@ def update_avg_pref():
 def update_wr(data, ind_key, ind_val):
     for k, v in data.items():
         try:
-            data[k][ind_key] = round(v[ind_key] / v[ind_val], 2) * 100
+            data[k][ind_key] = round(v[ind_key] * 100 / v[ind_val], 2)
+        except ZeroDivisionError:
+            data[k][ind_key] = 0
+    return data
+
+
+def update_rank(data, ind_key, ind_val):
+    for k, v in data.items():
+        try:
+            data[k][ind_key] = round(v[ind_key] / v[ind_val], 2)
         except ZeroDivisionError:
             data[k][ind_key] = 0
     return data
@@ -171,14 +176,13 @@ def save_plots(data):
         n = [v[key]['total'] for key in v.keys()]
         plt.figure(figsize=(12, 5))
         plt.xlabel('Hours (UTC)')
-        # plt.ylabel('Win/loss ratio (%)')
         plt.ylabel('Total games (#)')
         plt.scatter(x, n)
         for i, txt in enumerate(y):
             plt.annotate(txt, (x[i], n[i]))
         plt.title('Win/loss ratio (%)')
         plt.plot(x, n)
-        plt.savefig(f'../output/plots/totals_hours/{k}.png')
+        plt.savefig(f'output/plots/totals_hours/{k}.png')
 
 
 def global_sort(global_list, ind_col):
@@ -200,9 +204,9 @@ print('Start time:', datetime.now())
 with open('input/list_of_players.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
+logging.basicConfig(filename='main.log', level=logging.DEBUG)
 results = {}
-results_var = {}
-results_var_not = {}
+results_bga = {}
 global_ranking = {k: [0, [], [], 0] for k in users}
 # preference - count
 global_pref = {k: [0, 0] for k in users}
@@ -213,76 +217,82 @@ global_hours = {}
 hours_header = [wl.add_zero(i) for i in range(0, 24)]
 global_purples = {}
 for u in users:
-    # # parsing
-    # history_table = prs.get_history_table(u)
-    # items = prs.get_stats(history_table)
-    # prs.save_stats(items, u)
-    # prs.save_list_of_players(items, u)
-    # # set of players
-    # pl.save_players_list(pl.create_players_set(u), u)
-    # results[u] = c.get_all_stats(u, 'all')
-    # results_var[u] = c.get_all_stats(u, 'bga')
-    # results_var_not[u] = c.get_all_stats(u, 'non speedrun')
-    # # group by players
-    # players_list = wl.get_players_list(u)
-    # players_dict = wl.get_players_dict(u, players_list)
-    # wl.save_players_dict(u, players_dict)
-    # # get top 10
-    # list_for_tops = wl.get_overall_wr(u, players_list)
-    # mi = math.ceil(len(list_for_tops) / 2)
-    # first_half = dict(list(list_for_tops.items())[:mi])
-    # second_half = dict(list(list_for_tops.items())[mi:])
-    # try:
-    #     if len(list_for_tops) % 2 != 0:
-    #         wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
-    #         p_cur = list(list_for_tops)[mi - 1]
-    #         wl_cur = list_for_tops[p_cur]['wl']
-    #         wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
-    #         if wl_prev - wl_cur > wl_cur - wl_next:
-    #             del first_half[p_cur]
-    #             second_half[p_cur] = list_for_tops[p_cur]
-    # except IndexError:
-    #     pass
-    # list_top_n = wl.get_top_n(top, first_half)
-    # list_bottom_n = wl.get_bottom_n(top, second_half)
-    # rank_all_players[u] = [list_top_n, list_bottom_n]
-    # assign_weights(u, list_top_n, 'top')
-    # assign_weights(u, list_bottom_n, 'bottom')
-    # # preferences: {player: preference}
-    # pref = wl.get_preference(list_for_tops)
-    # assign_pref(u, pref)
-    # # group by teams
-    # teams = wl.group_by_teams(u)
-    # global_teams = global_teams | teams
-    # global_hours[u] = wl.get_hours(u)
-    global_purples[u] = purples.count_purples(u)
-
+    logging.debug(f'Current user: {u}')
+    items = prs.open_stats(u)
+    results[u] = c.get_all_stats(items, 'all')
+    results_bga[u] = c.get_all_stats(items, 'bga')
+    logging.debug('Stats are split by variant types.')
+    # group by players
+    players_list = prs.get_players_set(items, u)
+    if u == 'Valetta6789':
+        players_dict = wl.get_players_dict(items, players_list)
+        wl.save_players_dict(u, players_dict)
+    logging.debug('Stats filtered by players are calculated.')
+    # get top 10
+    list_for_tops = wl.get_overall_wr(items, players_list)
+    mi = math.ceil(len(list_for_tops) / 2)
+    first_half = dict(list(list_for_tops.items())[:mi])
+    second_half = dict(list(list_for_tops.items())[mi:])
+    try:
+        if len(list_for_tops) % 2 != 0:
+            wl_prev = list_for_tops[list(list_for_tops)[mi - 2]]['wl']
+            p_cur = list(list_for_tops)[mi - 1]
+            wl_cur = list_for_tops[p_cur]['wl']
+            wl_next = list_for_tops[list(list_for_tops)[mi]]['wl']
+            if wl_prev - wl_cur > wl_cur - wl_next:
+                del first_half[p_cur]
+                second_half[p_cur] = list_for_tops[p_cur]
+    except IndexError:
+        pass
+    list_top_n = wl.get_top_n(top, first_half)
+    list_bottom_n = wl.get_bottom_n(top, second_half)
+    rank_all_players[u] = [list_top_n, list_bottom_n]
+    assign_weights(u, list_top_n, 'top')
+    assign_weights(u, list_bottom_n, 'bottom')
+    logging.debug('Top/bottom 10 calculations are finished.')
+    # preferences: {player: preference}
+    pref = wl.get_preference(list_for_tops)
+    assign_pref(pref)
+    logging.debug('Preference is calculated.')
+    # group by teams
+    teams = wl.group_by_teams(items)
+    global_teams = global_teams | teams
+    logging.debug('Stats grouped by teams.')
+    global_hours[u] = wl.get_hours(items)
+    # global_purples[u] = purples.count_purples(u, items)
+    logging.debug('Hours and purples are calculated.')
 
 print('Data is generated.')
 
-# save_to_tsv(f'all_stats_{datetime.timestamp(datetime.now())}', results)
-# save_to_tsv('up_to_date_stats', results)
-# save_wr('all', results)
-# save_wr('bga', results_var)
-# save_wr('non_speedrun', results_var_not)
-#
-# global_ranking = update_wr(global_ranking, 0, 3)
-# save_ranking(global_sort(global_ranking, 0))
-#
-# update_avg_pref()
-# global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
-# save_pref(global_pref)
+save_to_tsv('up_to_date_stats', results)
+save_wr('all', results)
+save_wr('bga', results_bga)
+logging.debug('WRs are saved.')
 
-# global_teams = update_wr(global_teams, 'win', 'loss')
-# save_teams(global_sort(global_teams, 'win'), 'teams_wr', 'Team')
+global_ranking = update_rank(global_ranking, 0, 3)
+save_ranking(global_sort(global_ranking, 0))
+logging.debug('Ranking is saved.')
 
-# global_hours = update_hours(global_hours, 'win', 'loss')
-# save_hours(global_hours)
+update_avg_pref()
+global_pref = {k: v for k, v in sorted(global_pref.items(), key=lambda item: -item[1])}
+save_pref(global_pref)
+logging.debug('Preference is saved.')
+
+global_teams = update_wr(global_teams, 'win', 'loss')
+save_data(global_sort(global_teams, 'win'), 'teams_wr', 'Team')
+logging.debug('Teams are saved.')
+
+global_hours = update_hours(global_hours, 'win', 'loss')
+save_hours(global_hours)
 # save_plots(global_hours)
+logging.debug('Hours and plots are saved.')
 
-global_purples = {k: v for k, v in sorted(global_purples.items(), key=lambda item: -item[1])}
-save_purples(global_purples)
-purples.get_games('Valetta6789')
+# global_purples = {k: v for k, v in sorted(global_purples.items(), key=lambda item: -item[1])}
+# save_purples(global_purples)
+# user = 'Valetta6789'
+# val_items = prs.open_stats(user)
+# purples.get_games(user, val_items)
+# logging.debug('Purples are saved.')
 
 print('End time:', datetime.now())
 print('Time spent (in min):', round((time.time() - start) / 60, 2))
