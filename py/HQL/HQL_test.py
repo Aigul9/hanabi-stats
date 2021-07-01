@@ -1,11 +1,13 @@
-username = 'Valetta6789'
+username = 'indego'
 query = {
    # 'score': 24,
    #  'endCondition': 1,
     'options': {
+        # 'numPlayers': 2,
+        'speedrun': False
    #      'startingPlayer': 0,
    #      'oneExtraCard': True
-        'variantName': 'Omni'
+   #      'variantName': 'Omni'
     },
-    'playerNames': 'micerang'
+    # 'playerNames': 'micerang'
 }
