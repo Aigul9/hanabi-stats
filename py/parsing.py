@@ -9,6 +9,12 @@ def open_stats(user):
     return response.json()
 
 
+def export_game(game):
+    url = f'https://hanab.live/export/{game["id"]}'
+    response = requests.get(url)
+    return response.json()
+
+
 def mkdir_p(path):
     try:
         os.makedirs(path)

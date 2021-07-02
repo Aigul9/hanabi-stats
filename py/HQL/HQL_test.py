@@ -1,4 +1,4 @@
-username = 'indego'
+username = 'Valetta6789'
 query = {
    # 'score': 24,
    #  'endCondition': 1,

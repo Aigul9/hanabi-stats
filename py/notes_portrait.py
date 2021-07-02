@@ -1,0 +1,79 @@
+import csv
+import re
+import time
+from datetime import datetime
+import py.parsing as prs
+
+
+def decode(note):
+    html_codes = (
+            ("'", '&#39;'),
+            ('"', '&quot;'),
+            ('"', '&#34;'),
+            ('>', '&gt;'),
+            ('<', '&lt;'),
+            ('&', '&amp;')
+        )
+    for code in html_codes:
+        note = note.replace(code[1], code[0])
+    return note
+
+
+def filter_id_range(array):
+    # 169428 - starting id for notes (17.05.2020)
+    # 576494
+    return [row for row in array if row['id'] >= 169428 and not row['options']['speedrun']]
+
+
+def save(username, data):
+    with open(f'../output/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Note', f'Frequency ({sum([v for v in data.values()])} in total)'])
+        for k, v in data.items():
+            w.writerow([k, v])
+
+
+with open('../input/list_of_players_notes.txt', 'r') as f:
+    users = [line.rstrip() for line in f.readlines()]
+
+
+for u in users:
+    print(u)
+    start = time.time()
+    print('Start time:', datetime.now())
+    stats = filter_id_range(prs.open_stats(u))
+    u_notes_dict = {}
+    for s in stats:
+        game = prs.export_game(s)
+        try:
+            # print(game['id'])
+            notes = game['notes']
+            pl_notes = notes[game['players'].index(u)]
+            # ex_notes = ['[f]', '[cm]', '', 'f', 'cm']
+            pl_notes = [decode(n) for n in pl_notes if n != '']
+            if len(pl_notes) == 0:
+                continue
+            for n in pl_notes:
+                n_arr = re.split(r'[ |,]+', n)
+                for n1 in n_arr:
+                    ex_punctuation = ['-', '=', '/', '', ' ']
+                    if n1 in ex_punctuation:
+                        continue
+                    r = re.compile(r"(\w+)[,.?!]+$")
+                    m = r.match(n1)
+                    if m is not None:
+                        n1 = r.findall(n1)[0]
+                    n1 = n1.lower()
+                    # print(n1)
+                    if n1 in u_notes_dict:
+                        u_notes_dict[n1] += 1
+                    else:
+                        u_notes_dict[n1] = 1
+        except KeyError:
+            print('pass', game['id'])
+            pass
+    u_notes_dict = {k: v for k, v in sorted(u_notes_dict.items(), key=lambda x: (-x[1], x[0]))}
+    save(u, u_notes_dict)
+    print(f'{u} is saved.')
+    print('End time:', datetime.now())
+    print('Time spent (in min):', round((time.time() - start) / 60, 2))

@@ -1,7 +1,5 @@
 import requests
 import logging
-import csv
-from py.HQL.UserStats import UserStats
 
 
 def open_stats(user):
@@ -46,6 +44,19 @@ def save(data):
             f.write('\n')
 
 
+def decode(s):
+    html_codes = (
+            ("'", '&#39;'),
+            ('"', '&quot;'),
+            ('>', '&gt;'),
+            ('<', '&lt;'),
+            ('&', '&amp;')
+        )
+    for code in html_codes:
+        s = s.replace(code[1], code[0])
+    return s
+
+
 if __name__ == "__main__":
     from py.HQL.HQL_test import username, query
 
@@ -54,9 +65,6 @@ if __name__ == "__main__":
     with open('../../input/list_of_players.txt', 'r') as f:
         users = [line.rstrip() for line in f.readlines()]
 
-    # with open(f'../../output/misc/just_results.tsv', 'w', newline='') as f:
-    #     w = csv.writer(f, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    #     w.writerow(['test'])
     # for u in users:
     #     print(f'Current user: {u}')
         # stats = apply_model(open_stats(username))
@@ -81,14 +89,20 @@ if __name__ == "__main__":
         count += 1
         try:
             notes = game['notes']
-            for i in range(len(notes)):
-                for n1 in notes[i]:
-                    # if '\u0026gt' in n1 and '-\u0026gt' not in n1 and '\u0026gt;\u0026lt' not in n1:
-                    if 'nocm' in n1:
-                        # w.writerow([g_id, game['players'], game['players'][i], n1])
-                        print(f"{g_id}\t{game['players']}\t{game['players'][i]}\t{n1}")
+            pl_notes = notes[game['players'].index(username)]
+            ex_notes = ['[f]', '[cm]', '']
+            pl_notes = [decode(n) for n in pl_notes if n not in ex_notes and len(n) < 30]
+            if len(pl_notes) == 0:
+                continue
+            print(g_id, pl_notes)
+            # for i in range(len(notes)):
+            #     for n1 in notes[i]:
+            #         # if '\u0026gt' in n1 and '-\u0026gt' not in n1 and '\u0026gt;\u0026lt' not in n1:
+            #         if 'nocm' in n1:
+            #             # w.writerow([g_id, game['players'], game['players'][i], n1])
+            #             print(f"{g_id}\t{game['players']}\t{game['players'][i]}\t{n1}")
         except KeyError:
-            break
-            # pass
-            # print('end', g_id)
+            # break
+            pass
+            print('pass', g_id)
             # exit()
