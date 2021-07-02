@@ -27,7 +27,7 @@ def filter_id_range(array):
 
 def save(username, data):
     with open(f'../output/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE)
         w.writerow(['Note', f'Frequency ({sum([v for v in data.values()])} in total)'])
         for k, v in data.items():
             w.writerow([k, v])
