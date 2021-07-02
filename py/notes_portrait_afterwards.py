@@ -20,6 +20,19 @@ def most_talkative(data):
     return {k: v for k, v in sorted(talk.items(), key=lambda x: (-x[1]))}
 
 
+def most_frequent(data):
+    words = {}
+    for k, v in data.items():
+        for kw, vw in v.items():
+            if kw in words:
+                words[kw][0] += int(vw)
+                words[kw][1].append(k)
+            else:
+                words[kw] = [int(vw), [k]]
+    # print(words)
+    return {k: v for k, v in sorted(words.items(), key=lambda x: (-x[1][0])) if v[0] >= 99}
+
+
 def compare(stats1, stats2):
     num1 = len(stats1)
     inter = len(stats1.keys() & stats2.keys())
@@ -34,29 +47,43 @@ def save(data):
             w.writerow([k, *v])
 
 
+def save_words(words):
+    with open(f'../output/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Words', 'Frequency', 'Number of vocabularies'])
+        for k, v in words.items():
+            v_len = len(v[1])
+            r = ''
+            print(v_len, v)
+            if v_len == 31:
+                r = 'All'
+            elif v_len > 5:
+                r = str(v_len)
+            else:
+                r = f"{v_len}: {', '.join(v[1])}"
+            w.writerow([k, v[0], r])
+
+
 with open('../input/list_of_players_test.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
-
 
 notes_stats = {}
 for u in users:
     notes_stats[u] = open_notes_stats(u)
-
 
 all_p = {}
 for k1, v1 in notes_stats.items():
     k1_p = []
     for k2, v2 in notes_stats.items():
         k1_p.append(compare(v1, v2))
-        print(k1, k2)
-        print(compare(v1, v2))
+        # print(k1, k2)
+        # print(compare(v1, v2))
     all_p[k1] = k1_p
 
-print(all_p)
+# print(all_p)
 save(all_p)
 
 for p1, p2 in most_talkative(notes_stats).items():
-    print(p1, p2)
+    print(f'{p1}\t{p2}')
 
-
-
+save_words(most_frequent(notes_stats))
