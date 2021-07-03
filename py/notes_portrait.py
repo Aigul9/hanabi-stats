@@ -21,13 +21,12 @@ def decode(note):
 
 def filter_id_range(array):
     # 169428 - starting id for notes (17.05.2020)
-    # 576494
     return [row for row in array if row['id'] >= 169428 and not row['options']['speedrun']]
 
 
 def save(username, data):
     with open(f'../output/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE)
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Note', f'Frequency ({sum([v for v in data.values()])} in total)'])
         for k, v in data.items():
             w.writerow([k, v])
@@ -46,7 +45,6 @@ for u in users:
     for s in stats:
         game = prs.export_game(s)
         try:
-            # print(game['id'])
             notes = game['notes']
             pl_notes = notes[game['players'].index(u)]
             # ex_notes = ['[f]', '[cm]', '', 'f', 'cm']
@@ -64,7 +62,6 @@ for u in users:
                     if m is not None:
                         n1 = r.findall(n1)[0]
                     n1 = n1.lower()
-                    # print(n1)
                     if n1 in u_notes_dict:
                         u_notes_dict[n1] += 1
                     else:

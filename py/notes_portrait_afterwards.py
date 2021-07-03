@@ -29,7 +29,6 @@ def most_frequent(data):
                 words[kw][1].append(k)
             else:
                 words[kw] = [int(vw), [k]]
-    # print(words)
     return {k: v for k, v in sorted(words.items(), key=lambda x: (-x[1][0])) if v[0] >= 99}
 
 
@@ -54,7 +53,6 @@ def save_words(words):
         for k, v in words.items():
             v_len = len(v[1])
             r = ''
-            print(v_len, v)
             if v_len == 31:
                 r = 'All'
             elif v_len > 5:
@@ -76,11 +74,8 @@ for k1, v1 in notes_stats.items():
     k1_p = []
     for k2, v2 in notes_stats.items():
         k1_p.append(compare(v1, v2))
-        # print(k1, k2)
-        # print(compare(v1, v2))
     all_p[k1] = k1_p
 
-# print(all_p)
 save(all_p)
 
 for p1, p2 in most_talkative(notes_stats).items():
