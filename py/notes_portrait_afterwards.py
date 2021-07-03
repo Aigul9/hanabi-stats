@@ -118,6 +118,7 @@ def save_words(words):
                 r = str(v_len)
             else:
                 r = f"{v_len}: {', '.join(v[1])}"
+            w.writerow([k, v[0], r])
 
 
 def save_dict(data):
@@ -134,22 +135,22 @@ with open('../input/list_of_players_test.txt', 'r') as f:
 notes_stats = {}
 for u in users:
     notes_stats[u] = open_notes_stats(u)
-#
-# all_p = {}
-# for k1, v1 in notes_stats.items():
-#     k1_p = []
-#     for k2, v2 in notes_stats.items():
-#         k1_p.append(f'{compare(v1, v2)}%')
-#     all_p[k1] = k1_p
-#
-# save(all_p)
+
+all_p = {}
+for k1, v1 in notes_stats.items():
+    k1_p = []
+    for k2, v2 in notes_stats.items():
+        k1_p.append(f'{compare(v1, v2)}%')
+    all_p[k1] = k1_p
+
+save(all_p)
 #
 # for p1, p2 in most_talkative(notes_stats).items():
 #     print(f'{p1}\t{p2}')
 #
-# save_words(most_frequent(notes_stats))
+save_words(most_frequent(notes_stats))
 
 for n1, n2 in freq_names(most_frequent(notes_stats)).items():
     print(f'{n1}\t{n2}')
 
-# save_dict(most_frequent(notes_stats))
+save_dict(most_frequent(notes_stats))
