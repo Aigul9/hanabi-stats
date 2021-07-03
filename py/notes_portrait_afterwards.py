@@ -108,7 +108,7 @@ def save(data):
 def save_words(words):
     with open(f'../output/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Words', 'Frequency', 'Number of vocabularies'])
+        w.writerow(['Words', 'Frequency', f'Number of vocabularies (All = {len(users)})'])
         for k, v in words.items():
             if v[0] >= 100:
                 v_len = len(v[1])
