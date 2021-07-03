@@ -35,7 +35,7 @@ def most_frequent(data):
 def compare(stats1, stats2):
     num1 = len(stats1)
     inter = len(stats1.keys() & stats2.keys())
-    return round(inter / num1 * 100, 2)
+    return round(inter / num1 * 100)
 
 
 def save(data):
@@ -73,7 +73,7 @@ all_p = {}
 for k1, v1 in notes_stats.items():
     k1_p = []
     for k2, v2 in notes_stats.items():
-        k1_p.append(compare(v1, v2))
+        k1_p.append(f'{compare(v1, v2)}%')
     all_p[k1] = k1_p
 
 save(all_p)
