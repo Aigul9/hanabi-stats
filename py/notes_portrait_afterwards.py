@@ -29,7 +29,7 @@ def most_frequent(data):
                 words[kw][1].append(k)
             else:
                 words[kw] = [int(vw), [k]]
-    return {k: v for k, v in sorted(words.items(), key=lambda x: (-x[1][0])) if v[0] >= 99}
+    return {k: v for k, v in sorted(words.items(), key=lambda x: (-x[1][0])) if v[0] >= 100}
 
 
 def compare(stats1, stats2):
