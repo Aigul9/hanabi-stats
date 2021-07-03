@@ -110,15 +110,15 @@ def save_words(words):
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Words', 'Frequency', 'Number of vocabularies'])
         for k, v in words.items():
-            v_len = len(v[1])
-            r = ''
-            if v_len == 31:
-                r = 'All'
-            elif v_len > 5:
-                r = str(v_len)
-            else:
-                r = f"{v_len}: {', '.join(v[1])}"
-            w.writerow([k, v[0], r])
+            if v[0] >= 100:
+                v_len = len(v[1])
+                if v_len == 31:
+                    r = 'All'
+                elif v_len > 5:
+                    r = str(v_len)
+                else:
+                    r = f"{v_len}: {', '.join(v[1])}"
+                w.writerow([k, v[0], r])
 
 
 def save_dict(data):
