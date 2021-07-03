@@ -112,7 +112,7 @@ def save_words(words):
         for k, v in words.items():
             if v[0] >= 100:
                 v_len = len(v[1])
-                if v_len == 31:
+                if v_len == len(users):
                     r = 'All'
                 elif v_len > 5:
                     r = str(v_len)
