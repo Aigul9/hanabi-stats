@@ -45,7 +45,7 @@ with open('../input/list_of_players_notes.txt', 'r') as f:
 
 
 notes_count = {}
-for u in ['Nitrate']:
+for u in ['VerySloppyTwo']:
     start = time.time()
     print('Start time:', datetime.now())
     stats = filter_id_range(prs.open_stats(u))
@@ -55,40 +55,39 @@ for u in ['Nitrate']:
         try:
             notes = game['notes']
             pl_notes = notes[game['players'].index(u)]
-            # n_len = len([r for r in pl_notes if r != ''])
-            # if u in notes_count:
-            #     notes_count[u]['len'] += n_len
-            #     notes_count[u]['count'] += 1
-            # else:
-            #     notes_count[u] = {}
-            #     notes_count[u]['len'] = n_len
-            #     notes_count[u]['count'] = 1
+            n_len = len([r for r in pl_notes if r != ''])
+            if u in notes_count:
+                notes_count[u]['len'] += n_len
+                notes_count[u]['count'] += 1
+            else:
+                notes_count[u] = {}
+                notes_count[u]['len'] = n_len
+                notes_count[u]['count'] = 1
             # print(notes_count)
-            # ex_notes = ['[f]', '[cm]', '', 'f', 'cm']
-            pl_notes = [decode(n) for n in pl_notes if n != '']
-            if len(pl_notes) == 0:
-                continue
-            for n in pl_notes:
-                n_arr = re.split(r'[ |,]+', n)
-                for n1 in n_arr:
-                    ex_punctuation = ['-', '=', '/', '', ' ']
-                    if n1 in ex_punctuation:
-                        continue
-                    r = re.compile(r"(\w+)[,.?!]+$")
-                    m = r.match(n1)
-                    if m is not None:
-                        n1 = r.findall(n1)[0]
-                    n1 = n1.lower()
-                    if n1 in u_notes_dict:
-                        u_notes_dict[n1] += 1
-                    else:
-                        u_notes_dict[n1] = 1
+
+            # pl_notes = [decode(n) for n in pl_notes if n != '']
+            # if len(pl_notes) == 0:
+            #     continue
+            #     n_arr = re.split(r'[ |,]+', n)
+            #     for n1 in n_arr:
+            #         ex_punctuation = ['-', '=', '/', '', ' ']
+            #         if n1 in ex_punctuation:
+            #             continue
+            #         r = re.compile(r"(\w+)[,.?!]+$")
+            #         m = r.match(n1)
+            #         if m is not None:
+            #             n1 = r.findall(n1)[0]
+            #         n1 = n1.lower()
+            #         if n1 in u_notes_dict:
+            #             u_notes_dict[n1] += 1
+            #         else:
+            #             u_notes_dict[n1] = 1
         except KeyError:
             print('pass', game['id'])
             pass
     print(f'{u} is generated.')
-    # save_count(u, notes_count[u])
-u_notes_dict = {k: v for k, v in sorted(u_notes_dict.items(), key=lambda x: (-x[1], x[0]))}
-save(u, u_notes_dict)
-print('End time:', datetime.now())
-print('Time spent (in min):', round((time.time() - start) / 60, 2))
+    save_count(u, notes_count[u])
+# u_notes_dict = {k: v for k, v in sorted(u_notes_dict.items(), key=lambda x: (-x[1], x[0]))}
+# save(u, u_notes_dict)
+    print('End time:', datetime.now())
+    print('Time spent (in min):', round((time.time() - start) / 60, 2))

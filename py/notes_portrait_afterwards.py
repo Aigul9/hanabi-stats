@@ -55,26 +55,35 @@ def freq_names(data):
         'Floriman': ['flo', 'flor', 'flori', 'florian', 'flor\'s', 'flori\'s', 'florian\'s?', 'floriman\'s'],
         'florrat2': ['florrat\'ll', 'florrat\'s', 'florrats'],
         'IAMJEFF': ['jeff'],
-        'indego': ['inde', 'ind', 'indeog', 'indegos', 'indegoooooooo', 'indegoooo', 'indego?)', 'indego:', 'indego\'s?', 'indego\'s', 'indego\'d', 'inde:', 'inde\'s', 'ind'],
-        'kimbifille': ['kimbi', 'kimb', 'kim', 'kim\'s', 'kimbo', 'kimbis', 'kimbi?)', 'kimbi)', 'kimbi\'s', 'kimbi\'s?', 'kim+timo', 'kimbi/piano', '(kimbi'],
-        'Lanvin': ['lan', 'lanvi', 'lanvins', 'lanvinv', 'lanvvin', 'lanin', 'lanvin/sucu', 'lenvin', 'jack/lanvin', 'lanvin\'d', 'lanvin\'s', 'lanvin\'s?', 'lanvins', 'rah/lanvin', '(lanvin'],
+        'indego': ['inde', 'ind', 'indeog', 'indegos', 'indegoooooooo', 'indegoooo', 'indego?)', 'indego:',
+                   'indego\'s?', 'indego\'s', 'indego\'d', 'inde:', 'inde\'s', 'ind'],
+        'kimbifille': ['kimbi', 'kimb', 'kim', 'kim\'s', 'kimbo', 'kimbis', 'kimbi?)', 'kimbi)', 'kimbi\'s',
+                       'kimbi\'s?', 'kim+timo', 'kimbi/piano', '(kimbi'],
+        'Lanvin': ['lan', 'lanvi', 'lanvins', 'lanvinv', 'lanvvin', 'lanin', 'lanvin/sucu', 'lenvin', 'jack/lanvin',
+                   'lanvin\'d', 'lanvin\'s', 'lanvin\'s?', 'lanvins', 'rah/lanvin', '(lanvin'],
         'Lel0uch': ['lel', 'lels', 'lelouch', 'lelll', 'lellll', 'sin/lel', 'lel:', 'lel\'s', 'g4/lel'],
         'Libster': ['lib', 'lib&i', 'lib\'s', 'libs', 'lib+mercy', 'libster\'s', 'libsters', '(libster'],
         'MarkusKahlsen': ['markus', 'markus:', 'markus\'s', 'markus\'', 'marku\'s', 'marku'],
         'melwen': ['mel', '(mel', 'mel\'s', 'mel:', 'mel?)', 'melwen\'s', 'melwen)', 'melwen:', 'melwens'],
+        'Nitrate': ['nitrate', 'nitrate\'s', 'nitrates'],
+        'Nitrate2': ['nitrate', 'nitrate\'s', 'nitrates', 'nitrate2'],
         'NoMercy': ['mercy', 'nomercy)', 'nomercy\'s', 'mercy\'s', 'lib+mercy'],
-        'pianoblook': ['piano', '(piano', '(future-pianoblook:', 'kimbi/piano', 'piano\'s', 'piano?)', 'pianoblook', 'pianoblook\'s', 'pianos'],
+        'pianoblook': ['piano', '(piano', '(future-pianoblook:', 'kimbi/piano', 'piano\'s', 'piano?)',
+                       'pianoblook', 'pianoblook\'s', 'pianos'],
         'RaKXeR': ['rak', 'rakxer\'s'],
         'scharkbite': ['schark', 'shark', 'schark\'s', 'schark)', 'scharkbite\'s', 'scharkie', 'scharks', '(schark'],
-        'sephiroth': ['seph', 'seph\'d', 'seph\'s', 'seph\'s?', 'seph:', 'sephi', 'sephi\'s', 'sephiroth\'s', 'sephiroth/', 'septh'],
-        'sin_faith': ['sin', 'sin\'s', 'sin/lel', 'sin:', 'sin_forget_y5', 'sin_mistake', 'sin_troll', 'sin_troll\'s', 'sin_troll)', 'sin_troll:', 'sin_trolled', '(sin', '!sin'],
+        'sephiroth': ['seph', 'seph\'d', 'seph\'s', 'seph\'s?', 'seph:', 'sephi', 'sephi\'s', 'sephiroth\'s',
+                      'sephiroth/', 'septh'],
+        'sin_faith': ['sin', 'sin\'s', 'sin/lel', 'sin:', 'sin_forget_y5', 'sin_mistake', 'sin_troll', 'sin_troll\'s',
+                      'sin_troll)', 'sin_troll:', 'sin_trolled', '(sin', '!sin'],
         'sjdrodge': ['stephen', '(stephen', 'stephen\'s'],
-        'Sucubis': ['suc', 'sucu', 'sucub', 'sucu\'s',  'sucu/time', 'lanvin/sucu'],
+        'Sucubis': ['suc', 'sucu', 'sucu\'s',  'sucu/time', 'lanvin/sucu'],
         'swineherd': ['swine', 'swine\'s', 'swine)', 'swineherd\'s', 'swinerherd'],
         'TimeHoodie': ['time\'s', 'hoodie', 'witt/time', 'timehoodie', 'timehoodie\'s', 'sucu/time'],
         'timotree': ['timo', 'timotree\'s', 'timotrees', 'kim+timo'],
         'Valetta6789': ['val', 'valetta\'s', 'valetta'],
-        'VerySloppyTwo': ['sloppy', 'slop', 'slopp', 'verysloppy', 'slooopyyy', 'sloppy\'s', 'sloppy)', 'sloppys' 'slops'],
+        'VerySloppyTwo': ['sloppy', 'slop', 'slopp', 'verysloppy', 'slooopyyy', 'sloppy\'s', 'sloppy)', 'sloppys',
+                          'slops'],
         'Zamiel': ['zam', 'zami'],
     }
     results = {}
@@ -87,7 +96,7 @@ def freq_names(data):
                 results[u_upper] += v[0]
             else:
                 results[u_upper] = v[0]
-            continue
+                continue
         for a, av in aliases.items():
             if k in av:
                 if a in results:
