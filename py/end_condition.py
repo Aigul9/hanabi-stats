@@ -57,4 +57,4 @@ for u in users:
         local_term[e] += 1
     local_term['total'] = len(stats)
     global_term[u] = local_term
-save(sort_terminated(global_term))
+save(global_term)
