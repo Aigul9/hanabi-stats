@@ -34,7 +34,7 @@ def save(username, data):
 
 
 def save_count(user, data_user):
-    with open(f'../output/notes_count.tsv', 'a', encoding='utf-8', newline='') as file:
+    with open(f'../output/notes_count_sorted.tsv', 'a', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE)
         # w.writerow(['Note', 'Count', 'Per game'])
         w.writerow([user, data_user['len'], round(data_user['len'] / data_user['count'])])
