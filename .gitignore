@@ -2,5 +2,5 @@
 temp/
 __pycache__/
 sql_scripts
-test.py
+py/test.py
 main.log
