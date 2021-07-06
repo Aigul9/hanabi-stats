@@ -1,3 +1,11 @@
+def get_players_set(items, username):
+    players = set()
+    for item in items:
+        players = players.union(item['playerNames'])
+    players.remove(username)
+    return players
+
+
 def create_players_set(username):
     with open(f'../temp/{username}_players.txt', 'r', encoding='utf-8') as f:
         players = set()

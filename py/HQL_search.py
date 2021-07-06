@@ -1,44 +1,4 @@
-import requests
-
-
-def open_stats(user):
-    url = f'https://hanab.live/history/{user}?api'
-    response = requests.get(url)
-    return response.json()
-
-
-def get_3p(stats):
-    return [row for row in stats if int(row['options']['numPlayers']) == 3]
-
-
-def contains_user(stats, user):
-    return [row for row in stats if user in row['playerNames']]
-
-
-def filter_by_id(stats, ids):
-    return [row for row in stats if ids[0] <= row['id'] <= ids[1]]
-
-
-def export_game(game):
-    url = f'https://hanab.live/export/{game["id"]}'
-    response = requests.get(url)
-    return response.json()
-
-
-def get_player_index(export, player):
-    return export['players'].index(player)
-
-
-def switch_rank_mod(index):
-    return indices[(index + 2) % len(indices)]
-
-
-def switch_rank_mod_next(index):
-    return indices[(index + 1) % len(indices)]
-
-
-def get_card_index(export, card):
-    return export['deck'].index(card)
+import py.util as ut
 
 
 def variation(start, val):
@@ -50,10 +10,10 @@ def variation(start, val):
 
 username = 'Valetta6789'
 indices = [0, 1, 2]
-data = get_3p(open_stats(username))
-data = contains_user(data, 'florrat2')
-data = contains_user(data, 'Libster')
-data = filter_by_id(data, [558639, 558730])
+data = ut.get_3p(ut.open_stats(username))
+data = ut.contains_user(data, 'florrat2')
+data = ut.contains_user(data, 'Libster')
+data = ut.filter_by_id(data, [558639, 558730])
 cards_clued = {
     # 'r3': {
     #     'suitIndex': 0,
@@ -144,13 +104,13 @@ cards_played = {
 }
 results = []
 for r in data:
-    ex = export_game(r)
+    ex = ut.export_game(r)
     # print(ex['id'])
-    val_index = get_player_index(ex, username)
+    val_index = ut.get_player_index(ex, username)
     action_val = {
         # "type": 2,
         "type": 2,
-        "target": switch_rank_mod_next(val_index),
+        "target": ut.switch_rank_mod_next(val_index),
         # "value": 0
         # "value": 4
         "value": 0
@@ -180,9 +140,9 @@ for r in data:
         for j in range(2, len(actions)):
             if actions[j-2] == action_val:
                 # and actions[j-1] == action_fire:
-                    # or actions[j-2] == action_val_2)\
-                    # and actions[j] == action_after_fire:
-                    # and j-1 % 3 == variation(start_index, val_index):
+                # or actions[j-2] == action_val_2)\
+                # and actions[j] == action_after_fire:
+                # and j-1 % 3 == variation(start_index, val_index):
                 results.append([ex['id'], actions[j], j])
                 print('result:', actions[j], f'hanab.live/replay/{ex["id"]}#{j}')
 

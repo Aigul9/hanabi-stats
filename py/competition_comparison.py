@@ -1,11 +1,5 @@
-import requests
 import csv
-
-
-def export_game(game_id):
-    url = f'https://hanab.live/export/{game_id}'
-    response = requests.get(url)
-    return response.json()
+import py.util as ut
 
 
 def load_games():
@@ -19,20 +13,11 @@ def load_games():
     return games_1, games_2
 
 
-def convert_action_types(action_type):
-    action_types = ['play', 'discard', 'color', 'rank']
-    return action_types[action_type]
-
-
-def get_action_type_length(actions, action_type):
-    return len([a for a in actions if a['type'] == action_type])
-
-
 def generate_stats(ids):
     stats = {}
     action_types = [0, 1, 2, 3]
     for i in ids:
-        game = export_game(i)
+        game = ut.export_game(i)
         actions = game['actions']
         seed = game['seed']
         stats[seed] = {}
@@ -40,7 +25,7 @@ def generate_stats(ids):
         stats[seed]['game_id'] = game['id']
         stats[seed]['turns'] = len(actions)
         for t in action_types:
-            stats[seed][t] = get_action_type_length(actions, t)
+            stats[seed][t] = ut.get_action_type_length(actions, t)
     return stats
 
 

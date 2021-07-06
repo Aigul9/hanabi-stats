@@ -2,16 +2,13 @@ import csv
 import time
 import math
 import logging
-import py.parsing as prs
+import py.util as ut
 import py.calc as c
 import py.purples as purples
 import py.players_most_wl as wl
+import py.players as pls
 from datetime import datetime
 from matplotlib import pyplot as plt
-
-
-def r(num):
-    return str(num).replace('.', ',')
 
 
 def save_to_tsv(filename, data):
@@ -214,16 +211,16 @@ top = 5
 rank_all_players = {k: [] for k in users}
 global_teams = {}
 global_hours = {}
-hours_header = [wl.add_zero(i) for i in range(0, 24)]
+hours_header = [ut.add_zero(i) for i in range(0, 24)]
 global_purples = {}
 for u in users:
     logging.debug(f'Current user: {u}')
-    items = prs.open_stats(u)
+    items = ut.open_stats(u)
     results[u] = c.get_all_stats(items, 'all')
     results_bga[u] = c.get_all_stats(items, 'bga')
     logging.debug('Stats are split by variant types.')
     # group by players
-    players_list = prs.get_players_set(items, u)
+    players_list = pls.get_players_set(items, u)
     if u == 'Valetta6789':
         players_dict = wl.get_players_dict(items, players_list)
         wl.save_players_dict(u, players_dict)
@@ -290,7 +287,7 @@ logging.debug('Hours and plots are saved.')
 # global_purples = {k: v for k, v in sorted(global_purples.items(), key=lambda item: -item[1])}
 # save_purples(global_purples)
 # user = 'Valetta6789'
-# val_items = prs.open_stats(user)
+# val_items = ut.open_stats(user)
 # purples.get_games(user, val_items)
 # logging.debug('Purples are saved.')
 

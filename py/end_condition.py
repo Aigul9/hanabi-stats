@@ -1,5 +1,5 @@
 import csv
-import py.parsing as prs
+import py.util as ut
 
 
 def sort_terminated(data):
@@ -8,10 +8,6 @@ def sort_terminated(data):
 
 def sort_strikeout(data):
     return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1][2])}
-
-
-def filter_speedrun(array):
-    return [row for row in array if not row['options']['speedrun']]
 
 
 def get_rate(num1, num2):
@@ -50,7 +46,7 @@ with open('../input/list_of_players_notes.txt', 'r') as f:
 global_term = {}
 for u in users:
     print(u)
-    stats = filter_speedrun(prs.open_stats(u))
+    stats = ut.clear_speedruns(ut.open_stats(u))
     local_term = {i: 0 for i in range(10)}
     for g in stats:
         e = g['endCondition']
