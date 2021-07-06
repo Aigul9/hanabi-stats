@@ -2,6 +2,8 @@ import csv
 import errno
 import os
 import requests
+import time
+from datetime import datetime
 
 
 # Parsing
@@ -34,7 +36,7 @@ def open_file(filename):
 
 
 def save(filename, data, header):
-    with open(filename, 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/{filename}.tsv', 'a', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
         for k, v in data.items():
@@ -67,7 +69,13 @@ def contains_user(stats, user):
 
 
 def filter_by_id(stats, ids):
-    return [row for row in stats if ids[0] <= row['id'] <= ids[1]]
+    if len(ids) == 2:
+        return [row for row in stats if ids[0] <= row['id'] <= ids[1]]
+    if len(ids) == 1:
+        return [row for row in stats if row['id'] >= ids[0]]
+    else:
+        print('Not filtered by id.')
+        return stats
 
 
 # Specific functions
@@ -81,7 +89,7 @@ def get_number_of_suits(variant):
         'Ambiguous Mix': 6,
         'Ambiguous & Dual-Color': 6
     }
-    return default_suits.get(variant, variant[-8:-7])
+    return default_suits.get(variant, int(variant[-8:-7]))
 
 
 def get_max_score(variant):
@@ -97,12 +105,12 @@ def get_action_type_length(actions, action_type):
     return len([a for a in actions if a['type'] == action_type])
 
 
-def get_player_index(export, player):
-    return export['players'].index(player)
+def get_player_index(game, player):
+    return game['players'].index(player)
 
 
-def get_card_index(export, card):
-    return export['deck'].index(card)
+def get_card_index(game, card):
+    return game['deck'].index(card)
 
 
 def switch_rank_mod(indices, index):
@@ -113,8 +121,16 @@ def switch_rank_mod_next(indices, index):
     return indices[(index + 1) % len(indices)]
 
 
+def get_number_of_starting_cards(n_players):
+    return n_players * 5 if n_players == 3 else n_players * 4
+
+
+def get_number_of_plays_or_discards(actions):
+    return len([a for a in actions if a['type'] in [0, 1]])
+
+
 # Additional functions
-def sort_by_wl_games(data, col_ind):
+def sort(data, col_ind):
     return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
 
 
@@ -134,3 +150,12 @@ def add_zero(hour):
 
 def r(num):
     return str(num).replace('.', ',')
+
+
+def current_time():
+    return datetime.now()
+
+
+def time_spent(start_time):
+    print(f'Time spent (in min): {round((time.time() - start_time) / 60, 2)}')
+

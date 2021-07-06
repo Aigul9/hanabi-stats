@@ -1,6 +1,6 @@
 import csv
 # import py.notes_portrait as np
-import py.parsing as prs
+import py.util as ut
 
 
 def open_notes_stats(username):
@@ -23,7 +23,7 @@ def filter_id_range(array):
 def most_talkative(data):
     talk = {}
     for k, v in data.items():
-        stats = filter_id_range(prs.open_stats(k))
+        stats = filter_id_range(ut.open_stats(k))
         talk[k] = round(sum([int(r) for r in v.values()]) / len(stats) * 100)
     return {k: v for k, v in sorted(talk.items(), key=lambda x: (-x[1]))}
 

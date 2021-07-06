@@ -2,7 +2,7 @@ import csv
 import re
 import time
 from datetime import datetime
-import py.parsing as prs
+import py.util as ut
 
 
 def decode(note):
@@ -48,11 +48,11 @@ notes_count = {}
 for u in users:
     print(u)
     start = time.time()
-    print('Start time:', datetime.now())
-    stats = filter_id_range(prs.open_stats(u))
+    ut.current_time()
+    stats = filter_id_range(ut.open_stats(u))
     u_notes_dict = {}
     for s in stats:
-        game = prs.export_game(s)
+        game = ut.export_game(s)
         try:
             notes = game['notes']
             pl_notes = notes[game['players'].index(u)]
