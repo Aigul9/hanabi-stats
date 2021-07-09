@@ -1,7 +1,7 @@
 import csv
 import itertools
 import py.calc as c
-import py.util as ut
+import py.utils as ut
 
 
 def get_players_dict(items, players):

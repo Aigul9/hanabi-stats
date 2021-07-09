@@ -1,6 +1,6 @@
 import csv
 # import py.notes_portrait as np
-import py.util as ut
+import py.utils as ut
 
 
 def open_notes_stats(username):

@@ -1,4 +1,4 @@
-import py.util as ut
+import py.utils as ut
 
 with open('../input/list_of_players_test.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]

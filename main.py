@@ -2,7 +2,7 @@ import csv
 import time
 import math
 import logging
-import py.util as ut
+import py.utils as ut
 import py.calc as c
 import py.purples as purples
 import py.players_most_wl as wl

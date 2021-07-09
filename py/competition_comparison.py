@@ -1,5 +1,5 @@
 import csv
-import py.util as ut
+import py.utils as ut
 
 
 def load_games():

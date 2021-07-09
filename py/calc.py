@@ -1,4 +1,4 @@
-import py.util as ut
+import py.utils as ut
 
 
 def get_wins(totals_list):

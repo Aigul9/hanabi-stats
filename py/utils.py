@@ -36,11 +36,11 @@ def open_file(filename):
 
 
 def save(filename, data, header):
-    with open(f'../output/{filename}.tsv', 'a', encoding='utf-8', newline='') as file:
+    with open(f'../output/{filename}.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
         for k, v in data.items():
-            w.writerow([k, v])
+            w.writerow([k, *v])
 
 
 # HQL-related functions
@@ -62,6 +62,10 @@ def get_3p(stats):
 
 def filter_bga(stats):
     return [row for row in stats if row['options']['variantName'] in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
+
+
+def filter_non_bga(stats):
+    return [row for row in stats if row['options']['variantName'] not in ('Rainbow (6 Suits)', 'No Variant', '6 Suits')]
 
 
 def contains_user(stats, user):
@@ -89,7 +93,7 @@ def get_number_of_suits(variant):
         'Ambiguous Mix': 6,
         'Ambiguous & Dual-Color': 6
     }
-    return default_suits.get(variant, int(variant[-8:-7]))
+    return default_suits.get(variant, variant[-8:-7])
 
 
 def get_max_score(variant):
