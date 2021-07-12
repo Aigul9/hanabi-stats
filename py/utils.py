@@ -31,7 +31,7 @@ def mkdir_p(path):
 
 # Read-write
 def open_file(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         return [line.rstrip() for line in f.readlines()]
 
 

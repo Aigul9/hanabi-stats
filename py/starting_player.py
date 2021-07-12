@@ -1,4 +1,5 @@
 import py.utils as ut
+import py.calc as c
 from itertools import groupby
 
 
@@ -38,9 +39,11 @@ grouped_stats = {}
 for u in players:
     if u in users:
         group = [r for r in games if r[1] == u]
-        g_len = len(group)
+        stats = ut.clear_2p(ut.clear_speedruns(ut.open_stats(u)))
+        total_wins = c.get_wins(stats)
+        # g_len = len(group)
         group_wins = len([r for r in group if r[2] == 'win'])
-        grouped_stats[u] = [ut.p(group_wins, g_len), g_len]
+        grouped_stats[u] = [ut.p(group_wins, total_wins), total_wins]
 grouped_stats = {k: v for k, v in sorted(grouped_stats.items(), key=lambda x: -x[1][0])}
 
-ut.save('starting_player_rate', grouped_stats, ['Player', 'Rate', 'Total'])
+ut.save('starting_player_rate_2', grouped_stats, ['Player', 'Rate', 'Total'])
