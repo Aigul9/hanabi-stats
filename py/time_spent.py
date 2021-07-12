@@ -14,7 +14,7 @@ def save(data):
 users = ut.open_file('../input/list_of_players_notes.txt')
 times = {k: 0 for k in users}
 for u in users:
-    stats = ut.filter_non_bga(ut.clear_speedruns(ut.clear_2p(ut.open_stats(u))))
+    stats = ut.filter_non_bga(ut.clear_speedruns(ut.open_stats(u)))
     # stats = ut.clear_speedruns(ut.open_stats(u))
     for s in stats:
         try:
