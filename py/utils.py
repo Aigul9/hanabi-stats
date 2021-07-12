@@ -163,3 +163,14 @@ def current_time():
 def time_spent(start_time):
     print(f'Time spent (in min): {round((time.time() - start_time) / 60, 2)}')
 
+
+def convert_sec_to_day(n):
+    n = int(n)
+    day = n // (24 * 3600)
+    n = n % (24 * 3600)
+    hour = n // 3600
+    n %= 3600
+    minutes = n // 60
+    n %= 60
+    seconds = n
+    return {'days': day, 'hours': hour, 'minutes': minutes, 'seconds': seconds}

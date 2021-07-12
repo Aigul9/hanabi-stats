@@ -1,7 +1,6 @@
 import py.utils as ut
 
-with open('../input/list_of_players_test.txt', 'r') as f:
-    users = [line.rstrip() for line in f.readlines()]
+users = ut.open_file('../input/list_of_players_test.txt')
 
 users_rates = {}
 for u in users:

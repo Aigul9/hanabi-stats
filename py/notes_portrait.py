@@ -40,9 +40,7 @@ def save_count(user, data_user):
         w.writerow([user, data_user['len'], round(data_user['len'] / data_user['count'])])
 
 
-with open('../input/list_of_players_notes.txt', 'r') as f:
-    users = [line.rstrip() for line in f.readlines()]
-
+users = ut.open_file('../input/list_of_players_notes.txt')
 
 notes_count = {}
 for u in users:
