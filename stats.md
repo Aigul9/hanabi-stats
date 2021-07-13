@@ -22,6 +22,8 @@
 
 #### [Winrates in Teams](output/winrate/teams_wr.tsv)
 
+#### [Winrates in Hours](output/time/hours_wr.tsv)
+
 <br/>
 
 ### Stats for Note-Taking
