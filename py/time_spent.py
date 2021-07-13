@@ -5,7 +5,7 @@ import py.utils as ut
 
 
 def save(data):
-    with open(f'../output/times/times_spent (excl. days with 0 games).tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/times/times_spent.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player', 'Days', 'Hours', 'Per game (in min)', 'Per day (in h, incl. 0)', 'Per day (in h, excl. 0)'])
         for k, v in data.items():
