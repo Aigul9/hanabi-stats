@@ -9,34 +9,43 @@
 ### Stats for Time Spent Playing
 
 #### [Time Spent Playing (in non-speedruns)](output/time/times_spent.tsv)
-- Per day (in h, incl. 0): average time spent playing daily including the days with 0 games (in hours per day)
-- Per day (in h, excl. 0): average time spent playing daily excluding the days with 0 games (in hours per day)
+- Column `Per game (in min)`: average time spent playing per game (in min)
+- Column `Per day (in h, incl. 0)`: average time spent playing daily including the days with 0 games (in hours per day)
+- Column `Per day (in h, excl. 0)`: average time spent playing daily excluding the days with 0 games (in hours per day)
 
 <br/>
 
-### Stats for Winrate
+### Stats for Winrates
 
-#### [Winrates in Total Games](output/winrate/highest_wr_all.tsv)
+Win condition: Finish a game with maximum score.
 
-#### [Winrates in BGA Games](output/winrate/highest_wr_bga.tsv)
+#### [Total Game Winrates](output/winrate/highest_wr_all.tsv)
+- Column `W(%)`: winrate in total games
 
-#### [Winrates in Teams](output/winrate/teams_wr.tsv)
+#### [BGA Game Winrates](output/winrate/highest_wr_bga.tsv)
+- Column `W(%)`: winrate for the BGA-variant
+- BGA Variants: *No Variant*, *6 Suits*, and *Rainbow (6 Suits)*
+
+#### [Team Winrates](output/winrate/teams_wr.tsv)
+
 
 #### [Winrates in Hours](output/time/hours_wr.tsv)
 
 <br/>
 
-### Stats for Note-Taking
+### Stats for Notes
 
-#### [Most Frequent Words Used](output/notes/frequent_words.tsv)
+Notes taken in a multi-player game.
 
-#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Total Notes)
+#### [Most-Frequent Words Used in Notes](output/notes/frequent_words.tsv)
+
+#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Number of Notes Taken)
 
 #### [Numbers of Notes Taken](output/notes/notes_count_sorted.tsv) (Sorted by Average Notes Taken per Game)
 
-#### [Note-Taking Ratio in Total Games](output/notes/notes_rates.tsv)
+#### [Note-Taking Ratio per Card Seen](output/notes/notes_rates.tsv) (in Total Games)
 
-#### [Note-Taking Ratio in Non-No-Variant Games](output/notes/notes_rates_2.tsv)
+#### [Note-Taking Ratio per Card Seen](output/notes/notes_rates_2.tsv) (in Non-No-Variant Games)
 
 #### [Vocabulary Intersection](output/notes/vocabulary_intersection.tsv)
 
