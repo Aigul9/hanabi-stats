@@ -1,7 +1,12 @@
 # Hanabi Stats
 
+### Stats for Maximum Scores
 
-### Time Spent Playing
+#### [Max Scores](output/total_max_scores.tsv)
+
+<br/>
+
+### Stats for Time Spent Playing
 
 #### [Time Spent Playing (in Non-Speedruns)](output/time/times_spent.tsv)
 - Per day (in h, incl. 0): average time spent playing daily including the days with 0 games (in hours per day)
@@ -9,16 +14,7 @@
 
 <br/>
 
-### Best Alice
-#### [Winrate of Total Games as Alice](output/winrate/alice/starting_player_rate.tsv)
-- Alice's WR: [# of Games Won being as Alice] / [# of Games being as Alice]
-#### [Ratio of Games won as Alice](output/winrate/alice/starting_player_rate_2.tsv)
-- Descriptions:
-#### [xxx](output/winrate/alice/starting_player_upd.tsv)
-
-<br/>
-
-### Winrate
+### Stats for Winrate
 
 #### [Winrates in Total Games](output/winrate/highest_wr_all.tsv)
 
@@ -28,9 +24,32 @@
 
 <br/>
 
-### Miscellaneous
+### Stats for Note-Taking
 
-#### [Max Scores](output/total_max_scores.tsv)
+#### [Most Frequent Words Used](output/notes/frequent_words.tsv)
+
+#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Total Notes)
+
+#### [Numbers of Notes Taken](output/notes/notes_count_sorted.tsv) (Sorted by Average Notes Taken per Game)
+
+#### [Note-Taking Ratio in Total Games](output/notes/notes_rates.tsv)
+
+#### [Note-Taking Ratio in Non-No-Variant Games](output/notes/notes_rates_2.tsv)
+
+#### [Vocabulary Intersection](output/notes/vocabulary_intersection.tsv)
+
+<br/>
+
+### Stats for Best Alice
+#### [Winrate of Total Games as Alice](output/winrate/alice/starting_player_rate.tsv)
+- Alice's WR: [# of Games Won being as Alice] / [# of Games being as Alice]
+#### [Ratio of Games won as Alice](output/winrate/alice/starting_player_rate_2.tsv)
+- Descriptions:
+#### [xxx](output/winrate/alice/starting_player_upd.tsv)
+
+<br/>
+
+### Miscellaneous
 
 #### [End Game Conditions](output/end_condition.tsv)
 
