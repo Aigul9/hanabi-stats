@@ -17,7 +17,7 @@
 
 ### Stats for Winrates
 
-Win condition: Finish a game with maximum score
+Win condition: Finish a game with maximum score.
 
 #### [Total Game Winrates](output/winrate/highest_wr_all.tsv)
 - Column `W(%)`: winrate in total games
@@ -33,11 +33,13 @@ Win condition: Finish a game with maximum score
 
 <br/>
 
-### Stats for Note-Taking
+### Stats for Notes
 
-#### [Most Frequent Words Used](output/notes/frequent_words.tsv)
+Notes taken in a multi-player game.
 
-#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Total Notes)
+#### [Most-Frequent Words Used in Notes](output/notes/frequent_words.tsv)
+
+#### [Numbers of Notes in Games](output/notes/notes_count.tsv) (Sorted by Total Notes Taken)
 
 #### [Numbers of Notes Taken](output/notes/notes_count_sorted.tsv) (Sorted by Average Notes Taken per Game)
 
