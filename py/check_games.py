@@ -3,7 +3,7 @@ import json
 
 def open_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
-        return [json.loads(json.dumps(line.rstrip())) for line in f.readlines()]
+        return [json.loads(line.rstrip()) for line in f.readlines()]
 
 
 games = open_file('../temp/exported_games_test.txt')
@@ -14,3 +14,5 @@ for g, v in zip(games, range(n, 583000)):
         print(g_id, v)
         v = g_id
     v += 1
+
+

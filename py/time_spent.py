@@ -5,7 +5,7 @@ import py.utils as ut
 
 
 def save(data):
-    with open(f'../output/times_spent.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/times_spent (excl. days with 0 games).tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player', 'Days', 'Hours', 'Per game (in min)', 'Per day (in h)'])
         for k, v in data.items():
@@ -35,6 +35,7 @@ for u in users:
     #     d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
     # except ValueError:
     #     d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%fZ')
+    # days = (datetime.now() - d_joined).days
     times[u] = [0, len(stats), days]
     for s in stats:
         try:
