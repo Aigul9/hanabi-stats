@@ -5,11 +5,11 @@ import py.utils as ut
 
 
 def save(data):
-    with open(f'../output/times_spent (excl. days with 0 games).tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/times/times_spent (excl. days with 0 games).tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
-        w.writerow(['Player', 'Days', 'Hours', 'Per game (in min)', 'Per day (in h)'])
+        w.writerow(['Player', 'Days', 'Hours', 'Per game (in min)', 'Per day (in h, incl. 0)', 'Per day (in h, excl. 0)'])
         for k, v in data.items():
-            w.writerow([k, v[0]['days'], v[0]['hours'], v[1], v[2]])
+            w.writerow([k, v[0]['days'], v[0]['hours'], v[1], v[2], v[3]])
 
 
 def group_stats(data):
@@ -29,14 +29,14 @@ times = {}
 for u in users:
     print(u)
     stats = ut.clear_speedruns(ut.open_stats(u))
-    days = group_stats(stats)
-    # date = stats[len(stats) - 1]['datetimeStarted']
-    # try:
-    #     d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
-    # except ValueError:
-    #     d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%fZ')
-    # days = (datetime.now() - d_joined).days
-    times[u] = [0, len(stats), days]
+    days_2 = group_stats(stats)
+    date = stats[len(stats) - 1]['datetimeStarted']
+    try:
+        d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
+    except ValueError:
+        d_joined = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%fZ')
+    days_1 = (datetime.now() - d_joined).days
+    times[u] = [0, len(stats), days_1, days_2]
     for s in stats:
         try:
             d_start = datetime.strptime(s['datetimeStarted'], '%Y-%m-%dT%H:%M:%S.%fZ')
@@ -50,5 +50,7 @@ for u in users:
     times[u][1] = times[u][0] / times[u][1] / 60
     # per day
     times[u][2] = times[u][0] / times[u][2] / 3600
-times = {k: [ut.convert_sec_to_day(v[0]), round(v[1], 1), round(v[2], 1)] for k, v in sorted(times.items(), key=lambda i: -i[1][0])}
+    # per day excl. days with 0 games
+    times[u][3] = times[u][0] / times[u][3] / 3600
+times = {k: [ut.convert_sec_to_day(v[0]), round(v[1], 1), round(v[2], 1), round(v[3], 1)] for k, v in sorted(times.items(), key=lambda i: -i[1][0])}
 save(times)
