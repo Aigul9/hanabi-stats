@@ -8,7 +8,7 @@
 
 ### Stats for Time Spent Playing
 
-#### [Time Spent Playing (in Non-Speedruns)](output/time/times_spent.tsv)
+#### [Time Spent Playing (in non-speedruns)](output/time/times_spent.tsv)
 - Per day (in h, incl. 0): average time spent playing daily including the days with 0 games (in hours per day)
 - Per day (in h, excl. 0): average time spent playing daily excluding the days with 0 games (in hours per day)
 
