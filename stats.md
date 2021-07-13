@@ -15,13 +15,19 @@
 
 <br/>
 
-### Stats for Winrate
+### Stats for Winrates
 
-#### [Winrates in Total Games](output/winrate/highest_wr_all.tsv)
+Win condition: Finish a game with maximum score
 
-#### [Winrates in BGA Games](output/winrate/highest_wr_bga.tsv)
+#### [Total Game Winrates](output/winrate/highest_wr_all.tsv)
+- Column `W(%)`: winrate in total games
 
-#### [Winrates in Teams](output/winrate/teams_wr.tsv)
+#### [BGA Game Winrates](output/winrate/highest_wr_bga.tsv)
+- Column `W(%)`: winrate for the BGA-variant
+- BGA Variants: *No Variant*, *6 Suits*, and *Rainbow (6 Suits)*
+
+#### [Team Winrates](output/winrate/teams_wr.tsv)
+
 
 #### [Winrates in Hours](output/time/hours_wr.tsv)
 
