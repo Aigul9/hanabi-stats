@@ -1,6 +1,5 @@
 import py.utils as ut
 import py.calc as c
-from itertools import groupby
 
 
 with open('../input/list_of_players_notes.txt', 'r') as f:
@@ -26,24 +25,29 @@ with open('../output/misc/starting_player_logs.txt', 'r') as f:
 #     # games.append(game)
 # # print(games)
 
-
-# test = [
-#     {'id': 581699, 'sp': 'Lel0uch', 'result': 'loss'},
-#     {'id': 581689, 'sp': 'Lel0uch', 'result': 'win'},
-#     {'id': 581680, 'sp': 'Valetta6789', 'result': 'loss'}
-# ]
-
-# print([r for r in games if r[1] == 'Zamiel'])
 players = set([r[1] for r in games])
 grouped_stats = {}
 for u in players:
     if u in users:
         group = [r for r in games if r[1] == u]
         stats = ut.clear_2p(ut.clear_speedruns(ut.open_stats(u)))
+        # num games overall
+        s_len = len(stats)
+        # num wins overall
         total_wins = c.get_wins(stats)
-        # g_len = len(group)
+        # num games going first
+        g_len = len(group)
+        # num wins going first
         group_wins = len([r for r in group if r[2] == 'win'])
-        grouped_stats[u] = [ut.p(group_wins, total_wins), total_wins]
+        formula = round((group_wins / g_len) / (total_wins / s_len), 2)
+        grouped_stats[u] = [formula, group_wins, g_len, total_wins, s_len]
 grouped_stats = {k: v for k, v in sorted(grouped_stats.items(), key=lambda x: -x[1][0])}
 
-ut.save('starting_player_rate_2', grouped_stats, ['Player', 'Rate', 'Total'])
+ut.save('starting_player_rate_2', grouped_stats, [
+    'Player',
+    'Ratio',
+    'Num wins going first',
+    'Num games going first',
+    'Num wins overall',
+    'Num games overall'
+])

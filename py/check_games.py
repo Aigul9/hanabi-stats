@@ -3,10 +3,10 @@ import json
 
 def open_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
-        return [json.loads(line.rstrip().replace('\'', '"')) for line in f.readlines()]
+        return [json.loads(json.dumps(line.rstrip())) for line in f.readlines()]
 
 
-games = open_file('../temp/exported_games.txt')
+games = open_file('../temp/exported_games_test.txt')
 n = 2906
 for g, v in zip(games, range(n, 583000)):
     g_id = g['id']
