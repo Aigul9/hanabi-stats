@@ -11,18 +11,14 @@ class Game(Base):
     game_id = Column(Integer, primary_key=True)
     players = Column(ARRAY(String))
     variant = Column(String)
-    timed = Column(Boolean)
-    time_base = Column(Integer)
-    time_per_turn = Column(Integer)
+    speedrun = Column(Boolean)
     seed = Column(String)
 
-    def __init__(self, game_id, players, variant, timed, time_base, time_per_turn, seed):
+    def __init__(self, game_id, players, variant, speedrun, seed):
         self.game_id = game_id
         self.players = players
         self.variant = variant
-        self.timed = timed
-        self.time_base = time_base
-        self.time_per_turn = time_per_turn
+        self.speedrun = speedrun
         self.seed = seed
 
 

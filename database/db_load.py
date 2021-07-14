@@ -5,26 +5,23 @@ from database.db_connect import session
 def load(g_id, g):
     try:
         opt = g['options']
-        timed = opt['timed']
-        time_base = opt['timeBase']
-        time_per_turn = opt['timePerTurn']
         try:
             var = opt['variant']
         except KeyError:
             var = None
+        try:
+            speedrun = opt['speedrun']
+        except KeyError:
+            speedrun = None
     except KeyError:
         var = None
-        timed = None
-        time_base = None
-        time_per_turn = None
+        speedrun = None
     actions = g['actions']
     game = Game(
         g_id,
         g['players'],
         var,
-        timed,
-        time_base,
-        time_per_turn,
+        speedrun,
         g['seed']
     )
     for i in range(len(actions)):
