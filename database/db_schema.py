@@ -22,6 +22,20 @@ class Game(Base):
         self.seed = seed
 
 
+class Card(Base):
+    __tablename__ = 'decks'
+    seed = Column(String, primary_key=True)
+    card_index = Column(Integer, primary_key=True)
+    suit_index = Column(Integer)
+    rank = Column(Integer)
+
+    def __init__(self, seed, card_index, suit_index, rank):
+        self.seed = seed
+        self.card_index = card_index
+        self.suit_index = suit_index
+        self.rank = rank
+
+
 class GameAction(Base):
     __tablename__ = 'game_actions'
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)

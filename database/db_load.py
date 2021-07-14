@@ -1,8 +1,9 @@
-from database.db_schema import Game, GameAction, PlayerNotes
+from database.db_schema import Game, Card, GameAction, PlayerNotes
 from database.db_connect import session
 
 
-def load(g_id, g):
+def load_game(g):
+    g_id = g['id']
     try:
         opt = g['options']
         try:
@@ -16,7 +17,6 @@ def load(g_id, g):
     except KeyError:
         var = None
         speedrun = None
-    actions = g['actions']
     game = Game(
         g_id,
         g['players'],
@@ -24,6 +24,29 @@ def load(g_id, g):
         speedrun,
         g['seed']
     )
+    session.add(game)
+
+
+def load_deck(g):
+    deck = g['deck']
+    for i in range(len(deck)):
+        db_card = session.query(Card) \
+            .filter(Card.seed == g['seed']) \
+            .filter(Card.card_index == i) \
+            .scalar()
+        if db_card is None:
+            card = Card(
+                g['seed'],
+                i,
+                deck[i]['suitIndex'],
+                deck[i]['rank']
+            )
+            session.add(card)
+
+
+def load_actions(g):
+    g_id = g['id']
+    actions = g['actions']
     for i in range(len(actions)):
         action = GameAction(
             g_id,
@@ -33,6 +56,9 @@ def load(g_id, g):
             actions[i]['value'],
         )
         session.add(action)
+
+def load_notes(g):
+    g_id = g['id']
     try:
         game_notes = g['notes']
         for i in range(len(game_notes)):
@@ -44,4 +70,3 @@ def load(g_id, g):
             session.add(player_notes)
     except KeyError:
         pass
-    session.add(game)
