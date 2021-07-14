@@ -18,7 +18,10 @@ def open_stats(user):
 def export_game(game_id):
     url = f'https://hanab.live/export/{game_id}'
     response = requests.get(url)
-    return response.json()
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {}
 
 
 def mkdir_p(path):

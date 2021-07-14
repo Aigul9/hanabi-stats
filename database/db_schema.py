@@ -53,7 +53,7 @@ class GameAction(Base):
 class PlayerNotes(Base):
     __tablename__ = 'player_notes'
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
-    player = Column(String)
+    player = Column(String, primary_key=True)
     notes = Column(ARRAY(String))
 
     def __init__(self, game_id, player, notes):
