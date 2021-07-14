@@ -41,7 +41,7 @@ Notes taken in a multi-player game.
 
 #### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Number of Notes Taken)
 
-#### [Numbers of Notes Taken](output/notes/notes_count_sorted.tsv) (Sorted by Average Notes Taken per Game)
+#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Average Notes Taken per Game)
 
 #### [Note-Taking Ratio per Card Seen](output/notes/notes_rates.tsv) (in Total Games)
 

@@ -4,7 +4,7 @@ import py.utils as ut
 
 
 def open_notes_stats(username):
-    with open(f'../output/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
+    with open(f'../output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
         user_notes = []
         for line in file.readlines():
             user_notes.append(line.rstrip().split('\t'))
@@ -107,7 +107,7 @@ def freq_names(data):
 
 
 def save(data):
-    with open(f'../output/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Player', *data.keys()])
         for k, v in data.items():
@@ -115,7 +115,7 @@ def save(data):
 
 
 def save_words(words):
-    with open(f'../output/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Words', 'Frequency', f'Number of vocabularies (All = {len(users)})'])
         for k, v in words.items():
@@ -138,7 +138,7 @@ def save_dict(data):
             w.writerow([k, v[0]])
 
 
-with open('../input/list_of_players_test.txt', 'r') as f:
+with open('../input/list_of_players_notes.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
 
 notes_stats = {}
@@ -157,9 +157,10 @@ save(all_p)
 # for p1, p2 in most_talkative(notes_stats).items():
 #     print(f'{p1}\t{p2}')
 #
+
 save_words(most_frequent(notes_stats))
 
 for n1, n2 in freq_names(most_frequent(notes_stats)).items():
     print(f'{n1}\t{n2}')
 
-save_dict(most_frequent(notes_stats))
+# save_dict(most_frequent(notes_stats))

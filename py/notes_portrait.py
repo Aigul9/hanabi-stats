@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 import py.utils as ut
 from database.db_connect import session
-from database.db_schema import Game, PlayerNotes
+from database.db_schema import PlayerNotes
 
 
 def decode(note):
@@ -28,7 +28,7 @@ def filter_id_range(array):
 
 
 def save(username, data):
-    with open(f'../output/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/notes/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Note', f'Frequency ({sum([v for v in data.values()])} in total)'])
         for k, v in data.items():
@@ -36,10 +36,10 @@ def save(username, data):
 
 
 def save_count(user, data_user):
-    with open(f'../output/notes_count_sorted.tsv', 'a', encoding='utf-8', newline='') as file:
+    with open(f'../output/notes/notes_count.tsv', 'a', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE)
         # w.writerow(['Note', 'Count', 'Per game'])
-        w.writerow([user, data_user['len'], round(data_user['len'] / data_user['count'])])
+        w.writerow([user, data_user['count'], data_user['len']])
 
 
 users = ut.open_file('../input/list_of_players_test.txt')
@@ -47,6 +47,7 @@ users = ut.open_file('../input/list_of_players_test.txt')
 notes_count = {}
 for u in users:
     print(u)
+    print('Start time:', datetime.now())
     start = time.time()
     ut.current_time()
     stats = filter_id_range(ut.open_stats(u))
@@ -69,6 +70,7 @@ for u in users:
             #     notes_count[u]['len'] = n_len
             #     notes_count[u]['count'] = 1
 
+            # portrait
             notes = [decode(n) for n in notes if n != '']
             if len(notes) == 0:
                 continue
@@ -87,7 +89,11 @@ for u in users:
                         u_notes_dict[n1] += 1
                     else:
                         u_notes_dict[n1] = 1
-    # save_count(u, notes_count[u])
-    print(f'{u} is saved.')
-    print('End time:', datetime.now())
+    # notes_count[u]['count'] = round(notes_count[u]['len'] / notes_count[u]['count'])
+    u_notes_dict = {k: v for k, v in sorted(u_notes_dict.items(), key=lambda x: (-x[1], x[0]))}
+    save(u, u_notes_dict)
     print('Time spent (in min):', round((time.time() - start) / 60, 2))
+
+# notes_count = {k: v for k, v in sorted(notes_count.items(), key=lambda x: -x[1]['count'])}
+# for u in notes_count.keys():
+#     save_count(u, notes_count[u])
