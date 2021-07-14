@@ -11,16 +11,22 @@ def load_game(g):
         except KeyError:
             var = None
         try:
+            starting_player = opt['startingPlayer']
+        except KeyError:
+            starting_player = None
+        try:
             speedrun = opt['speedrun']
         except KeyError:
             speedrun = None
     except KeyError:
         var = None
+        starting_player = None
         speedrun = None
     game = Game(
         g_id,
         g['players'],
         var,
+        starting_player,
         speedrun,
         g['seed']
     )
@@ -72,3 +78,14 @@ def load_notes(g):
             session.add(player_notes)
     except KeyError:
         return
+
+
+def load_column(g):
+    g_id = g['id']
+    try:
+        opt = g['options']
+        starting_player = opt['startingPlayer']
+    except KeyError:
+        starting_player = None
+    game = session.query(Game).filter(Game.game_id == g_id).first()
+    game.starting_player = starting_player

@@ -2,7 +2,7 @@ import csv
 
 import py.utils as ut
 from database.db_connect import session
-from database.db_schema import Game, Card, GameAction, PlayerNotes
+from database.db_schema import Game, GameAction
 
 
 users = ['Dr_Kakashi']
@@ -11,20 +11,22 @@ results = {k: [] for k in users}
 for u in users:
     stats = ut.open_stats(u)
     for s in stats:
-        # game_id = 140017
+    # for s in [99104]:
         game_id = s['id']
+        # game_id = s
         print(game_id)
-        players = session.query(Game.players).filter(Game.game_id == game_id).scalar()
+        players, starting_player = session.query(Game.players, Game.starting_player).filter(Game.game_id == game_id).first()
+        players_count = len(players)
+        if starting_player is not None:
+            players = (players[starting_player:] + players[:starting_player])
         actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
-        player_count = len(players)
         clues = {k: 0 for k in players}
         for i in range(len(actions)):
             if ut.is_clued(actions[i]):
-                clues[players[i % player_count]] += 1
+                clues[players[i % players_count]] += 1
         max_users = [k for k, v in clues.items() if v == max(clues.values())]
-        if len(max_users) == 1 and max_users[0] in results:
-            results[max_users[0]].append([game_id, player_count, clues[max_users[0]]])
-        # print(clues)
+        if len(max_users) == 1 and max_users[0] == u:
+            results[u].append([game_id, players_count, clues[u]])
         # print(results)
 # print(results)
 results = sorted([i for v in results.values() for i in v if i[1] == 3], key=lambda x: -x[2])
