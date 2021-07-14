@@ -49,7 +49,7 @@ def save(filename, data, header):
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
         for k, v in data.items():
-            w.writerow([k, v])
+            w.writerow([k, *v])
 
 
 # HQL-related functions
