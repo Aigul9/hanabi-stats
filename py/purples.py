@@ -1,6 +1,7 @@
-import py.calc as c
 import csv
 from datetime import datetime
+
+import py.calc as c
 
 
 def get_purples():

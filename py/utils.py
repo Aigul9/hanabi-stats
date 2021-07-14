@@ -45,11 +45,11 @@ def files_in_dir(path):
 
 
 def save(filename, data, header):
-    with open(f'../output/{filename}.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../output/{filename}.tsv', 'a', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
         for k, v in data.items():
-            w.writerow([k, *v])
+            w.writerow([k, v])
 
 
 # HQL-related functions
@@ -139,11 +139,11 @@ def get_number_of_starting_cards(n_players):
 
 
 def get_number_of_plays_or_discards(actions):
-    return len([a for a in actions if a['type'] in [0, 1]])
+    return len([a for a in actions if a.action_type in [0, 1]])
 
 
 def is_clued(action):
-    return action['type'] in [2, 3]
+    return action.action_type in [2, 3]
 
 
 # Additional functions

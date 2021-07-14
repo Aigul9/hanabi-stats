@@ -1,5 +1,6 @@
-import py.utils as ut
 import csv
+
+import py.utils as ut
 
 
 with open('../input/list_of_players_notes.txt', 'r') as f:
@@ -20,7 +21,6 @@ for u in users:
                 game['result'] = 'win'
             games.append(game)
 
-# print(games)
 with open(f'../output/misc/all_games.tsv', 'w', encoding='utf-8', newline='') as file:
     w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
     for g in games:

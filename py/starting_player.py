@@ -43,7 +43,7 @@ for u in players:
         grouped_stats[u] = [formula, group_wins, g_len, total_wins, s_len]
 grouped_stats = {k: v for k, v in sorted(grouped_stats.items(), key=lambda x: -x[1][0])}
 
-ut.save('starting_player_rate_2', grouped_stats, [
+ut.save('winrate/alice/starting_player_upd', grouped_stats, [
     'Player',
     'Ratio',
     'Num wins going first',

@@ -30,6 +30,9 @@ files = ut.files_in_dir(path)
 games = load_games()
 for g in games.values():
     d.load_deck(g)
+    # d.load_game(g)
+    # d.load_actions(g)
+    # d.load_notes(g)
 
 d.session.commit()
 d.session.close()

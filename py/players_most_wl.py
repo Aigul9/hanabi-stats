@@ -1,5 +1,6 @@
 import csv
 import itertools
+
 import py.calc as c
 import py.utils as ut
 
@@ -45,7 +46,6 @@ def save_players_dict(username, data):
 def get_overall_wr(items, players):
     results = {}
     stats_3 = filter_var(items)
-    # print(stats_3)
     for p in players:
         p_wins = c.get_wins(ut.contains_user(p, stats_3))
         p_losses = c.get_losses(ut.contains_user(p, stats_3))

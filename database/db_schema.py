@@ -1,9 +1,6 @@
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean
 from sqlalchemy.types import ARRAY
-
-
-Base = declarative_base()
+from database.db_connect import Base
 
 
 class Game(Base):

@@ -9,8 +9,8 @@ print('last_id:', last_id)
 while True:
     g = ut.export_game(last_id + 1)
     if g != {}:
-        d.load_game(g)
         d.load_deck(g)
+        d.load_game(g)
         d.load_actions(g)
         d.load_notes(g)
         last_id += 1

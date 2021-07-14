@@ -1,25 +1,8 @@
-import json
 import operator
 
 import py.utils as ut
 
 
-def open_as_json(filename):
-    with open(filename, 'r', encoding='utf-8') as file:
-        data = {}
-        for line in file.readlines():
-            line_dict = json.loads(line.rstrip())
-            data[line_dict['id']] = line_dict
-        return data
-
-
-path = '../temp/games_dumps/'
-files = ut.files_in_dir(path)
-games = {}
-for f in files:
-    games = games | open_as_json(f'{path}{f}')
-    print(f)
-# print(games.keys())
 users = ['Dr_Kakashi']
 # [game_id, player_count, clues]
 results = {k: [] for k in users}

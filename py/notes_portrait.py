@@ -2,6 +2,7 @@ import csv
 import re
 import time
 from datetime import datetime
+
 import py.utils as ut
 from database.db_connect import session
 from database.db_schema import PlayerNotes

@@ -29,19 +29,20 @@ def load_game(g):
 
 def load_deck(g):
     deck = g['deck']
+    seed = session.query(Card.seed) \
+        .filter(Card.seed == g['seed'])\
+        .first()
+    print(g['id'])
+    if seed is not None:
+        return
     for i in range(len(deck)):
-        db_card = session.query(Card) \
-            .filter(Card.seed == g['seed']) \
-            .filter(Card.card_index == i) \
-            .scalar()
-        if db_card is None:
-            card = Card(
-                g['seed'],
-                i,
-                deck[i]['suitIndex'],
-                deck[i]['rank']
-            )
-            session.add(card)
+        card = Card(
+            g['seed'],
+            i,
+            deck[i]['suitIndex'],
+            deck[i]['rank']
+        )
+        session.add(card)
 
 
 def load_actions(g):
@@ -57,6 +58,7 @@ def load_actions(g):
         )
         session.add(action)
 
+
 def load_notes(g):
     g_id = g['id']
     try:
@@ -69,4 +71,4 @@ def load_notes(g):
             )
             session.add(player_notes)
     except KeyError:
-        pass
+        return
