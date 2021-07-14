@@ -1,19 +1,8 @@
-from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import Column, String, Integer, Date, Table, ForeignKey, Boolean
+from sqlalchemy import Column, String, Integer, ForeignKey, Boolean
 from sqlalchemy.types import ARRAY
 
 
-db_name = 'hanabi_db'
-db_user = 'postgres'
-db_pass = 'postgres'
-db_host = 'localhost'
-db_port = '5432'
-
-db_string = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
-db = create_engine(db_string)
-Session = sessionmaker(bind=db)
 Base = declarative_base()
 
 
@@ -52,7 +41,6 @@ class GameAction(Base):
     # If a rank clue, then 1 if 1, 2 if 2, etc.
     # If a game over, then the value corresponds to the 'endCondition' values
     value = Column(Integer)
-    # game = relationship('Game', backref=backref('game_actions', uselist=False))
 
     def __init__(self, game_id, turn, action_type, target, value):
         self.game_id = game_id
@@ -60,7 +48,6 @@ class GameAction(Base):
         self.action_type = action_type
         self.target = target
         self.value = value
-        # self.game = game
 
 
 class PlayerNotes(Base):
@@ -68,36 +55,8 @@ class PlayerNotes(Base):
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
     player = Column(String)
     notes = Column(ARRAY(String))
-    # game = relationship('Game', backref=backref('player_notes', uselist=False))
 
     def __init__(self, game_id, player, notes):
         self.game_id = game_id
         self.player = player
         self.notes = notes
-        # self.game = game
-
-
-Base.metadata.create_all(db)
-session = Session()
-game_582461 = Game(
-    582461,
-    [
-        'Valetta6789',
-        'melwen',
-        'Lanvin',
-        'Zamiel'
-    ],
-    'Rainbow-Ones & Brown (4 Suits)',
-    True,
-    90,
-    15,
-    'p4v304s2'
-)
-
-session.add(game_582461)
-session.commit()
-session.close()
-
-games = session.query(Game).all()
-for g in games:
-    print(g.players)

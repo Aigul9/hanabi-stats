@@ -1,4 +1,6 @@
-import json, operator
+import json
+import operator
+
 import py.utils as ut
 
 
