@@ -33,10 +33,10 @@ def save(grouped_stats, user):
         for k, v in grouped_stats.items():
             month = calendar.month_abbr[int(k[5:])]
             year = k[:4]
-            w.writerow([f'{month} {year} - {v} games'])
+            w.writerow([month, year, f'{v} games'])
         w.writerow([f'Total: {sum(grouped_stats.values())}'])
 
 
-username = 'fey'
+username = 'padi'
 data = group_stats(clear_2p(clear_speedruns(open_stats(username))))
 save(data, username)

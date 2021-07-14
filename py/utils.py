@@ -4,6 +4,8 @@ import os
 import requests
 import time
 from datetime import datetime
+from os import listdir
+from os.path import isfile, join
 
 
 # Parsing
@@ -33,6 +35,10 @@ def mkdir_p(path):
 def open_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return [line.rstrip() for line in f.readlines()]
+
+
+def files_in_dir(path):
+    return [f for f in listdir(path) if isfile(join(path, f))]
 
 
 def save(filename, data, header):
@@ -131,6 +137,10 @@ def get_number_of_starting_cards(n_players):
 
 def get_number_of_plays_or_discards(actions):
     return len([a for a in actions if a['type'] in [0, 1]])
+
+
+def is_clued(action):
+    return action['type'] in [2, 3]
 
 
 # Additional functions
