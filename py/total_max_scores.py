@@ -23,7 +23,8 @@ def get_total_scores(username):
     return [get_digits(str(t)) for t in text]
 
 
-users = ut.open_file('../input/list_of_players_notes.txt')
+# users = ut.open_file('../input/list_of_players_notes.txt')
+users = ['Pablo-']
 scores = {}
 for u in users:
     scores[u] = get_total_scores(u)
