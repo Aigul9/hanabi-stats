@@ -89,3 +89,31 @@ def load_column(g):
         starting_player = None
     game = session.query(Game).filter(Game.game_id == g_id).first()
     game.starting_player = starting_player
+
+
+def update_games(s):
+    g_id = s['id']
+    opt = g['options']
+    game = session.query(Game).filter(Game.game_id == g_id).first()
+    game.num_players = opt['numPlayers']
+    if game.starting_player is None:
+        game.starting_player = opt['startingPlayer']
+    game.variant_id = opt['variantID']
+    game.timed = opt['timed']
+    game.time_base = opt['timeBase']
+    game.time_per_turn = opt['timePerTurn']
+    game.card_cycle = opt['cardCycle']
+    game.deck_plays = opt['deckPlays']
+    game.empty_clues = opt['emptyClues']
+    game.one_extra_card = opt['oneExtraCard']
+    game.one_less_card = opt['oneLessCard']
+    game.all_or_nothing = opt['allOrNothing']
+    game.detrimental_characters = opt['detrimentalCharacters']
+    game.score = s['score']
+    game.num_turns = s['numTurns']
+    game.end_condition = s['endCondition']
+    game.date_time_started = s['datetimeStarted']
+    game.date_time_finished = s['datetimeFinished']
+    game.num_games_on_this_seed = s['numGamesOnThisSeed']
+    game.tags = s['tags']
+

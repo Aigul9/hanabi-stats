@@ -12,12 +12,34 @@ class Game(Base):
     speedrun = Column(Boolean)
     seed = Column(String)
 
-    def __init__(self, game_id, players, variant, starting_player, speedrun, seed):
+    def __init__(self, game_id, num_players, players, starting_player, variant_id, variant, timed, time_base,
+                 time_per_turn, speedrun, card_cycle, deck_plays, empty_clues, one_extra_card, one_less_card,
+                 all_or_nothing, detrimental_characters, score, num_turns, end_condition, date_time_started,
+                 date_time_finished, num_games_on_this_seed, tags, seed):
         self.game_id = game_id
+        self.num_players = num_players
         self.players = players
-        self.variant = variant
         self.starting_player = starting_player
+        self.variant_id = variant_id
+        self.variant = variant
+        self.timed = timed
+        self.time_base = time_base
+        self.time_per_turn = time_per_turn
         self.speedrun = speedrun
+        self.card_cycle = card_cycle
+        self.deck_plays = deck_plays
+        self.empty_clues = empty_clues
+        self.one_extra_card = one_extra_card
+        self.one_less_card = one_less_card
+        self.all_or_nothing = all_or_nothing
+        self.detrimental_characters = detrimental_characters
+        self.score = score
+        self.num_turns = num_turns
+        self.end_condition = end_condition
+        self.date_time_started = date_time_started
+        self.date_time_finished = date_time_finished
+        self.num_games_on_this_seed = num_games_on_this_seed
+        self.tags = tags
         self.seed = seed
 
 
