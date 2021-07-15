@@ -27,13 +27,18 @@ def load_games(path):
     return data
 
 
+def replace_symbols(name):
+    return name.replace(' ', '%20')
+
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-hanabi_players = ut.open_file('../output/hanabi_players.txt')
+hanabi_players = ut.open_file('../output/unnest_players_character_varying_.tsv')
 for p in hanabi_players:
     logger.info(p)
     try:
+        p = replace_symbols(p)
         stats = ut.open_stats(p)
     except json.decoder.JSONDecodeError:
         logger.error(p)
@@ -41,10 +46,6 @@ for p in hanabi_players:
     for s in stats:
         d.update_game(s)
     d.session.commit()
-
-# stats = ut.open_stats('Livia')
-# for s in stats:
-#     d.update_game(s)
 
 # path = '../temp/games_dumps/'
 #

@@ -101,14 +101,16 @@ def load_column(g):
 
 def update_game(s):
     g_id = s['id']
-    # print(g_id)
     opt = s['options']
     game = session.query(Game).filter(Game.game_id == g_id).first()
-    try:
-        game.num_players = opt['numPlayers']
-    except AttributeError:
-        logger.error(g_id)
+    if game is None:
+        logger.info(f'{g_id} doesn\'t exist in db.')
         return
+    num_players = session.query(Game.num_players).filter(Game.game_id == g_id).scalar()
+    if num_players is not None:
+        # logger.info(f'{g_id} is already updated.')
+        return
+    game.num_players = opt['numPlayers']
     if game.starting_player is None:
         game.starting_player = opt['startingPlayer']
     game.variant_id = opt['variantID']
@@ -133,5 +135,5 @@ def update_game(s):
     game.tags = s['tags']
 
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
