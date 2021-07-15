@@ -1,33 +1,41 @@
+import logging
+
 from database.db_schema import Game, Card, GameAction, PlayerNotes
 from database.db_connect import session
 
 
-def load_game(g):
+def load_game(g, s):
     g_id = g['id']
+    opt = s['options']
     try:
-        opt = g['options']
-        try:
-            var = opt['variant']
-        except KeyError:
-            var = None
-        try:
-            starting_player = opt['startingPlayer']
-        except KeyError:
-            starting_player = None
-        try:
-            speedrun = opt['speedrun']
-        except KeyError:
-            speedrun = None
+        starting_player = g['options']['startingPlayer']
     except KeyError:
-        var = None
-        starting_player = None
-        speedrun = None
+        starting_player = opt['startingPlayer']
     game = Game(
         g_id,
+        opt['numPlayers'],
         g['players'],
-        var,
         starting_player,
-        speedrun,
+        opt['variantID'],
+        opt['variantName'],
+        opt['timed'],
+        opt['timeBase'],
+        opt['timePerTurn'],
+        opt['speedrun'],
+        opt['cardCycle'],
+        opt['deckPlays'],
+        opt['emptyClues'],
+        opt['oneExtraCard'],
+        opt['oneLessCard'],
+        opt['allOrNothing'],
+        opt['detrimentalCharacters'],
+        s['score'],
+        s['numTurns'],
+        s['endCondition'],
+        s['datetimeStarted'],
+        s['datetimeFinished'],
+        s['numGamesOnThisSeed'],
+        s['tags'],
         g['seed']
     )
     session.add(game)
@@ -91,17 +99,24 @@ def load_column(g):
     game.starting_player = starting_player
 
 
-def update_games(s):
+def update_game(s):
     g_id = s['id']
-    opt = g['options']
+    # print(g_id)
+    opt = s['options']
     game = session.query(Game).filter(Game.game_id == g_id).first()
-    game.num_players = opt['numPlayers']
+    try:
+        game.num_players = opt['numPlayers']
+    except AttributeError:
+        logger.error(g_id)
+        return
     if game.starting_player is None:
         game.starting_player = opt['startingPlayer']
     game.variant_id = opt['variantID']
+    game.variant = opt['variantName']
     game.timed = opt['timed']
     game.time_base = opt['timeBase']
     game.time_per_turn = opt['timePerTurn']
+    game.speedrun = opt['speedrun']
     game.card_cycle = opt['cardCycle']
     game.deck_plays = opt['deckPlays']
     game.empty_clues = opt['emptyClues']
@@ -117,3 +132,6 @@ def update_games(s):
     game.num_games_on_this_seed = s['numGamesOnThisSeed']
     game.tags = s['tags']
 
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)

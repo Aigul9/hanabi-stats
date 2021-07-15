@@ -1,4 +1,6 @@
 import json
+import logging
+
 import py.utils as ut
 import database.db_load as d
 
@@ -16,7 +18,8 @@ def open_as_json(filename):
         return data
 
 
-def load_games():
+def load_games(path):
+    files = ut.files_in_dir(path)
     data = {}
     for f in files:
         print(f)
@@ -24,16 +27,33 @@ def load_games():
     return data
 
 
-path = '../temp/games_dumps/'
-files = ut.files_in_dir(path)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-games = load_games()
-for g in games.values():
-    d.load_column(g)
+hanabi_players = ut.open_file('../output/hanabi_players.txt')
+for p in hanabi_players:
+    logger.info(p)
+    try:
+        stats = ut.open_stats(p)
+    except json.decoder.JSONDecodeError:
+        logger.error(p)
+        continue
+    for s in stats:
+        d.update_game(s)
+    d.session.commit()
+
+# stats = ut.open_stats('Livia')
+# for s in stats:
+#     d.update_game(s)
+
+# path = '../temp/games_dumps/'
+#
+# games = load_games(path)
+# for g in games.values():
+    # d.load_column(g)
     # d.load_deck(g)
     # d.load_game(g)
     # d.load_actions(g)
     # d.load_notes(g)
 
-d.session.commit()
 d.session.close()

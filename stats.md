@@ -39,13 +39,9 @@ Notes taken in a multi-player game.
 
 #### [Most-Frequent Words Used in Notes](output/notes/frequent_words.tsv)
 
-#### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Number of Notes Taken)
-
 #### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Average Notes Taken per Game)
 
 #### [Note-Taking Ratio per Card Seen](output/notes/notes_rates.tsv) (in Total Games)
-
-#### [Note-Taking Ratio per Card Seen](output/notes/notes_rates_2.tsv) (in Non-No-Variant Games)
 
 #### [Vocabulary Intersection](output/notes/vocabulary_intersection.tsv)
 

@@ -15,6 +15,12 @@ def open_stats(user):
     return response.json()
 
 
+def open_stats_by_game_id(user, game_id):
+    url = f'https://hanab.live/history/{user}?api'
+    response = requests.get(url).json()
+    return [s for s in response if s['id'] == game_id][0]
+
+
 def export_game(game_id):
     url = f'https://hanab.live/export/{game_id}'
     response = requests.get(url)

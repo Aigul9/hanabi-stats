@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer, ForeignKey, Boolean
+from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DateTime
 from sqlalchemy.types import ARRAY
 from database.db_connect import Base
 
@@ -6,10 +6,29 @@ from database.db_connect import Base
 class Game(Base):
     __tablename__ = 'games'
     game_id = Column(Integer, primary_key=True)
+    num_players = Column(Integer)
     players = Column(ARRAY(String))
-    variant = Column(String)
     starting_player = Column(Integer)
+    variant_id = Column(Integer)
+    variant = Column(String)
+    timed = Column(Boolean)
+    time_base = Column(Integer)
+    time_per_turn = Column(Integer)
     speedrun = Column(Boolean)
+    card_cycle = Column(Boolean)
+    deck_plays = Column(Boolean)
+    empty_clues = Column(Boolean)
+    one_extra_card = Column(Boolean)
+    one_less_card = Column(Boolean)
+    all_or_nothing = Column(Boolean)
+    detrimental_characters = Column(Boolean)
+    score = Column(Integer)
+    num_turns = Column(Integer)
+    end_condition = Column(Integer)
+    date_time_started = Column(DateTime)
+    date_time_finished = Column(DateTime)
+    num_games_on_this_seed = Column(Integer)
+    tags = Column(String)
     seed = Column(String)
 
     def __init__(self, game_id, num_players, players, starting_player, variant_id, variant, timed, time_base,

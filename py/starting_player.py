@@ -1,29 +1,14 @@
 import py.utils as ut
 import py.calc as c
 
-
+# TODO: refactor using db
 with open('../input/list_of_players_notes.txt', 'r') as f:
     users = [line.rstrip() for line in f.readlines()]
-
-
-# with open('../output/misc/all_games.tsv', 'r') as f:
-#     all_games = [line.rstrip().split('\t') for line in f.readlines()]
 
 
 with open('../output/misc/starting_player_logs.txt', 'r') as f:
     games = [line.rstrip().split(', ') for line in f.readlines()]
 
-
-# # games = []
-# for g in all_games:
-#     game_id = g[0]
-#     game = ut.export_game(game_id)
-#     # print(game['players'][g[1]])
-#     starting_player = game['players'][int(g[1])]
-#     g[1] = starting_player
-#     print(g)
-#     # games.append(game)
-# # print(games)
 
 players = set([r[1] for r in games])
 grouped_stats = {}
