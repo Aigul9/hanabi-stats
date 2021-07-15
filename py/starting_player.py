@@ -29,7 +29,7 @@ for u in players:
         # num wins not going first
         bob_wins = total_wins - group_wins
         formula = round((group_wins / g_len) / (bob_wins / b_len), 2)
-        grouped_stats[u] = [formula, group_wins, g_len, total_wins, s_len]
+        grouped_stats[u] = [formula, group_wins, g_len, bob_wins, b_len]
 grouped_stats = {k: v for k, v in sorted(grouped_stats.items(), key=lambda x: -x[1][0])}
 
 ut.save('winrate/alice/starting_player_upd2', grouped_stats, [
