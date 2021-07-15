@@ -24,15 +24,19 @@ for u in players:
         g_len = len(group)
         # num wins going first
         group_wins = len([r for r in group if r[2] == 'win'])
-        formula = round((group_wins / g_len) / (total_wins / s_len), 2)
+        # num game not going first
+        b_len = s_len - g_len
+        # num wins not going first
+        bob_wins = total_wins - group_wins
+        formula = round((group_wins / g_len) / (bob_wins / b_len), 2)
         grouped_stats[u] = [formula, group_wins, g_len, total_wins, s_len]
 grouped_stats = {k: v for k, v in sorted(grouped_stats.items(), key=lambda x: -x[1][0])}
 
-ut.save('winrate/alice/starting_player_upd', grouped_stats, [
+ut.save('winrate/alice/starting_player_upd2', grouped_stats, [
     'Player',
     'Ratio',
-    'Num wins going first',
-    'Num games going first',
-    'Num wins overall',
-    'Num games overall'
+    'Alice\'s wins',
+    'Num games being Alice',
+    '!Alice\'s wins',
+    'Num games not being Alice'
 ])
