@@ -46,6 +46,11 @@ def open_file(filename):
         return [line.rstrip() for line in f.readlines()]
 
 
+def open_tsv(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        return [line.rstrip().split('\t') for line in f.readlines()]
+
+
 def files_in_dir(path):
     return [f for f in listdir(path) if isfile(join(path, f))]
 
