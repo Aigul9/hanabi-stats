@@ -4,3 +4,4 @@ __pycache__/
 sql_scripts
 py/test.py
 main.log
+docs/
