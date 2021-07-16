@@ -13,5 +13,5 @@ for i, txt in enumerate(count):
     plt.annotate(txt, (time[i], count[i]))
 plt.title('Games per month')
 plt.plot(time, count)
-plt.savefig(f'../output/games_per_month.png')
+plt.savefig(f'../output/games_per_month_1.png')
 
