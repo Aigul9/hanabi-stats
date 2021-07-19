@@ -4,9 +4,13 @@ services:
   db:
     image: postgres:13-alpine
     restart: always
+    volumes:
+      - hanabistats:/data
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=hanabi_db
     ports:
       - "5432:5432"
+volumes:
+  hanabistats:

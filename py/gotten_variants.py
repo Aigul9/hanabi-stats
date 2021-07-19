@@ -1,4 +1,4 @@
-import py.calc as c
+import py.utils as u
 
 
 def get_max_scores(items):
@@ -22,7 +22,7 @@ def get_gotten_vars(items):
         k = game['options']['numPlayers']
         if v not in all_vars:
             all_vars[v] = {'2': 'n', '3': 'n', '4': 'n', '5': 'n', '6': 'n'}
-            if game['score'] == c.get_max_score(v):
+            if game['score'] == u.get_max_score(v):
                 all_vars[v][k] = 'y'
             else:
                 all_vars[v][k] = 'n'

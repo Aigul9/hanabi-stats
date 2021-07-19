@@ -1,10 +1,11 @@
 from sqlalchemy.sql import func
-from database.db_schema import Game
+from database.db_connect import Game
 import py.utils as ut
 import database.db_load as d
 
 
 last_id = d.session.query(func.max(Game.game_id)).scalar()
+# last_id = 2906
 print('last_id:', last_id)
 while True:
     g_id = last_id + 1

@@ -34,27 +34,29 @@ def replace_symbols(name):
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-hanabi_players = ut.open_file('../output/unnest_players_character_varying_.tsv')
-for p in hanabi_players:
-    logger.info(p)
-    try:
-        p = replace_symbols(p)
-        stats = ut.open_stats(p)
-    except json.decoder.JSONDecodeError:
-        logger.error(p)
-        continue
-    for s in stats:
-        d.update_game(s)
-    d.session.commit()
+# hanabi_players = ut.open_file('../output/unnest_players_character_varying_.tsv')
+# for p in hanabi_players:
+#     logger.info(p)
+#     try:
+#         p = replace_symbols(p)
+#         stats = ut.open_stats(p)
+#     except json.decoder.JSONDecodeError:
+#         logger.error(p)
+#         continue
+#     for s in stats:
+#         d.update_game(s)
+#     d.session.commit()
 
-# path = '../temp/games_dumps/'
-#
-# games = load_games(path)
-# for g in games.values():
-    # d.load_column(g)
-    # d.load_deck(g)
-    # d.load_game(g)
-    # d.load_actions(g)
-    # d.load_notes(g)
+dumps = '../temp/games_dumps/'
+
+games = load_games(dumps)
+for g in games.values():
+    s = ut.open_stats_by_game_id(g['players'][0], g['id'])
+    d.load_deck(g)
+    d.load_game(g, s)
+    d.load_actions(g)
+    d.load_notes(g)
+    d.session.commit()
+    logger.info(g['id'])
 
 d.session.close()

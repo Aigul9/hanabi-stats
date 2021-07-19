@@ -1,0 +1,6 @@
+inspect -f '{{ json .Mounts }}' hanabistats_db_1 | python -m json.tool
+
+docker cp </path/to/dump/in/host> hanabistats_db_1:<path_to_volume>
+
+docker volume create myvol
+docker volume inspect myvol

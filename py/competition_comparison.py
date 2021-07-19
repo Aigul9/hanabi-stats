@@ -1,5 +1,5 @@
 import csv
-import py.utils as ut
+import py.utils as u
 
 
 def load_games():
@@ -17,7 +17,7 @@ def generate_stats(ids):
     stats = {}
     action_types = [0, 1, 2, 3]
     for i in ids:
-        game = ut.export_game(i)
+        game = u.export_game(i)
         actions = game['actions']
         seed = game['seed']
         stats[seed] = {}
@@ -25,7 +25,7 @@ def generate_stats(ids):
         stats[seed]['game_id'] = game['id']
         stats[seed]['turns'] = len(actions)
         for t in action_types:
-            stats[seed][t] = ut.get_action_type_length(actions, t)
+            stats[seed][t] = u.get_action_type_length(actions, t)
     return stats
 
 

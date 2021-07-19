@@ -1,5 +1,4 @@
-from database.db_connect import session
-from database.db_schema import Game, GameAction
+from database.db_connect import session, Game, GameAction
 
 
 players_sets = session.query(Game.players).all()
@@ -12,4 +11,3 @@ with open(f'../output/hanabi_players.txt', 'w', encoding='utf-8') as file:
     for p in players:
         file.write(p)
         file.write('\n')
-

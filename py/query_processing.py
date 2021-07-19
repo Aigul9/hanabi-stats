@@ -1,8 +1,8 @@
 from matplotlib import pyplot as plt
 
-import py.utils as ut
+import py.utils as u
 
-count_games = ut.open_tsv('../output/Result_4.tsv')[:-1]
+count_games = u.open_tsv('../output/Result_4.tsv')[:-1]
 count = [int(r[2]) for r in count_games]
 time = [', '.join([r[0]] + [r[1]]) for r in count_games]
 plt.figure(figsize=(40, 5))

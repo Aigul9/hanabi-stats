@@ -2,8 +2,8 @@ import csv
 import errno
 import os
 import requests
-import time
 from datetime import datetime
+from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
 
@@ -55,12 +55,20 @@ def files_in_dir(path):
     return [f for f in listdir(path) if isfile(join(path, f))]
 
 
-def save(filename, data, header):
-    with open(f'../output/{filename}.tsv', 'a', encoding='utf-8', newline='') as file:
+def save(path, data, header):
+    with open(f'{path}.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
         for k, v in data.items():
             w.writerow([k, *v])
+
+
+def save_value(path, data, header):
+    with open(f'{path}.tsv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        w.writerow(header)
+        for k, v in data.items():
+            w.writerow([k, v])
 
 
 # HQL-related functions
@@ -100,6 +108,18 @@ def filter_by_id(stats, ids):
     else:
         print('Not filtered by id.')
         return stats
+    
+
+def filter_id_notes(stats):
+    return filter_by_id(stats, [103000])
+    
+
+def get_wins(stats):
+    return len([row for row in stats if row['score'] == get_max_score(row['options']['variantName'])])
+
+
+def get_losses(stats):
+    return len([row for row in stats if row['score'] != get_max_score(row['options']['variantName'])])
 
 
 # Specific functions
@@ -158,13 +178,16 @@ def is_clued(action):
 
 
 # Additional functions
-def sort(data, col_ind):
-    return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
-
-
 def p(value, total):
     if total != 0:
         return round(value * 100 / total, 2)
+    else:
+        return 0
+
+
+def p1(value, total):
+    if total != 0:
+        return round(value / total, 2)
     else:
         return 0
 
@@ -185,7 +208,7 @@ def current_time():
 
 
 def time_spent(start_time):
-    print(f'Time spent (in min): {round((time.time() - start_time) / 60, 2)}')
+    return current_time() - start_time
 
 
 def convert_sec_to_day(n):
@@ -198,3 +221,118 @@ def convert_sec_to_day(n):
     n %= 60
     seconds = n
     return {'days': day, 'hours': hour, 'minutes': minutes, 'seconds': seconds}
+
+
+# Sort
+def sort(data, col_ind):
+    return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
+
+
+def sort_by_key(data):
+    return {k: v for k, v in sorted(data.items(), key=lambda x: x[0])}
+
+
+def sort_by_value(data):
+    return {k: v for k, v in sorted(data.items(), key=lambda x: (-x[1]))}
+
+
+# Save
+def save_up_to_date_stats(data):
+    with open('output/up_to_date_stats.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow([
+            'Username', 'Type',
+            'W/L(%)', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
+            'W/L(%, 2p)', 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
+            'W/L(%, 3p)', 'W(%, 3p+)', 'L(%, 3p+)', 'W(#, 3p+)', 'L(#, 3p+)']
+        )
+        for k, v in sort_by_key(data).items():
+            for k1, t in v.items():
+                w.writerow([
+                    k,
+                    k1,
+                    t['total_p'][2],
+                    t['total_p'][0],
+                    t['total_p'][1],
+                    t['total_c'][0],
+                    t['total_c'][1],
+                    t['total_2p_p'][2],
+                    t['total_2p_p'][0],
+                    t['total_2p_p'][1],
+                    t['total_2p_c'][0],
+                    t['total_2p_c'][1],
+                    t['total_3p_p'][2],
+                    t['total_3p_p'][0],
+                    t['total_3p_p'][1],
+                    t['total_3p_c'][0],
+                    t['total_3p_c'][1]]
+                )
+
+
+def save_wr(data):
+    with open('output/winrate/highest_wr.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Username', 'W(%)', 'Total games'])
+        for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
+            w.writerow([
+                k,
+                v['Totals']['total_p'][0],
+                v['Totals']['total_c'][2]
+            ])
+
+
+def save_ranking(data, rank_all_players):
+    with open('output/rank/rank_avg.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
+        for k, v in sort(data, 0).items():
+            try:
+                u_tops = rank_all_players[k]
+            except KeyError:
+                u_tops = []
+            list_top = []
+            list_bottom = []
+            for pl in v[1]:
+                list_top.append(f'{pl} ({round(u_tops[0][pl]["wl"])}%)')
+            for pl in v[2]:
+                list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
+            if len(list_top) == 0 or len(list_bottom) == 0:
+                continue
+            w.writerow([
+                k,
+                v[0],
+                ', '.join(list_top),
+                ', '.join(list_bottom)
+            ])
+
+
+def save_data(data, filename, column):
+    with open(f'output/winrate/{filename}.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow([column, 'WR', 'Total games'])
+        for k, v in data.items():
+            w.writerow([k, v['win'], v['total']])
+
+
+def save_hours(data, hours_header):
+    with open(f'output/time/hours_wr.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Player: WR (Total games)'] + hours_header)
+        for k in data.keys():
+            w.writerow([k] + [str(data[k][h]['win']) + f'% ({data[k][h]["total"]})' for h in hours_header])
+
+
+def save_plots(data, hours_header):
+    for k, v in data.items():
+        x = hours_header
+        y = [v[key]['win'] for key in v.keys()]
+        n = [v[key]['total'] for key in v.keys()]
+        plt.figure(figsize=(12, 5))
+        plt.xlabel('Hours (UTC)')
+        plt.ylabel('Total games (#)')
+        plt.scatter(x, n)
+        for i, txt in enumerate(y):
+            plt.annotate(txt, (x[i], n[i]))
+        plt.title('Win/loss ratio (%)')
+        plt.plot(x, n)
+        plt.savefig(f'output/time/plots/{k}.png')

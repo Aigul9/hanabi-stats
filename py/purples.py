@@ -1,17 +1,7 @@
 import csv
 from datetime import datetime
 
-import py.calc as c
-
-
-def get_purples():
-    with open('input/purples.txt') as f:
-        return [line.rstrip() for line in f.readlines()]
-
-
-def get_purples_2():
-    with open('input/purples_2.txt') as f:
-        return [line.rstrip() for line in f.readlines()]
+import py.utils as u
 
 
 def get_games(username, items):
@@ -31,9 +21,9 @@ def get_games(username, items):
 
 
 def filter_purple_games(username, items):
-    main_stats = c.get_list_3p(items)
-    purples = get_purples()
-    purples_2 = get_purples_2()
+    main_stats = u.clear_2p(items)
+    purples = u.open_file('input/purples.txt')
+    purples_2 = u.open_file('input/purples_2.txt')
     games = []
     for game in main_stats:
         d_start = datetime(2020, 6, 1)
@@ -67,3 +57,13 @@ def get_teachers(username, items):
                     teachers[t] = 0
     teachers = dict(sorted(teachers.items(), key=lambda item: -item[1]))
     print(teachers)
+
+
+def save_purples(data):
+    with open(f'output/purples.tsv', 'w', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['Players', '# with purples'])
+        purples_list = u.open_file('input/purples.txt')
+        for k, v in data.items():
+            if k not in purples_list:
+                w.writerow([k, v])

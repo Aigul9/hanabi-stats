@@ -1,6 +1,6 @@
 import csv
 
-import py.utils as ut
+import py.utils as u
 from database.db_connect import session
 from database.db_schema import Game, GameAction
 
@@ -8,8 +8,8 @@ from database.db_schema import Game, GameAction
 users = ['Dr_Kakashi']
 # [game_id, player_count, clues]
 results = {k: [] for k in users}
-for u in users:
-    stats = ut.open_stats(u)
+for user in users:
+    stats = u.open_stats(user)
     for s in stats:
         # for s in [99104]:
         game_id = s['id']
@@ -22,11 +22,11 @@ for u in users:
         actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
         clues = {k: 0 for k in players}
         for i in range(len(actions)):
-            if ut.is_clued(actions[i]):
+            if u.is_clued(actions[i]):
                 clues[players[i % players_count]] += 1
         max_users = [k for k, v in clues.items() if v == max(clues.values())]
-        if len(max_users) == 1 and max_users[0] == u:
-            results[u].append([game_id, players_count, clues[u]])
+        if len(max_users) == 1 and max_users[0] == user:
+            results[u].append([game_id, players_count, clues[user]])
 
 
 for c in range(2, 7):

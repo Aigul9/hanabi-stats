@@ -1,6 +1,6 @@
 import csv
 
-import py.utils as ut
+import py.utils as u
 
 
 def open_notes_stats(username):
@@ -23,7 +23,7 @@ def filter_id_range(array):
 def most_talkative(data):
     talk = {}
     for k, v in data.items():
-        stats = filter_id_range(ut.open_stats(k))
+        stats = filter_id_range(u.open_stats(k))
         talk[k] = round(sum([int(r) for r in v.values()]) / len(stats) * 100)
     return {k: v for k, v in sorted(talk.items(), key=lambda x: (-x[1]))}
 
@@ -43,11 +43,13 @@ def most_frequent(data):
 def compare(stats1, stats2):
     num1 = len(stats1)
     inter = len(stats1.keys() & stats2.keys())
-    return round(inter / num1 * 100)
+    try:
+        return round(inter / num1 * 100)
+    except ZeroDivisionError:
+        return 0
 
 
-def freq_names(data):
-    global users
+def freq_names(data, users):
     aliases = {
         'asaelr': ['asa', 'asael', 'asaelr\'s', 'asa\'s'],
         'Dr_Kakashi': ['kakashi', 'kakash', 'kakashi:', 'kakashi\'s', 'kakashi\'-', '(kakashi'],
@@ -114,7 +116,7 @@ def save(data):
             w.writerow([k, *v])
 
 
-def save_words(words):
+def save_words(words, users):
     with open(f'../output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Words', 'Frequency', f'Number of vocabularies (All = {len(users)})'])
@@ -138,29 +140,15 @@ def save_dict(data):
             w.writerow([k, v[0]])
 
 
-with open('../input/list_of_players_notes.txt', 'r') as f:
-    users = [line.rstrip() for line in f.readlines()]
+def get_voc_comparison(notes_stats):
+    all_portraits = {}
+    for k1, v1 in notes_stats.items():
+        k1_p = []
+        for k2, v2 in notes_stats.items():
+            k1_p.append(f'{compare(v1, v2)}%')
+        all_portraits[k1] = k1_p
+    return all_portraits
 
-notes_stats = {}
-for u in users:
-    notes_stats[u] = open_notes_stats(u)
 
-all_p = {}
-for k1, v1 in notes_stats.items():
-    k1_p = []
-    for k2, v2 in notes_stats.items():
-        k1_p.append(f'{compare(v1, v2)}%')
-    all_p[k1] = k1_p
-
-save(all_p)
-#
-# for p1, p2 in most_talkative(notes_stats).items():
-#     print(f'{p1}\t{p2}')
-#
-
-save_words(most_frequent(notes_stats))
-
-for n1, n2 in freq_names(most_frequent(notes_stats)).items():
-    print(f'{n1}\t{n2}')
-
-# save_dict(most_frequent(notes_stats))
+# for n1, n2 in freq_names(most_frequent(notes_stats)).items():
+#     print(f'{n1}\t{n2}')

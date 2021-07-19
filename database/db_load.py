@@ -1,7 +1,6 @@
 import logging
 
-from database.db_schema import Game, Card, GameAction, PlayerNotes
-from database.db_connect import session
+from database.db_connect import session, Game, Card, GameAction, PlayerNotes
 
 
 def load_game(g, s):
@@ -46,7 +45,6 @@ def load_deck(g):
     seed = session.query(Card.seed) \
         .filter(Card.seed == g['seed'])\
         .first()
-    print(g['id'])
     if seed is not None:
         return
     for i in range(len(deck)):
@@ -86,17 +84,6 @@ def load_notes(g):
             session.add(player_notes)
     except KeyError:
         return
-
-
-def load_column(g):
-    g_id = g['id']
-    try:
-        opt = g['options']
-        starting_player = opt['startingPlayer']
-    except KeyError:
-        starting_player = None
-    game = session.query(Game).filter(Game.game_id == g_id).first()
-    game.starting_player = starting_player
 
 
 def update_game(s):

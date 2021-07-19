@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-import py.utils as ut
-
 
 def get_content(url, username):
     page = requests.get(url)
@@ -21,12 +19,3 @@ def get_total_scores(username):
     soup = get_content(url, username)
     text = soup.find_all('td')
     return [get_digits(str(t)) for t in text]
-
-
-# users = ut.open_file('../input/list_of_players_notes.txt')
-users = ['Pablo-']
-scores = {}
-for u in users:
-    scores[u] = get_total_scores(u)
-scores = {k: v for k, v in sorted(scores.items(), key=lambda i: -i[1][5])}
-ut.save('total_max_scores', scores, ['Player', '2p', '3p', '4p', '5p', '6p', 'Total scores'])
