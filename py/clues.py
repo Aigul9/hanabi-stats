@@ -4,7 +4,7 @@ import py.utils as u
 from database.db_connect import session, Game, GameAction, Variant
 
 
-users = ['Dr_Kakashi', 'Valetta6789', 'Lanvin']
+users = u.open_file('../input/list_of_players_notes.txt')
 # [game_id, player_count, clues]
 results = {k: [] for k in users}
 for user in users:
