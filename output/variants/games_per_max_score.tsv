@@ -1,1471 +1,1471 @@
-variant	wr	count	num_max_scores
-Alternating Clues & Pink (4 Suits)	1	1	1
-Alternating Clues & Rainbow (3 Suits)	1	3	2
-Ambiguous & Muddy Rainbow (3 Suits)	1	7	4
-Brown & Light Pink (4 Suits)	1	29	15
-Brown-Fives & Prism (3 Suits)	1	2	2
-Brown-Fives & Rainbow (3 Suits)	1	1	1
-Brown-Fives (3 Suits)	1	12	8
-Brown-Ones & Brown (3 Suits)	1	3	2
-Brown-Ones & Null (4 Suits)	1	1	1
-Brown-Ones & Prism (3 Suits)	1	2	2
-Brown-Ones & Prism (4 Suits)	1	9	6
-Deceptive-Fives & Pink (4 Suits)	1	2	2
-Deceptive-Fives (3 Suits)	1	9	5
-Deceptive-Ones & Light Pink (4 Suits)	1	2	2
-Deceptive-Ones & Pink (6 Suits)	1	1	1
-Deceptive-Ones & Prism (4 Suits)	1	5	3
-Deceptive-Ones & Rainbow (3 Suits)	1	1	1
-Deceptive-Ones & White (4 Suits)	1	1	1
-Deceptive-Ones (3 Suits)	1	21	11
-Dual-Color & Light Pink (4 Suits)	1	13	7
-Dual-Color & White (4 Suits)	1	24	17
-Light-Pink-Fives & Brown (3 Suits)	1	2	2
-Light-Pink-Fives & Light Pink (4 Suits)	1	2	2
-Light-Pink-Fives & Prism (3 Suits)	1	1	1
-Light-Pink-Ones & Light Pink (3 Suits)	1	2	2
-Light-Pink-Ones & Muddy Rainbow (6 Suits)	1	2	2
-Light-Pink-Ones & Null (3 Suits)	1	7	4
-Light-Pink-Ones & Prism (4 Suits)	1	2	2
-Light-Pink-Ones & Rainbow (4 Suits)	1	3	2
-Light-Pink-Ones & White (4 Suits)	1	5	4
-Light-Pink-Ones (3 Suits)	1	11	6
-Muddy Rainbow & Prism (3 Suits)	1	10	6
-Muddy Rainbow & Prism (4 Suits)	1	12	9
-Muddy-Rainbow-Fives & Brown (4 Suits)	1	5	3
-Muddy-Rainbow-Fives & White (3 Suits)	1	2	2
-Muddy-Rainbow-Fives & White (6 Suits)	1	13	7
-Muddy-Rainbow-Fives (4 Suits)	1	10	7
-Muddy-Rainbow-Ones & Light Pink (3 Suits)	1	1	1
-Muddy-Rainbow-Ones & Muddy Rainbow (5 Suits)	1	3	2
-Muddy-Rainbow-Ones & Pink (3 Suits)	1	1	1
-Muddy-Rainbow-Ones & White (3 Suits)	1	6	5
-Muddy-Rainbow-Ones & White (4 Suits)	1	6	4
-Muddy-Rainbow-Ones (3 Suits)	1	7	5
-Null-Fives & Omni (4 Suits)	1	1	1
-Null-Fives & White (3 Suits)	1	5	4
-Null-Fives (3 Suits)	1	15	8
-Null-Fives (4 Suits)	1	3	2
-Null-Ones & Prism (3 Suits)	1	1	1
-Null-Ones & White (4 Suits)	1	7	4
-Null-Ones & White (6 Suits)	1	1	1
-Omni & Light Pink (4 Suits)	1	11	6
-Omni-Fives & Dark Pink (5 Suits)	1	1	1
-Omni-Fives & Prism (4 Suits)	1	1	1
-Omni-Fives & Rainbow (3 Suits)	1	7	4
-Omni-Fives & Rainbow (4 Suits)	1	5	3
-Omni-Fives (3 Suits)	1	12	9
-Omni-Ones & Brown (4 Suits)	1	1	1
-Omni-Ones & Omni (3 Suits)	1	5	4
-Omni-Ones (3 Suits)	1	26	14
-Pink-Fives & Muddy Rainbow (6 Suits)	1	1	1
-Pink-Fives & Null (3 Suits)	1	1	1
-Pink-Ones & Brown (3 Suits)	1	7	4
-Pink-Ones & Dark Omni (5 Suits)	1	1	1
-Pink-Ones & Muddy Rainbow (4 Suits)	1	2	2
-Pink-Ones & Muddy Rainbow (5 Suits)	1	1	1
-Pink-Ones & Rainbow (3 Suits)	1	13	8
-Pink-Ones & White (4 Suits)	1	13	7
-Pink-Ones (3 Suits)	1	27	14
-Rainbow-Fives & Light Pink (4 Suits)	1	1	1
-Rainbow-Fives (3 Suits)	1	15	11
-Rainbow-Fives (4 Suits)	1	18	11
-Rainbow-Ones & Dark Prism (5 Suits)	1	3	2
-Rainbow-Ones & Omni (3 Suits)	1	4	3
-Rainbow-Ones & Rainbow (3 Suits)	1	15	8
-Rainbow-Ones & White (3 Suits)	1	14	8
-Rainbow-Ones & White (4 Suits)	1	13	10
-Rainbow-Ones (3 Suits)	1	71	38
-Rainbow-Ones (4 Suits)	1	91	46
-Very Ambiguous & Muddy Rainbow (4 Suits)	1	2	2
-White Reversed (4 Suits)	1	67	34
-White-Fives & Prism (3 Suits)	1	8	6
-White-Fives & Rainbow (3 Suits)	1	16	9
-White-Fives (3 Suits)	1	25	16
-White-Ones & Light Pink (4 Suits)	1	13	7
-White-Ones & Light Pink (6 Suits)	1	10	6
-White-Ones & Null (3 Suits)	1	5	4
-White-Ones & Prism (3 Suits)	1	11	7
-White-Ones & Rainbow (3 Suits)	1	20	11
-White-Ones & White (3 Suits)	1	12	10
-White-Ones (3 Suits)	1	42	22
-Alternating Clues & Pink (5 Suits)	2	4	2
-Alternating Clues & White (3 Suits)	2	14	6
-Alternating Clues & White (4 Suits)	2	9	4
-Alternating Clues (3 Suits)	2	55	22
-Ambiguous & Pink (3 Suits)	2	12	6
-Ambiguous & White (3 Suits)	2	20	9
-Brown & Prism (3 Suits)	2	23	9
-Brown & Prism (4 Suits)	2	47	16
-Brown-Fives & Brown (3 Suits)	2	6	3
-Brown-Fives & White (4 Suits)	2	16	6
-Brown-Fives & White (5 Suits)	2	13	5
-Brown-Ones & Brown (4 Suits)	2	10	4
-Brown-Ones & Dark Prism (5 Suits)	2	4	2
-Brown-Ones & Light Pink (3 Suits)	2	9	4
-Brown-Ones & Light Pink (5 Suits)	2	11	4
-Brown-Ones & Light Pink (6 Suits)	2	4	2
-Brown-Ones & Null (5 Suits)	2	2	1
-Brown-Ones & Omni (5 Suits)	2	14	5
-Brown-Ones & Pink (3 Suits)	2	11	4
-Brown-Ones & Pink (4 Suits)	2	21	9
-Brown-Ones & Pink (5 Suits)	2	45	16
-Brown-Ones & Rainbow (3 Suits)	2	16	8
-Brown-Ones & White (3 Suits)	2	8	4
-Brown-Ones & White (4 Suits)	2	19	8
-Brown-Ones (3 Suits)	2	29	12
-Brown-Ones (4 Suits)	2	54	20
-Brown-Ones (6 Suits)	2	45	19
-Color Blind (3 Suits)	2	65	25
-Color Blind (4 Suits)	2	57	20
-Color Mute (3 Suits)	2	29	13
-Deceptive-Fives & Light Pink (5 Suits)	2	6	3
-Deceptive-Fives & Prism (5 Suits)	2	2	1
-Deceptive-Ones & Light Pink (3 Suits)	2	2	1
-Deceptive-Ones & Omni (5 Suits)	2	7	3
-Deceptive-Ones & Pink (5 Suits)	2	13	5
-Deceptive-Ones & Prism (3 Suits)	2	2	1
-Deceptive-Ones & Prism (6 Suits)	2	5	2
-Deceptive-Ones & White (3 Suits)	2	2	1
-Deceptive-Ones & White (6 Suits)	2	8	4
-Deceptive-Ones (4 Suits)	2	36	13
-Dual-Color & Brown (4 Suits)	2	38	13
-Dual-Color & Light Pink (6 Suits)	2	112	38
-Dual-Color & Muddy Rainbow (6 Suits)	2	33	12
-Dual-Color & Pink (4 Suits)	2	27	12
-Dual-Color & Prism (4 Suits)	2	39	14
-Dual-Color (3 Suits)	2	298	109
-Extremely Ambiguous & Cocoa Rainbow (6 Suits)	2	2	1
-Extremely Ambiguous & Omni (6 Suits)	2	4	2
-Extremely Ambiguous & Pink (5 Suits)	2	2	1
-Light Pink & Prism (3 Suits)	2	17	8
-Light Pink & Prism (4 Suits)	2	23	10
-Light Pink & Prism (5 Suits)	2	43	18
-Light Pink (4 Suits)	2	325	111
-Light-Pink-Fives & Gray (6 Suits)	2	2	1
-Light-Pink-Fives & Null (3 Suits)	2	2	1
-Light-Pink-Fives & Omni (3 Suits)	2	2	1
-Light-Pink-Fives & Pink (5 Suits)	2	8	3
-Light-Pink-Fives & Pink (6 Suits)	2	5	2
-Light-Pink-Fives & Prism (5 Suits)	2	5	2
-Light-Pink-Fives (3 Suits)	2	10	5
-Light-Pink-Fives (4 Suits)	2	11	5
-Light-Pink-Fives (5 Suits)	2	27	11
-Light-Pink-Ones & Black (5 Suits)	2	2	1
-Light-Pink-Ones & Muddy Rainbow (3 Suits)	2	4	2
-Light-Pink-Ones & Muddy Rainbow (4 Suits)	2	7	3
-Light-Pink-Ones & Pink (4 Suits)	2	11	4
-Light-Pink-Ones & Prism (3 Suits)	2	4	2
-Light-Pink-Ones & White (3 Suits)	2	6	3
-Light-Pink-Ones & White (5 Suits)	2	11	4
-Light-Pink-Ones (5 Suits)	2	89	32
-Muddy Rainbow & Light Pink (4 Suits)	2	17	7
-Muddy-Rainbow-Fives & Light Pink (3 Suits)	2	5	2
-Muddy-Rainbow-Fives & Rainbow (3 Suits)	2	17	7
-Muddy-Rainbow-Fives & Rainbow (5 Suits)	2	4	2
-Muddy-Rainbow-Fives & White (4 Suits)	2	6	3
-Muddy-Rainbow-Ones & Brown (3 Suits)	2	14	5
-Muddy-Rainbow-Ones & Dark Pink (5 Suits)	2	11	4
-Muddy-Rainbow-Ones & Null (4 Suits)	2	4	2
-Muddy-Rainbow-Ones & Omni (3 Suits)	2	2	1
-Muddy-Rainbow-Ones & Omni (4 Suits)	2	8	3
-Muddy-Rainbow-Ones & Pink (4 Suits)	2	7	3
-Muddy-Rainbow-Ones & Pink (6 Suits)	2	4	2
-Muddy-Rainbow-Ones & Rainbow (3 Suits)	2	9	4
-Muddy-Rainbow-Ones & Rainbow (4 Suits)	2	10	4
-Muddy-Rainbow-Ones & White (6 Suits)	2	12	5
-Muddy-Rainbow-Ones (4 Suits)	2	9	4
-Null & Prism (3 Suits)	2	9	4
-Null-Fives & Light Pink (3 Suits)	2	2	1
-Null-Fives & Muddy Rainbow (4 Suits)	2	5	2
-Null-Fives & Rainbow (3 Suits)	2	4	2
-Null-Fives & Rainbow (4 Suits)	2	2	1
-Null-Fives & White (4 Suits)	2	7	3
-Null-Ones & Light Pink (4 Suits)	2	2	1
-Null-Ones & Prism (5 Suits)	2	5	2
-Null-Ones & Rainbow (3 Suits)	2	8	3
-Null-Ones (3 Suits)	2	23	11
-Null-Ones (4 Suits)	2	21	9
-Omni & Prism (3 Suits)	2	13	6
-Omni-Fives & Brown (4 Suits)	2	2	1
-Omni-Fives & Light Pink (3 Suits)	2	4	2
-Omni-Fives & Muddy Rainbow (5 Suits)	2	7	3
-Omni-Fives & Pink (3 Suits)	2	2	1
-Omni-Fives & White (4 Suits)	2	9	4
-Omni-Ones & Brown (3 Suits)	2	9	4
-Omni-Ones & Null (3 Suits)	2	2	1
-Omni-Ones & Omni (4 Suits)	2	2	1
-Omni-Ones & Rainbow (3 Suits)	2	8	3
-Omni-Ones & Rainbow (4 Suits)	2	8	4
-Omni-Ones & White (3 Suits)	2	2	1
-Omni-Ones & White (4 Suits)	2	8	4
-Omni-Ones (4 Suits)	2	24	9
-Pink & Muddy Rainbow (4 Suits)	2	54	20
-Pink & Null (4 Suits)	2	46	16
-Pink & White (3 Suits)	2	122	44
-Pink-Fives & Brown (3 Suits)	2	2	1
-Pink-Fives & Dark Pink (5 Suits)	2	2	1
-Pink-Fives & Gray (5 Suits)	2	8	3
-Pink-Fives & Light Pink (4 Suits)	2	7	3
-Pink-Fives & Prism (5 Suits)	2	9	4
-Pink-Fives (3 Suits)	2	56	26
-Pink-Fives (4 Suits)	2	79	31
-Pink-Ones & Brown (4 Suits)	2	26	10
-Pink-Ones & Light Pink (6 Suits)	2	20	7
-Pink-Ones & Omni (4 Suits)	2	4	2
-Pink-Ones & Pink (3 Suits)	2	9	4
-Pink-Ones & Prism (3 Suits)	2	9	4
-Pink-Ones & Prism (4 Suits)	2	14	6
-Pink-Ones & Rainbow (5 Suits)	2	19	7
-Pink-Ones & White (3 Suits)	2	16	7
-Pink-Ones & White (5 Suits)	2	26	9
-Pink-Ones (4 Suits)	2	43	16
-Pink-Ones (5 Suits)	2	97	34
-Prism (3 Suits)	2	315	123
-Prism (4 Suits)	2	468	180
-Rainbow & Light Pink (3 Suits)	2	43	15
-Rainbow & Muddy Rainbow (4 Suits)	2	68	23
-Rainbow & Muddy Rainbow (5 Suits)	2	109	38
-Rainbow & Omni (4 Suits)	2	86	31
-Rainbow & Pink (4 Suits)	2	175	65
-Rainbow & Prism (6 Suits)	2	302	108
-Rainbow & White (3 Suits)	2	191	71
-Rainbow & White (4 Suits)	2	200	94
-Rainbow Reversed (3 Suits)	2	40	14
-Rainbow Reversed (4 Suits)	2	50	21
-Rainbow-Fives & Brown (3 Suits)	2	8	3
-Rainbow-Fives & Gray Pink (5 Suits)	2	8	3
-Rainbow-Fives & Null (3 Suits)	2	6	3
-Rainbow-Fives & Null (5 Suits)	2	2	1
-Rainbow-Fives & Omni (6 Suits)	2	7	3
-Rainbow-Fives & Pink (4 Suits)	2	8	4
-Rainbow-Fives & Prism (3 Suits)	2	4	2
-Rainbow-Fives & Prism (4 Suits)	2	6	3
-Rainbow-Fives & Prism (5 Suits)	2	9	4
-Rainbow-Fives & Rainbow (5 Suits)	2	15	6
-Rainbow-Fives & White (3 Suits)	2	17	7
-Rainbow-Fives & White (4 Suits)	2	9	4
-Rainbow-Fives & White (5 Suits)	2	29	11
-Rainbow-Fives (5 Suits)	2	80	29
-Rainbow-Ones & Brown (3 Suits)	2	14	6
-Rainbow-Ones & Brown (4 Suits)	2	25	9
-Rainbow-Ones & Dark Omni (6 Suits)	2	8	4
-Rainbow-Ones & Dark Pink (5 Suits)	2	13	5
-Rainbow-Ones & Light Pink (3 Suits)	2	12	5
-Rainbow-Ones & Omni (4 Suits)	2	7	3
-Rainbow-Ones & Pink (5 Suits)	2	66	24
-Rainbow-Ones & Prism (3 Suits)	2	15	6
-Rainbow-Ones & Prism (4 Suits)	2	29	10
-Rainbow-Ones & Prism (5 Suits)	2	22	8
-Rainbow-Ones & Rainbow (5 Suits)	2	42	16
-Reversed (3 Suits)	2	81	40
-Reversed (4 Suits)	2	167	62
-Throw It in a Hole & Prism (4 Suits)	2	8	4
-Throw It in a Hole & White (4 Suits)	2	10	4
-Very Ambiguous (3 Suits)	2	94	35
-White & Brown (4 Suits)	2	142	49
-White & Brown (5 Suits)	2	232	92
-White & Prism (3 Suits)	2	52	22
-White (4 Suits)	2	787	317
-White Reversed (3 Suits)	2	45	21
-White-Fives & Gray (5 Suits)	2	2	1
-White-Fives & Light Pink (3 Suits)	2	8	3
-White-Fives & Light Pink (4 Suits)	2	11	4
-White-Fives & Light Pink (5 Suits)	2	7	3
-White-Fives & Muddy Rainbow (4 Suits)	2	2	1
-White-Fives & Muddy Rainbow (5 Suits)	2	9	4
-White-Fives & Null (4 Suits)	2	2	1
-White-Fives & Omni (5 Suits)	2	8	3
-White-Fives & Pink (4 Suits)	2	8	3
-White-Fives & Prism (4 Suits)	2	14	6
-White-Fives & White (3 Suits)	2	4	2
-White-Fives & White (4 Suits)	2	14	7
-White-Fives (4 Suits)	2	53	21
-White-Ones & Brown (3 Suits)	2	15	6
-White-Ones & Brown (5 Suits)	2	86	33
-White-Ones & Light Pink (3 Suits)	2	7	3
-White-Ones & Muddy Rainbow (3 Suits)	2	23	9
-White-Ones & Muddy Rainbow (4 Suits)	2	14	7
-White-Ones & Muddy Rainbow (5 Suits)	2	22	8
-White-Ones & Omni (3 Suits)	2	12	5
-White-Ones & Omni (4 Suits)	2	11	5
-White-Ones & Pink (3 Suits)	2	12	5
-White-Ones & Pink (5 Suits)	2	44	16
-White-Ones & Prism (4 Suits)	2	22	8
-White-Ones & Prism (5 Suits)	2	45	17
-White-Ones & Rainbow (4 Suits)	2	40	18
-White-Ones & Rainbow (5 Suits)	2	74	30
-White-Ones & White (4 Suits)	2	32	16
-White-Ones & White (5 Suits)	2	45	21
-White-Ones (4 Suits)	2	76	33
-White-Ones (5 Suits)	2	192	70
-4 Suits	3	5000	1435
-Alternating Clues & Brown (5 Suits)	3	14	4
-Alternating Clues & Dark Omni (6 Suits)	3	6	2
-Ambiguous & Brown (5 Suits)	3	31	9
-Ambiguous & Light Pink (5 Suits)	3	44	12
-Ambiguous (4 Suits)	3	537	162
-Brown & Light Pink (3 Suits)	3	31	9
-Brown & Light Pink (5 Suits)	3	86	24
-Brown & Omni (5 Suits)	3	66	17
-Brown & Prism (5 Suits)	3	155	41
-Brown (4 Suits)	3	655	187
-Brown-Fives & Dark Prism (5 Suits)	3	3	1
-Brown-Fives & Gray (5 Suits)	3	3	1
-Brown-Fives & Muddy Rainbow (5 Suits)	3	6	2
-Brown-Fives & Pink (4 Suits)	3	9	3
-Brown-Fives & Pink (6 Suits)	3	12	4
-Brown-Fives & Prism (5 Suits)	3	3	1
-Brown-Fives (4 Suits)	3	41	12
-Brown-Ones & Cocoa Rainbow (6 Suits)	3	6	2
-Brown-Ones & Dark Prism (6 Suits)	3	21	6
-Brown-Ones & Gray Pink (6 Suits)	3	7	2
-Brown-Ones & Muddy Rainbow (4 Suits)	3	13	4
-Brown-Ones & Null (3 Suits)	3	14	4
-Brown-Ones & Omni (3 Suits)	3	9	3
-Brown-Ones & Omni (4 Suits)	3	6	2
-Brown-Ones & Omni (6 Suits)	3	12	4
-Brown-Ones & Pink (6 Suits)	3	42	12
-Brown-Ones & Prism (5 Suits)	3	17	5
-Brown-Ones & Prism (6 Suits)	3	131	35
-Brown-Ones & Rainbow (4 Suits)	3	37	11
-Brown-Ones & Rainbow (6 Suits)	3	55	14
-Brown-Ones & White (5 Suits)	3	63	19
-Brown-Ones (5 Suits)	3	154	46
-Color Mute (4 Suits)	3	41	13
-Deceptive-Fives & Prism (3 Suits)	3	7	2
-Deceptive-Fives (5 Suits)	3	125	41
-Deceptive-Ones & Brown (5 Suits)	3	10	3
-Deceptive-Ones & Omni (4 Suits)	3	3	1
-Deceptive-Ones & Pink (3 Suits)	3	9	3
-Deceptive-Ones & Pink (4 Suits)	3	9	3
-Deceptive-Ones & Rainbow (4 Suits)	3	6	2
-Deceptive-Ones (6 Suits)	3	85	23
-Dual-Color & Brown (6 Suits)	3	69	19
-Dual-Color & Null (6 Suits)	3	34	9
-Dual-Color & Pink (6 Suits)	3	129	35
-Dual-Color & Rainbow (4 Suits)	3	179	55
-Dual-Color & Rainbow (6 Suits)	3	374	103
-Dual-Color & White (6 Suits)	3	151	42
-Dual-Color (5 Suits)	3	1227	348
-Dual-Color (6 Suits)	3	1592	407
-Light Pink (3 Suits)	3	304	80
-Light Pink (5 Suits)	3	684	208
-Light-Pink-Fives & Brown (4 Suits)	3	15	4
-Light-Pink-Fives & Brown (6 Suits)	3	3	1
-Light-Pink-Fives & Dark Pink (6 Suits)	3	3	1
-Light-Pink-Fives & Light Pink (6 Suits)	3	7	2
-Light-Pink-Fives & Pink (4 Suits)	3	3	1
-Light-Pink-Fives & Rainbow (3 Suits)	3	3	1
-Light-Pink-Fives & Rainbow (4 Suits)	3	3	1
-Light-Pink-Fives & Rainbow (6 Suits)	3	6	2
-Light-Pink-Fives & White (5 Suits)	3	11	3
-Light-Pink-Ones & Brown (3 Suits)	3	6	2
-Light-Pink-Ones & Brown (4 Suits)	3	10	3
-Light-Pink-Ones & Brown (5 Suits)	3	10	3
-Light-Pink-Ones & Dark Omni (5 Suits)	3	3	1
-Light-Pink-Ones & Muddy Rainbow (5 Suits)	3	15	4
-Light-Pink-Ones & Omni (4 Suits)	3	3	1
-Light-Pink-Ones & Rainbow (3 Suits)	3	7	2
-Light-Pink-Ones (4 Suits)	3	24	7
-Muddy Rainbow (3 Suits)	3	296	77
-Muddy Rainbow (4 Suits)	3	400	111
-Muddy Rainbow (6 Suits)	3	953	266
-Muddy-Rainbow-Fives & Black (6 Suits)	3	9	3
-Muddy-Rainbow-Fives & Light Pink (6 Suits)	3	3	1
-Muddy-Rainbow-Fives & Muddy Rainbow (3 Suits)	3	6	2
-Muddy-Rainbow-Fives & Null (4 Suits)	3	3	1
-Muddy-Rainbow-Fives & Null (6 Suits)	3	3	1
-Muddy-Rainbow-Fives & Pink (4 Suits)	3	3	1
-Muddy-Rainbow-Fives (3 Suits)	3	18	6
-Muddy-Rainbow-Fives (5 Suits)	3	38	12
-Muddy-Rainbow-Ones & Brown (5 Suits)	3	10	3
-Muddy-Rainbow-Ones & Brown (6 Suits)	3	14	4
-Muddy-Rainbow-Ones & Prism (4 Suits)	3	3	1
-Muddy-Rainbow-Ones & Rainbow (6 Suits)	3	7	2
-Muddy-Rainbow-Ones (6 Suits)	3	19	5
-Null & Light Pink (3 Suits)	3	21	6
-Null & Muddy Rainbow (5 Suits)	3	31	8
-Null & Prism (5 Suits)	3	33	9
-Null & Prism (6 Suits)	3	25	8
-Null-Fives & Brown (3 Suits)	3	15	5
-Null-Fives & Brown (5 Suits)	3	6	2
-Null-Fives & Light Pink (6 Suits)	3	3	1
-Null-Fives & Omni (3 Suits)	3	7	2
-Null-Fives & Rainbow (5 Suits)	3	12	4
-Null-Fives (6 Suits)	3	15	4
-Null-Ones & Brown (3 Suits)	3	3	1
-Null-Ones & Dark Brown (6 Suits)	3	7	2
-Null-Ones & Dark Pink (5 Suits)	3	15	4
-Null-Ones & Light Pink (6 Suits)	3	7	2
-Null-Ones & Null (6 Suits)	3	6	2
-Null-Ones & White (3 Suits)	3	7	2
-Null-Ones & White (5 Suits)	3	10	3
-Number Blind (4 Suits)	3	27	7
-Omni & Light Pink (3 Suits)	3	13	4
-Omni & Prism (4 Suits)	3	38	12
-Omni (4 Suits)	3	390	115
-Omni-Fives & Brown (5 Suits)	3	10	3
-Omni-Fives & Gray (6 Suits)	3	9	3
-Omni-Fives & White (3 Suits)	3	16	5
-Omni-Fives (5 Suits)	3	77	24
-Omni-Ones & Pink (6 Suits)	3	6	2
-Pink & Brown (5 Suits)	3	384	100
-Pink & Dark Brown (5 Suits)	3	85	22
-Pink & Light Pink (3 Suits)	3	47	13
-Pink & Muddy Rainbow (3 Suits)	3	54	14
-Pink & Muddy Rainbow (5 Suits)	3	127	32
-Pink & Prism (3 Suits)	3	66	17
-Pink & Prism (4 Suits)	3	107	29
-Pink & White (4 Suits)	3	158	47
-Pink-Fives & Brown (4 Suits)	3	14	4
-Pink-Fives & Brown (5 Suits)	3	29	9
-Pink-Fives & Brown (6 Suits)	3	13	4
-Pink-Fives & Null (5 Suits)	3	15	4
-Pink-Fives & Omni (6 Suits)	3	9	3
-Pink-Fives & Pink (4 Suits)	3	7	2
-Pink-Fives & Rainbow (3 Suits)	3	32	10
-Pink-Fives & Rainbow (5 Suits)	3	62	16
-Pink-Fives & White (4 Suits)	3	7	2
-Pink-Fives (6 Suits)	3	102	29
-Pink-Ones & Muddy Rainbow (3 Suits)	3	7	2
-Pink-Ones & Pink (4 Suits)	3	18	5
-Pink-Ones & Pink (5 Suits)	3	31	9
-Pink-Ones & Prism (6 Suits)	3	18	5
-Pink-Ones & Rainbow (4 Suits)	3	36	10
-Pink-Ones & White (6 Suits)	3	35	10
-Prism (5 Suits)	3	1230	389
-Prism Reversed (4 Suits)	3	71	20
-Prism Reversed (5 Suits)	3	124	40
-Rainbow & Brown (4 Suits)	3	241	62
-Rainbow & Light Pink (4 Suits)	3	110	32
-Rainbow & Light Pink (5 Suits)	3	153	45
-Rainbow & Muddy Rainbow (6 Suits)	3	114	32
-Rainbow & Pink (5 Suits)	3	459	118
-Rainbow & Prism (3 Suits)	3	111	31
-Rainbow & Prism (4 Suits)	3	195	58
-Rainbow & Prism (5 Suits)	3	291	95
-Rainbow & White (5 Suits)	3	564	166
-Rainbow (3 Suits)	3	991	296
-Rainbow (4 Suits)	3	1404	416
-Rainbow Reversed (6 Suits)	3	193	49
-Rainbow-Fives & Brown (6 Suits)	3	28	8
-Rainbow-Fives & Cocoa Rainbow (6 Suits)	3	3	1
-Rainbow-Fives & Gray (5 Suits)	3	9	3
-Rainbow-Fives & Light Pink (3 Suits)	3	9	3
-Rainbow-Fives & Light Pink (6 Suits)	3	6	2
-Rainbow-Fives & Muddy Rainbow (5 Suits)	3	6	2
-Rainbow-Fives & Rainbow (6 Suits)	3	25	7
-Rainbow-Fives & White (6 Suits)	3	54	15
-Rainbow-Ones & Brown (5 Suits)	3	33	11
-Rainbow-Ones & Gray Pink (5 Suits)	3	14	4
-Rainbow-Ones & Light Pink (4 Suits)	3	10	3
-Rainbow-Ones & Light Pink (5 Suits)	3	24	8
-Rainbow-Ones & Light Pink (6 Suits)	3	19	6
-Rainbow-Ones & Muddy Rainbow (3 Suits)	3	7	2
-Rainbow-Ones & Muddy Rainbow (4 Suits)	3	15	5
-Rainbow-Ones & Omni (5 Suits)	3	22	7
-Rainbow-Ones & Pink (4 Suits)	3	49	15
-Rainbow-Ones & Prism (6 Suits)	3	55	16
-Rainbow-Ones & Rainbow (4 Suits)	3	37	12
-Rainbow-Ones & White (5 Suits)	3	95	31
-Rainbow-Ones (5 Suits)	3	276	84
-Throw It in a Hole & Muddy Rainbow (5 Suits)	3	14	4
-Throw It in a Hole & Omni (4 Suits)	3	3	1
-Totally Blind (4 Suits)	3	48	13
-Up or Down & Brown (5 Suits)	3	128	35
-Up or Down & Light Pink (6 Suits)	3	56	16
-Up or Down & Rainbow (5 Suits)	3	864	261
-Very Ambiguous & White (4 Suits)	3	22	7
-White & Brown (3 Suits)	3	103	29
-White & Brown (6 Suits)	3	307	81
-White & Dark Rainbow (5 Suits)	3	88	24
-White & Gray Pink (5 Suits)	3	46	13
-White & Light Pink (4 Suits)	3	52	16
-White & Muddy Rainbow (4 Suits)	3	44	14
-White & Muddy Rainbow (5 Suits)	3	103	31
-White & Omni (4 Suits)	3	77	21
-White & Omni (6 Suits)	3	111	29
-White & Prism (4 Suits)	3	102	31
-White & Prism (5 Suits)	3	238	72
-White (3 Suits)	3	705	235
-White (5 Suits)	3	2868	886
-White (6 Suits)	3	2805	762
-White-Fives & Brown (3 Suits)	3	12	4
-White-Fives & Dark Pink (5 Suits)	3	3	1
-White-Fives & Muddy Rainbow (6 Suits)	3	7	2
-White-Fives & Pink (3 Suits)	3	11	3
-White-Fives & Pink (5 Suits)	3	15	5
-White-Fives & Prism (5 Suits)	3	29	9
-White-Fives & Rainbow (5 Suits)	3	36	12
-White-Fives & Rainbow (6 Suits)	3	39	12
-White-Fives & White (5 Suits)	3	23	7
-White-Fives (5 Suits)	3	115	31
-White-Fives (6 Suits)	3	63	17
-White-Ones & Gray Pink (5 Suits)	3	9	3
-White-Ones & Muddy Rainbow (6 Suits)	3	24	8
-White-Ones & Omni (5 Suits)	3	22	7
-White-Ones & Omni (6 Suits)	3	26	7
-White-Ones & Prism (6 Suits)	3	46	15
-White-Ones (6 Suits)	3	116	38
-3 Suits	4	3707	865
-Alternating Clues & Light Pink (6 Suits)	4	12	3
-Alternating Clues (4 Suits)	4	83	20
-Alternating Clues (5 Suits)	4	327	67
-Ambiguous & Cocoa Rainbow (5 Suits)	4	9	2
-Ambiguous & Omni (3 Suits)	4	9	2
-Ambiguous & Rainbow (5 Suits)	4	205	45
-Brown & Omni (3 Suits)	4	56	13
-Brown & Omni (4 Suits)	4	56	13
-Brown & Prism (6 Suits)	4	137	29
-Brown (3 Suits)	4	620	125
-Brown (5 Suits)	4	3095	702
-Brown (6 Suits)	4	2019	441
-Brown-Fives & Dark Brown (5 Suits)	4	4	1
-Brown-Fives & Light Pink (3 Suits)	4	14	3
-Brown-Fives & Light Pink (5 Suits)	4	14	3
-Brown-Fives & Pink (3 Suits)	4	22	5
-Brown-Fives & Prism (6 Suits)	4	9	2
-Brown-Fives & Rainbow (6 Suits)	4	9	2
-Brown-Fives & White (3 Suits)	4	4	1
-Brown-Fives & White (6 Suits)	4	18	4
-Brown-Ones & Brown (5 Suits)	4	36	9
-Brown-Ones & Dark Omni (5 Suits)	4	4	1
-Brown-Ones & Light Pink (4 Suits)	4	12	3
-Brown-Ones & Muddy Rainbow (3 Suits)	4	14	3
-Brown-Ones & Muddy Rainbow (5 Suits)	4	29	6
-Brown-Ones & White (6 Suits)	4	46	10
-Deceptive-Fives & Gray Pink (6 Suits)	4	13	3
-Deceptive-Fives & Light Pink (3 Suits)	4	4	1
-Deceptive-Fives & Light Pink (4 Suits)	4	9	2
-Deceptive-Fives & Pink (6 Suits)	4	19	4
-Deceptive-Ones & Brown (4 Suits)	4	9	2
-Deceptive-Ones & Dark Pink (6 Suits)	4	4	1
-Deceptive-Ones & Dark Rainbow (6 Suits)	4	8	2
-Deceptive-Ones & Light Pink (5 Suits)	4	18	4
-Deceptive-Ones & Omni (3 Suits)	4	16	4
-Deceptive-Ones & Rainbow (5 Suits)	4	14	3
-Deceptive-Ones (5 Suits)	4	191	44
-Dual-Color & Prism (6 Suits)	4	73	18
-Extremely Ambiguous & White (6 Suits)	4	4	1
-Extremely Ambiguous (4 Suits)	4	149	32
-Light Pink & Dark Omni (5 Suits)	4	12	3
-Light Pink (6 Suits)	4	893	185
-Light-Pink-Fives & Cocoa Rainbow (6 Suits)	4	9	2
-Light-Pink-Fives & Muddy Rainbow (5 Suits)	4	4	1
-Light-Pink-Fives & Muddy Rainbow (6 Suits)	4	12	3
-Light-Pink-Fives & Prism (6 Suits)	4	9	2
-Light-Pink-Fives & Rainbow (5 Suits)	4	12	3
-Light-Pink-Fives (6 Suits)	4	28	6
-Light-Pink-Ones & Light Pink (4 Suits)	4	14	3
-Light-Pink-Ones & Pink (5 Suits)	4	13	3
-Light-Pink-Ones & Prism (6 Suits)	4	14	3
-Light-Pink-Ones & Rainbow (6 Suits)	4	21	5
-Light-Pink-Ones (6 Suits)	4	55	12
-Muddy Rainbow & Prism (5 Suits)	4	79	18
-Muddy Rainbow & Prism (6 Suits)	4	71	16
-Muddy Rainbow (5 Suits)	4	853	201
-Muddy-Rainbow-Fives & Dark Prism (6 Suits)	4	13	3
-Muddy-Rainbow-Fives & Light Pink (5 Suits)	4	4	1
-Muddy-Rainbow-Fives & Omni (5 Suits)	4	4	1
-Muddy-Rainbow-Fives (6 Suits)	4	39	8
-Muddy-Rainbow-Ones & Light Pink (6 Suits)	4	13	3
-Muddy-Rainbow-Ones & Prism (5 Suits)	4	8	2
-Muddy-Rainbow-Ones & Prism (6 Suits)	4	17	4
-Muddy-Rainbow-Ones (5 Suits)	4	40	10
-Null & Light Pink (4 Suits)	4	14	3
-Null & Muddy Rainbow (4 Suits)	4	24	5
-Null-Fives & Brown (4 Suits)	4	18	4
-Null-Fives & Dark Pink (5 Suits)	4	4	1
-Null-Fives & Muddy Rainbow (3 Suits)	4	4	1
-Null-Ones & Dark Omni (5 Suits)	4	4	1
-Null-Ones & Omni (4 Suits)	4	4	1
-Null-Ones & Pink (3 Suits)	4	19	4
-Null-Ones & Pink (4 Suits)	4	4	1
-Null-Ones & Rainbow (5 Suits)	4	25	6
-Null-Ones (6 Suits)	4	48	12
-Omni & Dark Pink (5 Suits)	4	33	7
-Omni & Light Pink (6 Suits)	4	60	13
-Omni & Muddy Rainbow (4 Suits)	4	21	5
-Omni & Null (6 Suits)	4	465	105
-Omni & Prism (5 Suits)	4	40	10
-Omni & Prism (6 Suits)	4	44	10
-Omni (3 Suits)	4	688	152
-Omni (5 Suits)	4	1257	295
-Omni-Fives & Dark Pink (6 Suits)	4	4	1
-Omni-Fives & Dark Prism (5 Suits)	4	4	1
-Omni-Fives & Gray (5 Suits)	4	4	1
-Omni-Fives & Gray Pink (6 Suits)	4	9	2
-Omni-Fives & Omni (5 Suits)	4	13	3
-Omni-Fives & Pink (4 Suits)	4	12	3
-Omni-Fives & Prism (3 Suits)	4	4	1
-Omni-Fives & White (5 Suits)	4	16	4
-Omni-Fives (4 Suits)	4	34	8
-Omni-Fives (6 Suits)	4	54	11
-Omni-Ones & Dark Rainbow (5 Suits)	4	9	2
-Omni-Ones & Dark Rainbow (6 Suits)	4	4	1
-Omni-Ones & Light Pink (3 Suits)	4	14	3
-Omni-Ones & Null (6 Suits)	4	4	1
-Omni-Ones & Prism (4 Suits)	4	4	1
-Omni-Ones & Prism (5 Suits)	4	13	3
-Omni-Ones & White (5 Suits)	4	24	5
-Omni-Ones (6 Suits)	4	57	13
-Pink & Brown (3 Suits)	4	164	34
-Pink & Brown (4 Suits)	4	202	47
-Pink & Light Pink (5 Suits)	4	119	27
-Pink & Light Pink (6 Suits)	4	145	33
-Pink & Muddy Rainbow (6 Suits)	4	140	29
-Pink & Prism (5 Suits)	4	195	45
-Pink & White (5 Suits)	4	292	71
-Pink (3 Suits)	4	835	188
-Pink (4 Suits)	4	916	224
-Pink (5 Suits)	4	2748	605
-Pink-Fives & Omni (4 Suits)	4	8	2
-Pink-Fives & Prism (3 Suits)	4	8	2
-Pink-Fives & Rainbow (4 Suits)	4	54	13
-Pink-Fives & White (3 Suits)	4	17	4
-Pink-Fives & White (6 Suits)	4	35	8
-Pink-Ones & Brown (5 Suits)	4	39	9
-Pink-Ones & Brown (6 Suits)	4	51	11
-Pink-Ones & Dark Brown (6 Suits)	4	18	4
-Pink-Ones & Null (4 Suits)	4	4	1
-Pink-Ones & Pink (6 Suits)	4	18	4
-Pink-Ones & Prism (5 Suits)	4	20	5
-Pink-Ones (6 Suits)	4	112	23
-Prism & Dark Null (5 Suits)	4	4	1
-Prism & Dark Rainbow (6 Suits)	4	931	211
-Prism & Gray Pink (5 Suits)	4	38	8
-Prism (6 Suits)	4	2197	525
-Prism Reversed (3 Suits)	4	45	11
-Prism Reversed (6 Suits)	4	126	26
-Rainbow & Brown (5 Suits)	4	517	110
-Rainbow & Brown (6 Suits)	4	391	95
-Rainbow & Light Pink (6 Suits)	4	243	55
-Rainbow & Muddy Rainbow (3 Suits)	4	50	11
-Rainbow & Omni (3 Suits)	4	110	25
-Rainbow & Omni (5 Suits)	4	182	40
-Rainbow & White (6 Suits)	4	1153	278
-Rainbow (5 Suits)	4	5378	1343
-Rainbow-Fives & Brown (5 Suits)	4	20	5
-Rainbow-Fives & Dark Pink (5 Suits)	4	9	2
-Rainbow-Fives & Light Pink (5 Suits)	4	18	4
-Rainbow-Fives & Muddy Rainbow (3 Suits)	4	9	2
-Rainbow-Fives & Omni (3 Suits)	4	9	2
-Rainbow-Fives & Omni (4 Suits)	4	16	4
-Rainbow-Fives & Pink (3 Suits)	4	9	2
-Rainbow-Fives & Pink (5 Suits)	4	12	3
-Rainbow-Fives & Rainbow (3 Suits)	4	4	1
-Rainbow-Fives (6 Suits)	4	102	25
-Rainbow-Ones & Brown (6 Suits)	4	42	9
-Rainbow-Ones & Dark Rainbow (6 Suits)	4	24	5
-Rainbow-Ones & Null (3 Suits)	4	4	1
-Rainbow-Ones & Pink (3 Suits)	4	52	12
-Rainbow-Ones & Pink (6 Suits)	4	87	21
-Rainbow-Ones & Rainbow (6 Suits)	4	62	14
-Rainbow-Ones (6 Suits)	4	222	50
-Reversed (5 Suits)	4	645	149
-Throw It in a Hole & Muddy Rainbow (6 Suits)	4	4	1
-Throw It in a Hole (4 Suits)	4	323	77
-Very Ambiguous & Pink (4 Suits)	4	13	3
-White & Cocoa Rainbow (5 Suits)	4	57	13
-White & Dark Rainbow (6 Suits)	4	635	141
-White & Light Pink (3 Suits)	4	51	12
-White & Light Pink (5 Suits)	4	119	29
-White & Muddy Rainbow (3 Suits)	4	47	11
-White & Muddy Rainbow (6 Suits)	4	107	25
-White & Omni (3 Suits)	4	57	14
-White & Omni (5 Suits)	4	137	28
-White Reversed (5 Suits)	4	244	58
-White-Fives & Brown (4 Suits)	4	4	1
-White-Fives & Light Pink (6 Suits)	4	8	2
-White-Fives & Prism (6 Suits)	4	20	5
-White-Fives & White (6 Suits)	4	32	7
-White-Ones & Brown (6 Suits)	4	85	18
-White-Ones & Dark Prism (5 Suits)	4	27	6
-White-Ones & Dark Rainbow (5 Suits)	4	13	3
-White-Ones & Light Pink (5 Suits)	4	41	10
-White-Ones & Null (6 Suits)	4	18	4
-White-Ones & Pink (4 Suits)	4	28	7
-White-Ones & Pink (6 Suits)	4	40	10
-White-Ones & Rainbow (6 Suits)	4	81	19
-White-Ones & White (6 Suits)	4	91	20
-Alternating Clues & Muddy Rainbow (3 Suits)	5	5	1
-Alternating Clues & White (5 Suits)	5	28	5
-Ambiguous & Brown (3 Suits)	5	41	7
-Ambiguous & Dual-Color	5	605	109
-Ambiguous & Pink (5 Suits)	5	55	11
-Ambiguous & Prism (5 Suits)	5	25	5
-Ambiguous & White (5 Suits)	5	207	39
-Ambiguous (6 Suits)	5	1960	336
-Black & White (6 Suits)	5	1910	320
-Brown & Dark Omni (6 Suits)	5	53	9
-Brown & Dark Pink (6 Suits)	5	82	16
-Brown & Dark Prism (5 Suits)	5	60	12
-Brown & Muddy Rainbow (6 Suits)	5	86	15
-Brown & Null (5 Suits)	5	46	9
-Brown & Omni (6 Suits)	5	316	62
-Brown-Fives & Pink (5 Suits)	5	25	5
-Brown-Fives & Prism (4 Suits)	5	15	3
-Brown-Fives & Rainbow (4 Suits)	5	17	3
-Brown-Fives (5 Suits)	5	86	16
-Brown-Ones & Brown (6 Suits)	5	46	9
-Brown-Ones & Rainbow (5 Suits)	5	62	12
-Color Mute (5 Suits)	5	83	15
-Cow & Pig (4 Suits)	5	169	32
-Dark Omni (5 Suits)	5	516	88
-Deceptive-Fives & Dark Prism (6 Suits)	5	5	1
-Deceptive-Fives & Omni (6 Suits)	5	5	1
-Deceptive-Fives & Prism (6 Suits)	5	5	1
-Deceptive-Fives & Rainbow (5 Suits)	5	28	5
-Deceptive-Fives (4 Suits)	5	28	5
-Deceptive-Fives (6 Suits)	5	79	15
-Deceptive-Ones & Brown (6 Suits)	5	5	1
-Deceptive-Ones & Prism (5 Suits)	5	10	2
-Deceptive-Ones & Rainbow (6 Suits)	5	16	3
-Dual-Color & Muddy Rainbow (4 Suits)	5	26	5
-Dual-Color & Null (4 Suits)	5	15	3
-Extremely Ambiguous & Dark Pink (5 Suits)	5	11	2
-Extremely Ambiguous & Gray (5 Suits)	5	5	1
-Extremely Ambiguous & Light Pink (5 Suits)	5	5	1
-Light Pink & Prism (6 Suits)	5	103	19
-Light-Pink-Fives & Null (5 Suits)	5	5	1
-Light-Pink-Ones & Pink (3 Suits)	5	5	1
-Muddy Rainbow & Dark Pink (6 Suits)	5	41	7
-Muddy Rainbow & Light Pink (3 Suits)	5	30	6
-Muddy Rainbow & Light Pink (5 Suits)	5	87	16
-Muddy-Rainbow-Fives & Brown (5 Suits)	5	5	1
-Muddy-Rainbow-Fives & Muddy Rainbow (4 Suits)	5	5	1
-Muddy-Rainbow-Fives & Pink (3 Suits)	5	16	3
-Muddy-Rainbow-Fives & Prism (6 Suits)	5	5	1
-Muddy-Rainbow-Fives & Rainbow (4 Suits)	5	17	3
-Muddy-Rainbow-Fives & Rainbow (6 Suits)	5	10	2
-Muddy-Rainbow-Fives & White (5 Suits)	5	5	1
-Muddy-Rainbow-Ones & Muddy Rainbow (3 Suits)	5	5	1
-Muddy-Rainbow-Ones & Muddy Rainbow (4 Suits)	5	10	2
-Muddy-Rainbow-Ones & Null (5 Suits)	5	5	1
-Muddy-Rainbow-Ones & Omni (6 Suits)	5	10	2
-Muddy-Rainbow-Ones & Pink (5 Suits)	5	20	4
-Muddy-Rainbow-Ones & White (5 Suits)	5	28	5
-Null & Dark Brown (5 Suits)	5	5	1
-Null & Dark Prism (5 Suits)	5	5	1
-Null-Ones & Black (5 Suits)	5	5	1
-Null-Ones & Dark Omni (6 Suits)	5	5	1
-Null-Ones & Omni (3 Suits)	5	5	1
-Null-Ones (5 Suits)	5	141	27
-Number Blind (3 Suits)	5	30	6
-Omni & Dark Pink (6 Suits)	5	41	7
-Omni & Muddy Rainbow (6 Suits)	5	59	11
-Omni-Fives & Brown (3 Suits)	5	5	1
-Omni-Fives & Brown (6 Suits)	5	91	18
-Omni-Fives & Muddy Rainbow (3 Suits)	5	5	1
-Omni-Fives & Prism (5 Suits)	5	20	4
-Omni-Ones & Light Pink (6 Suits)	5	17	3
-Omni-Ones & Null (4 Suits)	5	10	2
-Omni-Ones & Omni (6 Suits)	5	11	2
-Omni-Ones & Prism (3 Suits)	5	5	1
-Omni-Ones & Rainbow (6 Suits)	5	20	4
-Pink & Brown (6 Suits)	5	404	68
-Pink & Dark Rainbow (5 Suits)	5	144	25
-Pink & Light Pink (4 Suits)	5	96	19
-Pink & Null (3 Suits)	5	102	19
-Pink & Omni (5 Suits)	5	216	39
-Pink & Omni (6 Suits)	5	232	45
-Pink & Prism (6 Suits)	5	237	45
-Pink & White (6 Suits)	5	392	75
-Pink-Fives & Black (5 Suits)	5	27	5
-Pink-Fives & Dark Brown (5 Suits)	5	11	2
-Pink-Fives & Dark Omni (5 Suits)	5	5	1
-Pink-Fives & Rainbow (6 Suits)	5	107	18
-Pink-Fives & White (5 Suits)	5	11	2
-Pink-Fives (5 Suits)	5	171	33
-Pink-Ones & Cocoa Rainbow (5 Suits)	5	17	3
-Pink-Ones & Dark Rainbow (5 Suits)	5	17	3
-Pink-Ones & Null (3 Suits)	5	5	1
-Pink-Ones & Omni (3 Suits)	5	10	2
-Pink-Ones & Omni (5 Suits)	5	16	3
-Pink-Ones & Rainbow (6 Suits)	5	75	13
-Prism & Dark Pink (6 Suits)	5	61	11
-Rainbow & Brown (3 Suits)	5	201	35
-Rainbow & Pink (3 Suits)	5	210	42
-Rainbow (6 Suits)	5	36598	6766
-Rainbow Reversed (5 Suits)	5	269	45
-Rainbow-Fives & Dark Brown (5 Suits)	5	5	1
-Rainbow-Fives & Dark Brown (6 Suits)	5	26	5
-Rainbow-Fives & Dark Omni (5 Suits)	5	10	2
-Rainbow-Fives & Muddy Rainbow (4 Suits)	5	10	2
-Rainbow-Fives & Pink (6 Suits)	5	33	6
-Rainbow-Ones & Omni (6 Suits)	5	20	4
-Rainbow-Ones & White (6 Suits)	5	80	16
-Throw It in a Hole & Brown (4 Suits)	5	15	3
-Throw It in a Hole & Brown (5 Suits)	5	11	2
-Throw It in a Hole & Muddy Rainbow (4 Suits)	5	5	1
-Throw It in a Hole & Pink (4 Suits)	5	11	2
-Throw It in a Hole & Rainbow (5 Suits)	5	32	6
-Totally Blind (6 Suits)	5	218	42
-Up or Down & Brown (6 Suits)	5	178	30
-Up or Down & Light Pink (5 Suits)	5	114	20
-Up or Down & Prism (5 Suits)	5	232	44
-Up or Down & Prism (6 Suits)	5	396	79
-Up or Down & Rainbow (6 Suits)	5	2372	425
-Up or Down & White (6 Suits)	5	266	52
-Very Ambiguous & Brown (4 Suits)	5	10	2
-White & Dark Pink (6 Suits)	5	180	31
-White & Light Pink (6 Suits)	5	129	23
-White & Null (5 Suits)	5	136	23
-White & Prism (6 Suits)	5	300	60
-White-Fives & Brown (5 Suits)	5	26	5
-White-Fives & Brown (6 Suits)	5	11	2
-White-Fives & Dark Brown (6 Suits)	5	5	1
-White-Fives & Muddy Rainbow (3 Suits)	5	10	2
-White-Fives & Omni (4 Suits)	5	5	1
-White-Fives & Rainbow (4 Suits)	5	31	6
-White-Ones & Black (6 Suits)	5	75	13
-White-Ones & Brown (4 Suits)	5	41	7
-White-Ones & Dark Brown (6 Suits)	5	36	7
-White-Ones & Dark Omni (5 Suits)	5	21	4
-White-Ones & Dark Omni (6 Suits)	5	21	4
-White-Ones & Dark Pink (6 Suits)	5	33	6
-6 Suits	6	31048	4785
-Alternating Clues & Omni (3 Suits)	6	19	3
-Alternating Clues & Rainbow (5 Suits)	6	12	2
-Ambiguous & Gray Pink (5 Suits)	6	13	2
-Black & Prism (5 Suits)	6	372	55
-Black & Rainbow (6 Suits)	6	3565	564
-Brown & Dark Rainbow (5 Suits)	6	84	14
-Brown-Fives & Dark Prism (6 Suits)	6	6	1
-Brown-Fives & Muddy Rainbow (4 Suits)	6	18	3
-Brown-Fives (6 Suits)	6	44	7
-Brown-Ones & Gray (6 Suits)	6	19	3
-Brown-Ones & Muddy Rainbow (6 Suits)	6	18	3
-Clue Starved & Null (5 Suits)	6	24	4
-Color Blind (5 Suits)	6	132	22
-Cow & Pig (3 Suits)	6	159	24
-Deceptive-Fives & Dark Brown (5 Suits)	6	6	1
-Deceptive-Fives & Muddy Rainbow (5 Suits)	6	13	2
-Deceptive-Fives & Muddy Rainbow (6 Suits)	6	6	1
-Deceptive-Fives & Rainbow (4 Suits)	6	6	1
-Deceptive-Ones & Brown (3 Suits)	6	6	1
-Deceptive-Ones & Light Pink (6 Suits)	6	6	1
-Dual-Color & Dark Omni (6 Suits)	6	50	8
-Dual-Color & Dark Prism (6 Suits)	6	69	11
-Dual-Color & Omni (6 Suits)	6	73	12
-Extremely Ambiguous & Brown (6 Suits)	6	6	1
-Light Pink & Dark Brown (5 Suits)	6	31	5
-Light-Pink-Fives & Dark Rainbow (5 Suits)	6	6	1
-Light-Pink-Ones & Dark Brown (6 Suits)	6	6	1
-Light-Pink-Ones & Light Pink (5 Suits)	6	13	2
-Muddy Rainbow & Dark Rainbow (5 Suits)	6	33	5
-Muddy Rainbow & Dark Rainbow (6 Suits)	6	48	7
-Muddy-Rainbow-Fives & Gray (6 Suits)	6	13	2
-Muddy-Rainbow-Fives & Pink (5 Suits)	6	12	2
-Muddy-Rainbow-Ones & Dark Null (5 Suits)	6	6	1
-Muddy-Rainbow-Ones & Null (3 Suits)	6	12	2
-Null & Dark Pink (5 Suits)	6	20	3
-Null (3 Suits)	6	477	73
-Null (5 Suits)	6	1569	249
-Null-Ones & Black (6 Suits)	6	12	2
-Null-Ones & Brown (4 Suits)	6	6	1
-Null-Ones & Pink (6 Suits)	6	25	4
-Number Blind (6 Suits)	6	52	8
-Omni & Null (5 Suits)	6	73	12
-Omni-Fives & Omni (3 Suits)	6	6	1
-Omni-Ones & Brown (6 Suits)	6	6	1
-Omni-Ones & Light Pink (4 Suits)	6	6	1
-Omni-Ones & Light Pink (5 Suits)	6	12	2
-Omni-Ones & Muddy Rainbow (6 Suits)	6	12	2
-Omni-Ones & Rainbow (5 Suits)	6	20	3
-Omni-Ones (5 Suits)	6	143	22
-Pink & Null (5 Suits)	6	163	25
-Pink & Omni (3 Suits)	6	129	21
-Pink & Omni (4 Suits)	6	168	28
-Pink (6 Suits)	6	3872	569
-Pink-Fives & Dark Pink (6 Suits)	6	6	1
-Pink-Fives & Pink (5 Suits)	6	6	1
-Pink-Ones & Dark Prism (6 Suits)	6	6	1
-Pink-Ones & Muddy Rainbow (6 Suits)	6	26	4
-Prism & Dark Brown (6 Suits)	6	79	12
-Prism & Dark Pink (5 Suits)	6	42	7
-Rainbow & Dark Omni (5 Suits)	6	136	20
-Rainbow & Dark Pink (6 Suits)	6	348	51
-Rainbow & Dark Prism (5 Suits)	6	157	23
-Rainbow & Gray Pink (5 Suits)	6	113	18
-Rainbow & Null (3 Suits)	6	74	12
-Rainbow & Null (4 Suits)	6	60	10
-Rainbow & Omni (6 Suits)	6	305	44
-Rainbow & Pink (6 Suits)	6	1082	169
-Rainbow-Fives & Prism (6 Suits)	6	27	4
-Rainbow-Fives & Rainbow (4 Suits)	6	18	3
-Rainbow-Ones & Muddy Rainbow (5 Suits)	6	36	6
-Rainbow-Ones & Muddy Rainbow (6 Suits)	6	20	3
-Rainbow-Ones & Null (4 Suits)	6	12	2
-Reversed (6 Suits)	6	520	82
-Throw It in a Hole & Rainbow (6 Suits)	6	40	6
-Throw It in a Hole & White (5 Suits)	6	41	6
-Throw It in a Hole (6 Suits)	6	496	78
-Totally Blind (3 Suits)	6	61	10
-Totally Blind (5 Suits)	6	152	25
-Up or Down & Pink (5 Suits)	6	240	38
-Up or Down (6 Suits)	6	1777	260
-Very Ambiguous & Omni (4 Suits)	6	6	1
-White & Dark Omni (6 Suits)	6	131	20
-White & Gray Pink (6 Suits)	6	93	14
-White & Null (3 Suits)	6	76	12
-White-Fives & Black (6 Suits)	6	13	2
-White-Ones & Dark Prism (6 Suits)	6	19	3
-Alternating Clues & Black (5 Suits)	7	22	3
-Alternating Clues & Prism (6 Suits)	7	14	2
-Alternating Clues (6 Suits)	7	171	24
-Ambiguous & Light Pink (3 Suits)	7	7	1
-Black & Prism (6 Suits)	7	549	71
-Black Reversed (5 Suits)	7	199	26
-Brown & Light Pink (6 Suits)	7	119	17
-Brown-Fives & Brown (5 Suits)	7	7	1
-Brown-Fives & Dark Rainbow (6 Suits)	7	7	1
-Brown-Fives & Light Pink (6 Suits)	7	7	1
-Brown-Ones & Black (5 Suits)	7	42	6
-Clue Starved & Omni (5 Suits)	7	28	4
-Clue Starved & White (5 Suits)	7	79	10
-Clue Starved & White (6 Suits)	7	44	6
-Dark Pink (5 Suits)	7	928	117
-Dark Rainbow Reversed (5 Suits)	7	131	17
-Deceptive-Ones & Dark Prism (5 Suits)	7	14	2
-Deceptive-Ones & White (5 Suits)	7	22	3
-Dual-Color & Gray Pink (6 Suits)	7	55	7
-Duck (3 Suits)	7	325	43
-Extremely Ambiguous & Muddy Rainbow (6 Suits)	7	7	1
-Extremely Ambiguous & Omni (5 Suits)	7	15	2
-Gray (5 Suits)	7	1502	189
-Light Pink & Dark Brown (6 Suits)	7	28	4
-Light-Pink-Ones & Omni (5 Suits)	7	7	1
-Light-Pink-Ones & Pink (6 Suits)	7	7	1
-Light-Pink-Ones & Rainbow (5 Suits)	7	22	3
-Muddy-Rainbow-Fives & Cocoa Rainbow (5 Suits)	7	15	2
-Muddy-Rainbow-Fives & Dark Brown (6 Suits)	7	7	1
-Muddy-Rainbow-Ones & Black (5 Suits)	7	23	3
-No Variant	7	255495	35131
-Null & Prism (4 Suits)	7	29	4
-Null-Fives (5 Suits)	7	50	7
-Null-Ones & Dark Brown (5 Suits)	7	7	1
-Null-Ones & Light Pink (5 Suits)	7	22	3
-Null-Ones & Rainbow (4 Suits)	7	23	3
-Number Blind (5 Suits)	7	75	10
-Omni & Gray Pink (5 Suits)	7	21	3
-Omni & Muddy Rainbow (5 Suits)	7	87	11
-Omni (6 Suits)	7	2012	273
-Omni-Ones & Omni (5 Suits)	7	15	2
-Pink & Dark Prism (6 Suits)	7	140	18
-Pink & Gray Pink (5 Suits)	7	70	9
-Pink-Fives & Light Pink (6 Suits)	7	15	2
-Pink-Fives & Pink (6 Suits)	7	7	1
-Pink-Fives & Prism (6 Suits)	7	14	2
-Pink-Ones & Null (5 Suits)	7	14	2
-Prism & Dark Null (6 Suits)	7	14	2
-Rainbow & Dark Omni (6 Suits)	7	198	28
-Rainbow & Gray (5 Suits)	7	319	45
-Rainbow & Gray Pink (6 Suits)	7	182	26
-Rainbow & Null (5 Suits)	7	119	16
-Rainbow-Fives & Black (5 Suits)	7	15	2
-Rainbow-Fives & Black (6 Suits)	7	49	7
-Rainbow-Ones & Cocoa Rainbow (5 Suits)	7	7	1
-Rainbow-Ones & Dark Omni (5 Suits)	7	7	1
-Rainbow-Ones & Dark Rainbow (5 Suits)	7	45	6
-Rainbow-Ones & Gray (6 Suits)	7	36	5
-Rainbow-Ones & Gray Pink (6 Suits)	7	22	3
-Throw It in a Hole & Light Pink (4 Suits)	7	7	1
-Throw It in a Hole & Pink (6 Suits)	7	29	4
-Throw It in a Hole & Prism (6 Suits)	7	7	1
-Throw It in a Hole (5 Suits)	7	871	119
-Up or Down & Muddy Rainbow (6 Suits)	7	98	14
-Up or Down & White (5 Suits)	7	353	49
-Up or Down (5 Suits)	7	3216	443
-Very Ambiguous & Null (4 Suits)	7	7	1
-White & Dark Omni (5 Suits)	7	108	14
-White & Dark Pink (5 Suits)	7	125	16
-White & Null (4 Suits)	7	81	11
-White-Ones & Cocoa Rainbow (5 Suits)	7	14	2
-Alternating Clues & Black (6 Suits)	8	26	3
-Alternating Clues & Cocoa Rainbow (6 Suits)	8	17	2
-Ambiguous & Muddy Rainbow (5 Suits)	8	25	3
-Black & Light Pink (6 Suits)	8	446	52
-Black & Muddy Rainbow (6 Suits)	8	317	39
-Brown & Gray Pink (5 Suits)	8	70	8
-Brown & Muddy Rainbow (3 Suits)	8	41	5
-Brown & Muddy Rainbow (4 Suits)	8	84	10
-Brown & Muddy Rainbow (5 Suits)	8	157	19
-Brown & Null (6 Suits)	8	77	9
-Brown-Fives & Brown (6 Suits)	8	8	1
-Brown-Fives & Cocoa Rainbow (5 Suits)	8	8	1
-Clue Starved & Light Pink (5 Suits)	8	60	7
-Color Blind (6 Suits)	8	250	30
-Cow & Pig (5 Suits)	8	500	62
-Dark Prism (5 Suits)	8	831	101
-Deceptive-Fives & Pink (5 Suits)	8	17	2
-Deceptive-Fives & Rainbow (6 Suits)	8	42	5
-Deceptive-Fives & White (5 Suits)	8	16	2
-Deceptive-Fives & White (6 Suits)	8	26	3
-Deceptive-Ones & Black (5 Suits)	8	26	3
-Dual-Color & Black (6 Suits)	8	206	23
-Dual-Color & Omni (4 Suits)	8	50	6
-Duck (5 Suits)	8	1095	123
-Extremely Ambiguous (5 Suits)	8	213	26
-Gray Pink (5 Suits)	8	710	80
-Light-Pink-Fives & Black (6 Suits)	8	8	1
-Light-Pink-Fives & Brown (5 Suits)	8	16	2
-Light-Pink-Fives & Dark Null (5 Suits)	8	8	1
-Light-Pink-Fives & White (4 Suits)	8	8	1
-Light-Pink-Ones & Gray (6 Suits)	8	17	2
-Light-Pink-Ones & Prism (5 Suits)	8	8	1
-Light-Pink-Ones & White (6 Suits)	8	8	1
-Muddy Rainbow & Light Pink (6 Suits)	8	115	14
-Muddy-Rainbow-Fives & Brown (3 Suits)	8	8	1
-Muddy-Rainbow-Ones & Brown (4 Suits)	8	8	1
-Muddy-Rainbow-Ones & Gray (6 Suits)	8	8	1
-Muddy-Rainbow-Ones & Light Pink (5 Suits)	8	16	2
-Muddy-Rainbow-Ones & Omni (5 Suits)	8	8	1
-Null & Light Pink (5 Suits)	8	61	7
-Null (4 Suits)	8	607	73
-Null-Fives & White (5 Suits)	8	33	4
-Null-Ones & Null (5 Suits)	8	24	3
-Omni-Fives & Black (6 Suits)	8	17	2
-Omni-Fives & Light Pink (6 Suits)	8	8	1
-Omni-Fives & Null (4 Suits)	8	8	1
-Omni-Fives & Rainbow (6 Suits)	8	25	3
-Omni-Fives & White (6 Suits)	8	24	3
-Pink & Dark Brown (6 Suits)	8	110	13
-Pink & Gray (5 Suits)	8	169	20
-Pink & Null (6 Suits)	8	141	17
-Pink-Fives & Prism (4 Suits)	8	16	2
-Prism & Dark Omni (5 Suits)	8	53	6
-Rainbow & Cocoa Rainbow (5 Suits)	8	110	13
-Rainbow & Null (6 Suits)	8	304	37
-Up or Down & Muddy Rainbow (5 Suits)	8	124	15
-Up or Down & Omni (5 Suits)	8	174	20
-Up or Down & Pink (6 Suits)	8	240	29
-White & Dark Prism (6 Suits)	8	133	16
-White & Null (6 Suits)	8	80	9
-White-Fives & Omni (3 Suits)	8	8	1
-White-Ones & Black (5 Suits)	8	93	11
-White-Ones & Dark Pink (5 Suits)	8	41	5
-Alternating Clues & Cocoa Rainbow (5 Suits)	9	9	1
-Alternating Clues & Rainbow (4 Suits)	9	9	1
-Black & Brown (5 Suits)	9	594	62
-Black & Brown (6 Suits)	9	639	64
-Black & Pink (5 Suits)	9	791	80
-Black & White (5 Suits)	9	1062	109
-Brown & Dark Null (6 Suits)	9	19	2
-Brown & Dark Omni (5 Suits)	9	65	7
-Brown & Dark Rainbow (6 Suits)	9	173	18
-Brown-Fives & Gray Pink (6 Suits)	9	9	1
-Brown-Ones & Gray (5 Suits)	9	45	5
-Brown-Ones & Gray Pink (5 Suits)	9	19	2
-Clue Starved & Muddy Rainbow (5 Suits)	9	18	2
-Clue Starved & Prism (6 Suits)	9	55	6
-Dark Brown (5 Suits)	9	882	94
-Dark Omni (6 Suits)	9	875	97
-Dark Pink & Cocoa Rainbow (6 Suits)	9	19	2
-Dark Pink (6 Suits)	9	1271	141
-Dark Rainbow (5 Suits)	9	1439	153
-Dark Rainbow Reversed (6 Suits)	9	200	21
-Deceptive-Fives & Black (6 Suits)	9	9	1
-Deceptive-Fives & Dark Rainbow (5 Suits)	9	9	1
-Dual-Color & Gray (6 Suits)	9	144	16
-Duck (4 Suits)	9	248	25
-Extremely Ambiguous & Dark Omni (6 Suits)	9	9	1
-Extremely Ambiguous & Pink (6 Suits)	9	9	1
-Gray Reversed (6 Suits)	9	164	18
-Light Pink & Dark Rainbow (5 Suits)	9	48	5
-Light-Pink-Fives & Prism (4 Suits)	9	9	1
-Light-Pink-Ones & Cocoa Rainbow (5 Suits)	9	9	1
-Light-Pink-Ones & Dark Prism (5 Suits)	9	18	2
-Light-Pink-Ones & Omni (6 Suits)	9	19	2
-Muddy Rainbow & Dark Null (6 Suits)	9	9	1
-Muddy Rainbow & Dark Prism (6 Suits)	9	36	4
-Muddy Rainbow & Gray (6 Suits)	9	45	5
-Muddy-Rainbow-Ones & Dark Rainbow (6 Suits)	9	9	1
-Null & Dark Pink (6 Suits)	9	28	3
-Null & Muddy Rainbow (6 Suits)	9	74	8
-Null (6 Suits)	9	2009	209
-Null-Ones & Null (3 Suits)	9	49	5
-Null-Ones & Omni (5 Suits)	9	9	1
-Omni & Cocoa Rainbow (5 Suits)	9	27	3
-Omni & Light Pink (5 Suits)	9	86	9
-Omni & Muddy Rainbow (3 Suits)	9	73	8
-Omni-Fives & Dark Omni (6 Suits)	9	29	3
-Omni-Fives & Light Pink (5 Suits)	9	9	1
-Omni-Fives & Pink (5 Suits)	9	28	3
-Omni-Fives & Rainbow (5 Suits)	9	9	1
-Omni-Ones & Pink (5 Suits)	9	9	1
-Pink-Fives & Black (6 Suits)	9	47	5
-Pink-Fives & Light Pink (5 Suits)	9	9	1
-Pink-Ones & Light Pink (3 Suits)	9	19	2
-Prism & Cocoa Rainbow (6 Suits)	9	56	6
-Rainbow & Dark Brown (6 Suits)	9	270	28
-Rainbow & Dark Prism (6 Suits)	9	242	25
-Rainbow-Fives & Brown (4 Suits)	9	18	2
-Rainbow-Fives & Dark Prism (6 Suits)	9	29	3
-Rainbow-Fives & Dark Rainbow (6 Suits)	9	9	1
-Throw It in a Hole & White (6 Suits)	9	48	5
-Up or Down & Omni (6 Suits)	9	211	23
-White & Dark Brown (5 Suits)	9	190	20
-White-Ones & Cocoa Rainbow (6 Suits)	9	37	4
-White-Ones & Gray (5 Suits)	9	68	7
-Ambiguous & Black (5 Suits)	10	121	12
-Black & Light Pink (5 Suits)	10	431	41
-Black & Muddy Rainbow (5 Suits)	10	370	35
-Black & Pink (6 Suits)	10	865	86
-Brown-Fives & Gray (6 Suits)	10	10	1
-Brown-Fives & Rainbow (5 Suits)	10	10	1
-Clue Starved & Omni (6 Suits)	10	30	3
-Clue Starved & Rainbow (5 Suits)	10	130	13
-Clue Starved (5 Suits)	10	725	72
-Cocoa Rainbow (5 Suits)	10	828	78
-Dark Null & Gray Pink (6 Suits)	10	10	1
-Dual-Color & Dark Null (6 Suits)	10	10	1
-Extremely Ambiguous & Brown (5 Suits)	10	10	1
-Extremely Ambiguous & Gray Pink (5 Suits)	10	10	1
-Gray Pink (6 Suits)	10	882	84
-Light-Pink-Fives & Dark Omni (5 Suits)	10	10	1
-Light-Pink-Ones & Gray Pink (5 Suits)	10	10	1
-Muddy Rainbow & Dark Brown (6 Suits)	10	72	7
-Muddy Rainbow & Dark Pink (5 Suits)	10	53	5
-Muddy Rainbow & Gray Pink (6 Suits)	10	60	6
-Muddy-Rainbow-Fives & Dark Null (5 Suits)	10	10	1
-Muddy-Rainbow-Ones & Dark Null (6 Suits)	10	10	1
-Null & Dark Omni (5 Suits)	10	20	2
-Null-Fives & Prism (4 Suits)	10	20	2
-Null-Ones & Dark Rainbow (5 Suits)	10	31	3
-Null-Ones & Null (4 Suits)	10	32	3
-Null-Ones & Pink (5 Suits)	10	30	3
-Omni & Gray (5 Suits)	10	63	6
-Omni & Gray (6 Suits)	10	92	9
-Omni-Ones & Pink (3 Suits)	10	10	1
-Pink & Dark Rainbow (6 Suits)	10	240	22
-Pink-Fives & Muddy Rainbow (4 Suits)	10	20	2
-Pink-Ones & Cocoa Rainbow (6 Suits)	10	10	1
-Pink-Ones & Dark Pink (6 Suits)	10	10	1
-Pink-Ones & Gray (6 Suits)	10	10	1
-Pink-Ones & Light Pink (5 Suits)	10	40	4
-Prism & Dark Rainbow (5 Suits)	10	80	8
-Prism & Gray Pink (6 Suits)	10	71	7
-Rainbow & Dark Null (5 Suits)	10	61	6
-Rainbow & Dark Pink (5 Suits)	10	296	27
-Rainbow-Fives & Dark Prism (5 Suits)	10	10	1
-Throw It in a Hole & Null (5 Suits)	10	10	1
-Throw It in a Hole & Null (6 Suits)	10	10	1
-Up or Down & Null (6 Suits)	10	61	6
-Very Ambiguous (6 Suits)	10	750	75
-White & Dark Brown (6 Suits)	10	217	20
-White & Dark Null (5 Suits)	10	31	3
-White-Fives & Gray Pink (6 Suits)	10	10	1
-White-Ones & Null (4 Suits)	10	31	3
-Ambiguous & Dark Brown (5 Suits)	11	34	3
-Ambiguous & Dark Rainbow (5 Suits)	11	11	1
-Ambiguous & Omni (5 Suits)	11	22	2
-Black Reversed (6 Suits)	11	322	27
-Brown & Dark Prism (6 Suits)	11	89	8
-Brown & Gray (6 Suits)	11	194	17
-Brown & Null (4 Suits)	11	58	5
-Clue Starved & Brown (5 Suits)	11	93	8
-Color Mute (6 Suits)	11	70	6
-Dark Prism (6 Suits)	11	1130	97
-Dark Prism Reversed (6 Suits)	11	148	13
-Extremely Ambiguous (6 Suits)	11	258	22
-Light Pink & Cocoa Rainbow (6 Suits)	11	35	3
-Muddy Rainbow & Dark Prism (5 Suits)	11	56	5
-Muddy Rainbow & Gray (5 Suits)	11	67	6
-Muddy-Rainbow-Fives & Dark Pink (5 Suits)	11	23	2
-Null & Gray Pink (5 Suits)	11	11	1
-Omni & Null (3 Suits)	11	164	14
-Omni & Null (4 Suits)	11	56	5
-Omni-Fives & Cocoa Rainbow (5 Suits)	11	11	1
-Omni-Fives & Pink (6 Suits)	11	23	2
-Omni-Ones & Black (5 Suits)	11	11	1
-Omni-Ones & Brown (5 Suits)	11	23	2
-Pink & Cocoa Rainbow (5 Suits)	11	143	13
-Pink & Dark Prism (5 Suits)	11	178	15
-Pink & Gray (6 Suits)	11	269	24
-Pink-Fives & Gray (6 Suits)	11	23	2
-Pink-Ones & Null (6 Suits)	11	11	1
-Prism & Dark Omni (6 Suits)	11	71	6
-Prism & Gray (6 Suits)	11	113	10
-Rainbow & Gray (6 Suits)	11	479	41
-Rainbow-Ones & Black (5 Suits)	11	175	15
-Rainbow-Ones & Null (5 Suits)	11	11	1
-Rainbow-Ones & Null (6 Suits)	11	11	1
-Throw It in a Hole & Light Pink (5 Suits)	11	22	2
-Throw It in a Hole & Prism (5 Suits)	11	23	2
-Up or Down & Null (5 Suits)	11	66	6
-White & Cocoa Rainbow (6 Suits)	11	99	9
-White-Fives & Dark Brown (5 Suits)	11	11	1
-White-Ones & Dark Brown (5 Suits)	11	45	4
-White-Ones & Gray Pink (6 Suits)	11	34	3
-Brown & Dark Pink (5 Suits)	12	164	13
-Brown-Fives & Omni (6 Suits)	12	24	2
-Brown-Ones & Dark Omni (6 Suits)	12	38	3
-Dark Brown & Cocoa Rainbow (6 Suits)	12	12	1
-Dark Brown (6 Suits)	12	1305	107
-Dark Prism Reversed (5 Suits)	12	175	14
-Deceptive-Ones & Black (6 Suits)	12	48	4
-Deceptive-Ones & Omni (6 Suits)	12	25	2
-Light Pink & Dark Null (5 Suits)	12	24	2
-Light Pink & Dark Rainbow (6 Suits)	12	51	4
-Light-Pink-Fives & Dark Brown (6 Suits)	12	51	4
-Muddy-Rainbow-Ones & Gray Pink (5 Suits)	12	12	1
-Null & Gray (5 Suits)	12	49	4
-Null & Gray Pink (6 Suits)	12	12	1
-Null & Light Pink (6 Suits)	12	75	6
-Null-Ones & Brown (5 Suits)	12	12	1
-Omni & Dark Rainbow (5 Suits)	12	64	5
-Pink & Dark Null (5 Suits)	12	49	4
-Pink & Dark Omni (5 Suits)	12	133	11
-Pink-Ones & Light Pink (4 Suits)	12	12	1
-Prism & Dark Brown (5 Suits)	12	72	6
-Rainbow & Cocoa Rainbow (6 Suits)	12	229	19
-Rainbow-Ones & Black (6 Suits)	12	141	11
-Rainbow-Ones & Dark Pink (6 Suits)	12	36	3
-Throw It in a Hole & Rainbow (4 Suits)	12	24	2
-White-Fives & Omni (6 Suits)	12	12	1
-White-Ones & Dark Rainbow (6 Suits)	12	51	4
-White-Ones & Gray (6 Suits)	12	75	6
-Alternating Clues & Brown (3 Suits)	13	13	1
-Black & Gray Pink (6 Suits)	13	239	18
-Black & Omni (5 Suits)	13	606	46
-Black (5 Suits)	13	8509	651
-Brown & Cocoa Rainbow (6 Suits)	13	78	6
-Brown & Null (3 Suits)	13	123	9
-Brown-Ones & Black (6 Suits)	13	107	8
-Brown-Ones & Dark Brown (6 Suits)	13	40	3
-Brown-Ones & Dark Rainbow (5 Suits)	13	52	4
-Cocoa Rainbow (6 Suits)	13	1133	84
-Dark Pink & Dark Null (6 Suits)	13	54	4
-Dual-Color & Dark Brown (6 Suits)	13	78	6
-Dual-Color & Dark Pink (6 Suits)	13	78	6
-Gray (6 Suits)	13	2383	178
-Gray Reversed (5 Suits)	13	192	14
-Light Pink & Dark Prism (6 Suits)	13	80	6
-Muddy-Rainbow-Fives & Brown (6 Suits)	13	13	1
-Muddy-Rainbow-Ones & Dark Pink (6 Suits)	13	13	1
-Null-Fives & Black (6 Suits)	13	13	1
-Null-Fives & Rainbow (6 Suits)	13	27	2
-Null-Fives & White (6 Suits)	13	39	3
-Null-Ones & Prism (4 Suits)	13	27	2
-Omni & Gray Pink (6 Suits)	13	55	4
-Omni-Ones & Gray (5 Suits)	13	13	1
-Omni-Ones & Null (5 Suits)	13	13	1
-Pink & Cocoa Rainbow (6 Suits)	13	145	11
-Pink-Ones & Black (6 Suits)	13	53	4
-Prism & Cocoa Rainbow (5 Suits)	13	55	4
-Rainbow-Fives & Cocoa Rainbow (5 Suits)	13	13	1
-Rainbow-Fives & Gray (6 Suits)	13	13	1
-Rainbow-Ones & Dark Brown (6 Suits)	13	27	2
-Throw It in a Hole & Pink (5 Suits)	13	26	2
-White & Dark Prism (5 Suits)	13	175	13
-White-Fives & Pink (6 Suits)	13	13	1
-White-Ones & Null (5 Suits)	13	27	2
-Alternating Clues & Brown (6 Suits)	14	14	1
-Alternating Clues & Pink (6 Suits)	14	44	3
-Ambiguous & Dark Pink (5 Suits)	14	29	2
-Brown & Gray (5 Suits)	14	203	14
-Brown-Fives & Brown (4 Suits)	14	14	1
-Clue Starved & Pink (5 Suits)	14	89	6
-Clue Starved & Pink (6 Suits)	14	57	4
-Dark Rainbow & Dark Brown (6 Suits)	14	44	3
-Dual-Color Mix	14	2791	192
-Extremely Ambiguous & Black (5 Suits)	14	14	1
-Gray Pink & Dark Prism (6 Suits)	14	14	1
-Light Pink & Cocoa Rainbow (5 Suits)	14	57	4
-Light Pink & Dark Pink (6 Suits)	14	87	6
-Light Pink & Dark Prism (5 Suits)	14	42	3
-Muddy-Rainbow-Ones & Dark Omni (5 Suits)	14	28	2
-Null & Cocoa Rainbow (6 Suits)	14	29	2
-Null & Dark Prism (6 Suits)	14	14	1
-Null-Ones & Brown (6 Suits)	14	14	1
-Number Mute (3 Suits)	14	42	3
-Pink-Fives & Dark Null (5 Suits)	14	28	2
-Prism & Gray (5 Suits)	14	114	8
-Rainbow & Dark Brown (5 Suits)	14	284	20
-White-Fives & Cocoa Rainbow (5 Suits)	14	14	1
-Ambiguous & Null (5 Suits)	15	31	2
-Ambiguous Mix	15	673	44
-Black & Omni (6 Suits)	15	598	39
-Black & Rainbow (5 Suits)	15	2042	131
-Brown & Gray Pink (6 Suits)	15	127	8
-Brown-Fives & Black (5 Suits)	15	15	1
-Brown-Ones & Dark Brown (5 Suits)	15	60	4
-Brown-Ones & Dark Pink (6 Suits)	15	31	2
-Brown-Ones & Dark Rainbow (6 Suits)	15	63	4
-Clue Starved & Rainbow (6 Suits)	15	136	9
-Deceptive-Fives & Cocoa Rainbow (6 Suits)	15	15	1
-Dual-Color & Cocoa Rainbow (6 Suits)	15	78	5
-Dual-Color & Dark Rainbow (6 Suits)	15	195	13
-Gray & Dark Prism (6 Suits)	15	15	1
-Light Pink & Gray (6 Suits)	15	47	3
-Muddy Rainbow & Dark Omni (5 Suits)	15	46	3
-Muddy Rainbow & Gray Pink (5 Suits)	15	47	3
-Null & Dark Brown (6 Suits)	15	60	4
-Null & Muddy Rainbow (3 Suits)	15	63	4
-Null-Fives & Dark Brown (6 Suits)	15	15	1
-Throw It in a Hole & Null (4 Suits)	15	15	1
-Alternating Clues & White (6 Suits)	16	67	4
-Ambiguous & Dark Prism (5 Suits)	16	16	1
-Ambiguous & Null (3 Suits)	16	16	1
-Black & Null (6 Suits)	16	422	25
-Brown-Ones & Cocoa Rainbow (5 Suits)	16	16	1
-Cow & Pig (6 Suits)	16	192	12
-Dark Omni & Dark Prism (6 Suits)	16	16	1
-Dark Pink & Dark Omni (6 Suits)	16	67	4
-Dark Pink & Dark Prism (6 Suits)	16	33	2
-Extremely Ambiguous & Null (5 Suits)	16	16	1
-Muddy-Rainbow-Fives & Dark Rainbow (5 Suits)	16	16	1
-Omni & Dark Rainbow (6 Suits)	16	164	10
-Omni-Fives & Dark Rainbow (6 Suits)	16	16	1
-Omni-Fives & Prism (6 Suits)	16	16	1
-Pink & Dark Omni (6 Suits)	16	300	18
-Pink & Gray Pink (6 Suits)	16	148	9
-White-Fives & Null (3 Suits)	16	16	1
-Ambiguous & Gray (5 Suits)	17	35	2
-Clue Starved & Muddy Rainbow (6 Suits)	17	35	2
-Clue Starved (6 Suits)	17	880	50
-Null-Fives & Brown (6 Suits)	17	35	2
-Omni & Dark Brown (5 Suits)	17	68	4
-Omni-Ones & Gray Pink (6 Suits)	17	17	1
-Pink-Fives & Dark Brown (6 Suits)	17	34	2
-Pink-Ones & Dark Omni (6 Suits)	17	17	1
-Pink-Ones & Dark Prism (5 Suits)	17	17	1
-Pink-Ones & Omni (6 Suits)	17	17	1
-White & Dark Null (6 Suits)	17	53	3
-Brown-Fives & Black (6 Suits)	18	37	2
-Dark Rainbow (6 Suits)	18	9531	519
-Omni & Dark Brown (6 Suits)	18	90	5
-Rainbow-Ones & Cocoa Rainbow (6 Suits)	18	54	3
-Rainbow-Ones & Dark Brown (5 Suits)	18	54	3
-Rainbow-Ones & Dark Prism (6 Suits)	18	36	2
-Ambiguous & Dark Omni (5 Suits)	19	19	1
-Black & Null (5 Suits)	19	471	24
-Black (6 Suits)	19	36735	1928
-Brown & Cocoa Rainbow (5 Suits)	19	95	5
-Clue Starved & Prism (5 Suits)	19	137	7
-Dark Null & Cocoa Rainbow (6 Suits)	19	39	2
-Muddy-Rainbow-Ones & Gray Pink (6 Suits)	19	19	1
-Muddy-Rainbow-Ones & Light Pink (4 Suits)	19	19	1
-Muddy-Rainbow-Ones & Muddy Rainbow (6 Suits)	19	19	1
-Null & Dark Rainbow (6 Suits)	19	39	2
-Omni & Cocoa Rainbow (6 Suits)	19	39	2
-Omni & Dark Prism (6 Suits)	19	114	6
-Omni-Fives & Omni (6 Suits)	19	59	3
-Pink-Fives & Cocoa Rainbow (6 Suits)	19	19	1
-Pink-Ones & Dark Rainbow (6 Suits)	19	39	2
-Rainbow-Fives & Dark Rainbow (5 Suits)	19	19	1
-White-Ones & Dark Null (5 Suits)	19	19	1
-Alternating Clues & Dark Rainbow (5 Suits)	20	41	2
-Dark Brown & Dark Omni (6 Suits)	20	82	4
-Extremely Ambiguous & Dark Brown (6 Suits)	20	40	2
-Light Pink & Gray (5 Suits)	20	62	3
-Muddy-Rainbow-Fives & Gray (5 Suits)	20	20	1
-Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	20	20	1
-Omni & Dark Null (5 Suits)	20	41	2
-Omni-Ones & Dark Pink (6 Suits)	20	20	1
-Pink-Fives & Cocoa Rainbow (5 Suits)	20	20	1
-Pink-Ones & Black (5 Suits)	20	82	4
-White-Fives & Cocoa Rainbow (6 Suits)	20	20	1
-Ambiguous & Dark Null (5 Suits)	21	21	1
-Dark Pink & Gray Pink (6 Suits)	21	43	2
-Deceptive-Fives & Brown (6 Suits)	21	42	2
-Duck (6 Suits)	21	275	13
-Extremely Ambiguous & Gray Pink (6 Suits)	21	21	1
-Light Pink & Dark Pink (5 Suits)	21	64	3
-Null-Ones & Dark Prism (6 Suits)	21	21	1
-Omni & Dark Null (6 Suits)	21	42	2
-Very Ambiguous & Light Pink (4 Suits)	21	43	2
-Dark Null (5 Suits)	22	800	36
-Null-Fives & Omni (5 Suits)	22	22	1
-Omni & Dark Prism (5 Suits)	22	68	3
-Alternating Clues & Rainbow (6 Suits)	23	71	3
-Black & Cocoa Rainbow (6 Suits)	23	141	6
-Brown-Fives & Omni (3 Suits)	23	23	1
-Dark Null (6 Suits)	23	768	33
-Extremely Ambiguous & Light Pink (6 Suits)	23	23	1
-Light Pink & Dark Omni (6 Suits)	23	70	3
-Light-Pink-Ones & Black (6 Suits)	23	23	1
-Null & Gray (6 Suits)	23	46	2
-Number Mute (6 Suits)	23	47	2
-Pink-Ones & Gray (5 Suits)	23	71	3
-Rainbow-Ones & Gray (5 Suits)	23	23	1
-Brown & Dark Null (5 Suits)	24	48	2
-Deceptive-Fives & Light Pink (6 Suits)	24	24	1
-Light-Pink-Ones & Dark Rainbow (6 Suits)	24	24	1
-Muddy-Rainbow-Fives & Dark Rainbow (6 Suits)	24	24	1
-Alternating Clues & Omni (6 Suits)	25	25	1
-Clue Starved & Light Pink (6 Suits)	25	50	2
-Deceptive-Fives & Gray (6 Suits)	25	25	1
-Light-Pink-Fives & Dark Pink (5 Suits)	25	25	1
-Light-Pink-Ones & Dark Prism (6 Suits)	25	25	1
-Black & Dark Omni (6 Suits)	26	239	9
-Dark Brown & Gray Pink (6 Suits)	26	26	1
-Dark Rainbow & Cocoa Rainbow (6 Suits)	26	80	3
-Light-Pink-Ones & Gray (5 Suits)	26	26	1
-Muddy-Rainbow-Fives & Dark Prism (5 Suits)	26	26	1
-Deceptive-Fives & Dark Rainbow (6 Suits)	27	27	1
-Light-Pink-Ones & Brown (6 Suits)	27	27	1
-Null & Cocoa Rainbow (5 Suits)	27	27	1
-Omni-Fives & Cocoa Rainbow (6 Suits)	27	27	1
-Clue Starved & Brown (6 Suits)	28	57	2
-Dark Rainbow & Gray (6 Suits)	28	144	5
-Muddy Rainbow & Dark Brown (5 Suits)	28	56	2
-Muddy Rainbow & Dark Omni (6 Suits)	28	56	2
-Null & Dark Rainbow (5 Suits)	28	56	2
-Clue Starved & Null (6 Suits)	29	59	2
-Light Pink & Dark Null (6 Suits)	29	58	2
-Muddy-Rainbow-Fives & Gray Pink (6 Suits)	29	29	1
-Rainbow & Dark Null (6 Suits)	29	175	6
-White Reversed (6 Suits)	29	4530	153
-Black & Gray (6 Suits)	30	948	31
-Dark Rainbow & Gray Pink (6 Suits)	30	30	1
-Deceptive-Fives & Dark Omni (6 Suits)	30	30	1
-Number Mute (4 Suits)	30	30	1
-Dark Pink & Gray (6 Suits)	32	352	11
-Gray & Dark Omni (6 Suits)	32	64	2
-Deceptive-Fives & Dark Pink (6 Suits)	33	33	1
-Gray & Dark Brown (6 Suits)	33	99	3
-Black & Dark Prism (6 Suits)	34	204	6
-Extremely Ambiguous & Black (6 Suits)	34	69	2
-Muddy-Rainbow-Ones & Black (6 Suits)	34	137	4
-Dark Rainbow & Dark Prism (6 Suits)	35	143	4
-Muddy-Rainbow-Fives & Pink (6 Suits)	35	71	2
-Number Mute (5 Suits)	35	107	3
-Black & Dark Rainbow (6 Suits)	36	1923	53
-Null-Fives & Dark Brown (5 Suits)	37	37	1
-Special Mix (5 Suits)	37	4085	110
-White-Fives & Dark Rainbow (6 Suits)	37	75	2
-Light-Pink-Fives & Dark Omni (6 Suits)	38	76	2
-Dark Rainbow & Dark Pink (6 Suits)	39	276	7
-Dark Brown & Dark Null (6 Suits)	40	80	2
-Special Mix (6 Suits)	40	1878	46
-Black & Dark Null (6 Suits)	41	208	5
-Pink-Fives & Dark Omni (6 Suits)	42	42	1
-Pink-Fives & Gray Pink (6 Suits)	42	42	1
-Deceptive-Fives & Dark Brown (6 Suits)	43	43	1
-Dark Rainbow & Dark Omni (6 Suits)	44	133	3
-Dark Rainbow & Dark Null (6 Suits)	45	90	2
-Omni-Fives & Dark Rainbow (5 Suits)	47	47	1
-Pink & Dark Null (6 Suits)	47	141	3
-Null & Dark Omni (6 Suits)	48	48	1
-Gray & Dark Null (6 Suits)	53	107	2
-Alternating Clues & Dark Rainbow (6 Suits)	58	58	1
-Null-Fives & Dark Rainbow (6 Suits)	58	58	1
-Pink-Ones & Gray Pink (6 Suits)	59	118	2
-Cocoa Rainbow & Gray Pink (6 Suits)	63	127	2
-Dark Omni & Gray Pink (6 Suits)	64	64	1
-Gray & Cocoa Rainbow (6 Suits)	67	134	2
-Black & Dark Pink (6 Suits)	77	856	11
-Black & Dark Brown (6 Suits)	78	628	8
-Dark Pink & Dark Brown (6 Suits)	79	316	4
-Dark Omni & Cocoa Rainbow (6 Suits)	82	82	1
-White-Fives & Dark Null (5 Suits)	93	186	2
-White-Fives & Dark Null (6 Suits)	102	102	1
-Dark Brown & Dark Prism (6 Suits)	114	228	2
-Gray & Gray Pink (6 Suits)	114	229	2
-Dark Null & Dark Prism (6 Suits)	123	123	1
-Dark Omni & Dark Null (6 Suits)	134	404	3
-Cocoa Rainbow & Dark Prism (6 Suits)	139	139	1
-Pink-Ones & Gray Pink (5 Suits)	200	200	1
+variant	variant_id	wr	count	num_max_scores
+Alternating Clues & Pink (4 Suits)	1252	1	1	1
+Alternating Clues & Rainbow (3 Suits)	1249	1	3	2
+Ambiguous & Muddy Rainbow (3 Suits)	1368	1	7	4
+Brown & Light Pink (4 Suits)	792	1	29	15
+Brown-Fives & Prism (3 Suits)	1614	1	2	2
+Brown-Fives & Rainbow (3 Suits)	645	1	1	1
+Brown-Fives (3 Suits)	641	1	12	8
+Brown-Ones & Brown (3 Suits)	425	1	3	2
+Brown-Ones & Null (4 Suits)	432	1	1	1
+Brown-Ones & Prism (3 Suits)	1566	1	2	2
+Brown-Ones & Prism (4 Suits)	1565	1	9	6
+Deceptive-Fives & Pink (4 Suits)	1743	1	2	2
+Deceptive-Fives (3 Suits)	1734	1	9	5
+Deceptive-Ones & Light Pink (4 Suits)	1707	1	2	2
+Deceptive-Ones & Pink (6 Suits)	1681	1	1	1
+Deceptive-Ones & Prism (4 Suits)	1711	1	5	3
+Deceptive-Ones & Rainbow (3 Suits)	1680	1	1	1
+Deceptive-Ones & White (4 Suits)	1687	1	1	1
+Deceptive-Ones (3 Suits)	1674	1	21	11
+Dual-Color & Light Pink (4 Suits)	1439	1	13	7
+Dual-Color & White (4 Suits)	1429	1	24	17
+Light-Pink-Fives & Brown (3 Suits)	1186	1	2	2
+Light-Pink-Fives & Light Pink (4 Suits)	1201	1	2	2
+Light-Pink-Fives & Prism (3 Suits)	1638	1	1	1
+Light-Pink-Ones & Light Pink (3 Suits)	1098	1	2	2
+Light-Pink-Ones & Muddy Rainbow (6 Suits)	1091	1	2	2
+Light-Pink-Ones & Null (3 Suits)	1090	1	7	4
+Light-Pink-Ones & Prism (4 Suits)	1589	1	2	2
+Light-Pink-Ones & Rainbow (4 Suits)	1069	1	3	2
+Light-Pink-Ones & White (4 Suits)	1077	1	5	4
+Light-Pink-Ones (3 Suits)	1066	1	11	6
+Muddy Rainbow & Prism (3 Suits)	1512	1	10	6
+Muddy Rainbow & Prism (4 Suits)	1511	1	12	9
+Muddy-Rainbow-Fives & Brown (4 Suits)	1133	1	5	3
+Muddy-Rainbow-Fives & White (3 Suits)	1130	1	2	2
+Muddy-Rainbow-Fives & White (6 Suits)	1127	1	13	7
+Muddy-Rainbow-Fives (4 Suits)	1117	1	10	7
+Muddy-Rainbow-Ones & Light Pink (3 Suits)	1046	1	1	1
+Muddy-Rainbow-Ones & Muddy Rainbow (5 Suits)	1040	1	3	2
+Muddy-Rainbow-Ones & Pink (3 Suits)	1022	1	1	1
+Muddy-Rainbow-Ones & White (3 Suits)	1026	1	6	5
+Muddy-Rainbow-Ones & White (4 Suits)	1025	1	6	4
+Muddy-Rainbow-Ones (3 Suits)	1014	1	7	5
+Null-Fives & Omni (4 Suits)	740	1	1	1
+Null-Fives & White (3 Suits)	733	1	5	4
+Null-Fives (3 Suits)	721	1	15	8
+Null-Fives (4 Suits)	720	1	3	2
+Null-Ones & Prism (3 Suits)	1578	1	1	1
+Null-Ones & White (4 Suits)	500	1	7	4
+Null-Ones & White (6 Suits)	498	1	1	1
+Omni & Light Pink (4 Suits)	796	1	11	6
+Omni-Fives & Dark Pink (5 Suits)	709	1	1	1
+Omni-Fives & Prism (4 Suits)	1619	1	1	1
+Omni-Fives & Rainbow (3 Suits)	685	1	7	4
+Omni-Fives & Rainbow (4 Suits)	684	1	5	3
+Omni-Fives (3 Suits)	681	1	12	9
+Omni-Ones & Brown (4 Suits)	464	1	1	1
+Omni-Ones & Omni (3 Suits)	469	1	5	4
+Omni-Ones (3 Suits)	449	1	26	14
+Pink-Fives & Muddy Rainbow (6 Suits)	951	1	1	1
+Pink-Fives & Null (3 Suits)	585	1	1	1
+Pink-Ones & Brown (3 Suits)	345	1	7	4
+Pink-Ones & Dark Omni (5 Suits)	363	1	1	1
+Pink-Ones & Muddy Rainbow (4 Suits)	881	1	2	2
+Pink-Ones & Muddy Rainbow (5 Suits)	880	1	1	1
+Pink-Ones & Rainbow (3 Suits)	333	1	13	8
+Pink-Ones & White (4 Suits)	340	1	13	7
+Pink-Ones (3 Suits)	329	1	27	14
+Rainbow-Fives & Light Pink (4 Suits)	945	1	1	1
+Rainbow-Fives (3 Suits)	529	1	15	11
+Rainbow-Fives (4 Suits)	528	1	18	11
+Rainbow-Ones & Dark Prism (5 Suits)	1550	1	3	2
+Rainbow-Ones & Omni (3 Suits)	309	1	4	3
+Rainbow-Ones & Rainbow (3 Suits)	297	1	15	8
+Rainbow-Ones & White (3 Suits)	301	1	14	8
+Rainbow-Ones & White (4 Suits)	300	1	13	10
+Rainbow-Ones (3 Suits)	171	1	71	38
+Rainbow-Ones (4 Suits)	170	1	91	46
+Very Ambiguous & Muddy Rainbow (4 Suits)	1405	1	2	2
+White Reversed (4 Suits)	1358	1	67	34
+White-Fives & Prism (3 Suits)	1608	1	8	6
+White-Fives & Rainbow (3 Suits)	605	1	16	9
+White-Fives (3 Suits)	601	1	25	16
+White-Ones & Light Pink (4 Suits)	897	1	13	7
+White-Ones & Light Pink (6 Suits)	895	1	10	6
+White-Ones & Null (3 Suits)	393	1	5	4
+White-Ones & Prism (3 Suits)	1560	1	11	7
+White-Ones & Rainbow (3 Suits)	373	1	20	11
+White-Ones & White (3 Suits)	381	1	12	10
+White-Ones (3 Suits)	369	1	42	22
+Alternating Clues & Pink (5 Suits)	1251	2	4	2
+Alternating Clues & White (3 Suits)	1257	2	14	6
+Alternating Clues & White (4 Suits)	1256	2	9	4
+Alternating Clues (3 Suits)	286	2	55	22
+Ambiguous & Pink (3 Suits)	1355	2	12	6
+Ambiguous & White (3 Suits)	1360	2	20	9
+Brown & Prism (3 Suits)	1494	2	23	9
+Brown & Prism (4 Suits)	1493	2	47	16
+Brown-Fives & Brown (3 Suits)	657	2	6	3
+Brown-Fives & White (4 Suits)	652	2	16	6
+Brown-Fives & White (5 Suits)	651	2	13	5
+Brown-Ones & Brown (4 Suits)	424	2	10	4
+Brown-Ones & Dark Prism (5 Suits)	1568	2	4	2
+Brown-Ones & Light Pink (3 Suits)	910	2	9	4
+Brown-Ones & Light Pink (5 Suits)	908	2	11	4
+Brown-Ones & Light Pink (6 Suits)	907	2	4	2
+Brown-Ones & Null (5 Suits)	431	2	2	1
+Brown-Ones & Omni (5 Suits)	427	2	14	5
+Brown-Ones & Pink (3 Suits)	417	2	11	4
+Brown-Ones & Pink (4 Suits)	416	2	21	9
+Brown-Ones & Pink (5 Suits)	415	2	45	16
+Brown-Ones & Rainbow (3 Suits)	413	2	16	8
+Brown-Ones & White (3 Suits)	421	2	8	4
+Brown-Ones & White (4 Suits)	420	2	19	8
+Brown-Ones (3 Suits)	409	2	29	12
+Brown-Ones (4 Suits)	408	2	54	20
+Brown-Ones (6 Suits)	406	2	45	19
+Color Blind (3 Suits)	35	2	65	25
+Color Blind (4 Suits)	34	2	57	20
+Color Mute (3 Suits)	113	2	29	13
+Deceptive-Fives & Light Pink (5 Suits)	1766	2	6	3
+Deceptive-Fives & Prism (5 Suits)	1770	2	2	1
+Deceptive-Ones & Light Pink (3 Suits)	1708	2	2	1
+Deceptive-Ones & Omni (5 Suits)	1694	2	7	3
+Deceptive-Ones & Pink (5 Suits)	1682	2	13	5
+Deceptive-Ones & Prism (3 Suits)	1712	2	2	1
+Deceptive-Ones & Prism (6 Suits)	1709	2	5	2
+Deceptive-Ones & White (3 Suits)	1688	2	2	1
+Deceptive-Ones & White (6 Suits)	1685	2	8	4
+Deceptive-Ones (4 Suits)	1673	2	36	13
+Dual-Color & Brown (4 Suits)	1431	2	38	13
+Dual-Color & Light Pink (6 Suits)	1438	2	112	38
+Dual-Color & Muddy Rainbow (6 Suits)	1436	2	33	12
+Dual-Color & Pink (4 Suits)	1427	2	27	12
+Dual-Color & Prism (4 Suits)	1650	2	39	14
+Dual-Color (3 Suits)	37	2	298	109
+Extremely Ambiguous & Cocoa Rainbow (6 Suits)	1421	2	2	1
+Extremely Ambiguous & Omni (6 Suits)	1397	2	4	2
+Extremely Ambiguous & Pink (5 Suits)	1389	2	2	1
+Light Pink & Prism (3 Suits)	1518	2	17	8
+Light Pink & Prism (4 Suits)	1517	2	23	10
+Light Pink & Prism (5 Suits)	1516	2	43	18
+Light Pink (4 Suits)	166	2	325	111
+Light-Pink-Fives & Gray (6 Suits)	1207	2	2	1
+Light-Pink-Fives & Null (3 Suits)	1194	2	2	1
+Light-Pink-Fives & Omni (3 Suits)	1190	2	2	1
+Light-Pink-Fives & Pink (5 Suits)	1176	2	8	3
+Light-Pink-Fives & Pink (6 Suits)	1175	2	5	2
+Light-Pink-Fives & Prism (5 Suits)	1636	2	5	2
+Light-Pink-Fives (3 Suits)	1170	2	10	5
+Light-Pink-Fives (4 Suits)	1169	2	11	5
+Light-Pink-Fives (5 Suits)	1168	2	27	11
+Light-Pink-Ones & Black (5 Suits)	1335	2	2	1
+Light-Pink-Ones & Muddy Rainbow (3 Suits)	1094	2	4	2
+Light-Pink-Ones & Muddy Rainbow (4 Suits)	1093	2	7	3
+Light-Pink-Ones & Pink (4 Suits)	1073	2	11	4
+Light-Pink-Ones & Prism (3 Suits)	1590	2	4	2
+Light-Pink-Ones & White (3 Suits)	1078	2	6	3
+Light-Pink-Ones & White (5 Suits)	1076	2	11	4
+Light-Pink-Ones (5 Suits)	1064	2	89	32
+Muddy Rainbow & Light Pink (4 Suits)	804	2	17	7
+Muddy-Rainbow-Fives & Light Pink (3 Suits)	1150	2	5	2
+Muddy-Rainbow-Fives & Rainbow (3 Suits)	1122	2	17	7
+Muddy-Rainbow-Fives & Rainbow (5 Suits)	1120	2	4	2
+Muddy-Rainbow-Fives & White (4 Suits)	1129	2	6	3
+Muddy-Rainbow-Ones & Brown (3 Suits)	1030	2	14	5
+Muddy-Rainbow-Ones & Dark Pink (5 Suits)	1050	2	11	4
+Muddy-Rainbow-Ones & Null (4 Suits)	1037	2	4	2
+Muddy-Rainbow-Ones & Omni (3 Suits)	1034	2	2	1
+Muddy-Rainbow-Ones & Omni (4 Suits)	1033	2	8	3
+Muddy-Rainbow-Ones & Pink (4 Suits)	1021	2	7	3
+Muddy-Rainbow-Ones & Pink (6 Suits)	1019	2	4	2
+Muddy-Rainbow-Ones & Rainbow (3 Suits)	1018	2	9	4
+Muddy-Rainbow-Ones & Rainbow (4 Suits)	1017	2	10	4
+Muddy-Rainbow-Ones & White (6 Suits)	1023	2	12	5
+Muddy-Rainbow-Ones (4 Suits)	1013	2	9	4
+Null & Prism (3 Suits)	1506	2	9	4
+Null-Fives & Light Pink (3 Suits)	1006	2	2	1
+Null-Fives & Muddy Rainbow (4 Suits)	1001	2	5	2
+Null-Fives & Rainbow (3 Suits)	725	2	4	2
+Null-Fives & Rainbow (4 Suits)	724	2	2	1
+Null-Fives & White (4 Suits)	732	2	7	3
+Null-Ones & Light Pink (4 Suits)	933	2	2	1
+Null-Ones & Prism (5 Suits)	1576	2	5	2
+Null-Ones & Rainbow (3 Suits)	493	2	8	3
+Null-Ones (3 Suits)	489	2	23	11
+Null-Ones (4 Suits)	488	2	21	9
+Omni & Prism (3 Suits)	1500	2	13	6
+Omni-Fives & Brown (4 Suits)	696	2	2	1
+Omni-Fives & Light Pink (3 Suits)	994	2	4	2
+Omni-Fives & Muddy Rainbow (5 Suits)	988	2	7	3
+Omni-Fives & Pink (3 Suits)	689	2	2	1
+Omni-Fives & White (4 Suits)	692	2	9	4
+Omni-Ones & Brown (3 Suits)	465	2	9	4
+Omni-Ones & Null (3 Suits)	473	2	2	1
+Omni-Ones & Omni (4 Suits)	468	2	2	1
+Omni-Ones & Rainbow (3 Suits)	453	2	8	3
+Omni-Ones & Rainbow (4 Suits)	452	2	8	4
+Omni-Ones & White (3 Suits)	461	2	2	1
+Omni-Ones & White (4 Suits)	460	2	8	4
+Omni-Ones (4 Suits)	448	2	24	9
+Pink & Muddy Rainbow (4 Suits)	762	2	54	20
+Pink & Null (4 Suits)	204	2	46	16
+Pink & White (3 Suits)	126	2	122	44
+Pink-Fives & Brown (3 Suits)	577	2	2	1
+Pink-Fives & Dark Pink (5 Suits)	589	2	2	1
+Pink-Fives & Gray (5 Suits)	591	2	8	3
+Pink-Fives & Light Pink (4 Suits)	957	2	7	3
+Pink-Fives & Prism (5 Suits)	1600	2	9	4
+Pink-Fives (3 Suits)	50	2	56	26
+Pink-Fives (4 Suits)	49	2	79	31
+Pink-Ones & Brown (4 Suits)	344	2	26	10
+Pink-Ones & Light Pink (6 Suits)	883	2	20	7
+Pink-Ones & Omni (4 Suits)	348	2	4	2
+Pink-Ones & Pink (3 Suits)	337	2	9	4
+Pink-Ones & Prism (3 Suits)	1554	2	9	4
+Pink-Ones & Prism (4 Suits)	1553	2	14	6
+Pink-Ones & Rainbow (5 Suits)	331	2	19	7
+Pink-Ones & White (3 Suits)	341	2	16	7
+Pink-Ones & White (5 Suits)	339	2	26	9
+Pink-Ones (4 Suits)	328	2	43	16
+Pink-Ones (5 Suits)	327	2	97	34
+Prism (3 Suits)	1467	2	315	123
+Prism (4 Suits)	1466	2	468	180
+Rainbow & Light Pink (3 Suits)	785	2	43	15
+Rainbow & Muddy Rainbow (4 Suits)	1294	2	68	23
+Rainbow & Muddy Rainbow (5 Suits)	1293	2	109	38
+Rainbow & Omni (4 Suits)	192	2	86	31
+Rainbow & Pink (4 Suits)	122	2	175	65
+Rainbow & Prism (6 Suits)	1473	2	302	108
+Rainbow & White (3 Suits)	150	2	191	71
+Rainbow & White (4 Suits)	29	2	200	94
+Rainbow Reversed (3 Suits)	1351	2	40	14
+Rainbow Reversed (4 Suits)	1350	2	50	21
+Rainbow-Fives & Brown (3 Suits)	545	2	8	3
+Rainbow-Fives & Gray Pink (5 Suits)	950	2	8	3
+Rainbow-Fives & Null (3 Suits)	553	2	6	3
+Rainbow-Fives & Null (5 Suits)	551	2	2	1
+Rainbow-Fives & Omni (6 Suits)	546	2	7	3
+Rainbow-Fives & Pink (4 Suits)	536	2	8	4
+Rainbow-Fives & Prism (3 Suits)	1596	2	4	2
+Rainbow-Fives & Prism (4 Suits)	1595	2	6	3
+Rainbow-Fives & Prism (5 Suits)	1594	2	9	4
+Rainbow-Fives & Rainbow (5 Suits)	531	2	15	6
+Rainbow-Fives & White (3 Suits)	541	2	17	7
+Rainbow-Fives & White (4 Suits)	540	2	9	4
+Rainbow-Fives & White (5 Suits)	539	2	29	11
+Rainbow-Fives (5 Suits)	527	2	80	29
+Rainbow-Ones & Brown (3 Suits)	305	2	14	6
+Rainbow-Ones & Brown (4 Suits)	304	2	25	9
+Rainbow-Ones & Dark Omni (6 Suits)	322	2	8	4
+Rainbow-Ones & Dark Pink (5 Suits)	317	2	13	5
+Rainbow-Ones & Light Pink (3 Suits)	874	2	12	5
+Rainbow-Ones & Omni (4 Suits)	308	2	7	3
+Rainbow-Ones & Pink (5 Suits)	173	2	66	24
+Rainbow-Ones & Prism (3 Suits)	1548	2	15	6
+Rainbow-Ones & Prism (4 Suits)	1547	2	29	10
+Rainbow-Ones & Prism (5 Suits)	1546	2	22	8
+Rainbow-Ones & Rainbow (5 Suits)	295	2	42	16
+Reversed (3 Suits)	1345	2	81	40
+Reversed (4 Suits)	1344	2	167	62
+Throw It in a Hole & Prism (4 Suits)	1662	2	8	4
+Throw It in a Hole & White (4 Suits)	1228	2	10	4
+Very Ambiguous (3 Suits)	287	2	94	35
+White & Brown (4 Suits)	81	2	142	49
+White & Brown (5 Suits)	80	2	232	92
+White & Prism (3 Suits)	1488	2	52	22
+White (4 Suits)	26	2	787	317
+White Reversed (3 Suits)	1359	2	45	21
+White-Fives & Gray (5 Suits)	631	2	2	1
+White-Fives & Light Pink (3 Suits)	970	2	8	3
+White-Fives & Light Pink (4 Suits)	969	2	11	4
+White-Fives & Light Pink (5 Suits)	968	2	7	3
+White-Fives & Muddy Rainbow (4 Suits)	965	2	2	1
+White-Fives & Muddy Rainbow (5 Suits)	964	2	9	4
+White-Fives & Null (4 Suits)	624	2	2	1
+White-Fives & Omni (5 Suits)	619	2	8	3
+White-Fives & Pink (4 Suits)	608	2	8	3
+White-Fives & Prism (4 Suits)	1607	2	14	6
+White-Fives & White (3 Suits)	613	2	4	2
+White-Fives & White (4 Suits)	612	2	14	7
+White-Fives (4 Suits)	600	2	53	21
+White-Ones & Brown (3 Suits)	385	2	15	6
+White-Ones & Brown (5 Suits)	383	2	86	33
+White-Ones & Light Pink (3 Suits)	898	2	7	3
+White-Ones & Muddy Rainbow (3 Suits)	894	2	23	9
+White-Ones & Muddy Rainbow (4 Suits)	893	2	14	7
+White-Ones & Muddy Rainbow (5 Suits)	892	2	22	8
+White-Ones & Omni (3 Suits)	389	2	12	5
+White-Ones & Omni (4 Suits)	388	2	11	5
+White-Ones & Pink (3 Suits)	377	2	12	5
+White-Ones & Pink (5 Suits)	375	2	44	16
+White-Ones & Prism (4 Suits)	1559	2	22	8
+White-Ones & Prism (5 Suits)	1558	2	45	17
+White-Ones & Rainbow (4 Suits)	372	2	40	18
+White-Ones & Rainbow (5 Suits)	371	2	74	30
+White-Ones & White (4 Suits)	380	2	32	16
+White-Ones & White (5 Suits)	379	2	45	21
+White-Ones (4 Suits)	368	2	76	33
+White-Ones (5 Suits)	367	2	192	70
+4 Suits	15	3	5000	1435
+Alternating Clues & Brown (5 Suits)	1259	3	14	4
+Alternating Clues & Dark Omni (6 Suits)	1456	3	6	2
+Ambiguous & Brown (5 Suits)	1361	3	31	9
+Ambiguous & Light Pink (5 Suits)	1369	3	44	12
+Ambiguous (4 Suits)	30	3	537	162
+Brown & Light Pink (3 Suits)	793	3	31	9
+Brown & Light Pink (5 Suits)	791	3	86	24
+Brown & Omni (5 Suits)	215	3	66	17
+Brown & Prism (5 Suits)	1492	3	155	41
+Brown (4 Suits)	71	3	655	187
+Brown-Fives & Dark Prism (5 Suits)	1616	3	3	1
+Brown-Fives & Gray (5 Suits)	671	3	3	1
+Brown-Fives & Muddy Rainbow (5 Suits)	976	3	6	2
+Brown-Fives & Pink (4 Suits)	648	3	9	3
+Brown-Fives & Pink (6 Suits)	646	3	12	4
+Brown-Fives & Prism (5 Suits)	1612	3	3	1
+Brown-Fives (4 Suits)	640	3	41	12
+Brown-Ones & Cocoa Rainbow (6 Suits)	911	3	6	2
+Brown-Ones & Dark Prism (6 Suits)	1567	3	21	6
+Brown-Ones & Gray Pink (6 Suits)	913	3	7	2
+Brown-Ones & Muddy Rainbow (4 Suits)	905	3	13	4
+Brown-Ones & Null (3 Suits)	433	3	14	4
+Brown-Ones & Omni (3 Suits)	429	3	9	3
+Brown-Ones & Omni (4 Suits)	428	3	6	2
+Brown-Ones & Omni (6 Suits)	426	3	12	4
+Brown-Ones & Pink (6 Suits)	414	3	42	12
+Brown-Ones & Prism (5 Suits)	1564	3	17	5
+Brown-Ones & Prism (6 Suits)	1563	3	131	35
+Brown-Ones & Rainbow (4 Suits)	412	3	37	11
+Brown-Ones & Rainbow (6 Suits)	410	3	55	14
+Brown-Ones & White (5 Suits)	419	3	63	19
+Brown-Ones (5 Suits)	407	3	154	46
+Color Mute (4 Suits)	112	3	41	13
+Deceptive-Fives & Prism (3 Suits)	1772	3	7	2
+Deceptive-Fives (5 Suits)	1732	3	125	41
+Deceptive-Ones & Brown (5 Suits)	1690	3	10	3
+Deceptive-Ones & Omni (4 Suits)	1695	3	3	1
+Deceptive-Ones & Pink (3 Suits)	1684	3	9	3
+Deceptive-Ones & Pink (4 Suits)	1683	3	9	3
+Deceptive-Ones & Rainbow (4 Suits)	1679	3	6	2
+Deceptive-Ones (6 Suits)	1671	3	85	23
+Dual-Color & Brown (6 Suits)	1430	3	69	19
+Dual-Color & Null (6 Suits)	1434	3	34	9
+Dual-Color & Pink (6 Suits)	1426	3	129	35
+Dual-Color & Rainbow (4 Suits)	38	3	179	55
+Dual-Color & Rainbow (6 Suits)	5	3	374	103
+Dual-Color & White (6 Suits)	1428	3	151	42
+Dual-Color (5 Suits)	36	3	1227	348
+Dual-Color (6 Suits)	4	3	1592	407
+Light Pink (3 Suits)	167	3	304	80
+Light Pink (5 Suits)	165	3	684	208
+Light-Pink-Fives & Brown (4 Suits)	1185	3	15	4
+Light-Pink-Fives & Brown (6 Suits)	1183	3	3	1
+Light-Pink-Fives & Dark Pink (6 Suits)	1205	3	3	1
+Light-Pink-Fives & Light Pink (6 Suits)	1199	3	7	2
+Light-Pink-Fives & Pink (4 Suits)	1177	3	3	1
+Light-Pink-Fives & Rainbow (3 Suits)	1174	3	3	1
+Light-Pink-Fives & Rainbow (4 Suits)	1173	3	3	1
+Light-Pink-Fives & Rainbow (6 Suits)	1171	3	6	2
+Light-Pink-Fives & White (5 Suits)	1180	3	11	3
+Light-Pink-Ones & Brown (3 Suits)	1082	3	6	2
+Light-Pink-Ones & Brown (4 Suits)	1081	3	10	3
+Light-Pink-Ones & Brown (5 Suits)	1080	3	10	3
+Light-Pink-Ones & Dark Omni (5 Suits)	1108	3	3	1
+Light-Pink-Ones & Muddy Rainbow (5 Suits)	1092	3	15	4
+Light-Pink-Ones & Omni (4 Suits)	1085	3	3	1
+Light-Pink-Ones & Rainbow (3 Suits)	1070	3	7	2
+Light-Pink-Ones (4 Suits)	1065	3	24	7
+Muddy Rainbow (3 Suits)	163	3	296	77
+Muddy Rainbow (4 Suits)	162	3	400	111
+Muddy Rainbow (6 Suits)	160	3	953	266
+Muddy-Rainbow-Fives & Black (6 Suits)	1338	3	9	3
+Muddy-Rainbow-Fives & Light Pink (6 Suits)	1147	3	3	1
+Muddy-Rainbow-Fives & Muddy Rainbow (3 Suits)	1146	3	6	2
+Muddy-Rainbow-Fives & Null (4 Suits)	1141	3	3	1
+Muddy-Rainbow-Fives & Null (6 Suits)	1139	3	3	1
+Muddy-Rainbow-Fives & Pink (4 Suits)	1125	3	3	1
+Muddy-Rainbow-Fives (3 Suits)	1118	3	18	6
+Muddy-Rainbow-Fives (5 Suits)	1116	3	38	12
+Muddy-Rainbow-Ones & Brown (5 Suits)	1028	3	10	3
+Muddy-Rainbow-Ones & Brown (6 Suits)	1027	3	14	4
+Muddy-Rainbow-Ones & Prism (4 Suits)	1583	3	3	1
+Muddy-Rainbow-Ones & Rainbow (6 Suits)	1015	3	7	2
+Muddy-Rainbow-Ones (6 Suits)	1011	3	19	5
+Null & Light Pink (3 Suits)	801	3	21	6
+Null & Muddy Rainbow (5 Suits)	777	3	31	8
+Null & Prism (5 Suits)	1504	3	33	9
+Null & Prism (6 Suits)	1503	3	25	8
+Null-Fives & Brown (3 Suits)	737	3	15	5
+Null-Fives & Brown (5 Suits)	735	3	6	2
+Null-Fives & Light Pink (6 Suits)	1003	3	3	1
+Null-Fives & Omni (3 Suits)	741	3	7	2
+Null-Fives & Rainbow (5 Suits)	723	3	12	4
+Null-Fives (6 Suits)	718	3	15	4
+Null-Ones & Brown (3 Suits)	505	3	3	1
+Null-Ones & Dark Brown (6 Suits)	520	3	7	2
+Null-Ones & Dark Pink (5 Suits)	517	3	15	4
+Null-Ones & Light Pink (6 Suits)	931	3	7	2
+Null-Ones & Null (6 Suits)	510	3	6	2
+Null-Ones & White (3 Suits)	501	3	7	2
+Null-Ones & White (5 Suits)	499	3	10	3
+Number Blind (4 Suits)	104	3	27	7
+Omni & Light Pink (3 Suits)	797	3	13	4
+Omni & Prism (4 Suits)	1499	3	38	12
+Omni (4 Suits)	178	3	390	115
+Omni-Fives & Brown (5 Suits)	695	3	10	3
+Omni-Fives & Gray (6 Suits)	710	3	9	3
+Omni-Fives & White (3 Suits)	693	3	16	5
+Omni-Fives (5 Suits)	679	3	77	24
+Omni-Ones & Pink (6 Suits)	454	3	6	2
+Pink & Brown (5 Suits)	128	3	384	100
+Pink & Dark Brown (5 Suits)	136	3	85	22
+Pink & Light Pink (3 Suits)	1299	3	47	13
+Pink & Muddy Rainbow (3 Suits)	763	3	54	14
+Pink & Muddy Rainbow (5 Suits)	761	3	127	32
+Pink & Prism (3 Suits)	1482	3	66	17
+Pink & Prism (4 Suits)	1481	3	107	29
+Pink & White (4 Suits)	125	3	158	47
+Pink-Fives & Brown (4 Suits)	576	3	14	4
+Pink-Fives & Brown (5 Suits)	575	3	29	9
+Pink-Fives & Brown (6 Suits)	574	3	13	4
+Pink-Fives & Null (5 Suits)	583	3	15	4
+Pink-Fives & Omni (6 Suits)	578	3	9	3
+Pink-Fives & Pink (4 Suits)	568	3	7	2
+Pink-Fives & Rainbow (3 Suits)	48	3	32	10
+Pink-Fives & Rainbow (5 Suits)	14	3	62	16
+Pink-Fives & White (4 Suits)	572	3	7	2
+Pink-Fives (6 Suits)	45	3	102	29
+Pink-Ones & Muddy Rainbow (3 Suits)	882	3	7	2
+Pink-Ones & Pink (4 Suits)	336	3	18	5
+Pink-Ones & Pink (5 Suits)	335	3	31	9
+Pink-Ones & Prism (6 Suits)	1551	3	18	5
+Pink-Ones & Rainbow (4 Suits)	332	3	36	10
+Pink-Ones & White (6 Suits)	338	3	35	10
+Prism (5 Suits)	1465	3	1230	389
+Prism Reversed (4 Suits)	1665	3	71	20
+Prism Reversed (5 Suits)	1664	3	124	40
+Rainbow & Brown (4 Suits)	77	3	241	62
+Rainbow & Light Pink (4 Suits)	784	3	110	32
+Rainbow & Light Pink (5 Suits)	783	3	153	45
+Rainbow & Muddy Rainbow (6 Suits)	1292	3	114	32
+Rainbow & Pink (5 Suits)	121	3	459	118
+Rainbow & Prism (3 Suits)	1476	3	111	31
+Rainbow & Prism (4 Suits)	1475	3	195	58
+Rainbow & Prism (5 Suits)	1474	3	291	95
+Rainbow & White (5 Suits)	28	3	564	166
+Rainbow (3 Suits)	19	3	991	296
+Rainbow (4 Suits)	17	3	1404	416
+Rainbow Reversed (6 Suits)	1348	3	193	49
+Rainbow-Fives & Brown (6 Suits)	542	3	28	8
+Rainbow-Fives & Cocoa Rainbow (6 Suits)	947	3	3	1
+Rainbow-Fives & Gray (5 Suits)	559	3	9	3
+Rainbow-Fives & Light Pink (3 Suits)	946	3	9	3
+Rainbow-Fives & Light Pink (6 Suits)	943	3	6	2
+Rainbow-Fives & Muddy Rainbow (5 Suits)	940	3	6	2
+Rainbow-Fives & Rainbow (6 Suits)	530	3	25	7
+Rainbow-Fives & White (6 Suits)	538	3	54	15
+Rainbow-Ones & Brown (5 Suits)	303	3	33	11
+Rainbow-Ones & Gray Pink (5 Suits)	878	3	14	4
+Rainbow-Ones & Light Pink (4 Suits)	873	3	10	3
+Rainbow-Ones & Light Pink (5 Suits)	872	3	24	8
+Rainbow-Ones & Light Pink (6 Suits)	871	3	19	6
+Rainbow-Ones & Muddy Rainbow (3 Suits)	870	3	7	2
+Rainbow-Ones & Muddy Rainbow (4 Suits)	869	3	15	5
+Rainbow-Ones & Omni (5 Suits)	307	3	22	7
+Rainbow-Ones & Pink (4 Suits)	174	3	49	15
+Rainbow-Ones & Prism (6 Suits)	1545	3	55	16
+Rainbow-Ones & Rainbow (4 Suits)	296	3	37	12
+Rainbow-Ones & White (5 Suits)	299	3	95	31
+Rainbow-Ones (5 Suits)	169	3	276	84
+Throw It in a Hole & Muddy Rainbow (5 Suits)	1239	3	14	4
+Throw It in a Hole & Omni (4 Suits)	1234	3	3	1
+Totally Blind (4 Suits)	153	3	48	13
+Up or Down & Brown (5 Suits)	158	3	128	35
+Up or Down & Light Pink (6 Suits)	865	3	56	16
+Up or Down & Rainbow (5 Suits)	43	3	864	261
+Very Ambiguous & White (4 Suits)	1393	3	22	7
+White & Brown (3 Suits)	82	3	103	29
+White & Brown (6 Suits)	79	3	307	81
+White & Dark Rainbow (5 Suits)	84	3	88	24
+White & Gray Pink (5 Suits)	843	3	46	13
+White & Light Pink (4 Suits)	788	3	52	16
+White & Muddy Rainbow (4 Suits)	766	3	44	14
+White & Muddy Rainbow (5 Suits)	765	3	103	31
+White & Omni (4 Suits)	208	3	77	21
+White & Omni (6 Suits)	206	3	111	29
+White & Prism (4 Suits)	1487	3	102	31
+White & Prism (5 Suits)	1486	3	238	72
+White (3 Suits)	27	3	705	235
+White (5 Suits)	22	3	2868	886
+White (6 Suits)	13	3	2805	762
+White-Fives & Brown (3 Suits)	617	3	12	4
+White-Fives & Dark Pink (5 Suits)	629	3	3	1
+White-Fives & Muddy Rainbow (6 Suits)	963	3	7	2
+White-Fives & Pink (3 Suits)	609	3	11	3
+White-Fives & Pink (5 Suits)	607	3	15	5
+White-Fives & Prism (5 Suits)	1606	3	29	9
+White-Fives & Rainbow (5 Suits)	603	3	36	12
+White-Fives & Rainbow (6 Suits)	602	3	39	12
+White-Fives & White (5 Suits)	611	3	23	7
+White-Fives (5 Suits)	599	3	115	31
+White-Fives (6 Suits)	598	3	63	17
+White-Ones & Gray Pink (5 Suits)	902	3	9	3
+White-Ones & Muddy Rainbow (6 Suits)	891	3	24	8
+White-Ones & Omni (5 Suits)	387	3	22	7
+White-Ones & Omni (6 Suits)	386	3	26	7
+White-Ones & Prism (6 Suits)	1557	3	46	15
+White-Ones (6 Suits)	366	3	116	38
+3 Suits	18	4	3707	865
+Alternating Clues & Light Pink (6 Suits)	1274	4	12	3
+Alternating Clues (4 Suits)	285	4	83	20
+Alternating Clues (5 Suits)	284	4	327	67
+Ambiguous & Cocoa Rainbow (5 Suits)	1377	4	9	2
+Ambiguous & Omni (3 Suits)	1364	4	9	2
+Ambiguous & Rainbow (5 Suits)	32	4	205	45
+Brown & Omni (3 Suits)	217	4	56	13
+Brown & Omni (4 Suits)	216	4	56	13
+Brown & Prism (6 Suits)	1491	4	137	29
+Brown (3 Suits)	72	4	620	125
+Brown (5 Suits)	70	4	3095	702
+Brown (6 Suits)	69	4	2019	441
+Brown-Fives & Dark Brown (5 Suits)	673	4	4	1
+Brown-Fives & Light Pink (3 Suits)	982	4	14	3
+Brown-Fives & Light Pink (5 Suits)	980	4	14	3
+Brown-Fives & Pink (3 Suits)	649	4	22	5
+Brown-Fives & Prism (6 Suits)	1611	4	9	2
+Brown-Fives & Rainbow (6 Suits)	642	4	9	2
+Brown-Fives & White (3 Suits)	653	4	4	1
+Brown-Fives & White (6 Suits)	650	4	18	4
+Brown-Ones & Brown (5 Suits)	423	4	36	9
+Brown-Ones & Dark Omni (5 Suits)	443	4	4	1
+Brown-Ones & Light Pink (4 Suits)	909	4	12	3
+Brown-Ones & Muddy Rainbow (3 Suits)	906	4	14	3
+Brown-Ones & Muddy Rainbow (5 Suits)	904	4	29	6
+Brown-Ones & White (6 Suits)	418	4	46	10
+Deceptive-Fives & Gray Pink (6 Suits)	1787	4	13	3
+Deceptive-Fives & Light Pink (3 Suits)	1768	4	4	1
+Deceptive-Fives & Light Pink (4 Suits)	1767	4	9	2
+Deceptive-Fives & Pink (6 Suits)	1741	4	19	4
+Deceptive-Ones & Brown (4 Suits)	1691	4	9	2
+Deceptive-Ones & Dark Pink (6 Suits)	1715	4	4	1
+Deceptive-Ones & Dark Rainbow (6 Suits)	1713	4	8	2
+Deceptive-Ones & Light Pink (5 Suits)	1706	4	18	4
+Deceptive-Ones & Omni (3 Suits)	1696	4	16	4
+Deceptive-Ones & Rainbow (5 Suits)	1678	4	14	3
+Deceptive-Ones (5 Suits)	1672	4	191	44
+Dual-Color & Prism (6 Suits)	1649	4	73	18
+Extremely Ambiguous & White (6 Suits)	1391	4	4	1
+Extremely Ambiguous (4 Suits)	282	4	149	32
+Light Pink & Dark Omni (5 Suits)	821	4	12	3
+Light Pink (6 Suits)	164	4	893	185
+Light-Pink-Fives & Cocoa Rainbow (6 Suits)	1215	4	9	2
+Light-Pink-Fives & Muddy Rainbow (5 Suits)	1196	4	4	1
+Light-Pink-Fives & Muddy Rainbow (6 Suits)	1195	4	12	3
+Light-Pink-Fives & Prism (6 Suits)	1635	4	9	2
+Light-Pink-Fives & Rainbow (5 Suits)	1172	4	12	3
+Light-Pink-Fives (6 Suits)	1167	4	28	6
+Light-Pink-Ones & Light Pink (4 Suits)	1097	4	14	3
+Light-Pink-Ones & Pink (5 Suits)	1072	4	13	3
+Light-Pink-Ones & Prism (6 Suits)	1587	4	14	3
+Light-Pink-Ones & Rainbow (6 Suits)	1067	4	21	5
+Light-Pink-Ones (6 Suits)	1063	4	55	12
+Muddy Rainbow & Prism (5 Suits)	1510	4	79	18
+Muddy Rainbow & Prism (6 Suits)	1509	4	71	16
+Muddy Rainbow (5 Suits)	161	4	853	201
+Muddy-Rainbow-Fives & Dark Prism (6 Suits)	1633	4	13	3
+Muddy-Rainbow-Fives & Light Pink (5 Suits)	1148	4	4	1
+Muddy-Rainbow-Fives & Omni (5 Suits)	1136	4	4	1
+Muddy-Rainbow-Fives (6 Suits)	1115	4	39	8
+Muddy-Rainbow-Ones & Light Pink (6 Suits)	1043	4	13	3
+Muddy-Rainbow-Ones & Prism (5 Suits)	1582	4	8	2
+Muddy-Rainbow-Ones & Prism (6 Suits)	1581	4	17	4
+Muddy-Rainbow-Ones (5 Suits)	1012	4	40	10
+Null & Light Pink (4 Suits)	800	4	14	3
+Null & Muddy Rainbow (4 Suits)	778	4	24	5
+Null-Fives & Brown (4 Suits)	736	4	18	4
+Null-Fives & Dark Pink (5 Suits)	749	4	4	1
+Null-Fives & Muddy Rainbow (3 Suits)	1002	4	4	1
+Null-Ones & Dark Omni (5 Suits)	523	4	4	1
+Null-Ones & Omni (4 Suits)	508	4	4	1
+Null-Ones & Pink (3 Suits)	497	4	19	4
+Null-Ones & Pink (4 Suits)	496	4	4	1
+Null-Ones & Rainbow (5 Suits)	491	4	25	6
+Null-Ones (6 Suits)	486	4	48	12
+Omni & Dark Pink (5 Suits)	231	4	33	7
+Omni & Light Pink (6 Suits)	794	4	60	13
+Omni & Muddy Rainbow (4 Suits)	774	4	21	5
+Omni & Null (6 Suits)	222	4	465	105
+Omni & Prism (5 Suits)	1498	4	40	10
+Omni & Prism (6 Suits)	1497	4	44	10
+Omni (3 Suits)	179	4	688	152
+Omni (5 Suits)	177	4	1257	295
+Omni-Fives & Dark Pink (6 Suits)	708	4	4	1
+Omni-Fives & Dark Prism (5 Suits)	1622	4	4	1
+Omni-Fives & Gray (5 Suits)	711	4	4	1
+Omni-Fives & Gray Pink (6 Suits)	997	4	9	2
+Omni-Fives & Omni (5 Suits)	699	4	13	3
+Omni-Fives & Pink (4 Suits)	688	4	12	3
+Omni-Fives & Prism (3 Suits)	1620	4	4	1
+Omni-Fives & White (5 Suits)	691	4	16	4
+Omni-Fives (4 Suits)	680	4	34	8
+Omni-Fives (6 Suits)	678	4	54	11
+Omni-Ones & Dark Rainbow (5 Suits)	475	4	9	2
+Omni-Ones & Dark Rainbow (6 Suits)	474	4	4	1
+Omni-Ones & Light Pink (3 Suits)	922	4	14	3
+Omni-Ones & Null (6 Suits)	470	4	4	1
+Omni-Ones & Prism (4 Suits)	1571	4	4	1
+Omni-Ones & Prism (5 Suits)	1570	4	13	3
+Omni-Ones & White (5 Suits)	459	4	24	5
+Omni-Ones (6 Suits)	446	4	57	13
+Pink & Brown (3 Suits)	130	4	164	34
+Pink & Brown (4 Suits)	129	4	202	47
+Pink & Light Pink (5 Suits)	1297	4	119	27
+Pink & Light Pink (6 Suits)	1296	4	145	33
+Pink & Muddy Rainbow (6 Suits)	760	4	140	29
+Pink & Prism (5 Suits)	1480	4	195	45
+Pink & White (5 Suits)	124	4	292	71
+Pink (3 Suits)	109	4	835	188
+Pink (4 Suits)	108	4	916	224
+Pink (5 Suits)	107	4	2748	605
+Pink-Fives & Omni (4 Suits)	580	4	8	2
+Pink-Fives & Prism (3 Suits)	1602	4	8	2
+Pink-Fives & Rainbow (4 Suits)	47	4	54	13
+Pink-Fives & White (3 Suits)	573	4	17	4
+Pink-Fives & White (6 Suits)	570	4	35	8
+Pink-Ones & Brown (5 Suits)	343	4	39	9
+Pink-Ones & Brown (6 Suits)	342	4	51	11
+Pink-Ones & Dark Brown (6 Suits)	360	4	18	4
+Pink-Ones & Null (4 Suits)	352	4	4	1
+Pink-Ones & Pink (6 Suits)	334	4	18	4
+Pink-Ones & Prism (5 Suits)	1552	4	20	5
+Pink-Ones (6 Suits)	326	4	112	23
+Prism & Dark Null (5 Suits)	1532	4	4	1
+Prism & Dark Rainbow (6 Suits)	1521	4	931	211
+Prism & Gray Pink (5 Suits)	1536	4	38	8
+Prism (6 Suits)	1464	4	2197	525
+Prism Reversed (3 Suits)	1666	4	45	11
+Prism Reversed (6 Suits)	1663	4	126	26
+Rainbow & Brown (5 Suits)	76	4	517	110
+Rainbow & Brown (6 Suits)	75	4	391	95
+Rainbow & Light Pink (6 Suits)	782	4	243	55
+Rainbow & Muddy Rainbow (3 Suits)	1295	4	50	11
+Rainbow & Omni (3 Suits)	193	4	110	25
+Rainbow & Omni (5 Suits)	191	4	182	40
+Rainbow & White (6 Suits)	6	4	1153	278
+Rainbow (5 Suits)	16	4	5378	1343
+Rainbow-Fives & Brown (5 Suits)	543	4	20	5
+Rainbow-Fives & Dark Pink (5 Suits)	557	4	9	2
+Rainbow-Fives & Light Pink (5 Suits)	944	4	18	4
+Rainbow-Fives & Muddy Rainbow (3 Suits)	942	4	9	2
+Rainbow-Fives & Omni (3 Suits)	549	4	9	2
+Rainbow-Fives & Omni (4 Suits)	548	4	16	4
+Rainbow-Fives & Pink (3 Suits)	537	4	9	2
+Rainbow-Fives & Pink (5 Suits)	535	4	12	3
+Rainbow-Fives & Rainbow (3 Suits)	533	4	4	1
+Rainbow-Fives (6 Suits)	526	4	102	25
+Rainbow-Ones & Brown (6 Suits)	302	4	42	9
+Rainbow-Ones & Dark Rainbow (6 Suits)	314	4	24	5
+Rainbow-Ones & Null (3 Suits)	313	4	4	1
+Rainbow-Ones & Pink (3 Suits)	175	4	52	12
+Rainbow-Ones & Pink (6 Suits)	172	4	87	21
+Rainbow-Ones & Rainbow (6 Suits)	294	4	62	14
+Rainbow-Ones (6 Suits)	168	4	222	50
+Reversed (5 Suits)	1343	4	645	149
+Throw It in a Hole & Muddy Rainbow (6 Suits)	1238	4	4	1
+Throw It in a Hole (4 Suits)	281	4	323	77
+Very Ambiguous & Pink (4 Suits)	1390	4	13	3
+White & Cocoa Rainbow (5 Suits)	830	4	57	13
+White & Dark Rainbow (6 Suits)	83	4	635	141
+White & Light Pink (3 Suits)	789	4	51	12
+White & Light Pink (5 Suits)	787	4	119	29
+White & Muddy Rainbow (3 Suits)	767	4	47	11
+White & Muddy Rainbow (6 Suits)	764	4	107	25
+White & Omni (3 Suits)	209	4	57	14
+White & Omni (5 Suits)	207	4	137	28
+White Reversed (5 Suits)	1357	4	244	58
+White-Fives & Brown (4 Suits)	616	4	4	1
+White-Fives & Light Pink (6 Suits)	967	4	8	2
+White-Fives & Prism (6 Suits)	1605	4	20	5
+White-Fives & White (6 Suits)	610	4	32	7
+White-Ones & Brown (6 Suits)	382	4	85	18
+White-Ones & Dark Prism (5 Suits)	1562	4	27	6
+White-Ones & Dark Rainbow (5 Suits)	395	4	13	3
+White-Ones & Light Pink (5 Suits)	896	4	41	10
+White-Ones & Null (6 Suits)	390	4	18	4
+White-Ones & Pink (4 Suits)	376	4	28	7
+White-Ones & Pink (6 Suits)	374	4	40	10
+White-Ones & Rainbow (6 Suits)	370	4	81	19
+White-Ones & White (6 Suits)	378	4	91	20
+Alternating Clues & Muddy Rainbow (3 Suits)	1273	5	5	1
+Alternating Clues & White (5 Suits)	1255	5	28	5
+Ambiguous & Brown (3 Suits)	1362	5	41	7
+Ambiguous & Dual-Color	184	5	605	109
+Ambiguous & Pink (5 Suits)	1354	5	55	11
+Ambiguous & Prism (5 Suits)	1641	5	25	5
+Ambiguous & White (5 Suits)	31	5	207	39
+Ambiguous (6 Suits)	8	5	1960	336
+Black & White (6 Suits)	63	5	1910	320
+Brown & Dark Omni (6 Suits)	251	5	53	9
+Brown & Dark Pink (6 Suits)	144	5	82	16
+Brown & Dark Prism (5 Suits)	1496	5	60	12
+Brown & Muddy Rainbow (6 Suits)	768	5	86	15
+Brown & Null (5 Suits)	219	5	46	9
+Brown & Omni (6 Suits)	214	5	316	62
+Brown-Fives & Pink (5 Suits)	647	5	25	5
+Brown-Fives & Prism (4 Suits)	1613	5	15	3
+Brown-Fives & Rainbow (4 Suits)	644	5	17	3
+Brown-Fives (5 Suits)	639	5	86	16
+Brown-Ones & Brown (6 Suits)	422	5	46	9
+Brown-Ones & Rainbow (5 Suits)	411	5	62	12
+Color Mute (5 Suits)	111	5	83	15
+Cow & Pig (4 Suits)	100	5	169	32
+Dark Omni (5 Suits)	243	5	516	88
+Deceptive-Fives & Dark Prism (6 Suits)	1789	5	5	1
+Deceptive-Fives & Omni (6 Suits)	1753	5	5	1
+Deceptive-Fives & Prism (6 Suits)	1769	5	5	1
+Deceptive-Fives & Rainbow (5 Suits)	1738	5	28	5
+Deceptive-Fives (4 Suits)	1733	5	28	5
+Deceptive-Fives (6 Suits)	1731	5	79	15
+Deceptive-Ones & Brown (6 Suits)	1689	5	5	1
+Deceptive-Ones & Prism (5 Suits)	1710	5	10	2
+Deceptive-Ones & Rainbow (6 Suits)	1677	5	16	3
+Dual-Color & Muddy Rainbow (4 Suits)	1437	5	26	5
+Dual-Color & Null (4 Suits)	1435	5	15	3
+Extremely Ambiguous & Dark Pink (5 Suits)	1412	5	11	2
+Extremely Ambiguous & Gray (5 Suits)	1414	5	5	1
+Extremely Ambiguous & Light Pink (5 Suits)	1407	5	5	1
+Light Pink & Prism (6 Suits)	1515	5	103	19
+Light-Pink-Fives & Null (5 Suits)	1192	5	5	1
+Light-Pink-Ones & Pink (3 Suits)	1074	5	5	1
+Muddy Rainbow & Dark Pink (6 Suits)	808	5	41	7
+Muddy Rainbow & Light Pink (3 Suits)	805	5	30	6
+Muddy Rainbow & Light Pink (5 Suits)	803	5	87	16
+Muddy-Rainbow-Fives & Brown (5 Suits)	1132	5	5	1
+Muddy-Rainbow-Fives & Muddy Rainbow (4 Suits)	1145	5	5	1
+Muddy-Rainbow-Fives & Pink (3 Suits)	1126	5	16	3
+Muddy-Rainbow-Fives & Prism (6 Suits)	1629	5	5	1
+Muddy-Rainbow-Fives & Rainbow (4 Suits)	1121	5	17	3
+Muddy-Rainbow-Fives & Rainbow (6 Suits)	1119	5	10	2
+Muddy-Rainbow-Fives & White (5 Suits)	1128	5	5	1
+Muddy-Rainbow-Ones & Muddy Rainbow (3 Suits)	1042	5	5	1
+Muddy-Rainbow-Ones & Muddy Rainbow (4 Suits)	1041	5	10	2
+Muddy-Rainbow-Ones & Null (5 Suits)	1036	5	5	1
+Muddy-Rainbow-Ones & Omni (6 Suits)	1031	5	10	2
+Muddy-Rainbow-Ones & Pink (5 Suits)	1020	5	20	4
+Muddy-Rainbow-Ones & White (5 Suits)	1024	5	28	5
+Null & Dark Brown (5 Suits)	241	5	5	1
+Null & Dark Prism (5 Suits)	1508	5	5	1
+Null-Ones & Black (5 Suits)	1327	5	5	1
+Null-Ones & Dark Omni (6 Suits)	522	5	5	1
+Null-Ones & Omni (3 Suits)	509	5	5	1
+Null-Ones (5 Suits)	487	5	141	27
+Number Blind (3 Suits)	105	5	30	6
+Omni & Dark Pink (6 Suits)	230	5	41	7
+Omni & Muddy Rainbow (6 Suits)	772	5	59	11
+Omni-Fives & Brown (3 Suits)	697	5	5	1
+Omni-Fives & Brown (6 Suits)	694	5	91	18
+Omni-Fives & Muddy Rainbow (3 Suits)	990	5	5	1
+Omni-Fives & Prism (5 Suits)	1618	5	20	4
+Omni-Ones & Light Pink (6 Suits)	919	5	17	3
+Omni-Ones & Null (4 Suits)	472	5	10	2
+Omni-Ones & Omni (6 Suits)	466	5	11	2
+Omni-Ones & Prism (3 Suits)	1572	5	5	1
+Omni-Ones & Rainbow (6 Suits)	450	5	20	4
+Pink & Brown (6 Suits)	127	5	404	68
+Pink & Dark Rainbow (5 Suits)	132	5	144	25
+Pink & Light Pink (4 Suits)	1298	5	96	19
+Pink & Null (3 Suits)	205	5	102	19
+Pink & Omni (5 Suits)	199	5	216	39
+Pink & Omni (6 Suits)	198	5	232	45
+Pink & Prism (6 Suits)	1479	5	237	45
+Pink & White (6 Suits)	123	5	392	75
+Pink-Fives & Black (5 Suits)	1323	5	27	5
+Pink-Fives & Dark Brown (5 Suits)	593	5	11	2
+Pink-Fives & Dark Omni (5 Suits)	595	5	5	1
+Pink-Fives & Rainbow (6 Suits)	39	5	107	18
+Pink-Fives & White (5 Suits)	571	5	11	2
+Pink-Fives (5 Suits)	46	5	171	33
+Pink-Ones & Cocoa Rainbow (5 Suits)	888	5	17	3
+Pink-Ones & Dark Rainbow (5 Suits)	355	5	17	3
+Pink-Ones & Null (3 Suits)	353	5	5	1
+Pink-Ones & Omni (3 Suits)	349	5	10	2
+Pink-Ones & Omni (5 Suits)	347	5	16	3
+Pink-Ones & Rainbow (6 Suits)	330	5	75	13
+Prism & Dark Pink (6 Suits)	1523	5	61	11
+Rainbow & Brown (3 Suits)	78	5	201	35
+Rainbow & Pink (3 Suits)	149	5	210	42
+Rainbow (6 Suits)	3	5	36598	6766
+Rainbow Reversed (5 Suits)	1349	5	269	45
+Rainbow-Fives & Dark Brown (5 Suits)	561	5	5	1
+Rainbow-Fives & Dark Brown (6 Suits)	560	5	26	5
+Rainbow-Fives & Dark Omni (5 Suits)	563	5	10	2
+Rainbow-Fives & Muddy Rainbow (4 Suits)	941	5	10	2
+Rainbow-Fives & Pink (6 Suits)	534	5	33	6
+Rainbow-Ones & Omni (6 Suits)	306	5	20	4
+Rainbow-Ones & White (6 Suits)	298	5	80	16
+Throw It in a Hole & Brown (4 Suits)	1231	5	15	3
+Throw It in a Hole & Brown (5 Suits)	1230	5	11	2
+Throw It in a Hole & Muddy Rainbow (4 Suits)	1240	5	5	1
+Throw It in a Hole & Pink (4 Suits)	1225	5	11	2
+Throw It in a Hole & Rainbow (5 Suits)	1221	5	32	6
+Totally Blind (6 Suits)	151	5	218	42
+Up or Down & Brown (6 Suits)	157	5	178	30
+Up or Down & Light Pink (5 Suits)	866	5	114	20
+Up or Down & Prism (5 Suits)	1670	5	232	44
+Up or Down & Prism (6 Suits)	1669	5	396	79
+Up or Down & Rainbow (6 Suits)	25	5	2372	425
+Up or Down & White (6 Suits)	41	5	266	52
+Very Ambiguous & Brown (4 Suits)	1396	5	10	2
+White & Dark Pink (6 Suits)	142	5	180	31
+White & Light Pink (6 Suits)	786	5	129	23
+White & Null (5 Suits)	211	5	136	23
+White & Prism (6 Suits)	1485	5	300	60
+White-Fives & Brown (5 Suits)	615	5	26	5
+White-Fives & Brown (6 Suits)	614	5	11	2
+White-Fives & Dark Brown (6 Suits)	632	5	5	1
+White-Fives & Muddy Rainbow (3 Suits)	966	5	10	2
+White-Fives & Omni (4 Suits)	620	5	5	1
+White-Fives & Rainbow (4 Suits)	604	5	31	6
+White-Ones & Black (6 Suits)	1314	5	75	13
+White-Ones & Brown (4 Suits)	384	5	41	7
+White-Ones & Dark Brown (6 Suits)	400	5	36	7
+White-Ones & Dark Omni (5 Suits)	403	5	21	4
+White-Ones & Dark Omni (6 Suits)	402	5	21	4
+White-Ones & Dark Pink (6 Suits)	396	5	33	6
+6 Suits	1	6	31048	4785
+Alternating Clues & Omni (3 Suits)	1265	6	19	3
+Alternating Clues & Rainbow (5 Suits)	1247	6	12	2
+Ambiguous & Gray Pink (5 Suits)	1378	6	13	2
+Black & Prism (5 Suits)	1471	6	372	55
+Black & Rainbow (6 Suits)	65	6	3565	564
+Brown & Dark Rainbow (5 Suits)	86	6	84	14
+Brown-Fives & Dark Prism (6 Suits)	1615	6	6	1
+Brown-Fives & Muddy Rainbow (4 Suits)	977	6	18	3
+Brown-Fives (6 Suits)	638	6	44	7
+Brown-Ones & Gray (6 Suits)	438	6	19	3
+Brown-Ones & Muddy Rainbow (6 Suits)	903	6	18	3
+Clue Starved & Null (5 Suits)	1288	6	24	4
+Color Blind (5 Suits)	33	6	132	22
+Cow & Pig (3 Suits)	101	6	159	24
+Deceptive-Fives & Dark Brown (5 Suits)	1780	6	6	1
+Deceptive-Fives & Muddy Rainbow (5 Suits)	1762	6	13	2
+Deceptive-Fives & Muddy Rainbow (6 Suits)	1761	6	6	1
+Deceptive-Fives & Rainbow (4 Suits)	1739	6	6	1
+Deceptive-Ones & Brown (3 Suits)	1692	6	6	1
+Deceptive-Ones & Light Pink (6 Suits)	1705	6	6	1
+Dual-Color & Dark Omni (6 Suits)	1444	6	50	8
+Dual-Color & Dark Prism (6 Suits)	1651	6	69	11
+Dual-Color & Omni (6 Suits)	1432	6	73	12
+Extremely Ambiguous & Brown (6 Suits)	1394	6	6	1
+Light Pink & Dark Brown (5 Suits)	817	6	31	5
+Light-Pink-Fives & Dark Rainbow (5 Suits)	1204	6	6	1
+Light-Pink-Ones & Dark Brown (6 Suits)	1105	6	6	1
+Light-Pink-Ones & Light Pink (5 Suits)	1096	6	13	2
+Muddy Rainbow & Dark Rainbow (5 Suits)	1305	6	33	5
+Muddy Rainbow & Dark Rainbow (6 Suits)	1304	6	48	7
+Muddy-Rainbow-Fives & Gray (6 Suits)	1155	6	13	2
+Muddy-Rainbow-Fives & Pink (5 Suits)	1124	6	12	2
+Muddy-Rainbow-Ones & Dark Null (5 Suits)	1058	6	6	1
+Muddy-Rainbow-Ones & Null (3 Suits)	1038	6	12	2
+Null & Dark Pink (5 Suits)	233	6	20	3
+Null (3 Suits)	183	6	477	73
+Null (5 Suits)	181	6	1569	249
+Null-Ones & Black (6 Suits)	1326	6	12	2
+Null-Ones & Brown (4 Suits)	504	6	6	1
+Null-Ones & Pink (6 Suits)	494	6	25	4
+Number Blind (6 Suits)	102	6	52	8
+Omni & Null (5 Suits)	223	6	73	12
+Omni-Fives & Omni (3 Suits)	701	6	6	1
+Omni-Ones & Brown (6 Suits)	462	6	6	1
+Omni-Ones & Light Pink (4 Suits)	921	6	6	1
+Omni-Ones & Light Pink (5 Suits)	920	6	12	2
+Omni-Ones & Muddy Rainbow (6 Suits)	915	6	12	2
+Omni-Ones & Rainbow (5 Suits)	451	6	20	3
+Omni-Ones (5 Suits)	447	6	143	22
+Pink & Null (5 Suits)	203	6	163	25
+Pink & Omni (3 Suits)	201	6	129	21
+Pink & Omni (4 Suits)	200	6	168	28
+Pink (6 Suits)	106	6	3872	569
+Pink-Fives & Dark Pink (6 Suits)	588	6	6	1
+Pink-Fives & Pink (5 Suits)	567	6	6	1
+Pink-Ones & Dark Prism (6 Suits)	1555	6	6	1
+Pink-Ones & Muddy Rainbow (6 Suits)	879	6	26	4
+Prism & Dark Brown (6 Suits)	1527	6	79	12
+Prism & Dark Pink (5 Suits)	1524	6	42	7
+Rainbow & Dark Omni (5 Suits)	246	6	136	20
+Rainbow & Dark Pink (6 Suits)	140	6	348	51
+Rainbow & Dark Prism (5 Suits)	1478	6	157	23
+Rainbow & Gray Pink (5 Suits)	841	6	113	18
+Rainbow & Null (3 Suits)	197	6	74	12
+Rainbow & Null (4 Suits)	196	6	60	10
+Rainbow & Omni (6 Suits)	190	6	305	44
+Rainbow & Pink (6 Suits)	120	6	1082	169
+Rainbow-Fives & Prism (6 Suits)	1593	6	27	4
+Rainbow-Fives & Rainbow (4 Suits)	532	6	18	3
+Rainbow-Ones & Muddy Rainbow (5 Suits)	868	6	36	6
+Rainbow-Ones & Muddy Rainbow (6 Suits)	867	6	20	3
+Rainbow-Ones & Null (4 Suits)	312	6	12	2
+Reversed (6 Suits)	1342	6	520	82
+Throw It in a Hole & Rainbow (6 Suits)	1220	6	40	6
+Throw It in a Hole & White (5 Suits)	1227	6	41	6
+Throw It in a Hole (6 Suits)	279	6	496	78
+Totally Blind (3 Suits)	154	6	61	10
+Totally Blind (5 Suits)	152	6	152	25
+Up or Down & Pink (5 Suits)	156	6	240	38
+Up or Down (6 Suits)	40	6	1777	260
+Very Ambiguous & Omni (4 Suits)	1399	6	6	1
+White & Dark Omni (6 Suits)	249	6	131	20
+White & Gray Pink (6 Suits)	842	6	93	14
+White & Null (3 Suits)	213	6	76	12
+White-Fives & Black (6 Suits)	1324	6	13	2
+White-Ones & Dark Prism (6 Suits)	1561	6	19	3
+Alternating Clues & Black (5 Suits)	1245	7	22	3
+Alternating Clues & Prism (6 Suits)	1652	7	14	2
+Alternating Clues (6 Suits)	283	7	171	24
+Ambiguous & Light Pink (3 Suits)	1370	7	7	1
+Black & Prism (6 Suits)	1470	7	549	71
+Black Reversed (5 Suits)	1347	7	199	26
+Brown & Light Pink (6 Suits)	790	7	119	17
+Brown-Fives & Brown (5 Suits)	655	7	7	1
+Brown-Fives & Dark Rainbow (6 Suits)	666	7	7	1
+Brown-Fives & Light Pink (6 Suits)	979	7	7	1
+Brown-Ones & Black (5 Suits)	1317	7	42	6
+Clue Starved & Omni (5 Suits)	1286	7	28	4
+Clue Starved & White (5 Suits)	1282	7	79	10
+Clue Starved & White (6 Suits)	1281	7	44	6
+Dark Pink (5 Suits)	138	7	928	117
+Dark Rainbow Reversed (5 Suits)	1381	7	131	17
+Deceptive-Ones & Dark Prism (5 Suits)	1730	7	14	2
+Deceptive-Ones & White (5 Suits)	1686	7	22	3
+Dual-Color & Gray Pink (6 Suits)	1447	7	55	7
+Duck (3 Suits)	57	7	325	43
+Extremely Ambiguous & Muddy Rainbow (6 Suits)	1403	7	7	1
+Extremely Ambiguous & Omni (5 Suits)	1398	7	15	2
+Gray (5 Suits)	58	7	1502	189
+Light Pink & Dark Brown (6 Suits)	816	7	28	4
+Light-Pink-Ones & Omni (5 Suits)	1084	7	7	1
+Light-Pink-Ones & Pink (6 Suits)	1071	7	7	1
+Light-Pink-Ones & Rainbow (5 Suits)	1068	7	22	3
+Muddy-Rainbow-Fives & Cocoa Rainbow (5 Suits)	1164	7	15	2
+Muddy-Rainbow-Fives & Dark Brown (6 Suits)	1157	7	7	1
+Muddy-Rainbow-Ones & Black (5 Suits)	1331	7	23	3
+No Variant	0	7	255495	35131
+Null & Prism (4 Suits)	1505	7	29	4
+Null-Fives (5 Suits)	719	7	50	7
+Null-Ones & Dark Brown (5 Suits)	521	7	7	1
+Null-Ones & Light Pink (5 Suits)	932	7	22	3
+Null-Ones & Rainbow (4 Suits)	492	7	23	3
+Number Blind (5 Suits)	103	7	75	10
+Omni & Gray Pink (5 Suits)	847	7	21	3
+Omni & Muddy Rainbow (5 Suits)	773	7	87	11
+Omni (6 Suits)	176	7	2012	273
+Omni-Ones & Omni (5 Suits)	467	7	15	2
+Pink & Dark Prism (6 Suits)	1483	7	140	18
+Pink & Gray Pink (5 Suits)	1303	7	70	9
+Pink-Fives & Light Pink (6 Suits)	955	7	15	2
+Pink-Fives & Pink (6 Suits)	566	7	7	1
+Pink-Fives & Prism (6 Suits)	1599	7	14	2
+Pink-Ones & Null (5 Suits)	351	7	14	2
+Prism & Dark Null (6 Suits)	1531	7	14	2
+Rainbow & Dark Omni (6 Suits)	245	7	198	28
+Rainbow & Gray (5 Suits)	68	7	319	45
+Rainbow & Gray Pink (6 Suits)	840	7	182	26
+Rainbow & Null (5 Suits)	195	7	119	16
+Rainbow-Fives & Black (5 Suits)	1319	7	15	2
+Rainbow-Fives & Black (6 Suits)	1318	7	49	7
+Rainbow-Ones & Cocoa Rainbow (5 Suits)	876	7	7	1
+Rainbow-Ones & Dark Omni (5 Suits)	323	7	7	1
+Rainbow-Ones & Dark Rainbow (5 Suits)	315	7	45	6
+Rainbow-Ones & Gray (6 Suits)	318	7	36	5
+Rainbow-Ones & Gray Pink (6 Suits)	877	7	22	3
+Throw It in a Hole & Light Pink (4 Suits)	1243	7	7	1
+Throw It in a Hole & Pink (6 Suits)	1223	7	29	4
+Throw It in a Hole & Prism (6 Suits)	1660	7	7	1
+Throw It in a Hole (5 Suits)	280	7	871	119
+Up or Down & Muddy Rainbow (6 Suits)	863	7	98	14
+Up or Down & White (5 Suits)	42	7	353	49
+Up or Down (5 Suits)	24	7	3216	443
+Very Ambiguous & Null (4 Suits)	1402	7	7	1
+White & Dark Omni (5 Suits)	250	7	108	14
+White & Dark Pink (5 Suits)	143	7	125	16
+White & Null (4 Suits)	212	7	81	11
+White-Ones & Cocoa Rainbow (5 Suits)	900	7	14	2
+Alternating Clues & Black (6 Suits)	1244	8	26	3
+Alternating Clues & Cocoa Rainbow (6 Suits)	1460	8	17	2
+Ambiguous & Muddy Rainbow (5 Suits)	1367	8	25	3
+Black & Light Pink (6 Suits)	780	8	446	52
+Black & Muddy Rainbow (6 Suits)	758	8	317	39
+Brown & Gray Pink (5 Suits)	845	8	70	8
+Brown & Muddy Rainbow (3 Suits)	771	8	41	5
+Brown & Muddy Rainbow (4 Suits)	770	8	84	10
+Brown & Muddy Rainbow (5 Suits)	769	8	157	19
+Brown & Null (6 Suits)	218	8	77	9
+Brown-Fives & Brown (6 Suits)	654	8	8	1
+Brown-Fives & Cocoa Rainbow (5 Suits)	984	8	8	1
+Clue Starved & Light Pink (5 Suits)	1219	8	60	7
+Color Blind (6 Suits)	10	8	250	30
+Cow & Pig (5 Suits)	99	8	500	62
+Dark Prism (5 Suits)	1469	8	831	101
+Deceptive-Fives & Pink (5 Suits)	1742	8	17	2
+Deceptive-Fives & Rainbow (6 Suits)	1737	8	42	5
+Deceptive-Fives & White (5 Suits)	1746	8	16	2
+Deceptive-Fives & White (6 Suits)	1745	8	26	3
+Deceptive-Ones & Black (5 Suits)	1676	8	26	3
+Dual-Color & Black (6 Suits)	1425	8	206	23
+Dual-Color & Omni (4 Suits)	1433	8	50	6
+Duck (5 Suits)	55	8	1095	123
+Extremely Ambiguous (5 Suits)	289	8	213	26
+Gray Pink (5 Suits)	293	8	710	80
+Light-Pink-Fives & Black (6 Suits)	1340	8	8	1
+Light-Pink-Fives & Brown (5 Suits)	1184	8	16	2
+Light-Pink-Fives & Dark Null (5 Suits)	1214	8	8	1
+Light-Pink-Fives & White (4 Suits)	1181	8	8	1
+Light-Pink-Ones & Gray (6 Suits)	1103	8	17	2
+Light-Pink-Ones & Prism (5 Suits)	1588	8	8	1
+Light-Pink-Ones & White (6 Suits)	1075	8	8	1
+Muddy Rainbow & Light Pink (6 Suits)	802	8	115	14
+Muddy-Rainbow-Fives & Brown (3 Suits)	1134	8	8	1
+Muddy-Rainbow-Ones & Brown (4 Suits)	1029	8	8	1
+Muddy-Rainbow-Ones & Gray (6 Suits)	1051	8	8	1
+Muddy-Rainbow-Ones & Light Pink (5 Suits)	1044	8	16	2
+Muddy-Rainbow-Ones & Omni (5 Suits)	1032	8	8	1
+Null & Light Pink (5 Suits)	799	8	61	7
+Null (4 Suits)	182	8	607	73
+Null-Fives & White (5 Suits)	731	8	33	4
+Null-Ones & Null (5 Suits)	511	8	24	3
+Omni-Fives & Black (6 Suits)	1332	8	17	2
+Omni-Fives & Light Pink (6 Suits)	991	8	8	1
+Omni-Fives & Null (4 Suits)	704	8	8	1
+Omni-Fives & Rainbow (6 Suits)	682	8	25	3
+Omni-Fives & White (6 Suits)	690	8	24	3
+Pink & Dark Brown (6 Suits)	135	8	110	13
+Pink & Gray (5 Suits)	134	8	169	20
+Pink & Null (6 Suits)	202	8	141	17
+Pink-Fives & Prism (4 Suits)	1601	8	16	2
+Prism & Dark Omni (5 Suits)	1530	8	53	6
+Rainbow & Cocoa Rainbow (5 Suits)	1301	8	110	13
+Rainbow & Null (6 Suits)	194	8	304	37
+Up or Down & Muddy Rainbow (5 Suits)	864	8	124	15
+Up or Down & Omni (5 Suits)	278	8	174	20
+Up or Down & Pink (6 Suits)	155	8	240	29
+White & Dark Prism (6 Suits)	1489	8	133	16
+White & Null (6 Suits)	210	8	80	9
+White-Fives & Omni (3 Suits)	621	8	8	1
+White-Ones & Black (5 Suits)	1315	8	93	11
+White-Ones & Dark Pink (5 Suits)	397	8	41	5
+Alternating Clues & Cocoa Rainbow (5 Suits)	1461	9	9	1
+Alternating Clues & Rainbow (4 Suits)	1248	9	9	1
+Black & Brown (5 Suits)	74	9	594	62
+Black & Brown (6 Suits)	73	9	639	64
+Black & Pink (5 Suits)	119	9	791	80
+Black & White (5 Suits)	64	9	1062	109
+Brown & Dark Null (6 Suits)	264	9	19	2
+Brown & Dark Omni (5 Suits)	252	9	65	7
+Brown & Dark Rainbow (6 Suits)	85	9	173	18
+Brown-Fives & Gray Pink (6 Suits)	985	9	9	1
+Brown-Ones & Gray (5 Suits)	439	9	45	5
+Brown-Ones & Gray Pink (5 Suits)	914	9	19	2
+Clue Starved & Muddy Rainbow (5 Suits)	1290	9	18	2
+Clue Starved & Prism (6 Suits)	1658	9	55	6
+Dark Brown (5 Suits)	90	9	882	94
+Dark Omni (6 Suits)	242	9	875	97
+Dark Pink & Cocoa Rainbow (6 Suits)	853	9	19	2
+Dark Pink (6 Suits)	137	9	1271	141
+Dark Rainbow (5 Suits)	23	9	1439	153
+Dark Rainbow Reversed (6 Suits)	1380	9	200	21
+Deceptive-Fives & Black (6 Suits)	1735	9	9	1
+Deceptive-Fives & Dark Rainbow (5 Suits)	1774	9	9	1
+Dual-Color & Gray (6 Suits)	1442	9	144	16
+Duck (4 Suits)	56	9	248	25
+Extremely Ambiguous & Dark Omni (6 Suits)	1417	9	9	1
+Extremely Ambiguous & Pink (6 Suits)	1388	9	9	1
+Gray Reversed (6 Suits)	1384	9	164	18
+Light Pink & Dark Rainbow (5 Suits)	807	9	48	5
+Light-Pink-Fives & Prism (4 Suits)	1637	9	9	1
+Light-Pink-Ones & Cocoa Rainbow (5 Suits)	1112	9	9	1
+Light-Pink-Ones & Dark Prism (5 Suits)	1592	9	18	2
+Light-Pink-Ones & Omni (6 Suits)	1083	9	19	2
+Muddy Rainbow & Dark Null (6 Suits)	822	9	9	1
+Muddy Rainbow & Dark Prism (6 Suits)	1513	9	36	4
+Muddy Rainbow & Gray (6 Suits)	810	9	45	5
+Muddy-Rainbow-Ones & Dark Rainbow (6 Suits)	1047	9	9	1
+Null & Dark Pink (6 Suits)	232	9	28	3
+Null & Muddy Rainbow (6 Suits)	776	9	74	8
+Null (6 Suits)	180	9	2009	209
+Null-Ones & Null (3 Suits)	513	9	49	5
+Null-Ones & Omni (5 Suits)	507	9	9	1
+Omni & Cocoa Rainbow (5 Suits)	834	9	27	3
+Omni & Light Pink (5 Suits)	795	9	86	9
+Omni & Muddy Rainbow (3 Suits)	775	9	73	8
+Omni-Fives & Dark Omni (6 Suits)	714	9	29	3
+Omni-Fives & Light Pink (5 Suits)	992	9	9	1
+Omni-Fives & Pink (5 Suits)	687	9	28	3
+Omni-Fives & Rainbow (5 Suits)	683	9	9	1
+Omni-Ones & Pink (5 Suits)	455	9	9	1
+Pink-Fives & Black (6 Suits)	1322	9	47	5
+Pink-Fives & Light Pink (5 Suits)	956	9	9	1
+Pink-Ones & Light Pink (3 Suits)	886	9	19	2
+Prism & Cocoa Rainbow (6 Suits)	1533	9	56	6
+Rainbow & Dark Brown (6 Suits)	92	9	270	28
+Rainbow & Dark Prism (6 Suits)	1477	9	242	25
+Rainbow-Fives & Brown (4 Suits)	544	9	18	2
+Rainbow-Fives & Dark Prism (6 Suits)	1597	9	29	3
+Rainbow-Fives & Dark Rainbow (6 Suits)	554	9	9	1
+Throw It in a Hole & White (6 Suits)	1226	9	48	5
+Up or Down & Omni (6 Suits)	277	9	211	23
+White & Dark Brown (5 Suits)	95	9	190	20
+White-Ones & Cocoa Rainbow (6 Suits)	899	9	37	4
+White-Ones & Gray (5 Suits)	399	9	68	7
+Ambiguous & Black (5 Suits)	1352	10	121	12
+Black & Light Pink (5 Suits)	781	10	431	41
+Black & Muddy Rainbow (5 Suits)	759	10	370	35
+Black & Pink (6 Suits)	118	10	865	86
+Brown-Fives & Gray (6 Suits)	670	10	10	1
+Brown-Fives & Rainbow (5 Suits)	643	10	10	1
+Clue Starved & Omni (6 Suits)	1285	10	30	3
+Clue Starved & Rainbow (5 Suits)	1278	10	130	13
+Clue Starved (5 Suits)	52	10	725	72
+Cocoa Rainbow (5 Suits)	291	10	828	78
+Dark Null & Gray Pink (6 Suits)	861	10	10	1
+Dual-Color & Dark Null (6 Suits)	1445	10	10	1
+Extremely Ambiguous & Brown (5 Suits)	1395	10	10	1
+Extremely Ambiguous & Gray Pink (5 Suits)	1424	10	10	1
+Gray Pink (6 Suits)	292	10	882	84
+Light-Pink-Fives & Dark Omni (5 Suits)	1212	10	10	1
+Light-Pink-Ones & Gray Pink (5 Suits)	1114	10	10	1
+Muddy Rainbow & Dark Brown (6 Suits)	814	10	72	7
+Muddy Rainbow & Dark Pink (5 Suits)	809	10	53	5
+Muddy Rainbow & Gray Pink (6 Suits)	850	10	60	6
+Muddy-Rainbow-Fives & Dark Null (5 Suits)	1162	10	10	1
+Muddy-Rainbow-Ones & Dark Null (6 Suits)	1057	10	10	1
+Null & Dark Omni (5 Suits)	254	10	20	2
+Null-Fives & Prism (4 Suits)	1625	10	20	2
+Null-Ones & Dark Rainbow (5 Suits)	515	10	31	3
+Null-Ones & Null (4 Suits)	512	10	32	3
+Null-Ones & Pink (5 Suits)	495	10	30	3
+Omni & Gray (5 Suits)	235	10	63	6
+Omni & Gray (6 Suits)	234	10	92	9
+Omni-Ones & Pink (3 Suits)	457	10	10	1
+Pink & Dark Rainbow (6 Suits)	131	10	240	22
+Pink-Fives & Muddy Rainbow (4 Suits)	953	10	20	2
+Pink-Ones & Cocoa Rainbow (6 Suits)	887	10	10	1
+Pink-Ones & Dark Pink (6 Suits)	356	10	10	1
+Pink-Ones & Gray (6 Suits)	358	10	10	1
+Pink-Ones & Light Pink (5 Suits)	884	10	40	4
+Prism & Dark Rainbow (5 Suits)	1522	10	80	8
+Prism & Gray Pink (6 Suits)	1535	10	71	7
+Rainbow & Dark Null (5 Suits)	259	10	61	6
+Rainbow & Dark Pink (5 Suits)	141	10	296	27
+Rainbow-Fives & Dark Prism (5 Suits)	1598	10	10	1
+Throw It in a Hole & Null (5 Suits)	1236	10	10	1
+Throw It in a Hole & Null (6 Suits)	1235	10	10	1
+Up or Down & Null (6 Suits)	61	10	61	6
+Very Ambiguous (6 Suits)	9	10	750	75
+White & Dark Brown (6 Suits)	94	10	217	20
+White & Dark Null (5 Suits)	263	10	31	3
+White-Fives & Gray Pink (6 Suits)	973	10	10	1
+White-Ones & Null (4 Suits)	392	10	31	3
+Ambiguous & Dark Brown (5 Suits)	1374	11	34	3
+Ambiguous & Dark Rainbow (5 Suits)	1371	11	11	1
+Ambiguous & Omni (5 Suits)	1363	11	22	2
+Black Reversed (6 Suits)	1346	11	322	27
+Brown & Dark Prism (6 Suits)	1495	11	89	8
+Brown & Gray (6 Suits)	87	11	194	17
+Brown & Null (4 Suits)	220	11	58	5
+Clue Starved & Brown (5 Suits)	1284	11	93	8
+Color Mute (6 Suits)	110	11	70	6
+Dark Prism (6 Suits)	1468	11	1130	97
+Dark Prism Reversed (6 Suits)	1667	11	148	13
+Extremely Ambiguous (6 Suits)	288	11	258	22
+Light Pink & Cocoa Rainbow (6 Suits)	837	11	35	3
+Muddy Rainbow & Dark Prism (5 Suits)	1514	11	56	5
+Muddy Rainbow & Gray (5 Suits)	811	11	67	6
+Muddy-Rainbow-Fives & Dark Pink (5 Suits)	1154	11	23	2
+Null & Gray Pink (5 Suits)	849	11	11	1
+Omni & Null (3 Suits)	225	11	164	14
+Omni & Null (4 Suits)	224	11	56	5
+Omni-Fives & Cocoa Rainbow (5 Suits)	996	11	11	1
+Omni-Fives & Pink (6 Suits)	686	11	23	2
+Omni-Ones & Black (5 Suits)	1321	11	11	1
+Omni-Ones & Brown (5 Suits)	463	11	23	2
+Pink & Cocoa Rainbow (5 Suits)	828	11	143	13
+Pink & Dark Prism (5 Suits)	1484	11	178	15
+Pink & Gray (6 Suits)	133	11	269	24
+Pink-Fives & Gray (6 Suits)	590	11	23	2
+Pink-Ones & Null (6 Suits)	350	11	11	1
+Prism & Dark Omni (6 Suits)	1529	11	71	6
+Prism & Gray (6 Suits)	1525	11	113	10
+Rainbow & Gray (6 Suits)	67	11	479	41
+Rainbow-Ones & Black (5 Suits)	1311	11	175	15
+Rainbow-Ones & Null (5 Suits)	311	11	11	1
+Rainbow-Ones & Null (6 Suits)	310	11	11	1
+Throw It in a Hole & Light Pink (5 Suits)	1242	11	22	2
+Throw It in a Hole & Prism (5 Suits)	1661	11	23	2
+Up or Down & Null (5 Suits)	44	11	66	6
+White & Cocoa Rainbow (6 Suits)	829	11	99	9
+White-Fives & Dark Brown (5 Suits)	633	11	11	1
+White-Ones & Dark Brown (5 Suits)	401	11	45	4
+White-Ones & Gray Pink (6 Suits)	901	11	34	3
+Brown & Dark Pink (5 Suits)	145	12	164	13
+Brown-Fives & Omni (6 Suits)	658	12	24	2
+Brown-Ones & Dark Omni (6 Suits)	442	12	38	3
+Dark Brown & Cocoa Rainbow (6 Suits)	856	12	12	1
+Dark Brown (6 Suits)	89	12	1305	107
+Dark Prism Reversed (5 Suits)	1668	12	175	14
+Deceptive-Ones & Black (6 Suits)	1675	12	48	4
+Deceptive-Ones & Omni (6 Suits)	1693	12	25	2
+Light Pink & Dark Null (5 Suits)	825	12	24	2
+Light Pink & Dark Rainbow (6 Suits)	806	12	51	4
+Light-Pink-Fives & Dark Brown (6 Suits)	1209	12	51	4
+Muddy-Rainbow-Ones & Gray Pink (5 Suits)	1062	12	12	1
+Null & Gray (5 Suits)	237	12	49	4
+Null & Gray Pink (6 Suits)	848	12	12	1
+Null & Light Pink (6 Suits)	798	12	75	6
+Null-Ones & Brown (5 Suits)	503	12	12	1
+Omni & Dark Rainbow (5 Suits)	227	12	64	5
+Pink & Dark Null (5 Suits)	261	12	49	4
+Pink & Dark Omni (5 Suits)	248	12	133	11
+Pink-Ones & Light Pink (4 Suits)	885	12	12	1
+Prism & Dark Brown (5 Suits)	1528	12	72	6
+Rainbow & Cocoa Rainbow (6 Suits)	1300	12	229	19
+Rainbow-Ones & Black (6 Suits)	1310	12	141	11
+Rainbow-Ones & Dark Pink (6 Suits)	316	12	36	3
+Throw It in a Hole & Rainbow (4 Suits)	1222	12	24	2
+White-Fives & Omni (6 Suits)	618	12	12	1
+White-Ones & Dark Rainbow (6 Suits)	394	12	51	4
+White-Ones & Gray (6 Suits)	398	12	75	6
+Alternating Clues & Brown (3 Suits)	1261	13	13	1
+Black & Gray Pink (6 Suits)	839	13	239	18
+Black & Omni (5 Suits)	187	13	606	46
+Black (5 Suits)	21	13	8509	651
+Brown & Cocoa Rainbow (6 Suits)	831	13	78	6
+Brown & Null (3 Suits)	221	13	123	9
+Brown-Ones & Black (6 Suits)	1316	13	107	8
+Brown-Ones & Dark Brown (6 Suits)	440	13	40	3
+Brown-Ones & Dark Rainbow (5 Suits)	435	13	52	4
+Cocoa Rainbow (6 Suits)	290	13	1133	84
+Dark Pink & Dark Null (6 Suits)	271	13	54	4
+Dual-Color & Dark Brown (6 Suits)	1443	13	78	6
+Dual-Color & Dark Pink (6 Suits)	1441	13	78	6
+Gray (6 Suits)	59	13	2383	178
+Gray Reversed (5 Suits)	1385	13	192	14
+Light Pink & Dark Prism (6 Suits)	1519	13	80	6
+Muddy-Rainbow-Fives & Brown (6 Suits)	1131	13	13	1
+Muddy-Rainbow-Ones & Dark Pink (6 Suits)	1049	13	13	1
+Null-Fives & Black (6 Suits)	1336	13	13	1
+Null-Fives & Rainbow (6 Suits)	722	13	27	2
+Null-Fives & White (6 Suits)	730	13	39	3
+Null-Ones & Prism (4 Suits)	1577	13	27	2
+Omni & Gray Pink (6 Suits)	846	13	55	4
+Omni-Ones & Gray (5 Suits)	479	13	13	1
+Omni-Ones & Null (5 Suits)	471	13	13	1
+Pink & Cocoa Rainbow (6 Suits)	827	13	145	11
+Pink-Ones & Black (6 Suits)	1312	13	53	4
+Prism & Cocoa Rainbow (5 Suits)	1534	13	55	4
+Rainbow-Fives & Cocoa Rainbow (5 Suits)	948	13	13	1
+Rainbow-Fives & Gray (6 Suits)	558	13	13	1
+Rainbow-Ones & Dark Brown (6 Suits)	320	13	27	2
+Throw It in a Hole & Pink (5 Suits)	1224	13	26	2
+White & Dark Prism (5 Suits)	1490	13	175	13
+White-Fives & Pink (6 Suits)	606	13	13	1
+White-Ones & Null (5 Suits)	391	13	27	2
+Alternating Clues & Brown (6 Suits)	1258	14	14	1
+Alternating Clues & Pink (6 Suits)	1250	14	44	3
+Ambiguous & Dark Pink (5 Suits)	1372	14	29	2
+Brown & Gray (5 Suits)	88	14	203	14
+Brown-Fives & Brown (4 Suits)	656	14	14	1
+Clue Starved & Pink (5 Suits)	1280	14	89	6
+Clue Starved & Pink (6 Suits)	1279	14	57	4
+Dark Rainbow & Dark Brown (6 Suits)	96	14	44	3
+Dual-Color Mix	7	14	2791	192
+Extremely Ambiguous & Black (5 Suits)	1382	14	14	1
+Gray Pink & Dark Prism (6 Suits)	1544	14	14	1
+Light Pink & Cocoa Rainbow (5 Suits)	838	14	57	4
+Light Pink & Dark Pink (6 Suits)	1306	14	87	6
+Light Pink & Dark Prism (5 Suits)	1520	14	42	3
+Muddy-Rainbow-Ones & Dark Omni (5 Suits)	1056	14	28	2
+Null & Cocoa Rainbow (6 Suits)	835	14	29	2
+Null & Dark Prism (6 Suits)	1507	14	14	1
+Null-Ones & Brown (6 Suits)	502	14	14	1
+Number Mute (3 Suits)	117	14	42	3
+Pink-Fives & Dark Null (5 Suits)	597	14	28	2
+Prism & Gray (5 Suits)	1526	14	114	8
+Rainbow & Dark Brown (5 Suits)	93	14	284	20
+White-Fives & Cocoa Rainbow (5 Suits)	972	14	14	1
+Ambiguous & Null (5 Suits)	1365	15	31	2
+Ambiguous Mix	20	15	673	44
+Black & Omni (6 Suits)	186	15	598	39
+Black & Rainbow (5 Suits)	66	15	2042	131
+Brown & Gray Pink (6 Suits)	844	15	127	8
+Brown-Fives & Black (5 Suits)	1329	15	15	1
+Brown-Ones & Dark Brown (5 Suits)	441	15	60	4
+Brown-Ones & Dark Pink (6 Suits)	436	15	31	2
+Brown-Ones & Dark Rainbow (6 Suits)	434	15	63	4
+Clue Starved & Rainbow (6 Suits)	53	15	136	9
+Deceptive-Fives & Cocoa Rainbow (6 Suits)	1785	15	15	1
+Dual-Color & Cocoa Rainbow (6 Suits)	1446	15	78	5
+Dual-Color & Dark Rainbow (6 Suits)	1440	15	195	13
+Gray & Dark Prism (6 Suits)	1539	15	15	1
+Light Pink & Gray (6 Suits)	812	15	47	3
+Muddy Rainbow & Dark Omni (5 Suits)	819	15	46	3
+Muddy Rainbow & Gray Pink (5 Suits)	851	15	47	3
+Null & Dark Brown (6 Suits)	240	15	60	4
+Null & Muddy Rainbow (3 Suits)	779	15	63	4
+Null-Fives & Dark Brown (6 Suits)	752	15	15	1
+Throw It in a Hole & Null (4 Suits)	1237	15	15	1
+Alternating Clues & White (6 Suits)	1254	16	67	4
+Ambiguous & Dark Prism (5 Suits)	1643	16	16	1
+Ambiguous & Null (3 Suits)	1366	16	16	1
+Black & Null (6 Suits)	188	16	422	25
+Brown-Ones & Cocoa Rainbow (5 Suits)	912	16	16	1
+Cow & Pig (6 Suits)	98	16	192	12
+Dark Omni & Dark Prism (6 Suits)	1541	16	16	1
+Dark Pink & Dark Omni (6 Suits)	270	16	67	4
+Dark Pink & Dark Prism (6 Suits)	1538	16	33	2
+Extremely Ambiguous & Null (5 Suits)	1401	16	16	1
+Muddy-Rainbow-Fives & Dark Rainbow (5 Suits)	1152	16	16	1
+Omni & Dark Rainbow (6 Suits)	226	16	164	10
+Omni-Fives & Dark Rainbow (6 Suits)	706	16	16	1
+Omni-Fives & Prism (6 Suits)	1617	16	16	1
+Pink & Dark Omni (6 Suits)	247	16	300	18
+Pink & Gray Pink (6 Suits)	1302	16	148	9
+White-Fives & Null (3 Suits)	625	16	16	1
+Ambiguous & Gray (5 Suits)	1373	17	35	2
+Clue Starved & Muddy Rainbow (6 Suits)	1289	17	35	2
+Clue Starved (6 Suits)	51	17	880	50
+Null-Fives & Brown (6 Suits)	734	17	35	2
+Omni & Dark Brown (5 Suits)	239	17	68	4
+Omni-Ones & Gray Pink (6 Suits)	925	17	17	1
+Pink-Fives & Dark Brown (6 Suits)	592	17	34	2
+Pink-Ones & Dark Omni (6 Suits)	362	17	17	1
+Pink-Ones & Dark Prism (5 Suits)	1556	17	17	1
+Pink-Ones & Omni (6 Suits)	346	17	17	1
+White & Dark Null (6 Suits)	262	17	53	3
+Brown-Fives & Black (6 Suits)	1328	18	37	2
+Dark Rainbow (6 Suits)	11	18	9531	519
+Omni & Dark Brown (6 Suits)	238	18	90	5
+Rainbow-Ones & Cocoa Rainbow (6 Suits)	875	18	54	3
+Rainbow-Ones & Dark Brown (5 Suits)	321	18	54	3
+Rainbow-Ones & Dark Prism (6 Suits)	1549	18	36	2
+Ambiguous & Dark Omni (5 Suits)	1375	19	19	1
+Black & Null (5 Suits)	189	19	471	24
+Black (6 Suits)	2	19	36735	1928
+Brown & Cocoa Rainbow (5 Suits)	832	19	95	5
+Clue Starved & Prism (5 Suits)	1659	19	137	7
+Dark Null & Cocoa Rainbow (6 Suits)	860	19	39	2
+Muddy-Rainbow-Ones & Gray Pink (6 Suits)	1061	19	19	1
+Muddy-Rainbow-Ones & Light Pink (4 Suits)	1045	19	19	1
+Muddy-Rainbow-Ones & Muddy Rainbow (6 Suits)	1039	19	19	1
+Null & Dark Rainbow (6 Suits)	228	19	39	2
+Omni & Cocoa Rainbow (6 Suits)	833	19	39	2
+Omni & Dark Prism (6 Suits)	1501	19	114	6
+Omni-Fives & Omni (6 Suits)	698	19	59	3
+Pink-Fives & Cocoa Rainbow (6 Suits)	959	19	19	1
+Pink-Ones & Dark Rainbow (6 Suits)	354	19	39	2
+Rainbow-Fives & Dark Rainbow (5 Suits)	555	19	19	1
+White-Ones & Dark Null (5 Suits)	405	19	19	1
+Alternating Clues & Dark Rainbow (5 Suits)	1449	20	41	2
+Dark Brown & Dark Omni (6 Suits)	274	20	82	4
+Extremely Ambiguous & Dark Brown (6 Suits)	1415	20	40	2
+Light Pink & Gray (5 Suits)	813	20	62	3
+Muddy-Rainbow-Fives & Gray (5 Suits)	1156	20	20	1
+Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	1143	20	20	1
+Omni & Dark Null (5 Suits)	267	20	41	2
+Omni-Ones & Dark Pink (6 Suits)	476	20	20	1
+Pink-Fives & Cocoa Rainbow (5 Suits)	960	20	20	1
+Pink-Ones & Black (5 Suits)	1313	20	82	4
+White-Fives & Cocoa Rainbow (6 Suits)	971	20	20	1
+Ambiguous & Dark Null (5 Suits)	1376	21	21	1
+Dark Pink & Gray Pink (6 Suits)	1309	21	43	2
+Deceptive-Fives & Brown (6 Suits)	1749	21	42	2
+Duck (6 Suits)	54	21	275	13
+Extremely Ambiguous & Gray Pink (6 Suits)	1423	21	21	1
+Light Pink & Dark Pink (5 Suits)	1307	21	64	3
+Null-Ones & Dark Prism (6 Suits)	1579	21	21	1
+Omni & Dark Null (6 Suits)	266	21	42	2
+Very Ambiguous & Light Pink (4 Suits)	1408	21	43	2
+Dark Null (5 Suits)	256	22	800	36
+Null-Fives & Omni (5 Suits)	739	22	22	1
+Omni & Dark Prism (5 Suits)	1502	22	68	3
+Alternating Clues & Rainbow (6 Suits)	1246	23	71	3
+Black & Cocoa Rainbow (6 Suits)	826	23	141	6
+Brown-Fives & Omni (3 Suits)	661	23	23	1
+Dark Null (6 Suits)	255	23	768	33
+Extremely Ambiguous & Light Pink (6 Suits)	1406	23	23	1
+Light Pink & Dark Omni (6 Suits)	820	23	70	3
+Light-Pink-Ones & Black (6 Suits)	1334	23	23	1
+Null & Gray (6 Suits)	236	23	46	2
+Number Mute (6 Suits)	114	23	47	2
+Pink-Ones & Gray (5 Suits)	359	23	71	3
+Rainbow-Ones & Gray (5 Suits)	319	23	23	1
+Brown & Dark Null (5 Suits)	265	24	48	2
+Deceptive-Fives & Light Pink (6 Suits)	1765	24	24	1
+Light-Pink-Ones & Dark Rainbow (6 Suits)	1099	24	24	1
+Muddy-Rainbow-Fives & Dark Rainbow (6 Suits)	1151	24	24	1
+Alternating Clues & Omni (6 Suits)	1262	25	25	1
+Clue Starved & Light Pink (6 Suits)	1291	25	50	2
+Deceptive-Fives & Gray (6 Suits)	1777	25	25	1
+Light-Pink-Fives & Dark Pink (5 Suits)	1206	25	25	1
+Light-Pink-Ones & Dark Prism (6 Suits)	1591	25	25	1
+Black & Dark Omni (6 Suits)	244	26	239	9
+Dark Brown & Gray Pink (6 Suits)	857	26	26	1
+Dark Rainbow & Cocoa Rainbow (6 Suits)	1308	26	80	3
+Light-Pink-Ones & Gray (5 Suits)	1104	26	26	1
+Muddy-Rainbow-Fives & Dark Prism (5 Suits)	1634	26	26	1
+Deceptive-Fives & Dark Rainbow (6 Suits)	1773	27	27	1
+Light-Pink-Ones & Brown (6 Suits)	1079	27	27	1
+Null & Cocoa Rainbow (5 Suits)	836	27	27	1
+Omni-Fives & Cocoa Rainbow (6 Suits)	995	27	27	1
+Clue Starved & Brown (6 Suits)	1283	28	57	2
+Dark Rainbow & Gray (6 Suits)	62	28	144	5
+Muddy Rainbow & Dark Brown (5 Suits)	815	28	56	2
+Muddy Rainbow & Dark Omni (6 Suits)	818	28	56	2
+Null & Dark Rainbow (5 Suits)	229	28	56	2
+Clue Starved & Null (6 Suits)	1287	29	59	2
+Light Pink & Dark Null (6 Suits)	824	29	58	2
+Muddy-Rainbow-Fives & Gray Pink (6 Suits)	1165	29	29	1
+Rainbow & Dark Null (6 Suits)	258	29	175	6
+White Reversed (6 Suits)	1356	29	4530	153
+Black & Gray (6 Suits)	60	30	948	31
+Dark Rainbow & Gray Pink (6 Suits)	852	30	30	1
+Deceptive-Fives & Dark Omni (6 Suits)	1781	30	30	1
+Number Mute (4 Suits)	116	30	30	1
+Dark Pink & Gray (6 Suits)	147	32	352	11
+Gray & Dark Omni (6 Suits)	272	32	64	2
+Deceptive-Fives & Dark Pink (6 Suits)	1775	33	33	1
+Gray & Dark Brown (6 Suits)	97	33	99	3
+Black & Dark Prism (6 Suits)	1472	34	204	6
+Extremely Ambiguous & Black (6 Suits)	1379	34	69	2
+Muddy-Rainbow-Ones & Black (6 Suits)	1330	34	137	4
+Dark Rainbow & Dark Prism (6 Suits)	1537	35	143	4
+Muddy-Rainbow-Fives & Pink (6 Suits)	1123	35	71	2
+Number Mute (5 Suits)	115	35	107	3
+Black & Dark Rainbow (6 Suits)	12	36	1923	53
+Null-Fives & Dark Brown (5 Suits)	753	37	37	1
+Special Mix (5 Suits)	159	37	4085	110
+White-Fives & Dark Rainbow (6 Suits)	626	37	75	2
+Light-Pink-Fives & Dark Omni (6 Suits)	1211	38	76	2
+Dark Rainbow & Dark Pink (6 Suits)	146	39	276	7
+Dark Brown & Dark Null (6 Suits)	275	40	80	2
+Special Mix (6 Suits)	185	40	1878	46
+Black & Dark Null (6 Suits)	257	41	208	5
+Pink-Fives & Dark Omni (6 Suits)	594	42	42	1
+Pink-Fives & Gray Pink (6 Suits)	961	42	42	1
+Deceptive-Fives & Dark Brown (6 Suits)	1779	43	43	1
+Dark Rainbow & Dark Omni (6 Suits)	268	44	133	3
+Dark Rainbow & Dark Null (6 Suits)	269	45	90	2
+Omni-Fives & Dark Rainbow (5 Suits)	707	47	47	1
+Pink & Dark Null (6 Suits)	260	47	141	3
+Null & Dark Omni (6 Suits)	253	48	48	1
+Gray & Dark Null (6 Suits)	273	53	107	2
+Alternating Clues & Dark Rainbow (6 Suits)	1448	58	58	1
+Null-Fives & Dark Rainbow (6 Suits)	746	58	58	1
+Pink-Ones & Gray Pink (6 Suits)	889	59	118	2
+Cocoa Rainbow & Gray Pink (6 Suits)	862	63	127	2
+Dark Omni & Gray Pink (6 Suits)	859	64	64	1
+Gray & Cocoa Rainbow (6 Suits)	854	67	134	2
+Black & Dark Pink (6 Suits)	139	77	856	11
+Black & Dark Brown (6 Suits)	91	78	628	8
+Dark Pink & Dark Brown (6 Suits)	148	79	316	4
+Dark Omni & Cocoa Rainbow (6 Suits)	858	82	82	1
+White-Fives & Dark Null (5 Suits)	637	93	186	2
+White-Fives & Dark Null (6 Suits)	636	102	102	1
+Dark Brown & Dark Prism (6 Suits)	1540	114	228	2
+Gray & Gray Pink (6 Suits)	855	114	229	2
+Dark Null & Dark Prism (6 Suits)	1542	123	123	1
+Dark Omni & Dark Null (6 Suits)	276	134	404	3
+Cocoa Rainbow & Dark Prism (6 Suits)	1543	139	139	1
+Pink-Ones & Gray Pink (5 Suits)	890	200	200	1
