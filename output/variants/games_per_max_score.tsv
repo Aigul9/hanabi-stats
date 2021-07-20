@@ -1,4 +1,4 @@
-variant wr  count   num_max_scores
+variant	wr	count	num_max_scores
 Alternating Clues & Pink (4 Suits)	1	1	1
 Alternating Clues & Rainbow (3 Suits)	1	3	2
 Ambiguous & Muddy Rainbow (3 Suits)	1	7	4
