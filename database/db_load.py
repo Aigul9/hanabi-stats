@@ -122,5 +122,41 @@ def update_game(s):
     game.tags = s['tags']
 
 
+def load_empty_game(g):
+    g_id = g['id']
+    try:
+        starting_player = g['options']['startingPlayer']
+    except KeyError:
+        starting_player = None
+    game = Game(
+        g_id,
+        None,
+        g['players'],
+        starting_player,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        g['seed']
+    )
+    session.add(game)
+
+
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)

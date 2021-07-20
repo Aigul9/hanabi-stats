@@ -4,7 +4,7 @@ import py.utils as u
 
 
 def open_notes_stats(username):
-    with open(f'../output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
+    with open(f'output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
         user_notes = []
         for line in file.readlines():
             user_notes.append(line.rstrip().split('\t'))
@@ -109,7 +109,7 @@ def freq_names(data, users):
 
 
 def save(data):
-    with open(f'../output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Player', *data.keys()])
         for k, v in data.items():
@@ -117,7 +117,7 @@ def save(data):
 
 
 def save_words(words, users):
-    with open(f'../output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Words', 'Frequency', f'Number of vocabularies (All = {len(users)})'])
         for k, v in words.items():
@@ -133,7 +133,7 @@ def save_words(words, users):
 
 
 def save_dict(data):
-    with open(f'../output/hanabi_dictionary.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'output/hanabi_dictionary.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Word', 'Frequency'])
         for k, v in sorted(data.items()):

@@ -2,7 +2,7 @@ import py.utils as u
 from database.db_connect import session, Game, Card, GameAction, PlayerNotes
 
 
-def get_notes_rate(stats):
+def get_notes_rate(user, stats):
     stats = u.filter_id_notes(u.clear_2p(stats))
     stats = stats[:len(stats) - 10]
     user_rate = {'pl_notes': 0, 'visible_cards': 0}
@@ -20,7 +20,7 @@ def get_notes_rate(stats):
         visible_cards = min(starting_cards + drawn_cards, total_cards)
         pl_notes = session.query(PlayerNotes.notes) \
             .filter(PlayerNotes.game_id == g_id) \
-            .filter(PlayerNotes.player == u) \
+            .filter(PlayerNotes.player == user) \
             .scalar()
         if pl_notes is not None:
             pl_notes = len([r for r in pl_notes if r != ''])
@@ -28,4 +28,4 @@ def get_notes_rate(stats):
             continue
         user_rate['pl_notes'] += pl_notes
         user_rate['visible_cards'] += visible_cards
-    return user_rate
+    return round(user_rate['pl_notes'] / user_rate['visible_cards'], 4)

@@ -63,12 +63,17 @@ def save(path, data, header):
             w.writerow([k, *v])
 
 
-def save_value(path, data, header):
+def save_value(path, data):
+    with open(f'{path}.tsv', 'a', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        for k, v in data.items():
+            w.writerow([k, v])
+
+
+def save_header(path, header):
     with open(f'{path}.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(header)
-        for k, v in data.items():
-            w.writerow([k, v])
 
 
 # HQL-related functions
@@ -133,6 +138,7 @@ def get_number_of_suits(variant):
         'Ambiguous Mix': 6,
         'Ambiguous & Dual-Color': 6
     }
+
     return default_suits.get(variant, variant[-8:-7])
 
 
@@ -229,7 +235,7 @@ def sort(data, col_ind):
 
 
 def sort_by_key(data):
-    return {k: v for k, v in sorted(data.items(), key=lambda x: x[0])}
+    return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}
 
 
 def sort_by_value(data):
@@ -327,7 +333,7 @@ def save_plots(data, hours_header):
         x = hours_header
         y = [v[key]['win'] for key in v.keys()]
         n = [v[key]['total'] for key in v.keys()]
-        plt.figure(figsize=(12, 5))
+        fig = plt.figure(figsize=(12, 5))
         plt.xlabel('Hours (UTC)')
         plt.ylabel('Total games (#)')
         plt.scatter(x, n)
@@ -336,3 +342,4 @@ def save_plots(data, hours_header):
         plt.title('Win/loss ratio (%)')
         plt.plot(x, n)
         plt.savefig(f'output/time/plots/{k}.png')
+        plt.close(fig)

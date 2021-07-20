@@ -28,20 +28,20 @@ def save(username, data):
 
 
 def save_count(user, data_user):
-    with open(f'output/notes/notes_count.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('output/notes/notes_count.tsv', 'a', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE)
-        # w.writerow(['Note', 'Count', 'Per game'])
         w.writerow([user, data_user['count'], data_user['len']])
 
 
-def update_notes_count(notes):
+def update_notes_count(notes, notes_count):
     # notes per game
     n_len = len([r for r in notes if r != ''])
     notes_count['len'] += n_len
     notes_count['count'] += 1
+    return notes_count
 
 
-def update_user_notes(notes):
+def update_user_notes(notes, user_portrait):
     # portrait
     notes = [decode(n) for n in notes if n != '']
     for n in notes:
@@ -59,10 +59,16 @@ def update_user_notes(notes):
                 user_portrait[n1] += 1
             else:
                 user_portrait[n1] = 1
+    return user_portrait
 
 
 def get_notes_stats(user, stats):
     stats = u.filter_id_notes(stats)
+    user_portrait = {}
+    notes_count = {
+        'len': 0,
+        'count': 0
+    }
     for s in stats:
         g_id = s['id']
         notes = session.query(PlayerNotes.notes)\
@@ -70,13 +76,7 @@ def get_notes_stats(user, stats):
             .filter(PlayerNotes.player == user)\
             .scalar()
         if notes is not None:
-            update_user_notes(notes)
-            update_notes_count(notes)
+            user_portrait = update_user_notes(notes, user_portrait)
+            notes_count = update_notes_count(notes, notes_count)
+    notes_count['count'] = round(notes_count['len'] / notes_count['count'])
     return user_portrait, notes_count
-
-
-user_portrait = {}
-notes_count = {
-    'len': 0,
-    'count': 0
-}
