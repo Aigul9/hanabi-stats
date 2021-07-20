@@ -1,6 +1,8 @@
 import logging
 
-from database.db_connect import session, Game, Card, GameAction, PlayerNotes
+import psycopg2
+
+from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant
 
 
 def load_game(g, s):
@@ -120,6 +122,20 @@ def update_game(s):
     game.date_time_finished = s['datetimeFinished']
     game.num_games_on_this_seed = s['numGamesOnThisSeed']
     game.tags = s['tags']
+
+
+def load_variant(variant, variant_id):
+    var = Variant(
+        variant_id,
+        variant,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None
+    )
+    session.add(var)
 
 
 def load_empty_game(g):
