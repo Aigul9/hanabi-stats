@@ -1,11 +1,19 @@
 import csv
 import errno
+import logging
 import os
 import requests
 from datetime import datetime
 from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
+
+
+logging.basicConfig(
+    format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
+    level=logging.INFO
+)
+logger = logging.getLogger(__name__)
 
 
 # Parsing
@@ -171,8 +179,23 @@ def switch_rank_mod_next(indices, index):
     return indices[(index + 1) % len(indices)]
 
 
-def get_number_of_starting_cards(n_players):
-    return n_players * 5 if n_players == 3 else n_players * 4
+def get_number_of_starting_cards(n_players, one_less_card, one_extra_card):
+    return get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card) * n_players
+
+
+def get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card):
+    cards = {
+        2: 5,
+        3: 5,
+        4: 4,
+        5: 4,
+        6: 3
+    }
+    if one_less_card:
+        return cards[n_players] - 1
+    if one_extra_card:
+        return cards[n_players] + 1
+    return cards[n_players]
 
 
 def get_number_of_plays_or_discards(actions):

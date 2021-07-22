@@ -7,14 +7,16 @@ import py.utils as u
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-hanabi_players = u.open_file('../output/unnest_players_character_varying_.tsv')
+hanabi_players = u.open_file('../temp/unnest_players_character_varying_.tsv')
 for p in hanabi_players:
     try:
-        stats = u.open_stats(p)
+        stats = sorted(u.open_stats(p), key=lambda x: x['id'])
     except json.decoder.JSONDecodeError:
         logger.error(p)
         continue
     for s in stats:
-        d.update_game(s)
+        status = d.update_game(s)
+        if status == -1:
+            break
     d.session.commit()
     logger.info(p)

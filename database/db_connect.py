@@ -93,12 +93,15 @@ class GameAction(Base):
     __tablename__ = 'game_actions'
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
     turn = Column(Integer, primary_key=True)
+
     # 0 - play, 1 - discard, 2 - color clue, 3 - rank clue, 4 - game over
     action_type = Column(Integer)
+
     # If a play or a discard, corresponds to the order of the the card that was played/discard
     # If a clue, corresponds to the index of the player that received the clue
     # If a game over, corresponds to the index of the player that caused the game to end
     target = Column(Integer)
+
     # If a play or discard, then 0 (as NULL)
     # If a color clue, then 0 if red, 1 if yellow, etc.
     # If a rank clue, then 1 if 1, 2 if 2, etc.
@@ -135,6 +138,14 @@ class Variant(Base):
     max_score_4p = Column(Integer)
     max_score_5p = Column(Integer)
     max_score_6p = Column(Integer)
+    suits = Column(ARRAY(String))
+    special_rank = Column(Integer)
+    special_deceptive = Column(Boolean)
+    special_all_clue_colors = Column(Boolean)
+    special_all_clue_ranks = Column(Boolean)
+    special_no_clue_colors = Column(Boolean)
+    special_no_clue_ranks = Column(Boolean)
+    colors = Column(ARRAY(String))
 
     def __init__(self,
                  variant_id,
@@ -144,7 +155,15 @@ class Variant(Base):
                  max_score_3p,
                  max_score_4p,
                  max_score_5p,
-                 max_score_6p):
+                 max_score_6p,
+                 suits,
+                 special_rank,
+                 special_deceptive,
+                 special_all_clue_colors,
+                 special_all_clue_ranks,
+                 special_no_clue_colors,
+                 special_no_clue_ranks,
+                 colors):
         self.variant_id = variant_id
         self.variant = variant
         self.max_score = max_score
@@ -153,6 +172,59 @@ class Variant(Base):
         self.max_score_4p = max_score_4p
         self.max_score_5p = max_score_5p
         self.max_score_6p = max_score_6p
+        self.suits = suits
+        self.special_rank = special_rank
+        self.special_deceptive = special_deceptive
+        self.special_all_clue_colors = special_all_clue_colors
+        self.special_all_clue_ranks = special_all_clue_ranks
+        self.special_no_clue_colors = special_no_clue_colors
+        self.special_no_clue_ranks = special_no_clue_ranks
+        self.colors = colors
+
+
+class CardAction(Base):
+    __tablename__ = 'card_actions'
+    card_index = Column(Integer, primary_key=True)
+    game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
+    # Muddy Rainbow
+    card_suit = Column(String)
+    card_rank = Column(Integer)
+    player = Column(String)
+    turn_drawn = Column(Integer)
+    # play, discard
+    action_type = Column(String)
+    turn_action = Column(Integer)
+
+    def __init__(self, card_index, game_id, card_suit, card_rank, player,
+                 turn_drawn, action_type, turn_action):
+        self.card_index = card_index
+        self.game_id = game_id
+        self.card_suit = card_suit
+        self.card_rank = card_rank
+        self.player = player
+        self.turn_drawn = turn_drawn
+        self.action_type = action_type
+        self.turn_action = turn_action
+
+
+class Clue(Base):
+    __tablename__ = 'clues'
+    turn_clued = Column(Integer, primary_key=True)
+    game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
+    # Purple, 5
+    clue = Column(String)
+    # color, rank
+    clue_type = Column(String)
+    clue_giver = Column(String)
+    clue_receiver = Column(String)
+
+    def __init__(self, turn_clued, game_id, clue, clue_type, clue_giver, clue_receiver):
+        self.turn_clued = turn_clued
+        self.game_id = game_id
+        self.clue = clue
+        self.clue_type = clue_type
+        self.clue_giver = clue_giver
+        self.clue_receiver = clue_receiver
 
 
 Base.metadata.create_all(db)

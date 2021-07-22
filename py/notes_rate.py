@@ -2,6 +2,7 @@ import py.utils as u
 from database.db_connect import session, Game, Card, GameAction, PlayerNotes
 
 
+# TODO: refactor using only db
 def get_notes_rate(user, stats):
     stats = u.filter_id_notes(u.clear_2p(stats))
     stats = stats[:len(stats) - 10]
@@ -13,7 +14,11 @@ def get_notes_rate(user, stats):
         deck = session.query(Card).filter(Card.seed == s['seed']).all()
         total_cards = len(deck)
         try:
-            starting_cards = u.get_number_of_starting_cards(len(players))
+            starting_cards = u.get_number_of_starting_cards(
+                len(players),
+                s['options']['oneLessCard'],
+                s['options']['oneExtraCard']
+            )
         except TypeError:
             continue
         drawn_cards = u.get_number_of_plays_or_discards(actions)

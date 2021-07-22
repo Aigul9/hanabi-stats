@@ -1,6 +1,41 @@
-inspect -f '{{ json .Mounts }}' hanabistats_db_1 | python -m json.tool
+1. container id and name
+docker ps
 
-docker cp </path/to/dump/in/host> hanabistats_db_1:<path_to_volume>
+2. volume
+inspect -f '{{ json .Mounts }}' 02289cd0786a | python -m json.tool
 
+create volume:
 docker volume create myvol
 docker volume inspect myvol
+docker volume inspect --format "{{ .Mountpoint }}" myvol
+docker inspect 8984c0371d6c
+
+3. db dump
+docker exec -u postgres hanabistats_db_1 pg_dump -Fc hanabi_db > hanabi_db.dump
+docker exec -t hanabistats_db_1 pg_dumpall -c -U postgres > hanabi_dump.sql
+reduce file size:
+docker exec -t your-db-container pg_dumpall -c -U your-db-user | gzip > ./dump_$(date +"%Y-%m-%d_%H_%M_%S").gz
+
+4. copy dump
+docker cp </path/to/dump/in/host> hanabistats_db_1:<path_to_volume>
+docker cp db.dump hanabistats_db_1:/var/lib/docker/volumes/myvol/_data
+
+5. create container (hanabistats_dump - container name)
+docker run --name hanabistats_dump -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres
+
+6. owners
+docker exec hanabistats_dump psql -U postgres -l
+
+7. restore
+docker exec -i hanabistats_db_1 pg_restore -U postgres -d hanabi_db < db.dump
+type hanabi_dump.sql | docker exec -i hanabistats_dump psql -U postgres
+
+containers names:
+docker ps --format "{{.Names}}"
+
+docker exec -i <CONTAINER> -U <USER> -d <DB-NAME> < <PATH-TO-DUMP>
+docker exec -i hanabistats_db_1 psql -U postgres -d hanabi_db < hanabi_dump.sql
+
+docker run -d --name postgres -p 5432:5432 --mount source=myvol,target=/var/lib/docker/volumes/myvol/_data
+
+TODO: copy db, consult, save into image

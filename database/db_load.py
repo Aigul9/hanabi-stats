@@ -1,7 +1,5 @@
 import logging
 
-import psycopg2
-
 from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant
 
 
@@ -94,11 +92,10 @@ def update_game(s):
     game = session.query(Game).filter(Game.game_id == g_id).first()
     if game is None:
         logger.info(f'{g_id} doesn\'t exist in db.')
-        return
+        return -1
     num_players = session.query(Game.num_players).filter(Game.game_id == g_id).scalar()
     if num_players is not None:
-        # logger.info(f'{g_id} is already updated.')
-        return
+        return 0
     game.num_players = opt['numPlayers']
     if game.starting_player is None:
         game.starting_player = opt['startingPlayer']
@@ -122,6 +119,7 @@ def update_game(s):
     game.date_time_finished = s['datetimeFinished']
     game.num_games_on_this_seed = s['numGamesOnThisSeed']
     game.tags = s['tags']
+    return 1
 
 
 def load_variant(variant, variant_id):
