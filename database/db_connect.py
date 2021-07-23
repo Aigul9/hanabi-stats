@@ -230,5 +230,3 @@ class Clue(Base):
 Base.metadata.create_all(db)
 session = Session()
 session.commit()
-
-# delete from games where 1 = 1
