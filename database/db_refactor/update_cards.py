@@ -22,8 +22,6 @@ for g_id in [9524]:
             .join(CardAction)\
             .filter(Game.game_id == g_id)\
             .first()
-            # .distinct(Game.game_id)\
-            # .filter(Game.starting_player != 0)\
 # for game_id, seed, players, num_players, variant_id, starting_player, one_less_card, one_extra_card in games:
     logger.info(game_id)
     game_card_actions = session.query(CardAction).filter(CardAction.game_id == game_id)

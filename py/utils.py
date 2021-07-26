@@ -147,11 +147,11 @@ def get_number_of_suits(variant):
         'Ambiguous & Dual-Color': 6
     }
 
-    return default_suits.get(variant, variant[-8:-7])
+    return int(default_suits.get(variant, variant[-8:-7]))
 
 
 def get_max_score(variant):
-    return int(get_number_of_suits(variant)) * 5
+    return get_number_of_suits(variant) * 5
 
 
 def convert_action_types(action_type):
@@ -204,6 +204,10 @@ def get_number_of_plays_or_discards(actions):
 
 def is_clued(action):
     return action.action_type in [2, 3]
+
+
+def is_played(piles, card_suit_ind, card_rank):
+    return piles[card_suit_ind] + 1 == card_rank
 
 
 # Additional functions
