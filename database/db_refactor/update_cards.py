@@ -7,7 +7,7 @@ from database.db_connect import session, Game, GameAction, Card, Variant, CardAc
 # for m in u.open_file('../../temp/mod card_actions.txt'):
 #     mod_actions_ids.append([int(s) for s in m.split() if s.isdigit()][0])
 #
-for g_id in [9524]:
+for g_id in [9107]:
     game_id, seed, players, num_players, variant_id, starting_player, one_less_card, one_extra_card =\
         session.query(
             Game.game_id,
@@ -30,6 +30,16 @@ for g_id in [9524]:
     players_orig = players
     players_mod = (players[starting_player:] + players[:starting_player])
     current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
+    cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
+    suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
+
+    for i in range(current_card_ind):
+        player = players_mod[i // cards_per_hand]
+        card_action = game_card_actions\
+            .filter(CardAction.card_index == i)\
+            .first()
+        card_action.player = player
+        card_action.turn_drawn = 0
 
     for action in actions:
         if u.is_clued(action):

@@ -8,9 +8,14 @@ games = session.query(
     Game.variant
 ) \
     .join(CardAction) \
+    .filter(Game.variant.contains('Reversed'))\
+    .filter(Game.game_id >= 569299)\
     .distinct(Game.game_id)\
     .order_by(Game.game_id)\
     .all()
+
+# .filter(Game.game_id == 186841).all()
+
 
 # TODO: select misplays > 3
 for game_id, variant in games:
@@ -20,7 +25,12 @@ for game_id, variant in games:
         .order_by(CardAction.turn_action)\
         .all()
     suits = session.query(Variant.suits).filter(Variant.variant == variant).scalar()
-    piles = [0] * u.get_number_of_suits(variant)
+    if 'Up or Down' in variant:
+        piles = [[0, '']] * u.get_number_of_suits(variant)
+    else:
+        piles = [[0, 'up']] * u.get_number_of_suits(variant)
+        if 'Reversed' in variant:
+            piles[len(suits) - 1] = [6, 'down']
     for card_action in game_card_actions:
         if card_action.action_type in ['play', 'misplay']:
             card_suit_ind = suits.index(card_action.card_suit)
@@ -28,6 +38,9 @@ for game_id, variant in games:
                 card_action.action_type = 'misplay'
             else:
                 card_action.action_type = 'play'
-                piles[card_suit_ind] = card_action.card_rank
+                piles[card_suit_ind] = [
+                    card_action.card_rank,
+                    u.up_or_down_direction(piles, card_suit_ind, card_action.card_rank)
+                ]
     session.commit()
 session.close()

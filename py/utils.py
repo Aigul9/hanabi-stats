@@ -207,7 +207,31 @@ def is_clued(action):
 
 
 def is_played(piles, card_suit_ind, card_rank):
-    return piles[card_suit_ind] + 1 == card_rank
+    suit_stack, direction = piles[card_suit_ind]
+    if direction == 'up':
+        return suit_stack + 1 == card_rank
+    elif direction == 'down':
+        return suit_stack - 1 == card_rank
+    elif direction == '':
+        if suit_stack == 0 and card_rank in (1, 5, 7):
+            return True
+        if suit_stack == 7 and card_rank in [2, 4]:
+            return True
+        else:
+            return False
+
+
+def up_or_down_direction(piles, card_suit_ind, card_rank):
+    direction = piles[card_suit_ind][1]
+    if direction == '':
+        directions = {
+            1: 'up',
+            2: 'up',
+            4: 'down',
+            5: 'down'
+        }
+        return directions.get(card_rank, '')
+    return direction
 
 
 # Additional functions

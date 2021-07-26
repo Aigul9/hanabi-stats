@@ -37,6 +37,15 @@ class Game(Base):
     detrimental_characters = Column(Boolean)
     score = Column(Integer)
     num_turns = Column(Integer)
+    # 1: normal
+    # 2: strikeout
+    # 3: timeout
+    # 4: terminated
+    # 5: speedrunfail
+    # 6: idle
+    # 7: charsoftlock
+    # 8: all or nothing fail
+    # 9: all or nothing soft lock
     end_condition = Column(Integer)
     date_time_started = Column(DateTime)
     date_time_finished = Column(DateTime)

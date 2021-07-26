@@ -71,6 +71,5 @@ games = session.query(
     .order_by(Game.game_id)\
     .all()
 
-# TODO: 9524 reload
 load_cards(games)
 d.session.close()

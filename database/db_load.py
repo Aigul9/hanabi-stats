@@ -212,7 +212,7 @@ def load_card_actions_and_clues(db_game):
         )
         session.add(new_card_action)
     for i in range(current_card_ind):
-        player = players_mod[i // cards_per_hand]
+        player = players_orig[i // cards_per_hand]
         card_action = game_card_actions\
             .filter(CardAction.card_index == i)\
             .first()
