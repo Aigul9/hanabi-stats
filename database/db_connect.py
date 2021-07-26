@@ -94,18 +94,19 @@ class GameAction(Base):
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
     turn = Column(Integer, primary_key=True)
 
-    # 0 - play, 1 - discard, 2 - color clue, 3 - rank clue, 4 - game over
+    # play: 0
+    # discard: 1
+    # color clue: 2
+    # rank clue: 3
     action_type = Column(Integer)
 
-    # If a play or a discard, corresponds to the order of the the card that was played/discard
-    # If a clue, corresponds to the index of the player that received the clue
-    # If a game over, corresponds to the index of the player that caused the game to end
+    # play/ discard: card index
+    # clue: clue receiver index
     target = Column(Integer)
 
-    # If a play or discard, then 0 (as NULL)
-    # If a color clue, then 0 if red, 1 if yellow, etc.
-    # If a rank clue, then 1 if 1, 2 if 2, etc.
-    # If a game over, then the value corresponds to the 'endCondition' values
+    # play/discard: 0
+    # color clue: color index
+    # rank clue: rank
     value = Column(Integer)
 
     def __init__(self, game_id, turn, action_type, target, value):

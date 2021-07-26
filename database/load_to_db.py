@@ -1,8 +1,9 @@
 import json
-import logging
 
-import py.utils as ut
+import py.utils as u
 import database.db_load as d
+from py.utils import logger
+from database.db_connect import session, Game, CardAction
 
 
 def open_as_json(filename):
@@ -19,7 +20,7 @@ def open_as_json(filename):
 
 
 def load_games(path):
-    files = ut.files_in_dir(path)
+    files = u.files_in_dir(path)
     data = {}
     for f in files:
         print(f)
@@ -31,20 +32,45 @@ def replace_symbols(name):
     return name.replace(' ', '%20')
 
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+def load_from_files(all_games):
+    for g in all_games.values():
+        s = u.open_stats_by_game_id(g['players'][0], g['id'])
+        d.load_deck(g)
+        d.load_game(g, s)
+        d.load_empty_game(g)
+        d.load_actions(g)
+        d.load_notes(g)
+        d.session.commit()
+        logger.info(g['id'])
+        
+        
+def load_cards(all_games):
+    for g in all_games:
+        d.load_card_actions_and_clues(g)
+        d.session.commit()
+        logger.info(g.game_id)
 
-dumps = '../temp/games_dumps/'
 
-games = load_games(dumps)
-for g in games.values():
-    # s = ut.open_stats_by_game_id(g['players'][0], g['id'])
-    d.load_deck(g)
-    # d.load_game(g, s)
-    d.load_empty_game(g)
-    d.load_actions(g)
-    d.load_notes(g)
-    d.session.commit()
-    logger.info(g['id'])
+# dumps = '../temp/games_dumps/'
+# 
+# games = load_games(dumps)
 
+
+games = session.query(
+    Game.game_id,
+    Game.seed,
+    Game.players,
+    Game.num_players,
+    Game.variant_id,
+    Game.starting_player,
+    Game.one_less_card,
+    Game.one_extra_card
+) \
+    .join(CardAction, isouter=True) \
+    .filter(CardAction.game_id == None) \
+    .order_by(Game.game_id)\
+    .all()
+
+# TODO: 9524 reload
+load_cards(games)
 d.session.close()

@@ -1,5 +1,3 @@
-import csv
-
 import py.utils as u
 from database.db_connect import session, Game, GameAction, Variant
 

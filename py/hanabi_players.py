@@ -30,6 +30,3 @@ with open(f'../output/stats.txt', 'a') as file:
             file.write('\n')
 
 # print(all_stats)
-
-    # for s in sorted(all_stats, key=lambda x: x['id']):
-

@@ -1,12 +1,10 @@
 import json
-import logging
 
 import database.db_load as d
 import py.utils as u
+from py.utils import logger
 
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 hanabi_players = u.open_file('../temp/unnest_players_character_varying_.tsv')
 for p in hanabi_players:
     try:

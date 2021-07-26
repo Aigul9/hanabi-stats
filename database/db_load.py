@@ -1,6 +1,6 @@
-import logging
-
-from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant
+import py.utils as u
+from py.utils import logger
+from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue
 
 
 def load_game(g, s):
@@ -38,6 +38,7 @@ def load_game(g, s):
         g['seed']
     )
     session.add(game)
+    return game
 
 
 def load_deck(g):
@@ -131,6 +132,14 @@ def load_variant(variant, variant_id):
         None,
         None,
         None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        None,
         None
     )
     session.add(var)
@@ -172,5 +181,82 @@ def load_empty_game(g):
     session.add(game)
 
 
-logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+def load_card_actions_and_clues(db_game):
+    game_id = db_game.game_id
+    seed = db_game.seed
+    players = db_game.players
+    num_players = db_game.num_players
+    variant_id = db_game.variant_id
+    starting_player = db_game.starting_player
+    one_less_card = db_game.one_less_card
+    one_extra_card = db_game.one_extra_card
+    actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
+    deck = session.query(Card).filter(Card.seed == seed).all()
+    game_card_actions = session.query(CardAction)\
+        .filter(CardAction.game_id == game_id)
+    suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
+    players_orig = players
+    players_mod = (players[starting_player:] + players[:starting_player])
+    current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
+    cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
+    for card in deck:
+        new_card_action = CardAction(
+            card.card_index,
+            game_id,
+            suits[card.suit_index],
+            card.rank,
+            None,
+            None,
+            None,
+            None
+        )
+        session.add(new_card_action)
+    for i in range(current_card_ind):
+        player = players_mod[i // cards_per_hand]
+        card_action = game_card_actions\
+            .filter(CardAction.card_index == i)\
+            .first()
+        card_action.player = player
+        card_action.turn_drawn = 0
+    for action in actions:
+        if u.is_clued(action):
+            # color
+            if action.action_type == 2:
+                try:
+                    value = colors[action.value]
+                except IndexError:
+                    logger.error(variant_id, action.value, colors)
+                    return
+            # rank
+            else:
+                value = action.value
+            clue = Clue(
+                action.turn + 1,
+                game_id,
+                value,
+                'color' if action.action_type == 2 else 'rank',
+                players_mod[action.turn % num_players],
+                players_orig[action.target]
+            )
+            session.add(clue)
+        elif action.action_type == 4:
+            return
+        elif action.action_type in [0, 1]:
+            types = {
+                0: 'play',
+                1: 'discard'
+            }
+            card_action = game_card_actions\
+                .filter(CardAction.card_index == action.target)\
+                .first()
+            card_action.action_type = types[action.action_type]
+            card_action.turn_action = action.turn + 1
+
+            if current_card_ind == len(deck):
+                continue
+            next_card_action = game_card_actions\
+                .filter(CardAction.card_index == current_card_ind)\
+                .first()
+            next_card_action.turn_drawn = action.turn + 1
+            next_card_action.player = players_mod[action.turn % num_players]
+            current_card_ind += 1
