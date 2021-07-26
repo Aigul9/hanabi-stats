@@ -11,8 +11,8 @@ games = session.query(
     .join(CardAction) \
     .filter(
     and_(
-        Game.game_id >= 144000,
-        Game.game_id <= 152000
+        Game.game_id >= 159000,
+        Game.game_id <= 209000
     )
 )\
     .distinct(Game.game_id)\
