@@ -260,3 +260,30 @@ def load_card_actions_and_clues(db_game):
             next_card_action.turn_drawn = action.turn + 1
             next_card_action.player = players_mod[action.turn % num_players]
             current_card_ind += 1
+
+
+def update_misplays(db_game):
+    game_id = db_game.game_id
+    variant = db_game.variant
+    game_card_actions = session.query(CardAction) \
+        .filter(CardAction.game_id == game_id) \
+        .order_by(CardAction.turn_action) \
+        .all()
+    suits = session.query(Variant.suits).filter(Variant.variant == variant).scalar()
+    if 'Up or Down' in variant:
+        piles = [[0, '']] * u.get_number_of_suits(variant)
+    else:
+        piles = [[0, 'up']] * u.get_number_of_suits(variant)
+        if 'Reversed' in variant:
+            piles[len(suits) - 1] = [6, 'down']
+    for card_action in game_card_actions:
+        if card_action.action_type in ['play', 'misplay']:
+            card_suit_ind = suits.index(card_action.card_suit)
+            if not u.is_played(piles, card_suit_ind, card_action.card_rank):
+                card_action.action_type = 'misplay'
+            else:
+                card_action.action_type = 'play'
+                piles[card_suit_ind] = [
+                    card_action.card_rank,
+                    u.up_or_down_direction(piles, card_suit_ind, card_action.card_rank)
+                ]
