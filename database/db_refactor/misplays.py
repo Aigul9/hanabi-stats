@@ -1,3 +1,5 @@
+from sqlalchemy import and_
+
 import py.utils as u
 from py.utils import logger
 from database.db_connect import session, Game, Variant, CardAction
@@ -8,8 +10,12 @@ games = session.query(
     Game.variant
 ) \
     .join(CardAction) \
-    .filter(Game.variant.contains('Reversed'))\
-    .filter(Game.game_id >= 569299)\
+    .filter(
+    and_(
+        Game.game_id >= 130000,
+        Game.game_id <= 144000
+    )
+)\
     .distinct(Game.game_id)\
     .order_by(Game.game_id)\
     .all()
