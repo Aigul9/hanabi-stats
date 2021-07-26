@@ -3,11 +3,9 @@ from py.utils import logger
 from database.db_connect import session, Game, GameAction, Card, Variant, CardAction, Clue
 
 
-# mod_actions_ids = u.open_file('../../temp/clues_games.txt')
-# for m in u.open_file('../../temp/mod card_actions.txt'):
-#     mod_actions_ids.append([int(s) for s in m.split() if s.isdigit()][0])
-#
-for g_id in [31452]:
+mod_actions_ids = u.open_file('../../temp/ids.txt')
+
+for g_id in mod_actions_ids:
     game_id, seed, players, num_players, variant_id, starting_player, one_less_card, one_extra_card =\
         session.query(
             Game.game_id,
@@ -34,7 +32,7 @@ for g_id in [31452]:
     suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
 
     for i in range(current_card_ind):
-        player = players_mod[i // cards_per_hand]
+        player = players_orig[i // cards_per_hand]
         card_action = game_card_actions\
             .filter(CardAction.card_index == i)\
             .first()
