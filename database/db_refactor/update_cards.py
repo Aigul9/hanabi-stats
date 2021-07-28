@@ -4,7 +4,7 @@ from database.db_connect import session, Game, GameAction, Card, Variant, CardAc
 
 
 mod_actions_ids = u.open_file('../../temp/ids.txt')
-
+# 19644
 for g_id in mod_actions_ids:
     game_id, seed, players, num_players, variant_id, starting_player, one_less_card, one_extra_card =\
         session.query(
