@@ -140,6 +140,8 @@ select distinct player,
                             select count(*)
                             from games
                             where player = any (players)
+                                and speedrun is false
+                                and num_players != 2
                         ), 2
                     ) as ratio,
                 count(*) as misplays,
@@ -148,6 +150,7 @@ select distinct player,
                     from games
                     where player = any (players)
                       and speedrun is false
+                        and num_players != 2
                 ) as games
 from card_actions ca
 join games g on ca.game_id = g.game_id
@@ -157,6 +160,7 @@ and player in (
     from players_list
 )
 and speedrun is false
+and num_players != 2
 group by player
 order by ratio desc, misplays desc, player;
 
