@@ -68,7 +68,7 @@ games = session.query(
     Game.one_less_card,
     Game.one_extra_card
 ) \
-    .filter(Game.game_id >= 463969)\
+    .filter(Game.game_id >= 479271)\
     .order_by(Game.game_id)\
     .all()
     # .join(CardAction, isouter=True) \

@@ -228,8 +228,6 @@ def load_card_actions_and_clues(db_game):
     one_extra_card = db_game.one_extra_card
 
     actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
-    game_card_actions = session.query(CardAction)\
-        .filter(CardAction.game_id == game_id)
     players_mod = (players_orig[starting_player:] + players_orig[:starting_player])
 
     suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
@@ -242,40 +240,33 @@ def load_card_actions_and_clues(db_game):
     cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
     init_hands(current_card_ind, players_orig, cards_per_hand, game_id)
 
-    for action in actions:
-        if u.is_clued(action):
-            create_clue(action, colors, game_id, num_players, players_mod, players_orig)
-        elif action.action_type == 4:
-            return
-        elif action.action_type in [0, 1]:
-            card_action = game_card_actions\
-                .filter(CardAction.card_index == action.target)\
-                .first()
+    card_actions = session.query(CardAction).filter(CardAction.game_id == game_id).all()
 
+    for action in actions:
+        if action.action_type == 4:
+            return
+        elif u.is_clued(action):
+            create_clue(action, colors, game_id, num_players, players_mod, players_orig)
+        elif action.action_type in [0, 1]:
+            card_action = [c for c in card_actions if c.card_index == action.target][0]
             card_action = init_action_type(action, suits, card_action, piles)
             card_action.turn_action = action.turn + 1
-
             if current_card_ind == len(deck):
                 continue
-            next_card_action = game_card_actions\
-                .filter(CardAction.card_index == current_card_ind)\
-                .first()
+            next_card_action = [c for c in card_actions if c.card_index == current_card_ind][0]
             next_card_action.turn_drawn = action.turn + 1
             next_card_action.player = players_mod[action.turn % num_players]
             current_card_ind += 1
 
 
 def update_action_types(db_game):
-    game_id = db_game.game_id
-    variant = db_game.variant
+    game_id, variant = db_game.game_id, db_game.variant
     actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
-    game_card_actions = session.query(CardAction) \
-        .filter(CardAction.game_id == game_id)
     suits = session.query(Variant.suits).filter(Variant.variant == variant).scalar()
     piles = init_piles(variant, suits)
+    card_actions = session.query(CardAction).filter(CardAction.game_id == game_id).all()
+
     for action in actions:
         if action.action_type in [0, 1]:
-            card_action = game_card_actions \
-                .filter(CardAction.card_index == action.target) \
-                .first()
+            card_action = [c for c in card_actions if c.card_index == action.target][0]
             init_action_type(action, suits, card_action, piles)

@@ -16,8 +16,9 @@ select count(distinct game_id) from clues;
 select count(*) from games where game_id >= 30000 and game_id <= 40000;
 select count(distinct game_id) from card_actions where game_id >= 30000 and game_id <= 40000;
 
-select * from card_actions where game_id = 403401 order by turn_action;
+select * from card_actions where game_id = 410466 order by turn_action;
 select * from clues where game_id = 410466 order by turn_clued;
+update card_actions set action_type = 'play' where game_id = 410466 and turn_action = 44;
 
 select * from decks where seed = (
     select seed from games where game_id = 403401
@@ -25,6 +26,8 @@ select * from decks where seed = (
 
 --delete
 --delete from table where 1 = 1;
+delete from card_actions where game_id = 410466;
+delete from clues where game_id = 410466;
 delete from card_actions where game_id in (410466, 345883, 403401);
 delete from clues where game_id in (410466, 345883, 403401);
 delete from decks where seed = 'p2v83s80';
