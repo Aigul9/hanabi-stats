@@ -7,6 +7,7 @@ select g.game_id, count, variant, end_condition from
 join games g on t.game_id = g.game_id
 where count = 3 and end_condition != 2;
 --17847 - game_id
+--
 
 --A02: Games with more than 3 strikes
 select g.game_id, count, variant from
@@ -26,9 +27,7 @@ select g.game_id from games g left outer join card_actions ca on g.game_id = ca.
 where ca.game_id is null;
 
 --A05: Difference in the number of actions between players per game should not be more than 1
---game ids
 --select distinct game_id
---statistics
 select turns, player, game_id, diff
 from (
     select turns, player, cpi.game_id, abs(turns - max(turns) OVER (PARTITION BY cpi.game_id)) as diff
@@ -82,6 +81,19 @@ BEGIN
 RETURN v_int_value;
 END;
 $$ LANGUAGE plpgsql;
+
+--A08: Delete detrimental characters
+delete from card_actions
+where game_id in
+(select game_id from games where detrimental_characters is true);
+
+delete from clues
+where game_id in
+(select game_id from games where detrimental_characters is true);
+
+--A09:
+select * from card_actions where turn_action is not null and action_type is null;
+select * from card_actions where turn_action is null and action_type is not null;
 
 --db size
 select datname, pg_size_pretty(pg_database_size(datname)) 

@@ -6,7 +6,7 @@ select max(game_id) from games;
 
 select * from game_actions where game_id = 5191;
 select * from game_actions where action_type = 4;
-select * from variants where variant_id = 1355;
+select * from variants where variant_id = 9999;
 select * from variants where variant like '%ever%';
 select variant, variant_id, suits, colors from variants order by variant_id;
 
@@ -16,12 +16,19 @@ select count(distinct game_id) from clues;
 select count(*) from games where game_id >= 30000 and game_id <= 40000;
 select count(distinct game_id) from card_actions where game_id >= 30000 and game_id <= 40000;
 
-select * from card_actions where game_id = 205466 order by turn_action;
-select * from clues where game_id = 205466 order by turn_clued;
+select * from card_actions where game_id = 403401 order by turn_action;
+select * from clues where game_id = 410466 order by turn_clued;
 
 select * from decks where seed = (
-    select seed from games where game_id = 31452
+    select seed from games where game_id = 403401
     );
+
+--delete
+--delete from table where 1 = 1;
+delete from card_actions where game_id in (410466, 345883, 403401);
+delete from clues where game_id in (410466, 345883, 403401);
+delete from decks where seed = 'p2v83s80';
+delete from variants where variant_id = 9999;
 
 --games - number of misplays
 select distinct ca.game_id, g.variant, count(*) as count from card_actions ca
@@ -62,12 +69,6 @@ select count(*) from player_notes;
 select count(*) from variants;
 select count(*) from card_actions;
 select count(*) from clues;
-
---delete
---delete from table where 1 = 1;
-delete from card_actions where game_id = 9107;
-delete from clues where game_id = 9107;
-delete from decks where seed = 'p5v1s64';
 
 --useful functions
 --value in list

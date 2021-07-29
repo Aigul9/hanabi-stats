@@ -46,7 +46,8 @@ def load_from_files(all_games):
         
 def load_cards(all_games):
     for g in all_games:
-        d.load_card_actions_and_clues(g)
+        d.update_action_types(g)
+        # d.load_card_actions_and_clues(g)
         d.session.commit()
         logger.info(g.game_id)
 
@@ -62,14 +63,18 @@ games = session.query(
     Game.players,
     Game.num_players,
     Game.variant_id,
+    Game.variant,
     Game.starting_player,
     Game.one_less_card,
     Game.one_extra_card
 ) \
-    .join(CardAction, isouter=True) \
-    .filter(CardAction.game_id == None) \
+    .filter(Game.game_id >= 463969)\
     .order_by(Game.game_id)\
     .all()
+    # .join(CardAction, isouter=True) \
+    # .filter(CardAction.game_id == None) \
+    # .order_by(Game.game_id)\
+    # .all()
 
 load_cards(games)
 d.session.close()

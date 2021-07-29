@@ -39,10 +39,11 @@ ALTER TABLE variants ADD COLUMN special_no_clue_ranks boolean;
 ALTER TABLE variants ADD COLUMN colors varchar[];
 
 --create indices
-CREATE INDEX games_index_variant_id ON games (variant);
+CREATE INDEX games_index_variant_id ON games (variant_id);
 CREATE INDEX games_index_seed ON games (seed);
 CREATE INDEX decks_index_seed ON decks (seed);
 CREATE INDEX game_actions_index_game_id ON game_actions (game_id);
 CREATE INDEX variants_index_variant_id ON variants (variant_id);
+CREATE INDEX variants_index_variant ON variants (variant);
 CREATE INDEX card_actions_index_game_id ON card_actions (game_id);
 CREATE INDEX card_actions_index_card_index ON card_actions (card_index);

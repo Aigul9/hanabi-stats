@@ -127,25 +127,12 @@ def load_variant(variant, variant_id):
     var = Variant(
         variant_id,
         variant,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None
+        *[None] * 14
     )
     session.add(var)
 
 
-def load_empty_game(g):
+def load_game_empty(g):
     g_id = g['id']
     try:
         starting_player = g['options']['startingPlayer']
@@ -156,100 +143,116 @@ def load_empty_game(g):
         None,
         g['players'],
         starting_player,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
-        None,
+        *[None] * 20,
         g['seed']
     )
     session.add(game)
 
 
-def load_card_actions_and_clues(db_game):
-    game_id = db_game.game_id
-    seed = db_game.seed
-    players = db_game.players
-    num_players = db_game.num_players
-    variant_id = db_game.variant_id
-    starting_player = db_game.starting_player
-    one_less_card = db_game.one_less_card
-    one_extra_card = db_game.one_extra_card
-    actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
-    deck = session.query(Card).filter(Card.seed == seed).all()
-    game_card_actions = session.query(CardAction)\
-        .filter(CardAction.game_id == game_id)
-    suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
-    players_orig = players
-    players_mod = (players[starting_player:] + players[:starting_player])
-    current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
-    cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
+def init_piles(variant, suits):
+    if 'Up or Down' in variant:
+        piles = [[0, '']] * u.get_number_of_suits(variant)
+    else:
+        piles = [[0, 'up']] * u.get_number_of_suits(variant)
+        if 'Reversed' in variant:
+            piles[len(suits) - 1] = [6, 'down']
+    return piles
+
+
+def load_card_action_empty(deck, game_id, suits):
     for card in deck:
         new_card_action = CardAction(
             card.card_index,
             game_id,
             suits[card.suit_index],
             card.rank,
-            None,
-            None,
-            None,
-            None
+            *[None] * 4
         )
         session.add(new_card_action)
+
+
+def init_hands(current_card_ind, players_orig, cards_per_hand, game_id):
     for i in range(current_card_ind):
         player = players_orig[i // cards_per_hand]
-        card_action = game_card_actions\
+        card_action = session.query(CardAction)\
+            .filter(CardAction.game_id == game_id)\
             .filter(CardAction.card_index == i)\
             .first()
         card_action.player = player
         card_action.turn_drawn = 0
+
+
+def create_clue(action, colors, game_id, num_players, players_mod, players_orig):
+    # color
+    if action.action_type == 2:
+        value = colors[action.value]
+    # rank
+    else:
+        value = action.value
+    clue = Clue(
+        action.turn + 1,
+        game_id,
+        value,
+        'color' if action.action_type == 2 else 'rank',
+        players_mod[action.turn % num_players],
+        players_orig[action.target]
+    )
+    session.add(clue)
+
+
+def init_action_type(action, suits, card_action, piles):
+    if action.action_type == 0:
+        card_suit_ind = suits.index(card_action.card_suit)
+        if not u.is_played(piles, card_suit_ind, card_action.card_rank):
+            card_action.action_type = 'misplay'
+        else:
+            card_action.action_type = 'play'
+            piles[card_suit_ind] = [
+                card_action.card_rank,
+                u.up_or_down_direction(piles, card_suit_ind, card_action.card_rank)
+            ]
+    elif action.action_type == 1:
+        card_action.action_type = 'discard'
+    return card_action
+
+
+def load_card_actions_and_clues(db_game):
+    game_id = db_game.game_id
+    seed = db_game.seed
+    players_orig = db_game.players
+    num_players = db_game.num_players
+    variant_id = db_game.variant_id
+    variant = db_game.variant
+    starting_player = db_game.starting_player
+    one_less_card = db_game.one_less_card
+    one_extra_card = db_game.one_extra_card
+
+    actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
+    game_card_actions = session.query(CardAction)\
+        .filter(CardAction.game_id == game_id)
+    players_mod = (players_orig[starting_player:] + players_orig[:starting_player])
+
+    suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
+    piles = init_piles(variant, suits)
+
+    deck = session.query(Card).filter(Card.seed == seed).all()
+    load_card_action_empty(deck, game_id, suits)
+
+    current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
+    cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
+    init_hands(current_card_ind, players_orig, cards_per_hand, game_id)
+
     for action in actions:
         if u.is_clued(action):
-            # color
-            if action.action_type == 2:
-                try:
-                    value = colors[action.value]
-                except IndexError:
-                    logger.error(variant_id, action.value, colors)
-                    return
-            # rank
-            else:
-                value = action.value
-            clue = Clue(
-                action.turn + 1,
-                game_id,
-                value,
-                'color' if action.action_type == 2 else 'rank',
-                players_mod[action.turn % num_players],
-                players_orig[action.target]
-            )
-            session.add(clue)
+            create_clue(action, colors, game_id, num_players, players_mod, players_orig)
         elif action.action_type == 4:
             return
         elif action.action_type in [0, 1]:
-            types = {
-                0: 'play',
-                1: 'discard'
-            }
             card_action = game_card_actions\
                 .filter(CardAction.card_index == action.target)\
                 .first()
-            card_action.action_type = types[action.action_type]
+
+            card_action = init_action_type(action, suits, card_action, piles)
             card_action.turn_action = action.turn + 1
 
             if current_card_ind == len(deck):
@@ -262,28 +265,17 @@ def load_card_actions_and_clues(db_game):
             current_card_ind += 1
 
 
-def update_misplays(db_game):
+def update_action_types(db_game):
     game_id = db_game.game_id
     variant = db_game.variant
+    actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
     game_card_actions = session.query(CardAction) \
-        .filter(CardAction.game_id == game_id) \
-        .order_by(CardAction.turn_action) \
-        .all()
+        .filter(CardAction.game_id == game_id)
     suits = session.query(Variant.suits).filter(Variant.variant == variant).scalar()
-    if 'Up or Down' in variant:
-        piles = [[0, '']] * u.get_number_of_suits(variant)
-    else:
-        piles = [[0, 'up']] * u.get_number_of_suits(variant)
-        if 'Reversed' in variant:
-            piles[len(suits) - 1] = [6, 'down']
-    for card_action in game_card_actions:
-        if card_action.action_type in ['play', 'misplay']:
-            card_suit_ind = suits.index(card_action.card_suit)
-            if not u.is_played(piles, card_suit_ind, card_action.card_rank):
-                card_action.action_type = 'misplay'
-            else:
-                card_action.action_type = 'play'
-                piles[card_suit_ind] = [
-                    card_action.card_rank,
-                    u.up_or_down_direction(piles, card_suit_ind, card_action.card_rank)
-                ]
+    piles = init_piles(variant, suits)
+    for action in actions:
+        if action.action_type in [0, 1]:
+            card_action = game_card_actions \
+                .filter(CardAction.card_index == action.target) \
+                .first()
+            init_action_type(action, suits, card_action, piles)
