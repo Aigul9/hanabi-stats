@@ -1,10 +1,10 @@
 --select by condition
-select * from games where game_id = 40447;
+select * from games where game_id = 6513;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select max(game_id) from games;
 
-select * from game_actions where game_id = 5191;
+select * from game_actions where game_id = 6513;
 select * from game_actions where action_type = 4;
 select * from variants where variant_id = 9999;
 select * from variants where variant like '%ever%';
@@ -13,16 +13,17 @@ select variant, variant_id, suits, colors from variants order by variant_id;
 select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
 select count(distinct game_id) from clues;
-select count(*) from games where game_id >= 30000 and game_id <= 40000;
-select count(distinct game_id) from card_actions where game_id >= 30000 and game_id <= 40000;
 
-select * from card_actions where game_id = 54642 order by turn_action;
-select * from clues where game_id = 54642 order by turn_clued;
-update card_actions set action_type = 'play' where game_id = 410466 and turn_action = 44;
+select * from card_actions where game_id = 598014 order by turn_action;
+select * from clues where game_id = 598014 order by turn_clued;
+
+select * from games where game_id > 36000 and starting_player != 0 order by 1;
 
 select * from decks where seed = (
-    select seed from games where game_id = 403401
-    );
+    select seed
+    from games
+    where game_id = 403401
+);
 
 --delete
 --delete from table where 1 = 1;

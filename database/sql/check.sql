@@ -7,7 +7,7 @@ select g.game_id, count, variant, end_condition from
 join games g on t.game_id = g.game_id
 where count = 3 and end_condition != 2;
 --17847 - game_id
---ok
+--not ok
 
 --A02: Games with more than 3 strikes
 select g.game_id, count, variant from
@@ -55,7 +55,7 @@ from (
     ) as c
 where diff > 1
 order by game_id;
---33 shifted games
+--35 shifted games
 --not ok
 
 --A06: One action per turn
@@ -125,10 +125,41 @@ select count(*) from card_actions;
 select count(*) from clues;
 --9 414 667
 
+--A11: Missed games in clues table
+select g.game_id from games g left outer join clues c on g.game_id = c.game_id
+where c.game_id is null
+  and detrimental_characters is false
+  and g.game_id in (
+    select distinct game_id
+    from game_actions
+    where action_type in (2, 3)
+)
+order by 1;
+--0
+--ok
+
+--A12: Games without any actions
+select g.game_id from games g left outer join game_actions ga on g.game_id = ga.game_id
+where ga.game_id is null
+order by 1;
+--240
+
+--A13: Games that have actions in original table which are missed in restructured one
+select distinct game_id
+from card_actions
+where game_id in (
+    select distinct game_id
+    from game_actions
+    where action_type in (0, 1)
+)
+group by game_id
+having max(turn_drawn) = 0;
+--0
+--ok
+
 --db size
 select datname, pg_size_pretty(pg_database_size(datname)) 
 from pg_database;
---8126 MB
 
 --table size
 SELECT nspname || '.' || relname AS "relation",

@@ -28,16 +28,12 @@ def load_games(path):
     return data
 
 
-def replace_symbols(name):
-    return name.replace(' ', '%20')
-
-
 def load_from_files(all_games):
     for g in all_games.values():
         s = u.open_stats_by_game_id(g['players'][0], g['id'])
         d.load_deck(g)
         d.load_game(g, s)
-        d.load_empty_game(g)
+        # d.load_game_empty(g)
         d.load_actions(g)
         d.load_notes(g)
         d.session.commit()
