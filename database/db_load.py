@@ -1,6 +1,6 @@
 import py.utils as u
 from py.utils import logger
-from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue
+from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue, Player
 
 
 def load_game(g, s):
@@ -270,3 +270,7 @@ def update_action_types(db_game):
         if action.action_type in [0, 1]:
             card_action = [c for c in card_actions if c.card_index == action.target][0]
             init_action_type(action, suits, card_action, piles)
+
+
+def load_player(player):
+    session.add(Player(player))

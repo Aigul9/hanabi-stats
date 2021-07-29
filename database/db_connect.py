@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, Sequence
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DateTime
@@ -235,6 +235,14 @@ class Clue(Base):
         self.clue_type = clue_type
         self.clue_giver = clue_giver
         self.clue_receiver = clue_receiver
+
+
+class Player(Base):
+    __tablename__ = 'players_list'
+    player = Column(String, primary_key=True)
+
+    def __init__(self, player):
+        self.player = player
 
 
 Base.metadata.create_all(db)

@@ -47,3 +47,7 @@ CREATE INDEX variants_index_variant_id ON variants (variant_id);
 CREATE INDEX variants_index_variant ON variants (variant);
 CREATE INDEX card_actions_index_game_id ON card_actions (game_id);
 CREATE INDEX card_actions_index_card_index ON card_actions (card_index);
+
+create table players_list(
+    player varchar(255) primary key
+);

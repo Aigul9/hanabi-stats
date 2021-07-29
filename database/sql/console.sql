@@ -133,6 +133,33 @@ right outer join
 group by g.variant, g.variant_id, t.num_max_scores) tb2
 on tb1.variant = tb2.variant) rt;
 
+--number of misplays
+select distinct player,
+                round(
+                            count(*) * 1.0 / (
+                            select count(*)
+                            from games
+                            where player = any (players)
+                        ), 2
+                    ) as ratio,
+                count(*) as misplays,
+                (
+                    select count(*)
+                    from games
+                    where player = any (players)
+                      and speedrun is false
+                ) as games
+from card_actions ca
+join games g on ca.game_id = g.game_id
+where action_type = 'misplay'
+and player in (
+    select player
+    from players_list
+)
+and speedrun is false
+group by player
+order by ratio desc, misplays desc, player;
+
 --update
 update variants set suits[array_length(suits, 1)] =
     replace(suits[array_length(suits, 1)], ' Reversed', '');
