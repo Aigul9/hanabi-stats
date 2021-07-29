@@ -7,7 +7,7 @@ select g.game_id, count, variant, end_condition from
 join games g on t.game_id = g.game_id
 where count = 3 and end_condition != 2;
 --17847 - game_id
---
+--ok
 
 --A02: Games with more than 3 strikes
 select g.game_id, count, variant from
@@ -16,19 +16,25 @@ select g.game_id, count, variant from
               group by game_id) t
 join games g on t.game_id = g.game_id
 where count > 3;
+--0
+--ok
 
 --A03: Clue giver = clue receiver
 --detrimental characters that act twice in a row are written wrongly (Contrarian, Genius, Panicky)
 select distinct clues.game_id, detrimental_characters from clues join games g on clues.game_id = g.game_id
 where clue_giver = clue_receiver order by 1;
+--209806, 402059
+--not ok
 
 --A04: Games missed during restructuring
 select g.game_id from games g left outer join card_actions ca on g.game_id = ca.game_id
-where ca.game_id is null;
+where ca.game_id is null and detrimental_characters is false;
+--0
+--ok
 
 --A05: Difference in the number of actions between players per game should not be more than 1
---select distinct game_id
-select turns, player, game_id, diff
+select distinct game_id
+-- select turns, player, game_id, diff
 from (
     select turns, player, cpi.game_id, abs(turns - max(turns) OVER (PARTITION BY cpi.game_id)) as diff
     from (
@@ -49,8 +55,10 @@ from (
     ) as c
 where diff > 1
 order by game_id;
+--33 shifted games
+--not ok
 
---A06: Turns count
+--A06: One action per turn
 select * from (
     select turn_action, game_id, count(*) as count from (
         select turn_action, game_id
@@ -63,10 +71,14 @@ select * from (
     group by turn_action, game_id) as t2
 where count > 1
 order by game_id;
+--0
+--ok
 
 --A07: Rank clues contain only numbers
 select * from clues
 where clue_type = 'rank' and convert_to_int(clue) is null;
+--0
+--ok
 
 CREATE OR REPLACE FUNCTION convert_to_int(v_input text)
 RETURNS INTEGER AS $$
@@ -83,21 +95,40 @@ END;
 $$ LANGUAGE plpgsql;
 
 --A08: Delete detrimental characters
-delete from card_actions
-where game_id in
+delete from card_actions where game_id in
 (select game_id from games where detrimental_characters is true);
-
-delete from clues
-where game_id in
+--193017
+delete from clues where game_id in
 (select game_id from games where detrimental_characters is true);
+--51285
+--ok
 
---A09:
+--A09: Unassigned actions
 select * from card_actions where turn_action is not null and action_type is null;
 select * from card_actions where turn_action is null and action_type is not null;
+--0
+--ok
+
+--A10: Counts. Date: 29.07.2021 11:10
+select count(*) from games;
+--589 285
+select count(*) from decks;
+--4 677 943
+select count(*) from game_actions;
+--25 733 714
+select count(*) from player_notes;
+--628 063
+select count(*) from variants;
+--1 781
+select count(*) from card_actions;
+--30 343 966
+select count(*) from clues;
+--9 414 667
 
 --db size
 select datname, pg_size_pretty(pg_database_size(datname)) 
 from pg_database;
+--8126 MB
 
 --table size
 SELECT nspname || '.' || relname AS "relation",

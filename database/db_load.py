@@ -234,7 +234,7 @@ def load_card_actions_and_clues(db_game):
     piles = init_piles(variant, suits)
 
     deck = session.query(Card).filter(Card.seed == seed).all()
-    load_card_action_empty(deck, game_id, suits)
+    # load_card_action_empty(deck, game_id, suits)
 
     current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
     cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
@@ -245,8 +245,8 @@ def load_card_actions_and_clues(db_game):
     for action in actions:
         if action.action_type == 4:
             return
-        elif u.is_clued(action):
-            create_clue(action, colors, game_id, num_players, players_mod, players_orig)
+        # elif u.is_clued(action):
+            # create_clue(action, colors, game_id, num_players, players_mod, players_orig)
         elif action.action_type in [0, 1]:
             card_action = [c for c in card_actions if c.card_index == action.target][0]
             card_action = init_action_type(action, suits, card_action, piles)

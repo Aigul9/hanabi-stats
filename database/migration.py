@@ -15,11 +15,9 @@ while True:
         s = u.open_stats_by_game_id(g['players'][0], g_id)
         d.load_deck(g)
         db_game = d.load_game(g, s)
-        # d.load_empty_game(g)
         d.load_actions(g)
         d.load_notes(g)
         d.load_card_actions_and_clues(db_game)
-        d.update_misplays(db_game)
         last_id += 1
         d.session.commit()
     else:

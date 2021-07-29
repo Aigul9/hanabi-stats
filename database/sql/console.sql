@@ -16,8 +16,8 @@ select count(distinct game_id) from clues;
 select count(*) from games where game_id >= 30000 and game_id <= 40000;
 select count(distinct game_id) from card_actions where game_id >= 30000 and game_id <= 40000;
 
-select * from card_actions where game_id = 410466 order by turn_action;
-select * from clues where game_id = 410466 order by turn_clued;
+select * from card_actions where game_id = 54642 order by turn_action;
+select * from clues where game_id = 54642 order by turn_clued;
 update card_actions set action_type = 'play' where game_id = 410466 and turn_action = 44;
 
 select * from decks where seed = (
@@ -26,12 +26,12 @@ select * from decks where seed = (
 
 --delete
 --delete from table where 1 = 1;
-delete from card_actions where game_id = 410466;
-delete from clues where game_id = 410466;
-delete from card_actions where game_id in (410466, 345883, 403401);
-delete from clues where game_id in (410466, 345883, 403401);
-delete from decks where seed = 'p2v83s80';
-delete from variants where variant_id = 9999;
+-- delete from card_actions where game_id = 597969;
+-- delete from clues where game_id = 597969;
+-- delete from card_actions where game_id in (410466, 345883, 403401);
+-- delete from clues where game_id in (410466, 345883, 403401);
+-- delete from decks where seed = 'p2v83s80';
+-- delete from variants where variant_id = 9999;
 
 --games - number of misplays
 select distinct ca.game_id, g.variant, count(*) as count from card_actions ca
@@ -54,24 +54,6 @@ select count(distinct g.game_id) from games g left outer join card_actions ca on
 where ca.game_id is null;
 select count(distinct g.game_id)  from games g left outer join card_actions ca on g.game_id = ca.game_id
 where ca.game_id is not null;
-
---db restructure
-select * from card_actions;
-select concat('hanab.live/replay/', game_id, '#', turn_action) from card_actions ca
-where player = 'Valetta6789'
-and card_rank = 3
-and card_suit in ('Yellow', 'Green')
-and action_type = 'play'
-order by 1;
-
---count
-select count(*) from games;
-select count(*) from decks;
-select count(*) from game_actions;
-select count(*) from player_notes;
-select count(*) from variants;
-select count(*) from card_actions;
-select count(*) from clues;
 
 --useful functions
 --value in list
