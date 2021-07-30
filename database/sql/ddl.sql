@@ -51,3 +51,7 @@ CREATE INDEX card_actions_index_card_index ON card_actions (card_index);
 create table players_list(
     player varchar(255) primary key
 );
+
+create table bugged_games(
+    game_id int primary key
+);

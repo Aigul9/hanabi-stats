@@ -221,6 +221,10 @@ from (
                               and speedrun is false
                               and detrimental_characters is false
                               and num_players != 2
+                              and game_id not in (
+                                select game_id
+                                from bugged_games
+                            )
                         ), 2
                     )    as ratio,
                 count(*) as misplays,
@@ -232,6 +236,10 @@ from (
                       and speedrun is false
                       and detrimental_characters is false
                       and num_players != 2
+                      and game_id not in (
+                        select game_id
+                        from bugged_games
+                    )
                 )        as games
          from card_actions ca
                   join clues c on ca.game_id = c.game_id
@@ -249,10 +257,16 @@ from (
            and speedrun is false
            and detrimental_characters is false
            and num_players != 2
+           and ca.game_id not in (
+             select game_id
+             from bugged_games
+         )
          group by clue_giver, player
      ) as ccg
 where games > 50
 order by ratio desc, misplays desc, clue_giver, player;
+
+select * from bugged_games;
 
 --update
 update variants set suits[array_length(suits, 1)] =

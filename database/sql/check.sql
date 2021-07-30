@@ -1,11 +1,12 @@
 --Tests
 --A01: 3 misplays != strikeout
-select g.game_id, count, variant, end_condition from
+insert into bugged_games select game_id from
+(select g.game_id, count, variant, end_condition from
               (select distinct game_id, count(*) as count from card_actions
               where action_type = 'misplay'
               group by game_id) t
 join games g on t.game_id = g.game_id
-where count = 3 and end_condition != 2;
+where count = 3 and end_condition != 2) as tg ;
 --17847 - game_id
 --not ok
 
@@ -20,9 +21,10 @@ where count > 3;
 --ok
 
 --A03: Clue giver = clue receiver
+insert into bugged_games select game_id from(
 --detrimental characters that act twice in a row are written wrongly (Contrarian, Genius, Panicky)
 select distinct clues.game_id, detrimental_characters from clues join games g on clues.game_id = g.game_id
-where clue_giver = clue_receiver order by 1;
+where clue_giver = clue_receiver order by 1) as gidc;
 --209806, 402059
 --not ok
 
@@ -33,7 +35,8 @@ where ca.game_id is null and detrimental_characters is false;
 --ok
 
 --A05: Difference in the number of actions between players per game should not be more than 1
-select distinct game_id
+insert into bugged_games select distinct game_id
+-- select distinct game_id
 -- select turns, player, game_id, diff
 from (
     select turns, player, cpi.game_id, abs(turns - max(turns) OVER (PARTITION BY cpi.game_id)) as diff
@@ -139,9 +142,10 @@ order by 1;
 --ok
 
 --A12: Games without any actions
+insert into bugged_games select game_id from (
 select g.game_id from games g left outer join game_actions ga on g.game_id = ga.game_id
 where ga.game_id is null
-order by 1;
+order by 1) as gggi;
 --240
 
 --A13: Games that have actions in original table which are missed in restructured one
