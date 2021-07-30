@@ -255,7 +255,7 @@ from (
          group by clue_giver, player
      ) as ccg
 where games > 50
-order by ratio desc, misplays desc, clue_giver, player;
+order by ratio, misplays, clue_giver, player;
 
 select * from bugged_games;
 
