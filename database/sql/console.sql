@@ -14,8 +14,8 @@ select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
 select count(distinct game_id) from clues;
 
-select * from card_actions where game_id = 598014 order by turn_action;
-select * from clues where game_id = 598014 order by turn_clued;
+select * from card_actions where game_id = 598279 order by turn_action;
+select * from clues where game_id = 598279 order by turn_clued;
 
 select * from games where game_id > 36000 and starting_player != 0 order by 1;
 
@@ -208,26 +208,17 @@ group by clue_giver, c.game_id
 order by ratio desc, misplays desc, clue_giver;
 
 --misplays in pairs
-select *
+select clue_giver,
+       player,
+       round(misplays * 1.0 / (misplays + plays), 2) as ratio,
+       misplays,
+       plays,
+       misplays + plays as total
 from (
          select clue_giver,
                 player,
-                round(
-                            count(*) * 1.0 / (
-                            select count(*)
-                            from games
-                            where clue_giver = any (players)
-                              and player = any (players)
-                              and speedrun is false
-                              and detrimental_characters is false
-                              and num_players != 2
-                              and game_id not in (
-                                select game_id
-                                from bugged_games
-                            )
-                        ), 2
-                    )    as ratio,
-                count(*) as misplays,
+                count(*) filter (where action_type = 'misplay') as misplays,
+                count(*) filter (where action_type = 'play') as plays,
                 (
                     select count(*)
                     from games
@@ -252,7 +243,7 @@ from (
              select player
              from players_list
          )
-           and action_type = 'misplay'
+           and action_type in ('play', 'misplay')
            and turn_clued = turn_action - 1
            and speedrun is false
            and detrimental_characters is false

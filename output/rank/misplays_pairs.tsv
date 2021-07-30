@@ -1,473 +1,491 @@
-clue_giver	player	ratio	misplays	games
-padi	melwen	0.15	14	93
-indego	Bot-Fiora	0.15	8	52
-sin_faith	IAMJEFF	0.13	7	55
-indego	pianoblook	0.12	13	107
-pianoblook	Lanvin	0.11	11	101
-Lel0uch	sjdrodge	0.11	8	76
-ADrone	scharkbite	0.11	6	55
-Pablo-	nitawa	0.1	55	544
-melwen	sin_faith	0.1	13	133
-Valetta6789	RaKXeR	0.1	12	124
-nitawa	Lanvin	0.1	10	99
-sin_faith	timotree	0.1	5	51
-timotree	asaelr	0.1	5	51
-kimbifille	pianoblook	0.09	116	1299
-Zamiel	Kyle	0.09	75	831
-padi	scharkbite	0.09	16	169
-kimbifille	sjdrodge	0.09	15	173
-pianoblook	IAMJEFF	0.09	12	130
-indego	Kyle	0.09	11	122
-piper	IAMJEFF	0.09	9	101
-asaelr	indego	0.09	8	86
-indego	asaelr	0.09	8	86
-melwen	padi	0.09	8	93
-timotree	Lanvin	0.09	8	89
-indego	kimbifille	0.09	7	76
-kimbifille	indego	0.09	7	76
-ADrone	Zamiel	0.09	6	68
-Lanvin	Dr_Kakashi	0.09	6	69
-indego	timotree	0.09	6	68
-eliclax	nitawa	0.09	5	55
-nitawa	eliclax	0.09	5	55
-piper	kimbifille	0.08	81	1021
-scharkbite	melwen	0.08	76	911
-Dr_Kakashi	Kyle	0.08	56	707
-scharkbite	Fireheart	0.08	52	644
-VerySloppyTwo	Lanvin	0.08	51	674
-ADrone	pianoblook	0.08	47	554
-pianoblook	ADrone	0.08	44	554
-kimbifille	Kyle	0.08	34	405
-IAMJEFF	Kyle	0.08	29	356
-Libster	sjdrodge	0.08	23	304
-sjdrodge	Libster	0.08	23	304
-Zamiel	sjdrodge	0.08	21	273
-scharkbite	timotree	0.08	16	190
-Dr_Kakashi	indego	0.08	14	182
-scharkbite	padi	0.08	13	169
-IAMJEFF	Lanvin	0.08	11	133
-Kyle	MarkusKahlsen	0.08	11	130
-RaKXeR	Fireheart	0.08	11	143
-padi	Dr_Kakashi	0.08	11	139
-RaKXeR	Floriman	0.08	10	131
-Lel0uch	pianoblook	0.08	9	113
-Libster	Floriman	0.08	9	113
-Libster	Valetta6789	0.08	9	114
-scharkbite	sin_faith	0.08	9	115
-Lel0uch	scharkbite	0.08	8	104
-Pablo-	sin_faith	0.08	8	101
-IAMJEFF	sjdrodge	0.08	7	87
-Pablo-	timotree	0.08	7	92
-scharkbite	piper	0.08	6	79
-Fireheart	sjdrodge	0.08	5	62
-scharkbite	MarkusKahlsen	0.08	5	66
-piper	pianoblook	0.07	90	1229
-IAMJEFF	Fireheart	0.07	70	1005
-melwen	scharkbite	0.07	67	911
-scharkbite	Kyle	0.07	59	888
-IAMJEFF	Dr_Kakashi	0.07	57	780
-Dr_Kakashi	IAMJEFF	0.07	55	780
-Dr_Kakashi	Fireheart	0.07	40	559
-Dr_Kakashi	Valetta6789	0.07	38	554
-Fireheart	Dr_Kakashi	0.07	37	559
-IAMJEFF	Valetta6789	0.07	37	555
-MarkusKahlsen	Lanvin	0.07	32	434
-melwen	Kyle	0.07	30	435
-sin_faith	Lel0uch	0.07	28	385
-RaKXeR	Zamiel	0.07	22	297
-florrat2	RaKXeR	0.07	22	304
-timotree	melwen	0.07	19	265
-sin_faith	Kyle	0.07	18	274
-IAMJEFF	Floriman	0.07	17	235
-MarkusKahlsen	Lel0uch	0.07	17	261
-Zamiel	melwen	0.07	17	229
-scharkbite	pianoblook	0.07	16	228
-pianoblook	scharkbite	0.07	15	228
-Libster	Kyle	0.07	13	192
-asaelr	melwen	0.07	12	163
-sjdrodge	kimbifille	0.07	12	173
-ADrone	kimbifille	0.07	10	152
-indego	Zamiel	0.07	10	151
-scharkbite	Lanvin	0.07	10	147
-Lel0uch	Kyle	0.07	9	134
-pianoblook	sjdrodge	0.07	9	136
-Lel0uch	Zamiel	0.07	8	115
-MarkusKahlsen	VerySloppyTwo	0.07	8	116
-asaelr	padi	0.07	8	121
-kimbifille	micerang	0.07	8	109
-Lanvin	nitawa	0.07	7	99
-asaelr	pianoblook	0.07	7	101
-Bot-Fiora	Lanvin	0.07	6	82
-Nitrate	Lanvin	0.07	6	87
-Valetta6789	Lanvin	0.07	6	91
-timotree	Pablo-	0.07	6	92
-pianoblook	kimbifille	0.06	79	1299
-indego	Lel0uch	0.06	71	1216
-scharkbite	Zamiel	0.06	71	1266
-kimbifille	Dr_Kakashi	0.06	66	1148
-Dr_Kakashi	kimbifille	0.06	65	1148
-Valetta6789	Fireheart	0.06	58	1049
-Lanvin	indego	0.06	51	823
-Zamiel	florrat2	0.06	50	861
-indego	Lanvin	0.06	49	823
-Fireheart	Kyle	0.06	45	724
-Dr_Kakashi	micerang	0.06	38	683
-Lanvin	VerySloppyTwo	0.06	38	674
-asaelr	Fireheart	0.06	35	614
-scharkbite	Dr_Kakashi	0.06	35	571
-nitawa	Pablo-	0.06	33	544
-Floriman	kimbifille	0.06	32	550
-kimbifille	Floriman	0.06	31	550
-Libster	RaKXeR	0.06	30	464
-asaelr	scharkbite	0.06	30	534
-Dr_Kakashi	Zamiel	0.06	25	427
-Fireheart	Floriman	0.06	25	442
-Kyle	Valetta6789	0.06	25	395
-Valetta6789	Kyle	0.06	22	395
-asaelr	Zamiel	0.06	22	395
-IAMJEFF	kimbifille	0.06	21	374
-Dr_Kakashi	RaKXeR	0.06	18	311
-indego	VerySloppyTwo	0.06	18	287
-RaKXeR	florrat2	0.06	17	304
-pianoblook	Kyle	0.06	17	269
-melwen	pianoblook	0.06	16	290
-Floriman	IAMJEFF	0.06	15	235
-sjdrodge	scharkbite	0.06	15	242
-Lanvin	eliclax	0.06	13	219
-eliclax	Lanvin	0.06	13	219
-kimbifille	Lanvin	0.06	13	226
-sin_faith	Lanvin	0.06	13	208
-timotree	scharkbite	0.06	12	190
-piper	ADrone	0.06	10	156
-scharkbite	RaKXeR	0.06	10	174
-Pablo-	VerySloppyTwo	0.06	9	157
-VerySloppyTwo	Pablo-	0.06	9	157
-florrat2	sjdrodge	0.06	9	161
-Libster	Dr_Kakashi	0.06	8	124
-Zamiel	timotree	0.06	8	136
-asaelr	sin_faith	0.06	8	135
-Lanvin	timotree	0.06	5	89
-Pablo-	scharkbite	0.06	5	79
-nitawa	VerySloppyTwo	0.06	5	88
-scharkbite	Pablo-	0.06	5	79
-sin_faith	pianoblook	0.06	5	83
-Lel0uch	eliclax	0.06	4	67
-VerySloppyTwo	sin_faith	0.06	4	64
-sin_faith	VerySloppyTwo	0.06	4	64
-timotree	indego	0.06	4	68
-asaelr	timotree	0.06	3	51
-melwen	IAMJEFF	0.06	3	53
-Lel0uch	melwen	0.05	67	1345
-Lel0uch	indego	0.05	60	1216
-Fireheart	Valetta6789	0.05	54	1049
-Zamiel	Fireheart	0.05	49	952
-Libster	florrat2	0.05	46	973
-Zamiel	micerang	0.05	45	846
-Fireheart	Zamiel	0.05	43	952
-Kyle	Zamiel	0.05	43	831
-Lel0uch	Lanvin	0.05	40	780
-florrat2	Zamiel	0.05	40	861
-Kyle	Fireheart	0.05	38	724
-micerang	Kyle	0.05	38	738
-Kyle	Floriman	0.05	36	779
-asaelr	Dr_Kakashi	0.05	34	687
-Kyle	Dr_Kakashi	0.05	33	707
-Fireheart	asaelr	0.05	31	614
-Floriman	asaelr	0.05	31	629
-asaelr	Kyle	0.05	30	558
-indego	melwen	0.05	30	559
-scharkbite	asaelr	0.05	29	534
-Dr_Kakashi	scharkbite	0.05	28	571
-IAMJEFF	scharkbite	0.05	28	526
-Valetta6789	Dr_Kakashi	0.05	28	554
-IAMJEFF	Zamiel	0.05	25	484
-Zamiel	Dr_Kakashi	0.05	23	427
-IAMJEFF	asaelr	0.05	22	433
-RaKXeR	Libster	0.05	22	464
-Floriman	Fireheart	0.05	21	442
-asaelr	IAMJEFF	0.05	21	433
-asaelr	Valetta6789	0.05	20	430
-Kyle	IAMJEFF	0.05	18	356
-RaKXeR	Dr_Kakashi	0.05	17	311
-Kyle	Lanvin	0.05	16	295
-pianoblook	Dr_Kakashi	0.05	16	306
-Lanvin	asaelr	0.05	15	275
-VerySloppyTwo	Lel0uch	0.05	15	299
-micerang	IAMJEFF	0.05	15	283
-Lanvin	Kyle	0.05	14	295
-Lel0uch	VerySloppyTwo	0.05	14	299
-Zamiel	RaKXeR	0.05	14	297
-Zamiel	Valetta6789	0.05	12	262
-kimbifille	Valetta6789	0.05	12	223
-micerang	Libster	0.05	12	247
-scharkbite	kimbifille	0.05	12	244
-Valetta6789	kimbifille	0.05	11	223
-Zamiel	Floriman	0.05	11	241
-kimbifille	scharkbite	0.05	11	244
-melwen	Zamiel	0.05	11	229
-pianoblook	Zamiel	0.05	11	234
-Floriman	pianoblook	0.05	10	214
-melwen	Pablo-	0.05	10	206
-micerang	Valetta6789	0.05	10	203
-sin_faith	indego	0.05	10	208
-MarkusKahlsen	Pablo-	0.05	9	193
-timotree	Kyle	0.05	9	180
-Lanvin	scharkbite	0.05	8	147
-Zamiel	indego	0.05	8	151
-padi	Floriman	0.05	8	147
-Fireheart	RaKXeR	0.05	7	143
-Floriman	padi	0.05	7	147
-Lanvin	IAMJEFF	0.05	7	133
-Lel0uch	timotree	0.05	7	128
-kimbifille	ADrone	0.05	7	152
-sin_faith	asaelr	0.05	7	135
-Floriman	indego	0.05	6	115
-Kyle	indego	0.05	6	122
-Lanvin	Floriman	0.05	6	129
-RaKXeR	Valetta6789	0.05	6	124
-indego	Floriman	0.05	6	115
-melwen	VerySloppyTwo	0.05	6	124
-padi	asaelr	0.05	6	121
-pianoblook	Lel0uch	0.05	6	113
-timotree	Lel0uch	0.05	6	128
-Fireheart	florrat2	0.05	5	99
-IAMJEFF	Lel0uch	0.05	5	99
-Lel0uch	kimbifille	0.05	5	105
-MarkusKahlsen	asaelr	0.05	5	108
-Pablo-	indego	0.05	5	96
-pianoblook	Pablo-	0.05	5	96
-scharkbite	Lel0uch	0.05	5	104
-timotree	sjdrodge	0.05	5	107
-Floriman	melwen	0.05	4	86
-RaKXeR	asaelr	0.05	4	73
-VerySloppyTwo	nitawa	0.05	4	88
-kimbifille	Fireheart	0.05	4	79
-melwen	piper	0.05	4	74
-pianoblook	MarkusKahlsen	0.05	4	86
-pianoblook	sin_faith	0.05	4	83
-sin_faith	MarkusKahlsen	0.05	4	75
-ADrone	Floriman	0.05	3	66
-Dr_Kakashi	Pablo-	0.05	3	64
-Floriman	ADrone	0.05	3	66
-Lanvin	Zamiel	0.05	3	58
-MarkusKahlsen	scharkbite	0.05	3	66
-florrat2	Dr_Kakashi	0.05	3	58
-florrat2	IAMJEFF	0.05	3	63
-micerang	pianoblook	0.05	3	58
-scharkbite	ADrone	0.05	3	55
-melwen	Lel0uch	0.04	56	1345
-Zamiel	scharkbite	0.04	47	1266
-Fireheart	IAMJEFF	0.04	41	1005
-Lanvin	melwen	0.04	39	923
-Zamiel	Libster	0.04	38	982
-Kyle	scharkbite	0.04	37	888
-Libster	Zamiel	0.04	37	982
-Floriman	Kyle	0.04	34	779
-melwen	Lanvin	0.04	34	923
-Floriman	Dr_Kakashi	0.04	33	793
-Kyle	micerang	0.04	30	738
-micerang	Zamiel	0.04	30	846
-Lanvin	Lel0uch	0.04	29	780
-asaelr	Floriman	0.04	28	629
-micerang	Dr_Kakashi	0.04	25	683
-Fireheart	scharkbite	0.04	24	644
-Floriman	Valetta6789	0.04	24	554
-Valetta6789	IAMJEFF	0.04	24	555
-melwen	indego	0.04	24	559
-scharkbite	micerang	0.04	24	542
-Fireheart	micerang	0.04	23	538
-micerang	scharkbite	0.04	22	542
-scharkbite	Floriman	0.04	22	621
-scharkbite	IAMJEFF	0.04	21	526
-Valetta6789	Floriman	0.04	20	554
-Zamiel	IAMJEFF	0.04	20	484
-kimbifille	Zamiel	0.04	20	467
-Zamiel	kimbifille	0.04	17	467
-Valetta6789	asaelr	0.04	16	430
-Zamiel	asaelr	0.04	16	395
-kimbifille	IAMJEFF	0.04	16	374
-micerang	sjdrodge	0.04	16	448
-Dr_Kakashi	sin_faith	0.04	14	336
-Lel0uch	sin_faith	0.04	14	385
-IAMJEFF	micerang	0.04	12	283
-sjdrodge	Zamiel	0.04	12	273
-Lel0uch	MarkusKahlsen	0.04	11	261
-VerySloppyTwo	indego	0.04	11	287
-piper	Dr_Kakashi	0.04	11	265
-Floriman	Zamiel	0.04	10	241
-Lanvin	sin_faith	0.04	9	208
-Pablo-	melwen	0.04	9	206
-indego	MarkusKahlsen	0.04	9	225
-indego	sin_faith	0.04	9	208
-melwen	MarkusKahlsen	0.04	9	239
-Lanvin	Pablo-	0.04	8	202
-micerang	Floriman	0.04	8	197
-padi	Kyle	0.04	8	192
-pianoblook	Floriman	0.04	8	214
-Libster	Fireheart	0.04	7	197
-florrat2	scharkbite	0.04	7	166
-indego	Dr_Kakashi	0.04	7	182
-pianoblook	timotree	0.04	7	180
-scharkbite	florrat2	0.04	7	166
-sjdrodge	Dr_Kakashi	0.04	7	158
-timotree	kimbifille	0.04	7	161
-Pablo-	asaelr	0.04	6	155
-asaelr	Pablo-	0.04	6	155
-kimbifille	timotree	0.04	6	161
-melwen	asaelr	0.04	6	163
-sjdrodge	florrat2	0.04	6	161
-Dr_Kakashi	Libster	0.04	5	124
-IAMJEFF	Libster	0.04	5	135
-IAMJEFF	pianoblook	0.04	5	130
-Lel0uch	Pablo-	0.04	5	139
-Libster	asaelr	0.04	5	137
-Valetta6789	Libster	0.04	5	114
-VerySloppyTwo	MarkusKahlsen	0.04	5	116
-Lanvin	Valetta6789	0.04	4	91
-Lanvin	pianoblook	0.04	4	101
-Lel0uch	IAMJEFF	0.04	4	99
-MarkusKahlsen	timotree	0.04	4	99
-RaKXeR	Kyle	0.04	4	96
-melwen	Dr_Kakashi	0.04	4	93
-micerang	kimbifille	0.04	4	109
-pianoblook	asaelr	0.04	4	101
-pianoblook	indego	0.04	4	107
-Lanvin	Bot-Fiora	0.04	3	82
-MarkusKahlsen	Floriman	0.04	3	72
-indego	eliclax	0.04	3	72
-kimbifille	padi	0.04	3	68
-padi	sin_faith	0.04	3	69
-piper	melwen	0.04	3	74
-Bot-Fiora	indego	0.04	2	52
-Floriman	Nitrate	0.04	2	56
-IAMJEFF	sin_faith	0.04	2	55
-eliclax	Pablo-	0.04	2	57
-eliclax	melwen	0.04	2	55
-micerang	melwen	0.04	2	55
-micerang	padi	0.04	2	55
-pianoblook	piper	0.03	36	1229
-florrat2	Libster	0.03	34	973
-kimbifille	piper	0.03	29	1021
-Dr_Kakashi	Floriman	0.03	26	793
-Dr_Kakashi	asaelr	0.03	24	687
-Floriman	scharkbite	0.03	20	621
-Kyle	asaelr	0.03	19	558
-micerang	Fireheart	0.03	16	538
-micerang	asaelr	0.03	15	431
-Lanvin	MarkusKahlsen	0.03	13	434
-asaelr	micerang	0.03	13	431
-scharkbite	Valetta6789	0.03	13	404
-sjdrodge	micerang	0.03	13	448
-Kyle	melwen	0.03	12	435
-Valetta6789	scharkbite	0.03	11	404
-sin_faith	Dr_Kakashi	0.03	11	336
-Libster	scharkbite	0.03	9	274
-Dr_Kakashi	pianoblook	0.03	8	306
-Kyle	pianoblook	0.03	8	269
-Kyle	sin_faith	0.03	8	274
-MarkusKahlsen	melwen	0.03	8	239
-Zamiel	pianoblook	0.03	8	234
-scharkbite	sjdrodge	0.03	8	242
-Lanvin	kimbifille	0.03	7	226
-MarkusKahlsen	indego	0.03	7	225
-asaelr	Lanvin	0.03	7	275
-melwen	kimbifille	0.03	7	201
-scharkbite	Libster	0.03	7	274
-Fireheart	Libster	0.03	6	197
-Kyle	Libster	0.03	6	192
-kimbifille	melwen	0.03	6	201
-ADrone	piper	0.03	5	156
-Kyle	padi	0.03	5	192
-Kyle	timotree	0.03	5	180
-Pablo-	MarkusKahlsen	0.03	5	193
-RaKXeR	scharkbite	0.03	5	174
-Dr_Kakashi	padi	0.03	4	139
-Floriman	Lanvin	0.03	4	129
-Floriman	RaKXeR	0.03	4	131
-Kyle	Lel0uch	0.03	4	134
-MarkusKahlsen	Kyle	0.03	4	130
-Pablo-	Kyle	0.03	4	122
-sin_faith	Floriman	0.03	4	138
-ADrone	Kyle	0.03	3	91
-Kyle	RaKXeR	0.03	3	96
-Lanvin	Nitrate	0.03	3	87
-Lel0uch	asaelr	0.03	3	102
-Pablo-	pianoblook	0.03	3	96
-Zamiel	Lel0uch	0.03	3	115
-Zamiel	sin_faith	0.03	3	89
-asaelr	MarkusKahlsen	0.03	3	108
-kimbifille	Lel0uch	0.03	3	105
-kimbifille	asaelr	0.03	3	91
-melwen	sjdrodge	0.03	3	107
-piper	Floriman	0.03	3	111
-sin_faith	scharkbite	0.03	3	115
-sjdrodge	IAMJEFF	0.03	3	87
-sjdrodge	melwen	0.03	3	107
-sjdrodge	timotree	0.03	3	107
-Dr_Kakashi	florrat2	0.03	2	58
-Fireheart	kimbifille	0.03	2	79
-Fireheart	pianoblook	0.03	2	67
-Fireheart	sin_faith	0.03	2	79
-Kyle	piper	0.03	2	66
-Zamiel	Lanvin	0.03	2	58
-eliclax	indego	0.03	2	72
-florrat2	Kyle	0.03	2	62
-kimbifille	sin_faith	0.03	2	72
-piper	Kyle	0.03	2	66
-piper	scharkbite	0.03	2	79
-sin_faith	padi	0.03	2	69
-sjdrodge	Fireheart	0.03	2	62
-Kyle	kimbifille	0.02	10	405
-pianoblook	melwen	0.02	7	290
-Libster	micerang	0.02	6	247
-Valetta6789	Zamiel	0.02	6	262
-Pablo-	Lanvin	0.02	5	202
-Valetta6789	micerang	0.02	5	203
-Floriman	micerang	0.02	4	197
-melwen	timotree	0.02	4	265
-Dr_Kakashi	sjdrodge	0.02	3	158
-Pablo-	Lel0uch	0.02	3	139
-asaelr	Libster	0.02	3	137
-sin_faith	melwen	0.02	3	133
-sjdrodge	pianoblook	0.02	3	136
-timotree	Zamiel	0.02	3	136
-timotree	pianoblook	0.02	3	180
-Dr_Kakashi	melwen	0.02	2	93
-Floriman	Lel0uch	0.02	2	83
-Floriman	Libster	0.02	2	113
-Kyle	ADrone	0.02	2	91
-Kyle	Pablo-	0.02	2	122
-Lel0uch	Floriman	0.02	2	83
-MarkusKahlsen	pianoblook	0.02	2	86
-RaKXeR	micerang	0.02	2	85
-VerySloppyTwo	melwen	0.02	2	124
-asaelr	kimbifille	0.02	2	91
-sin_faith	Zamiel	0.02	2	89
-Kyle	florrat2	0.02	1	62
-Pablo-	Dr_Kakashi	0.02	1	64
-indego	Fireheart	0.02	1	52
-melwen	eliclax	0.02	1	55
-melwen	micerang	0.02	1	55
-padi	micerang	0.02	1	55
-piper	sjdrodge	0.02	1	56
-sjdrodge	Kyle	0.02	1	55
-timotree	sin_faith	0.02	1	51
-Dr_Kakashi	piper	0.01	3	265
-Floriman	sin_faith	0.01	2	138
-Libster	IAMJEFF	0.01	2	135
-Dr_Kakashi	Lanvin	0.01	1	69
-Floriman	MarkusKahlsen	0.01	1	72
-Floriman	piper	0.01	1	111
-MarkusKahlsen	sin_faith	0.01	1	75
-Pablo-	Floriman	0.01	1	78
-Zamiel	ADrone	0.01	1	68
-asaelr	Lel0uch	0.01	1	102
-florrat2	Fireheart	0.01	1	99
-indego	Pablo-	0.01	1	96
-micerang	RaKXeR	0.01	1	85
-micerang	florrat2	0.01	1	103
-padi	kimbifille	0.01	1	68
-sin_faith	Fireheart	0.01	1	79
-sin_faith	Pablo-	0.01	1	101
-sin_faith	kimbifille	0.01	1	72
-sjdrodge	Lel0uch	0.01	1	76
+clue_giver	player	ratio	misplays	plays	total
+indego	Bot-Fiora	0.32	8	17	25
+indego	kimbifille	0.21	7	27	34
+indego	pianoblook	0.2	13	52	65
+Valetta6789	RaKXeR	0.18	12	53	65
+IAMJEFF	sjdrodge	0.18	7	31	38
+melwen	Dr_Kakashi	0.18	4	18	22
+melwen	sin_faith	0.17	13	62	75
+scharkbite	sin_faith	0.17	9	45	54
+Zamiel	timotree	0.16	8	41	49
+nitawa	VerySloppyTwo	0.16	5	27	32
+pianoblook	Lanvin	0.15	11	60	71
+indego	asaelr	0.15	8	47	55
+kimbifille	Kyle	0.14	34	214	248
+Lel0uch	Kyle	0.14	9	55	64
+kimbifille	indego	0.14	7	43	50
+eliclax	nitawa	0.14	5	31	36
+scharkbite	Pablo-	0.14	5	30	35
+padi	melwen	0.13	14	98	112
+IAMJEFF	Lanvin	0.13	11	74	85
+indego	Kyle	0.13	11	74	85
+padi	Dr_Kakashi	0.13	11	71	82
+RaKXeR	Floriman	0.13	10	68	78
+nitawa	Lanvin	0.13	10	68	78
+Lel0uch	pianoblook	0.13	9	60	69
+timotree	Lanvin	0.13	8	53	61
+sin_faith	IAMJEFF	0.13	7	45	52
+Fireheart	sjdrodge	0.13	5	34	39
+sin_faith	timotree	0.13	5	35	40
+micerang	pianoblook	0.13	3	21	24
+Zamiel	Kyle	0.12	75	537	612
+melwen	Kyle	0.12	30	218	248
+Libster	Kyle	0.12	13	99	112
+Kyle	MarkusKahlsen	0.12	11	82	93
+indego	Zamiel	0.12	10	75	85
+Pablo-	sin_faith	0.12	8	57	65
+indego	timotree	0.12	6	44	50
+timotree	Pablo-	0.12	6	44	50
+IAMJEFF	Lel0uch	0.12	5	38	43
+timotree	asaelr	0.12	5	37	42
+pianoblook	sin_faith	0.12	4	30	34
+scharkbite	melwen	0.11	76	615	691
+scharkbite	Fireheart	0.11	52	426	478
+Lanvin	indego	0.11	51	429	480
+VerySloppyTwo	Lanvin	0.11	51	411	462
+Lanvin	VerySloppyTwo	0.11	38	317	355
+Fireheart	Dr_Kakashi	0.11	37	306	343
+IAMJEFF	Kyle	0.11	29	234	263
+IAMJEFF	Zamiel	0.11	25	209	234
+Zamiel	Dr_Kakashi	0.11	23	196	219
+sjdrodge	Libster	0.11	23	187	210
+timotree	melwen	0.11	19	155	174
+Dr_Kakashi	RaKXeR	0.11	18	150	168
+indego	VerySloppyTwo	0.11	18	149	167
+sin_faith	Kyle	0.11	18	152	170
+Zamiel	melwen	0.11	17	133	150
+padi	scharkbite	0.11	16	124	140
+kimbifille	sjdrodge	0.11	15	118	133
+pianoblook	scharkbite	0.11	15	123	138
+Dr_Kakashi	indego	0.11	14	114	128
+sin_faith	Lanvin	0.11	13	110	123
+pianoblook	IAMJEFF	0.11	12	99	111
+ADrone	kimbifille	0.11	10	83	93
+Libster	Valetta6789	0.11	9	71	80
+asaelr	indego	0.11	8	62	70
+Lanvin	nitawa	0.11	7	55	62
+Pablo-	timotree	0.11	7	54	61
+asaelr	pianoblook	0.11	7	57	64
+Bot-Fiora	Lanvin	0.11	6	48	54
+Fireheart	Libster	0.11	6	50	56
+indego	Floriman	0.11	6	49	55
+Lel0uch	kimbifille	0.11	5	42	47
+Pablo-	Kyle	0.11	4	32	36
+RaKXeR	Kyle	0.11	4	32	36
+florrat2	Dr_Kakashi	0.11	3	24	27
+indego	eliclax	0.11	3	25	28
+melwen	scharkbite	0.1	67	599	666
+IAMJEFF	Dr_Kakashi	0.1	57	503	560
+Dr_Kakashi	Kyle	0.1	56	492	548
+Dr_Kakashi	IAMJEFF	0.1	55	491	546
+indego	Lanvin	0.1	49	427	476
+Fireheart	Zamiel	0.1	43	371	414
+Dr_Kakashi	Valetta6789	0.1	38	328	366
+Valetta6789	Dr_Kakashi	0.1	28	251	279
+Dr_Kakashi	Zamiel	0.1	25	228	253
+Libster	sjdrodge	0.1	23	214	237
+Zamiel	sjdrodge	0.1	21	199	220
+pianoblook	Kyle	0.1	17	151	168
+melwen	pianoblook	0.1	16	144	160
+pianoblook	Dr_Kakashi	0.1	16	144	160
+scharkbite	pianoblook	0.1	16	140	156
+scharkbite	timotree	0.1	16	143	159
+Floriman	IAMJEFF	0.1	15	131	146
+VerySloppyTwo	Lel0uch	0.1	15	140	155
+sjdrodge	scharkbite	0.1	15	133	148
+asaelr	melwen	0.1	12	112	124
+micerang	Libster	0.1	12	113	125
+sjdrodge	kimbifille	0.1	12	108	120
+timotree	scharkbite	0.1	12	113	125
+scharkbite	Lanvin	0.1	10	90	100
+sin_faith	indego	0.1	10	94	104
+Libster	Floriman	0.1	9	82	91
+Pablo-	VerySloppyTwo	0.1	9	80	89
+pianoblook	sjdrodge	0.1	9	78	87
+piper	IAMJEFF	0.1	9	77	86
+Lel0uch	Zamiel	0.1	8	70	78
+Lel0uch	sjdrodge	0.1	8	71	79
+Libster	Dr_Kakashi	0.1	8	71	79
+Zamiel	indego	0.1	8	71	79
+Zamiel	pianoblook	0.1	8	75	83
+melwen	padi	0.1	8	74	82
+indego	Dr_Kakashi	0.1	7	65	72
+ADrone	Zamiel	0.1	6	55	61
+ADrone	scharkbite	0.1	6	57	63
+Lanvin	Dr_Kakashi	0.1	6	56	62
+Nitrate	Lanvin	0.1	6	52	58
+Lanvin	timotree	0.1	5	44	49
+nitawa	eliclax	0.1	5	44	49
+Dr_Kakashi	Pablo-	0.1	3	27	30
+MarkusKahlsen	scharkbite	0.1	3	28	31
+kimbifille	padi	0.1	3	26	29
+piper	melwen	0.1	3	27	30
+sin_faith	Zamiel	0.1	2	19	21
+kimbifille	pianoblook	0.09	116	1153	1269
+indego	Lel0uch	0.09	71	745	816
+IAMJEFF	Fireheart	0.09	70	673	743
+scharkbite	Kyle	0.09	59	566	625
+Pablo-	nitawa	0.09	55	548	603
+ADrone	pianoblook	0.09	47	451	498
+Fireheart	Kyle	0.09	45	478	523
+Dr_Kakashi	Fireheart	0.09	40	395	435
+IAMJEFF	Valetta6789	0.09	37	390	427
+MarkusKahlsen	Lanvin	0.09	32	336	368
+sin_faith	Lel0uch	0.09	28	268	296
+Fireheart	Floriman	0.09	25	248	273
+asaelr	Zamiel	0.09	22	223	245
+IAMJEFF	kimbifille	0.09	21	216	237
+IAMJEFF	Floriman	0.09	17	167	184
+Kyle	Lanvin	0.09	16	161	177
+Lanvin	eliclax	0.09	13	135	148
+Lanvin	sin_faith	0.09	9	95	104
+florrat2	sjdrodge	0.09	9	92	101
+Kyle	pianoblook	0.09	8	83	91
+asaelr	padi	0.09	8	82	90
+Fireheart	RaKXeR	0.09	7	69	76
+Floriman	padi	0.09	7	69	76
+Floriman	indego	0.09	6	61	67
+scharkbite	piper	0.09	6	64	70
+Dr_Kakashi	Libster	0.09	5	52	57
+Fireheart	florrat2	0.09	5	53	58
+IAMJEFF	Libster	0.09	5	50	55
+IAMJEFF	pianoblook	0.09	5	52	57
+Pablo-	scharkbite	0.09	5	53	58
+sin_faith	pianoblook	0.09	5	48	53
+Floriman	melwen	0.09	4	43	47
+Lel0uch	eliclax	0.09	4	43	47
+melwen	piper	0.09	4	41	45
+pianoblook	MarkusKahlsen	0.09	4	42	46
+sin_faith	VerySloppyTwo	0.09	4	39	43
+MarkusKahlsen	Floriman	0.09	3	29	32
+padi	sin_faith	0.09	3	29	32
+sin_faith	melwen	0.09	3	31	34
+piper	pianoblook	0.08	90	1079	1169
+scharkbite	Zamiel	0.08	71	862	933
+kimbifille	Dr_Kakashi	0.08	66	714	780
+Zamiel	Fireheart	0.08	49	530	579
+pianoblook	ADrone	0.08	44	506	550
+Kyle	Zamiel	0.08	43	485	528
+Lel0uch	Lanvin	0.08	40	462	502
+florrat2	Zamiel	0.08	40	454	494
+Dr_Kakashi	micerang	0.08	38	455	493
+Kyle	Floriman	0.08	36	443	479
+scharkbite	Dr_Kakashi	0.08	35	402	437
+Floriman	kimbifille	0.08	32	374	406
+kimbifille	Floriman	0.08	31	376	407
+Libster	RaKXeR	0.08	30	351	381
+asaelr	Kyle	0.08	30	359	389
+indego	melwen	0.08	30	341	371
+Dr_Kakashi	scharkbite	0.08	28	325	353
+melwen	indego	0.08	24	269	293
+RaKXeR	Zamiel	0.08	22	245	267
+Valetta6789	Kyle	0.08	22	255	277
+florrat2	RaKXeR	0.08	22	251	273
+Zamiel	kimbifille	0.08	17	195	212
+Dr_Kakashi	sin_faith	0.08	14	167	181
+eliclax	Lanvin	0.08	13	140	153
+Zamiel	Valetta6789	0.08	12	144	156
+scharkbite	kimbifille	0.08	12	134	146
+RaKXeR	Fireheart	0.08	11	121	132
+VerySloppyTwo	indego	0.08	11	132	143
+melwen	Zamiel	0.08	11	119	130
+pianoblook	Zamiel	0.08	11	121	132
+sin_faith	Dr_Kakashi	0.08	11	130	141
+Floriman	pianoblook	0.08	10	117	127
+piper	ADrone	0.08	10	109	119
+timotree	Kyle	0.08	9	98	107
+Kyle	sin_faith	0.08	8	87	95
+Lel0uch	scharkbite	0.08	8	90	98
+asaelr	sin_faith	0.08	8	88	96
+padi	Floriman	0.08	8	91	99
+padi	Kyle	0.08	8	95	103
+Lanvin	IAMJEFF	0.08	7	83	90
+florrat2	scharkbite	0.08	7	86	93
+Valetta6789	Libster	0.08	5	54	59
+scharkbite	MarkusKahlsen	0.08	5	58	63
+VerySloppyTwo	nitawa	0.08	4	49	53
+VerySloppyTwo	sin_faith	0.08	4	45	49
+pianoblook	indego	0.08	4	49	53
+ADrone	Floriman	0.08	3	36	39
+Lanvin	Bot-Fiora	0.08	3	33	36
+Zamiel	Lel0uch	0.08	3	37	40
+Zamiel	sin_faith	0.08	3	34	37
+Bot-Fiora	indego	0.08	2	22	24
+Fireheart	pianoblook	0.08	2	24	26
+Fireheart	sin_faith	0.08	2	22	24
+eliclax	indego	0.08	2	22	24
+kimbifille	sin_faith	0.08	2	22	24
+Pablo-	Dr_Kakashi	0.08	1	11	12
+piper	kimbifille	0.07	81	1040	1121
+pianoblook	kimbifille	0.07	79	1106	1185
+Dr_Kakashi	kimbifille	0.07	65	817	882
+Zamiel	micerang	0.07	45	572	617
+Lanvin	melwen	0.07	39	537	576
+micerang	Kyle	0.07	38	498	536
+Kyle	scharkbite	0.07	37	503	540
+Floriman	Kyle	0.07	34	434	468
+Floriman	Dr_Kakashi	0.07	33	421	454
+Kyle	Dr_Kakashi	0.07	33	412	445
+nitawa	Pablo-	0.07	33	432	465
+IAMJEFF	scharkbite	0.07	28	352	380
+Kyle	Valetta6789	0.07	25	331	356
+IAMJEFF	asaelr	0.07	22	311	333
+RaKXeR	Libster	0.07	22	287	309
+Floriman	Fireheart	0.07	21	278	299
+asaelr	IAMJEFF	0.07	21	280	301
+Zamiel	IAMJEFF	0.07	20	272	292
+kimbifille	Zamiel	0.07	20	248	268
+Kyle	IAMJEFF	0.07	18	241	259
+MarkusKahlsen	Lel0uch	0.07	17	221	238
+RaKXeR	Dr_Kakashi	0.07	17	214	231
+RaKXeR	florrat2	0.07	17	217	234
+Zamiel	asaelr	0.07	16	211	227
+kimbifille	IAMJEFF	0.07	16	211	227
+Lanvin	asaelr	0.07	15	200	215
+micerang	IAMJEFF	0.07	15	197	212
+Lanvin	Kyle	0.07	14	177	191
+Lel0uch	VerySloppyTwo	0.07	14	178	192
+Lel0uch	sin_faith	0.07	14	181	195
+Zamiel	RaKXeR	0.07	14	180	194
+kimbifille	Lanvin	0.07	13	181	194
+IAMJEFF	micerang	0.07	12	159	171
+sjdrodge	Zamiel	0.07	12	156	168
+kimbifille	scharkbite	0.07	11	138	149
+piper	Dr_Kakashi	0.07	11	152	163
+Floriman	Zamiel	0.07	10	133	143
+melwen	Pablo-	0.07	10	129	139
+Libster	scharkbite	0.07	9	129	138
+Pablo-	melwen	0.07	9	112	121
+VerySloppyTwo	Pablo-	0.07	9	126	135
+Lanvin	Pablo-	0.07	8	100	108
+Lanvin	scharkbite	0.07	8	112	120
+MarkusKahlsen	VerySloppyTwo	0.07	8	107	115
+kimbifille	micerang	0.07	8	112	120
+Lel0uch	timotree	0.07	7	88	95
+sin_faith	asaelr	0.07	7	90	97
+timotree	kimbifille	0.07	7	91	98
+Kyle	indego	0.07	6	80	86
+Lanvin	Floriman	0.07	6	76	82
+Pablo-	asaelr	0.07	6	77	83
+RaKXeR	Valetta6789	0.07	6	76	82
+Valetta6789	Lanvin	0.07	6	84	90
+kimbifille	melwen	0.07	6	77	83
+melwen	VerySloppyTwo	0.07	6	76	82
+pianoblook	Lel0uch	0.07	6	86	92
+Pablo-	indego	0.07	5	70	75
+pianoblook	Pablo-	0.07	5	67	72
+Lanvin	pianoblook	0.07	4	51	55
+Lel0uch	IAMJEFF	0.07	4	51	55
+RaKXeR	asaelr	0.07	4	55	59
+kimbifille	Fireheart	0.07	4	53	57
+pianoblook	asaelr	0.07	4	57	61
+Lanvin	Zamiel	0.07	3	38	41
+Pablo-	pianoblook	0.07	3	39	42
+asaelr	timotree	0.07	3	39	42
+kimbifille	Lel0uch	0.07	3	41	44
+eliclax	Pablo-	0.07	2	27	29
+piper	Kyle	0.07	2	27	29
+piper	scharkbite	0.07	2	25	27
+melwen	eliclax	0.07	1	14	15
+Lel0uch	melwen	0.06	67	1023	1090
+Lel0uch	indego	0.06	60	902	962
+Valetta6789	Fireheart	0.06	58	839	897
+melwen	Lel0uch	0.06	56	861	917
+Fireheart	Valetta6789	0.06	54	850	904
+Zamiel	florrat2	0.06	50	842	892
+Zamiel	scharkbite	0.06	47	703	750
+Libster	florrat2	0.06	46	664	710
+Fireheart	IAMJEFF	0.06	41	630	671
+Kyle	Fireheart	0.06	38	586	624
+Zamiel	Libster	0.06	38	591	629
+Libster	Zamiel	0.06	37	574	611
+asaelr	Fireheart	0.06	35	567	602
+asaelr	Dr_Kakashi	0.06	34	540	574
+melwen	Lanvin	0.06	34	564	598
+Fireheart	asaelr	0.06	31	469	500
+Kyle	micerang	0.06	30	494	524
+asaelr	scharkbite	0.06	30	478	508
+micerang	Zamiel	0.06	30	482	512
+Lanvin	Lel0uch	0.06	29	478	507
+scharkbite	asaelr	0.06	29	429	458
+asaelr	Floriman	0.06	28	452	480
+Dr_Kakashi	Floriman	0.06	26	431	457
+Dr_Kakashi	asaelr	0.06	24	407	431
+Fireheart	scharkbite	0.06	24	402	426
+Floriman	Valetta6789	0.06	24	380	404
+Valetta6789	IAMJEFF	0.06	24	352	376
+Fireheart	micerang	0.06	23	348	371
+micerang	scharkbite	0.06	22	342	364
+scharkbite	IAMJEFF	0.06	21	311	332
+Valetta6789	Floriman	0.06	20	333	353
+micerang	sjdrodge	0.06	16	239	255
+scharkbite	padi	0.06	13	199	212
+sjdrodge	micerang	0.06	13	205	218
+Kyle	melwen	0.06	12	178	190
+kimbifille	Valetta6789	0.06	12	174	186
+Valetta6789	scharkbite	0.06	11	180	191
+Zamiel	Floriman	0.06	11	160	171
+indego	sin_faith	0.06	9	153	162
+pianoblook	Floriman	0.06	8	127	135
+Libster	Fireheart	0.06	7	112	119
+kimbifille	ADrone	0.06	7	106	113
+melwen	kimbifille	0.06	7	106	113
+pianoblook	timotree	0.06	7	116	123
+sjdrodge	Dr_Kakashi	0.06	7	101	108
+Kyle	Libster	0.06	6	90	96
+melwen	asaelr	0.06	6	87	93
+padi	asaelr	0.06	6	90	96
+sjdrodge	florrat2	0.06	6	92	98
+timotree	Lel0uch	0.06	6	87	93
+Lel0uch	Pablo-	0.06	5	80	85
+Libster	asaelr	0.06	5	81	86
+MarkusKahlsen	asaelr	0.06	5	79	84
+VerySloppyTwo	MarkusKahlsen	0.06	5	80	85
+timotree	sjdrodge	0.06	5	79	84
+Kyle	Lel0uch	0.06	4	63	67
+timotree	indego	0.06	4	68	72
+Kyle	RaKXeR	0.06	3	47	50
+florrat2	IAMJEFF	0.06	3	45	48
+kimbifille	asaelr	0.06	3	47	50
+melwen	IAMJEFF	0.06	3	47	50
+sin_faith	scharkbite	0.06	3	47	50
+Dr_Kakashi	melwen	0.06	2	34	36
+Floriman	Lel0uch	0.06	2	33	35
+IAMJEFF	sin_faith	0.06	2	29	31
+Zamiel	Lanvin	0.06	2	31	33
+eliclax	melwen	0.06	2	32	34
+micerang	melwen	0.06	2	30	32
+sin_faith	padi	0.06	2	34	36
+timotree	sin_faith	0.06	1	15	16
+florrat2	Libster	0.05	34	691	725
+Floriman	asaelr	0.05	31	550	581
+micerang	Dr_Kakashi	0.05	25	456	481
+scharkbite	micerang	0.05	24	489	513
+scharkbite	Floriman	0.05	22	426	448
+asaelr	Valetta6789	0.05	20	415	435
+Valetta6789	asaelr	0.05	16	324	340
+micerang	Fireheart	0.05	16	313	329
+Kyle	kimbifille	0.05	10	205	215
+micerang	Valetta6789	0.05	10	204	214
+scharkbite	RaKXeR	0.05	10	177	187
+MarkusKahlsen	Pablo-	0.05	9	173	182
+indego	MarkusKahlsen	0.05	9	160	169
+Dr_Kakashi	pianoblook	0.05	8	152	160
+scharkbite	sjdrodge	0.05	8	165	173
+Lanvin	kimbifille	0.05	7	140	147
+asaelr	Lanvin	0.05	7	145	152
+scharkbite	Libster	0.05	7	127	134
+scharkbite	florrat2	0.05	7	129	136
+Libster	micerang	0.05	6	125	131
+Valetta6789	Zamiel	0.05	6	119	125
+asaelr	Pablo-	0.05	6	117	123
+kimbifille	timotree	0.05	6	114	120
+ADrone	piper	0.05	5	88	93
+Kyle	timotree	0.05	5	89	94
+scharkbite	Lel0uch	0.05	5	93	98
+Floriman	Lanvin	0.05	4	70	74
+Floriman	RaKXeR	0.05	4	79	83
+Lanvin	Valetta6789	0.05	4	82	86
+MarkusKahlsen	Kyle	0.05	4	69	73
+MarkusKahlsen	timotree	0.05	4	70	74
+sin_faith	Floriman	0.05	4	76	80
+sin_faith	MarkusKahlsen	0.05	4	77	81
+ADrone	Kyle	0.05	3	53	56
+Floriman	ADrone	0.05	3	54	57
+Lanvin	Nitrate	0.05	3	60	63
+Lel0uch	asaelr	0.05	3	62	65
+asaelr	MarkusKahlsen	0.05	3	56	59
+piper	Floriman	0.05	3	62	65
+scharkbite	ADrone	0.05	3	60	63
+sjdrodge	IAMJEFF	0.05	3	62	65
+timotree	Zamiel	0.05	3	61	64
+Dr_Kakashi	florrat2	0.05	2	38	40
+Floriman	Libster	0.05	2	37	39
+asaelr	kimbifille	0.05	2	39	41
+florrat2	Kyle	0.05	2	40	42
+melwen	micerang	0.05	1	21	22
+Floriman	scharkbite	0.04	20	494	514
+Kyle	asaelr	0.04	19	410	429
+micerang	asaelr	0.04	15	351	366
+Lanvin	MarkusKahlsen	0.04	13	325	338
+asaelr	micerang	0.04	13	296	309
+Lel0uch	MarkusKahlsen	0.04	11	294	305
+Valetta6789	kimbifille	0.04	11	248	259
+melwen	MarkusKahlsen	0.04	9	216	225
+MarkusKahlsen	melwen	0.04	8	171	179
+micerang	Floriman	0.04	8	178	186
+MarkusKahlsen	indego	0.04	7	159	166
+pianoblook	melwen	0.04	7	156	163
+Kyle	padi	0.04	5	118	123
+Pablo-	Lanvin	0.04	5	117	122
+Pablo-	MarkusKahlsen	0.04	5	112	117
+RaKXeR	scharkbite	0.04	5	111	116
+Dr_Kakashi	padi	0.04	4	86	90
+Floriman	micerang	0.04	4	92	96
+micerang	kimbifille	0.04	4	90	94
+Dr_Kakashi	sjdrodge	0.04	3	71	74
+Pablo-	Lel0uch	0.04	3	70	73
+asaelr	Libster	0.04	3	80	83
+sjdrodge	melwen	0.04	3	74	77
+sjdrodge	pianoblook	0.04	3	80	83
+sjdrodge	timotree	0.04	3	81	84
+Fireheart	kimbifille	0.04	2	48	50
+Floriman	Nitrate	0.04	2	50	52
+Lel0uch	Floriman	0.04	2	46	48
+Libster	IAMJEFF	0.04	2	45	47
+MarkusKahlsen	pianoblook	0.04	2	45	47
+RaKXeR	micerang	0.04	2	44	46
+micerang	padi	0.04	2	46	48
+sjdrodge	Fireheart	0.04	2	50	52
+indego	Fireheart	0.04	1	26	27
+pianoblook	piper	0.03	36	1182	1218
+kimbifille	piper	0.03	29	1045	1074
+scharkbite	Valetta6789	0.03	13	377	390
+Valetta6789	micerang	0.03	5	172	177
+melwen	timotree	0.03	4	150	154
+melwen	sjdrodge	0.03	3	87	90
+Floriman	sin_faith	0.03	2	69	71
+Kyle	ADrone	0.03	2	77	79
+Kyle	Pablo-	0.03	2	70	72
+Kyle	piper	0.03	2	56	58
+VerySloppyTwo	melwen	0.03	2	77	79
+Dr_Kakashi	Lanvin	0.03	1	31	32
+Kyle	florrat2	0.03	1	28	29
+MarkusKahlsen	sin_faith	0.03	1	29	30
+Pablo-	Floriman	0.03	1	33	34
+Zamiel	ADrone	0.03	1	33	34
+micerang	florrat2	0.03	1	37	38
+padi	kimbifille	0.03	1	29	30
+piper	sjdrodge	0.03	1	32	33
+sin_faith	Fireheart	0.03	1	28	29
+sin_faith	kimbifille	0.03	1	28	29
+sjdrodge	Kyle	0.03	1	30	31
+sjdrodge	Lel0uch	0.03	1	33	34
+Dr_Kakashi	piper	0.02	3	153	156
+timotree	pianoblook	0.02	3	131	134
+Floriman	MarkusKahlsen	0.02	1	48	49
+Floriman	piper	0.02	1	54	55
+asaelr	Lel0uch	0.02	1	62	63
+florrat2	Fireheart	0.02	1	52	53
+indego	Pablo-	0.02	1	52	53
+padi	micerang	0.02	1	46	47
+sin_faith	Pablo-	0.02	1	41	42
+micerang	RaKXeR	0.01	1	70	71
+Fireheart	indego	0	0	23	23
+Floriman	Pablo-	0	0	39	39
+IAMJEFF	florrat2	0	0	25	25
+IAMJEFF	melwen	0	0	23	23
+IAMJEFF	piper	0	0	86	86
+Kyle	Nitrate	0	0	28	28
+Kyle	sjdrodge	0	0	30	30
+Nitrate	Floriman	0	0	46	46
+Nitrate	Kyle	0	0	29	29
+Pablo-	eliclax	0	0	16	16
+asaelr	RaKXeR	0	0	57	57
+eliclax	Lel0uch	0	0	31	31
+florrat2	micerang	0	0	33	33
+melwen	Floriman	0	0	37	37
+pianoblook	Fireheart	0	0	35	35
+pianoblook	micerang	0	0	18	18
+sjdrodge	piper	0	0	35	35
+timotree	MarkusKahlsen	0	0	86	86
