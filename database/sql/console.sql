@@ -164,6 +164,48 @@ and num_players != 2
 group by player
 order by ratio desc, misplays desc, player;
 
+--misplays after player gives a clue
+select concat('hanab.live/replay/', c.game_id, '#', turn_clued), clue_giver
+--        , round(
+--                    count(*) * 1.0 / (
+--                    select count(*)
+--                    from games
+--                    where clue_giver = any (players)
+--                      and speedrun is false
+--                      and detrimental_characters is false
+--                      and num_players != 2
+--                ), 2
+--            ) as ratio,
+--             count(*) as misplays,
+--             (
+--                 select count(*)
+--                 from games
+--                 where clue_giver = any (players)
+--                   and speedrun is false
+--                   and detrimental_characters is false
+--                   and num_players != 2
+--             ) as games
+from clues c
+join games g on g.game_id = c.game_id
+where clue_giver in (
+    select player
+    from players_list
+)
+and speedrun is false
+and detrimental_characters is false
+and num_players != 2
+and turn_clued + 1 in (
+    select turn_action
+    from card_actions ca
+    where ca.game_id = c.game_id
+      and action_type = 'misplay'
+)
+and clue_giver = 'Floriman'
+order by c.game_id, turn_clued;
+-- group by clue_giver, c.game_id
+-- order by ratio desc, misplays desc, clue_giver;
+
+
 --update
 update variants set suits[array_length(suits, 1)] =
     replace(suits[array_length(suits, 1)], ' Reversed', '');
