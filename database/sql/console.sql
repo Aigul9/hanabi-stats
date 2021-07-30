@@ -268,6 +268,103 @@ order by ratio desc, misplays desc, clue_giver, player;
 
 select * from bugged_games;
 
+--best Bob and Alice
+--best Alice
+select clue_giver as Alice,
+       round(sum(misplays) * 1.0 / sum(games), 2) as ratio,
+       sum(misplays) as misplays,
+       sum(games) as games
+from (
+         select clue_giver,
+                player,
+                count(*) as misplays,
+                (
+                    select count(*)
+                    from games
+                    where clue_giver = any (players)
+                      and player = any (players)
+                      and speedrun is false
+                      and detrimental_characters is false
+                      and num_players != 2
+                      and game_id not in (
+                        select game_id
+                        from bugged_games
+                    )
+                )        as games
+         from card_actions ca
+                  join clues c on ca.game_id = c.game_id
+                  join games g on g.game_id = c.game_id
+         where player in (
+             select player
+             from players_list
+         )
+           and clue_giver in (
+             select player
+             from players_list
+         )
+           and action_type = 'misplay'
+           and turn_clued = turn_action - 1
+           and speedrun is false
+           and detrimental_characters is false
+           and num_players != 2
+           and ca.game_id not in (
+             select game_id
+             from bugged_games
+         )
+         group by clue_giver, player
+     ) as ccg
+where games > 50
+group by clue_giver
+order by ratio desc, misplays desc, clue_giver;
+
+--best Bob
+select player as Bob,
+       round(sum(misplays) * 1.0 / sum(games), 2) as ratio,
+       sum(misplays) as misplays,
+       sum(games) as games
+from (
+         select clue_giver,
+                player,
+                count(*) as misplays,
+                (
+                    select count(*)
+                    from games
+                    where clue_giver = any (players)
+                      and player = any (players)
+                      and speedrun is false
+                      and detrimental_characters is false
+                      and num_players != 2
+                      and game_id not in (
+                        select game_id
+                        from bugged_games
+                    )
+                )        as games
+         from card_actions ca
+                  join clues c on ca.game_id = c.game_id
+                  join games g on g.game_id = c.game_id
+         where player in (
+             select player
+             from players_list
+         )
+           and clue_giver in (
+             select player
+             from players_list
+         )
+           and action_type = 'misplay'
+           and turn_clued = turn_action - 1
+           and speedrun is false
+           and detrimental_characters is false
+           and num_players != 2
+           and ca.game_id not in (
+             select game_id
+             from bugged_games
+         )
+         group by clue_giver, player
+     ) as ccg
+where games > 50
+group by player
+order by ratio desc, misplays desc, player;
+
 --update
 update variants set suits[array_length(suits, 1)] =
     replace(suits[array_length(suits, 1)], ' Reversed', '');
