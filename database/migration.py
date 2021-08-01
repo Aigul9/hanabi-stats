@@ -17,7 +17,8 @@ while True:
         db_game = d.load_game(g, s)
         d.load_actions(g)
         d.load_notes(g)
-        d.load_card_actions_and_clues(db_game)
+        if not db_game.detrimental_characters:
+            d.load_card_actions_and_clues(db_game)
         last_id += 1
         d.session.commit()
     else:
