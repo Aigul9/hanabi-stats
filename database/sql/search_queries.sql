@@ -86,3 +86,17 @@ RETURNS int AS $$
         END IF;
     END;
 $$ LANGUAGE 'plpgsql';
+
+--player's hand on the particular turn
+select turn, slot, player, card_suit,
+       card_rank, card_index, turn_drawn, turn_action
+from (
+    select turn as turn, slot, player, card_suit,
+       card_rank, s.card_index, turn_drawn, turn_action,
+           rank() over (partition by slot, player order by turn desc, player) as rank
+    from slots s join card_actions ca
+           on s.game_id = ca.game_id and s.card_index = ca.card_index
+    where player = 'Zamiel'
+    and turn <= 18
+) as dt
+where rank = 1;

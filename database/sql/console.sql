@@ -1,5 +1,5 @@
 --select by condition
-select * from games where game_id = 6513;
+select * from games where game_id = 600368;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select max(game_id) from games;
@@ -14,7 +14,25 @@ select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
 select count(distinct game_id) from clues;
 
-select * from card_actions where game_id = 599392 order by turn_action;
+select s.card_index,
+       turn,
+       slot,
+       card_suit,
+       card_rank,
+       player,
+       turn_drawn,
+       turn_action
+       from slots s join card_actions ca
+           on s.game_id = ca.game_id and s.card_index = ca.card_index
+order by turn, card_index;
+
+select * from slots where game_id = 2907 and card_index = 10;
+select * from slots order by turn, card_index;
+--delete from slots where 1 = 1;
+
+
+select * from card_actions where game_id = 2907 order by turn_action;
+select * from card_actions where game_id = 2907 order by card_index;
 select * from clues where game_id = 599392 order by turn_clued;
 
 select * from games where game_id > 36000 and starting_player != 0 order by 1;

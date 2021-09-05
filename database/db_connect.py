@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Sequence
+from sqlalchemy import create_engine, Sequence, ForeignKeyConstraint
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DateTime
@@ -243,6 +243,22 @@ class Player(Base):
 
     def __init__(self, player):
         self.player = player
+
+
+class Slot(Base):
+    __tablename__ = 'slots'
+    game_id = Column(Integer, primary_key=True)
+    card_index = Column(Integer, primary_key=True)
+    turn = Column(Integer, primary_key=True)
+    slot = Column(Integer)
+    __table_args__ = (ForeignKeyConstraint([game_id, card_index],
+                                           [CardAction.game_id, CardAction.card_index]), {})
+
+    def __init__(self, game_id, card_index, turn, slot):
+        self.game_id = game_id
+        self.card_index = card_index
+        self.turn = turn
+        self.slot = slot
 
 
 Base.metadata.create_all(db)

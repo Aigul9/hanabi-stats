@@ -1,6 +1,6 @@
 import py.utils as u
 from py.utils import logger
-from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue, Player
+from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue, Player, Slot
 
 
 def load_game(g, s):
@@ -274,3 +274,12 @@ def update_action_types(db_game):
 
 def load_player(player):
     session.add(Player(player))
+
+
+def load_slots(card_action, turn, slot):
+    movement = Slot(
+        card_action.game_id,
+        card_action.card_index,
+        turn,
+        slot)
+    session.add(movement)
