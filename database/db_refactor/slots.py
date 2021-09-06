@@ -24,7 +24,13 @@ games = session.query(
 
 for g in games:
     logger.info(g.game_id)
-    card_actions = session.query(CardAction)\
+    card_actions = session.query(
+        CardAction.card_index,
+        CardAction.player,
+        CardAction.turn_drawn,
+        CardAction.turn_action,
+        CardAction.game_id
+    )\
         .filter(
         and_(
             CardAction.game_id == g.game_id,
@@ -44,7 +50,7 @@ for g in games:
     card_actions = [ca for ca in card_actions if ca.turn_action is not None]
     for ca in sorted(card_actions, key=lambda x: x.turn_action):
         card_slot = max([s.slot for s in slots if s.card_index == ca.card_index])
-        card_actions_join_slots = sorted([
+        card_actions_copy = sorted([
             a for a in card_actions_copy if
             a.turn_drawn < ca.turn_action and
             a.player == ca.player and
@@ -52,8 +58,7 @@ for g in games:
             (a.turn_action is None or
              a.turn_action > ca.turn_action)
         ], key=lambda x: -x.card_index)[:card_slot - 1]
-        for i in range(len(card_actions_join_slots)):
-            slots.append(d.load_slots(card_actions_join_slots[i], ca.turn_action, i + 2))
+        for i in range(len(card_actions_copy)):
+            slots.append(d.load_slots(card_actions_copy[i], ca.turn_action, i + 2))
     d.session.commit()
-
 d.session.close()

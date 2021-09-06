@@ -25,7 +25,7 @@ select s.card_index,
        turn_action
        from slots s join card_actions ca
            on s.game_id = ca.game_id and s.card_index = ca.card_index
-where s.game_id = 161806
+where s.game_id = 188808
 order by turn, card_index;
 
 delete from slots where game_id > 155643;
