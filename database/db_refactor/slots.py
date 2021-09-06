@@ -1,4 +1,5 @@
-from sqlalchemy import and_, desc, func, or_, false
+import copy
+from sqlalchemy import and_, func, false
 
 import database.db_load as d
 import py.utils as u
@@ -30,35 +31,28 @@ for g in games:
     ))\
         .order_by(CardAction.card_index)\
         .all()
+    card_actions_copy = copy.deepcopy(card_actions)
     len_cards = u.get_number_of_cards_in_hand(g.num_players, g.one_less_card, g.one_extra_card)
+    slots = []
     for ca in card_actions:
         if ca.turn_drawn == 0:
             slot = len_cards - ca.card_index % len_cards
         else:
             slot = 1
-        d.load_slots(ca, ca.turn_drawn, slot)
+        slots.append(d.load_slots(ca, ca.turn_drawn, slot))
     card_actions = [ca for ca in card_actions if ca.turn_action is not None]
     for ca in sorted(card_actions, key=lambda x: x.turn_action):
-        card_slot = session.query(func.max(Slot.slot)).filter(
-            and_(Slot.game_id == ca.game_id,
-                 Slot.card_index == ca.card_index)
-        ).scalar()
-        card_actions_join_slots = session.query(CardAction)\
-            .join(Slot)\
-            .filter(and_(
-                CardAction.game_id == ca.game_id,
-                CardAction.turn_drawn < ca.turn_action,
-                CardAction.player == ca.player,
-                CardAction.card_index != ca.card_index
-        ))\
-            .filter(or_(
-                CardAction.turn_action > ca.turn_action,
-                CardAction.turn_action == None
-        ))\
-            .order_by(desc(CardAction.card_index))\
-            .all()[:card_slot - 1]
+        card_slot = max([s.slot for s in slots if s.card_index == ca.card_index])
+        card_actions_join_slots = sorted([
+            a for a in card_actions_copy if
+            a.turn_drawn < ca.turn_action and
+            a.player == ca.player and
+            a.card_index != ca.card_index and
+            (a.turn_action is None or
+             a.turn_action > ca.turn_action)
+        ], key=lambda x: -x.card_index)[:card_slot - 1]
         for i in range(len(card_actions_join_slots)):
-            d.load_slots(card_actions_join_slots[i], ca.turn_action, i + 2)
+            slots.append(d.load_slots(card_actions_join_slots[i], ca.turn_action, i + 2))
     d.session.commit()
 
 d.session.close()

@@ -283,3 +283,4 @@ def load_slots(card_action, turn, slot):
         turn,
         slot)
     session.add(movement)
+    return movement
