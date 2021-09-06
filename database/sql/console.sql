@@ -1,5 +1,5 @@
 --select by condition
-select * from games where game_id = 600368;
+select * from games where game_id = 612473;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select max(game_id) from games;
@@ -24,12 +24,12 @@ select s.card_index,
        turn_action
        from slots s join card_actions ca
            on s.game_id = ca.game_id and s.card_index = ca.card_index
+where s.game_id = 5875
 order by turn, card_index;
 
-select * from slots where game_id = 2907 and card_index = 10;
+select * from slots where game_id = 3641 and card_index = 10;
 select * from slots order by turn, card_index;
 --delete from slots where 1 = 1;
-
 
 select * from card_actions where game_id = 2907 order by turn_action;
 select * from card_actions where game_id = 2907 order by card_index;

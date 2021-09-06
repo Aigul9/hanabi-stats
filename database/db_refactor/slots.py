@@ -3,20 +3,26 @@ from sqlalchemy import and_, desc, func, or_, false
 import database.db_load as d
 import py.utils as u
 from database.db_connect import session, Game, CardAction, Slot
+from py.utils import logger
 
 
+last_id = d.session.query(func.max(Slot.game_id)).scalar()
 games = session.query(
     Game.game_id,
     Game.num_players,
     Game.one_less_card,
     Game.one_extra_card
 ) \
-    .filter(Game.game_id == 2907)\
-    .filter(Game.card_cycle == false())\
+    .filter(
+    and_(
+        Game.card_cycle == false(),
+        Game.game_id > last_id
+    ))\
     .order_by(Game.game_id)\
     .all()
 
 for g in games:
+    logger.info(g.game_id)
     card_actions = session.query(CardAction)\
         .filter(and_(
             CardAction.game_id == g.game_id,
@@ -40,6 +46,7 @@ for g in games:
         card_actions_join_slots = session.query(CardAction)\
             .join(Slot)\
             .filter(and_(
+                CardAction.game_id == ca.game_id,
                 CardAction.turn_drawn < ca.turn_action,
                 CardAction.player == ca.player,
                 CardAction.card_index != ca.card_index

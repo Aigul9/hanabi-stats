@@ -96,7 +96,8 @@ from (
            rank() over (partition by slot, player order by turn desc, player) as rank
     from slots s join card_actions ca
            on s.game_id = ca.game_id and s.card_index = ca.card_index
-    where player = 'Zamiel'
+    where s.game_id = 2907
+    and player = 'Zamiel'
     and turn <= 18
 ) as dt
 where rank = 1;

@@ -161,6 +161,23 @@ having max(turn_drawn) = 0;
 --0
 --ok
 
+--A14
+--06.09.2021
+select count(*) from games;
+--613283
+select count(distinct game_id) from game_actions;
+--613040
+select g.game_id from games g left join game_actions ga on g.game_id = ga.game_id
+where ga.game_id is null order by 1;
+--243
+--ok
+select count(distinct game_id) from card_actions;
+--609425
+select count(*) from games where detrimental_characters is true;
+--3858
+--ok
+select count(distinct game_id) from slots;
+
 --db size
 select datname, pg_size_pretty(pg_database_size(datname)) 
 from pg_database;
