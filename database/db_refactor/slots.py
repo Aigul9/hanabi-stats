@@ -25,10 +25,11 @@ games = session.query(
 for g in games:
     logger.info(g.game_id)
     card_actions = session.query(CardAction)\
-        .filter(and_(
+        .filter(
+        and_(
             CardAction.game_id == g.game_id,
             CardAction.turn_drawn != None
-    ))\
+        ))\
         .order_by(CardAction.card_index)\
         .all()
     card_actions_copy = copy.deepcopy(card_actions)

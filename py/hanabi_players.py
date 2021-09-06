@@ -1,7 +1,7 @@
 import json
 
-from database.db_connect import session, Game, GameAction
 import py.utils as u
+from py.utils import logger
 
 
 # players_sets = session.query(Game.players).all()
@@ -19,14 +19,12 @@ import py.utils as u
 hanabi_players = u.open_file('../output/hanabi_players2.txt')
 with open(f'../output/stats.txt', 'a') as file:
     for p in hanabi_players:
-        print(p)
+        logger.info(p)
         try:
             stats = u.open_stats(p)
         except json.decoder.JSONDecodeError:
-            print('error', p)
+            logger.error(p)
             continue
         for s in stats:
             json.dump(s, file)
             file.write('\n')
-
-# print(all_stats)

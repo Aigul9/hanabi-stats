@@ -3,7 +3,7 @@ import json
 import py.utils as u
 import database.db_load as d
 from py.utils import logger
-from database.db_connect import session, Game, CardAction
+from database.db_connect import session, Game
 
 
 def open_as_json(filename):
@@ -67,10 +67,6 @@ games = session.query(
     .filter(Game.game_id >= 479271)\
     .order_by(Game.game_id)\
     .all()
-    # .join(CardAction, isouter=True) \
-    # .filter(CardAction.game_id == None) \
-    # .order_by(Game.game_id)\
-    # .all()
 
 load_cards(games)
 d.session.close()

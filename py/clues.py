@@ -1,3 +1,5 @@
+from sqlalchemy import false
+
 import py.utils as u
 from database.db_connect import session, Game, GameAction, Variant
 
@@ -10,7 +12,7 @@ for user in users:
     games = session.query(Game, Variant) \
         .join(Variant) \
         .filter(Game.players.any(user)) \
-        .filter(Game.speedrun == False) \
+        .filter(Game.speedrun == false()) \
         .all()
     print(len(games))
     alice_wins = 0
