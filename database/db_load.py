@@ -235,6 +235,8 @@ def load_card_actions_and_clues(db_game):
     players_mod = (players_orig[starting_player:] + players_orig[:starting_player])
 
     suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
+    suits = [s.lower() for s in suits]
+    colors = [c.lower() for c in colors]
     piles = init_piles(variant, suits)
 
     deck = session.query(Card).filter(Card.seed == seed).all()
@@ -267,6 +269,7 @@ def update_action_types(db_game):
     game_id, variant = db_game.game_id, db_game.variant
     actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
     suits = session.query(Variant.suits).filter(Variant.variant == variant).scalar()
+    suits = [s.lower() for s in suits]
     piles = init_piles(variant, suits)
     card_actions = session.query(CardAction).filter(CardAction.game_id == game_id).all()
 
@@ -317,13 +320,23 @@ def load_slots(g):
     card_actions = [ca for ca in card_actions if ca.turn_action is not None]
     for ca in sorted(card_actions, key=lambda x: x.turn_action):
         card_slot = max([s.slot for s in slots if s.card_index == ca.card_index])
-        card_actions_copy = sorted([
+        len_drawn_cards = len([
+            a for a in card_actions_copy if
+            a.turn_drawn >= ca.turn_drawn and
+            a.player == ca.player and
+            a.card_index != ca.card_index and
+            (a.turn_action is None or
+             a.turn_action > ca.turn_action)
+        ])
+        len_moved_cards = min(len_drawn_cards, card_slot - 1)
+        card_actions_filtered = sorted([
             a for a in card_actions_copy if
             a.turn_drawn < ca.turn_action and
             a.player == ca.player and
             a.card_index != ca.card_index and
             (a.turn_action is None or
              a.turn_action > ca.turn_action)
-        ], key=lambda x: -x.card_index)[:card_slot - 1]
-        for i in range(len(card_actions_copy)):
-            slots.append(add_slot(card_actions_copy[i], ca.turn_action, i + 2))
+        ], key=lambda x: -x.card_index)[:len_moved_cards]
+        for i in card_actions_filtered:
+            moved_card_slot = max([s.slot for s in slots if s.card_index == i.card_index])
+            slots.append(add_slot(i, ca.turn_action, moved_card_slot + 1))
