@@ -1,6 +1,6 @@
 import json
 
-from sqlalchemy import func, and_, false
+from sqlalchemy import func, and_, false, true
 
 import py.utils as u
 import database.db_load as d
@@ -71,7 +71,7 @@ games = session.query(
     .filter(
     and_(
         Game.card_cycle == false(),
-        Game.game_id > last_id
+        Game.all_or_nothing == true()
     ))\
     .order_by(Game.game_id)\
     .all()

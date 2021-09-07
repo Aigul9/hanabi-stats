@@ -207,3 +207,27 @@ and card_index not in (
 )
 order by player, slot;
 
+--Games where b1 were played from slot 2
+select concat('hanab.live/replay/', t.game_id, '#', turn_action), player from
+(select max(slot) as slot_played, s.game_id, s.card_index, card_suit, card_rank
+from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
+join games g on ca.game_id = g.game_id
+where num_players = 2
+and 'timotree' = any(players)
+and 'Jillb363636' = any(players)
+and card_suit = 'Blue'
+and card_rank = 1
+and action_type = 'play'
+-- and player = 'Jillb363636'
+and turn != 0
+group by s.game_id, s.card_index, card_suit, card_rank
+having max(slot) = 2) t join card_actions ca
+on t.game_id = ca.game_id and t.card_index = ca.card_index
+order by t.game_id desc;
+
+--Slot from which the card was played
+select max(slot) as slot_played, s.game_id, s.card_index, card_suit, card_rank
+from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
+where s.game_id = 475075
+group by s.game_id, s.card_index, card_suit, card_rank
+order by card_index;

@@ -15,12 +15,12 @@ while True:
     if g != {}:
         logger.info(g_id)
         s = u.open_stats_by_game_id(g['players'][0], g_id)
-        d.load_deck(g)
+        deck = d.load_deck(g)
         db_game = d.load_game(g, s)
-        d.load_actions(g)
+        game_actions = d.load_actions(g)
         d.load_notes(g)
         if not db_game.detrimental_characters:
-            d.load_card_actions_and_clues(db_game)
+            d.load_card_actions_and_clues(db_game, game_actions, deck)
         last_id += 1
         d.load_slots(db_game)
         d.session.commit()

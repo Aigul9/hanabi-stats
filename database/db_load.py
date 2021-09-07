@@ -47,11 +47,12 @@ def load_game(g, s):
 
 def load_deck(g):
     deck = g['deck']
-    seed = session.query(Card.seed) \
+    deck_res = session.query(Card) \
         .filter(Card.seed == g['seed'])\
-        .first()
-    if seed is not None:
-        return
+        .all()
+    if len(deck_res) != 0:
+        return deck_res
+    deck_res = []
     for i in range(len(deck)):
         card = Card(
             g['seed'],
@@ -60,11 +61,14 @@ def load_deck(g):
             deck[i]['rank']
         )
         session.add(card)
+        deck_res.append(card)
+    return deck_res
 
 
 def load_actions(g):
     g_id = g['id']
     actions = g['actions']
+    actions_res = []
     for i in range(len(actions)):
         action = GameAction(
             g_id,
@@ -74,6 +78,8 @@ def load_actions(g):
             actions[i]['value'],
         )
         session.add(action)
+        actions_res.append(action)
+    return actions_res
 
 
 def load_notes(g):
@@ -220,9 +226,8 @@ def init_action_type(action, suits, card_action, piles):
     return card_action
 
 
-def load_card_actions_and_clues(db_game):
+def load_card_actions_and_clues(db_game, game_actions, deck):
     game_id = db_game.game_id
-    seed = db_game.seed
     players_orig = db_game.players
     num_players = db_game.num_players
     variant_id = db_game.variant_id
@@ -231,7 +236,6 @@ def load_card_actions_and_clues(db_game):
     one_less_card = db_game.one_less_card
     one_extra_card = db_game.one_extra_card
 
-    actions = session.query(GameAction).filter(GameAction.game_id == game_id).all()
     players_mod = (players_orig[starting_player:] + players_orig[:starting_player])
 
     suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
@@ -239,16 +243,14 @@ def load_card_actions_and_clues(db_game):
     colors = [c.lower() for c in colors]
     piles = init_piles(variant, suits)
 
-    deck = session.query(Card).filter(Card.seed == seed).all()
     load_card_action_empty(deck, game_id, suits)
-
     current_card_ind = u.get_number_of_starting_cards(num_players, one_less_card, one_extra_card)
     cards_per_hand = u.get_number_of_cards_in_hand(num_players, one_less_card, one_extra_card)
     init_hands(current_card_ind, players_orig, cards_per_hand, game_id)
 
     card_actions = session.query(CardAction).filter(CardAction.game_id == game_id).all()
 
-    for action in actions:
+    for action in game_actions:
         if action.action_type == 4:
             return
         elif u.is_clued(action):

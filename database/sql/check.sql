@@ -14,7 +14,7 @@ SELECT nspname || '.' || relname AS "relation",
 --Tests
 --A01: 3 misplays != strikeout
 insert into bugged_games select game_id from
-(select g.game_id, count, variant, end_condition from
+(select g.game_id from
               (select distinct game_id, count(*) as count from card_actions
               where action_type = 'misplay'
               group by game_id) t
@@ -52,7 +52,7 @@ insert into bugged_games select distinct game_id
 -- select distinct game_id
 -- select turns, player, game_id, diff
 from (
-    select turns, player, cpi.game_id, abs(turns - max(turns) OVER (PARTITION BY cpi.game_id)) as diff
+    select turns, cpi.game_id, abs(turns - max(turns) OVER (PARTITION BY cpi.game_id)) as diff
     from (
         select count(*) as turns, player, game_id
         from (
@@ -189,8 +189,28 @@ select count(*) from games where detrimental_characters is false;
 --609425
 --ok
 select count(distinct game_id) from slots;
-select count(*) from games where card_cycle is false;
+--595382+16105=611487
+select * from games g left join slots s on g.game_id = s.game_id
+where s.game_id is null
+  and all_or_nothing is false
+  and card_cycle is false
+  and detrimental_characters is false;
+--ok
 
---A15: Games with one less card on have slot 5
+--A15: Games with one less card on which have slot 5
 select * from slots s join games g on s.game_id = g.game_id
 where one_less_card is true and slot = 5;
+--ok
+
+--A16: Games containing more than 5 card movements per turn
+select count(*), s.game_id, turn from slots s
+join games g on s.game_id = g.game_id
+where one_extra_card is false
+and turn != 0
+group by s.game_id, turn
+having count(*) > 5;
+--ok
+
+--A17: Unupdated CardAction
+select distinct game_id from card_actions where card_suit != lower(card_suit);
+--ok
