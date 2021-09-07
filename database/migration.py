@@ -22,6 +22,7 @@ while True:
         if not db_game.detrimental_characters:
             d.load_card_actions_and_clues(db_game)
         last_id += 1
+        d.load_slots(db_game)
         d.session.commit()
     else:
         last_id += 1

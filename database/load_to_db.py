@@ -1,9 +1,11 @@
 import json
 
+from sqlalchemy import func, and_, false
+
 import py.utils as u
 import database.db_load as d
 from py.utils import logger
-from database.db_connect import session, Game
+from database.db_connect import session, Game, Slot
 
 
 def open_as_json(filename):
@@ -48,25 +50,31 @@ def load_cards(all_games):
         logger.info(g.game_id)
 
 
+def load_slots(all_games):
+    for g in all_games:
+        d.load_slots(g)
+        d.session.commit()
+        logger.info(g.game_id)
+
 # dumps = '../temp/games_dumps/'
 # 
 # games = load_games(dumps)
 
 
+last_id = d.session.query(func.max(Slot.game_id)).scalar()
 games = session.query(
     Game.game_id,
-    Game.seed,
-    Game.players,
     Game.num_players,
-    Game.variant_id,
-    Game.variant,
-    Game.starting_player,
     Game.one_less_card,
     Game.one_extra_card
 ) \
-    .filter(Game.game_id >= 479271)\
+    .filter(
+    and_(
+        Game.card_cycle == false(),
+        Game.game_id > last_id
+    ))\
     .order_by(Game.game_id)\
     .all()
 
-load_cards(games)
+load_slots(games)
 d.session.close()

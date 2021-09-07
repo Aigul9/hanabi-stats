@@ -88,6 +88,9 @@ RETURNS int AS $$
 $$ LANGUAGE 'plpgsql';
 
 --player's hand on the particular turn
+with variables as (
+    select 367460 as g_id
+)
 select turn as turn_moved, slot, player, card_suit,
        card_rank, turn_drawn, turn_action from
 (select *,
@@ -98,10 +101,10 @@ from (
            rank() over (partition by slot, player order by turn desc, player) as rank
     from slots s join card_actions ca
            on s.game_id = ca.game_id and s.card_index = ca.card_index
-    where s.game_id = 201888
+    where s.game_id = (select g_id from variables)
 --     and player = 'kopen'
-    and turn <= 73
-    and turn <= (select max(turn) from slots where game_id = 201888)
+--     and turn <= 73
+    and turn <= (select max(turn) from slots where game_id = (select g_id from variables))
 ) as dt
 where rank = 1) dt2
 where rank_slot = 1

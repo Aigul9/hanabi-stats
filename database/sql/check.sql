@@ -172,11 +172,11 @@ where ga.game_id is null order by 1;
 --243
 --ok
 select count(distinct game_id) from card_actions;
+select count(*) from games where detrimental_characters is false;
 --609425
-select count(*) from games where detrimental_characters is true;
---3858
 --ok
 select count(distinct game_id) from slots;
+select count(*) from games where card_cycle is false;
 
 --db size
 select datname, pg_size_pretty(pg_database_size(datname)) 
