@@ -1,0 +1,55 @@
+card_index	turn	slot	card_suit	card_rank	player	turn_drawn	turn_action
+0	0	5	Red	1	desymo99	0	16
+1	0	4	Red	1	desymo99	0	22
+2	0	3	Yellow	2	desymo99	0	13
+3	0	2	Yellow	1	desymo99	0	
+4	0	1	Green	1	desymo99	0	4
+5	0	5	Black	1	Plum	0	2
+6	0	4	Blue	2	Plum	0	
+7	0	3	Red	4	Plum	0	
+8	0	2	Red	2	Plum	0	17
+9	0	1	Green	3	Plum	0	11
+10	0	5	Rainbow	2	Gottaa	0	
+11	0	4	Red	3	Gottaa	0	18
+12	0	3	Yellow	1	Gottaa	0	9
+13	0	2	Rainbow	3	Gottaa	0	
+14	0	1	Green	3	Gottaa	0	21
+6	2	5	Blue	2	Plum	0	
+7	2	4	Red	4	Plum	0	
+8	2	3	Red	2	Plum	0	17
+9	2	2	Green	3	Plum	0	11
+15	2	1	Green	2	Plum	2	8
+16	4	1	Black	3	desymo99	4	
+17	8	1	Yellow	4	Plum	8	
+13	9	3	Rainbow	3	Gottaa	0	
+14	9	2	Green	3	Gottaa	0	21
+18	9	1	Rainbow	2	Gottaa	9	15
+17	11	2	Yellow	4	Plum	8	
+19	11	1	Black	4	Plum	11	
+3	13	3	Yellow	1	desymo99	0	
+16	13	2	Black	3	desymo99	4	
+20	13	1	Green	5	desymo99	13	
+21	15	1	Rainbow	4	Gottaa	15	
+1	16	5	Red	1	desymo99	0	22
+3	16	4	Yellow	1	desymo99	0	
+16	16	3	Black	3	desymo99	4	
+20	16	2	Green	5	desymo99	13	
+22	16	1	Red	5	desymo99	16	
+17	17	3	Yellow	4	Plum	8	
+19	17	2	Black	4	Plum	11	
+23	17	1	Green	4	Plum	17	20
+13	18	4	Rainbow	3	Gottaa	0	
+14	18	3	Green	3	Gottaa	0	21
+21	18	2	Rainbow	4	Gottaa	15	
+24	18	1	Black	5	Gottaa	18	
+25	20	1	Yellow	4	Plum	20	26
+21	21	3	Rainbow	4	Gottaa	15	
+24	21	2	Black	5	Gottaa	18	
+26	21	1	Red	4	Gottaa	21	24
+3	22	5	Yellow	1	desymo99	0	
+16	22	4	Black	3	desymo99	4	
+20	22	3	Green	5	desymo99	13	
+22	22	2	Red	5	desymo99	16	
+27	22	1	Blue	1	desymo99	22	
+28	24	1	Rainbow	1	Gottaa	24	
+29	26	1	Blue	3	Plum	26	

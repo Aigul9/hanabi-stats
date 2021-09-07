@@ -91,21 +91,119 @@ $$ LANGUAGE 'plpgsql';
 with variables as (
     select 367460 as g_id
 )
-select turn as turn_moved, slot, player, card_suit,
-       card_rank, turn_drawn, turn_action from
-(select *,
-       rank() over (partition by card_index order by slot desc) as rank_slot
+select turn as turn_moved, slot, card_index, player, card_suit,
+       card_rank, turn_drawn, turn_action
 from (
-    select turn, slot, player, card_suit,
-       card_rank, s.card_index, turn_drawn, turn_action,
-           rank() over (partition by slot, player order by turn desc, player) as rank
-    from slots s join card_actions ca
-           on s.game_id = ca.game_id and s.card_index = ca.card_index
-    where s.game_id = (select g_id from variables)
+         select *,
+                rank() over (partition by card_index order by slot desc) as rank_slot
+         from (
+                  select turn,
+                         slot,
+                         player,
+                         card_suit,
+                         card_rank,
+                         s.card_index,
+                         turn_drawn,
+                         turn_action,
+                         rank() over (partition by slot, player order by turn desc, player) as rank
+                  from slots s
+                           join card_actions ca
+                                on s.game_id = ca.game_id and s.card_index = ca.card_index
+                  where s.game_id = (select g_id from variables)
 --     and player = 'kopen'
 --     and turn <= 73
-    and turn <= (select max(turn) from slots where game_id = (select g_id from variables))
-) as dt
-where rank = 1) dt2
+                    and turn <= (select max(turn) from slots where game_id = (select g_id from variables))
+              ) as dt
+         where rank = 1
+     ) dt2
 where rank_slot = 1
 order by player, slot;
+
+--cards played on the last round without drawing any more cards
+select card_index,
+       turn,
+       slot,
+       card_suit,
+       card_rank,
+       player,
+       turn_drawn,
+       turn_action
+from (
+         select s.card_index,
+                turn,
+                slot,
+                card_suit,
+                card_rank,
+                player,
+                turn_drawn,
+                turn_action,
+                rank() over (partition by s.card_index order by slot desc) as rank_slot
+         from slots s
+                  join card_actions ca
+                       on s.game_id = ca.game_id and s.card_index = ca.card_index
+         where s.game_id = 367460
+           and turn_action >
+               (
+                   select max(turn_drawn)
+                   from card_actions
+                   where game_id = 367460
+                     and player = ca.player
+                   group by player
+               )
+     ) as t
+where rank_slot = 1
+order by turn, card_index;
+
+--final state of hands
+with variables as (
+    select 367460 as g_id
+)
+select turn as turn_moved, slot, card_index, player, card_suit,
+       card_rank, turn_drawn, turn_action
+from (select *,
+             rank() over (partition by card_index order by slot desc) as rank_slot
+      from (
+               select turn,
+                      slot,
+                      player,
+                      card_suit,
+                      card_rank,
+                      s.card_index,
+                      turn_drawn,
+                      turn_action,
+                      rank() over (partition by slot, player order by turn desc, player) as rank
+               from slots s
+                        join card_actions ca
+                             on s.game_id = ca.game_id and s.card_index = ca.card_index
+               where s.game_id = (select g_id from variables)
+--     and player = 'kopen'
+--     and turn <= 73
+                 and turn <= (select max(turn)
+                              from slots
+                              where game_id = (select g_id from variables))
+           ) as dt
+      where rank = 1
+     ) dt2
+where rank_slot = 1
+and card_index not in (
+    select card_index
+    from (
+             select s.card_index                                               as card_index,
+                    rank() over (partition by s.card_index order by slot desc) as rank_slot
+             from slots s
+                      join card_actions ca
+                           on s.game_id = ca.game_id and s.card_index = ca.card_index
+             where s.game_id = 367460
+               and turn_action >
+                   (
+                       select max(turn_drawn)
+                       from card_actions
+                       where game_id = 367460
+                         and player = ca.player
+                       group by player
+                   )
+         ) as t
+    where rank_slot = 1
+)
+order by player, slot;
+

@@ -1,3 +1,16 @@
+--db size
+select datname, pg_size_pretty(pg_database_size(datname))
+from pg_database;
+
+--table size
+SELECT nspname || '.' || relname AS "relation",
+    pg_size_pretty(pg_relation_size(C.oid)) AS "size"
+  FROM pg_class C
+  LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+  WHERE nspname NOT IN ('pg_catalog', 'information_schema')
+  AND nspname !~ '^pg_toast'
+  ORDER BY pg_relation_size(C.oid) DESC;
+
 --Tests
 --A01: 3 misplays != strikeout
 insert into bugged_games select game_id from
@@ -161,7 +174,7 @@ having max(turn_drawn) = 0;
 --0
 --ok
 
---A14
+--A14: Count of records in related tables
 --06.09.2021
 select count(*) from games;
 --613283
@@ -178,15 +191,6 @@ select count(*) from games where detrimental_characters is false;
 select count(distinct game_id) from slots;
 select count(*) from games where card_cycle is false;
 
---db size
-select datname, pg_size_pretty(pg_database_size(datname)) 
-from pg_database;
-
---table size
-SELECT nspname || '.' || relname AS "relation",
-    pg_size_pretty(pg_relation_size(C.oid)) AS "size"
-  FROM pg_class C
-  LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
-  WHERE nspname NOT IN ('pg_catalog', 'information_schema')
-  AND nspname !~ '^pg_toast'
-  ORDER BY pg_relation_size(C.oid) DESC;
+--A15: Games with one less card on have slot 5
+select * from slots s join games g on s.game_id = g.game_id
+where one_less_card is true and slot = 5;

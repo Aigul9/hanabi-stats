@@ -2,6 +2,10 @@
 select * from games where game_id = 612473;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
+select * from games where all_or_nothing is true;
+--16105
+select distinct unnest(players), count(*) from games where all_or_nothing is true
+group by unnest(players);
 select * from games where detrimental_characters is true order by game_id;
 select max(game_id) from games;
 
@@ -10,31 +14,25 @@ select * from game_actions where action_type = 4;
 select * from variants where variant_id = 9999;
 select * from variants where variant like '%ever%';
 select variant, variant_id, suits, colors from variants order by variant_id;
+select * from card_actions where game_id = 437796 and card_suit = 'Blue';
 
 select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
 select count(distinct game_id) from clues;
 
-select s.card_index,
-       turn,
-       slot,
-       card_suit,
-       card_rank,
-       player,
-       turn_drawn,
-       turn_action
-       from slots s join card_actions ca
-           on s.game_id = ca.game_id and s.card_index = ca.card_index
-where s.game_id = 367460
+select s.card_index, turn, slot, card_suit, card_rank, player, turn_drawn, turn_action
+from slots s join card_actions ca
+    on s.game_id = ca.game_id and s.card_index = ca.card_index
+where s.game_id = 274193
 order by turn, card_index;
 
-delete from slots where game_id > 155643;
+delete from slots where game_id > 367000;
 
 select * from slots where game_id = 3641 and card_index = 10;
 select * from slots order by turn, card_index;
 --delete from slots where 1 = 1;
 
-select * from card_actions where game_id = 2907 order by turn_action;
+select * from card_actions where game_id = 523901 order by turn_action;
 select * from card_actions where game_id = 2907 order by card_index;
 select * from clues where game_id = 599392 order by turn_clued;
 
@@ -403,6 +401,7 @@ where max_score is null;
 update card_actions set card_suit = replace(card_suit, ' Reversed', '')
 where card_suit like '%everse%';
 
+update card_actions set card_suit = lower(card_suit);
 
 --crosstab
 --CREATE EXTENSION IF NOT EXISTS tablefunc;
