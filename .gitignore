@@ -6,3 +6,4 @@ py/test.py
 main.log
 docs/
 database/db_refactor/test.py
+.env
