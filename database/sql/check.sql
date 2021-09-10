@@ -211,6 +211,6 @@ group by s.game_id, turn
 having count(*) > 5;
 --ok
 
---A17: Unupdated CardAction
+--A17: Outdated CardActions
 select distinct game_id from card_actions where card_suit != lower(card_suit);
 --ok

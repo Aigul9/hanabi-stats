@@ -1,14 +1,15 @@
+from decouple import config
 from sqlalchemy import create_engine, ForeignKeyConstraint
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DateTime
 from sqlalchemy.types import ARRAY
 
-db_name = 'hanabi_db'
-db_user = 'postgres'
-db_pass = 'postgres'
-db_host = 'localhost'
-db_port = '5432'
+db_name = config('POSTGRES_DB')
+db_user = config('POSTGRES_USER')
+db_pass = config('POSTGRES_PASSWORD')
+db_host = config('POSTGRES_HOST')
+db_port = config('POSTGRES_PORT')
 
 db_string = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
 db = create_engine(db_string)
