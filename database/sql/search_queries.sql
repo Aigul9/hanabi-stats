@@ -212,9 +212,7 @@ select concat('hanab.live/replay/', t.game_id, '#', turn_action), player from
 (select max(slot) as slot_played, s.game_id, s.card_index, card_suit, card_rank
 from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
 join games g on ca.game_id = g.game_id
-where num_players = 2
-and 'timotree' = any(players)
-and 'Jillb363636' = any(players)
+where players <@ ARRAY['timotree', 'Jillb363636']
 and card_suit = 'Blue'
 and card_rank = 1
 and action_type = 'play'

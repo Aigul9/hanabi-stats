@@ -11,15 +11,18 @@ from os.path import isfile, join
 
 logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
-    level=logging.INFO
+    level=logging.DEBUG
 )
 logger = logging.getLogger(__name__)
 
 
 # Parsing
-def open_stats(user):
+def open_stats(user, session=None):
     url = f'https://hanab.live/history/{user}?api'
-    response = requests.get(url)
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
     return response.json()
 
 
@@ -27,9 +30,12 @@ def open_stats_by_game_id(response, game_id):
     return [s for s in response if s['id'] == game_id][0]
 
 
-def export_game(game_id):
+def export_game(game_id, session=None):
     url = f'https://hanab.live/export/{game_id}'
-    response = requests.get(url)
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
     if response.status_code == 200:
         return response.json()
     else:

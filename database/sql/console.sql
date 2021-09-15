@@ -445,3 +445,13 @@ and game_id < 100000;
 --     trace3 int,
 --     trace4 int
 -- );
+
+delete from slots where game_id >= 627000;
+delete from card_actions where game_id >= 627000;
+delete from clues where game_id >= 627000;
+delete from game_actions where game_id >= 627000;
+delete from player_notes where game_id >= 627000;
+delete from decks where seed in (
+    select distinct seed from games where game_id >= 627000
+    );
+delete from games where game_id >= 627000;
