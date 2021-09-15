@@ -9,12 +9,19 @@ import database.db_load as d
 last_id = d.session.query(func.max(Game.game_id)).scalar()
 # last_id = 612472
 logger.info(f'last id: {last_id}')
+histories = {}
 while True:
     g_id = last_id + 1
     g = u.export_game(g_id)
     if g != {}:
         logger.info(g_id)
-        s = u.open_stats_by_game_id(g['players'][0], g_id)
+        player = g['players'][0]
+        if player in histories.keys():
+            s = u.open_stats_by_game_id(histories[player], g_id)
+        else:
+            response = u.open_stats(player)
+            s = u.open_stats_by_game_id(response, g_id)
+            histories[player] = response
         deck = d.load_deck(g)
         db_game = d.load_game(g, s)
         game_actions = d.load_actions(g)

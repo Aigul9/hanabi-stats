@@ -1,5 +1,5 @@
 --select by condition
-select * from games where game_id = 622688;
+select * from games where game_id = 597426;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select * from games where all_or_nothing is true;
@@ -9,12 +9,13 @@ group by unnest(players);
 select * from games where detrimental_characters is true order by game_id;
 select max(game_id) from games;
 
-select * from game_actions where game_id = 622688;
+select * from game_actions where game_id = 622762;
 select * from game_actions where action_type = 4;
 select * from variants where variant_id = 9999;
 select * from variants where variant like '%ever%';
 select variant, variant_id, suits, colors from variants order by variant_id;
-select * from card_actions where game_id = 2906 and card_suit = 'Blue';
+select * from card_actions where game_id = 624940 and card_suit = 'Blue';
+select * from slots where game_id = 625083;
 
 select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
@@ -48,6 +49,14 @@ select * from decks where seed = (
     from games
     where game_id = 403401
 );
+
+select * from games
+where players <@ ARRAY['aitch2', 'Lanvin']::varchar[]
+and variant = 'White & Dark Null (5 Suits)';
+
+select * from games where players <@ ARRAY['Lanvin', 'Valetta6789']::varchar[]
+order by 1 desc;
+select * from games where players <@ ARRAY['Fireheart', 'Valetta6789']::varchar[];
 
 --delete
 --delete from table where 1 = 1;

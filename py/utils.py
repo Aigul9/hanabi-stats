@@ -23,9 +23,7 @@ def open_stats(user):
     return response.json()
 
 
-def open_stats_by_game_id(user, game_id):
-    url = f'https://hanab.live/history/{user}?api'
-    response = requests.get(url).json()
+def open_stats_by_game_id(response, game_id):
     return [s for s in response if s['id'] == game_id][0]
 
 

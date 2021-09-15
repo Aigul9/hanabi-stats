@@ -231,3 +231,22 @@ from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = c
 where s.game_id = 475075
 group by s.game_id, s.card_index, card_suit, card_rank
 order by card_index;
+
+--my missing scores (not working yet)
+select * from variants v
+left join games g
+on v.variant_id = g.variant_id
+where ('Valetta6789' = any(players) or players is null)
+group by v.variant, v.variant_id, max_score
+having (max(score) != max_score or max(score) is null)
+order by 2;
+
+select g.variant_id, g.variant, max(score) from games g
+left join variants v on g.variant_id = v.variant_id
+where 'Valetta6789' = any(players)
+and g.variant_id = 1725
+group by g.variant_id, g.variant;
+
+select * from variants;
+
+select distinct variant from games where 'Valetta6789' = any(players);
