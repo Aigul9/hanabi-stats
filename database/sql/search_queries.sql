@@ -248,3 +248,87 @@ group by g.variant_id, g.variant;
 select * from variants;
 
 select distinct variant from games where 'Valetta6789' = any(players);
+
+--group time by months
+with dates as (
+    select unnest(players)                                            as p,
+           date_time_started                                          as s,
+           date_time_finished                                         as f,
+           date_time_finished - date_time_started                     as d,
+           extract(epoch from date_time_finished - date_time_started) as total_diff,
+           extract(year from date_time_started)                       as ys,
+           extract(year from date_time_finished)                      as yf,
+           extract(month from date_time_started)                      as ms,
+           extract(month from date_time_finished)                     as mf
+    from games
+--     where 'Valetta6789' = any(players)
+--     where game_id in (40138, 54340)
+)
+select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as time
+from (select p,
+             ys,
+             ms,
+             case
+                 when ms != mf then
+                     extract(epoch from date_trunc('month', f) - s)
+                 else total_diff
+                 end as time_in_sec
+      from dates
+      union all
+      select p,
+             yf,
+             mf,
+             case
+                 when ms != mf then
+                     extract(epoch from f - date_trunc('month', f))
+                 else 0
+                 end
+      from dates
+     ) un
+where p in (
+            'Valetta6789',
+            'RaKXeR',
+            'Libster',
+            'NoMercy',
+            'florrat2',
+            'timotree')
+group by player, year, month
+order by 1, 2, 3;
+
+--check
+select extract(epoch from sum(date_time_finished - date_time_started)) from games
+where 'Valetta6789' = any(players)
+and extract(year from date_time_started) = 2020
+and extract(month from date_time_started) = 5;
+
+select * from games where extract(year from date_time_started) = 2020
+and extract(month from date_time_started)  = 5;
+
+--last day and hour of the month
+select (date_trunc('month', timestamp '2019-09-16 10:33:09.000000') + interval '1 month' - interval '1 second');
+
+--test
+select * from games where extract(year from date_time_started) != extract(year from date_time_finished);
+select * from games where extract(month from date_time_started) != extract(month from date_time_finished);
+select * from games where extract(day from date_time_started) != extract(day from date_time_finished);
+select * from games where extract(hour from date_time_started) != extract(hour from date_time_finished);
+
+--copy
+-- select *
+-- from (select date_time_started,
+--              date_time_finished,
+--              extract(year from date_time_started)    as ys,
+--              extract(year from date_time_finished)   as yf,
+--              extract(month from date_time_started)   as ms,
+--              extract(month from date_time_finished)  as mf,
+--              extract(day from date_time_started)     as ds,
+--              extract(day from date_time_finished)    as df,
+--              extract(hour from date_time_started)    as hs,
+--              extract(hour from date_time_finished)   as hf,
+--              extract(minute from date_time_started)  as ms,
+--              extract(minute from date_time_finished) as mf,
+--              extract(second from date_time_started)  as ss,
+--              extract(second from date_time_finished) as sf
+--       from games
+--       where game_id = 63598
+--      ) dates;
