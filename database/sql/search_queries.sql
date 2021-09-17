@@ -261,8 +261,7 @@ with dates as (
            extract(month from date_time_started)                      as ms,
            extract(month from date_time_finished)                     as mf
     from games
---     where 'Valetta6789' = any(players)
---     where game_id in (40138, 54340)
+--     where speedrun is false
 )
 select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as time
 from (select p,
