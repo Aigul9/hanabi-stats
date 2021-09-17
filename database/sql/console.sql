@@ -15,7 +15,7 @@ select * from variants where variant_id = 9999;
 select * from variants where variant like '%ever%';
 select variant, variant_id, suits, colors from variants order by variant_id;
 select * from card_actions where game_id = 624940 and card_suit = 'Blue';
-select * from slots where game_id = 625083;
+select * from slots where game_id = 627446;
 
 select distinct game_id from card_actions;
 select count(distinct game_id) from card_actions;
@@ -446,12 +446,12 @@ and game_id < 100000;
 --     trace4 int
 -- );
 
-delete from slots where game_id >= 627000;
-delete from card_actions where game_id >= 627000;
-delete from clues where game_id >= 627000;
-delete from game_actions where game_id >= 627000;
-delete from player_notes where game_id >= 627000;
-delete from decks where seed in (
-    select distinct seed from games where game_id >= 627000
-    );
-delete from games where game_id >= 627000;
+-- delete from slots where game_id >= 627000;
+-- delete from card_actions where game_id >= 627000;
+-- delete from clues where game_id >= 627000;
+-- delete from game_actions where game_id >= 627000;
+-- delete from player_notes where game_id >= 627000;
+-- delete from decks where seed in (
+--     select distinct seed from games where game_id >= 627000
+--     );
+-- delete from games where game_id >= 627000;

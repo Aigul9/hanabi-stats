@@ -1,3 +1,5 @@
+from json.decoder import JSONDecodeError
+
 import requests
 from sqlalchemy import func
 
@@ -8,21 +10,24 @@ import database.db_load as d
 
 
 last_id = d.session.query(func.max(Game.game_id)).scalar()
-# last_id = 612472
+# last_id = 627743
 logger.info(f'last id: {last_id}')
 req_session = requests.Session()
 histories = {}
 while True:
     g_id = last_id + 1
-    # g = u.export_game(g_id)
     g = u.export_game(g_id, req_session)
     if g != {}:
-        logger.info(g_id)
         player = g['players'][0]
         if player in histories.keys():
             s = u.open_stats_by_game_id(histories[player], g_id)
         else:
-            response = u.open_stats(player, req_session)
+            try:
+                response = u.open_stats(player, req_session)
+            except JSONDecodeError:
+                logger.error(f'error: {g_id}')
+                last_id += 1
+                continue
             s = u.open_stats_by_game_id(response, g_id)
             histories[player] = response
         deck = d.load_deck(g)
@@ -35,7 +40,6 @@ while True:
         d.load_slots(db_game)
         d.session.commit()
     else:
-        last_id += 1
         logger.error(f'skip: {last_id}')
         d.session.close()
         break

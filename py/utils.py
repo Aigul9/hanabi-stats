@@ -8,12 +8,18 @@ from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
 
-
 logging.basicConfig(
+    level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
-    level=logging.DEBUG
 )
 logger = logging.getLogger(__name__)
+
+fileHandler = logging.FileHandler('errors.log')
+fileHandler.setLevel(logging.INFO)
+logger.addHandler(fileHandler)
+
+consoleHandler = logging.StreamHandler()
+logger.addHandler(consoleHandler)
 
 
 # Parsing
