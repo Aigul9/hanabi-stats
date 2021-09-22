@@ -35,7 +35,7 @@ def save(grouped_stats, user):
             month = calendar.month_abbr[int(k[5:])]
             year = k[:4]
             w.writerow([month, year, f'{v} games'])
-        w.writerow([f'Total: {sum(grouped_stats.values())}'])
+        w.writerow([f'Total: {sum(grouped_stats.values())}', '', ''])
 
 
 username = 'timotree'
