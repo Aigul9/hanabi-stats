@@ -263,7 +263,9 @@ with dates as (
     from games
 --     where speedrun is false
 )
-select player, year, month, hours
+select player, year, TO_CHAR(
+    TO_DATE (month::text, 'MM'), 'Month'
+    ) as month, hours
 from (
          select player, year, month, hours, rank() over (partition by year, month order by hours desc) as rank
          from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
@@ -301,8 +303,12 @@ from (
                group by player, year, month
               ) t
      ) t_rank
-where rank = 1
-order by year, month, hours desc;
+where rank = 1;
+-- order by year, month, hours desc;
+
+SELECT TO_CHAR(
+    TO_DATE (12::text, 'MM'), 'Month'
+    ) AS "Month Name";
 
 --check
 select extract(epoch from sum(date_time_finished - date_time_started)) from games
