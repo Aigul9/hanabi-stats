@@ -43,6 +43,6 @@ while True:
         d.session.commit()
     else:
         d.session.close()
-        logger.error(f'end: {g_id}')
         logger.info(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
+        logger.debug(f'end: {g_id}')
         break

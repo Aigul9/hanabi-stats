@@ -1,5 +1,5 @@
 --select by condition
-select * from games where game_id = 597426;
+select * from games where game_id = 630384;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select * from games where all_or_nothing is true;

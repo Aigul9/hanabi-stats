@@ -216,6 +216,5 @@ select distinct game_id from card_actions where card_suit != lower(card_suit);
 --ok
 
 --A18: Latest games
-select count(*) from games where game_id between 620000 and 627181;
---7181
+select count(*) from games where game_id between 630000 and 630435;
 --ok
