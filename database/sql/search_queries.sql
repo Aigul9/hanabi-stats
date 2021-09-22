@@ -263,36 +263,46 @@ with dates as (
     from games
 --     where speedrun is false
 )
-select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as time
-from (select p,
-             ys,
-             ms,
-             case
-                 when ms != mf then
-                     extract(epoch from date_trunc('month', f) - s)
-                 else total_diff
-                 end as time_in_sec
-      from dates
-      union all
-      select p,
-             yf,
-             mf,
-             case
-                 when ms != mf then
-                     extract(epoch from f - date_trunc('month', f))
-                 else 0
-                 end
-      from dates
-     ) un
-where p in (
-            'Valetta6789',
-            'RaKXeR',
-            'Libster',
-            'NoMercy',
-            'florrat2',
-            'timotree')
-group by player, year, month
-order by 1, 2, 3;
+select player, year, month, hours
+from (
+         select player, year, month, hours, rank() over (partition by year, month order by hours desc) as rank
+         from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
+               from (select p,
+                            ys,
+                            ms,
+                            case
+                                when ms != mf then
+                                    extract(epoch from date_trunc('month', f) - s)
+                                else total_diff
+                                end as time_in_sec
+                     from dates
+                     union all
+                     select p,
+                            yf,
+                            mf,
+                            case
+                                when ms != mf then
+                                    extract(epoch from f - date_trunc('month', f))
+                                else 0
+                                end
+                     from dates
+                    ) un
+-- where p in
+--       (
+--        'Valetta6789',
+--        'kimbifille',
+--        'Lanvin'
+-- --        'RaKXeR',
+-- --        'Libster',
+-- --        'NoMercy',
+-- --        'florrat2',
+-- --        'timotree'
+--           )
+               group by player, year, month
+              ) t
+     ) t_rank
+where rank = 1
+order by year, month, hours desc;
 
 --check
 select extract(epoch from sum(date_time_finished - date_time_started)) from games
@@ -331,3 +341,7 @@ select * from games where extract(hour from date_time_started) != extract(hour f
 --       from games
 --       where game_id = 63598
 --      ) dates;
+
+--competition 21.09.2021
+select * from games where variant = 'Black (5 Suits)' and detrimental_characters is true
+and date(date_time_started) >= '2021-09-03';
