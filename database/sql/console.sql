@@ -3,6 +3,7 @@ select * from games where game_id = 630384;
 select * from games where one_less_card is true and all_or_nothing is true;
 select * from games where one_extra_card is true and all_or_nothing is true;
 select * from games where all_or_nothing is true;
+select * from players_list;
 --16105
 select distinct unnest(players), count(*) from games where all_or_nothing is true
 group by unnest(players);

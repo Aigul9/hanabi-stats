@@ -265,7 +265,7 @@ with dates as (
 )
 select player, year, TO_CHAR(
     TO_DATE (month::text, 'MM'), 'Month'
-    ) as month, hours
+    ) as month, hours, rank
 from (
          select player, year, month, hours, rank() over (partition by year, month order by hours desc) as rank
          from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
@@ -289,7 +289,8 @@ from (
                                 end
                      from dates
                     ) un
--- where p in
+-- where p
+-- in
 --       (
 --        'Valetta6789',
 --        'kimbifille',
@@ -303,7 +304,8 @@ from (
                group by player, year, month
               ) t
      ) t_rank
-where rank = 1;
+where player = 'Floriman';
+-- where rank = 1;
 -- order by year, month, hours desc;
 
 SELECT TO_CHAR(
