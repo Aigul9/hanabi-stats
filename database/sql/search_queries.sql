@@ -399,3 +399,30 @@ from (
      ) t_rank
 where rank = 1;
 -- order by year, month, hours desc;
+
+--Valetta's games
+select to_char(date_time_started at time zone 'UTC+3', 'DD.MM.YYYY HH24:MI') as started,
+       concat(extract(minutes from date_time_finished-date_time_started), ' min') as duration,
+       speedrun,
+       variant,
+       num_players,
+       score,
+       players,
+       concat('hanab.live/replay/', game_id) as link
+from games
+where 'Valetta6789' = any(players)
+order by game_id;
+
+select distinct concat('hanab.live/replay/', s.game_id, '#', turn) from slots s
+join card_actions ca on s.game_id = ca.game_id
+join games g on ca.game_id = g.game_id
+where slot = 5 and 'Valetta6789' = any(players) and s.game_id <= 52942 and card_rank = 1
+and player = 'Valetta6789'
+and turn > 10;
+
+select distinct
+                concat('hanab.live/replay/', s.game_id, '#', turn_clued)
+from clues c join slots s on c.game_id = s.game_id
+where s.game_id <= 52942 and clue_receiver = 'Valetta6789' and clue = '2' and turn_clued > 10;
+
+select min(game_id) from player_notes;
