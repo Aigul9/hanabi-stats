@@ -426,3 +426,84 @@ from clues c join slots s on c.game_id = s.game_id
 where s.game_id <= 52942 and clue_receiver = 'Valetta6789' and clue = '2' and turn_clued > 10;
 
 select min(game_id) from player_notes;
+
+--
+select game_id,
+       players,
+       date_time_started,
+       date_time_finished,
+       round(extract(epoch from lead(date_time_started) over (order by game_id) - date_time_finished) / 60) as min from games
+where 'Valetta6789' = any(players);
+-- and num_players != 2 and speedrun is false;
+
+--review_time
+select * from reviews order by 1;
+select count(*) from reviews;
+
+--convert to time
+update reviews set review_time = TO_TIMESTAMP(review_time_orig, 'HH24:MI:SS')::time
+where review_time_orig not like '%day%';
+--less than 2h
+update reviews set review_time = null where extract(hours from review_time) > 1;
+--no speedruns
+update reviews set review_time = null
+where (select speedrun from games where games.game_id = reviews.game_id) is true;
+--no 2p
+update reviews set review_time = null
+where (select num_players from games where games.game_id = reviews.game_id) = 2;
+--76947
+--terminated games
+update reviews set review_time = null
+where game_id in (
+          select game_id
+          from game_actions
+          group by game_id
+          having count(*) = 1
+      );
+
+--long reviews
+select * from reviews where extract(hours from review_time) = 1;
+--short reviews
+select r.game_id, review_time, players, end_condition from reviews r join games g on r.game_id = g.game_id
+where extract(minutes from review_time) < 1
+  and 'Valetta6789' = any(players);
+
+select * from reviews where review_time is null order by 1;
+
+select * from games
+where (
+        'Valetta6789' = any (players)
+        or 'postmans' = any (players)
+        or 'Dr_Kakashi' = any (players)
+        or 'Floriman' = any (players)
+        or 'scharkbite' = any (players)
+    )
+and game_id >= 276712
+order by 1;
+
+select * from card_actions where game_id = 276712;
+select * from game_actions where game_id = 276712;
+
+--Val's review time
+select extract(year from date_time_started) as ys,
+       extract(month from date_time_started) as ms,
+       count(r.review_time),
+       (extract(epoch from sum(review_time)) / count(r.review_time) / 60)::int as minutes
+from reviews r join games g on r.game_id = g.game_id
+where 'Valetta6789' = any(players)
+group by 1, 2
+order by 1, 2, 3;
+
+--review times for all players
+select player,
+       count(r.review_time) as games,
+       (extract(epoch from sum(review_time)) / count(r.review_time) / 60)::int as minutes
+from reviews r join games g on r.game_id = g.game_id
+join players_list pl on pl.player = any(players)
+group by 1
+order by 3 desc, 1;
+
+select count(*) from games
+where 'ADrone' = any(players)
+  and num_players != 2
+and speedrun is false;

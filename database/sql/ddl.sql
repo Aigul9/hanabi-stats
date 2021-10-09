@@ -55,3 +55,10 @@ create table players_list(
 create table bugged_games(
     game_id int primary key
 );
+
+create table reviews(
+    game_id int primary key,
+    review_time_orig varchar(255)
+);
+
+ALTER TABLE reviews ADD COLUMN review_time time;
