@@ -62,6 +62,6 @@ Notes taken in a multi-player game.
 
 #### [Preference](output/rank/preference.tsv)
 
-#### [Number of Games with a Purple Player](output/purples.tsv)
+#### [Number of Games with a Purple Player](output/misc/purples.tsv)
 
 #### [More Stats](output/up_to_date_stats.tsv)

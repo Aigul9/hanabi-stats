@@ -495,11 +495,13 @@ group by 1, 2
 order by 1, 2, 3;
 
 --review times for all players
-select player,
+select
+--        player,
        count(r.review_time) as games,
        (extract(epoch from sum(review_time)) / count(r.review_time) / 60)::int as minutes
 from reviews r join games g on r.game_id = g.game_id
-join players_list pl on pl.player = any(players)
+-- join players_list pl on pl.player = any(players)
+where 'sankala' = any(players)
 group by 1
 order by 3 desc, 1;
 
@@ -507,3 +509,20 @@ select count(*) from games
 where 'ADrone' = any(players)
   and num_players != 2
 and speedrun is false;
+
+select count(*) from games
+where players @> ARRAY['ADrone'::varchar, 'RaKXeR'];
+
+select * from games
+where 'Valetta6789' = any(players)
+and 'ADrone' = any(players)
+and speedrun is false
+order by date_time_started;
+
+--Number of teammates
+select player, count(distinct p) as teammates
+from (select player, unnest(players) p from games g join players_list pl
+    on pl.player = any(players)) t
+group by player
+order by 2 desc, 1;
+
