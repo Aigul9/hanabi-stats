@@ -263,9 +263,11 @@ with dates as (
     from games
 --     where speedrun is false
 )
-select player, year, TO_CHAR(
-    TO_DATE (month::text, 'MM'), 'Month'
-    ) as month, hours, rank
+select player, year,
+       TO_CHAR(
+           TO_DATE (month::text, 'MM')
+           , 'Month') as month,
+       hours, rank
 from (
          select player, year, month, hours, rank() over (partition by year, month order by hours desc) as rank
          from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
@@ -304,7 +306,7 @@ from (
                group by player, year, month
               ) t
      ) t_rank
-where player = 'Floriman';
+where player = 'scharkbite';
 -- where rank = 1;
 -- order by year, month, hours desc;
 
@@ -503,7 +505,7 @@ from reviews r join games g on r.game_id = g.game_id
 -- join players_list pl on pl.player = any(players)
 where 'sankala' = any(players)
 group by 1
-order by 3 desc, 1;
+order by 2 desc, 1;
 
 select count(*) from games
 where 'ADrone' = any(players)
@@ -526,3 +528,73 @@ from (select player, unnest(players) p from games g join players_list pl
 group by player
 order by 2 desc, 1;
 
+-- --draft
+-- --groups of players who never played with each other
+-- with gen_players as (
+--     select ARRAY [pl1.player, pl2.player, pl3.player] as players_row
+--     from players_list pl1
+--              join players_list pl2
+--                   on pl1.player != pl2.player
+--     join players_list pl3
+--                   on pl2.player != pl3.player
+--     and pl1.player != pl3.player
+-- )
+-- select players_row from gen_players where players_row not in
+-- (select distinct players from games);
+--
+-- select ARRAY['ADrone','asaelr','Dr_Kakashi'] < ARRAY['ADrone','asaelr','Dr_Kakashi', 'Val'];
+--
+-- --a <@ b b contains a
+--
+-- --2p
+-- with gen_players as (
+--     select pl1.player as pl1, pl2.player as pl2
+--     from players_list pl1
+--              join players_list pl2
+--                   on pl1.player != pl2.player
+-- )
+-- select pl1, pl2 from gen_players where
+-- (select count(*)
+-- from (select *
+-- from (select game_id from games where pl1 = any(players)) as t1
+-- join
+-- (select game_id from games where pl2 = any(players)) as t2
+-- on t1.game_id = t2.game_id) t) = 0
+-- order by 1, 2;
+--
+-- --3p
+-- with gen_players as (
+--     select pl1.player as pl1, pl2.player as pl2, pl3.player as pl3
+--     from players_list pl1
+--              join players_list pl2
+--                   on pl1.player != pl2.player
+--              join players_list pl3
+--                   on pl2.player != pl3.player
+--                       and pl1.player != pl3.player
+-- )
+-- select pl1, pl2, pl3 from gen_players where
+-- (select count(*)
+-- from (select *
+-- from (select game_id from games where pl1 = any(players)) as t1
+-- join (select game_id from games where pl2 = any(players)) as t2 on t1.game_id = t2.game_id
+-- join (select game_id from games where pl3 = any(players)) as t3 on t2.game_id = t3.game_id) t) != 0
+-- order by 1, 2;
+
+--slowest games
+select player,
+       date_time_finished - date_time_started as diff,
+       game_id,
+       variant,
+       players,
+       date_time_started,
+       date_time_finished,
+       seed
+from (select *,
+             rank() over (partition by player order by date_time_finished - date_time_started desc) as rank
+      from players_list pl
+               join games g
+                    on player = any (players)
+      where player in (select * from players_list)
+     ) t
+where rank = 1
+order by 2 desc;
