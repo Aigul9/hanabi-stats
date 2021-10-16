@@ -28,7 +28,7 @@ def group_stats(stats):
 
 
 def save(grouped_stats, user):
-    with open(f'../output/{user}.tsv', 'w', newline='') as f:
+    with open(f'../output/purples/{user}.tsv', 'w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
         w.writerow(['month', 'year', 'games'])
         for k, v in grouped_stats.items():
@@ -38,6 +38,6 @@ def save(grouped_stats, user):
         w.writerow([f'Total: {sum(grouped_stats.values())}', '', ''])
 
 
-username = 'MarkusKahlsen'
+username = 'TimeHoodie'
 data = group_stats(clear_2p(clear_speedruns(open_stats(username))))
 save(data, username)

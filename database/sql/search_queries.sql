@@ -546,22 +546,24 @@ order by 2 desc, 1;
 --
 -- --a <@ b b contains a
 --
--- --2p
--- with gen_players as (
---     select pl1.player as pl1, pl2.player as pl2
---     from players_list pl1
---              join players_list pl2
---                   on pl1.player != pl2.player
--- )
--- select pl1, pl2 from gen_players where
--- (select count(*)
--- from (select *
--- from (select game_id from games where pl1 = any(players)) as t1
--- join
--- (select game_id from games where pl2 = any(players)) as t2
--- on t1.game_id = t2.game_id) t) = 0
--- order by 1, 2;
---
+--2p
+with gen_players as (
+    select pl1.player as pl1, pl2.player as pl2
+    from players_list pl1
+             join players_list pl2
+                  on pl1.player != pl2.player
+)
+select distinct pl1, pl2, count(*) from gen_players gp
+where (
+              select count(*)
+              from games
+              where pl1 = any (players)
+                and pl2 = any (players)
+          ) < 1
+group by pl1, pl2;
+--918 existing pairs
+--138 non-existing pairs
+
 -- --3p
 -- with gen_players as (
 --     select pl1.player as pl1, pl2.player as pl2, pl3.player as pl3
@@ -598,3 +600,130 @@ from (select *,
      ) t
 where rank = 1
 order by 2 desc;
+
+--clean games
+with players as (
+    select player, count(*) as count from players_list pl join games
+    on player = any(players)
+    where num_players != 2
+      and end_condition = 1
+      and detrimental_characters is false
+      and speedrun is false
+      and all_or_nothing is false
+      and one_extra_card is false
+      and one_less_card is false
+    group by player
+)
+select t1.player, t1.count as count_clean, p.count as count_total, round(t1.count * 1.0 / p.count, 2) as ratio
+from (select pl.player, count(*) as count
+      from (select *
+            from games
+            where num_players != 2
+              and end_condition = 1
+              and detrimental_characters is false
+              and speedrun is false
+              and all_or_nothing is false
+              and one_extra_card is false
+              and one_less_card is false
+              and 'misplay' not in (
+                select distinct action_type
+                from card_actions
+                where game_id = games.game_id
+                  and action_type is not null
+            )) t
+               join players_list pl on pl.player = any (players)
+      group by pl.player
+     ) t1
+join players p on t1.player = p.player
+order by 4 desc, 1;
+--106756 games
+
+--plays, misplays, discards, clues ratio
+select player,
+       round(plays * 1.0 / total_pmd, 2) as plays_r,
+       round(misplays * 1.0 / total_pmd, 2) as misplays_r,
+       round(discards * 1.0 / total_pmd, 2) as discards_r,
+       round(clues * 1.0 / total_clues, 2) as clues_r,
+       plays, misplays, discards, clues,
+       total_pmd as games_pmd,
+       total_clues as games_clues
+from (select player,
+       count(*) filter (where action_type = 'play') as plays,
+       count(*) filter (where action_type = 'misplay') as misplays,
+       count(*) filter (where action_type = 'discard') as discards,
+       count(distinct ca.game_id) total_pmd
+from card_actions ca
+join games g on ca.game_id = g.game_id
+where player in (select * from players_list)
+and speedrun is false
+and num_players != 2
+group by player) t1
+join
+(select clue_giver, count(*) as clues, count(distinct c.game_id) as total_clues from clues c
+join games g on c.game_id = g.game_id
+where clue_giver in (select * from players_list)
+and speedrun is false
+and num_players != 2
+group by clue_giver) t2
+on t1.player = t2.clue_giver
+order by 1;
+
+--player who stroke out the game
+select t1.player,
+       round("third strikes" * 1.0 / count, 2),
+       "third strikes",
+       count as "total games"
+from (select player, count(*) as "third strikes"
+from (select player,
+             ca.game_id,
+             action_type,
+             rank() over (partition by ca.game_id order by turn_action desc) as rank
+      from card_actions ca
+               join games g on ca.game_id = g.game_id
+      where end_condition = 2
+        and speedrun is false
+        and num_players != 2
+        and action_type = 'misplay'
+     ) t
+where rank = 1
+and player in (select player from players_list)
+group by player) t1
+join
+(select player, count(*) as count from players_list pl join games
+    on player = any(players)
+    where num_players != 2
+      and end_condition = 2
+      and speedrun is false
+    group by player) t2
+on t1.player = t2.player
+order by 2 desc;
+
+--winning streak
+select player, count, start_game_id
+from (select player, rank() over (partition by player order by count desc) as rank, count, start_game_id
+      from (select player, min(game_id) as start_game_id, grp, count(*) as count
+            from (select *,
+                         row_number() over (partition by player order by game_id) -
+                         row_number() over (partition by player, state order by game_id) as grp
+                  from (select game_id,
+                               unnest(players) as player,
+                               score,
+                               max_score,
+                               seed,
+                               case
+                                   when score = max_score then 1
+                                   else 0
+                                   end         as state
+                        from games g
+                                 join variants v on g.variant_id = v.variant_id
+                            and speedrun is false
+                       ) t1
+                 ) t2
+      where state = 1
+--       where state = 0
+              and player in (select player from players_list)
+            group by player, grp) t3
+     ) t4
+where rank = 1
+order by 2 desc, 1;
+
