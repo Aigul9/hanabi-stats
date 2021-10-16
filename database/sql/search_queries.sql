@@ -643,12 +643,15 @@ order by 2 desc, 1;
 
 --plays, misplays, discards, clues ratio
 select player,
-       round(plays * 1.0 / total_pmd, 2) as plays_r,
-       round(misplays * 1.0 / total_pmd, 2) as misplays_r,
-       round(discards * 1.0 / total_pmd, 2) as discards_r,
+--        round(plays * 1.0 / total_pmd, 2) as plays_r,
+--        round(misplays * 1.0 / total_pmd, 2) as misplays_r,
+--        round(discards * 1.0 / total_pmd, 2) as discards_r,
        round(clues * 1.0 / total_clues, 2) as clues_r,
-       plays, misplays, discards, clues,
-       total_pmd as games_pmd,
+--        plays,
+--        misplays,
+--        discards,
+       clues,
+--        total_pmd as games_pmd
        total_clues as games_clues
 from (select player,
        count(*) filter (where action_type = 'play') as plays,
@@ -669,7 +672,7 @@ and speedrun is false
 and num_players != 2
 group by clue_giver) t2
 on t1.player = t2.clue_giver
-order by 1;
+order by 2 desc, 1;
 
 --player who stroke out the game
 select t1.player,
