@@ -614,7 +614,10 @@ with players as (
       and one_less_card is false
     group by player
 )
-select t1.player, t1.count as count_clean, p.count as count_total, round(t1.count * 1.0 / p.count, 2) as ratio
+select t1.player,
+       round(t1.count * 1.0 / p.count, 2) as ratio,
+       t1.count as count_clean,
+       p.count as count_total
 from (select pl.player, count(*) as count
       from (select *
             from games
@@ -635,7 +638,7 @@ from (select pl.player, count(*) as count
       group by pl.player
      ) t1
 join players p on t1.player = p.player
-order by 4 desc, 1;
+order by 2 desc, 1;
 --106756 games
 
 --plays, misplays, discards, clues ratio
