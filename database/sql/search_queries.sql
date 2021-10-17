@@ -733,3 +733,32 @@ from (select player, rank() over (partition by player order by count desc) as ra
 where rank = 1
 order by 2 desc, 1;
 
+--group by num_players
+select *, "2p_ratio" + "3p_ratio" + "4p_ratio" + "5p_ratio" + "6p_ratio" as check
+from (select player,
+             round(p2 * 1.0 / total, 2) as "2p_ratio",
+             round(p3 * 1.0 / total, 2) as "3p_ratio",
+             round(p4 * 1.0 / total, 2) as "4p_ratio",
+             round(p5 * 1.0 / total, 2) as "5p_ratio",
+             round(p6 * 1.0 / total, 2) as "6p_ratio",
+             p2                         as "2p_count",
+             p3                         as "3p_count",
+             p4                         as "4p_count",
+             p5                         as "5p_count",
+             p6                         as "6p_count",
+             total
+      from (select player,
+                   count(*) filter ( where num_players = 2 ) as p2,
+                   count(*) filter ( where num_players = 3 ) as p3,
+                   count(*) filter ( where num_players = 4 ) as p4,
+                   count(*) filter ( where num_players = 5 ) as p5,
+                   count(*) filter ( where num_players = 6 ) as p6,
+                   count(*)                                  as total
+            from players_list pl
+                     join games g
+                          on pl.player = any (players)
+            where speedrun is false
+            group by player
+           ) t1
+     ) t2
+order by 1;
