@@ -6,8 +6,9 @@ import py.utils as u
 weights_easy = u.open_csv('weights_easy.csv')
 weights_hard = u.open_csv('weights_hard.csv')
 removed = u.open_csv('removed.csv')
+removed = [r[0] for r in removed]
 
-f_easy = open('weights_easy.csv', 'w', encoding='UTF-8', newline='')
+f_easy = open('weights_easy_r.csv', 'w', encoding='UTF-8', newline='')
 f_hard = open('weights_hard_r.csv', 'w', encoding='UTF-8', newline='')
 
 w_easy = csv.writer(f_easy)
@@ -83,7 +84,7 @@ remove_list = [
 
 for w in weights_easy:
     print(w)
-    if w[0] in remove_list or w[1] in remove_list:
+    if w[0] in removed or w[1] in removed:
         continue
     else:
         w_easy.writerow(w)
@@ -95,7 +96,7 @@ print('------------------------')
 
 for w in weights_hard:
     print(w)
-    if w[0] in remove_list or w[1] in remove_list:
+    if w[0] in removed or w[1] in removed:
         continue
     else:
         w_hard.writerow(w)

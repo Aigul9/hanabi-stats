@@ -1,0 +1,51 @@
+1. Create a constraint
+CREATE CONSTRAINT playerNameConstraint ON (player:Player) ASSERT player.name IS UNIQUE
+
+2. Load nodes
+LOAD CSV WITH HEADERS FROM "file:///players_cut.csv" AS csvLine
+CREATE (p:Player { name: csvLine.name})
+
+3. Select
+MATCH (n:Player) RETURN n LIMIT 25
+MATCH (p {name: 'Valetta6789'})-[r]-(t)
+RETURN p, r, t
+MATCH (p)-[r]-(t)
+RETURN p, r, t
+LIMIT 50
+
+4. Load relationships
+LOAD CSV WITH HEADERS FROM "file:///weights_cut.csv" AS csvLine
+MERGE (player:Player {name:csvLine.player})
+MERGE (teammate:Player {name:csvLine.teammate})
+MERGE (player)-[:REL {weight: csvLine.weight}]-(teammate)
+
+LOAD CSV WITH HEADERS FROM "file:///weights_easy.csv" AS csvLine
+MERGE (player:Player {name:csvLine.player})
+MERGE (teammate:Player {name:csvLine.teammate})
+MERGE (player)-[:EASY {weight: csvLine.weight}]-(teammate)
+
+LOAD CSV WITH HEADERS FROM "file:///weights_hard.csv" AS csvLine
+MERGE (player:Player {name:csvLine.player})
+MERGE (teammate:Player {name:csvLine.teammate})
+MERGE (player)-[:HARD {weight: csvLine.weight}]-(teammate)
+
+5. Delete a single node
+MATCH (n:Person {name: 'UNKNOWN'})
+DELETE n
+
+6. Delete relationships
+MATCH (n)-[r:REL]->()
+DELETE r
+
+7. Delete a node with all its relationships
+MATCH (n {name: 'Andy'})
+DETACH DELETE n
+
+8. Delete everything
+MATCH (n)
+DETACH DELETE n
+
+9. Dump the db
+setx JAVA_HOME -m "E:\Program Files\Java\jdk-11.0.12"
+echo $env:JAVA_HOME
+bin/neo4j-admin dump --database=neo4j --to=/dumps/neo4j/neo4j-<timestamp>.dump

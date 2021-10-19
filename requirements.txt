@@ -19,3 +19,4 @@ soupsieve==2.2.1
 SQLAlchemy==1.4.20
 sqlparse==0.4.1
 urllib3==1.26.4
+networkx~=2.6.3
