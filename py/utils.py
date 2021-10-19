@@ -69,6 +69,11 @@ def open_tsv(filename):
         return [line.rstrip().split('\t') for line in f.readlines()]
 
 
+def open_csv(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        return [line.rstrip().split(',') for line in f.readlines()]
+
+
 def files_in_dir(path):
     return [f for f in listdir(path) if isfile(join(path, f))]
 
@@ -86,6 +91,13 @@ def save_value(path, data):
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         for k, v in data.items():
             w.writerow([k, v])
+
+
+def save_csv(path, data):
+    with open(f'{path}.csv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        for v in data:
+            w.writerow(*v)
 
 
 def save_header(path, header):
