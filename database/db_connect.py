@@ -1,5 +1,5 @@
 from decouple import config
-from sqlalchemy import create_engine, ForeignKeyConstraint
+from sqlalchemy import create_engine, ForeignKeyConstraint, Float
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DateTime
@@ -53,11 +53,12 @@ class Game(Base):
     num_games_on_this_seed = Column(Integer)
     tags = Column(String)
     seed = Column(String)
+    eff = Column(Float)
 
     def __init__(self, game_id, num_players, players, starting_player, variant_id, variant, timed, time_base,
                  time_per_turn, speedrun, card_cycle, deck_plays, empty_clues, one_extra_card, one_less_card,
                  all_or_nothing, detrimental_characters, score, num_turns, end_condition, date_time_started,
-                 date_time_finished, num_games_on_this_seed, tags, seed):
+                 date_time_finished, num_games_on_this_seed, tags, seed, eff):
         self.game_id = game_id
         self.num_players = num_players
         self.players = players
@@ -83,6 +84,7 @@ class Game(Base):
         self.num_games_on_this_seed = num_games_on_this_seed
         self.tags = tags
         self.seed = seed
+        self.eff = eff
 
 
 class Card(Base):
@@ -157,6 +159,10 @@ class Variant(Base):
     special_no_clue_colors = Column(Boolean)
     special_no_clue_ranks = Column(Boolean)
     colors = Column(ARRAY(String))
+    eff_2p = Column(Float)
+    eff_34p = Column(Float)
+    eff_5p = Column(Float)
+    eff_6p = Column(Float)
 
     def __init__(self,
                  variant_id,
@@ -174,7 +180,11 @@ class Variant(Base):
                  special_all_clue_ranks,
                  special_no_clue_colors,
                  special_no_clue_ranks,
-                 colors):
+                 colors,
+                 eff_2p,
+                 eff_34p,
+                 eff_5p,
+                 eff_6p):
         self.variant_id = variant_id
         self.variant = variant
         self.max_score = max_score
@@ -191,6 +201,10 @@ class Variant(Base):
         self.special_no_clue_colors = special_no_clue_colors
         self.special_no_clue_ranks = special_no_clue_ranks
         self.colors = colors
+        self.eff_2p = eff_2p
+        self.eff_34p = eff_34p
+        self.eff_5p = eff_5p
+        self.eff_6p = eff_6p
 
 
 class CardAction(Base):
@@ -260,6 +274,14 @@ class Slot(Base):
         self.card_index = card_index
         self.turn = turn
         self.slot = slot
+
+
+class H(Base):
+    __tablename__ = 'hyphen_ated'
+    player = Column(String, primary_key=True)
+
+    def __init__(self, player):
+        self.player = player
 
 
 Base.metadata.create_all(db)
