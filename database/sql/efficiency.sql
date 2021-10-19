@@ -37,3 +37,7 @@ select count(*) from hyphen_ated;
 select * from games
 where 'Floriman' = any(players) and 'JerryYang' = any(players)
 order by eff;
+
+select * from hyphen_ated order by 1;
+delete from hyphen_ated where player = 'wittvector';
+delete from hyphen_ated where player = 'Tiramisu2th';

@@ -456,3 +456,7 @@ and game_id < 100000;
 --     select distinct seed from games where game_id >= 627000
 --     );
 -- delete from games where game_id >= 627000;
+
+select distinct unnest(players) from games
+where 'Valetta6789' = any(players)
+order by 1;

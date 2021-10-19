@@ -14,6 +14,16 @@ def load_game(g, s):
         starting_player = g['options']['startingPlayer']
     except KeyError:
         starting_player = opt['startingPlayer']
+    num = opt['numPlayers']
+    var_eff = None
+    if num == 2:
+        var_eff = session.query(Variant.eff_2p).filter(Variant.variant == opt['variantName']).first()
+    elif num in [3, 4]:
+        var_eff = session.query(Variant.eff_34p).filter(Variant.variant == opt['variantName']).first()
+    elif num == 5:
+        var_eff = session.query(Variant.eff_5p).filter(Variant.variant == opt['variantName']).first()
+    elif num == 6:
+        var_eff = session.query(Variant.eff_6p).filter(Variant.variant == opt['variantName']).first()
     game = Game(
         g_id,
         opt['numPlayers'],
@@ -39,7 +49,8 @@ def load_game(g, s):
         s['datetimeFinished'],
         s['numGamesOnThisSeed'],
         s['tags'],
-        g['seed']
+        g['seed'],
+        var_eff
     )
     session.add(game)
     return game
@@ -154,7 +165,8 @@ def load_game_empty(g):
         g['players'],
         starting_player,
         *[None] * 20,
-        g['seed']
+        g['seed'],
+        None
     )
     session.add(game)
 
