@@ -1592,11 +1592,11 @@ Dual-Color & Dark Null (6 Suits)	6 Suits w/ 1x 1oE	sd
 Dual-Color & Cocoa Rainbow (6 Suits)	6 Suits w/ 1x 1oE	sd
 Dual-Color & Gray Pink (6 Suits)	6 Suits w/ 1x 1oE	sd
 Dual-Color & Dark Prism (6 Suits)	6 Suits w/ 1x 1oE	sd
-Special Mix (5 Suits)	5 Suits	easy
-Special Mix (6 Suits)	6 Suits	easy
-Ambiguous Mix	uous Mi	easy
-Dual-Color Mix	olor Mi	easy
-Ambiguous & Dual-Color	al-Colo	easy
+Special Mix (5 Suits)	5 Suits w/ 1x 1oE	sd
+Special Mix (6 Suits)	6 Suits w/ 1x 1oE	sd
+Ambiguous Mix	6 Suits w/ 1x 1oE	sd
+Dual-Color Mix	6 Suits w/ 1x 1oE	sd
+Ambiguous & Dual-Color	6 Suits	easy
 Color Blind (6 Suits)	6 Suits	easy
 Color Blind (5 Suits)	5 Suits	easy
 Color Blind (4 Suits)	4 Suits	easy
