@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 #         d.session.commit()
 #     logger.info(v)
 
-with open('../../resources/variants.json', "r") as variants_file:
+with open('../../resources/variants_1103.json', "r") as variants_file:
     variants = json.loads(variants_file.read())
 
 with open('../../resources/suits.json', "r") as suits_file:
@@ -37,20 +37,20 @@ for v in variants:
             clue_colors = s_json['clueColors']
             # print(clue_colors)
             var_clue_colors |= set(clue_colors)
-    for c in colors:
-        if c in var_clue_colors:
-            var_colors.append(c)
-    variant.colors = var_colors
-    print(var_colors)
-
-    #     if s in colors:
-    #         var_colors.append(s)
-    #     if s == 'Dark Pink':
-    #         var_colors.append('Pink')
-    #     if s == 'Dark Brown':
-    #         var_colors.append('Brown')
+    # for c in colors:
+    #     if c in var_clue_colors:
+    #         var_colors.append(c)
     # variant.colors = var_colors
-    # variant.suits = v['suits']
+    # print(var_colors)
+
+        if s in colors:
+            var_colors.append(s)
+        if s == 'Dark Pink':
+            var_colors.append('Pink')
+        if s == 'Dark Brown':
+            var_colors.append('Brown')
+    variant.colors = var_colors
+    variant.suits = v['suits']
     # if 'specialRank' in v:
     #     variant.special_rank = v['specialRank']
     # if 'specialDeceptive' in v:
