@@ -17,13 +17,13 @@ def load_game(g, s):
     num = opt['numPlayers']
     var_eff = None
     if num == 2:
-        var_eff = session.query(Variant.eff_2p).filter(Variant.variant == opt['variantName']).first()
+        var_eff = session.query(Variant.eff_2p).filter(Variant.variant == opt['variantName']).scalar()
     elif num in [3, 4]:
-        var_eff = session.query(Variant.eff_34p).filter(Variant.variant == opt['variantName']).first()
+        var_eff = session.query(Variant.eff_34p).filter(Variant.variant == opt['variantName']).scalar()
     elif num == 5:
-        var_eff = session.query(Variant.eff_5p).filter(Variant.variant == opt['variantName']).first()
+        var_eff = session.query(Variant.eff_5p).filter(Variant.variant == opt['variantName']).scalar()
     elif num == 6:
-        var_eff = session.query(Variant.eff_6p).filter(Variant.variant == opt['variantName']).first()
+        var_eff = session.query(Variant.eff_6p).filter(Variant.variant == opt['variantName']).scalar()
     game = Game(
         g_id,
         opt['numPlayers'],
