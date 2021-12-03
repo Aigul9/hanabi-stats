@@ -762,3 +762,28 @@ from (select player,
            ) t1
      ) t2
 order by 1;
+
+--My games with 0 clues
+select * from games g
+left join clues c on g.game_id = c.game_id
+where c.game_id is null
+and 'Valetta6789' = any(players)
+and speedrun is false
+and detrimental_characters is false
+and end_condition = 1;
+
+select count(*) from games
+where 'Valetta6789' = any(players)
+and speedrun is false
+and detrimental_characters is false
+and end_condition = 1;
+--2433
+
+select count(distinct c.game_id) from clues c
+join games g on c.game_id = g.game_id
+where 'Valetta6789' != clue_giver
+and 'Valetta6789' = any(players)
+and speedrun is false
+and detrimental_characters is false
+and end_condition = 1;
+--2433

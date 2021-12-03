@@ -460,3 +460,11 @@ and game_id < 100000;
 select distinct unnest(players) from games
 where 'Valetta6789' = any(players)
 order by 1;
+
+select * from games where variant like 'Syn%';
+select * from variants where variant like 'Syn%' or variant like 'Crit%';
+select * from games order by 1 desc limit 10;
+select * from player_notes where game_id = 651850;
+select * from clues where game_id = 651850;
+
+select * from card_actions where game_id = 651850;
