@@ -468,3 +468,27 @@ select * from player_notes where game_id = 651850;
 select * from clues where game_id = 651850;
 
 select * from card_actions where game_id = 651850;
+
+select * from decks;
+select distinct d.seed from decks d join games g on d.seed = g.seed
+where variant = 'No Variant'
+and num_players = 3
+and detrimental_characters is false
+and end_condition = 1
+order by 1;
+
+select * from decks where seed = 'p2v0s3665';
+select card_suit,
+       card_rank,
+       ca.card_index,
+       player,
+       turn_drawn,
+       turn_action,
+       action_type,
+       ca.game_id
+from card_actions ca join games g on ca.game_id = g.game_id
+where g.seed = 'p3v0s1'
+order by ca.game_id, card_index;
+
+select * from games where seed = 'p2v0s3665';
+select * from games where game_id = 630426;
