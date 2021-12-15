@@ -1,5 +1,4 @@
 import csv
-
 from sqlalchemy import false
 
 from database.db_connect import session, Game, Player
@@ -52,48 +51,78 @@ for pl in players:
     players_suits[player] = suits
     # print(sorted(suits.items(), key=lambda x: -x[1]))
 
-with open('../output/variants/favourite_suits.tsv', 'w', encoding='utf-8', newline='') as file:
-    w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
-    w.writerow(['Player',
-                'Rainbow',
-                'Prism',
-                'White',
-                'Black',
-                'Pink',
-                'Light Pink',
-                'Brown',
-                'Muddy Rainbow',
-                'Omni',
-                'Null',
-                'Dark Rainbow',
-                'Dark Prism',
-                'Gray',
-                'Dark Pink',
-                'Gray Pink',
-                'Dark Brown',
-                'Cocoa Rainbow',
-                'Dark Omni',
-                'Dark Null'])
-    for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
-        w.writerow([
-            k,
-            v['Rainbow'],
-            v['Prism'],
-            v['White'],
-            v['Black'],
-            v['Pink'],
-            v['Light Pink'],
-            v['Brown'],
-            v['Muddy Rainbow'],
-            v['Omni'],
-            v['Null'],
-            v['Dark Rainbow'],
-            v['Dark Prism'],
-            v['Gray'],
-            v['Dark Pink'],
-            v['Gray Pink'],
-            v['Dark Brown'],
-            v['Cocoa Rainbow'],
-            v['Dark Omni'],
-            v['Dark Null']
-        ])
+
+def save_all():
+    with open('../output/variants/favourite_suits.tsv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        w.writerow(['Player',
+                    'Rainbow',
+                    'Prism',
+                    'White',
+                    'Black',
+                    'Pink',
+                    'Light Pink',
+                    'Brown',
+                    'Muddy Rainbow',
+                    'Omni',
+                    'Null',
+                    'Dark Rainbow',
+                    'Dark Prism',
+                    'Gray',
+                    'Dark Pink',
+                    'Gray Pink',
+                    'Dark Brown',
+                    'Cocoa Rainbow',
+                    'Dark Omni',
+                    'Dark Null'])
+        for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
+            w.writerow([
+                k,
+                v['Rainbow'],
+                v['Prism'],
+                v['White'],
+                v['Black'],
+                v['Pink'],
+                v['Light Pink'],
+                v['Brown'],
+                v['Muddy Rainbow'],
+                v['Omni'],
+                v['Null'],
+                v['Dark Rainbow'],
+                v['Dark Prism'],
+                v['Gray'],
+                v['Dark Pink'],
+                v['Gray Pink'],
+                v['Dark Brown'],
+                v['Cocoa Rainbow'],
+                v['Dark Omni'],
+                v['Dark Null']
+            ])
+
+
+def save_top():
+    with open('../output/variants/favourite_suits_top.tsv', 'w', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        w.writerow(['Player',
+                    'Suit #1', 'Count #1',
+                    'Suit #2', 'Count #2',
+                    'Suit #3', 'Count #3',
+                    'Suit #4', 'Count #4',
+                    'Suit #5', 'Count #5'])
+        for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
+            # del v['Rainbow']
+            # del v['Black']
+            v = sorted(v.items(), key=lambda x: -x[1])
+            # print(v)
+            w.writerow([
+                k,
+                v[0][0], v[0][1],
+                v[1][0], v[1][1],
+                v[2][0], v[2][1],
+                v[3][0], v[3][1],
+                v[4][0], v[4][1]
+            ])
+
+
+# save_all()
+save_top()

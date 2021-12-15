@@ -492,3 +492,9 @@ order by ca.game_id, card_index;
 
 select * from games where seed = 'p2v0s3665';
 select * from games where game_id = 630426;
+
+select * from games
+where 'florrat2' = any(players)
+and num_players != 2
+and speedrun is false
+and variant like '%Dark Rainbow%'
