@@ -822,4 +822,17 @@ from (
 where rank = 1
 order by 1;
 
-select * from variants order by variant_id;
+select * from variants where variant like '%ay%' order by variant_id;
+
+/* special suits
+   White - Gray
+   Black
+   Null - Dark Null
+   Rainbow - Dark Rainbow
+   Pink - Dark Pink
+   Brown - Dark Brown
+   Omni - Dark Omni
+   Muddy Rainbow - Cocoa Rainbow
+   Light Pink - Gray Pink
+   Prism - Dark Prism
+*/
