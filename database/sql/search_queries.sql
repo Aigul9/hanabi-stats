@@ -814,11 +814,11 @@ from (
                            join games g
                                 on player = any (g.players)
                                     and speedrun is false
-                  and num_players != 2
-                  and variant not in ('No Variant', '6 Suits', 'Rainbow (6 Suits)', 'Rainbow (5 Suits)',
-                                     'Black (5 Suits)', 'Black (6 Suits)')
+                                    and num_players != 2
+--                   and variant not in ('No Variant', '6 Suits', 'Rainbow (6 Suits)', 'Rainbow (5 Suits)',
+--                                      'Black (5 Suits)', 'Black (6 Suits)')
                   group by player, variant) t1
-     )t2
+     ) t2
 where rank = 1
 order by 1;
 
