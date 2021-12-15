@@ -101,7 +101,7 @@ def save_all():
 
 
 def save_top():
-    with open('../output/variants/favourite_suits_top.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../output/variants/favourite_suits_top_r.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player',
                     'Suit #1', 'Count #1',
@@ -110,8 +110,8 @@ def save_top():
                     'Suit #4', 'Count #4',
                     'Suit #5', 'Count #5'])
         for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
-            # del v['Rainbow']
-            # del v['Black']
+            total = sum(v.values())
+            v = {k1: round(v1 / total, 2) for k1, v1 in v.items()}
             v = sorted(v.items(), key=lambda x: -x[1])
             # print(v)
             w.writerow([
