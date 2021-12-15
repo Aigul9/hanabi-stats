@@ -1,4 +1,7 @@
 import csv
+
+from sqlalchemy import false
+
 from database.db_connect import session, Game, Player
 
 
@@ -31,6 +34,7 @@ for pl in players:
     variants = session.query(Game.variant)\
         .filter(Game.players.any(player))\
         .filter(Game.num_players != 2)\
+        .filter(Game.speedrun == false())\
         .all()
     for var in variants:
         variant = var[0].split('&')
@@ -70,7 +74,7 @@ with open('../output/variants/favourite_suits.tsv', 'w', encoding='utf-8', newli
                 'Cocoa Rainbow',
                 'Dark Omni',
                 'Dark Null'])
-    for k, v in sorted(players_suits.items()):
+    for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
         w.writerow([
             k,
             v['Rainbow'],
