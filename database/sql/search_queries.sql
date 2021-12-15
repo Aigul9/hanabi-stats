@@ -803,7 +803,7 @@ and detrimental_characters is false;
 with players as (
     select distinct unnest(players) player from games
 )
-select *
+select player, variant, count
 from (
          select *, rank() over (partition by player order by count desc) as rank
          from (
@@ -814,7 +814,12 @@ from (
                            join games g
                                 on player = any (g.players)
                                     and speedrun is false
+                  and num_players != 2
+                  and variant not in ('No Variant', '6 Suits', 'Rainbow (6 Suits)', 'Rainbow (5 Suits)',
+                                     'Black (5 Suits)', 'Black (6 Suits)')
                   group by player, variant) t1
      )t2
 where rank = 1
 order by 1;
+
+select * from variants order by variant_id;
