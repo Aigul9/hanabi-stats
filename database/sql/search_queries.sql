@@ -787,3 +787,34 @@ and speedrun is false
 and detrimental_characters is false
 and end_condition = 1;
 --2433
+
+--Val's max clue starved
+select * from games g
+join variants v
+on g.variant_id = v.variant_id
+where g.variant like '%Starved%'
+and 'Valetta6789' = any(players)
+and score = max_score
+and num_players != 2
+and speedrun is false
+and detrimental_characters is false;
+
+--fav variants by players
+with players as (
+    select distinct unnest(players) player from games
+)
+select *
+from (
+         select *, rank() over (partition by player order by count desc) as rank
+         from (
+                  select player, variant, count(*) as count
+                  from (select *
+                        from players
+                        where player in (select * from players_list)) t
+                           join games g
+                                on player = any (g.players)
+                                    and speedrun is false
+                  group by player, variant) t1
+     )t2
+where rank = 1
+order by 1;
