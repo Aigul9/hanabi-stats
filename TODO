@@ -1,0 +1,34 @@
+output folders:
+misc
+notes
+purples done
+rank
+review
+scores (total is done)
+time
+variants
+winrate
+up-to-date-stats.tsv
+
+py:
+calc
+clues
+eff
+eff_to_db
+end_condition
+fav_suits
+gotten_variants
+notes_portrait
+notes_portrait_afterwards
+notes_rate
+players
+player_most_wl
+purple_looker
+purples done
+query_processing
+reviews
+starting_player
+time_spent
+total_max_scores done
+utils
+winnable_seeds
