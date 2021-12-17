@@ -1,18 +1,51 @@
 import csv
+from sqlalchemy import false
 
 import py.utils as u
+from database.db_connect import session, Game, Player
 
 
-def sort_terminated(data):
-    return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1][4])}
+def sort_terminated(condition_count_dict):
+    """Sorts players by number of terminated games in a descending order.
+
+    Parameters
+    ----------
+    condition_count_dict : dict
+        Number of games grouped by an end condition
+
+    Returns
+    -------
+        dict
+        Sorted input dictionary
+    """
+    return {k: v for k, v in sorted(condition_count_dict.items(), key=lambda x: -x[1][4])}
 
 
-def sort_strikeout(data):
-    return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1][2])}
+def sort_strikeout(condition_count_dict):
+    """Sorts players by number of strikeout games in a descending order.
+
+    Parameters
+    ----------
+    condition_count_dict : dict
+        Number of games grouped by an end condition
+
+    Returns
+    -------
+        dict
+        Sorted input dictionary
+    """
+    return {k: v for k, v in sorted(condition_count_dict.items(), key=lambda x: -x[1][2])}
 
 
-def save(data):
-    with open('output/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
+def save(condition_count_dict):
+    """Saves total number of games grouped by player and end condition.
+
+    Parameters
+    ----------
+    condition_count_dict : dict
+        Number of games grouped by an end condition
+    """
+    with open('../output/rank/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t')
         w.writerow([
             'Player',
@@ -25,21 +58,49 @@ def save(data):
             # 1
             'Normal'
         ])
-        for k, v in data.items():
+        for k, v in condition_count_dict.items():
             t = v['total']
             w.writerow([
                 k,
-                u.p(v[4], t),
-                u.p(v[2], t),
-                u.p(v[3], t),
-                u.p(v[1], t)
+                f'{u.p_no_round(v[4], t)}%',
+                f'{u.p_no_round(v[2], t)}%',
+                f'{u.p_no_round(v[3], t)}%',
+                f'{u.p_no_round(v[1], t)}%'
             ])
 
 
-def count_conditions(stats):
-    conditions = {i: 0 for i in range(10)}
-    for g in stats:
-        ec = g['endCondition']
-        conditions[ec] += 1
-    conditions['total'] = len(stats)
-    return conditions
+def count_conditions(username):
+    """Calculates number of games for each end condition.
+
+    Parameters
+    ----------
+    username : str
+        Player name
+
+    Returns
+    -------
+    condition_count_dict : dict
+        Number of games grouped by an end condition
+    """
+    condition_count_dict = {i: 0 for i in range(11)}
+    games = session.query(Game) \
+        .filter(Game.players.any(username)) \
+        .filter(Game.num_players != 2)\
+        .filter(Game.speedrun == false())\
+        .all()
+    for game in games:
+        ec = game.end_condition
+        condition_count_dict[ec] += 1
+    condition_count_dict['total'] = len(games)
+    return condition_count_dict
+
+
+if __name__ == "__main__":
+    users = session.query(Player.player).all()
+    users_conditions = {}
+
+    for user in users:
+        user = user[0]
+        users_conditions[user] = count_conditions(user)
+
+    save(sort_terminated(users_conditions))
