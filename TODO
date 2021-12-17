@@ -2,10 +2,10 @@ output folders:
 misc
 notes
 purples done
-rank
+rank (end condition is done)
 review
 scores (total is done)
-time
+time (times_spent is done)
 variants
 winrate
 up-to-date-stats.tsv
@@ -15,7 +15,7 @@ calc
 clues
 eff
 eff_to_db
-end_condition
+end_condition done
 fav_suits
 gotten_variants
 notes_portrait
@@ -28,7 +28,7 @@ purples done
 query_processing
 reviews
 starting_player
-time_spent
+time_spent done
 total_max_scores done
 utils
 winnable_seeds

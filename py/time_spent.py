@@ -11,7 +11,7 @@ def save(player_times_dict):
     Parameters
     ----------
     player_times_dict : dict
-        Dictionary containing player name, total days, hours, minutes per game, hours per day
+        Total days, hours, minutes per game, hours per day by player
     """
     with open(f'../output/time/times_spent.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')

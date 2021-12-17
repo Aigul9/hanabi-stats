@@ -30,20 +30,20 @@ def get_content(url, username, req_session=None):
 
 
 def get_digits(text):
-    """Gets digits from the provided string.
+    """Gets digits from the provided string with html tags.
 
     Parameters
     ----------
     text : str
         Text containing html tags
 
-    Returns digits.
+    Returns digits from the string.
     """
     return int(text.split()[0].replace('<td>', ''))
 
 
 def get_total_scores(username, req_session):
-    """Gets number of achieved scores from the user's personal page.
+    """Gets number of achieved scores for each category from the user's personal page.
 
     Parameters
     ----------
@@ -63,13 +63,12 @@ def get_total_scores(username, req_session):
 if __name__ == "__main__":
     users = session.query(Player.player).all()
     request_session = requests.Session()
-    scores = {}
+    users_scores = {}
     for user in users:
         user = user[0]
-        scores[user] = get_total_scores(user, request_session)
-    print(scores)
+        users_scores[user] = get_total_scores(user, request_session)
     u.save(
         '../output/scores/total_max_scores',
-        u.sort(scores, 5),
+        u.sort(users_scores, 5),
         ['Player', '2p', '3p', '4p', '5p', '6p', 'Total scores']
     )

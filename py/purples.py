@@ -69,7 +69,7 @@ def save_purples(purples_count_dict):
     Parameters
     ----------
     purples_count_dict : dict
-        Dictionary containing number of games by player
+        Number of games by player
     """
     with open(f'../output/purples/purples.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
