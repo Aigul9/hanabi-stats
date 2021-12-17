@@ -44,9 +44,10 @@ class Game(Base):
     # 4: terminated
     # 5: speedrunfail
     # 6: idle
-    # 7: charsoftlock
+    # 7: char soft lock
     # 8: all or nothing fail
     # 9: all or nothing soft lock
+    # 10: by a vote
     end_condition = Column(Integer)
     date_time_started = Column(DateTime)
     date_time_finished = Column(DateTime)
