@@ -82,7 +82,7 @@ if __name__ == "__main__":
     purples_dates = get_purples_dates()
     users = session.query(Player.player).all()
     purples = {}
-    for u in users:
-        user = u[0]
+    for user in users:
+        user = user[0]
         purples[user] = count_purple_games(user, purples_dates)
     save_purples(purples)
