@@ -1,21 +1,21 @@
-Note	Frequency (29264 in total)
-f	1348
+Note	Frequency (29333 in total)
+f	1387
 i	851
-[f]	610
+[f]	615
 this	535
-?	517
+?	518
 is	464
 not	425
-cm	386
-to	366
+cm	392
+to	367
 a	333
 why	316
 play	291
-clue	275
+clue	276
 oh	253
 lol	242
 but	240
-5	238
+5	239
 it	229
 finesse	209
 save	203
@@ -23,7 +23,7 @@ bluff	196
 you	190
 ->	183
 r3	181
-should	180
+should	181
 have	170
 be	169
 g2	168
@@ -32,7 +32,7 @@ b3	166
 r2	162
 can	154
 +	148
-??	147
+??	148
 g3	146
 what	146
 r4	145
@@ -45,15 +45,15 @@ discard	138
 do	133
 b4	129
 y3	129
+[cm]	128
 y4	127
-[cm]	123
 we	123
 so	122
 g4	121
 on	121
 y2	121
 1	118
-as	115
+as	116
 and	112
 like	112
 maybe	112
@@ -135,9 +135,9 @@ double	44
 schark	44
 would	44
 chop	43
+i3	43
 line	43
 well	43
-i3	42
 kakashi	42
 did	40
 i2	40
@@ -277,6 +277,7 @@ allowed	16
 certain	16
 elim	16
 never	16
+prompt	16
 r23	16
 sin	16
 thats	16
@@ -295,7 +296,6 @@ hand	15
 hell	15
 huh	15
 more	15
-prompt	15
 pull	15
 thinks	15
 a2	14
@@ -382,6 +382,7 @@ into	11
 k1	11
 livia	11
 make	11
+o2	11
 perhaps	11
 possibly	11
 t1	11
@@ -391,6 +392,7 @@ too	11
 two	11
 way	11
 15:	10
+35:	10
 5:	10
 5p	10
 6:	10
@@ -410,7 +412,6 @@ lpc	10
 makes	10
 noo	10
 null	10
-o2	10
 permission	10
 robense	10
 shouldve	10
@@ -430,7 +431,6 @@ your	10
 24:	9
 27:	9
 2s	9
-35:	9
 3s	9
 4s	9
 6	9
@@ -764,6 +764,7 @@ discards	4
 distribution	4
 duping	4
 ffs	4
+fireheart	4
 fucking	4
 fun	4
 gives	4
@@ -884,7 +885,6 @@ fault	3
 figure	3
 figured	3
 find	3
-fireheart	3
 five	3
 fk	3
 forget	3
@@ -1547,6 +1547,7 @@ yp5	2
 [needed	1
 [nice	1
 [o5]	1
+[occupied	1
 [oops	1
 [p3]	1
 [r3]	1
@@ -1717,6 +1718,7 @@ clarity	1
 clear	1
 clr	1
 clued)	1
+cm]	1
 cmd)	1
 codex	1
 color)	1

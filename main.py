@@ -1,12 +1,10 @@
 import logging
 
 import py.calc as c
-import py.notes_portrait as np
 import py.notes_portrait_afterwards as npa
 import py.notes_rate as nr
 import py.players as pls
 import py.players_most_wl as wl
-# import py.starting_player as st
 import py.utils as u
 
 
@@ -35,13 +33,6 @@ def main_user(user):
     global_teams |= teams
     # Step 6: Winrate per hour
     global_hours[user] = wl.get_hours(user_stats)
-
-    # Step 10: Notes portrait and count
-    user_portrait, user_notes_count = np.get_notes_stats(user, user_stats)
-    global_portraits[user] = user_portrait
-    user_portrait = {k: v for k, v in sorted(user_portrait.items(), key=lambda x: (-x[1], x[0]))}
-    np.save(user, user_portrait)
-    global_notes_count[user] = user_notes_count
     # Step 11: Notes rate
     global_notes_rates[user] = nr.get_notes_rate(user, user_stats)
 
@@ -80,14 +71,6 @@ def main():
     u.save_hours(u.sort_by_key(global_hours), hours_header)
     # time/plots/user.png
     u.save_plots(global_hours, hours_header)
-
-    # notes/notes_count.tsv
-    u.save_header(
-        'output/notes/notes_count',
-        ['Note', 'Per game', 'Total']
-    )
-    for user in u.sort(global_notes_count, 'count').keys():
-        np.save_count(user, global_notes_count[user])
     # notes/notes_rates.tsv
     u.save_header('output/notes/notes_rates', ['Player', 'Rate'])
     for user, user_rate in u.sort_by_value(global_notes_rates).items():
@@ -118,6 +101,5 @@ if __name__ == "__main__":
     global_hours = {}
     hours_header = [u.add_zero(i) for i in range(0, 24)]
     global_portraits = {}
-    global_notes_count = {}
     global_notes_rates = {}
     main()

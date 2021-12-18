@@ -249,3 +249,12 @@ select card_suit,
 from card_actions ca join games g on ca.game_id = g.game_id
 where g.seed = 'p3v0s1'
 order by ca.game_id, card_index;
+
+select distinct game_id from player_notes order by 1;
+
+select * from players_list order by 1;
+
+select player, count(*) as games from player_notes
+where player in (select * from players_list)
+group by player
+order by 2 desc;
