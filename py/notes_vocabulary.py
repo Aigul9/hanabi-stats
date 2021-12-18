@@ -18,72 +18,72 @@ def open_notes_stats(username):
         Number of notes containing a specific word or symbol
     """
     with open(f'../output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
-        user_notes_list = []
+        player_notes_list = []
         for line in file.readlines():
-            user_notes_list.append(line.rstrip().split('\t'))
-    for n in user_notes_list:
+            player_notes_list.append(line.rstrip().split('\t'))
+    for n in player_notes_list:
         try:
-            return {n[0]: n[1] for n in user_notes_list[1:]}
+            return {n[0]: n[1] for n in player_notes_list[1:]}
         except IndexError:
             print(username, n)
 
 
-def get_voc_comparison(user_word_frequency_dict):
-    """Creates a pivot table from users' vocabularies.
+def get_voc_comparison(player_word_count_dict):
+    """Creates a pivot table from players' vocabularies.
 
     Parameters
     ----------
-    user_word_frequency_dict : dict
+    player_word_count_dict : dict
         Number of notes by word for each player
 
     Returns
     -------
-    user_word_frequency_pivot : dict
+    player_word_count_pivot : dict
         Pivot table containing percentage of similarities between two vocabularies
     """
-    user_word_frequency_pivot = {}
-    for player, word_frequency_dict in user_word_frequency_dict.items():
+    player_word_count_pivot = {}
+    for player, word_count_dict in player_word_count_dict.items():
         player_comparison_list = []
-        for frequency in user_word_frequency_dict.values():
-            player_comparison_list.append(f'{compare(word_frequency_dict, frequency)}%')
-        user_word_frequency_pivot[player] = player_comparison_list
-    return user_word_frequency_pivot
+        for count in player_word_count_dict.values():
+            player_comparison_list.append(f'{compare(word_count_dict, count)}%')
+        player_word_count_pivot[player] = player_comparison_list
+    return player_word_count_pivot
 
 
-def compare(word_frequency_dict1, word_frequency_dict2):
-    """Calculates percentage of comparison between two users' vocabularies.
+def compare(word_count_dict1, word_count_dict2):
+    """Calculates percentage of comparison between two players' vocabularies.
 
     Parameters
     ----------
-    word_frequency_dict1 : dict
+    word_count_dict1 : dict
         Number of notes by word of the first player
-    word_frequency_dict2 : dict
+    word_count_dict2 : dict
         Number of notes by word of the second player
     Returns
     -------
     int
         Percentage of similarities
     """
-    words_count1 = len(word_frequency_dict1)
-    common_words_count = len(word_frequency_dict1.keys() & word_frequency_dict2.keys())
+    words_count1 = len(word_count_dict1)
+    common_words_count = len(word_count_dict1.keys() & word_count_dict2.keys())
     try:
         return round(common_words_count / words_count1 * 100)
     except ZeroDivisionError:
         return 0
 
 
-def save(user_word_frequency_pivot):
-    """Saves compared users' vocabularies into a tsv file.
+def save(player_word_count_pivot):
+    """Saves compared players' vocabularies into a tsv file.
 
     Parameters
     ----------
-    user_word_frequency_pivot : dict
+    player_word_count_pivot : dict
         Pivot table containing percentage of similarities between two vocabularies
     """
     with open(f'../output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Player', *user_word_frequency_pivot.keys()])
-        for k, v in user_word_frequency_pivot.items():
+        w.writerow(['Player', *player_word_count_pivot.keys()])
+        for k, v in player_word_count_pivot.items():
             w.writerow([k, *v])
 
 
