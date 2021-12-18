@@ -80,7 +80,7 @@ def save(player_word_count_pivot):
     player_word_count_pivot : dict
         Pivot table containing percentage of similarities between two vocabularies
     """
-    with open(f'../output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../../output/notes/vocabulary_intersection.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Player', *player_word_count_pivot.keys()])
         for k, v in player_word_count_pivot.items():

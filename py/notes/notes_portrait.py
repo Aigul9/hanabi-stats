@@ -40,7 +40,7 @@ def save(username, word_frequency_dict):
     word_frequency_dict : dict
         Number of notes containing a specific word or symbol
     """
-    with open(f'../output/notes/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../../output/notes/portraits/{username}_portrait.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Note', f'Frequency ({sum([v for v in word_frequency_dict.values()])} in total)'])
         for k, v in word_frequency_dict.items():

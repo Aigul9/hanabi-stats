@@ -1,6 +1,6 @@
 import csv
 
-from py.notes_vocabulary import open_notes_stats
+from py.notes.notes_vocabulary import open_notes_stats
 from database.db_connect import session, Player
 
 
@@ -38,7 +38,7 @@ def save_words(word_count_players_dict, users_count):
     users_count : int
         Number of players
     """
-    with open(f'../output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open(f'../../output/notes/frequent_words.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Words', 'Frequency', f'Number of vocabularies (Max = {users_count})'])
         for word, count_players_list in word_count_players_dict.items():
