@@ -5,11 +5,11 @@ output folders:
 +teammates
 
 notes:
-portraits
++portraits
 frequent_words
-notes_count
++notes_count
 notes_rates
-vocabulary_intersection
++vocabulary_intersection
 
 rank:
 +pmdc
@@ -50,7 +50,8 @@ clues
 -eff
 +end_condition
 +fav_suits
-notes_portrait
++notes_portrait
++notes_vocabulary
 notes_portrait_afterwards
 notes_rate
 players
