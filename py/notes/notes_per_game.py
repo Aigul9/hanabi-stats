@@ -97,10 +97,8 @@ def get_notes_ratio(username):
         player_notes_visible_cards_dict['notes_count'] += notes_count
         player_notes_visible_cards_dict['visible_cards_count'] += visible_cards_count
 
-    return round(
-        player_notes_visible_cards_dict['notes_count'] /
-        player_notes_visible_cards_dict['visible_cards_count'],
-        4)
+    return u.p(player_notes_visible_cards_dict['notes_count'],
+               player_notes_visible_cards_dict['visible_cards_count'])
 
 
 if __name__ == "__main__":
