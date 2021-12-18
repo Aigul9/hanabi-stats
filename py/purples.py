@@ -71,7 +71,7 @@ def save_purples(purples_count_dict):
     purples_count_dict : dict
         Number of games by player
     """
-    with open(f'../output/purples/purples.tsv', 'w', newline='') as file:
+    with open(f'../output/misc/purples.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Players', '# with purples'])
         for k, v in sorted(purples_count_dict.items(), key=lambda row: -row[1]):

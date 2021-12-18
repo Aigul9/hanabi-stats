@@ -245,71 +245,6 @@ where 'Valetta6789' = any(players)
 and g.variant_id = 1725
 group by g.variant_id, g.variant;
 
-select * from variants;
-
-select distinct variant from games where 'Valetta6789' = any(players);
-
---group time by months
-with dates as (
-    select unnest(players)                                            as p,
-           date_time_started                                          as s,
-           date_time_finished                                         as f,
-           date_time_finished - date_time_started                     as d,
-           extract(epoch from date_time_finished - date_time_started) as total_diff,
-           extract(year from date_time_started)                       as ys,
-           extract(year from date_time_finished)                      as yf,
-           extract(month from date_time_started)                      as ms,
-           extract(month from date_time_finished)                     as mf
-    from games
---     where speedrun is false
-)
-select player, year,
-       TO_CHAR(
-           TO_DATE (month::text, 'MM')
-           , 'Month') as month,
-       hours, rank
-from (
-         select player, year, month, hours, rank() over (partition by year, month order by hours desc) as rank
-         from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
-               from (select p,
-                            ys,
-                            ms,
-                            case
-                                when ms != mf then
-                                    extract(epoch from date_trunc('month', f) - s)
-                                else total_diff
-                                end as time_in_sec
-                     from dates
-                     union all
-                     select p,
-                            yf,
-                            mf,
-                            case
-                                when ms != mf then
-                                    extract(epoch from f - date_trunc('month', f))
-                                else 0
-                                end
-                     from dates
-                    ) un
--- where p
--- in
---       (
---        'Valetta6789',
---        'kimbifille',
---        'Lanvin'
--- --        'RaKXeR',
--- --        'Libster',
--- --        'NoMercy',
--- --        'florrat2',
--- --        'timotree'
---           )
-               group by player, year, month
-              ) t
-     ) t_rank
-where player = 'scharkbite';
--- where rank = 1;
--- order by year, month, hours desc;
-
 SELECT TO_CHAR(
     TO_DATE (12::text, 'MM'), 'Month'
     ) AS "Month Name";
@@ -332,75 +267,11 @@ select * from games where extract(month from date_time_started) != extract(month
 select * from games where extract(day from date_time_started) != extract(day from date_time_finished);
 select * from games where extract(hour from date_time_started) != extract(hour from date_time_finished);
 
---copy
--- select *
--- from (select date_time_started,
---              date_time_finished,
---              extract(year from date_time_started)    as ys,
---              extract(year from date_time_finished)   as yf,
---              extract(month from date_time_started)   as ms,
---              extract(month from date_time_finished)  as mf,
---              extract(day from date_time_started)     as ds,
---              extract(day from date_time_finished)    as df,
---              extract(hour from date_time_started)    as hs,
---              extract(hour from date_time_finished)   as hf,
---              extract(minute from date_time_started)  as ms,
---              extract(minute from date_time_finished) as mf,
---              extract(second from date_time_started)  as ss,
---              extract(second from date_time_finished) as sf
---       from games
---       where game_id = 63598
---      ) dates;
-
 --competition 21.09.2021
 select * from games where variant = 'Black (5 Suits)' and detrimental_characters is true
 and date(date_time_started) >= '2021-09-03';
 
---each player's peak
-with dates as (
-    select unnest(players)                                            as p,
-           date_time_started                                          as s,
-           date_time_finished                                         as f,
-           date_time_finished - date_time_started                     as d,
-           extract(epoch from date_time_finished - date_time_started) as total_diff,
-           extract(year from date_time_started)                       as ys,
-           extract(year from date_time_finished)                      as yf,
-           extract(month from date_time_started)                      as ms,
-           extract(month from date_time_finished)                     as mf
-    from games
-)
-select player, year, TO_CHAR(
-    TO_DATE (month::text, 'MM'), 'Month'
-    ) as month, hours
-from (
-         select player, year, month, hours, rank() over (partition by player order by hours desc) as rank
-         from (select p as player, ys as year, ms as month, (sum(time_in_sec) / 3600)::int as hours
-               from (select p,
-                            ys,
-                            ms,
-                            case
-                                when ms != mf then
-                                    extract(epoch from date_trunc('month', f) - s)
-                                else total_diff
-                                end as time_in_sec
-                     from dates
-                     union all
-                     select p,
-                            yf,
-                            mf,
-                            case
-                                when ms != mf then
-                                    extract(epoch from f - date_trunc('month', f))
-                                else 0
-                                end
-                     from dates
-                    ) un
-               where p in (select * from players_list)
-               group by player, year, month
-              ) t
-     ) t_rank
-where rank = 1;
--- order by year, month, hours desc;
+
 
 --Valetta's games
 select to_char(date_time_started at time zone 'UTC+3', 'DD.MM.YYYY HH24:MI') as started,
@@ -521,12 +392,7 @@ and 'ADrone' = any(players)
 and speedrun is false
 order by date_time_started;
 
---Number of teammates
-select player, count(distinct p) as teammates
-from (select player, unnest(players) p from games g join players_list pl
-    on pl.player = any(players)) t
-group by player
-order by 2 desc, 1;
+
 
 -- --draft
 -- --groups of players who never played with each other
@@ -600,138 +466,6 @@ from (select *,
      ) t
 where rank = 1
 order by 2 desc;
-
---clean games
-with players as (
-    select player, count(*) as count from players_list pl join games
-    on player = any(players)
-    where num_players != 2
-      and end_condition = 1
-      and detrimental_characters is false
-      and speedrun is false
-      and all_or_nothing is false
-      and one_extra_card is false
-      and one_less_card is false
-    group by player
-)
-select t1.player,
-       round(t1.count * 1.0 / p.count, 2) as ratio,
-       t1.count as count_clean,
-       p.count as count_total
-from (select pl.player, count(*) as count
-      from (select *
-            from games
-            where num_players != 2
-              and end_condition = 1
-              and detrimental_characters is false
-              and speedrun is false
-              and all_or_nothing is false
-              and one_extra_card is false
-              and one_less_card is false
-              and 'misplay' not in (
-                select distinct action_type
-                from card_actions
-                where game_id = games.game_id
-                  and action_type is not null
-            )) t
-               join players_list pl on pl.player = any (players)
-      group by pl.player
-     ) t1
-join players p on t1.player = p.player
-order by 2 desc, 1;
---106756 games
-
---plays, misplays, discards, clues ratio
-select player,
---        round(plays * 1.0 / total_pmd, 2) as plays_r,
---        round(misplays * 1.0 / total_pmd, 2) as misplays_r,
---        round(discards * 1.0 / total_pmd, 2) as discards_r,
-       round(clues * 1.0 / total_clues, 2) as clues_r,
---        plays,
---        misplays,
---        discards,
-       clues,
---        total_pmd as games_pmd
-       total_clues as games_clues
-from (select player,
-       count(*) filter (where action_type = 'play') as plays,
-       count(*) filter (where action_type = 'misplay') as misplays,
-       count(*) filter (where action_type = 'discard') as discards,
-       count(distinct ca.game_id) total_pmd
-from card_actions ca
-join games g on ca.game_id = g.game_id
-where player in (select * from players_list)
-and speedrun is false
-and num_players != 2
-group by player) t1
-join
-(select clue_giver, count(*) as clues, count(distinct c.game_id) as total_clues from clues c
-join games g on c.game_id = g.game_id
-where clue_giver in (select * from players_list)
-and speedrun is false
-and num_players != 2
-group by clue_giver) t2
-on t1.player = t2.clue_giver
-order by 2 desc, 1;
-
---player who stroke out the game
-select t1.player,
-       round("third strikes" * 1.0 / count, 2),
-       "third strikes",
-       count as "total games"
-from (select player, count(*) as "third strikes"
-from (select player,
-             ca.game_id,
-             action_type,
-             rank() over (partition by ca.game_id order by turn_action desc) as rank
-      from card_actions ca
-               join games g on ca.game_id = g.game_id
-      where end_condition = 2
-        and speedrun is false
-        and num_players != 2
-        and action_type = 'misplay'
-     ) t
-where rank = 1
-and player in (select player from players_list)
-group by player) t1
-join
-(select player, count(*) as count from players_list pl join games
-    on player = any(players)
-    where num_players != 2
-      and end_condition = 2
-      and speedrun is false
-    group by player) t2
-on t1.player = t2.player
-order by 2 desc;
-
---winning streak
-select player, count, start_game_id
-from (select player, rank() over (partition by player order by count desc) as rank, count, start_game_id
-      from (select player, min(game_id) as start_game_id, grp, count(*) as count
-            from (select *,
-                         row_number() over (partition by player order by game_id) -
-                         row_number() over (partition by player, state order by game_id) as grp
-                  from (select game_id,
-                               unnest(players) as player,
-                               score,
-                               max_score,
-                               seed,
-                               case
-                                   when score = max_score then 1
-                                   else 0
-                                   end         as state
-                        from games g
-                                 join variants v on g.variant_id = v.variant_id
-                            and speedrun is false
-                       ) t1
-                 ) t2
-      where state = 1
---       where state = 0
-              and player in (select player from players_list)
-            group by player, grp) t3
-     ) t4
-where rank = 1
-order by 2 desc, 1;
 
 --group by num_players
 select *, "2p_ratio" + "3p_ratio" + "4p_ratio" + "5p_ratio" + "6p_ratio" as check
@@ -836,3 +570,4 @@ select * from variants where variant like '%ay%' order by variant_id;
    Light Pink - Gray Pink
    Prism - Dark Prism
 */
+

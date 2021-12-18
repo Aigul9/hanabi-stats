@@ -1,8 +1,7 @@
-import py.utils as u
 from database.db_connect import session, Variant
 
 
-with open('../resources/variant_types.txt', 'r', encoding='utf-8') as f:
+with open('../../resources/variant_types.txt', 'r', encoding='utf-8') as f:
     variants = {}
     for line in f.readlines():
         line = line.rstrip().split('\t')
@@ -10,7 +9,7 @@ with open('../resources/variant_types.txt', 'r', encoding='utf-8') as f:
             line[1] = line[1].replace(' null', '')
         variants[line[0]] = line[1]
 
-with open('../resources/types_from_doc.txt', 'r', encoding='utf-8') as f:
+with open('../../resources/types_from_doc.txt', 'r', encoding='utf-8') as f:
     variant_types = {}
     for line in f.readlines():
         line = line.rstrip().split('\t')

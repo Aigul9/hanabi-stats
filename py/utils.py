@@ -157,6 +157,14 @@ def get_losses(stats):
     return len([row for row in stats if row['score'] != get_max_score(row['options']['variantName'])])
 
 
+def get_wins_db(stats):
+    return len([row for row in stats if row.score == get_max_score(row.variant)])
+
+
+def get_losses_db(stats):
+    return len([row for row in stats if row.score != get_max_score(row.variant)])
+
+
 # Specific functions
 def get_number_of_suits(variant):
     default_suits = {
@@ -267,6 +275,13 @@ def p(value, total):
 def p1(value, total):
     if total != 0:
         return round(value / total, 2)
+    else:
+        return 0
+
+
+def p_no_round(value, total):
+    if total != 0:
+        return round(value * 100 / total)
     else:
         return 0
 

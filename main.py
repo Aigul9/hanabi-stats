@@ -1,15 +1,12 @@
 import logging
 
 import py.calc as c
-import py.end_condition as e
 import py.notes_portrait as np
 import py.notes_portrait_afterwards as npa
 import py.notes_rate as nr
 import py.players as pls
 import py.players_most_wl as wl
-import py.starting_player as st
-import py.time_spent as time
-import py.total_max_scores as t
+# import py.starting_player as st
 import py.utils as u
 
 
@@ -38,12 +35,7 @@ def main_user(user):
     global_teams |= teams
     # Step 6: Winrate per hour
     global_hours[user] = wl.get_hours(user_stats)
-    # Step 7: Games with purple players
-    # global_purples[user] = purples.count_purples(user, items)
-    # Step 8: End condition
-    global_conditions[user] = e.count_conditions(user_stats)
-    # Step 9: Total max scores
-    global_scores[user] = t.get_total_scores(user)
+
     # Step 10: Notes portrait and count
     user_portrait, user_notes_count = np.get_notes_stats(user, user_stats)
     global_portraits[user] = user_portrait
@@ -52,15 +44,10 @@ def main_user(user):
     global_notes_count[user] = user_notes_count
     # Step 11: Notes rate
     global_notes_rates[user] = nr.get_notes_rate(user, user_stats)
-    # Step 12: Time spent
-    global_times[user] = time.get_times(user_stats)
-    # Step 13: Alice wr
-    global_Alice[user] = st.get_alice_wr(user, user_stats)
-    logger.info(f'Time spent: {u.time_spent(start_time)}')
 
 
 def main():
-    global global_pref, global_times
+    global global_pref
 
     for current_user in users:
         main_user(current_user)
@@ -93,14 +80,7 @@ def main():
     u.save_hours(u.sort_by_key(global_hours), hours_header)
     # time/plots/user.png
     u.save_plots(global_hours, hours_header)
-    # end_condition.tsv
-    e.save(e.sort_terminated(global_conditions))
-    # total_max_scores.tsv
-    u.save(
-        'output/total_max_scores',
-        u.sort(global_scores, 5),
-        ['Player', '2p', '3p', '4p', '5p', '6p', 'Total scores']
-    )
+
     # notes/notes_count.tsv
     u.save_header(
         'output/notes/notes_count',
@@ -119,19 +99,6 @@ def main():
     npa.save(npa.get_voc_comparison(u.sort_by_key(global_portraits)))
     # frequent_words.tsv
     npa.save_words(npa.most_frequent(global_portraits), users)
-    # time/time_spent.tsv
-    global_times = {k: [u.convert_sec_to_day(v[0]), round(v[1], 1), round(v[2], 1), round(v[3], 1)]
-                    for k, v in u.sort(global_times, 0).items()}
-    time.save(global_times)
-    # winrate/alice/starting_player.tsv
-    u.save('output/winrate/alice/starting_player', u.sort(global_Alice, 0), [
-        'Player',
-        'Ratio',
-        'Alice\'s wins',
-        'Num games being Alice',
-        '!Alice\'s wins',
-        'Num games not being Alice'
-    ])
 
 
 if __name__ == "__main__":
@@ -150,12 +117,7 @@ if __name__ == "__main__":
     global_teams = {}
     global_hours = {}
     hours_header = [u.add_zero(i) for i in range(0, 24)]
-    global_purples = {}
-    global_conditions = {}
-    global_scores = {}
     global_portraits = {}
     global_notes_count = {}
     global_notes_rates = {}
-    global_times = {}
-    global_Alice = {}
     main()

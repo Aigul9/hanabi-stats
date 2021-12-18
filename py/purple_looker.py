@@ -5,20 +5,59 @@ from itertools import groupby
 
 
 def open_stats(user):
+    """Gets user's statistics from the history page.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+
+    Returns history in json format
+    """
     url = f'https://hanab.live/history/{user}?api'
     response = requests.get(url)
     return response.json()
 
 
 def clear_2p(stats):
+    """Removes 2-player games from the user's statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User's games
+
+    Returns history without 2-player games.
+    """
     return [row for row in stats if int(row['options']['numPlayers']) != 2]
 
 
 def clear_speedruns(stats):
+    """Removes speedruns from the user's statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User's games
+
+    Returns history without speedruns.
+    """
     return [row for row in stats if not row['options']['speedrun']]
 
 
 def group_stats(stats):
+    """Groups user's games by year and month.
+
+    Parameters
+    ----------
+    stats : list
+        User's games
+
+    Returns
+    -------
+    dict
+        Number of games grouped by a period.
+    """
     groups = groupby(stats, lambda row: row['datetimeFinished'][:7])
     grouped_stats = {}
     for k, v in groups:
@@ -28,6 +67,15 @@ def group_stats(stats):
 
 
 def save(grouped_stats, user):
+    """Saves grouped user's statistics into a tsv file.
+
+    Parameters
+    ----------
+    grouped_stats : dict
+        Number of games grouped by a period
+    user : str
+        Player name
+    """
     with open(f'../output/purples/{user}.tsv', 'w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
         w.writerow(['month', 'year', 'games'])

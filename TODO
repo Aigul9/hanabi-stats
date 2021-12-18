@@ -1,34 +1,67 @@
 output folders:
-misc
-notes
-purples done
-rank (end condition is done)
-review
-scores (total is done)
-time (times_spent is done)
-variants
-winrate
++misc:
++no variant
++purples
++teammates
+
+notes:
+portraits
+frequent_words
+notes_count
+notes_rates
+vocabulary_intersection
+
+rank:
++pmdc
++clean games
++end condition
+preference
+rank avg
++risky players
+
++scores:
++total
+
+time:
+hours_wr
++peaks
++times spent
++top degenerates
+
++variants:
++fav suits
++games per max score
++popular vars
+
+winrate:
+alice:
+clue_giver
++starting_player
+highest wr
++losing streak
+teams wr
++winning streak
+
 up-to-date-stats.tsv
 
 py:
 calc
 clues
-eff
-eff_to_db
-end_condition done
-fav_suits
-gotten_variants
+-eff
++end_condition
++fav_suits
 notes_portrait
 notes_portrait_afterwards
 notes_rate
 players
 player_most_wl
-purple_looker
-purples done
-query_processing
-reviews
-starting_player
-time_spent done
-total_max_scores done
++purple_looker
++purples
++starting_player
++time_spent
++total_max_scores
 utils
-winnable_seeds
+-winnable_seeds
+
+pdoc --html py/purples.py --force
+TODO: the most popular suits on the website
