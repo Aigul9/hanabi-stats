@@ -42,7 +42,7 @@ def run(num_players):
                 if playable[card.suit_index] == card.rank:
                     playable[card.suit_index] += 1
                     status = True
-                    # print(card.suit_index, card.rank)
+                    # print(card.suit_index, card.ratio)
                     break
             if status is True:
                 hand.append(deck[cur_card])

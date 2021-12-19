@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>purples API documentation</title>
+<title>py.notes.notes_frequency API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,7 +19,7 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>purples</code></h1>
+<h1 class="title">Module <code>py.notes.notes_frequency</code></h1>
 </header>
 <section id="section-intro">
 <details class="source">
@@ -28,92 +28,61 @@
 </summary>
 <pre><code class="python">import csv
 
-from sqlalchemy import false
-
-import py.utils as u
-from database.db_connect import session, Game, Player
+from py.notes.notes_vocabulary import open_notes_stats
+from database.db_connect import session, Player
 
 
-def get_purples_dates():
-    &#34;&#34;&#34;Gets the date when a player became purple.
-
-    Returns
-    -------
-    player_purple_date_dict : dict
-        A dictionary in format: &#34;player: date&#34;
-    &#34;&#34;&#34;
-    purples_list = u.open_file(&#39;../input/purples.txt&#39;)
-    player_purple_date_dict = {}
-    for player in purples_list:
-        date = session.query(Game.date_time_started)\
-            .filter(Game.players.any(player))\
-            .order_by(Game.game_id)\
-            .first()[0]
-        date = date.replace(year=date.year + 1)
-        player_purple_date_dict[player] = date
-    return player_purple_date_dict
-
-
-def count_purple_games(username, player_purple_date_dict):
-    &#34;&#34;&#34;Calculates number of games with purple players.
+def most_frequent(player_word_count_dict):
+    &#34;&#34;&#34;Gets number of the most frequent words from top players&#39; vocabularies.
 
     Parameters
     ----------
-    username : str
-        Player name
-    player_purple_date_dict : dict
-        Player names and dates when they became purple
+    player_word_count_dict : dict
+        Number of words grouped by a word and player
 
     Returns
     -------
-    purple_games_count : int
-        Number of games with purple players
+    dict
+        Number of words and list of players who have the same word in a vocabulary grouped by a word
     &#34;&#34;&#34;
-    games = session.query(Game)\
-        .filter(Game.players.any(username))\
-        .filter(Game.num_players != 2)\
-        .filter(Game.speedrun == false())\
-        .all()
-
-    purple_games_count = 0
-
-    for game in games:
-        game_date = game.date_time_finished
-        for player in game.players:
-            if (
-                    player != username and
-                    player in player_purple_date_dict.keys() and
-                    player_purple_date_dict[player] &lt; game_date
-            ):
-                purple_games_count += 1
-                break
-
-    return purple_games_count
+    word_count_players_dict = {}
+    for player, word_frequency_dict in player_word_count_dict.items():
+        for word, count in word_frequency_dict.items():
+            if word in word_count_players_dict:
+                word_count_players_dict[word][0] += int(count)
+                word_count_players_dict[word][1].append(word)
+            else:
+                word_count_players_dict[word] = [int(count), [player]]
+    return {k: v for k, v in sorted(word_count_players_dict.items(), key=lambda x: (-x[1][0]))}
 
 
-def save_purples(purples_count_dict):
-    &#34;&#34;&#34;Saves number of games with purple players into a tsv file.
+def save_words(word_count_players_dict, users_count):
+    &#34;&#34;&#34;Saves frequency of words and number of common vocabularies grouped by a word into a tsv file.
 
     Parameters
     ----------
-    purples_count_dict : dict
-        Dictionary containing number of games by player
+    word_count_players_dict : dict
+        Frequency of words and number of common vocabularies grouped by a word
+    users_count : int
+        Number of players
     &#34;&#34;&#34;
-    with open(f&#39;../output/purples/purples.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+    with open(f&#39;../../output/notes/frequent_words.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Players&#39;, &#39;# with purples&#39;])
-        for k, v in sorted(purples_count_dict.items(), key=lambda row: -row[1]):
-            w.writerow([k, v])
+        w.writerow([&#39;Words&#39;, &#39;Frequency&#39;, f&#39;Number of vocabularies (Max = {users_count})&#39;])
+        for word, count_players_list in word_count_players_dict.items():
+            if count_players_list[0] &gt;= 100:
+                v_len = len(count_players_list[1])
+                r = str(v_len)
+                w.writerow([word, count_players_list[0], r])
 
 
 if __name__ == &#34;__main__&#34;:
-    purples_dates = get_purples_dates()
+    users_portraits = {}
     users = session.query(Player.player).all()
-    purples = {}
-    for u in users:
-        user = u[0]
-        purples[user] = count_purple_games(user, purples_dates)
-    save_purples(purples)</code></pre>
+    for user in users:
+        user = user[0]
+        users_portraits[user] = open_notes_stats(user)
+    save_words(most_frequent(users_portraits), len(users))</code></pre>
 </details>
 </section>
 <section>
@@ -123,125 +92,83 @@ if __name__ == &#34;__main__&#34;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="purples.count_purple_games"><code class="name flex">
-<span>def <span class="ident">count_purple_games</span></span>(<span>username, player_purple_date_dict)</span>
+<dt id="py.notes.notes_frequency.most_frequent"><code class="name flex">
+<span>def <span class="ident">most_frequent</span></span>(<span>player_word_count_dict)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Calculates number of games with purple players.</p>
+<div class="desc"><p>Gets number of the most frequent words from top players' vocabularies.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
-<dt><strong><code>username</code></strong> :&ensp;<code>str</code></dt>
-<dd>Player name</dd>
-<dt><strong><code>player_purple_date_dict</code></strong> :&ensp;<code>dict</code></dt>
-<dd>Player names and dates when they became purple</dd>
+<dt><strong><code>player_word_count_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Number of words grouped by a word and player</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <dl>
-<dt><strong><code>purple_games_count</code></strong> :&ensp;<code>int</code></dt>
-<dd>Number of games with purple players</dd>
+<dt><code>dict</code></dt>
+<dd>Number of words and list of players who have the same word in a vocabulary grouped by a word</dd>
 </dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def count_purple_games(username, player_purple_date_dict):
-    &#34;&#34;&#34;Calculates number of games with purple players.
+<pre><code class="python">def most_frequent(player_word_count_dict):
+    &#34;&#34;&#34;Gets number of the most frequent words from top players&#39; vocabularies.
 
     Parameters
     ----------
-    username : str
-        Player name
-    player_purple_date_dict : dict
-        Player names and dates when they became purple
+    player_word_count_dict : dict
+        Number of words grouped by a word and player
 
     Returns
     -------
-    purple_games_count : int
-        Number of games with purple players
+    dict
+        Number of words and list of players who have the same word in a vocabulary grouped by a word
     &#34;&#34;&#34;
-    games = session.query(Game)\
-        .filter(Game.players.any(username))\
-        .filter(Game.num_players != 2)\
-        .filter(Game.speedrun == false())\
-        .all()
-
-    purple_games_count = 0
-
-    for game in games:
-        game_date = game.date_time_finished
-        for player in game.players:
-            if (
-                    player != username and
-                    player in player_purple_date_dict.keys() and
-                    player_purple_date_dict[player] &lt; game_date
-            ):
-                purple_games_count += 1
-                break
-
-    return purple_games_count</code></pre>
+    word_count_players_dict = {}
+    for player, word_frequency_dict in player_word_count_dict.items():
+        for word, count in word_frequency_dict.items():
+            if word in word_count_players_dict:
+                word_count_players_dict[word][0] += int(count)
+                word_count_players_dict[word][1].append(word)
+            else:
+                word_count_players_dict[word] = [int(count), [player]]
+    return {k: v for k, v in sorted(word_count_players_dict.items(), key=lambda x: (-x[1][0]))}</code></pre>
 </details>
 </dd>
-<dt id="purples.get_purples_dates"><code class="name flex">
-<span>def <span class="ident">get_purples_dates</span></span>(<span>)</span>
+<dt id="py.notes.notes_frequency.save_words"><code class="name flex">
+<span>def <span class="ident">save_words</span></span>(<span>word_count_players_dict, users_count)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Gets the date when a player became purple.</p>
-<h2 id="returns">Returns</h2>
-<dl>
-<dt><strong><code>player_purple_date_dict</code></strong> :&ensp;<code>dict</code></dt>
-<dd>A dictionary in format: "player: date"</dd>
-</dl></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def get_purples_dates():
-    &#34;&#34;&#34;Gets the date when a player became purple.
-
-    Returns
-    -------
-    player_purple_date_dict : dict
-        A dictionary in format: &#34;player: date&#34;
-    &#34;&#34;&#34;
-    purples_list = u.open_file(&#39;../input/purples.txt&#39;)
-    player_purple_date_dict = {}
-    for player in purples_list:
-        date = session.query(Game.date_time_started)\
-            .filter(Game.players.any(player))\
-            .order_by(Game.game_id)\
-            .first()[0]
-        date = date.replace(year=date.year + 1)
-        player_purple_date_dict[player] = date
-    return player_purple_date_dict</code></pre>
-</details>
-</dd>
-<dt id="purples.save_purples"><code class="name flex">
-<span>def <span class="ident">save_purples</span></span>(<span>purples_count_dict)</span>
-</code></dt>
-<dd>
-<div class="desc"><p>Saves number of games with purple players into a tsv file.</p>
+<div class="desc"><p>Saves frequency of words and number of common vocabularies grouped by a word into a tsv file.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
-<dt><strong><code>purples_count_dict</code></strong> :&ensp;<code>dict</code></dt>
-<dd>Dictionary containing number of games by player</dd>
+<dt><strong><code>word_count_players_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Frequency of words and number of common vocabularies grouped by a word</dd>
+<dt><strong><code>users_count</code></strong> :&ensp;<code>int</code></dt>
+<dd>Number of players</dd>
 </dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def save_purples(purples_count_dict):
-    &#34;&#34;&#34;Saves number of games with purple players into a tsv file.
+<pre><code class="python">def save_words(word_count_players_dict, users_count):
+    &#34;&#34;&#34;Saves frequency of words and number of common vocabularies grouped by a word into a tsv file.
 
     Parameters
     ----------
-    purples_count_dict : dict
-        Dictionary containing number of games by player
+    word_count_players_dict : dict
+        Frequency of words and number of common vocabularies grouped by a word
+    users_count : int
+        Number of players
     &#34;&#34;&#34;
-    with open(f&#39;../output/purples/purples.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+    with open(f&#39;../../output/notes/frequent_words.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Players&#39;, &#39;# with purples&#39;])
-        for k, v in sorted(purples_count_dict.items(), key=lambda row: -row[1]):
-            w.writerow([k, v])</code></pre>
+        w.writerow([&#39;Words&#39;, &#39;Frequency&#39;, f&#39;Number of vocabularies (Max = {users_count})&#39;])
+        for word, count_players_list in word_count_players_dict.items():
+            if count_players_list[0] &gt;= 100:
+                v_len = len(count_players_list[1])
+                r = str(v_len)
+                w.writerow([word, count_players_list[0], r])</code></pre>
 </details>
 </dd>
 </dl>
@@ -255,11 +182,15 @@ if __name__ == &#34;__main__&#34;:
 <ul></ul>
 </div>
 <ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py.notes" href="index.html">py.notes</a></code></li>
+</ul>
+</li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="purples.count_purple_games" href="#purples.count_purple_games">count_purple_games</a></code></li>
-<li><code><a title="purples.get_purples_dates" href="#purples.get_purples_dates">get_purples_dates</a></code></li>
-<li><code><a title="purples.save_purples" href="#purples.save_purples">save_purples</a></code></li>
+<li><code><a title="py.notes.notes_frequency.most_frequent" href="#py.notes.notes_frequency.most_frequent">most_frequent</a></code></li>
+<li><code><a title="py.notes.notes_frequency.save_words" href="#py.notes.notes_frequency.save_words">save_words</a></code></li>
 </ul>
 </li>
 </ul>

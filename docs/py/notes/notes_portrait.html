@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>py.notes.notes_portrait API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>py.notes.notes_portrait</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import csv
+import re
+
+from database.db_connect import session, Player, PlayerNotes
+
+
+def decode(note):
+    &#34;&#34;&#34;Replaces character reference with an actual character.
+
+    Parameters
+    ----------
+    note : str
+        Player&#39;s note
+
+    Returns
+    -------
+    note : str
+        Player&#39;s note with replaced symbols
+    &#34;&#34;&#34;
+    html_codes = (
+            (&#34;&#39;&#34;, &#39;&amp;#39;&#39;),
+            (&#39;&#34;&#39;, &#39;&amp;quot;&#39;),
+            (&#39;&#34;&#39;, &#39;&amp;#34;&#39;),
+            (&#39;&gt;&#39;, &#39;&amp;gt;&#39;),
+            (&#39;&lt;&#39;, &#39;&amp;lt;&#39;),
+            (&#39;&amp;&#39;, &#39;&amp;amp;&#39;)
+        )
+    for code in html_codes:
+        note = note.replace(code[1], code[0])
+    return note
+
+
+def save(username, word_frequency_dict):
+    &#34;&#34;&#34;Saves user&#39;s notes portrait into a tsv file.
+
+    Parameters
+    ----------
+    username : str
+        Player name
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    &#34;&#34;&#34;
+    with open(f&#39;../../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow([&#39;Note&#39;, f&#39;Frequency ({sum([v for v in word_frequency_dict.values()])} in total)&#39;])
+        for k, v in word_frequency_dict.items():
+            w.writerow([k, v])
+
+
+def update_user_notes(notes, word_frequency_dict):
+    &#34;&#34;&#34;Decodes user&#39;s notes, splits by punctuation symbols, extracts only words from a note.
+
+    Parameters
+    ----------
+    notes : list
+        Player&#39;s note for a particular game
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    Returns
+    -------
+    word_frequency_dict : dict
+        Updated dictionary of notes with added notes for the next game
+    &#34;&#34;&#34;
+    notes = [decode(n) for n in notes if n != &#39;&#39;]
+    for n in notes:
+        n_arr = re.split(r&#39;[ |,]+&#39;, n)
+        for n1 in n_arr:
+            ex_punctuation = [&#39;-&#39;, &#39;=&#39;, &#39;/&#39;, &#39;&#39;, &#39; &#39;]
+            if n1 in ex_punctuation:
+                continue
+            r = re.compile(r&#34;(\w+)[,.?!]+$&#34;)
+            m = r.match(n1)
+            if m is not None:
+                n1 = r.findall(n1)[0]
+            n1 = n1.lower()
+            if n1 in word_frequency_dict:
+                word_frequency_dict[n1] += 1
+            else:
+                word_frequency_dict[n1] = 1
+    return word_frequency_dict
+
+
+def get_notes_stats(username):
+    &#34;&#34;&#34;Calculated frequency of words for a specified player.
+
+    Parameters
+    ----------
+    username : str
+        Player name
+
+    Returns
+    -------
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    &#34;&#34;&#34;
+    word_frequency_dict = {}
+    notes_list = session.query(PlayerNotes.notes)\
+        .filter(PlayerNotes.player == username)\
+        .all()
+    for notes in notes_list:
+        word_frequency_dict = update_user_notes(notes[0], word_frequency_dict)
+    return word_frequency_dict
+
+
+if __name__ == &#34;__main__&#34;:
+    users = session.query(Player.player).all()
+    for user in users:
+        user = user[0]
+        user_portrait = get_notes_stats(user)
+        user_portrait = {k: v for k, v in sorted(user_portrait.items(), key=lambda x: (-x[1], x[0]))}
+        save(user, user_portrait)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="py.notes.notes_portrait.decode"><code class="name flex">
+<span>def <span class="ident">decode</span></span>(<span>note)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Replaces character reference with an actual character.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>note</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player's note</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><strong><code>note</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player's note with replaced symbols</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def decode(note):
+    &#34;&#34;&#34;Replaces character reference with an actual character.
+
+    Parameters
+    ----------
+    note : str
+        Player&#39;s note
+
+    Returns
+    -------
+    note : str
+        Player&#39;s note with replaced symbols
+    &#34;&#34;&#34;
+    html_codes = (
+            (&#34;&#39;&#34;, &#39;&amp;#39;&#39;),
+            (&#39;&#34;&#39;, &#39;&amp;quot;&#39;),
+            (&#39;&#34;&#39;, &#39;&amp;#34;&#39;),
+            (&#39;&gt;&#39;, &#39;&amp;gt;&#39;),
+            (&#39;&lt;&#39;, &#39;&amp;lt;&#39;),
+            (&#39;&amp;&#39;, &#39;&amp;amp;&#39;)
+        )
+    for code in html_codes:
+        note = note.replace(code[1], code[0])
+    return note</code></pre>
+</details>
+</dd>
+<dt id="py.notes.notes_portrait.get_notes_stats"><code class="name flex">
+<span>def <span class="ident">get_notes_stats</span></span>(<span>username)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculated frequency of words for a specified player.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>username</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><strong><code>word_frequency_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Number of notes containing a specific word or symbol</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_notes_stats(username):
+    &#34;&#34;&#34;Calculated frequency of words for a specified player.
+
+    Parameters
+    ----------
+    username : str
+        Player name
+
+    Returns
+    -------
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    &#34;&#34;&#34;
+    word_frequency_dict = {}
+    notes_list = session.query(PlayerNotes.notes)\
+        .filter(PlayerNotes.player == username)\
+        .all()
+    for notes in notes_list:
+        word_frequency_dict = update_user_notes(notes[0], word_frequency_dict)
+    return word_frequency_dict</code></pre>
+</details>
+</dd>
+<dt id="py.notes.notes_portrait.save"><code class="name flex">
+<span>def <span class="ident">save</span></span>(<span>username, word_frequency_dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves user's notes portrait into a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>username</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+<dt><strong><code>word_frequency_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Number of notes containing a specific word or symbol</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save(username, word_frequency_dict):
+    &#34;&#34;&#34;Saves user&#39;s notes portrait into a tsv file.
+
+    Parameters
+    ----------
+    username : str
+        Player name
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    &#34;&#34;&#34;
+    with open(f&#39;../../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow([&#39;Note&#39;, f&#39;Frequency ({sum([v for v in word_frequency_dict.values()])} in total)&#39;])
+        for k, v in word_frequency_dict.items():
+            w.writerow([k, v])</code></pre>
+</details>
+</dd>
+<dt id="py.notes.notes_portrait.update_user_notes"><code class="name flex">
+<span>def <span class="ident">update_user_notes</span></span>(<span>notes, word_frequency_dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Decodes user's notes, splits by punctuation symbols, extracts only words from a note.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>notes</code></strong> :&ensp;<code>list</code></dt>
+<dd>Player's note for a particular game</dd>
+<dt><strong><code>word_frequency_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Number of notes containing a specific word or symbol</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><strong><code>word_frequency_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Updated dictionary of notes with added notes for the next game</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update_user_notes(notes, word_frequency_dict):
+    &#34;&#34;&#34;Decodes user&#39;s notes, splits by punctuation symbols, extracts only words from a note.
+
+    Parameters
+    ----------
+    notes : list
+        Player&#39;s note for a particular game
+    word_frequency_dict : dict
+        Number of notes containing a specific word or symbol
+    Returns
+    -------
+    word_frequency_dict : dict
+        Updated dictionary of notes with added notes for the next game
+    &#34;&#34;&#34;
+    notes = [decode(n) for n in notes if n != &#39;&#39;]
+    for n in notes:
+        n_arr = re.split(r&#39;[ |,]+&#39;, n)
+        for n1 in n_arr:
+            ex_punctuation = [&#39;-&#39;, &#39;=&#39;, &#39;/&#39;, &#39;&#39;, &#39; &#39;]
+            if n1 in ex_punctuation:
+                continue
+            r = re.compile(r&#34;(\w+)[,.?!]+$&#34;)
+            m = r.match(n1)
+            if m is not None:
+                n1 = r.findall(n1)[0]
+            n1 = n1.lower()
+            if n1 in word_frequency_dict:
+                word_frequency_dict[n1] += 1
+            else:
+                word_frequency_dict[n1] = 1
+    return word_frequency_dict</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py.notes" href="index.html">py.notes</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="py.notes.notes_portrait.decode" href="#py.notes.notes_portrait.decode">decode</a></code></li>
+<li><code><a title="py.notes.notes_portrait.get_notes_stats" href="#py.notes.notes_portrait.get_notes_stats">get_notes_stats</a></code></li>
+<li><code><a title="py.notes.notes_portrait.save" href="#py.notes.notes_portrait.save">save</a></code></li>
+<li><code><a title="py.notes.notes_portrait.update_user_notes" href="#py.notes.notes_portrait.update_user_notes">update_user_notes</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>

@@ -185,7 +185,7 @@ def get_max_score(variant):
 
 
 def convert_action_types(action_type):
-    action_types = ['play', 'discard', 'color', 'rank']
+    action_types = ['play', 'discard', 'color', 'ratio']
     return action_types[action_type]
 
 
@@ -327,7 +327,7 @@ def sort_by_key(data):
 
 
 def sort_by_value(data):
-    return {k: v for k, v in sorted(data.items(), key=lambda x: (-x[1]))}
+    return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}
 
 
 # Save
@@ -372,31 +372,6 @@ def save_wr(data):
                 k,
                 v['Totals']['total_p'][0],
                 v['Totals']['total_c'][2]
-            ])
-
-
-def save_ranking(data, rank_all_players):
-    with open('output/rank/rank_avg.tsv', 'w', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
-        for k, v in sort(data, 0).items():
-            try:
-                u_tops = rank_all_players[k]
-            except KeyError:
-                u_tops = []
-            list_top = []
-            list_bottom = []
-            for pl in v[1]:
-                list_top.append(f'{pl} ({round(u_tops[0][pl]["wl"])}%)')
-            for pl in v[2]:
-                list_bottom.append(f'{pl} ({round(u_tops[1][pl]["wl"])}%)')
-            if len(list_top) == 0 or len(list_bottom) == 0:
-                continue
-            w.writerow([
-                k,
-                v[0],
-                ', '.join(list_top),
-                ', '.join(list_bottom)
             ])
 
 
