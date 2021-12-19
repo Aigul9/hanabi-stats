@@ -1,8 +1,8 @@
 import csv
 import math
 
-import py.utils as u
-from database.db_connect import session, Game, Player, Variant
+import py_no_doc.utils as u
+from database.db_connect import session, Player
 
 
 def sort_by_wl_games(data):
@@ -43,7 +43,7 @@ def get_top_bottom_lists(list_for_tops, top):
 
 
 def save_ranking(data, rank_all_players):
-    with open('output/rank/rank_avg.tsv', 'w', newline='') as file:
+    with open('output/ratio/rank_avg.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         w.writerow(['Username', 'Rank', 'Seek', 'Hide'])
         for k, v in u.sort(data, 0).items():
@@ -74,10 +74,9 @@ if __name__ == "__main__":
     global_ranking = {k: [0, [], [], 0] for k in users}
     for user in users:
         user = user[0]
-        # Step 3: Ranking based on top and bottom 10 teammates
         list_for_tops = wl.get_overall_wr(user_stats, players_list)
         rank_all_players[user] = wl.get_top_bottom_lists(list_for_tops, top)
-    # rank/rank_avg.tsv
+    # ratio/rank_avg.tsv
     for k, v in global_ranking.items():
         global_ranking[k][0] = u.p1(v[0], v[3])
     u.save_ranking(global_ranking, rank_all_players)

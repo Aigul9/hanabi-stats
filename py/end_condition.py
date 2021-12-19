@@ -1,7 +1,7 @@
 import csv
 from sqlalchemy import false
 
-import py.utils as u
+import py_no_doc.utils as u
 from database.db_connect import session, Game, Player
 
 
@@ -45,7 +45,7 @@ def save(condition_count_dict):
     condition_count_dict : dict
         Number of games grouped by an end condition
     """
-    with open('../output/rank/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../output/ratio/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t')
         w.writerow([
             'Player',
