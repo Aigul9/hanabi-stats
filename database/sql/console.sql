@@ -258,3 +258,18 @@ select player, count(*) as games from player_notes
 where player in (select * from players_list)
 group by player
 order by 2 desc;
+
+--rakxer's stats, see discord 18.12.2021 21:25
+select date(date_time_finished), count(*) from games
+group by date(date_time_finished)
+order by 1;
+
+select date(date_time_finished), max(game_id) from games
+group by date(date_time_finished)
+order by 1;
+
+select * from games g join variants v on g.variant_id = v.variant_id
+where 'jmrtz' = any(players) and 'micerang' = any(players)
+and num_players = 2 and score = max_score order by score desc;
+
+select * from games where 'ADrone' = any(players) and extract(hour from date_time_finished) = '14';

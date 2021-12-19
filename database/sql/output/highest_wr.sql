@@ -6,6 +6,8 @@ from (
          from players_list pl
                   join games g on player = any (players)
                   join variants v on g.variant_id = v.variant_id
+         where speedrun is false
+         and num_players != 2
          group by player
      ) t
 order by 2 desc;

@@ -92,7 +92,7 @@ order by game_id;
 
 --A07: Rank clues contain only numbers
 select * from clues
-where clue_type = 'rank' and convert_to_int(clue) is null;
+where clue_type = 'ratio' and convert_to_int(clue) is null;
 --0
 --ok
 

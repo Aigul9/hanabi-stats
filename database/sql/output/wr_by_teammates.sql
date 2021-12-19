@@ -17,11 +17,3 @@ from (
      ) t
 where games > 50
 order by 1, 3 desc;
-
-select count(*) from games
-join variants v on games.variant_id = v.variant_id
-where 'Libster' = any(players) and 'Valetta6789' = any(players)
-and speedrun is false
-and num_players != 2
-and score = max_score
-order by 2 desc;

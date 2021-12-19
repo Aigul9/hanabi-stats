@@ -42,7 +42,7 @@ select (ARRAY[4, 5, 6])[3];
 --search
 --1) Fireheart played 3 in 3p game after Val gave clue to a player going after him
 
---2) Fireheart clued 3 with rank on slot 1 in 4p game to a player in front of me: Fire-Val-Player x
+--2) Fireheart clued 3 with ratio on slot 1 in 4p game to a player in front of me: Fire-Val-Player x
 --card next to it is y1
 select distinct concat('hanab.live/replay/', g.game_id, '#', turn_action)
 from card_actions ca
