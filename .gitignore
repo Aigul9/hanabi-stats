@@ -4,7 +4,6 @@ __pycache__/
 sql_scripts
 py/test.py
 main.log
-docs/
 database/db_refactor/test.py
 .env
 database/errors.log

@@ -2,7 +2,7 @@
 
 ### Stats for Maximum Scores
 
-#### [Max Scores](output/scores/total_max_scores.tsv)
+#### [Max Scores](output/variants/total_max_scores.tsv)
 
 <br/>
 
@@ -58,9 +58,9 @@ Notes taken in a multi-player game.
 
 ### Miscellaneous
 
-#### [End Game Conditions](output/rank/end_condition.tsv)
+#### [End Game Conditions](output/ratio/end_condition.tsv)
 
-#### [Preference](output/rank/preference.tsv)
+#### [Preference](output/ratio/preference.tsv)
 
 #### [Number of Games with a Purple Player](output/misc/purples.tsv)
 

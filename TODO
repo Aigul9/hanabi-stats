@@ -1,29 +1,28 @@
-output folders:
++output folders:
 +misc:
 +no variant
 +purples
 +teammates
 
-notes:
++notes:
 +portraits
-frequent_words
++frequent_words
 +notes_count
-notes_rates
++notes_rates
 +vocabulary_intersection
 
-rank:
++rank:
 +pmdc
 +clean games
 +end condition
-preference
-rank avg
++preference
 +risky players
 
 +scores:
 +total
 
-time:
-hours_wr
++time:
++hours_wr
 +peaks
 +times spent
 +top degenerates
@@ -33,36 +32,37 @@ hours_wr
 +games per max score
 +popular vars
 
-winrate:
-alice:
-clue_giver
++winrate:
 +starting_player
-highest wr
++highest wr
 +losing streak
-teams wr
++teams wr
 +winning streak
 
-up-to-date-stats.tsv
-
-py:
-calc
-clues
++py:
+-calc
 -eff
 +end_condition
 +fav_suits
 +notes_portrait
 +notes_vocabulary
-notes_portrait_afterwards
-notes_rate
-players
-player_most_wl
++notes_frequency
++notes_rate
 +purple_looker
 +purples
 +starting_player
 +time_spent
 +total_max_scores
-utils
++utils
 -winnable_seeds
 
 pdoc --html py/purples.py --force
+pdoc --html py/ --html-dir docs
 TODO: the most popular suits on the website
+
+# def most_talkative(data):
+#     talk = {}
+#     for k, v in data.items():
+#         stats = filter_id_range(u.open_stats(k))
+#         talk[k] = round(sum([int(r) for r in v.values()]) / len(stats) * 100)
+#     return {k: v for k, v in sorted(talk.items(), key=lambda x: (-x[1]))}
