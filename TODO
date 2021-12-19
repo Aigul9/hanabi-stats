@@ -58,7 +58,6 @@
 
 pdoc --html py/purples.py --force
 pdoc --html py/ --html-dir docs
-TODO: the most popular suits on the website
 
 # def most_talkative(data):
 #     talk = {}
