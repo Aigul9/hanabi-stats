@@ -2,9 +2,9 @@ import json
 
 from sqlalchemy import func, and_, false, true
 
-import py.utils as u
+import py_no_doc.utils as u
 import database.db_load as d
-from py.utils import logger
+from py_no_doc.utils import logger
 from database.db_connect import session, Game, Slot
 
 

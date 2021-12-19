@@ -2,8 +2,8 @@ import copy
 
 from sqlalchemy import and_
 
-import py.utils as u
-from py.utils import logger
+import py_no_doc.utils as u
+from py_no_doc.utils import logger
 from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue, Player, Slot
 
 
@@ -69,7 +69,7 @@ def load_deck(g):
             g['seed'],
             i,
             deck[i]['suitIndex'],
-            deck[i]['rank']
+            deck[i]['ratio']
         )
         session.add(card)
         deck_res.append(card)
@@ -208,14 +208,14 @@ def create_clue(action, colors, game_id, num_players, players_mod, players_orig)
     # color
     if action.action_type == 2:
         value = colors[action.value]
-    # rank
+    # ratio
     else:
         value = action.value
     clue = Clue(
         action.turn + 1,
         game_id,
         value,
-        'color' if action.action_type == 2 else 'rank',
+        'color' if action.action_type == 2 else 'ratio',
         players_mod[action.turn % num_players],
         players_orig[action.target]
     )

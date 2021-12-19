@@ -110,7 +110,7 @@ class GameAction(Base):
     # play: 0
     # discard: 1
     # color clue: 2
-    # rank clue: 3
+    # ratio clue: 3
     action_type = Column(Integer)
 
     # play/ discard: card index
@@ -119,7 +119,7 @@ class GameAction(Base):
 
     # play/discard: 0
     # color clue: color index
-    # rank clue: rank
+    # ratio clue: ratio
     value = Column(Integer)
 
     def __init__(self, game_id, turn, action_type, target, value):
@@ -239,7 +239,7 @@ class Clue(Base):
     game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
     # Purple, 5
     clue = Column(String)
-    # color, rank
+    # color, ratio
     clue_type = Column(String)
     clue_giver = Column(String)
     clue_receiver = Column(String)

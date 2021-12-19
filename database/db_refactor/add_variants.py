@@ -1,8 +1,6 @@
 import json
 import logging
 
-import database.db_load as d
-import py.utils as u
 from database.db_connect import session, Variant
 
 

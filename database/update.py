@@ -1,8 +1,8 @@
 import json
 
 import database.db_load as d
-import py.utils as u
-from py.utils import logger
+import py_no_doc.utils as u
+from py_no_doc.utils import logger
 
 
 hanabi_players = u.open_file('../temp/unnest_players_character_varying_.tsv')

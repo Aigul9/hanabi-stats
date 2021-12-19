@@ -5,8 +5,8 @@ import requests
 from sqlalchemy import func
 
 from database.db_connect import Game
-from py.utils import logger
-import py.utils as u
+from py_no_doc.utils import logger
+import py_no_doc.utils as u
 import database.db_load as d
 
 
