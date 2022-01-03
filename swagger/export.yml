@@ -1,0 +1,61 @@
+openapi: 3.1
+
+produces:
+  - application/json
+
+paths:
+  /export:
+    get:
+      tags:
+        - Game
+      summary: Get actions, deck, id, options, players, notes, and seed for the game.
+      parameters:
+        - name: game_id
+          in: path
+          type: int
+          required: true
+          description: The game id
+      responses:
+        200:
+          description: Successful response
+          schema:
+            id: game
+            properties:
+              id:
+                type: int
+                description: The game id
+              players:
+                type: array
+                description: List of players
+                items:
+                  type: string
+              deck:
+                type: array
+                description: Cards in the deck
+                items:
+                  type: object
+                  description: The card
+                  properties:
+                    suitIndex:
+                      type: int
+                      description: The suit index
+                    rank:
+                      type: int
+                      description: The card rank
+        400:
+          description: Bad Request
+        500:
+          description: Internal Server Error
+
+#components:
+#  schemas:
+#    200:
+#      title: Successful response
+#      type: object
+#      properties:
+#        game:
+#          $ref: '#/components/schemas/Game'
+#    Game:
+#      title: Game
+#      type: object
+#      properties:

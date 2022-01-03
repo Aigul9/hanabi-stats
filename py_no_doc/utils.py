@@ -143,11 +143,7 @@ def filter_by_id(stats, ids):
     else:
         print('Not filtered by id.')
         return stats
-    
 
-def filter_id_notes(stats):
-    return filter_by_id(stats, [103000])
-    
 
 def get_wins(stats):
     return len([row for row in stats if row['score'] == get_max_score(row['options']['variantName'])])
