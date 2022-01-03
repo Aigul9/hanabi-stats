@@ -3,59 +3,99 @@ openapi: 3.1
 produces:
   - application/json
 
-paths:
-  /export:
-    get:
-      tags:
-        - Game
-      summary: Get actions, deck, id, options, players, notes, and seed for the game.
-      parameters:
-        - name: game_id
-          in: path
-          type: int
-          required: true
+tags:
+  - Game
+summary: Gets actions, deck, id, options, players, notes, and seed for the game.
+parameters:
+  - name: game_id
+    in: path
+    type: integer
+    required: true
+    description: The game id
+responses:
+  200:
+    description: Successful response
+    schema:
+      id: game
+      properties:
+        id:
+          type: integer
           description: The game id
-      responses:
-        200:
-          description: Successful response
-          schema:
-            id: game
+          example: 65378
+        players:
+          type: array
+          description: List of players
+          items:
+            type: string
+            example: Valetta6789, Floriman
+        deck:
+          type: array
+          description: Cards in the deck
+          items:
+            type: object
+            description: The card
             properties:
-              id:
-                type: int
-                description: The game id
-              players:
-                type: array
-                description: List of players
-                items:
-                  type: string
-              deck:
-                type: array
-                description: Cards in the deck
-                items:
-                  type: object
-                  description: The card
-                  properties:
-                    suitIndex:
-                      type: int
-                      description: The suit index
-                    rank:
-                      type: int
-                      description: The card rank
-        400:
-          description: Bad Request
-        500:
-          description: Internal Server Error
-
-#components:
-#  schemas:
-#    200:
-#      title: Successful response
-#      type: object
-#      properties:
-#        game:
-#          $ref: '#/components/schemas/Game'
-#    Game:
-#      title: Game
-#      type: object
-#      properties:
+              suitIndex:
+                type: integer
+                description: The suit index
+                example: 0
+              rank:
+                type: integer
+                description: The card rank
+                example: 5
+        actions:
+          type: array
+          description: List of actions
+          items:
+            type: object
+            description: The player action
+            properties:
+              type:
+                type: integer
+                description: The action type (play, discard, color or rank clue)
+                example: 2
+              target:
+                type: integer
+                description: The target of the action (card or clue receiver index)
+                example: 3
+              value:
+                type: integer
+                description: The action value (0 for play/discard, color index, rank)
+                example: 5
+        options:
+          type: object
+          properties:
+            variant:
+              type: string
+              description: The variant name
+              example: Omni & Gray (5 Suits)
+            timed:
+              type: boolean
+              description: A flag for timed/untimed games
+              example: true
+            timeBase:
+              type: integer
+              description: Number of seconds given to every player at the start of the game
+              example: 90
+            timePerTurn:
+              type: integer
+              description: Increment of time in seconds
+              example: 15
+        notes:
+          type: array
+          description: List of all notes
+          items:
+            type: array
+            description: List of player's notes
+            items:
+              type: string
+              description: The player's note
+            example: [f, '', r2]
+        seed:
+          type: string
+          description: The seed
+          example: p4v235s1
+  400:
+    description: Bad Request
+  500:
+    description: Internal Server Error

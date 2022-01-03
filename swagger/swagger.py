@@ -16,53 +16,20 @@ swagger_template = dict(
 swagger = Swagger(app, template=swagger_template)
 
 
-@swag_from("swagger.yml", methods=['GET'])
-@app.route("/export")
-def export_game():
-    # """
-    # Get actions, deck, id, options, players, notes, and seed for the game
-    # ---
-    # tags:
-    #     - Game
-    # parameters:
-    #     - name: game_id
-    #       in: path
-    #       type: integer
-    #       required: true
-    #       description: The game id
-    # responses:
-    #     200:
-    #       description: Successful response
-    #       schema:
-    #         id: game
-    #         properties:
-    #           id:
-    #             type: integer
-    #             description: The game id
-    #           players:
-    #             type: array
-    #             description: List of players
-    #             items:
-    #               type: string
-    #           deck:
-    #             type: array
-    #             description: Cards in the deck
-    #             items:
-    #               type: object
-    #               description: The card
-    #               properties:
-    #                 suitIndex:
-    #                   type: integer
-    #                   description: The suit index
-    #                 rank:
-    #                   type: integer
-    #                   description: The card rank
-    #     400:
-    #       description: Bad Request
-    #     500:
-    #       description: Internal Server Error
-    # """
-    url = f'https://hanab.live/export/655556'
+@swag_from("export.yml", methods=['GET'])
+@app.route("/export/<game_id>")
+def export_game(game_id):
+    print(game_id)
+    url = f'https://hanab.live/export/{game_id}'
+    response = requests.get(url)
+    return response.json()
+
+
+@swag_from("history_pagination.yml", methods=['GET'])
+@app.route("/api/v1/history/<players>")
+def get_history_page(players):
+    players = players.replace(",", "/")
+    url = f'https://hanab.live/api/v1/history/{players}'
     response = requests.get(url)
     return response.json()
 

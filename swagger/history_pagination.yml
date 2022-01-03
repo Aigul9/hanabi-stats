@@ -1,0 +1,109 @@
+openapi: 3.1
+
+produces:
+  - application/json
+
+tags:
+  - History Stats
+summary: Gets stats for the player(s).
+parameters:
+  - name: players
+    in: path
+    type: array
+    items:
+      type: string
+    required: true
+    description: The players list
+  - name: size
+    in: path
+    type: integer
+    required: false
+    description: Number of games per page
+  - name: page
+    in: path
+    type: integer
+    required: false
+    description: Page number
+  - name: col[0]
+    in: path
+    type: integer
+    required: false
+    description: Sorting (0 - ASC, 1 - DESC)
+  - name: fcol[0]
+    in: path
+    type: integer
+    required: false
+    description: Filter by id
+  - name: fcol[1]
+    in: path
+    type: integer
+    required: false
+    description: Filter by number of players
+  - name: fcol[2]
+    in: path
+    type: integer
+    required: false
+    description: Filter by score
+  - name: fcol[2]
+    in: path
+    type: integer
+    required: false
+    description: Filter by score
+  - name: fcol[3]
+    in: path
+    type: integer
+    required: false
+    description: Filter by variant id
+responses:
+  200:
+    description: Successful response
+    schema:
+      id: games
+      properties:
+        info:
+          type: string
+          description: Sorting and filtering options
+        rows:
+          type: object
+          description: List of games
+          properties:
+            datetime:
+              type: string
+              description: DatetimeFinished
+              example: 2021-11-18 - 22:44:01 UTC
+            id:
+              type: integer
+              description: The game id
+              example: 662505
+            num_players:
+              type: integer
+              description: Number of players
+              example: 4
+            other_scores:
+              type: integer
+              description: Number of scores for the same deck
+              example: 13
+            score:
+              type: integer
+              description: Achieved score
+              example: 26
+            seed:
+              type: string
+              description: The seed
+              example: p4v1285s15
+            users:
+              type: string
+              description: List of players
+              example: Valetta6789, Floriman
+            variant:
+              type: integer
+              description: The variant id
+              example: 1275
+        total_rows:
+          type: integer
+          description: Number of games in the list
+          example: 3313
+  400:
+    description: Bad Request
+  500:
+    description: Internal Server Error
