@@ -2,7 +2,8 @@
 
 The program parses users' statistics from https://hanab.live/, calculates percentage of wins and losses, filters it by each player, gets highest winrate, rank, preference, draws plots based on online activity and saves all statistics to the files in tsv format.
 
-See graph visualization here: https://github.com/Aigul9/hanabi-stats-vis
+See graph visualization here: https://aigul9.github.io/hanabi-stats-vis/ (db might be frozen due to non-usage)
+See source code: https://github.com/Aigul9/hanabi-stats-vis
 
 ## Stack of technologies
 - [Python 3.9](https://www.python.org/)
