@@ -1,6 +1,5 @@
-import random
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from flasgger import Swagger, LazyString, LazyJSONEncoder
 from flasgger import swag_from
 
@@ -29,62 +28,24 @@ def export_game(game_id):
 @app.route("/api/v1/history/<players>")
 def get_history_page(players):
     players = players.replace(",", "/")
-    url = f'https://hanab.live/api/v1/history/{players}'
+    filters = ''
+    page = request.args.get('page')
+    page = page if page != 'undefined' else 0
+    size = request.args.get('size')
+    size = size if size != 'undefined' else 10
+    sorting = request.args.get('sorting')
+    sorting = sorting if sorting != 'undefined' else 1
+    game_id = request.args.get('game_id')
+    filters += f'&fcol[0]={game_id}' if game_id is not None else ''
+    num_players = request.args.get('num_players')
+    filters += f'&fcol[1]={num_players}' if num_players is not None else ''
+    score = request.args.get('score')
+    filters += f'&fcol[2]={score}' if score is not None else ''
+    variant_id = request.args.get('variant_id')
+    filters += f'&fcol[3]={variant_id}' if variant_id is not None else ''
+    url = f'https://hanab.live/api/v1/history/{players}?page={page}&size={size}&col[0]={sorting}{filters}'
     response = requests.get(url)
     return response.json()
-
-
-# @app.route('/api/<string:language>/', methods=['GET'])
-# def index(language):
-#     """
-#     This is the language awesomeness API
-#     Call this api passing a language name and get back its features
-#     ---
-#     tags:
-#       - Awesomeness Language API
-#     parameters:
-#       - name: language
-#         in: path
-#         type: string
-#         required: true
-#         description: The language name
-#       - name: size
-#         in: query
-#         type: integer
-#         description: size of awesomeness
-#     responses:
-#       500:
-#         description: Error The language is not awesome!
-#       200:
-#         description: A language with its awesomeness
-#         schema:
-#           id: awesome
-#           properties:
-#             language:
-#               type: string
-#               description: The language name
-#               default: Lua
-#             features:
-#               type: array
-#               description: The awesomeness list
-#               items:
-#                 type: string
-#               default: ["perfect", "simple", "lovely"]
-#     """
-#
-#     language = language.lower().strip()
-#     features = [
-#         "awesome", "great", "dynamic",
-#         "simple", "powerful", "amazing",
-#         "perfect", "beauty", "lovely"
-#     ]
-#     size = int(request.args.get('size', 1))
-#     if language in ['php', 'vb', 'visualbasic', 'actionscript']:
-#         return "An error occurred, invalid language for awesomeness", 500
-#     return jsonify(
-#         language=language,
-#         features=random.sample(features, size)
-#     )
 
 
 if __name__ == '__main__':

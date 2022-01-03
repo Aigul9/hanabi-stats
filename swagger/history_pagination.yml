@@ -14,43 +14,38 @@ parameters:
       type: string
     required: true
     description: The players list
-  - name: size
-    in: path
-    type: integer
-    required: false
-    description: Number of games per page
   - name: page
-    in: path
+    in: query
     type: integer
     required: false
     description: Page number
-  - name: col[0]
-    in: path
+  - name: size
+    in: query
+    type: integer
+    required: false
+    description: Number of games per page
+  - name: sorting
+    in: query
     type: integer
     required: false
     description: Sorting (0 - ASC, 1 - DESC)
-  - name: fcol[0]
-    in: path
+  - name: game_id
+    in: query
     type: integer
     required: false
     description: Filter by id
-  - name: fcol[1]
-    in: path
+  - name: num_players
+    in: query
     type: integer
     required: false
     description: Filter by number of players
-  - name: fcol[2]
-    in: path
+  - name: score
+    in: query
     type: integer
     required: false
     description: Filter by score
-  - name: fcol[2]
-    in: path
-    type: integer
-    required: false
-    description: Filter by score
-  - name: fcol[3]
-    in: path
+  - name: variant_id
+    in: query
     type: integer
     required: false
     description: Filter by variant id
