@@ -110,7 +110,7 @@ class GameAction(Base):
     # play: 0
     # discard: 1
     # color clue: 2
-    # ratio clue: 3
+    # rank clue: 3
     action_type = Column(Integer)
 
     # play/ discard: card index
@@ -119,7 +119,7 @@ class GameAction(Base):
 
     # play/discard: 0
     # color clue: color index
-    # ratio clue: ratio
+    # rank clue: rank
     value = Column(Integer)
 
     def __init__(self, game_id, turn, action_type, target, value):

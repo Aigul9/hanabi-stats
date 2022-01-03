@@ -273,3 +273,7 @@ where 'jmrtz' = any(players) and 'micerang' = any(players)
 and num_players = 2 and score = max_score order by score desc;
 
 select * from games where 'ADrone' = any(players) and extract(hour from date_time_finished) = '14';
+
+select max(game_id) from games;
+select max(game_id) from card_actions;
+select * from games where game_id = 662505;
