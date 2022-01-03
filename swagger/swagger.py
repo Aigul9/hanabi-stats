@@ -30,11 +30,11 @@ def get_history_page(players):
     players = players.replace(",", "/")
     filters = ''
     page = request.args.get('page')
-    page = page if page != 'undefined' else 0
+    page = page if page is not None else 0
     size = request.args.get('size')
-    size = size if size != 'undefined' else 10
+    size = size if size is not None else 10
     sorting = request.args.get('sorting')
-    sorting = sorting if sorting != 'undefined' else 1
+    sorting = sorting if sorting is not None else 1
     game_id = request.args.get('game_id')
     filters += f'&fcol[0]={game_id}' if game_id is not None else ''
     num_players = request.args.get('num_players')
