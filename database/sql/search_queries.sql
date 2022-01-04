@@ -571,3 +571,18 @@ select * from variants where variant like '%ay%' order by variant_id;
    Prism - Dark Prism
 */
 
+with players as (
+    select distinct unnest(players) player from games
+    where 'Valetta6789' = any(players)
+)
+select player as teammate,
+       round(extract(epoch from sum(date_time_finished-date_time_started)) / 3600) as hours,
+       count(*)
+from players p join games g
+on player = any(players)
+where speedrun is false
+and 'Valetta6789' = any(players)
+and player != 'Valetta6789'
+and date_time_started < '2020-01-01'
+group by player
+order by 2 desc;

@@ -14,7 +14,7 @@ def open_stats(user):
 
     Returns history in json format
     """
-    url = f'https://hanab.live/history/{user}?api'
+    url = f'https://hanab.live/api/v1/history-full/{user}'
     response = requests.get(url)
     return response.json()
 
