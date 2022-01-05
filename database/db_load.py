@@ -69,7 +69,7 @@ def load_deck(g):
             g['seed'],
             i,
             deck[i]['suitIndex'],
-            deck[i]['ratio']
+            deck[i]['rank']
         )
         session.add(card)
         deck_res.append(card)
@@ -208,14 +208,14 @@ def create_clue(action, colors, game_id, num_players, players_mod, players_orig)
     # color
     if action.action_type == 2:
         value = colors[action.value]
-    # ratio
+    # rank
     else:
         value = action.value
     clue = Clue(
         action.turn + 1,
         game_id,
         value,
-        'color' if action.action_type == 2 else 'ratio',
+        'color' if action.action_type == 2 else 'rank',
         players_mod[action.turn % num_players],
         players_orig[action.target]
     )
@@ -354,3 +354,10 @@ def load_slots(g):
         for i in card_actions_filtered:
             moved_card_slot = max([s.slot for s in slots if s.card_index == i.card_index])
             slots.append(add_slot(i, ca.turn_action, moved_card_slot + 1))
+
+
+def update_tags(s):
+    g_id = s['id']
+    game = session.query(Game).filter(Game.game_id == g_id).first()
+    game.tags = s['tags']
+    return 1

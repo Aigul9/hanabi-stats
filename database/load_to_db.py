@@ -1,5 +1,7 @@
 import json
+from json import JSONDecodeError
 
+import requests
 from sqlalchemy import func, and_, false, true
 
 import py_no_doc.utils as u
@@ -56,25 +58,49 @@ def load_slots(all_games):
         d.session.commit()
         logger.info(g.game_id)
 
+
 # dumps = '../temp/games_dumps/'
-# 
+#
 # games = load_games(dumps)
 
 
-last_id = d.session.query(func.max(Slot.game_id)).scalar()
-games = session.query(
-    Game.game_id,
-    Game.num_players,
-    Game.one_less_card,
-    Game.one_extra_card
-) \
-    .filter(
-    and_(
-        Game.card_cycle == false(),
-        Game.all_or_nothing == true()
-    ))\
-    .order_by(Game.game_id)\
-    .all()
+# last_id = d.session.query(func.max(Slot.game_id)).scalar()
+# games = session.query(
+#     Game.game_id,
+#     Game.num_players,
+#     Game.one_less_card,
+#     Game.one_extra_card
+# ) \
+#     .filter(
+#     and_(
+#         Game.card_cycle == false(),
+#         Game.all_or_nothing == true()
+#     ))\
+#     .order_by(Game.game_id)\
+#     .all()
 
-load_slots(games)
+players_game_id = session.query(Game.players, Game.game_id).filter(Game.game_id == 67360).order_by(Game.game_id).all()
+req_session = requests.Session()
+histories = {}
+for players, game_id in players_game_id:
+    player = players[0]
+    if player in histories.keys():
+        s = u.open_stats_by_game_id(histories[player], game_id)
+    else:
+        try:
+            response = u.open_stats(player, req_session)
+        except JSONDecodeError:
+            logger.error(f'error: {game_id}')
+            continue
+        s = u.open_stats_by_game_id(response, game_id)
+        histories[player] = response
+    if s['tags'] == '':
+        logger.debug("skip")
+    else:
+        d.update_tags(s)
+        logger.debug(f'tag added')
+    logger.debug(game_id)
+    d.session.commit()
+
+# load_slots(games)
 d.session.close()

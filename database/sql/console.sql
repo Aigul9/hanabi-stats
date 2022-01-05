@@ -277,3 +277,46 @@ select * from games where 'ADrone' = any(players) and extract(hour from date_tim
 select max(game_id) from games;
 select max(game_id) from card_actions;
 select * from games where game_id = 662505;
+
+select max(game_id) from games;
+--678610
+--678620
+
+select * from clues where game_id = 678611;
+
+select distinct game_id from clues where clue_type = 'ratio' order by 1;
+
+-- delete from games where game_id >= 630613 and game_id <= 640000;
+-- delete from card_actions where game_id >= 630613;
+-- delete from clues where game_id >= 630613;
+-- delete from game_actions where game_id >= 630613;
+-- delete from slots where game_id >= 630613;
+-- delete from player_notes where game_id >= 630613;
+
+select * from games where game_id = 651857;
+select * from card_actions where game_id = 651857;
+select * from clues where game_id = 651857;
+select * from game_actions where game_id = 630613;
+select * from slots where game_id = 679403;
+select * from player_notes where game_id = 679403;
+
+-- delete from games where game_id = 630613;
+-- delete from card_actions where game_id = 630613;
+-- delete from clues where game_id = 630613;
+-- delete from game_actions where game_id = 630613;
+-- delete from slots where game_id = 630613;
+-- delete from player_notes where game_id = 630613;
+
+select g.game_id, count, variant from
+              (select distinct game_id, count(*) as count from card_actions
+              where action_type = 'misplay'
+              group by game_id) t
+join games g on t.game_id = g.game_id
+where count > 3
+order by 1;
+
+select * from games where game_id = 443663;
+select * from decks where seed = 'p3v59s46';
+select * from card_actions where game_id = 630613;
+
+delete from decks where seed = 'p3v59s46';

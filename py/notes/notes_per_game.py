@@ -64,8 +64,8 @@ def get_notes_ratio(username):
         Ratio of notes per game
     """
     notes_list = session.query(PlayerNotes.game_id, PlayerNotes.notes) \
-            .filter(PlayerNotes.player == username) \
-            .all()
+        .filter(PlayerNotes.player == username) \
+        .all()
     player_notes_visible_cards_dict = {'notes_count': 0, 'visible_cards_count': 0}
 
     if len(notes_list) == 0:
