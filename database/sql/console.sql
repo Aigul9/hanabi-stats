@@ -320,3 +320,6 @@ select * from decks where seed = 'p3v59s46';
 select * from card_actions where game_id = 630613;
 
 delete from decks where seed = 'p3v59s46';
+
+select * from games where game_id = 691321;
+select * from tags;

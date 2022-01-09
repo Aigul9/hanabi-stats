@@ -4,7 +4,8 @@ from sqlalchemy import and_
 
 import py_no_doc.utils as u
 from py_no_doc.utils import logger
-from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Variant, CardAction, Clue, Player, Slot
+from database.db_connect import session, Game, Card, GameAction,\
+    PlayerNotes, Variant, CardAction, Clue, Player, Slot, Tag
 
 
 def load_game(g, s):
@@ -113,7 +114,7 @@ def update_game(s):
     opt = s['options']
     game = session.query(Game).filter(Game.game_id == g_id).first()
     if game is None:
-        logger.info(f'{g_id} doesn\'t exist in db.')
+        logger.info(f"{g_id} doesn't exist in db.")
         return -1
     num_players = session.query(Game.num_players).filter(Game.game_id == g_id).scalar()
     if num_players is not None:
@@ -361,3 +362,15 @@ def update_tags(s):
     game = session.query(Game).filter(Game.game_id == g_id).first()
     game.tags = s['tags']
     return 1
+
+
+def load_tags(s):
+    for user_tag in s['users_tags']:
+        items = list(user_tag.items())
+        user, tag = items[0][0], items[0][1]
+        tag = Tag(
+            s['id'],
+            user,
+            tag
+        )
+        session.add(tag)

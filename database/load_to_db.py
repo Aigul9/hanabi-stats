@@ -79,7 +79,11 @@ def load_slots(all_games):
 #     .order_by(Game.game_id)\
 #     .all()
 
-players_game_id = session.query(Game.players, Game.game_id).filter(Game.game_id == 67360).order_by(Game.game_id).all()
+players_game_id = session.query(Game.players, Game.game_id)\
+    .filter(Game.game_id >= 97295)\
+    .filter(Game.game_id <= 612473)\
+    .filter(Game.players.any('Matías_V5'))\
+    .order_by(Game.game_id).all()
 req_session = requests.Session()
 histories = {}
 for players, game_id in players_game_id:
@@ -92,12 +96,20 @@ for players, game_id in players_game_id:
         except JSONDecodeError:
             logger.error(f'error: {game_id}')
             continue
-        s = u.open_stats_by_game_id(response, game_id)
+        try:
+            s = u.open_stats_by_game_id(response, game_id)
+        except TypeError:
+            logger.error(f'TypeError: {game_id}')
+            continue
+        except IndexError:
+            logger.error(f'IndexError: {game_id}')
+            continue
         histories[player] = response
     if s['tags'] == '':
         logger.debug("skip")
     else:
         d.update_tags(s)
+        d.load_tags(s)
         logger.debug(f'tag added')
     logger.debug(game_id)
     d.session.commit()

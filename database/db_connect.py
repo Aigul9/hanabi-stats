@@ -277,6 +277,18 @@ class Slot(Base):
         self.slot = slot
 
 
+class Tag(Base):
+    __tablename__ = 'tags'
+    game_id = Column(Integer, primary_key=True)
+    player = Column(String)
+    tag = Column(String, primary_key=True)
+
+    def __init__(self, game_id, player, tag):
+        self.game_id = game_id
+        self.player = player
+        self.tag = tag
+
+
 class H(Base):
     __tablename__ = 'hyphen_ated'
     player = Column(String, primary_key=True)

@@ -10,8 +10,8 @@ import py_no_doc.utils as u
 import database.db_load as d
 
 
-# last_id = d.session.query(func.max(Game.game_id)).scalar()
-last_id = 443662
+last_id = session.query(func.max(Game.game_id)).scalar()
+# last_id = 443662
 logger.info(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
 logger.info(f'last id: {last_id}')
 req_session = requests.Session()
@@ -40,15 +40,16 @@ while True:
         db_game = d.load_game(g, s)
         game_actions = d.load_actions(g)
         d.load_notes(g)
+        d.load_tags(s)
         if not db_game.detrimental_characters:
             d.load_card_actions_and_clues(db_game, game_actions, deck)
         last_id += 1
         d.load_slots(db_game)
         d.session.commit()
-        d.session.close()
-        exit()
     else:
         d.session.close()
         logger.info(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
         logger.debug(f'end: {g_id}')
         break
+
+d.session.close()
