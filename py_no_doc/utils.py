@@ -24,6 +24,7 @@ logger.addHandler(consoleHandler)
 
 # Parsing
 def open_stats(user, session=None):
+    user = 'Mat%C3%ADas%20V5' if user == 'Matías_V5' else user
     url = f'https://hanab.live/api/v1/history-full/{user}'
     if session is None:
         response = requests.get(url)
