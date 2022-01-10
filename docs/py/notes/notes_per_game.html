@@ -28,7 +28,7 @@
 </summary>
 <pre><code class="python">from sqlalchemy import true
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Card, GameAction, PlayerNotes, Player
 
 
@@ -92,8 +92,8 @@ def get_notes_ratio(username):
         Ratio of notes per game
     &#34;&#34;&#34;
     notes_list = session.query(PlayerNotes.game_id, PlayerNotes.notes) \
-            .filter(PlayerNotes.player == username) \
-            .all()
+        .filter(PlayerNotes.player == username) \
+        .all()
     player_notes_visible_cards_dict = {&#39;notes_count&#39;: 0, &#39;visible_cards_count&#39;: 0}
 
     if len(notes_list) == 0:
@@ -227,8 +227,8 @@ if __name__ == &#34;__main__&#34;:
         Ratio of notes per game
     &#34;&#34;&#34;
     notes_list = session.query(PlayerNotes.game_id, PlayerNotes.notes) \
-            .filter(PlayerNotes.player == username) \
-            .all()
+        .filter(PlayerNotes.player == username) \
+        .all()
     player_notes_visible_cards_dict = {&#39;notes_count&#39;: 0, &#39;visible_cards_count&#39;: 0}
 
     if len(notes_list) == 0:

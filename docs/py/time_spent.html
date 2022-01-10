@@ -29,7 +29,7 @@
 <pre><code class="python">import csv
 from itertools import groupby
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
@@ -55,7 +55,7 @@ def group_stats(games):
     Parameters
     ----------
     games : list
-        List of player&#39;s games
+        Player&#39;s games
 
     Returns
     -------
@@ -78,7 +78,7 @@ def get_times(username):
     Returns
     -------
     times : list
-        List of total seconds, minutes per game and hours per day
+        Total seconds, minutes per game and hours per day
     &#34;&#34;&#34;
     games = session.query(Game) \
         .filter(Game.players.any(username))\
@@ -132,7 +132,7 @@ if __name__ == &#34;__main__&#34;:
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><strong><code>times</code></strong> :&ensp;<code>list</code></dt>
-<dd>List of total seconds, minutes per game and hours per day</dd>
+<dd>Total seconds, minutes per game and hours per day</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -150,7 +150,7 @@ if __name__ == &#34;__main__&#34;:
     Returns
     -------
     times : list
-        List of total seconds, minutes per game and hours per day
+        Total seconds, minutes per game and hours per day
     &#34;&#34;&#34;
     games = session.query(Game) \
         .filter(Game.players.any(username))\
@@ -176,7 +176,7 @@ if __name__ == &#34;__main__&#34;:
 <h2 id="parameters">Parameters</h2>
 <dl>
 <dt><strong><code>games</code></strong> :&ensp;<code>list</code></dt>
-<dd>List of player's games</dd>
+<dd>Player's games</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <dl>
@@ -193,7 +193,7 @@ if __name__ == &#34;__main__&#34;:
     Parameters
     ----------
     games : list
-        List of player&#39;s games
+        Player&#39;s games
 
     Returns
     -------

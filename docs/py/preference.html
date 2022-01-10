@@ -28,7 +28,7 @@
 </summary>
 <pre><code class="python">from sqlalchemy import func, false
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player, Variant
 
 
@@ -43,7 +43,7 @@ def get_teammates(username):
     Returns
     -------
     teammates_list : list
-        List of teammates
+        Teammates
     &#34;&#34;&#34;
     teammates_list = session.query(func.unnest(Game.players))\
         .distinct()\
@@ -54,22 +54,22 @@ def get_teammates(username):
     return teammates_list
 
 
-def get_teammate_winrate(username, teammates_list):
-    &#34;&#34;&#34;Gets winrate by a teammate.
+def get_teammate_win_rate(username, teammates_list):
+    &#34;&#34;&#34;Gets win rate by a teammate.
 
     Parameters
     ----------
     username : str
         Player name
     teammates_list : list
-        List of teammates
+        Teammates
 
     Returns
     -------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
+    teammate_win_rate_dict : dict
+        Teammate&#39;s win rate sorted by win rate in descending order
     &#34;&#34;&#34;
-    teammate_winrate_dict = {}
+    teammate_win_rate_dict = {}
     games = session.query(Game, Variant)\
         .join(Variant)\
         .filter(Game.players.any(username))\
@@ -85,29 +85,30 @@ def get_teammate_winrate(username, teammates_list):
 
         wins_count = len([game for game, variant in games if teammate in game.players
                           and game.score == variant.max_score])
-        winrate = u.p(wins_count, games_count)
-        teammate_winrate_dict[teammate] = winrate
-    return u.sort_by_value(teammate_winrate_dict)
+        win_rate = u.p(wins_count, games_count)
+        teammate_win_rate_dict[teammate] = win_rate
+    return u.sort_by_value(teammate_win_rate_dict)
 
 
-def get_preference(teammate_winrate_dict):
+def get_preference(teammate_win_rate_dict):
     &#34;&#34;&#34;Calculates preference for each teammate.
 
     Parameters
     ----------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
+    teammate_win_rate_dict : dict
+        Teammate&#39;s win rate sorted by win rate in descending order
 
     Returns
     -------
+    teammate_preference_dict : dict
         Preference by a teammate
     &#34;&#34;&#34;
     teammate_preference_dict = {}
-    teammates_count = len(teammate_winrate_dict)
-    for teammate in teammate_winrate_dict.keys():
+    teammates_count = len(teammate_win_rate_dict)
+    for teammate in teammate_win_rate_dict.keys():
         teammate_preference_dict[teammate] =\
             (
-                    teammates_count - list(teammate_winrate_dict.keys())
+                    teammates_count - list(teammate_win_rate_dict.keys())
                     .index(teammate) - 1
             ) / teammates_count
     return teammate_preference_dict
@@ -164,8 +165,8 @@ if __name__ == &#34;__main__&#34;:
     users_preference = {k: {&#39;preference&#39;: 0, &#39;lists_count&#39;: 0} for k in users}
     for user in users:
         teammates = get_teammates(user)
-        teammate_winrate = get_teammate_winrate(user, teammates)
-        teammate_preference = get_preference(teammate_winrate)
+        teammate_win_rate = get_teammate_win_rate(user, teammates)
+        teammate_preference = get_preference(teammate_win_rate)
         users_preference = update_preference(users_preference, teammate_preference)
 
     users_preference = average_preference(users_preference)
@@ -221,82 +222,85 @@ if __name__ == &#34;__main__&#34;:
 </details>
 </dd>
 <dt id="py.preference.get_preference"><code class="name flex">
-<span>def <span class="ident">get_preference</span></span>(<span>teammate_winrate_dict)</span>
+<span>def <span class="ident">get_preference</span></span>(<span>teammate_win_rate_dict)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Calculates preference for each teammate.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
-<dt><strong><code>teammate_winrate_dict</code></strong> :&ensp;<code>dict</code></dt>
-<dd>Winrate by a teammate sorted by winrate in a descending order</dd>
-</dl>
-<h2 id="returns">Returns</h2>
-<pre><code>Preference by a teammate
-</code></pre></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def get_preference(teammate_winrate_dict):
-    &#34;&#34;&#34;Calculates preference for each teammate.
-
-    Parameters
-    ----------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
-
-    Returns
-    -------
-        Preference by a teammate
-    &#34;&#34;&#34;
-    teammate_preference_dict = {}
-    teammates_count = len(teammate_winrate_dict)
-    for teammate in teammate_winrate_dict.keys():
-        teammate_preference_dict[teammate] =\
-            (
-                    teammates_count - list(teammate_winrate_dict.keys())
-                    .index(teammate) - 1
-            ) / teammates_count
-    return teammate_preference_dict</code></pre>
-</details>
-</dd>
-<dt id="py.preference.get_teammate_winrate"><code class="name flex">
-<span>def <span class="ident">get_teammate_winrate</span></span>(<span>username, teammates_list)</span>
-</code></dt>
-<dd>
-<div class="desc"><p>Gets winrate by a teammate.</p>
-<h2 id="parameters">Parameters</h2>
-<dl>
-<dt><strong><code>username</code></strong> :&ensp;<code>str</code></dt>
-<dd>Player name</dd>
-<dt><strong><code>teammates_list</code></strong> :&ensp;<code>list</code></dt>
-<dd>List of teammates</dd>
+<dt><strong><code>teammate_win_rate_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Teammate's win rate sorted by win rate in descending order</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <dl>
-<dt><strong><code>teammate_winrate_dict</code></strong> :&ensp;<code>dict</code></dt>
-<dd>Winrate by a teammate sorted by winrate in a descending order</dd>
+<dt><strong><code>teammate_preference_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Preference by a teammate</dd>
 </dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def get_teammate_winrate(username, teammates_list):
-    &#34;&#34;&#34;Gets winrate by a teammate.
+<pre><code class="python">def get_preference(teammate_win_rate_dict):
+    &#34;&#34;&#34;Calculates preference for each teammate.
+
+    Parameters
+    ----------
+    teammate_win_rate_dict : dict
+        Teammate&#39;s win rate sorted by win rate in descending order
+
+    Returns
+    -------
+    teammate_preference_dict : dict
+        Preference by a teammate
+    &#34;&#34;&#34;
+    teammate_preference_dict = {}
+    teammates_count = len(teammate_win_rate_dict)
+    for teammate in teammate_win_rate_dict.keys():
+        teammate_preference_dict[teammate] =\
+            (
+                    teammates_count - list(teammate_win_rate_dict.keys())
+                    .index(teammate) - 1
+            ) / teammates_count
+    return teammate_preference_dict</code></pre>
+</details>
+</dd>
+<dt id="py.preference.get_teammate_win_rate"><code class="name flex">
+<span>def <span class="ident">get_teammate_win_rate</span></span>(<span>username, teammates_list)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets win rate by a teammate.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>username</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+<dt><strong><code>teammates_list</code></strong> :&ensp;<code>list</code></dt>
+<dd>Teammates</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><strong><code>teammate_win_rate_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Teammate's win rate sorted by win rate in descending order</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_teammate_win_rate(username, teammates_list):
+    &#34;&#34;&#34;Gets win rate by a teammate.
 
     Parameters
     ----------
     username : str
         Player name
     teammates_list : list
-        List of teammates
+        Teammates
 
     Returns
     -------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
+    teammate_win_rate_dict : dict
+        Teammate&#39;s win rate sorted by win rate in descending order
     &#34;&#34;&#34;
-    teammate_winrate_dict = {}
+    teammate_win_rate_dict = {}
     games = session.query(Game, Variant)\
         .join(Variant)\
         .filter(Game.players.any(username))\
@@ -312,9 +316,9 @@ if __name__ == &#34;__main__&#34;:
 
         wins_count = len([game for game, variant in games if teammate in game.players
                           and game.score == variant.max_score])
-        winrate = u.p(wins_count, games_count)
-        teammate_winrate_dict[teammate] = winrate
-    return u.sort_by_value(teammate_winrate_dict)</code></pre>
+        win_rate = u.p(wins_count, games_count)
+        teammate_win_rate_dict[teammate] = win_rate
+    return u.sort_by_value(teammate_win_rate_dict)</code></pre>
 </details>
 </dd>
 <dt id="py.preference.get_teammates"><code class="name flex">
@@ -330,7 +334,7 @@ if __name__ == &#34;__main__&#34;:
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><strong><code>teammates_list</code></strong> :&ensp;<code>list</code></dt>
-<dd>List of teammates</dd>
+<dd>Teammates</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -347,7 +351,7 @@ if __name__ == &#34;__main__&#34;:
     Returns
     -------
     teammates_list : list
-        List of teammates
+        Teammates
     &#34;&#34;&#34;
     teammates_list = session.query(func.unnest(Game.players))\
         .distinct()\
@@ -423,7 +427,7 @@ if __name__ == &#34;__main__&#34;:
 <ul class="">
 <li><code><a title="py.preference.average_preference" href="#py.preference.average_preference">average_preference</a></code></li>
 <li><code><a title="py.preference.get_preference" href="#py.preference.get_preference">get_preference</a></code></li>
-<li><code><a title="py.preference.get_teammate_winrate" href="#py.preference.get_teammate_winrate">get_teammate_winrate</a></code></li>
+<li><code><a title="py.preference.get_teammate_win_rate" href="#py.preference.get_teammate_win_rate">get_teammate_win_rate</a></code></li>
 <li><code><a title="py.preference.get_teammates" href="#py.preference.get_teammates">get_teammates</a></code></li>
 <li><code><a title="py.preference.update_preference" href="#py.preference.update_preference">update_preference</a></code></li>
 </ul>

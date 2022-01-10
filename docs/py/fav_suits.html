@@ -168,7 +168,7 @@ def get_variants(username):
     Returns
     -------
     list
-        List of player&#39;s games without 2-player and speedruns
+        Player&#39;s games without 2-player and speedruns
     &#34;&#34;&#34;
     return session.query(Game.variant) \
         .filter(Game.players.any(username)) \
@@ -317,7 +317,7 @@ if __name__ == &#34;__main__&#34;:
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><code>list</code></dt>
-<dd>List of player's games without 2-player and speedruns</dd>
+<dd>Player's games without 2-player and speedruns</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -334,7 +334,7 @@ if __name__ == &#34;__main__&#34;:
     Returns
     -------
     list
-        List of player&#39;s games without 2-player and speedruns
+        Player&#39;s games without 2-player and speedruns
     &#34;&#34;&#34;
     return session.query(Game.variant) \
         .filter(Game.players.any(username)) \

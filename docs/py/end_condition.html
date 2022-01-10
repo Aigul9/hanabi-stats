@@ -29,12 +29,12 @@
 <pre><code class="python">import csv
 from sqlalchemy import false
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
 def sort_terminated(condition_count_dict):
-    &#34;&#34;&#34;Sorts players by number of terminated games in a descending order.
+    &#34;&#34;&#34;Sorts players by number of terminated games in descending order.
 
     Parameters
     ----------
@@ -50,7 +50,7 @@ def sort_terminated(condition_count_dict):
 
 
 def sort_strikeout(condition_count_dict):
-    &#34;&#34;&#34;Sorts players by number of strikeout games in a descending order.
+    &#34;&#34;&#34;Sorts players by number of strikeout games in descending order.
 
     Parameters
     ----------
@@ -236,7 +236,7 @@ if __name__ == &#34;__main__&#34;:
 <span>def <span class="ident">sort_strikeout</span></span>(<span>condition_count_dict)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Sorts players by number of strikeout games in a descending order.</p>
+<div class="desc"><p>Sorts players by number of strikeout games in descending order.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
 <dt><strong><code>condition_count_dict</code></strong> :&ensp;<code>dict</code></dt>
@@ -251,7 +251,7 @@ Sorted input dictionary
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def sort_strikeout(condition_count_dict):
-    &#34;&#34;&#34;Sorts players by number of strikeout games in a descending order.
+    &#34;&#34;&#34;Sorts players by number of strikeout games in descending order.
 
     Parameters
     ----------
@@ -270,7 +270,7 @@ Sorted input dictionary
 <span>def <span class="ident">sort_terminated</span></span>(<span>condition_count_dict)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Sorts players by number of terminated games in a descending order.</p>
+<div class="desc"><p>Sorts players by number of terminated games in descending order.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
 <dt><strong><code>condition_count_dict</code></strong> :&ensp;<code>dict</code></dt>
@@ -285,7 +285,7 @@ Sorted input dictionary
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def sort_terminated(condition_count_dict):
-    &#34;&#34;&#34;Sorts players by number of terminated games in a descending order.
+    &#34;&#34;&#34;Sorts players by number of terminated games in descending order.
 
     Parameters
     ----------
