@@ -14,9 +14,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-fileHandler = logging.FileHandler('../database/errors.log')
-fileHandler.setLevel(logging.INFO)
-logger.addHandler(fileHandler)
+# fileHandler = logging.FileHandler('../database/errors.log')
+# fileHandler.setLevel(logging.INFO)
+# logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
 logger.addHandler(consoleHandler)
@@ -648,7 +648,7 @@ def p(value, total):
 
     Returns
     -------
-    int
+    float
         Percentage rounded to 2 decimal places
     """
     if total != 0:
@@ -669,7 +669,7 @@ def p1(value, total):
 
     Returns
     -------
-    int
+    float
         The result of division rounded to 2 decimal places
     """
     if total != 0:
@@ -679,7 +679,7 @@ def p1(value, total):
 
 
 def p_no_round(value, total):
-    """Calculates a percentage without round.
+    """Calculates a percentage without rounding.
 
     Parameters
     ----------
@@ -691,7 +691,7 @@ def p_no_round(value, total):
     Returns
     -------
     int
-        Percentage rounded to 2 decimal places
+        Percentage without rounding
     """
     if total != 0:
         return round(value * 100 / total)
@@ -700,6 +700,18 @@ def p_no_round(value, total):
 
 
 def add_zero(hour):
+    """Adds zero in front of the 1-digit numbers.
+
+    Parameters
+    ----------
+    hour : int
+        An hour
+
+    Returns
+    -------
+    str
+        2-digit hour
+    """
     if hour < 10:
         return '0' + str(hour)
     else:
@@ -707,18 +719,61 @@ def add_zero(hour):
 
 
 def r(num):
+    """Replaces dots with commas in a number.
+
+    Parameters
+    ----------
+    num : int
+        A number
+
+    Returns
+    -------
+    str
+        Number in a string format with replaced dots
+    """
     return str(num).replace('.', ',')
 
 
 def current_time():
+    """Gets current time.
+
+    Returns
+    -------
+    datetime
+        Current date and time
+    """
     return datetime.now()
 
 
 def time_spent(start_time):
+    """Gets difference between current time and given time.
+
+    Parameters
+    ----------
+    start_time : datetime
+        Start time
+
+    Returns
+    -------
+    int
+        Difference in millis between current time and start time
+    """
     return current_time() - start_time
 
 
 def convert_sec_to_day(n):
+    """Converts seconds to days, hour, minutes, and seconds.
+
+    Parameters
+    ----------
+    n : int
+        Number of seconds
+
+    Returns
+    -------
+    dict
+        Number of seconds split by days, hours, minutes, and seconds
+    """
     n = int(n)
     day = n // (24 * 3600)
     n = n % (24 * 3600)
@@ -730,20 +785,56 @@ def convert_sec_to_day(n):
     return {'days': day, 'hours': hour, 'minutes': minutes, 'seconds': seconds}
 
 
-# Sort
 def sort(data, col_ind):
+    """Sorts a dictionary by column index in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+    col_ind : int
+        Column index
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by column index in descending order.
+    """
     return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
 
 
 def sort_by_key(data):
+    """Sorts a dictionary by key in ascending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by key in ascending order.
+    """
     return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}
 
 
 def sort_by_value(data):
+    """Sorts a dictionary by value in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by value in descending order.
+    """
     return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}
 
 
-# Save
 def save_up_to_date_stats(data):
     with open('output/up_to_date_stats.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)

@@ -12,7 +12,10 @@ def open_stats(user):
     user : str
         Player name
 
-    Returns history in json format
+    Returns
+    -------
+    list
+        History in json format
     """
     url = f'https://hanab.live/api/v1/history-full/{user}'
     response = requests.get(url)
@@ -27,7 +30,10 @@ def clear_2p(stats):
     stats : list
         User's games
 
-    Returns history without 2-player games.
+    Returns
+    -------
+    list
+        History without 2-player games
     """
     return [row for row in stats if int(row['options']['numPlayers']) != 2]
 
@@ -40,7 +46,10 @@ def clear_speedruns(stats):
     stats : list
         User's games
 
-    Returns history without speedruns.
+    Returns
+    -------
+    list
+        History without speedruns
     """
     return [row for row in stats if not row['options']['speedrun']]
 
@@ -56,7 +65,7 @@ def group_stats(stats):
     Returns
     -------
     dict
-        Number of games grouped by a period.
+        Number of games grouped by a period
     """
     groups = groupby(stats, lambda row: row['datetimeFinished'][:7])
     grouped_stats = {}
@@ -86,6 +95,7 @@ def save(grouped_stats, user):
         w.writerow([f'Total: {sum(grouped_stats.values())}', '', ''])
 
 
-username = 'newduke'
-data = group_stats(clear_2p(clear_speedruns(open_stats(username))))
-save(data, username)
+if __name__ == "__main__":
+    username = 'newduke'
+    data = group_stats(clear_2p(clear_speedruns(open_stats(username))))
+    save(data, username)

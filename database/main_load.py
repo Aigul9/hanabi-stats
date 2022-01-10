@@ -1,13 +1,8 @@
 import json
-from json import JSONDecodeError
 
-import requests
-from sqlalchemy import func, and_, false, true
-
-import py_no_doc.utils as u
+import py.utils as u
 import database.db_load as d
-from py_no_doc.utils import logger
-from database.db_connect import session, Game, Slot
+from py.utils import logger
 
 
 def open_as_json(filename):
@@ -59,60 +54,4 @@ def load_slots(all_games):
         logger.info(g.game_id)
 
 
-# dumps = '../temp/games_dumps/'
-#
-# games = load_games(dumps)
-
-
-# last_id = d.session.query(func.max(Slot.game_id)).scalar()
-# games = session.query(
-#     Game.game_id,
-#     Game.num_players,
-#     Game.one_less_card,
-#     Game.one_extra_card
-# ) \
-#     .filter(
-#     and_(
-#         Game.card_cycle == false(),
-#         Game.all_or_nothing == true()
-#     ))\
-#     .order_by(Game.game_id)\
-#     .all()
-
-players_game_id = session.query(Game.players, Game.game_id)\
-    .filter(Game.game_id >= 97295)\
-    .filter(Game.game_id <= 612473)\
-    .filter(Game.players.any('Matías_V5'))\
-    .order_by(Game.game_id).all()
-req_session = requests.Session()
-histories = {}
-for players, game_id in players_game_id:
-    player = players[0]
-    if player in histories.keys():
-        s = u.open_stats_by_game_id(histories[player], game_id)
-    else:
-        try:
-            response = u.open_stats(player, req_session)
-        except JSONDecodeError:
-            logger.error(f'error: {game_id}')
-            continue
-        try:
-            s = u.open_stats_by_game_id(response, game_id)
-        except TypeError:
-            logger.error(f'TypeError: {game_id}')
-            continue
-        except IndexError:
-            logger.error(f'IndexError: {game_id}')
-            continue
-        histories[player] = response
-    if s['tags'] == '':
-        logger.debug("skip")
-    else:
-        d.update_tags(s)
-        d.load_tags(s)
-        logger.debug(f'tag added')
-    logger.debug(game_id)
-    d.session.commit()
-
-# load_slots(games)
 d.session.close()
