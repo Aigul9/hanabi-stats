@@ -2,8 +2,8 @@ import copy
 
 from sqlalchemy import and_
 
-import py_no_doc.utils as u
-from py_no_doc.utils import logger
+import py.utils as u
+from py.utils import logger
 from database.db_connect import session, Game, Card, GameAction,\
     PlayerNotes, Variant, CardAction, Clue, Player, Slot, Tag
 

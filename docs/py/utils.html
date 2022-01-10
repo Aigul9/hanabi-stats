@@ -1,0 +1,2812 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>py.utils API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>py.utils</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import csv
+import errno
+import logging
+import os
+import requests
+from datetime import datetime
+from matplotlib import pyplot as plt
+from os import listdir
+from os.path import isfile, join
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format=&#39;%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()&#39;,
+)
+logger = logging.getLogger(__name__)
+
+# fileHandler = logging.FileHandler(&#39;../database/errors.log&#39;)
+# fileHandler.setLevel(logging.INFO)
+# logger.addHandler(fileHandler)
+
+consoleHandler = logging.StreamHandler()
+logger.addHandler(consoleHandler)
+
+
+def open_stats(user, session=None):
+    &#34;&#34;&#34;Gets user&#39;s statistics from the history page API.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+    session : session
+        Current session
+
+    Returns history in json format
+    &#34;&#34;&#34;
+    user = &#39;Mat%C3%ADas%20V5&#39; if user == &#39;Matías_V5&#39; else user
+    url = f&#39;https://hanab.live/api/v1/history-full/{user}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    return response.json()
+
+
+def open_stats_by_game_id(response, game_id):
+    &#34;&#34;&#34;Filters user&#39;s statistics by game id.
+
+    Parameters
+    ----------
+    response : list
+        User&#39;s history in json
+    game_id : int
+        Game id
+
+    Returns
+    -------
+    list
+        The game from user&#39;s history
+    &#34;&#34;&#34;
+    return [s for s in response if s[&#39;id&#39;] == game_id][0]
+
+
+def export_game(game_id, session=None):
+    &#34;&#34;&#34;Gets a specific game from API.
+
+    Parameters
+    ----------
+    game_id : int
+        Game id
+    session : session
+        Current session
+
+    Returns the game in json format
+    &#34;&#34;&#34;
+    url = f&#39;https://hanab.live/export/{game_id}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {}
+
+
+def mkdir_p(path):
+    &#34;&#34;&#34;Creates a directory by a specific path.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    &#34;&#34;&#34;
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+
+def open_file(filename):
+    &#34;&#34;&#34;Opens a file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip() for line in f.readlines()]
+
+
+def open_tsv(filename):
+    &#34;&#34;&#34;Opens a tsv file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip().split(&#39;\t&#39;) for line in f.readlines()]
+
+
+def open_csv(filename):
+    &#34;&#34;&#34;Opens a csv file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip().split(&#39;,&#39;) for line in f.readlines()]
+
+
+def files_in_dir(path):
+    &#34;&#34;&#34;Combines file names in the directory.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+
+    Returns
+    -------
+    list
+        File names in the directory
+    &#34;&#34;&#34;
+    return [f for f in listdir(path) if isfile(join(path, f))]
+
+
+def save(path, data, header):
+    &#34;&#34;&#34;Saves data with header into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : dict
+        Saved data
+    header : list
+        File header
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow(header)
+        for k, v in data.items():
+            w.writerow([k, *v])
+
+
+def save_value(path, data):
+    &#34;&#34;&#34;Saves data into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : dict
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;a&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for k, v in data.items():
+            w.writerow([k, v])
+
+
+def save_csv(path, data):
+    &#34;&#34;&#34;Saves data into a csv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : list
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.csv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;,&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for v in data:
+            w.writerow(*v)
+
+
+def save_header(path, header):
+    &#34;&#34;&#34;Saves header into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    header : list
+        File header
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow(header)
+
+
+def clear_2p(stats):
+    &#34;&#34;&#34;Removes 2-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without 2-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) != 2]
+
+
+def clear_speedruns(stats):
+    &#34;&#34;&#34;Removes speedruns from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without speedruns
+    &#34;&#34;&#34;
+    return [row for row in stats if not row[&#39;options&#39;][&#39;speedrun&#39;]]
+
+
+def get_2p(stats):
+    &#34;&#34;&#34;Gets 2-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History of 2-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) == 2]
+
+
+def get_3p(stats):
+    &#34;&#34;&#34;Gets 3-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History of 3-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) == 3]
+
+
+def filter_bga(stats):
+    &#34;&#34;&#34;Gets the user&#39;s json statistics only containing variants played on BGA.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History with only BGA variants
+    &#34;&#34;&#34;
+    return [row for row in stats if row[&#39;options&#39;][&#39;variantName&#39;] in (&#39;Rainbow (6 Suits)&#39;, &#39;No Variant&#39;, &#39;6 Suits&#39;)]
+
+
+def filter_non_bga(stats):
+    &#34;&#34;&#34;Gets the user&#39;s json statistics without variants played on BGA.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without BGA variants
+    &#34;&#34;&#34;
+    return [row for row in stats if row[&#39;options&#39;][&#39;variantName&#39;] not in (&#39;Rainbow (6 Suits)&#39;, &#39;No Variant&#39;, &#39;6 Suits&#39;)]
+
+
+def contains_user(stats, user):
+    &#34;&#34;&#34;Gets the json statistics containing a specific user.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+    user : str
+        Player name
+
+    Returns
+    -------
+    list
+        History containing the user
+    &#34;&#34;&#34;
+    return [row for row in stats if user in row[&#39;playerNames&#39;]]
+
+
+def get_wins(stats):
+    &#34;&#34;&#34;Counts number of games finished with a perfect score using json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games with a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row[&#39;score&#39;] == get_max_score(row[&#39;options&#39;][&#39;variantName&#39;])])
+
+
+def get_losses(stats):
+    &#34;&#34;&#34;Counts number of games not finished with a perfect score using json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games without a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row[&#39;score&#39;] != get_max_score(row[&#39;options&#39;][&#39;variantName&#39;])])
+
+
+def get_wins_db(stats):
+    &#34;&#34;&#34;Counts number of games finished with a perfect score using database.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games with a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row.score == get_max_score(row.variant)])
+
+
+def get_losses_db(stats):
+    &#34;&#34;&#34;Counts number of games not finished with a perfect score using database.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games without a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row.score != get_max_score(row.variant)])
+
+
+def get_number_of_suits(variant):
+    &#34;&#34;&#34;Gets number of suits for the variant.
+
+    Parameters
+    ----------
+    variant : str
+        Variant
+
+    Returns
+    -------
+    int
+        Number of suits for the variant
+    &#34;&#34;&#34;
+    default_suits = {
+        &#39;3 Suits&#39;: 3,
+        &#39;4 Suits&#39;: 4,
+        &#39;No Variant&#39;: 5,
+        &#39;6 Suits&#39;: 6,
+        &#39;Dual-Color Mix&#39;: 6,
+        &#39;Ambiguous Mix&#39;: 6,
+        &#39;Ambiguous &amp; Dual-Color&#39;: 6
+    }
+
+    return int(default_suits.get(variant, variant[-8:-7]))
+
+
+def get_max_score(variant):
+    &#34;&#34;&#34;Calculates the max score for the variant.
+
+    Parameters
+    ----------
+    variant : str
+        Variant
+
+    Returns
+    -------
+    int
+        Max score for the variant
+    &#34;&#34;&#34;
+    return get_number_of_suits(variant) * 5
+
+
+def get_action_type_length(actions, action_type):
+    &#34;&#34;&#34;Counts number of actions representing a specific action type.
+
+    Parameters
+    ----------
+    actions : list
+        Game actions
+    action_type : int
+        Action type
+
+    Returns
+    -------
+    int
+        Number of game actions containing the action type
+    &#34;&#34;&#34;
+    return len([a for a in actions if a[&#39;type&#39;] == action_type])
+
+
+def get_player_index(game, player):
+    &#34;&#34;&#34;Gets a player index in an array.
+
+    Parameters
+    ----------
+    game : dict
+        Game in json format
+    player : str
+        Player name
+
+    Returns
+    -------
+    int
+        The player index
+    &#34;&#34;&#34;
+    return game[&#39;players&#39;].index(player)
+
+
+def get_card_index(game, card):
+    &#34;&#34;&#34;Gets a card index in a deck.
+
+    Parameters
+    ----------
+    game : dict
+        Game in json format
+    card : dict
+        Card
+
+    Returns
+    -------
+    int
+        The card index
+    &#34;&#34;&#34;
+    return game[&#39;deck&#39;].index(card)
+
+
+def get_number_of_starting_cards(n_players, one_less_card, one_extra_card):
+    &#34;&#34;&#34;Gets a total number of cards in players&#39; starting hands.
+
+    Parameters
+    ----------
+    n_players : int
+        Number of players
+    one_less_card : bool
+        A flag representing one less card option
+    one_extra_card : bool
+        A flag representing one extra card option
+
+    Returns
+    -------
+    int
+        Number of cards in starting hands
+    &#34;&#34;&#34;
+    return get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card) * n_players
+
+
+def get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card):
+    &#34;&#34;&#34;Gets a number of cards in player&#39;s starting hand.
+
+    Parameters
+    ----------
+    n_players : int
+        Number of players
+    one_less_card : bool
+        A flag representing one less card option
+    one_extra_card : bool
+        A flag representing one extra card option
+
+    Returns
+    -------
+    int
+        Number of cards in each starting hand
+    &#34;&#34;&#34;
+    cards = {
+        2: 5,
+        3: 5,
+        4: 4,
+        5: 4,
+        6: 3
+    }
+    if one_less_card:
+        return cards[n_players] - 1
+    if one_extra_card:
+        return cards[n_players] + 1
+    return cards[n_players]
+
+
+def get_number_of_plays_or_discards(actions):
+    &#34;&#34;&#34;Counts a number of plays or discard in a game.
+
+    Parameters
+    ----------
+    actions : list
+        Game actions
+
+    Returns
+    -------
+    int
+        Number of plays or discards
+    &#34;&#34;&#34;
+    return len([a for a in actions if a.action_type in [0, 1]])
+
+
+def is_clued(action):
+    &#34;&#34;&#34;Checks if action represents a clue.
+
+    Parameters
+    ----------
+    action : GameAction
+        A game action
+
+    Returns
+    -------
+    bool
+        A flag representing whether a clue was given or not
+    &#34;&#34;&#34;
+    return action.action_type in [2, 3]
+
+
+def is_played(piles, card_suit_ind, card_rank):
+    &#34;&#34;&#34;Checks if a card is played.
+
+    Parameters
+    ----------
+    piles : list
+        Current state of the piles
+    card_suit_ind : int
+        Card suit
+    card_rank : int
+        Card rank
+
+    Returns
+    -------
+    bool
+        A flag representing whether a card is played or not
+    &#34;&#34;&#34;
+    suit_stack, direction = piles[card_suit_ind]
+    if direction == &#39;up&#39;:
+        return suit_stack + 1 == card_rank
+    elif direction == &#39;down&#39;:
+        return suit_stack - 1 == card_rank
+    elif direction == &#39;&#39;:
+        if suit_stack == 0 and card_rank in (1, 5, 7):
+            return True
+        if suit_stack == 7 and card_rank in [2, 4]:
+            return True
+        else:
+            return False
+
+
+def up_or_down_direction(piles, card_suit_ind, card_rank):
+    &#34;&#34;&#34;Gets a direction for the &#39;Up or Down&#39; variant.
+
+    Parameters
+    ----------
+    piles : list
+        Current state of the piles
+    card_suit_ind : int
+        Card suit
+    card_rank : int
+        Card rank
+
+    Returns
+    -------
+    direction : str
+        The current direction for the &#39;Up or Down&#39; variant
+    &#34;&#34;&#34;
+    direction = piles[card_suit_ind][1]
+    if direction == &#39;&#39;:
+        directions = {
+            1: &#39;up&#39;,
+            2: &#39;up&#39;,
+            4: &#39;down&#39;,
+            5: &#39;down&#39;
+        }
+        return directions.get(card_rank, &#39;&#39;)
+    return direction
+
+
+def p(value, total):
+    &#34;&#34;&#34;Calculates a percentage rounded to 2 decimal places.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    float
+        Percentage rounded to 2 decimal places
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value * 100 / total, 2)
+    else:
+        return 0
+
+
+def p1(value, total):
+    &#34;&#34;&#34;Divides two numbers and rounds the result to 2 decimal places.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    float
+        The result of division rounded to 2 decimal places
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value / total, 2)
+    else:
+        return 0
+
+
+def p_no_round(value, total):
+    &#34;&#34;&#34;Calculates a percentage without rounding.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    int
+        Percentage without rounding
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value * 100 / total)
+    else:
+        return 0
+
+
+def add_zero(hour):
+    &#34;&#34;&#34;Adds zero in front of the 1-digit numbers.
+
+    Parameters
+    ----------
+    hour : int
+        An hour
+
+    Returns
+    -------
+    str
+        2-digit hour
+    &#34;&#34;&#34;
+    if hour &lt; 10:
+        return &#39;0&#39; + str(hour)
+    else:
+        return str(hour)
+
+
+def r(num):
+    &#34;&#34;&#34;Replaces dots with commas in a number.
+
+    Parameters
+    ----------
+    num : int
+        A number
+
+    Returns
+    -------
+    str
+        Number in a string format with replaced dots
+    &#34;&#34;&#34;
+    return str(num).replace(&#39;.&#39;, &#39;,&#39;)
+
+
+def current_time():
+    &#34;&#34;&#34;Gets current time.
+
+    Returns
+    -------
+    datetime
+        Current date and time
+    &#34;&#34;&#34;
+    return datetime.now()
+
+
+def time_spent(start_time):
+    &#34;&#34;&#34;Gets difference between current time and given time.
+
+    Parameters
+    ----------
+    start_time : datetime
+        Start time
+
+    Returns
+    -------
+    int
+        Difference in millis between current time and start time
+    &#34;&#34;&#34;
+    return current_time() - start_time
+
+
+def convert_sec_to_day(n):
+    &#34;&#34;&#34;Converts seconds to days, hour, minutes, and seconds.
+
+    Parameters
+    ----------
+    n : int
+        Number of seconds
+
+    Returns
+    -------
+    dict
+        Number of seconds split by days, hours, minutes, and seconds
+    &#34;&#34;&#34;
+    n = int(n)
+    day = n // (24 * 3600)
+    n = n % (24 * 3600)
+    hour = n // 3600
+    n %= 3600
+    minutes = n // 60
+    n %= 60
+    seconds = n
+    return {&#39;days&#39;: day, &#39;hours&#39;: hour, &#39;minutes&#39;: minutes, &#39;seconds&#39;: seconds}
+
+
+def sort(data, col_ind):
+    &#34;&#34;&#34;Sorts a dictionary by column index in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+    col_ind : int
+        Column index
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by column index in descending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
+
+
+def sort_by_key(data):
+    &#34;&#34;&#34;Sorts a dictionary by key in ascending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by key in ascending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}
+
+
+def sort_by_value(data):
+    &#34;&#34;&#34;Sorts a dictionary by value in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by value in descending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}
+
+
+def save_up_to_date_stats(data):
+    with open(&#39;output/up_to_date_stats.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([
+            &#39;Username&#39;, &#39;Type&#39;,
+            &#39;W/L(%)&#39;, &#39;W(%)&#39;, &#39;L(%)&#39;, &#39;W(#)&#39;, &#39;L(#)&#39;,
+            &#39;W/L(%, 2p)&#39;, &#39;W(%, 2p)&#39;, &#39;L(%, 2p)&#39;, &#39;W(#, 2p)&#39;, &#39;L(#, 2p)&#39;,
+            &#39;W/L(%, 3p)&#39;, &#39;W(%, 3p+)&#39;, &#39;L(%, 3p+)&#39;, &#39;W(#, 3p+)&#39;, &#39;L(#, 3p+)&#39;]
+        )
+        for k, v in sort_by_key(data).items():
+            for k1, t in v.items():
+                w.writerow([
+                    k,
+                    k1,
+                    t[&#39;total_p&#39;][2],
+                    t[&#39;total_p&#39;][0],
+                    t[&#39;total_p&#39;][1],
+                    t[&#39;total_c&#39;][0],
+                    t[&#39;total_c&#39;][1],
+                    t[&#39;total_2p_p&#39;][2],
+                    t[&#39;total_2p_p&#39;][0],
+                    t[&#39;total_2p_p&#39;][1],
+                    t[&#39;total_2p_c&#39;][0],
+                    t[&#39;total_2p_c&#39;][1],
+                    t[&#39;total_3p_p&#39;][2],
+                    t[&#39;total_3p_p&#39;][0],
+                    t[&#39;total_3p_p&#39;][1],
+                    t[&#39;total_3p_c&#39;][0],
+                    t[&#39;total_3p_c&#39;][1]]
+                )
+
+
+def save_wr(data):
+    with open(&#39;output/winrate/highest_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([&#39;Username&#39;, &#39;W(%)&#39;, &#39;Total games&#39;])
+        for k, v in sorted(data.items(), key=lambda item: item[1][&#39;Totals&#39;][&#39;total_p&#39;], reverse=True):
+            w.writerow([
+                k,
+                v[&#39;Totals&#39;][&#39;total_p&#39;][0],
+                v[&#39;Totals&#39;][&#39;total_c&#39;][2]
+            ])
+
+
+def save_data(data, filename, column):
+    with open(f&#39;output/winrate/{filename}.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([column, &#39;WR&#39;, &#39;Total games&#39;])
+        for k, v in data.items():
+            w.writerow([k, v[&#39;win&#39;], v[&#39;total&#39;]])
+
+
+def save_hours(data, hours_header):
+    with open(f&#39;output/time/hours_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([&#39;Player: WR (Total games)&#39;] + hours_header)
+        for k in data.keys():
+            w.writerow([k] + [str(data[k][h][&#39;win&#39;]) + f&#39;% ({data[k][h][&#34;total&#34;]})&#39; for h in hours_header])
+
+
+def save_plots(data, hours_header):
+    for k, v in data.items():
+        x = hours_header
+        y = [v[key][&#39;win&#39;] for key in v.keys()]
+        n = [v[key][&#39;total&#39;] for key in v.keys()]
+        fig = plt.figure(figsize=(12, 5))
+        plt.xlabel(&#39;Hours (UTC)&#39;)
+        plt.ylabel(&#39;Total games (#)&#39;)
+        plt.scatter(x, n)
+        for i, txt in enumerate(y):
+            plt.annotate(txt, (x[i], n[i]))
+        plt.title(&#39;Win/loss ratio (%)&#39;)
+        plt.plot(x, n)
+        plt.savefig(f&#39;output/time/plots/{k}.png&#39;)
+        plt.close(fig)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="py.utils.add_zero"><code class="name flex">
+<span>def <span class="ident">add_zero</span></span>(<span>hour)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Adds zero in front of the 1-digit numbers.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>hour</code></strong> :&ensp;<code>int</code></dt>
+<dd>An hour</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>2-digit hour</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_zero(hour):
+    &#34;&#34;&#34;Adds zero in front of the 1-digit numbers.
+
+    Parameters
+    ----------
+    hour : int
+        An hour
+
+    Returns
+    -------
+    str
+        2-digit hour
+    &#34;&#34;&#34;
+    if hour &lt; 10:
+        return &#39;0&#39; + str(hour)
+    else:
+        return str(hour)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.clear_2p"><code class="name flex">
+<span>def <span class="ident">clear_2p</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Removes 2-player games from the user's json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History without 2-player games</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def clear_2p(stats):
+    &#34;&#34;&#34;Removes 2-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without 2-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) != 2]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.clear_speedruns"><code class="name flex">
+<span>def <span class="ident">clear_speedruns</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Removes speedruns from the user's json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History without speedruns</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def clear_speedruns(stats):
+    &#34;&#34;&#34;Removes speedruns from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without speedruns
+    &#34;&#34;&#34;
+    return [row for row in stats if not row[&#39;options&#39;][&#39;speedrun&#39;]]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.contains_user"><code class="name flex">
+<span>def <span class="ident">contains_user</span></span>(<span>stats, user)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets the json statistics containing a specific user.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+<dt><strong><code>user</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History containing the user</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def contains_user(stats, user):
+    &#34;&#34;&#34;Gets the json statistics containing a specific user.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+    user : str
+        Player name
+
+    Returns
+    -------
+    list
+        History containing the user
+    &#34;&#34;&#34;
+    return [row for row in stats if user in row[&#39;playerNames&#39;]]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.convert_sec_to_day"><code class="name flex">
+<span>def <span class="ident">convert_sec_to_day</span></span>(<span>n)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Converts seconds to days, hour, minutes, and seconds.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>n</code></strong> :&ensp;<code>int</code></dt>
+<dd>Number of seconds</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>dict</code></dt>
+<dd>Number of seconds split by days, hours, minutes, and seconds</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_sec_to_day(n):
+    &#34;&#34;&#34;Converts seconds to days, hour, minutes, and seconds.
+
+    Parameters
+    ----------
+    n : int
+        Number of seconds
+
+    Returns
+    -------
+    dict
+        Number of seconds split by days, hours, minutes, and seconds
+    &#34;&#34;&#34;
+    n = int(n)
+    day = n // (24 * 3600)
+    n = n % (24 * 3600)
+    hour = n // 3600
+    n %= 3600
+    minutes = n // 60
+    n %= 60
+    seconds = n
+    return {&#39;days&#39;: day, &#39;hours&#39;: hour, &#39;minutes&#39;: minutes, &#39;seconds&#39;: seconds}</code></pre>
+</details>
+</dd>
+<dt id="py.utils.current_time"><code class="name flex">
+<span>def <span class="ident">current_time</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets current time.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>datetime</code></dt>
+<dd>Current date and time</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def current_time():
+    &#34;&#34;&#34;Gets current time.
+
+    Returns
+    -------
+    datetime
+        Current date and time
+    &#34;&#34;&#34;
+    return datetime.now()</code></pre>
+</details>
+</dd>
+<dt id="py.utils.export_game"><code class="name flex">
+<span>def <span class="ident">export_game</span></span>(<span>game_id, session=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a specific game from API.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>game_id</code></strong> :&ensp;<code>int</code></dt>
+<dd>Game id</dd>
+<dt><strong><code>session</code></strong> :&ensp;<code>session</code></dt>
+<dd>Current session</dd>
+</dl>
+<p>Returns the game in json format</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def export_game(game_id, session=None):
+    &#34;&#34;&#34;Gets a specific game from API.
+
+    Parameters
+    ----------
+    game_id : int
+        Game id
+    session : session
+        Current session
+
+    Returns the game in json format
+    &#34;&#34;&#34;
+    url = f&#39;https://hanab.live/export/{game_id}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {}</code></pre>
+</details>
+</dd>
+<dt id="py.utils.files_in_dir"><code class="name flex">
+<span>def <span class="ident">files_in_dir</span></span>(<span>path)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Combines file names in the directory.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>File names in the directory</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def files_in_dir(path):
+    &#34;&#34;&#34;Combines file names in the directory.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+
+    Returns
+    -------
+    list
+        File names in the directory
+    &#34;&#34;&#34;
+    return [f for f in listdir(path) if isfile(join(path, f))]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.filter_bga"><code class="name flex">
+<span>def <span class="ident">filter_bga</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets the user's json statistics only containing variants played on BGA.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History with only BGA variants</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def filter_bga(stats):
+    &#34;&#34;&#34;Gets the user&#39;s json statistics only containing variants played on BGA.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History with only BGA variants
+    &#34;&#34;&#34;
+    return [row for row in stats if row[&#39;options&#39;][&#39;variantName&#39;] in (&#39;Rainbow (6 Suits)&#39;, &#39;No Variant&#39;, &#39;6 Suits&#39;)]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.filter_non_bga"><code class="name flex">
+<span>def <span class="ident">filter_non_bga</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets the user's json statistics without variants played on BGA.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History without BGA variants</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def filter_non_bga(stats):
+    &#34;&#34;&#34;Gets the user&#39;s json statistics without variants played on BGA.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History without BGA variants
+    &#34;&#34;&#34;
+    return [row for row in stats if row[&#39;options&#39;][&#39;variantName&#39;] not in (&#39;Rainbow (6 Suits)&#39;, &#39;No Variant&#39;, &#39;6 Suits&#39;)]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_2p"><code class="name flex">
+<span>def <span class="ident">get_2p</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets 2-player games from the user's json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History of 2-player games</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_2p(stats):
+    &#34;&#34;&#34;Gets 2-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History of 2-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) == 2]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_3p"><code class="name flex">
+<span>def <span class="ident">get_3p</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets 3-player games from the user's json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>History of 3-player games</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_3p(stats):
+    &#34;&#34;&#34;Gets 3-player games from the user&#39;s json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    list
+        History of 3-player games
+    &#34;&#34;&#34;
+    return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) == 3]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_action_type_length"><code class="name flex">
+<span>def <span class="ident">get_action_type_length</span></span>(<span>actions, action_type)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts number of actions representing a specific action type.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>actions</code></strong> :&ensp;<code>list</code></dt>
+<dd>Game actions</dd>
+<dt><strong><code>action_type</code></strong> :&ensp;<code>int</code></dt>
+<dd>Action type</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of game actions containing the action type</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_action_type_length(actions, action_type):
+    &#34;&#34;&#34;Counts number of actions representing a specific action type.
+
+    Parameters
+    ----------
+    actions : list
+        Game actions
+    action_type : int
+        Action type
+
+    Returns
+    -------
+    int
+        Number of game actions containing the action type
+    &#34;&#34;&#34;
+    return len([a for a in actions if a[&#39;type&#39;] == action_type])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_card_index"><code class="name flex">
+<span>def <span class="ident">get_card_index</span></span>(<span>game, card)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a card index in a deck.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>game</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Game in json format</dd>
+<dt><strong><code>card</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Card</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>The card index</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_card_index(game, card):
+    &#34;&#34;&#34;Gets a card index in a deck.
+
+    Parameters
+    ----------
+    game : dict
+        Game in json format
+    card : dict
+        Card
+
+    Returns
+    -------
+    int
+        The card index
+    &#34;&#34;&#34;
+    return game[&#39;deck&#39;].index(card)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_losses"><code class="name flex">
+<span>def <span class="ident">get_losses</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts number of games not finished with a perfect score using json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of games without a perfect score</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_losses(stats):
+    &#34;&#34;&#34;Counts number of games not finished with a perfect score using json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games without a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row[&#39;score&#39;] != get_max_score(row[&#39;options&#39;][&#39;variantName&#39;])])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_losses_db"><code class="name flex">
+<span>def <span class="ident">get_losses_db</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts number of games not finished with a perfect score using database.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of games without a perfect score</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_losses_db(stats):
+    &#34;&#34;&#34;Counts number of games not finished with a perfect score using database.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games without a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row.score != get_max_score(row.variant)])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_max_score"><code class="name flex">
+<span>def <span class="ident">get_max_score</span></span>(<span>variant)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the max score for the variant.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>variant</code></strong> :&ensp;<code>str</code></dt>
+<dd>Variant</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Max score for the variant</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_max_score(variant):
+    &#34;&#34;&#34;Calculates the max score for the variant.
+
+    Parameters
+    ----------
+    variant : str
+        Variant
+
+    Returns
+    -------
+    int
+        Max score for the variant
+    &#34;&#34;&#34;
+    return get_number_of_suits(variant) * 5</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_number_of_cards_in_hand"><code class="name flex">
+<span>def <span class="ident">get_number_of_cards_in_hand</span></span>(<span>n_players, one_less_card, one_extra_card)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a number of cards in player's starting hand.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>n_players</code></strong> :&ensp;<code>int</code></dt>
+<dd>Number of players</dd>
+<dt><strong><code>one_less_card</code></strong> :&ensp;<code>bool</code></dt>
+<dd>A flag representing one less card option</dd>
+<dt><strong><code>one_extra_card</code></strong> :&ensp;<code>bool</code></dt>
+<dd>A flag representing one extra card option</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of cards in each starting hand</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card):
+    &#34;&#34;&#34;Gets a number of cards in player&#39;s starting hand.
+
+    Parameters
+    ----------
+    n_players : int
+        Number of players
+    one_less_card : bool
+        A flag representing one less card option
+    one_extra_card : bool
+        A flag representing one extra card option
+
+    Returns
+    -------
+    int
+        Number of cards in each starting hand
+    &#34;&#34;&#34;
+    cards = {
+        2: 5,
+        3: 5,
+        4: 4,
+        5: 4,
+        6: 3
+    }
+    if one_less_card:
+        return cards[n_players] - 1
+    if one_extra_card:
+        return cards[n_players] + 1
+    return cards[n_players]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_number_of_plays_or_discards"><code class="name flex">
+<span>def <span class="ident">get_number_of_plays_or_discards</span></span>(<span>actions)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts a number of plays or discard in a game.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>actions</code></strong> :&ensp;<code>list</code></dt>
+<dd>Game actions</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of plays or discards</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_number_of_plays_or_discards(actions):
+    &#34;&#34;&#34;Counts a number of plays or discard in a game.
+
+    Parameters
+    ----------
+    actions : list
+        Game actions
+
+    Returns
+    -------
+    int
+        Number of plays or discards
+    &#34;&#34;&#34;
+    return len([a for a in actions if a.action_type in [0, 1]])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_number_of_starting_cards"><code class="name flex">
+<span>def <span class="ident">get_number_of_starting_cards</span></span>(<span>n_players, one_less_card, one_extra_card)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a total number of cards in players' starting hands.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>n_players</code></strong> :&ensp;<code>int</code></dt>
+<dd>Number of players</dd>
+<dt><strong><code>one_less_card</code></strong> :&ensp;<code>bool</code></dt>
+<dd>A flag representing one less card option</dd>
+<dt><strong><code>one_extra_card</code></strong> :&ensp;<code>bool</code></dt>
+<dd>A flag representing one extra card option</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of cards in starting hands</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_number_of_starting_cards(n_players, one_less_card, one_extra_card):
+    &#34;&#34;&#34;Gets a total number of cards in players&#39; starting hands.
+
+    Parameters
+    ----------
+    n_players : int
+        Number of players
+    one_less_card : bool
+        A flag representing one less card option
+    one_extra_card : bool
+        A flag representing one extra card option
+
+    Returns
+    -------
+    int
+        Number of cards in starting hands
+    &#34;&#34;&#34;
+    return get_number_of_cards_in_hand(n_players, one_less_card, one_extra_card) * n_players</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_number_of_suits"><code class="name flex">
+<span>def <span class="ident">get_number_of_suits</span></span>(<span>variant)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets number of suits for the variant.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>variant</code></strong> :&ensp;<code>str</code></dt>
+<dd>Variant</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of suits for the variant</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_number_of_suits(variant):
+    &#34;&#34;&#34;Gets number of suits for the variant.
+
+    Parameters
+    ----------
+    variant : str
+        Variant
+
+    Returns
+    -------
+    int
+        Number of suits for the variant
+    &#34;&#34;&#34;
+    default_suits = {
+        &#39;3 Suits&#39;: 3,
+        &#39;4 Suits&#39;: 4,
+        &#39;No Variant&#39;: 5,
+        &#39;6 Suits&#39;: 6,
+        &#39;Dual-Color Mix&#39;: 6,
+        &#39;Ambiguous Mix&#39;: 6,
+        &#39;Ambiguous &amp; Dual-Color&#39;: 6
+    }
+
+    return int(default_suits.get(variant, variant[-8:-7]))</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_player_index"><code class="name flex">
+<span>def <span class="ident">get_player_index</span></span>(<span>game, player)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a player index in an array.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>game</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Game in json format</dd>
+<dt><strong><code>player</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>The player index</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_player_index(game, player):
+    &#34;&#34;&#34;Gets a player index in an array.
+
+    Parameters
+    ----------
+    game : dict
+        Game in json format
+    player : str
+        Player name
+
+    Returns
+    -------
+    int
+        The player index
+    &#34;&#34;&#34;
+    return game[&#39;players&#39;].index(player)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_wins"><code class="name flex">
+<span>def <span class="ident">get_wins</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts number of games finished with a perfect score using json statistics.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of games with a perfect score</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_wins(stats):
+    &#34;&#34;&#34;Counts number of games finished with a perfect score using json statistics.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games with a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row[&#39;score&#39;] == get_max_score(row[&#39;options&#39;][&#39;variantName&#39;])])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.get_wins_db"><code class="name flex">
+<span>def <span class="ident">get_wins_db</span></span>(<span>stats)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Counts number of games finished with a perfect score using database.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stats</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's games</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Number of games with a perfect score</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_wins_db(stats):
+    &#34;&#34;&#34;Counts number of games finished with a perfect score using database.
+
+    Parameters
+    ----------
+    stats : list
+        User&#39;s games
+
+    Returns
+    -------
+    int
+        Number of games with a perfect score
+    &#34;&#34;&#34;
+    return len([row for row in stats if row.score == get_max_score(row.variant)])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.is_clued"><code class="name flex">
+<span>def <span class="ident">is_clued</span></span>(<span>action)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Checks if action represents a clue.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>action</code></strong> :&ensp;<code>GameAction</code></dt>
+<dd>A game action</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>bool</code></dt>
+<dd>A flag representing whether a clue was given or not</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def is_clued(action):
+    &#34;&#34;&#34;Checks if action represents a clue.
+
+    Parameters
+    ----------
+    action : GameAction
+        A game action
+
+    Returns
+    -------
+    bool
+        A flag representing whether a clue was given or not
+    &#34;&#34;&#34;
+    return action.action_type in [2, 3]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.is_played"><code class="name flex">
+<span>def <span class="ident">is_played</span></span>(<span>piles, card_suit_ind, card_rank)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Checks if a card is played.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>piles</code></strong> :&ensp;<code>list</code></dt>
+<dd>Current state of the piles</dd>
+<dt><strong><code>card_suit_ind</code></strong> :&ensp;<code>int</code></dt>
+<dd>Card suit</dd>
+<dt><strong><code>card_rank</code></strong> :&ensp;<code>int</code></dt>
+<dd>Card rank</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>bool</code></dt>
+<dd>A flag representing whether a card is played or not</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def is_played(piles, card_suit_ind, card_rank):
+    &#34;&#34;&#34;Checks if a card is played.
+
+    Parameters
+    ----------
+    piles : list
+        Current state of the piles
+    card_suit_ind : int
+        Card suit
+    card_rank : int
+        Card rank
+
+    Returns
+    -------
+    bool
+        A flag representing whether a card is played or not
+    &#34;&#34;&#34;
+    suit_stack, direction = piles[card_suit_ind]
+    if direction == &#39;up&#39;:
+        return suit_stack + 1 == card_rank
+    elif direction == &#39;down&#39;:
+        return suit_stack - 1 == card_rank
+    elif direction == &#39;&#39;:
+        if suit_stack == 0 and card_rank in (1, 5, 7):
+            return True
+        if suit_stack == 7 and card_rank in [2, 4]:
+            return True
+        else:
+            return False</code></pre>
+</details>
+</dd>
+<dt id="py.utils.mkdir_p"><code class="name flex">
+<span>def <span class="ident">mkdir_p</span></span>(<span>path)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Creates a directory by a specific path.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def mkdir_p(path):
+    &#34;&#34;&#34;Creates a directory by a specific path.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    &#34;&#34;&#34;
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise</code></pre>
+</details>
+</dd>
+<dt id="py.utils.open_csv"><code class="name flex">
+<span>def <span class="ident">open_csv</span></span>(<span>filename)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Opens a csv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>filename</code></strong> :&ensp;<code>str</code></dt>
+<dd>File name</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_csv(filename):
+    &#34;&#34;&#34;Opens a csv file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip().split(&#39;,&#39;) for line in f.readlines()]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.open_file"><code class="name flex">
+<span>def <span class="ident">open_file</span></span>(<span>filename)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Opens a file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>filename</code></strong> :&ensp;<code>str</code></dt>
+<dd>File name</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_file(filename):
+    &#34;&#34;&#34;Opens a file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip() for line in f.readlines()]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.open_stats"><code class="name flex">
+<span>def <span class="ident">open_stats</span></span>(<span>user, session=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets user's statistics from the history page API.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>user</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+<dt><strong><code>session</code></strong> :&ensp;<code>session</code></dt>
+<dd>Current session</dd>
+</dl>
+<p>Returns history in json format</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_stats(user, session=None):
+    &#34;&#34;&#34;Gets user&#39;s statistics from the history page API.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+    session : session
+        Current session
+
+    Returns history in json format
+    &#34;&#34;&#34;
+    user = &#39;Mat%C3%ADas%20V5&#39; if user == &#39;Matías_V5&#39; else user
+    url = f&#39;https://hanab.live/api/v1/history-full/{user}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    return response.json()</code></pre>
+</details>
+</dd>
+<dt id="py.utils.open_stats_by_game_id"><code class="name flex">
+<span>def <span class="ident">open_stats_by_game_id</span></span>(<span>response, game_id)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Filters user's statistics by game id.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>response</code></strong> :&ensp;<code>list</code></dt>
+<dd>User's history in json</dd>
+<dt><strong><code>game_id</code></strong> :&ensp;<code>int</code></dt>
+<dd>Game id</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>The game from user's history</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_stats_by_game_id(response, game_id):
+    &#34;&#34;&#34;Filters user&#39;s statistics by game id.
+
+    Parameters
+    ----------
+    response : list
+        User&#39;s history in json
+    game_id : int
+        Game id
+
+    Returns
+    -------
+    list
+        The game from user&#39;s history
+    &#34;&#34;&#34;
+    return [s for s in response if s[&#39;id&#39;] == game_id][0]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.open_tsv"><code class="name flex">
+<span>def <span class="ident">open_tsv</span></span>(<span>filename)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Opens a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>filename</code></strong> :&ensp;<code>str</code></dt>
+<dd>File name</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_tsv(filename):
+    &#34;&#34;&#34;Opens a tsv file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return [line.rstrip().split(&#39;\t&#39;) for line in f.readlines()]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.p"><code class="name flex">
+<span>def <span class="ident">p</span></span>(<span>value, total)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates a percentage rounded to 2 decimal places.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>value</code></strong> :&ensp;<code>int</code></dt>
+<dd>Current value</dd>
+<dt><strong><code>total</code></strong> :&ensp;<code>int</code></dt>
+<dd>Total value</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>Percentage rounded to 2 decimal places</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def p(value, total):
+    &#34;&#34;&#34;Calculates a percentage rounded to 2 decimal places.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    float
+        Percentage rounded to 2 decimal places
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value * 100 / total, 2)
+    else:
+        return 0</code></pre>
+</details>
+</dd>
+<dt id="py.utils.p1"><code class="name flex">
+<span>def <span class="ident">p1</span></span>(<span>value, total)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Divides two numbers and rounds the result to 2 decimal places.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>value</code></strong> :&ensp;<code>int</code></dt>
+<dd>Current value</dd>
+<dt><strong><code>total</code></strong> :&ensp;<code>int</code></dt>
+<dd>Total value</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>The result of division rounded to 2 decimal places</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def p1(value, total):
+    &#34;&#34;&#34;Divides two numbers and rounds the result to 2 decimal places.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    float
+        The result of division rounded to 2 decimal places
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value / total, 2)
+    else:
+        return 0</code></pre>
+</details>
+</dd>
+<dt id="py.utils.p_no_round"><code class="name flex">
+<span>def <span class="ident">p_no_round</span></span>(<span>value, total)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates a percentage without rounding.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>value</code></strong> :&ensp;<code>int</code></dt>
+<dd>Current value</dd>
+<dt><strong><code>total</code></strong> :&ensp;<code>int</code></dt>
+<dd>Total value</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Percentage without rounding</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def p_no_round(value, total):
+    &#34;&#34;&#34;Calculates a percentage without rounding.
+
+    Parameters
+    ----------
+    value : int
+        Current value
+    total : int
+        Total value
+
+    Returns
+    -------
+    int
+        Percentage without rounding
+    &#34;&#34;&#34;
+    if total != 0:
+        return round(value * 100 / total)
+    else:
+        return 0</code></pre>
+</details>
+</dd>
+<dt id="py.utils.r"><code class="name flex">
+<span>def <span class="ident">r</span></span>(<span>num)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Replaces dots with commas in a number.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>num</code></strong> :&ensp;<code>int</code></dt>
+<dd>A number</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>Number in a string format with replaced dots</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def r(num):
+    &#34;&#34;&#34;Replaces dots with commas in a number.
+
+    Parameters
+    ----------
+    num : int
+        A number
+
+    Returns
+    -------
+    str
+        Number in a string format with replaced dots
+    &#34;&#34;&#34;
+    return str(num).replace(&#39;.&#39;, &#39;,&#39;)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save"><code class="name flex">
+<span>def <span class="ident">save</span></span>(<span>path, data, header)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves data with header into a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+<dt><strong><code>data</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Saved data</dd>
+<dt><strong><code>header</code></strong> :&ensp;<code>list</code></dt>
+<dd>File header</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save(path, data, header):
+    &#34;&#34;&#34;Saves data with header into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : dict
+        Saved data
+    header : list
+        File header
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow(header)
+        for k, v in data.items():
+            w.writerow([k, *v])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_csv"><code class="name flex">
+<span>def <span class="ident">save_csv</span></span>(<span>path, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves data into a csv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+<dt><strong><code>data</code></strong> :&ensp;<code>list</code></dt>
+<dd>Saved data</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_csv(path, data):
+    &#34;&#34;&#34;Saves data into a csv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : list
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.csv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;,&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for v in data:
+            w.writerow(*v)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_data"><code class="name flex">
+<span>def <span class="ident">save_data</span></span>(<span>data, filename, column)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_data(data, filename, column):
+    with open(f&#39;output/winrate/{filename}.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([column, &#39;WR&#39;, &#39;Total games&#39;])
+        for k, v in data.items():
+            w.writerow([k, v[&#39;win&#39;], v[&#39;total&#39;]])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_header"><code class="name flex">
+<span>def <span class="ident">save_header</span></span>(<span>path, header)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves header into a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+<dt><strong><code>header</code></strong> :&ensp;<code>list</code></dt>
+<dd>File header</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_header(path, header):
+    &#34;&#34;&#34;Saves header into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    header : list
+        File header
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        w.writerow(header)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_hours"><code class="name flex">
+<span>def <span class="ident">save_hours</span></span>(<span>data, hours_header)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_hours(data, hours_header):
+    with open(f&#39;output/time/hours_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([&#39;Player: WR (Total games)&#39;] + hours_header)
+        for k in data.keys():
+            w.writerow([k] + [str(data[k][h][&#39;win&#39;]) + f&#39;% ({data[k][h][&#34;total&#34;]})&#39; for h in hours_header])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_plots"><code class="name flex">
+<span>def <span class="ident">save_plots</span></span>(<span>data, hours_header)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_plots(data, hours_header):
+    for k, v in data.items():
+        x = hours_header
+        y = [v[key][&#39;win&#39;] for key in v.keys()]
+        n = [v[key][&#39;total&#39;] for key in v.keys()]
+        fig = plt.figure(figsize=(12, 5))
+        plt.xlabel(&#39;Hours (UTC)&#39;)
+        plt.ylabel(&#39;Total games (#)&#39;)
+        plt.scatter(x, n)
+        for i, txt in enumerate(y):
+            plt.annotate(txt, (x[i], n[i]))
+        plt.title(&#39;Win/loss ratio (%)&#39;)
+        plt.plot(x, n)
+        plt.savefig(f&#39;output/time/plots/{k}.png&#39;)
+        plt.close(fig)</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_up_to_date_stats"><code class="name flex">
+<span>def <span class="ident">save_up_to_date_stats</span></span>(<span>data)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_up_to_date_stats(data):
+    with open(&#39;output/up_to_date_stats.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([
+            &#39;Username&#39;, &#39;Type&#39;,
+            &#39;W/L(%)&#39;, &#39;W(%)&#39;, &#39;L(%)&#39;, &#39;W(#)&#39;, &#39;L(#)&#39;,
+            &#39;W/L(%, 2p)&#39;, &#39;W(%, 2p)&#39;, &#39;L(%, 2p)&#39;, &#39;W(#, 2p)&#39;, &#39;L(#, 2p)&#39;,
+            &#39;W/L(%, 3p)&#39;, &#39;W(%, 3p+)&#39;, &#39;L(%, 3p+)&#39;, &#39;W(#, 3p+)&#39;, &#39;L(#, 3p+)&#39;]
+        )
+        for k, v in sort_by_key(data).items():
+            for k1, t in v.items():
+                w.writerow([
+                    k,
+                    k1,
+                    t[&#39;total_p&#39;][2],
+                    t[&#39;total_p&#39;][0],
+                    t[&#39;total_p&#39;][1],
+                    t[&#39;total_c&#39;][0],
+                    t[&#39;total_c&#39;][1],
+                    t[&#39;total_2p_p&#39;][2],
+                    t[&#39;total_2p_p&#39;][0],
+                    t[&#39;total_2p_p&#39;][1],
+                    t[&#39;total_2p_c&#39;][0],
+                    t[&#39;total_2p_c&#39;][1],
+                    t[&#39;total_3p_p&#39;][2],
+                    t[&#39;total_3p_p&#39;][0],
+                    t[&#39;total_3p_p&#39;][1],
+                    t[&#39;total_3p_c&#39;][0],
+                    t[&#39;total_3p_c&#39;][1]]
+                )</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_value"><code class="name flex">
+<span>def <span class="ident">save_value</span></span>(<span>path, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves data into a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+<dt><strong><code>data</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Saved data</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_value(path, data):
+    &#34;&#34;&#34;Saves data into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : dict
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;a&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for k, v in data.items():
+            w.writerow([k, v])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.save_wr"><code class="name flex">
+<span>def <span class="ident">save_wr</span></span>(<span>data)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_wr(data):
+    with open(&#39;output/winrate/highest_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow([&#39;Username&#39;, &#39;W(%)&#39;, &#39;Total games&#39;])
+        for k, v in sorted(data.items(), key=lambda item: item[1][&#39;Totals&#39;][&#39;total_p&#39;], reverse=True):
+            w.writerow([
+                k,
+                v[&#39;Totals&#39;][&#39;total_p&#39;][0],
+                v[&#39;Totals&#39;][&#39;total_c&#39;][2]
+            ])</code></pre>
+</details>
+</dd>
+<dt id="py.utils.sort"><code class="name flex">
+<span>def <span class="ident">sort</span></span>(<span>data, col_ind)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Sorts a dictionary by column index in descending order.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>data</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Initial dictionary</dd>
+<dt><strong><code>col_ind</code></strong> :&ensp;<code>int</code></dt>
+<dd>Column index</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>dict</code></dt>
+<dd>A dictionary sorted by column index in descending order.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sort(data, col_ind):
+    &#34;&#34;&#34;Sorts a dictionary by column index in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+    col_ind : int
+        Column index
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by column index in descending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}</code></pre>
+</details>
+</dd>
+<dt id="py.utils.sort_by_key"><code class="name flex">
+<span>def <span class="ident">sort_by_key</span></span>(<span>data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Sorts a dictionary by key in ascending order.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>data</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Initial dictionary</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>dict</code></dt>
+<dd>A dictionary sorted by key in ascending order.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sort_by_key(data):
+    &#34;&#34;&#34;Sorts a dictionary by key in ascending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by key in ascending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}</code></pre>
+</details>
+</dd>
+<dt id="py.utils.sort_by_value"><code class="name flex">
+<span>def <span class="ident">sort_by_value</span></span>(<span>data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Sorts a dictionary by value in descending order.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>data</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Initial dictionary</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>dict</code></dt>
+<dd>A dictionary sorted by value in descending order.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sort_by_value(data):
+    &#34;&#34;&#34;Sorts a dictionary by value in descending order.
+
+    Parameters
+    ----------
+    data : dict
+        Initial dictionary
+
+    Returns
+    -------
+    dict
+        A dictionary sorted by value in descending order.
+    &#34;&#34;&#34;
+    return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}</code></pre>
+</details>
+</dd>
+<dt id="py.utils.time_spent"><code class="name flex">
+<span>def <span class="ident">time_spent</span></span>(<span>start_time)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets difference between current time and given time.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>start_time</code></strong> :&ensp;<code>datetime</code></dt>
+<dd>Start time</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>Difference in millis between current time and start time</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def time_spent(start_time):
+    &#34;&#34;&#34;Gets difference between current time and given time.
+
+    Parameters
+    ----------
+    start_time : datetime
+        Start time
+
+    Returns
+    -------
+    int
+        Difference in millis between current time and start time
+    &#34;&#34;&#34;
+    return current_time() - start_time</code></pre>
+</details>
+</dd>
+<dt id="py.utils.up_or_down_direction"><code class="name flex">
+<span>def <span class="ident">up_or_down_direction</span></span>(<span>piles, card_suit_ind, card_rank)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets a direction for the 'Up or Down' variant.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>piles</code></strong> :&ensp;<code>list</code></dt>
+<dd>Current state of the piles</dd>
+<dt><strong><code>card_suit_ind</code></strong> :&ensp;<code>int</code></dt>
+<dd>Card suit</dd>
+<dt><strong><code>card_rank</code></strong> :&ensp;<code>int</code></dt>
+<dd>Card rank</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><strong><code>direction</code></strong> :&ensp;<code>str</code></dt>
+<dd>The current direction for the 'Up or Down' variant</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def up_or_down_direction(piles, card_suit_ind, card_rank):
+    &#34;&#34;&#34;Gets a direction for the &#39;Up or Down&#39; variant.
+
+    Parameters
+    ----------
+    piles : list
+        Current state of the piles
+    card_suit_ind : int
+        Card suit
+    card_rank : int
+        Card rank
+
+    Returns
+    -------
+    direction : str
+        The current direction for the &#39;Up or Down&#39; variant
+    &#34;&#34;&#34;
+    direction = piles[card_suit_ind][1]
+    if direction == &#39;&#39;:
+        directions = {
+            1: &#39;up&#39;,
+            2: &#39;up&#39;,
+            4: &#39;down&#39;,
+            5: &#39;down&#39;
+        }
+        return directions.get(card_rank, &#39;&#39;)
+    return direction</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py" href="index.html">py</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="py.utils.add_zero" href="#py.utils.add_zero">add_zero</a></code></li>
+<li><code><a title="py.utils.clear_2p" href="#py.utils.clear_2p">clear_2p</a></code></li>
+<li><code><a title="py.utils.clear_speedruns" href="#py.utils.clear_speedruns">clear_speedruns</a></code></li>
+<li><code><a title="py.utils.contains_user" href="#py.utils.contains_user">contains_user</a></code></li>
+<li><code><a title="py.utils.convert_sec_to_day" href="#py.utils.convert_sec_to_day">convert_sec_to_day</a></code></li>
+<li><code><a title="py.utils.current_time" href="#py.utils.current_time">current_time</a></code></li>
+<li><code><a title="py.utils.export_game" href="#py.utils.export_game">export_game</a></code></li>
+<li><code><a title="py.utils.files_in_dir" href="#py.utils.files_in_dir">files_in_dir</a></code></li>
+<li><code><a title="py.utils.filter_bga" href="#py.utils.filter_bga">filter_bga</a></code></li>
+<li><code><a title="py.utils.filter_non_bga" href="#py.utils.filter_non_bga">filter_non_bga</a></code></li>
+<li><code><a title="py.utils.get_2p" href="#py.utils.get_2p">get_2p</a></code></li>
+<li><code><a title="py.utils.get_3p" href="#py.utils.get_3p">get_3p</a></code></li>
+<li><code><a title="py.utils.get_action_type_length" href="#py.utils.get_action_type_length">get_action_type_length</a></code></li>
+<li><code><a title="py.utils.get_card_index" href="#py.utils.get_card_index">get_card_index</a></code></li>
+<li><code><a title="py.utils.get_losses" href="#py.utils.get_losses">get_losses</a></code></li>
+<li><code><a title="py.utils.get_losses_db" href="#py.utils.get_losses_db">get_losses_db</a></code></li>
+<li><code><a title="py.utils.get_max_score" href="#py.utils.get_max_score">get_max_score</a></code></li>
+<li><code><a title="py.utils.get_number_of_cards_in_hand" href="#py.utils.get_number_of_cards_in_hand">get_number_of_cards_in_hand</a></code></li>
+<li><code><a title="py.utils.get_number_of_plays_or_discards" href="#py.utils.get_number_of_plays_or_discards">get_number_of_plays_or_discards</a></code></li>
+<li><code><a title="py.utils.get_number_of_starting_cards" href="#py.utils.get_number_of_starting_cards">get_number_of_starting_cards</a></code></li>
+<li><code><a title="py.utils.get_number_of_suits" href="#py.utils.get_number_of_suits">get_number_of_suits</a></code></li>
+<li><code><a title="py.utils.get_player_index" href="#py.utils.get_player_index">get_player_index</a></code></li>
+<li><code><a title="py.utils.get_wins" href="#py.utils.get_wins">get_wins</a></code></li>
+<li><code><a title="py.utils.get_wins_db" href="#py.utils.get_wins_db">get_wins_db</a></code></li>
+<li><code><a title="py.utils.is_clued" href="#py.utils.is_clued">is_clued</a></code></li>
+<li><code><a title="py.utils.is_played" href="#py.utils.is_played">is_played</a></code></li>
+<li><code><a title="py.utils.mkdir_p" href="#py.utils.mkdir_p">mkdir_p</a></code></li>
+<li><code><a title="py.utils.open_csv" href="#py.utils.open_csv">open_csv</a></code></li>
+<li><code><a title="py.utils.open_file" href="#py.utils.open_file">open_file</a></code></li>
+<li><code><a title="py.utils.open_stats" href="#py.utils.open_stats">open_stats</a></code></li>
+<li><code><a title="py.utils.open_stats_by_game_id" href="#py.utils.open_stats_by_game_id">open_stats_by_game_id</a></code></li>
+<li><code><a title="py.utils.open_tsv" href="#py.utils.open_tsv">open_tsv</a></code></li>
+<li><code><a title="py.utils.p" href="#py.utils.p">p</a></code></li>
+<li><code><a title="py.utils.p1" href="#py.utils.p1">p1</a></code></li>
+<li><code><a title="py.utils.p_no_round" href="#py.utils.p_no_round">p_no_round</a></code></li>
+<li><code><a title="py.utils.r" href="#py.utils.r">r</a></code></li>
+<li><code><a title="py.utils.save" href="#py.utils.save">save</a></code></li>
+<li><code><a title="py.utils.save_csv" href="#py.utils.save_csv">save_csv</a></code></li>
+<li><code><a title="py.utils.save_data" href="#py.utils.save_data">save_data</a></code></li>
+<li><code><a title="py.utils.save_header" href="#py.utils.save_header">save_header</a></code></li>
+<li><code><a title="py.utils.save_hours" href="#py.utils.save_hours">save_hours</a></code></li>
+<li><code><a title="py.utils.save_plots" href="#py.utils.save_plots">save_plots</a></code></li>
+<li><code><a title="py.utils.save_up_to_date_stats" href="#py.utils.save_up_to_date_stats">save_up_to_date_stats</a></code></li>
+<li><code><a title="py.utils.save_value" href="#py.utils.save_value">save_value</a></code></li>
+<li><code><a title="py.utils.save_wr" href="#py.utils.save_wr">save_wr</a></code></li>
+<li><code><a title="py.utils.sort" href="#py.utils.sort">sort</a></code></li>
+<li><code><a title="py.utils.sort_by_key" href="#py.utils.sort_by_key">sort_by_key</a></code></li>
+<li><code><a title="py.utils.sort_by_value" href="#py.utils.sort_by_value">sort_by_value</a></code></li>
+<li><code><a title="py.utils.time_spent" href="#py.utils.time_spent">time_spent</a></code></li>
+<li><code><a title="py.utils.up_or_down_direction" href="#py.utils.up_or_down_direction">up_or_down_direction</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>

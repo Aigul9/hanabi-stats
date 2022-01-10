@@ -1,6 +1,6 @@
 from sqlalchemy import func, false
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player, Variant
 
 
@@ -15,7 +15,7 @@ def get_teammates(username):
     Returns
     -------
     teammates_list : list
-        List of teammates
+        Teammates
     """
     teammates_list = session.query(func.unnest(Game.players))\
         .distinct()\
@@ -26,22 +26,22 @@ def get_teammates(username):
     return teammates_list
 
 
-def get_teammate_winrate(username, teammates_list):
-    """Gets winrate by a teammate.
+def get_teammate_win_rate(username, teammates_list):
+    """Gets win rate by a teammate.
 
     Parameters
     ----------
     username : str
         Player name
     teammates_list : list
-        List of teammates
+        Teammates
 
     Returns
     -------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
+    teammate_win_rate_dict : dict
+        Teammate's win rate sorted by win rate in descending order
     """
-    teammate_winrate_dict = {}
+    teammate_win_rate_dict = {}
     games = session.query(Game, Variant)\
         .join(Variant)\
         .filter(Game.players.any(username))\
@@ -57,29 +57,30 @@ def get_teammate_winrate(username, teammates_list):
 
         wins_count = len([game for game, variant in games if teammate in game.players
                           and game.score == variant.max_score])
-        winrate = u.p(wins_count, games_count)
-        teammate_winrate_dict[teammate] = winrate
-    return u.sort_by_value(teammate_winrate_dict)
+        win_rate = u.p(wins_count, games_count)
+        teammate_win_rate_dict[teammate] = win_rate
+    return u.sort_by_value(teammate_win_rate_dict)
 
 
-def get_preference(teammate_winrate_dict):
+def get_preference(teammate_win_rate_dict):
     """Calculates preference for each teammate.
 
     Parameters
     ----------
-    teammate_winrate_dict : dict
-        Winrate by a teammate sorted by winrate in a descending order
+    teammate_win_rate_dict : dict
+        Teammate's win rate sorted by win rate in descending order
 
     Returns
     -------
+    teammate_preference_dict : dict
         Preference by a teammate
     """
     teammate_preference_dict = {}
-    teammates_count = len(teammate_winrate_dict)
-    for teammate in teammate_winrate_dict.keys():
+    teammates_count = len(teammate_win_rate_dict)
+    for teammate in teammate_win_rate_dict.keys():
         teammate_preference_dict[teammate] =\
             (
-                    teammates_count - list(teammate_winrate_dict.keys())
+                    teammates_count - list(teammate_win_rate_dict.keys())
                     .index(teammate) - 1
             ) / teammates_count
     return teammate_preference_dict
@@ -136,8 +137,8 @@ if __name__ == "__main__":
     users_preference = {k: {'preference': 0, 'lists_count': 0} for k in users}
     for user in users:
         teammates = get_teammates(user)
-        teammate_winrate = get_teammate_winrate(user, teammates)
-        teammate_preference = get_preference(teammate_winrate)
+        teammate_win_rate = get_teammate_win_rate(user, teammates)
+        teammate_preference = get_preference(teammate_win_rate)
         users_preference = update_preference(users_preference, teammate_preference)
 
     users_preference = average_preference(users_preference)

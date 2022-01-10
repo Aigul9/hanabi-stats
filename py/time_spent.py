@@ -1,7 +1,7 @@
 import csv
 from itertools import groupby
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
@@ -27,7 +27,7 @@ def group_stats(games):
     Parameters
     ----------
     games : list
-        List of player's games
+        Player's games
 
     Returns
     -------
@@ -50,7 +50,7 @@ def get_times(username):
     Returns
     -------
     times : list
-        List of total seconds, minutes per game and hours per day
+        Total seconds, minutes per game and hours per day
     """
     games = session.query(Game) \
         .filter(Game.players.any(username))\

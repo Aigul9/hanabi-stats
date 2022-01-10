@@ -1,12 +1,12 @@
 import csv
 from sqlalchemy import false
 
-import py_no_doc.utils as u
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
 def sort_terminated(condition_count_dict):
-    """Sorts players by number of terminated games in a descending order.
+    """Sorts players by number of terminated games in descending order.
 
     Parameters
     ----------
@@ -22,7 +22,7 @@ def sort_terminated(condition_count_dict):
 
 
 def sort_strikeout(condition_count_dict):
-    """Sorts players by number of strikeout games in a descending order.
+    """Sorts players by number of strikeout games in descending order.
 
     Parameters
     ----------

@@ -140,7 +140,7 @@ def get_variants(username):
     Returns
     -------
     list
-        List of player's games without 2-player and speedruns
+        Player's games without 2-player and speedruns
     """
     return session.query(Game.variant) \
         .filter(Game.players.any(username)) \
