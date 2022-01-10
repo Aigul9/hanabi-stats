@@ -21,7 +21,7 @@ See source code: https://github.com/Aigul9/hanabi-stats-vis
 - ```neo4j```: scripts and generated data fed into neo4j database;
 - ```output```: results;
 - ```py```: python scripts to download and parse statistics, calculate user data;
-- ```py```: undocumented python scripts;
+- ```py_old```: undocumented unused python scripts;
 - ```resources```: list of available variants and their efficiency;
 - ```swagger```: API documentation.
 
@@ -29,6 +29,6 @@ See source code: https://github.com/Aigul9/hanabi-stats-vis
 1. Exclude double dark variants.
 2. Exclude teammates with less than 100 games.
 3. Sort the list by win/loss ratio and divide it into two parts.
-4. Select top 5 and bottom 5 teammates (or less if not possible). Player in the middle includes in the list with the closest W/L ([see below](#the-tables-structure)).
+4. Select top 5 and bottom 5 teammates (or less if not possible). Player in the middle includes in the list with the closest W/L.
 5. If the player contains in the these lists, increase or decrease their rank from 1 to 5 depending on the place: for instance, the first player in the top 5 list receives +5 points, the last player in the bottom 5 list receives -5 points.
 6. To sum up, the rank shows the frequency of wins with different players.
