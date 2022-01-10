@@ -28,6 +28,12 @@ where num_players = 3
   and one_less_card is false
 group by seed;
 
-select max(game_id) from games;
-
-select max(game_id) from tags;
+--stephen
+select total, term, round(term * 100.0 / total) as perc
+from (select count(*) as total,
+    count(*) filter (where end_condition = 4) as term from games
+    where num_players = 2
+    and 'Dr_Kakashi' = any (players)
+    and 'kimbifille' = any (players)
+    and speedrun is false
+    ) t;
