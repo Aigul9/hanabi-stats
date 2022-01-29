@@ -14,9 +14,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# fileHandler = logging.FileHandler('../database/errors.log')
-# fileHandler.setLevel(logging.INFO)
-# logger.addHandler(fileHandler)
+fileHandler = logging.FileHandler('../database/errors.log')
+fileHandler.setLevel(logging.INFO)
+logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
 logger.addHandler(consoleHandler)

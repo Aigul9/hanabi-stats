@@ -616,3 +616,56 @@ from (select player1,
      ) t
 where total >= 100
 order by 5 desc;
+
+--playing with tags
+select tag, player, count(*) as count from tags
+group by tag, player
+order by 3 desc;
+-- sieve	55
+-- hl-comp	52
+-- endgame	50
+-- learning	44
+-- gref	22
+-- fluff	11
+-- speedrun	10
+
+-- hl-comp	vEnhance	52
+-- sieve	sjdrodge	52
+-- endgame	MarkusKahlsen	47
+-- learning	sjdrodge	44
+-- gref	lilyxy	22
+-- speedrun	emmaparsnip	10
+
+select tag, player, max(length(tag)) as count from tags
+group by tag, player
+order by 3 desc;
+
+select distinct player, count(*) from tags where tag = 'sieve' group by player;
+select distinct player, count(*) from tags where tag = 'hl-comp' group by player;
+select distinct player, count(*) from tags where tag = 'endgame' group by player;
+select distinct player, count(*) from tags where tag = 'learning' group by player;
+select distinct player, count(*) from tags where tag = 'gref' group by player;
+select distinct player, count(*) from tags where tag = 'fluff' group by player;
+select distinct player, count(*) from tags where tag = 'speedrun' group by player;
+
+select distinct player from tags order by 1;
+
+--sum times in pairs
+with pair
+    as (select pl1.player as player1,
+               pl2.player as player2
+        from players_list pl1,
+             players_list pl2
+        --remove duplicates
+        where pl1.player < pl2.player
+    )
+select player1,
+       player2,
+       round(extract(epoch from sum(date_time_finished-date_time_started)) / 3600) as hours,
+       count(*)
+from pair p join games g on player1 = any(players) and player2 = any(players)
+group by player1, player2
+order by 3 desc;
+
+--
+select * from player_notes where game_id = 491391;

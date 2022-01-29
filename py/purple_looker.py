@@ -96,6 +96,6 @@ def save(grouped_stats, user):
 
 
 if __name__ == "__main__":
-    username = 'newduke'
+    username = 'Lanvin'
     data = group_stats(clear_2p(clear_speedruns(open_stats(username))))
     save(data, username)

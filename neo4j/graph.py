@@ -2,7 +2,7 @@ import csv
 import networkx as nx
 from networkx.algorithms import community
 
-import py_no_doc.utils as u
+import py.utils as u
 
 
 G = nx.Graph()

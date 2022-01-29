@@ -1,6 +1,6 @@
 import csv
 
-import py_no_doc.utils as u
+import py.utils as u
 
 
 weights_easy = u.open_csv('weights_easy.csv')

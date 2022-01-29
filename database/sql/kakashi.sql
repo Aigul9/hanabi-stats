@@ -1,4 +1,6 @@
-select g.game_id, max(turn_action)from games g
+--kakashi
+--(average) turns for no var games
+select g.game_id, max(turn_action) from games g
 join card_actions ca on g.game_id = ca.game_id
 where num_players = 3
   and end_condition = 1
@@ -16,7 +18,7 @@ select * from game_actions where game_id = 4761;
 select * from bugged_games;
 
 --seeds
-select distinct seed, max(turn_action)from games g
+select distinct seed, max(turn_action) from games g
 join card_actions ca on g.game_id = ca.game_id
 where num_players = 3
   and end_condition = 1
