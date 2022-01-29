@@ -43,6 +43,29 @@ def open_stats(user, session=None):
     return response.json()
 
 
+def open_stats_from_id_min(user, id_min, session=None):
+    """Gets user's statistics from the history page API starting from the game id.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+    id_min : int
+        Min game id
+    session : session
+        Current session
+
+    Returns history in json format starting from the game id
+    """
+    user = 'Mat%C3%ADas%20V5' if user == 'Matías_V5' else user
+    url = f'https://hanab.live/api/v1/history-full/{user}?id_min={id_min}'
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    return response.json()
+
+
 def open_stats_by_game_id(response, game_id):
     """Filters user's statistics by game id.
 
