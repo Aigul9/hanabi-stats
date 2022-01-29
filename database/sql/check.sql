@@ -267,3 +267,8 @@ select distinct game_id from games where game_id between 630001 and 690000;
 --Matias
 --last check: 05.01.2022
 
+--A19: Matías_V5
+select count(*) from games where 'Matías_V5' = any(players);
+--1829
+--"total_rows":1851
+--last check: 29.01.2022

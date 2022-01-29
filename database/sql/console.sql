@@ -315,12 +315,13 @@ join games g on t.game_id = g.game_id
 where count > 3
 order by 1;
 
-select * from games where game_id = 443663;
+select * from games where game_id = 696600;
 select * from decks where seed = 'p3v59s46';
-select * from card_actions where game_id = 630613;
+select * from card_actions where game_id = 696600;
 
 delete from decks where seed = 'p3v59s46';
 
-select * from games where game_id = 695400;
+select * from games where game_id = 704665;
+select min(game_id) from games;
 select * from tags;
 

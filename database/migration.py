@@ -25,6 +25,8 @@ while True:
             last_id += 1
             continue
         player = g['players'][0]
+        if player == 'Libster':
+            player = g['players'][1]
         if player in histories.keys():
             s = u.open_stats_by_game_id(histories[player], g_id)
         else:
