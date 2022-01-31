@@ -12,8 +12,7 @@ import database.db_load as d
 
 last_id = session.query(func.max(Game.game_id)).scalar()
 # last_id = 443662
-logger.info(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
-logger.info(f'last id: {last_id}')
+logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id}')
 req_session = requests.Session()
 histories = {}
 while True:
@@ -25,13 +24,11 @@ while True:
             last_id += 1
             continue
         player = g['players'][0]
-        if player == 'Libster':
-            player = g['players'][1]
         if player in histories.keys():
             s = u.open_stats_by_game_id(histories[player], g_id)
         else:
             try:
-                response = u.open_stats(player, req_session)
+                response = u.open_stats_from_id_start(player, last_id, req_session)
             except JSONDecodeError:
                 logger.error(f'error: {g_id}')
                 last_id += 1
@@ -50,8 +47,7 @@ while True:
         d.session.commit()
     else:
         d.session.close()
-        logger.info(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
-        logger.debug(f'end: {g_id}')
+        logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tfinish:\t{g_id}')
         break
 
 d.session.close()

@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 fileHandler = logging.FileHandler('../database/errors.log')
-fileHandler.setLevel(logging.INFO)
+fileHandler.setLevel(logging.DEBUG)
 logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
@@ -43,22 +43,22 @@ def open_stats(user, session=None):
     return response.json()
 
 
-def open_stats_from_id_min(user, id_min, session=None):
+def open_stats_from_id_start(user, id_start, session=None):
     """Gets user's statistics from the history page API starting from the game id.
 
     Parameters
     ----------
     user : str
         Player name
-    id_min : int
-        Min game id
+    id_start : int
+        Start game id
     session : session
         Current session
 
     Returns history in json format starting from the game id
     """
     user = 'Mat%C3%ADas%20V5' if user == 'Matías_V5' else user
-    url = f'https://hanab.live/api/v1/history-full/{user}?id_min={id_min}'
+    url = f'https://hanab.live/api/v1/history-full/{user}?start={id_start}'
     if session is None:
         response = requests.get(url)
     else:
