@@ -266,6 +266,11 @@ select distinct game_id from games where game_id between 630001 and 690000;
 --not ok
 --Matias
 --last check: 05.01.2022
+select count(*) from games where game_id >= 711130;
+--1368
+select max(game_id) from games; --712497
+select max(game_id) - 711130 + 1 from games;
+--1368
 
 --A19: Matías_V5
 select count(*) from games where 'Matías_V5' = any(players);

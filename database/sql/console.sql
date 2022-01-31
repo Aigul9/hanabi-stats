@@ -60,11 +60,16 @@ order by 1 desc;
 select * from games where players <@ ARRAY['Fireheart', 'Valetta6789']::varchar[];
 
 --delete
---delete from table where 1 = 1;
--- delete from card_actions where game_id = 597969;
--- delete from clues where game_id = 597969;
--- delete from card_actions where game_id in (410466, 345883, 403401);
--- delete from clues where game_id in (410466, 345883, 403401);
+-- delete from table where 1 = 1;
+--
+-- delete from slots where game_id >= 712498;
+-- delete from card_actions where game_id >= 712498;
+-- delete from clues where game_id >= 712498;
+-- delete from game_actions where game_id >= 712498;
+-- delete from tags where game_id >= 712498;
+-- delete from player_notes where game_id >= 712498;
+-- delete from games where game_id >= 712498;
+--
 -- delete from decks where seed = 'p2v83s80';
 -- delete from variants where variant_id = 9999;
 
@@ -315,13 +320,111 @@ join games g on t.game_id = g.game_id
 where count > 3
 order by 1;
 
-select * from games where game_id = 696600;
-select * from decks where seed = 'p3v59s46';
-select * from card_actions where game_id = 696600;
+select * from games where game_id = 712498;
+select * from decks where seed = 'p2v1646s1';
+select * from games where seed = 'p2v1646s1';
+select * from card_actions where game_id = 712498;
+
+update decks set seed = concat(seed, '_syn') where seed in
+(select distinct seed from games where variant_id in (16461, 18081, 18121, 18161));
+update games set seed = concat(seed, '_syn') where variant_id in (16461, 18081, 18121, 18161);
 
 delete from decks where seed = 'p3v59s46';
 
-select * from games where game_id = 704665;
+select * from games where game_id = 712498;
 select min(game_id) from games;
 select * from tags;
+
+select max(variant_id) from variants;
+select * from variants where variant_id = 1816;
+
+-- Odds And Evens (6 Suits) (#1646)
+-- Odds And Evens (5 Suits) (#1808)
+-- Odds And Evens (4 Suits) (#1812)
+-- Odds And Evens (3 Suits) (#1816)
+
+select * from variants where variant_id = 1;
+select * from variants where variant_id = 1646;
+insert into variants values(16461);
+insert into variants values(18081);
+insert into variants values(18121);
+insert into variants values(18161);
+
+delete from variants where variant_id in ('16461', '18081', '18121', '18161');
+
+INSERT INTO variants
+(variant_id,
+ variant,
+ max_score,
+ suits,
+ special_rank,
+ special_deceptive,
+ special_all_clue_colors,
+ special_all_clue_ranks,
+ special_no_clue_colors,
+ special_no_clue_ranks,
+ colors,
+ eff_2p,
+ eff_34p,
+ eff_5p,
+ eff_6p)
+SELECT 18161,
+       variant,
+max_score,
+suits,
+special_rank,
+special_deceptive,
+special_all_clue_colors,
+special_all_clue_ranks,
+special_no_clue_colors,
+special_no_clue_ranks,
+colors,
+eff_2p,
+eff_34p,
+eff_5p,
+eff_6p
+FROM variants WHERE variant_id = 1816;
+
+update games set variant_id = 16461 where variant_id = 1646;
+update games set variant_id = 18081 where variant_id = 1808;
+update games set variant_id = 18121 where variant_id = 1812;
+update games set variant_id = 18161 where variant_id = 1816;
+
+UPDATE variants
+SET
+    variant = 'Odds And Evens (3 Suits)',
+ max_score = 15,
+ suits = subquery.suits,
+ special_rank = subquery.special_rank,
+ special_deceptive = subquery.special_deceptive,
+ special_all_clue_colors = subquery.special_all_clue_colors,
+ special_all_clue_ranks = subquery.special_all_clue_ranks,
+ special_no_clue_colors = subquery.special_no_clue_colors,
+ special_no_clue_ranks = subquery.special_no_clue_ranks,
+ colors = subquery.colors,
+ eff_2p = subquery.eff_2p,
+ eff_34p = subquery.eff_34p,
+ eff_5p = subquery.eff_5p,
+ eff_6p = subquery.eff_6p
+FROM (
+         SELECT variant,
+                max_score,
+                suits,
+                special_rank,
+                special_deceptive,
+                special_all_clue_colors,
+                special_all_clue_ranks,
+                special_no_clue_colors,
+                special_no_clue_ranks,
+                colors,
+                eff_2p,
+                eff_34p,
+                eff_5p,
+                eff_6p
+         FROM variants
+         where variant = '3 Suits'
+     ) AS subquery
+WHERE variant_id = 1816;
+
+select * from variants where variant_id = 1816;
 
