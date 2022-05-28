@@ -109,10 +109,11 @@ from (
                   from slots s
                            join card_actions ca
                                 on s.game_id = ca.game_id and s.card_index = ca.card_index
-                  where s.game_id = (select g_id from variables)
+                  where s.game_id = 367460
+                  --where s.game_id = (select g_id from variables)
 --     and player = 'kopen'
 --     and turn <= 73
-                    and turn <= (select max(turn) from slots where game_id = (select g_id from variables))
+                   -- and turn <= (select max(turn) from slots where game_id = 367460) --(select g_id from variables))
               ) as dt
          where rank = 1
      ) dt2
@@ -669,3 +670,39 @@ order by 3 desc;
 
 --
 select * from player_notes where game_id = 491391;
+
+--games where r2 was on slot 4
+--i forgot one important thing
+--your hand: 3-3-3-b2, someone clues 3s, b1 is played
+--which 3 is promised as b if you have elimination notes for b2?
+select distinct card.game_id, concat('hanab.live/replay/', card.game_id, '#', turn + 1) as replay from
+(select distinct game_id, card_index from card_actions
+where card_suit = 'red' and card_rank = 2
+    and game_id < 71990) card
+join slots
+on card.game_id = slots.game_id
+and card.card_index = slots.card_index
+join games
+on games.game_id = card.game_id
+where slot = 4
+and 'Valetta6789' = any(players)
+  and 'asaelr' = any(players)
+and num_players in (4, 5)
+and turn != 0;
+
+select * from slots where game_id = 50974;
+
+-- not at one point of time (needs a fix)
+select s.game_id, s.card_index, slot, card_suit, card_rank, player
+       --, rank() over (partition by slot, player, s.card_index order by player) as rank
+from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
+join games g on ca.game_id = g.game_id
+where g.game_id < 71990
+and 'Valetta6789' = any(players)
+and num_players in (4, 5)
+and (
+    slot in (1, 2, 3) and card_rank = 3
+or slot = 4 and card_rank = 2)
+-- group by s.game_id, s.card_index, player
+-- having count(*) >= 4
+order by game_id, player, slot;

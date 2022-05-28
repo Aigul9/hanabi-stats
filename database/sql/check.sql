@@ -277,3 +277,5 @@ select count(*) from games where 'Matías_V5' = any(players);
 --1829
 --"total_rows":1851
 --last check: 29.01.2022
+
+--2022-05-28 23:08:09,720 - INFO - 28.05.2022 23:08:09	start:	712946 - migration.py:15:<module>()
