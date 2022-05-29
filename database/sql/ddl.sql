@@ -324,3 +324,7 @@ select * from variants where variant_id = 1353;
 select * from variants where variant like 'Syn%' or variant like 'Critical%';
 --60
 update variants set colors = null where variant like 'Syn%' or variant like 'Critical%';
+
+select * into tags_copy from tags;
+alter table tags drop constraint tags_pkey;
+alter table tags add primary key(game_id, player, tag);

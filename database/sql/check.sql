@@ -278,4 +278,13 @@ select count(*) from games where 'Matías_V5' = any(players);
 --"total_rows":1851
 --last check: 29.01.2022
 
+--A20: manual checking for a single game from all tables
+select * from games where game_id = 745130;
+select * from card_actions where game_id = 714844 order by turn_action;
+select * from clues where game_id = 714844 order by turn_clued;
+select s.game_id, turn, player, card_suit, card_rank, slot
+    from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
+where s.game_id = 714844 order by turn, player, slot;
+
+
 --2022-05-28 23:08:09,720 - INFO - 28.05.2022 23:08:09	start:	712946 - migration.py:15:<module>()

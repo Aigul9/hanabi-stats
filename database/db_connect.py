@@ -280,7 +280,7 @@ class Slot(Base):
 class Tag(Base):
     __tablename__ = 'tags'
     game_id = Column(Integer, primary_key=True)
-    player = Column(String)
+    player = Column(String, primary_key=True)
     tag = Column(String, primary_key=True)
 
     def __init__(self, game_id, player, tag):

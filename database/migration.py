@@ -11,7 +11,7 @@ import database.db_load as d
 
 
 last_id = session.query(func.max(Game.game_id)).scalar()
-# last_id = 443662
+# last_id = 726704
 logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id}')
 req_session = requests.Session()
 histories = {}

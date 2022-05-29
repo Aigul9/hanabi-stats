@@ -619,3 +619,6 @@ FROM variants WHERE variant = 'Dark Prism (6 Suits)';
 INSERT INTO variants (variant_id, variant, max_score, suits, special_rank, special_deceptive, special_all_clue_colors, special_all_clue_ranks, special_no_clue_colors, special_no_clue_ranks, colors, eff_2p, eff_34p, eff_5p, eff_6p)
 SELECT 1895, 'Odds and Evens & Dark Prism (5 Suits)', max_score, suits, special_rank, special_deceptive, special_all_clue_colors, special_all_clue_ranks, special_no_clue_colors, special_no_clue_ranks, colors, eff_2p, eff_34p, eff_5p, eff_6p
 FROM variants WHERE variant = 'Dark Prism (5 Suits)';
+
+select * from tags order by 1;
+delete from tags where game_id = 752506;
