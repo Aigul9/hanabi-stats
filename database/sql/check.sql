@@ -13,7 +13,7 @@ SELECT nspname || '.' || relname AS "relation",
 
 --Tests
 --A01: 3 misplays != strikeout
-insert into bugged_games select game_id from
+insert into bugged_games select game_id, 'A01' from
 (select g.game_id from
               (select distinct game_id, count(*) as count from card_actions
               where action_type = 'misplay'
@@ -21,15 +21,11 @@ insert into bugged_games select game_id from
 join games g on t.game_id = g.game_id
 where count = 3 and end_condition != 2) as tg
 ON CONFLICT DO NOTHING;
--- 17847
--- 624967
--- 624982
--- 651849
---not ok
---last check: 05.01.2022
+--4
+--last check: 29.05.2022
 
 --A02: Games with more than 3 strikes
-insert into bugged_games select game_id from
+insert into bugged_games select game_id, 'A02' from
 (select g.game_id from
               (select distinct game_id, count(*) as count from card_actions
               where action_type = 'misplay'
@@ -38,48 +34,25 @@ join games g on t.game_id = g.game_id
 where count > 3
 order by 1) as tg
 ON CONFLICT DO NOTHING;
--- 651848
--- 651850
--- 651851
--- 651852
--- 651853
--- 651854
--- 651856
--- 651857
--- 651858
--- 651859
--- 651860
--- 651863
--- 651865
--- 651867
--- 651868
--- 651869
--- 651870
--- 651872
--- 651873
--- 651874
--- 651877
---not ok
---last check: 05.01.2022
+--21
+--last check: 29.05.2022
 
 --A03: Clue giver = clue receiver
-insert into bugged_games select game_id from(
+insert into bugged_games select game_id, 'A03' from(
 --detrimental characters that act twice in a row are written wrongly (Contrarian, Genius, Panicky)
 select distinct clues.game_id, detrimental_characters from clues join games g on clues.game_id = g.game_id
 where clue_giver = clue_receiver order by 1) as gidc;
---209806, 402059
---not ok
---last check: 05.01.2022
+--2
+--last check: 29.05.2022
 
 --A04: Games missed during restructuring
 select g.game_id from games g left outer join card_actions ca on g.game_id = ca.game_id
 where ca.game_id is null and detrimental_characters is false;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A05: Difference in the number of actions between players per game should not be more than 1
-insert into bugged_games select distinct game_id
+insert into bugged_games select distinct game_id, 'A05'
 -- select distinct game_id
 -- select turns, player, game_id, diff
 from (
@@ -102,33 +75,29 @@ from (
     ) as c
 where diff > 1
 order by game_id;
---35 shifted games
---not ok
---last check: 05.01.2022
+--35
+--last check: 29.05.2022
 
 --A06: One action per turn
-select * from (
-    select turn_action, game_id, count(*) as count from (
-        select turn_action, game_id
-        from card_actions
-        union all
-        select turn_clued, game_id
-        from clues
-        ) as t1
-    where turn_action is not null
-    group by turn_action, game_id) as t2
-where count > 1
+select turn_action, game_id, count(*) from (
+    select turn_action, game_id
+    from card_actions
+    union all
+    select turn_clued, game_id
+    from clues
+    ) as t1
+where turn_action is not null
+group by turn_action, game_id
+having count(*) > 1
 order by game_id;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A07: Rank clues contain only numbers
 select * from clues
 where clue_type = 'ratio' and convert_to_int(clue) is null;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 CREATE OR REPLACE FUNCTION convert_to_int(v_input text)
 RETURNS INTEGER AS $$
@@ -147,36 +116,35 @@ $$ LANGUAGE plpgsql;
 --A08: Delete detrimental characters
 delete from card_actions where game_id in
 (select game_id from games where detrimental_characters is true);
---193017
+
 delete from clues where game_id in
 (select game_id from games where detrimental_characters is true);
---51285
 --ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A09: Unassigned actions
 select * from card_actions where turn_action is not null and action_type is null;
 select * from card_actions where turn_action is null and action_type is not null;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A10: Counts
 select count(*) from games;
---682401
+--771921
 select count(*) from decks;
---5140279
+--5674956
 select count(*) from game_actions;
---29942154
+--33899704
 select count(*) from player_notes;
---769715
+--904956
 select count(*) from variants;
---1841
+select * from variants order by variant_id desc;
+--1901 (-5 deleted vars)
 select count(*) from card_actions;
---34917675
+--39507269
 select count(*) from clues;
---11403886
---last check: 05.01.2022
+--12897660
+--last check: 29.05.2022
 
 --A11: Missed games in clues table
 select g.game_id from games g left outer join clues c on g.game_id = c.game_id
@@ -189,18 +157,16 @@ where c.game_id is null
 )
 order by 1;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A12: Games without any actions
-insert into bugged_games select game_id from (
+insert into bugged_games select game_id, 'A12' from (
 select g.game_id from games g left outer join game_actions ga on g.game_id = ga.game_id
 where ga.game_id is null
 order by 1) as gggi
 ON CONFLICT DO NOTHING;
---243
---not ok
---last check: 05.01.2022
+--248
+--last check: 29.05.2022
 
 --A13: Games that have actions in original table which are missed in restructured one
 select distinct game_id
@@ -213,37 +179,22 @@ where game_id in (
 group by game_id
 having max(turn_drawn) = 0;
 --0
---ok
---last check: 05.01.2022
+--last check: 29.05.2022
 
 --A14: Count of records in related tables
 select count(*) from games;
---682401
+--771921
 select count(distinct game_id) from card_actions;
-select count(*) from games where detrimental_characters is false;
---678035
-select count(*) from games where detrimental_characters is true;
---4366
---4366+678035=682401
-select count(*) from games where all_or_nothing is true;
---20376
-select count(*) from games where card_cycle is true;
---1192
---25189
-select count(distinct game_id) from slots;
---677008
---last check: 05.01.2022
-select * from games g left join slots s on g.game_id = s.game_id
-where s.game_id is null
-  and all_or_nothing is false
-  and card_cycle is false
-  and detrimental_characters is false;
+select (select count(*) from games where detrimental_characters is true) +
+(select count(*) from games where detrimental_characters is false);
+--771921
+--last check: 29.05.2022
 
 --A15: Games with one less card on which have slot 5
 select * from slots s join games g on s.game_id = g.game_id
 where one_less_card is true and slot = 5;
---ok
---last check: 05.01.2022
+--0
+--last check: 29.05.2022
 
 --A16: Games containing more than 5 card movements per turn
 select count(*), s.game_id, turn from slots s
@@ -252,39 +203,23 @@ where one_extra_card is false
 and turn != 0
 group by s.game_id, turn
 having count(*) > 5;
---ok
---last check: 05.01.2022
+--0
+--last check: 29.05.2022
 
---A17: Outdated CardActions
+--A17: Outdated CardActions (don't run anymore)
 select distinct game_id from card_actions where card_suit != lower(card_suit);
---ok
---last check: 05.01.2022
+--0
+--last check: 29.05.2022
 
---A18: Latest games
-select count(*) from games where game_id between 500000 and 600000;
-select distinct game_id from games where game_id between 630001 and 690000;
---not ok
---Matias
---last check: 05.01.2022
-select count(*) from games where game_id >= 711130;
---1368
-select max(game_id) from games; --712497
-select max(game_id) - 711130 + 1 from games;
---1368
-
---A19: Matías_V5
-select count(*) from games where 'Matías_V5' = any(players);
---1829
---"total_rows":1851
---last check: 29.01.2022
-
---A20: manual checking for a single game from all tables
-select * from games where game_id = 745130;
+--A18: manual checking for a single game from all tables
+select * from games where game_id = 774770;
 select * from card_actions where game_id = 714844 order by turn_action;
 select * from clues where game_id = 714844 order by turn_clued;
 select s.game_id, turn, player, card_suit, card_rank, slot
     from slots s join card_actions ca on s.game_id = ca.game_id and s.card_index = ca.card_index
 where s.game_id = 714844 order by turn, player, slot;
 
-
---2022-05-28 23:08:09,720 - INFO - 28.05.2022 23:08:09	start:	712946 - migration.py:15:<module>()
+--A19: display bugged games
+select * from bugged_games;
+select game_id, count(*) from bugged_games group by game_id
+having count(*) > 1;

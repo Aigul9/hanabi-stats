@@ -52,8 +52,10 @@ create table players_list(
     player varchar(255) primary key
 );
 
+drop table bugged_games;
 create table bugged_games(
-    game_id int primary key
+    game_id int primary key,
+    test varchar(20)
 );
 
 create table reviews(
