@@ -622,3 +622,8 @@ FROM variants WHERE variant = 'Dark Prism (5 Suits)';
 
 select * from tags order by 1;
 delete from tags where game_id = 752506;
+
+select * from players_list order by 1;
+
+insert into players_list values ('DMoney');
+insert into players_list values ('TimeHoodie');
