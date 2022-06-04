@@ -3,7 +3,7 @@ with players as (
     select player, count(*) as count from players_list pl join games
     on player = any(players)
     where num_players != 2
-      and end_condition = 1
+      --and end_condition = 1
       and detrimental_characters is false
       and speedrun is false
       and all_or_nothing is false
