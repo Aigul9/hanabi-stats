@@ -147,11 +147,6 @@ class Variant(Base):
     variant_id = Column(Integer, primary_key=True)
     variant = Column(String)
     max_score = Column(Integer)
-    max_score_2p = Column(Integer)
-    max_score_3p = Column(Integer)
-    max_score_4p = Column(Integer)
-    max_score_5p = Column(Integer)
-    max_score_6p = Column(Integer)
     suits = Column(ARRAY(String))
     special_rank = Column(Integer)
     special_deceptive = Column(Boolean)
@@ -169,11 +164,6 @@ class Variant(Base):
                  variant_id,
                  variant,
                  max_score,
-                 max_score_2p,
-                 max_score_3p,
-                 max_score_4p,
-                 max_score_5p,
-                 max_score_6p,
                  suits,
                  special_rank,
                  special_deceptive,
@@ -189,11 +179,6 @@ class Variant(Base):
         self.variant_id = variant_id
         self.variant = variant
         self.max_score = max_score
-        self.max_score_2p = max_score_2p
-        self.max_score_3p = max_score_3p
-        self.max_score_4p = max_score_4p
-        self.max_score_5p = max_score_5p
-        self.max_score_6p = max_score_6p
         self.suits = suits
         self.special_rank = special_rank
         self.special_deceptive = special_deceptive
