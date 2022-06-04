@@ -73,6 +73,7 @@ def update_user_notes(notes, word_frequency_dict):
             if m is not None:
                 n1 = r.findall(n1)[0]
             n1 = n1.lower()
+            n1 = n1.replace('"', '')
             if n1 in word_frequency_dict:
                 word_frequency_dict[n1] += 1
             else:

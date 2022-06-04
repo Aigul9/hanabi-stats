@@ -42,7 +42,7 @@ r1	380
 i2	358
 fix	353
 w	337
-this	327
+this	328
 y4	316
 here	297
 should	295
@@ -52,7 +52,7 @@ or	286
 maybe	285
 y1	264
 to	257
-p2	231
+p2	232
 it	230
 why	230
 m3	223
@@ -349,6 +349,7 @@ purp	19
 something	19
 t13	19
 t6	19
+variant	19
 :p	18
 [g1]	18
 c2	18
@@ -360,7 +361,6 @@ most	18
 t7	18
 t8	18
 than	18
-variant	18
 wanted	18
 !b5	17
 !i	17
@@ -555,6 +555,7 @@ dupe	9
 duping	9
 g23	9
 has	9
+hey	9
 keep	9
 look	9
 m1g2	9
@@ -658,12 +659,12 @@ directly	7
 double	7
 draw	7
 dumb	7
+easy	7
 frosty	7
 g1e	7
 gives	7
 got	7
 hello	7
-hey	7
 horrible	7
 ig	7
 indego	7
@@ -723,7 +724,6 @@ baton	6
 con	6
 de	6
 dunno	6
-easy	6
 everywhere	6
 fan	6
 g2->	6
@@ -1302,8 +1302,6 @@ yrg	3
 !ty	2
 !u1	2
 !ym	2
-\"hey	2
-\"lvl15\"	2
 +1	2
 1235	2
 135	2
@@ -1570,6 +1568,7 @@ logical	2
 lose	2
 love	2
 lucky	2
+lvl15	2
 m0	2
 m1>	2
 m1b234	2
@@ -1930,7 +1929,6 @@ yuck	2
 !ypm	1
 !ypr	1
 !yrm	1
-\"easy	1
 (less	1
 (maybe	1
 *	1
@@ -3295,7 +3293,6 @@ p1m3	1
 p1o12	1
 p1o2	1
 p1r2	1
-p2\"	1
 p2345	1
 p23m2	1
 p23m23	1
@@ -3725,7 +3722,6 @@ them	1
 theory	1
 they	1
 thinking	1
-this\"	1
 three	1
 threw	1
 through	1
@@ -3784,7 +3780,6 @@ v23	1
 v4	1
 valuable	1
 value	1
-variant\"	1
 vert	1
 verte	1
 violet	1

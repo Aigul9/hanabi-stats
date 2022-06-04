@@ -4,7 +4,7 @@ f	3277
 [cm]	1846
 kt	1306
 cm	1101
-5	877
+5	880
 b2	830
 r2	816
 b3	812
@@ -14,7 +14,7 @@ i	786
 r3	772
 y2	726
 b4	725
-this	685
+this	686
 g4	679
 y3	665
 +	663
@@ -52,8 +52,8 @@ i4	267
 g5	266
 m1	266
 p1	265
+stall	261
 i2	260
-stall	258
 y	256
 i3	254
 gd	253
@@ -90,14 +90,14 @@ undo	135
 why	135
 on	133
 maybe	132
+it	130
 probably	130
-it	129
 what	129
 think	128
 6	126
 0	125
+bluff	120
 hmm	120
-bluff	119
 by	119
 cancelled	117
 was	113
@@ -229,12 +229,12 @@ better	36
 nope	36
 okay	36
 r34	36
+self	36
 >	35
 believe	35
 good	35
 rg	35
 scream	35
-self	35
 since	35
 spook	35
 suspect	35
@@ -1197,7 +1197,6 @@ zero	4
 !o1	3
 !p3	3
 !rygb1	3
-\"5	3
 (3?)	3
 (b)	3
 (g4	3
@@ -1369,7 +1368,6 @@ sona	3
 soon	3
 sooner	3
 spend	3
-stall\"	3
 stalling	3
 steals	3
 stephen's	3
@@ -1994,9 +1992,6 @@ yp3	2
 !yg?	1
 !ygb;	1
 !yrg	1
-\"ptd\"?	1
-\"self	1
-\"this	1
 #2	1
 (!b	1
 (!b3	1
@@ -2454,7 +2449,6 @@ blame	1
 blazes	1
 blindplay	1
 blocker	1
-bluff\"	1
 bluff?;	1
 bluffed;	1
 bluffing	1
@@ -2810,7 +2804,6 @@ introduced	1
 inversion)	1
 invert)	1
 invoke	1
-it\"	1
 it)	1
 jake	1
 jaki	1
@@ -3095,6 +3088,7 @@ proven	1
 ps	1
 ps15	1
 pt1)	1
+ptd?	1
 ptd?;	1
 purge	1
 purple?;	1

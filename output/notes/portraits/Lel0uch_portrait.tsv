@@ -3,7 +3,7 @@ Note	Frequency (125489 in total)
 [f]	13799
 f	5765
 5	4277
-3	3484
+3	3485
 4	3374
 2	3059
 e	2877
@@ -31,7 +31,7 @@ r3	551
 b2	546
 g4	523
 b4	519
-why	517
+why	518
 off	514
 looks	500
 r4	497
@@ -39,7 +39,7 @@ be	495
 y2	471
 p	451
 ocm	447
-y3	446
+y3	447
 m	444
 i3	441
 23	409
@@ -49,7 +49,7 @@ should	377
 45	371
 i4	365
 !1	338
-known	335
+known	336
 34	331
 maybe	328
 w	313
@@ -62,12 +62,12 @@ r5	295
 no	289
 clue	287
 g1	284
-prio	280
+prio	281
 as	267
 m2	265
 nope	265
 play	259
-bluff	256
+bluff	257
 missed	251
 g5	250
 i5	245
@@ -108,7 +108,7 @@ idk	176
 3b	174
 k	174
 might	172
-finesse	170
+finesse	171
 can	169
 please	168
 save	163
@@ -155,8 +155,8 @@ prob	105
 !12	104
 p1	104
 does	103
+scream	103
 [r2]	102
-scream	101
 !p	100
 [g2]	99
 4y	98
@@ -226,10 +226,10 @@ echo	63
 [b1]	62
 important	62
 [y1]	61
+blue	61
 with	61
 wtf	61
 1y	60
-blue	60
 context	59
 most	59
 !5	58
@@ -251,13 +251,13 @@ clued	54
 rb	54
 what	54
 4m	53
+card	53
 hmmm	53
 trust	53
 !m	52
 5y	52
 [p3]	52
 better	52
-card	52
 good	52
 and	51
 c	51
@@ -348,11 +348,11 @@ green	34
 indego	34
 n	34
 when	34
+5ce	33
 declined	33
 fillin	33
 o234	33
 r23	33
-5ce	32
 [i2]	32
 [p1]	32
 are	32
@@ -381,6 +381,7 @@ charm	29
 color	29
 crit	29
 duped	29
+hidden	29
 l4	29
 plays	29
 rank	29
@@ -389,7 +390,6 @@ well	29
 4w	28
 a2	28
 c2	28
-hidden	28
 may	28
 purple	28
 see	28
@@ -1575,7 +1575,6 @@ ym3	3
 !ypr	2
 !yrb	2
 !yw	2
-\"scream\"	2
 #1	2
 #2	2
 -_____-	2
@@ -2294,14 +2293,6 @@ yuck	2
 !yrgb	1
 !yrgw	1
 !yrom	1
-\"blue	1
-\"bluff\"	1
-\"hidden	1
-\"known	1
-\"prio\"	1
-\"why	1
-\"y3\"	1
-\"y3\"?	1
 &	1
 'scream'	1
 (	1
@@ -2393,7 +2384,6 @@ yuck	2
 2yo	1
 2yr	1
 2yw	1
-3\"	1
 3-away	1
 3/4y	1
 3/5g	1
@@ -2496,7 +2486,6 @@ yuck	2
 5[cm]	1
 5][5]	1
 5b/5g	1
-5ce\"	1
 5double	1
 5gw	1
 5ib	1
@@ -2972,7 +2961,6 @@ c45	1
 call	1
 cana	1
 canceled-ambig	1
-card\"	1
 cares	1
 carunty	1
 causing	1
@@ -3093,7 +3081,6 @@ exception	1
 exists	1
 expects	1
 experience	1
-f\"ing	1
 f***ing	1
 f3	1
 f>	1
@@ -3113,9 +3100,9 @@ figures	1
 fill	1
 fills	1
 finese	1
-finesse\"	1
 finesse+	1
 finesse+bluff	1
+fing	1
 fiora	1
 fireheart	1
 fkk	1
@@ -3811,6 +3798,7 @@ y2=>	1
 y2>	1
 y2o1	1
 y345	1
+y3?	1
 y3i2y5	1
 y4/i2	1
 y4][f]	1

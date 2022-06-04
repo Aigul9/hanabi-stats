@@ -63,3 +63,9 @@ and num_players != 2
 and variant != 'No Variant'
 group by player) t1
 order by 2 desc, 1;
+
+select count(*) from games where 'pianoblook' = any(players) and
+                                 num_players != 2
+
+select * from player_notes
+where player = 'ADrone' and '"2"' = any(notes)

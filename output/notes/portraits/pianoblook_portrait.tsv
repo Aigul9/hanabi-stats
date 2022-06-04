@@ -2,15 +2,15 @@ Note	Frequency (193362 in total)
 f	14437
 kt	4931
 [f]	4783
-this	2780
-i	2658
+this	2781
+i	2659
 cm	2607
 not	2036
 -->	2031
 en	1902
 4	1889
 a	1844
-5	1809
+5	1810
 3	1804
 lol	1748
 maybe	1736
@@ -36,7 +36,7 @@ g4	1126
 guess	1108
 to	1046
 tcm	1016
-y4	912
+y4	914
 or	909
 y3	900
 y2	896
@@ -68,7 +68,7 @@ b5	591
 m2	590
 m4	589
 g5	581
-i2	579
+i2	581
 play	573
 might	569
 i4	568
@@ -82,7 +82,7 @@ should	478
 p3	476
 scream	458
 like	455
-y1	449
+y1	450
 imo	448
 y5	447
 could	443
@@ -134,8 +134,8 @@ huh	262
 must	258
 p	255
 p1	252
+playable	245
 discard	244
-playable	244
 still	244
 well	241
 o2	240
@@ -326,11 +326,11 @@ work	86
 bombs	85
 look	85
 yay	85
+how	84
 push	84
 t27	84
 t35	84
 declined	83
-how	83
 slot	83
 bluffed	82
 rb	82
@@ -406,6 +406,7 @@ yg	61
 plz	60
 strong	60
 t34	60
+1s	59
 a3	59
 card	59
 ejection	59
@@ -414,7 +415,6 @@ she	59
 t39	59
 t42	59
 yb	59
-1s	58
 chop	58
 important	58
 bleh	57
@@ -461,13 +461,13 @@ definitely	49
 feel	49
 super	49
 uhh	49
+worth	49
 [r4]	48
 [r]	48
 assumed	48
 feels	48
 l2	48
 these	48
-worth	48
 first	47
 had	47
 l3	47
@@ -500,12 +500,12 @@ doubt	43
 dumb	43
 else	43
 fine	43
+focus	43
 hf	43
 that's	43
 (no	42
 [g3]	42
 [y]	42
-focus	42
 l4	42
 there's	42
 you	42
@@ -517,6 +517,7 @@ wtf	41
 yep	41
 choice	40
 echo	40
+n	40
 t44	40
 uhhh	40
 want	40
@@ -532,7 +533,6 @@ dunno	39
 happening	39
 hmmmm	39
 i'd	39
-n	39
 self	39
 soon	39
 sort	39
@@ -612,6 +612,7 @@ s2	32
 [y4]	31
 bombing	31
 bp	31
+charm	31
 clear	31
 generation	31
 nothing	31
@@ -624,7 +625,6 @@ yp	31
 !r5	30
 b34	30
 c4	30
-charm	30
 desynced	30
 dupes	30
 gm1	30
@@ -710,6 +710,7 @@ y45	25
 *this*	24
 attempt	24
 bit	24
+cms	24
 discards	24
 gets	24
 give	24
@@ -727,7 +728,6 @@ which	24
 [r3	23
 [u3	23
 a1	23
-cms	23
 dear	23
 delay	23
 discarded	23
@@ -1767,6 +1767,7 @@ gb3	5
 gbk	5
 globally	5
 gone	5
+hanabi	5
 having	5
 helps	5
 hmmmmmmm	5
@@ -1822,6 +1823,7 @@ r]	5
 random	5
 ready	5
 redistributing	5
+reds	5
 rgp	5
 rm4	5
 roe	5
@@ -2028,7 +2030,6 @@ gr2	4
 gross	4
 gy3	4
 half	4
-hanabi	4
 helena	4
 highly	4
 hinting	4
@@ -2097,7 +2098,6 @@ rather	4
 rb1	4
 rbi	4
 recluing	4
-reds	4
 required	4
 rga	4
 ri2	4
@@ -2433,6 +2433,7 @@ gtb	3
 gtp	3
 guaranteed	3
 gy2	3
+halp	3
 handy	3
 happy	3
 hes	3
@@ -2487,6 +2488,7 @@ m1+2	3
 m1g2	3
 m3)	3
 mb1	3
+meeeee	3
 mellow	3
 mercy	3
 messed	3
@@ -2709,8 +2711,6 @@ yr2	3
 !y1	2
 !y?	2
 !yg	2
-\"i2\"	2
-\"y4\"	2
 #	2
 #worthit	2
 %	2
@@ -3212,7 +3212,6 @@ gut	2
 gutsy	2
 gwr	2
 half-bluff)	2
-halp	2
 hand:	2
 hate	2
 haven't	2
@@ -3338,7 +3337,6 @@ match	2
 max	2
 mayb	2
 meeee	2
-meeeee	2
 mi1	2
 mi5	2
 mice	2
@@ -3406,6 +3404,7 @@ ohhhhh	2
 ohjeez	2
 oic	2
 okey	2
+ol	2
 ol4	2
 om4	2
 om5	2
@@ -3807,6 +3806,7 @@ yyep	2
 zam's	2
 🙏	2
 🤔	2
+	1
 !!!!!!!	1
 !!!!!!!!	1
 !(1/g)+(y/3)	1
@@ -3971,20 +3971,6 @@ zam's	2
 !yb1	1
 !yig	1
 !yp2	1
-\"	1
-\"...f....\"	1
-\"5\"	1
-\"bob	1
-\"cms	1
-\"heeeeelp	1
-\"how	1
-\"i	1
-\"nocm\"?	1
-\"ol	1
-\"playable\"	1
-\"this	1
-\"welcome	1
-\"worth\"	1
 #2	1
 #2:	1
 #3	1
@@ -4068,7 +4054,6 @@ zam's	2
 (!5cm)	1
 (!p)3/b	1
 (!u)5s	1
-(\"overloaded\")	1
 (*and*	1
 (+3	1
 (+3pp)	1
@@ -4229,6 +4214,7 @@ zam's	2
 (opc)	1
 (ortrash	1
 (osa?)	1
+(overloaded)	1
 (piano	1
 (playable	1
 (played	1
@@ -4443,6 +4429,7 @@ zam's	2
 ...but	1
 ...even	1
 ...except	1
+...f....	1
 ...is	1
 ...maybe	1
 ...not	1
@@ -4501,7 +4488,6 @@ zam's	2
 1mr4	1
 1o	1
 1ocm:	1
-1s\"	1
 1s)	1
 1s..maybe	1
 1s]	1
@@ -5114,7 +5100,6 @@ a)	1
 a+o	1
 a+p2	1
 a-ok	1
-a...\"upbf\"?	1
 a....rank	1
 a...1?	1
 a...[m4]?	1
@@ -5122,6 +5107,7 @@ a...burn	1
 a...lhs?	1
 a...null	1
 a...reverse	1
+a...upbf?	1
 a/g	1
 a/g/y	1
 a123	1
@@ -5500,6 +5486,7 @@ bm[5]	1
 bmk	1
 bmp	1
 bo5	1
+bob	1
 boba	1
 bomb*	1
 bomb-saving	1
@@ -5615,7 +5602,6 @@ cf	1
 chalk	1
 chances	1
 change	1
-charm\"	1
 charm:	1
 charmed	1
 chat	1
@@ -6038,7 +6024,6 @@ flummoxed	1
 fluuuuuff	1
 fml	1
 foc	1
-focus\"	1
 fodder)	1
 follow-up?	1
 follows	1
@@ -6371,10 +6356,8 @@ haaaaaaappppeeeennniiiiiing	1
 haaaappening	1
 hadn't	1
 half-generation	1
-halp\"	1
 han	1
 hanab's	1
-hanabi\"	1
 hanaboomer	1
 hanaiplus	1
 hand)	1
@@ -6391,6 +6374,7 @@ heck+clap	1
 heck..unless....	1
 heckoff	1
 hedge	1
+heeeeelp	1
 heeeeere	1
 heeere's	1
 held	1
@@ -7031,7 +7015,6 @@ mean...i	1
 mean...i'd	1
 mean...someone	1
 means...this	1
-meeeee\"	1
 meeeeee	1
 mega	1
 mega-spook	1
@@ -7137,7 +7120,6 @@ my3	1
 my5	1
 myb	1
 myself:	1
-n\"	1
 n-->	1
 n1+m1?	1
 n1+n2/2/5	1
@@ -7231,6 +7213,7 @@ no..was	1
 no1	1
 nob3	1
 nocm-ish	1
+nocm?	1
 noecm	1
 nomercy	1
 non-1?	1
@@ -7455,7 +7438,6 @@ okbooker	1
 okeydokey	1
 okmw5	1
 okt28	1
-ol	1
 ol1	1
 ol3	1
 ol5	1
@@ -8062,7 +8044,6 @@ redemption	1
 redistr	1
 redistributeme	1
 redistribution?/	1
-reds\"	1
 redundancy	1
 ref	1
 refixed	1
@@ -8785,7 +8766,7 @@ traaaassh	1
 traditionally	1
 train	1
 trash-bot	1
-trash?\"	1
+trash?	1
 trash?:	1
 trashes	1
 trashme	1
@@ -9037,6 +9018,7 @@ weird...y5...meh	1
 weirdest	1
 weirdness	1
 weirdnesses	1
+welcome	1
 well)	1
 well....fortunately	1
 well....i'm	1
@@ -9145,7 +9127,6 @@ y/k	1
 y/m	1
 y/p3	1
 y/r/(g?)	1
-y1\"	1
 y1+g1+b1	1
 y1+g3	1
 y1+y2--->	1

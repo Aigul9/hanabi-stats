@@ -4,7 +4,7 @@ save	890
 plays	566
 cm	557
 5	254
-play	225
+play	226
 b3	217
 1	211
 b2	206
@@ -20,7 +20,7 @@ g3	167
 y3	152
 g4	151
 y2	146
-not	143
+not	144
 b1	142
 i	141
 r1	136
@@ -241,6 +241,7 @@ i3f	10
 instead	10
 inv	10
 it's	10
+known	10
 likely	10
 locked	10
 nope	10
@@ -258,7 +259,6 @@ double	9
 elim	9
 i2f	9
 k1	9
-known	9
 ocm(b3)	9
 other	9
 prompt	9
@@ -792,6 +792,7 @@ best	2
 better	2
 black	2
 blaze	2
+blind	2
 blue)	2
 bluff(p4)	2
 bluffed	2
@@ -1125,9 +1126,6 @@ z5	2
 !y3	1
 !y5>>>	1
 !ygk	1
-\"blind	1
-\"known\"	1
-\"not\"	1
 &	1
 &8clue(3g/p)	1
 (1	1
@@ -1313,7 +1311,6 @@ z5	2
 4save	1
 4th	1
 4x	1
-5\"s>>>>	1
 5(1+0+0+4)	1
 5(o5)	1
 5(oope)	1
@@ -1332,6 +1329,7 @@ z5	2
 5dhb	1
 5nd(g5)	1
 5play	1
+5s>>>>	1
 5save	1
 5save(w5)	1
 8cforce	1
@@ -1509,7 +1507,6 @@ bl(x3)	1
 blacks	1
 blacks)	1
 blf	1
-blind	1
 block	1
 blocked	1
 blue?(3)	1
@@ -2386,7 +2383,6 @@ pick	1
 pink)	1
 pinks	1
 pipe	1
-play\"	1
 play(b3)	1
 play(g1)	1
 play(g1)not	1

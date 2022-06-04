@@ -69,14 +69,14 @@ finesse	200
 trash	188
 k4	186
 n2	181
-bluff	178
+bluff	179
 m	176
 b	175
 be	175
 n3	175
 k	165
+no	164
 k3	163
-no	163
 k2	158
 y	158
 w4	156
@@ -91,13 +91,13 @@ looks	135
 p	135
 turn	133
 n1	131
+prompted	127
 w2	127
-prompted	126
 why	124
 o4	120
 you	117
 o3	116
-for	111
+for	112
 of	109
 bad	104
 t3	100
@@ -109,9 +109,9 @@ have	96
 prio	96
 r2e	96
 my	95
+oh	94
 prob	94
 t2	94
-oh	93
 fix	90
 blue	89
 from	89
@@ -201,21 +201,21 @@ one	46
 get	45
 how	45
 thinks	45
+known	44
 r5e	44
 y4e	44
 yellow	44
 5stall	43
-known	43
 n25	43
 now	43
 y1e	43
 y45	43
 g4e	42
 very	42
+better	41
 instead	41
 priority	41
 y3e	41
-better	40
 did	40
 fixed	40
 gd	40
@@ -483,6 +483,7 @@ kyle	12
 lie	12
 m3e	12
 make	12
+necessary	12
 need	12
 o34	12
 off	12
@@ -512,7 +513,6 @@ lul	11
 n235	11
 n245	11
 n2e	11
-necessary	11
 ocm	11
 order	11
 p24	11
@@ -625,6 +625,7 @@ doesnt	8
 dumb	8
 duped	8
 finessed	8
+free	8
 gentleman's	8
 gp	8
 k5e	8
@@ -683,7 +684,6 @@ doesn't	7
 done	7
 dupe	7
 flori	7
-free	7
 g2e>	7
 getting	7
 got	7
@@ -1015,6 +1015,7 @@ g3>	4
 g3]	4
 g4]	4
 g5>	4
+gets	4
 gm2	4
 greens	4
 guilt	4
@@ -1178,6 +1179,7 @@ ba	3
 been	3
 bombs	3
 bottom	3
+boy	3
 bruh	3
 by4	3
 c23	3
@@ -1186,6 +1188,7 @@ ce	3
 chance	3
 channel	3
 confusing	3
+cool	3
 course	3
 d34	3
 decide	3
@@ -1204,7 +1207,6 @@ friend	3
 g2-m2	3
 g3elim	3
 g4-g5	3
-gets	3
 gives	3
 gray	3
 grb	3
@@ -1297,6 +1299,7 @@ someone	3
 soooo	3
 stalls	3
 stomped	3
+suit	3
 suspicious	3
 t15	3
 t19	3
@@ -1463,9 +1466,9 @@ bluf[f]	2
 bluffing	2
 bm2	2
 bob	2
-boy	2
 br2	2
 brain	2
+brave	2
 bust	2
 c34	2
 call	2
@@ -1479,7 +1482,6 @@ complicated	2
 confused	2
 convention	2
 conventions	2
-cool	2
 cost	2
 criticals	2
 cross	2
@@ -1733,7 +1735,6 @@ succ	2
 successfully	2
 such	2
 sucks	2
-suit	2
 super	2
 surely	2
 surprise	2
@@ -1871,16 +1872,6 @@ ys5	2
 !yb	1
 !yp	1
 !yrbp	1
-\"better\"	1
-\"brave\"	1
-\"cool\"	1
-\"for	1
-\"gets\"	1
-\"known	1
-\"necessary\"	1
-\"note	1
-\"oh	1
-\"prompted\"	1
 #	1
 #2	1
 $picÿ	1
@@ -2068,7 +2059,6 @@ $picÿ	1
 8jk	1
 8nk	1
 8pu	1
-:\"lalalala	1
 :'(	1
 :(((	1
 :(((((	1
@@ -2084,6 +2074,7 @@ $picÿ	1
 :good	1
 :hmm	1
 :is	1
+:lalalala	1
 :prio	1
 :sad:	1
 :shrug:	1
@@ -2402,7 +2393,6 @@ blindplaying	1
 bloof	1
 blue-red	1
 blues	1
-bluff\"	1
 bluff-	1
 bluff;	1
 bluff=?	1
@@ -2420,12 +2410,10 @@ bon	1
 bonkers	1
 booyah	1
 borderline	1
-boy\"	1
 boyyysssss	1
 boyz	1
 bpyg	1
 br4	1
-brave	1
 breathe	1
 brg	1
 brian	1
@@ -2633,7 +2621,6 @@ forcing	1
 foresaw	1
 four	1
 fours	1
-free\"	1
 fresh	1
 front	1
 frosty's	1
@@ -3016,7 +3003,6 @@ nils'	1
 nitawa's	1
 nk	1
 nm	1
-no\"	1
 nocm	1
 nof	1
 nonsense	1
@@ -3027,6 +3013,7 @@ nor	1
 nor5>	1
 normalement	1
 normally	1
+note	1
 notg	1
 nowhere	1
 ns	1
@@ -3404,7 +3391,6 @@ suc	1
 succccccc	1
 sucu	1
 suficiente	1
-suit\"	1
 sun	1
 superbipbip	1
 superduper	1

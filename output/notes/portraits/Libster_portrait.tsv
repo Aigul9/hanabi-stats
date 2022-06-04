@@ -51,7 +51,7 @@ g4	146
 y4	144
 slot	143
 p4	142
-don't	137
+don't	138
 b2	136
 p3	135
 me	134
@@ -209,6 +209,7 @@ last	25
 line	25
 m1	25
 played	25
+positional	25
 rax	25
 we're	25
 -1	24
@@ -217,7 +218,6 @@ hmm	24
 instead	24
 let	24
 nice	24
-positional	24
 choice	23
 does	23
 enough	23
@@ -252,6 +252,7 @@ might	20
 mistake	20
 something	20
 two	20
+up	20
 wasn't	20
 :)	19
 assume	19
@@ -262,16 +263,17 @@ idk	19
 n4	19
 o4	19
 sure	19
-up	19
 wouldn't	19
 any	18
 before	18
 both	18
 case	18
 definitely	18
+free	18
 fuck	18
 need	18
 otherwise	18
+safe	18
 second	18
 t2	18
 tell	18
@@ -287,7 +289,6 @@ nomercy	17
 order	17
 pretty	17
 reverse	17
-safe	17
 w4	17
 ah	16
 dda	16
@@ -307,7 +308,6 @@ wtf	16
 believe	15
 context	15
 expected	15
-free	15
 interp	15
 lack	15
 let's	15
@@ -844,7 +844,6 @@ zcsp	4
 !4	3
 !5	3
 !m2	3
-\"free\"	3
 -1p	3
 -2/b	3
 -2/y	3
@@ -1096,6 +1095,7 @@ _should_	2
 a+	2
 according	2
 action	2
+add	2
 adrone's	2
 aggressively	2
 ahhhhhhhhhhhhhh	2
@@ -1256,6 +1256,7 @@ i34	2
 ideal	2
 identified	2
 ignored	2
+ignoring	2
 imp	2
 inaccuracy	2
 inb4	2
@@ -1507,11 +1508,6 @@ zero	2
 !yb;	1
 !yg	1
 !ygb	1
-\"add	1
-\"don't	1
-\"ignoring\"	1
-\"positional\"	1
-\"safe\"	1
 'cya	1
 'finesse'	1
 'i	1
@@ -1610,7 +1606,7 @@ zero	2
 3-bluffs	1
 3/10	1
 3/g;	1
-3/rank\"	1
+3/rank	1
 3/x	1
 3/y	1
 34;	1
@@ -1722,7 +1718,6 @@ ace	1
 act	1
 actual	1
 actually;	1
-add	1
 additional	1
 adventurous	1
 af	1
@@ -2267,7 +2262,6 @@ id	1
 ideally	1
 identities	1
 idfk	1
-ignoring	1
 iiiiinteresting	1
 ill-advised	1
 im	1
@@ -2974,7 +2968,6 @@ unshaken	1
 unsure[cm]	1
 untimed	1
 unwilling	1
-up\"	1
 up;	1
 updated	1
 upon	1

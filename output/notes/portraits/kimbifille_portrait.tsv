@@ -745,6 +745,7 @@ p1e	4
 pb	4
 pe	4
 position	4
+positional	4
 pray	4
 r23	4
 r34	4
@@ -884,7 +885,6 @@ perfect	3
 phew	3
 piper's	3
 pipers	3
-positional	3
 pr	3
 prios	3
 protect	3
@@ -1426,7 +1426,6 @@ zamiel	2
 !yig	1
 !ykb	1
 !ym	1
-\"anything	1
 #classicpiper	1
 #hurray5techoff	1
 #lvl13	1
@@ -1736,6 +1735,7 @@ anx	1
 anxiety/discard	1
 anymore	1
 anyone	1
+anything	1
 anyway	1
 app	1
 apparently	1
@@ -2373,7 +2373,6 @@ pm	1
 pm23	1
 pony	1
 pos;;	1
-positional\"	1
 positioned	1
 possum	1
 pp	1
