@@ -8,15 +8,17 @@ from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
 
+from database.db_connect import db
+
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
 )
 logger = logging.getLogger(__name__)
 
-fileHandler = logging.FileHandler('../database/errors.log')
-fileHandler.setLevel(logging.DEBUG)
-logger.addHandler(fileHandler)
+# fileHandler = logging.FileHandler('../database/errors.log')
+# fileHandler.setLevel(logging.DEBUG)
+# logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
 logger.addHandler(consoleHandler)
@@ -136,6 +138,18 @@ def open_file(filename):
         return [line.rstrip() for line in f.readlines()]
 
 
+def read_file(filename):
+    """Simply reads a file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    """
+    with open(filename, 'r', encoding='utf-8') as f:
+        return f.read()
+
+
 def open_tsv(filename):
     """Opens a tsv file.
 
@@ -212,7 +226,7 @@ def save_value(path, data):
 
 
 def save_csv(path, data):
-    """Saves data into a csv file.
+    """Saves list into a csv file.
 
     Parameters
     ----------
@@ -225,6 +239,22 @@ def save_csv(path, data):
         w = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         for v in data:
             w.writerow(*v)
+
+
+def save_list_tsv(path, data):
+    """Saves list into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : list
+        Saved data
+    """
+    with open(f'{path}.tsv', 'a', encoding='utf-8', newline='') as file:
+        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
+        for v in data:
+            w.writerow(v)
 
 
 def save_header(path, header):
@@ -933,3 +963,8 @@ def save_plots(data, hours_header):
         plt.plot(x, n)
         plt.savefig(f'output/time/plots/{k}.png')
         plt.close(fig)
+
+
+def run_query(sql):
+    result = db.execute(sql)
+    return [row for row in result]
