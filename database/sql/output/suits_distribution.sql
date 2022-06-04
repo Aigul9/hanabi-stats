@@ -12,5 +12,3 @@ and speedrun is false
 and g.variant != 'No Variant'
 group by player, max_score / 5) t
 group by player;
-
-select * from players_list
