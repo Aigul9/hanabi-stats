@@ -9,6 +9,7 @@ with players as (
       and all_or_nothing is false
       and one_extra_card is false
       and one_less_card is false
+      and variant != 'No Variant'
     group by player
 )
 select t1.player,
@@ -25,6 +26,7 @@ from (select pl.player, count(*) as count
               and all_or_nothing is false
               and one_extra_card is false
               and one_less_card is false
+              and variant != 'No Variant'
               and 'misplay' not in (
                 select distinct action_type
                 from card_actions

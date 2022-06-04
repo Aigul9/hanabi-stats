@@ -26,6 +26,7 @@ join games g on ca.game_id = g.game_id
 where player in (select * from players_list)
 and speedrun is false
 and num_players != 2
+and variant != 'No Variant'
 group by player) t1
 order by 2 desc, 1;
 
@@ -42,6 +43,7 @@ join games g on ca.game_id = g.game_id
 where player in (select * from players_list)
 and speedrun is false
 and num_players != 2
+and variant != 'No Variant'
 group by player) t1
 order by 2 desc, 1;
 
@@ -58,5 +60,6 @@ join games g on ca.game_id = g.game_id
 where player in (select * from players_list)
 and speedrun is false
 and num_players != 2
+and variant != 'No Variant'
 group by player) t1
 order by 2 desc, 1;
