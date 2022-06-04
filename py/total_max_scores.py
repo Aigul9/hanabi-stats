@@ -39,7 +39,8 @@ def get_digits(text):
 
     Returns digits from the string.
     """
-    return int(text.split()[0].replace('<td>', ''))
+    return int(text.split()[1].replace('class="center">', ''))
+    # return int(text.split()[0].replace('<td>', ''))
 
 
 def get_total_scores(username, req_session):
@@ -68,7 +69,7 @@ if __name__ == "__main__":
         user = user[0]
         users_scores[user] = get_total_scores(user, request_session)
     u.save(
-        '../output/scores/total_max_scores',
+        '../output/variants/total_max_scores',
         u.sort(users_scores, 5),
         ['Player', '2p', '3p', '4p', '5p', '6p', 'Total scores']
     )

@@ -55,7 +55,7 @@ if __name__ == "__main__":
         user = user[0]
         alice_ratio_dict[user] = get_alice_wr(user)
 
-    u.save('../output/winrate/alice/starting_player', u.sort(alice_ratio_dict, 0), [
+    u.save('../output/ratio/starting_player', u.sort(alice_ratio_dict, 0), [
         'Player',
         'Ratio',
         'Alice\'s wins',

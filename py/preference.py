@@ -142,5 +142,5 @@ if __name__ == "__main__":
         users_preference = update_preference(users_preference, teammate_preference)
 
     users_preference = average_preference(users_preference)
-    u.save_header('../output/ratio/preference1', ['Username', 'Preference'])
-    u.save_value('../output/ratio/preference1', u.sort_by_value(users_preference))
+    u.save_header('../output/ratio/preference', ['Username', 'Preference'])
+    u.save_value('../output/ratio/preference', u.sort_by_value(users_preference))

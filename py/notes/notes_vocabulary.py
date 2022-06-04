@@ -17,7 +17,7 @@ def open_notes_stats(username):
     dict
         Number of notes containing a specific word or symbol
     """
-    with open(f'../output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
+    with open(f'../../output/notes/portraits/{username}_portrait.tsv', 'r', encoding='utf-8') as file:
         player_notes_list = []
         for line in file.readlines():
             player_notes_list.append(line.rstrip().split('\t'))
