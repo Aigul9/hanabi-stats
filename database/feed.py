@@ -13,7 +13,7 @@ import database.db_load as d
 last_id_db = session.query(func.max(Game.game_id)).scalar()
 # last_id_db = 726704
 # set last game_id from the website and use it as an end id for the loop
-LAST_ID_SITE = 780781
+LAST_ID_SITE = 800781
 logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id_db}')
 req_session = requests.Session()
 # store loaded histories in a dict to avoid loading for each game
