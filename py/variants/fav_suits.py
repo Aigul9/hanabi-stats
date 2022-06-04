@@ -6,7 +6,7 @@ from database.db_connect import session, Game, Player
 
 def save_all():
     """Saves all suits with number of games for each player."""
-    with open('../output/variants/favourite_suits.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../../output/variants/favourite_suits.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player',
                     'Rainbow',
@@ -55,7 +55,7 @@ def save_all():
 
 def save_top():
     """Saves top 5 suits with number of games for each player."""
-    with open('../output/variants/favourite_suits_top_r.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../../output/variants/favourite_suits_top_r.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player',
                     'Suit #1', 'Count #1',

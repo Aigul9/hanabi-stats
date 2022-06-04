@@ -45,7 +45,7 @@ def save(condition_count_dict):
     condition_count_dict : dict
         Number of games grouped by an end condition
     """
-    with open('../output/ratio/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../../output/ratio/end_condition.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t')
         w.writerow([
             'Player',

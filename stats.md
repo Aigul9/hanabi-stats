@@ -37,7 +37,7 @@ Win condition: Finish a game with maximum score.
 
 Notes taken in a multi-player game.
 
-#### [Most-Frequent Words Used in Notes](output/notes/frequent_words.tsv)
+#### [Most-Frequent Words Used in Notes](output/notes/notes_frequency.tsv)
 
 #### [Numbers of Notes Taken](output/notes/notes_count.tsv) (Sorted by Average Notes Taken per Game)
 
