@@ -1,3 +1,19 @@
+"""
+Description:
+    Average time spent by a player per game and per day sorted by number of total days
+    on the website in descending order.
+    It is calculated as an amount of time divided by total number of games and days respectively.
+
+Exclusions:
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Days: number of full days
+    - Per game (in min): time per game in minutes
+    - Per day (in h): time per day in hours excluding days with 0 games
+"""
+
 import csv
 from itertools import groupby
 
@@ -64,11 +80,9 @@ def get_times(username):
     for game in games:
         diff = game.date_time_finished - game.date_time_started
         times[0] += diff.total_seconds()
-    # per game
-    times[1] = times[0] / times[1] / 60
-    # per day excl. days with 0 games
-    times[2] = times[0] / times[2] / 3600
-    return times
+    per_game = times[0] / times[1] / 60
+    per_day = times[0] / times[2] / 3600
+    return [times[0], per_game, per_day]
 
 
 if __name__ == "__main__":

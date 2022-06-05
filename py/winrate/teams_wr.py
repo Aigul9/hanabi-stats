@@ -1,3 +1,18 @@
+"""
+Description:
+    Winrate of each team sorted in descending order. It is calculated as a number of games in which the
+score equals to a max score divided by the total number of games.
+
+Exclusions:
+    - speedruns
+
+Columns:
+    - Player: player name
+    - WR: winrate
+    - Wins: number of games won
+    - Games: number of total games
+"""
+
 import py.utils as u
 
 

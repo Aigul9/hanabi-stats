@@ -1,3 +1,22 @@
+"""
+Description:
+     Ratio of games won as a starting player sorted in descending order.
+     It is calculated as ratio of games won going first divided by
+     ratio of games won not going first.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Ratio: ratio of games won as a starting player
+    - Alice's wins: number of wins going first
+    - Alice's games: number of games going first
+    - !Alice's wins: number of wins not going first
+    - !Alice's games: number of games not going first
+"""
+
 from sqlalchemy import false
 
 import py.utils as u

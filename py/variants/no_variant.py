@@ -1,3 +1,16 @@
+"""
+Description:
+    Number of 'No Variant' games in each player's history sorted in descending order.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Count: number of 'No Variant' games
+"""
+
 import py.utils as u
 
 

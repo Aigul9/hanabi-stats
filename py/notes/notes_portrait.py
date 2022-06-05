@@ -1,3 +1,12 @@
+"""
+Description:
+    List of words extracted from player's notes sorted by frequency in descending order.
+
+Columns:
+    - Note: a single word from a note
+    - Frequency: total number of occurrences of the word
+"""
+
 import csv
 import re
 

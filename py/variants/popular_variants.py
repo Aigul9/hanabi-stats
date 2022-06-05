@@ -1,3 +1,12 @@
+"""
+Description:
+    Number of games for each variant sorted in descending order.
+
+Columns:
+    - Variant: variant name
+    - Count: number of games for the variant
+"""
+
 import py.utils as u
 
 

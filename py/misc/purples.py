@@ -1,3 +1,18 @@
+"""
+Description:
+    Number of games played with purple players sorted in descending order.
+The module loads a list of current purple players and counts them purple 1 year after their first game.
+If a game contains at least one player who became purple before the game date, it is included in the total count.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Games: number of games
+"""
+
 import csv
 from sqlalchemy import false
 
@@ -72,7 +87,7 @@ def save_purples(purples_count_dict):
     """
     with open(f'../../output/misc/purples.tsv', 'w', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Players', '# with purples'])
+        w.writerow(['Player', 'Games'])
         for k, v in sorted(purples_count_dict.items(), key=lambda row: -row[1]):
             w.writerow([k, v])
 

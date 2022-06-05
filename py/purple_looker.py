@@ -1,3 +1,17 @@
+"""
+Description:
+    Number of games grouped by a year and a month in order to identify suitable green players for a purple role.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Month: month
+    - Year: year
+    - Games: total number of games
+"""
+
 import requests
 import csv
 import calendar

@@ -1,3 +1,17 @@
+"""
+Description:
+    Aggregated statistics from each player's 'missing-scores' page sorted by total scores in descending order.
+
+Columns:
+    - Player: player name
+    - 2p: number of 2p scores
+    - 3p: number of 3p scores
+    - 4p: number of 4p scores
+    - 5p: number of 5p scores
+    - 6p: number of 6p scores
+    - Total scores: sum of all scores
+"""
+
 import requests
 from bs4 import BeautifulSoup
 

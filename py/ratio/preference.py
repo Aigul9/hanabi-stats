@@ -1,3 +1,25 @@
+"""
+Description:
+    Average preference towards the player sorted in descending order. See the preference calculation algorithm below.
+
+Exclusions:
+    - 2p games
+    - speedruns
+    - less than 100 games with a teammate
+
+Columns:
+    - Player: player name
+    - Preference: preference
+
+Algorithm:
+    1. Get the player's teammates.
+    2. Calculate winrate for each teammate.
+    3. Calculate each teammates' preference, where Alice's preference towards Bob is
+    the number of teammates with which Alice has a worse winrate than with Bob divided by
+    the total number of her teammates.
+    4. Summarize preferences across all players and average the value.
+"""
+
 from sqlalchemy import func, false
 
 import py.utils as u
@@ -142,5 +164,5 @@ if __name__ == "__main__":
         users_preference = update_preference(users_preference, teammate_preference)
 
     users_preference = average_preference(users_preference)
-    u.save_header('../output/ratio/preference', ['Username', 'Preference'])
+    u.save_header('../output/ratio/preference', ['Player', 'Preference'])
     u.save_value('../output/ratio/preference', u.sort_by_value(users_preference))

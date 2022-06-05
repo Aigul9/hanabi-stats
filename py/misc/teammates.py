@@ -1,3 +1,12 @@
+"""
+Description:
+    Number of distinct teammates sorted in descending order.
+
+Columns:
+    - Player: player name
+    - Teammates: number of distinct teammates
+"""
+
 import py.utils as u
 
 

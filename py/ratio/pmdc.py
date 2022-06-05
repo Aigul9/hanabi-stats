@@ -1,3 +1,19 @@
+"""
+Description:
+    Average number of plays, misplays, discards, and clues per game.
+
+Exclusions:
+    - 2p games
+    - speedruns
+    - No Variant
+
+Columns:
+    - Player: player name
+    - Ratio: average number of plays/misplays/discards/clues per game
+    - Plays/Misplays/Discards/Clues: number of plays/misplays/discards/clues
+    - Games: total number of games
+"""
+
 import py.utils as u
 
 

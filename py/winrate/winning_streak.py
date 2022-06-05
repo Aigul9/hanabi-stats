@@ -1,3 +1,16 @@
+"""
+Description:
+    Winning streak sorted by count in descending order.
+
+Exclusions:
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Count: number of games won in a row
+    - Start game_id: Game id the streak starts with
+"""
+
 import py.utils as u
 
 

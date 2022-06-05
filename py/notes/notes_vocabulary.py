@@ -1,3 +1,17 @@
+"""
+Description:
+    A pivot table containing a percentage of similarities between two players' vocabularies.
+    It is based on previously extracted player's notes and calculated as a number of shared words
+    divided by a number of total words in a first player's vocabulary.
+    Figures for the same pair of players may differ if they have unequal number of words.
+
+Columns:
+    - Player: player name
+
+Dimensions:
+    - percentage of similarity
+"""
+
 import csv
 
 import py.utils as u
@@ -45,7 +59,7 @@ def get_voc_comparison(player_word_count_dict):
     for player, word_count_dict in player_word_count_dict.items():
         player_comparison_list = []
         for count in player_word_count_dict.values():
-            player_comparison_list.append(f'{compare(word_count_dict, count)}%')
+            player_comparison_list.append(f'{compare(word_count_dict, count)}')
         player_word_count_pivot[player] = player_comparison_list
     return player_word_count_pivot
 

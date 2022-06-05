@@ -1,3 +1,39 @@
+"""
+Description:
+    Favourite suits: A pivot table containing a number of games for each player and special suit.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Suit: suit name
+
+Dimensions:
+    - number of games containing the suit
+
+Description:
+    Favourite suits top: Top-5 suits for each player.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Suit #1: top-1 suit name
+    - % #1: percentage of games containing the suit
+    - Suit #2: top-2 suit name
+    - % #2: percentage of games containing the suit
+    - Suit #3: top-3 suit name
+    - % #3: percentage of games containing the suit
+    - Suit #4: top-4 suit name
+    - % #4: percentage of games containing the suit
+    - Suit #5: top-5 suit name
+    - % #5: percentage of games containing the suit
+"""
+
 import csv
 from sqlalchemy import false
 
@@ -55,14 +91,14 @@ def save_all():
 
 def save_top():
     """Saves top 5 suits with number of games for each player."""
-    with open('../../output/variants/favourite_suits_top_r.tsv', 'w', encoding='utf-8', newline='') as file:
+    with open('../../output/variants/favourite_suits_top.tsv', 'w', encoding='utf-8', newline='') as file:
         w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, escapechar='\\')
         w.writerow(['Player',
-                    'Suit #1', 'Count #1',
-                    'Suit #2', 'Count #2',
-                    'Suit #3', 'Count #3',
-                    'Suit #4', 'Count #4',
-                    'Suit #5', 'Count #5'])
+                    'Suit #1', '% #1',
+                    'Suit #2', '% #2',
+                    'Suit #3', '% #3',
+                    'Suit #4', '% #4',
+                    'Suit #5', '% #5'])
         for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
             total = sum(v.values())
             v = {k1: round(v1 / total * 100) for k1, v1 in v.items()}

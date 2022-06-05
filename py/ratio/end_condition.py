@@ -1,3 +1,20 @@
+"""
+Description:
+    Percentage of terminated, strikeout, timeout, and normal games in player's history
+    sorted by terminated games in descending order.
+
+Exclusions:
+    - 2p games
+    - speedruns
+
+Columns:
+    - Player: player name
+    - Terminated: percentage of terminated games
+    - Strikeout: percentage of strikeout games
+    - Timeout: percentage of timeout games
+    - Normal: percentage of normally finished games
+"""
+
 import csv
 from sqlalchemy import false
 
@@ -18,7 +35,7 @@ def sort_terminated(condition_count_dict):
         dict
         Sorted input dictionary
     """
-    return {k: v for k, v in sorted(condition_count_dict.items(), key=lambda x: -x[1][4])}
+    return {k: v for k, v in sorted(condition_count_dict.items(), key=lambda x: -x[1][4] / x[1]['total'])}
 
 
 def sort_strikeout(condition_count_dict):
@@ -62,10 +79,10 @@ def save(condition_count_dict):
             t = v['total']
             w.writerow([
                 k,
-                f'{u.p_no_round(v[4], t)}%',
-                f'{u.p_no_round(v[2], t)}%',
-                f'{u.p_no_round(v[3], t)}%',
-                f'{u.p_no_round(v[1], t)}%'
+                f'{u.p(v[4], t)}',
+                f'{u.p(v[2], t)}',
+                f'{u.p(v[3], t)}',
+                f'{u.p(v[1], t)}'
             ])
 
 

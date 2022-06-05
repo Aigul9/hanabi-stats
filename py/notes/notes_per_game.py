@@ -1,3 +1,18 @@
+"""
+Description:
+    Percentage of notes per game. Advanced notes_count.
+    The module calculates percentage of notes based on the number of visible cards.
+
+Exclusions:
+    - 2p
+    - speedruns
+    - games which do not contain any notes
+
+Columns:
+    - Player: player name
+    - Percentage: percentage of notes per game
+"""
+
 from sqlalchemy import true
 
 import py.utils as u
@@ -108,7 +123,7 @@ if __name__ == "__main__":
         user = user[0]
         users_notes[user] = get_notes_ratio(user)
 
-    u.save_header('../../output/notes/notes_per_game', ['Player', 'Ratio'])
+    u.save_header('../../output/notes/notes_per_game', ['Player', 'Percentage'])
     for user, user_ratio in u.sort_by_value(users_notes).items():
         u.save_value(
             '../../output/notes/notes_per_game',
