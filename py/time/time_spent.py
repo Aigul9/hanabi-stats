@@ -1,6 +1,8 @@
 import csv
 from itertools import groupby
 
+from sqlalchemy import false
+
 import py.utils as u
 from database.db_connect import session, Game, Player
 
@@ -54,6 +56,7 @@ def get_times(username):
     """
     games = session.query(Game) \
         .filter(Game.players.any(username))\
+        .filter(Game.speedrun == false())\
         .order_by(Game.game_id)\
         .all()
     days = group_stats(games)
@@ -77,7 +80,7 @@ if __name__ == "__main__":
 
     users_times = {k: [
         u.convert_sec_to_day(v[0]),
-        round(v[1]),
+        round(v[1], 1),
         round(v[2], 1)
     ]
         for k, v in u.sort(users_times, 0).items()}
