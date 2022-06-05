@@ -11,3 +11,4 @@ neo4j/errors.log
 py/errors.log
 neo4j/test.py
 legacy/
+docs_test/
