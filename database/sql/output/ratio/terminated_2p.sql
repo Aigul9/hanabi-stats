@@ -11,7 +11,7 @@ select player1,
        player2,
        total,
        term as terminated,
-       concat(round(term * 100.0 / total), '%') as "%"
+       round(term * 100.0 / total, 2) as "%"
 from (select player1,
              player2,
              count(*)                                  as total,

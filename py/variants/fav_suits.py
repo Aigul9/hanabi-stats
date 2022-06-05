@@ -37,6 +37,7 @@ Columns:
 import csv
 from sqlalchemy import false
 
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
@@ -101,15 +102,15 @@ def save_top():
                     'Suit #5', '% #5'])
         for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
             total = sum(v.values())
-            v = {k1: round(v1 / total * 100) for k1, v1 in v.items()}
+            v = {k1: u.p(v1, total) for k1, v1 in v.items()}
             v = sorted(v.items(), key=lambda x: -x[1])
             w.writerow([
                 k,
-                v[0][0], f'{v[0][1]}%',
-                v[1][0], f'{v[1][1]}%',
-                v[2][0], f'{v[2][1]}%',
-                v[3][0], f'{v[3][1]}%',
-                v[4][0], f'{v[4][1]}%'
+                v[0][0], v[0][1],
+                v[1][0], v[1][1],
+                v[2][0], v[2][1],
+                v[3][0], v[3][1],
+                v[4][0], v[4][1]
             ])
 
 

@@ -10,7 +10,7 @@ Exclusions:
 
 Columns:
     - Player: player name
-    - Percentage: percentage of notes per game
+    - %: percentage of notes per game
 """
 
 from sqlalchemy import true
@@ -123,7 +123,7 @@ if __name__ == "__main__":
         user = user[0]
         users_notes[user] = get_notes_ratio(user)
 
-    u.save_header('../../output/notes/notes_per_game', ['Player', 'Percentage'])
+    u.save_header('../../output/notes/notes_per_game', ['Player', '%'])
     for user, user_ratio in u.sort_by_value(users_notes).items():
         u.save_value(
             '../../output/notes/notes_per_game',
