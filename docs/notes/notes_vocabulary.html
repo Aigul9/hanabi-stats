@@ -45,7 +45,7 @@ def open_notes_stats(username):
     dict
         Number of notes containing a specific word or symbol
     &#34;&#34;&#34;
-    with open(f&#39;../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as file:
+    with open(f&#39;../../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as file:
         player_notes_list = []
         for line in file.readlines():
             player_notes_list.append(line.rstrip().split(&#39;\t&#39;))
@@ -247,7 +247,7 @@ if __name__ == &#34;__main__&#34;:
     dict
         Number of notes containing a specific word or symbol
     &#34;&#34;&#34;
-    with open(f&#39;../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as file:
+    with open(f&#39;../../output/notes/portraits/{username}_portrait.tsv&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as file:
         player_notes_list = []
         for line in file.readlines():
             player_notes_list.append(line.rstrip().split(&#39;\t&#39;))

@@ -32,9 +32,12 @@ import logging
 import os
 import requests
 from datetime import datetime
-from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
+
+from sqlalchemy import text
+
+from database.db_connect import db
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -43,7 +46,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # fileHandler = logging.FileHandler(&#39;../database/errors.log&#39;)
-# fileHandler.setLevel(logging.INFO)
+# fileHandler.setLevel(logging.DEBUG)
 # logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
@@ -64,6 +67,29 @@ def open_stats(user, session=None):
     &#34;&#34;&#34;
     user = &#39;Mat%C3%ADas%20V5&#39; if user == &#39;Matías_V5&#39; else user
     url = f&#39;https://hanab.live/api/v1/history-full/{user}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    return response.json()
+
+
+def open_stats_from_id_start(user, id_start, session=None):
+    &#34;&#34;&#34;Gets user&#39;s statistics from the history page API starting from the game id.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+    id_start : int
+        Start game id
+    session : session
+        Current session
+
+    Returns history in json format starting from the game id
+    &#34;&#34;&#34;
+    user = &#39;Mat%C3%ADas%20V5&#39; if user == &#39;Matías_V5&#39; else user
+    url = f&#39;https://hanab.live/api/v1/history-full/{user}?start={id_start}&#39;
     if session is None:
         response = requests.get(url)
     else:
@@ -139,6 +165,18 @@ def open_file(filename):
     &#34;&#34;&#34;
     with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
         return [line.rstrip() for line in f.readlines()]
+
+
+def read_file(filename):
+    &#34;&#34;&#34;Simply reads a file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return f.read()
 
 
 def open_tsv(filename):
@@ -217,7 +255,7 @@ def save_value(path, data):
 
 
 def save_csv(path, data):
-    &#34;&#34;&#34;Saves data into a csv file.
+    &#34;&#34;&#34;Saves list into a csv file.
 
     Parameters
     ----------
@@ -230,6 +268,22 @@ def save_csv(path, data):
         w = csv.writer(file, delimiter=&#39;,&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         for v in data:
             w.writerow(*v)
+
+
+def save_list_tsv(path, data):
+    &#34;&#34;&#34;Saves list into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : list
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;a&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for v in data:
+            w.writerow(v)
 
 
 def save_header(path, header):
@@ -826,7 +880,7 @@ def sort(data, col_ind):
     Returns
     -------
     dict
-        A dictionary sorted by column index in descending order.
+        A dictionary sorted by column index in descending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
 
@@ -842,7 +896,7 @@ def sort_by_key(data):
     Returns
     -------
     dict
-        A dictionary sorted by key in ascending order.
+        A dictionary sorted by key in ascending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}
 
@@ -858,86 +912,42 @@ def sort_by_value(data):
     Returns
     -------
     dict
-        A dictionary sorted by value in descending order.
+        A dictionary sorted by value in descending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}
 
 
-def save_up_to_date_stats(data):
-    with open(&#39;output/up_to_date_stats.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([
-            &#39;Username&#39;, &#39;Type&#39;,
-            &#39;W/L(%)&#39;, &#39;W(%)&#39;, &#39;L(%)&#39;, &#39;W(#)&#39;, &#39;L(#)&#39;,
-            &#39;W/L(%, 2p)&#39;, &#39;W(%, 2p)&#39;, &#39;L(%, 2p)&#39;, &#39;W(#, 2p)&#39;, &#39;L(#, 2p)&#39;,
-            &#39;W/L(%, 3p)&#39;, &#39;W(%, 3p+)&#39;, &#39;L(%, 3p+)&#39;, &#39;W(#, 3p+)&#39;, &#39;L(#, 3p+)&#39;]
-        )
-        for k, v in sort_by_key(data).items():
-            for k1, t in v.items():
-                w.writerow([
-                    k,
-                    k1,
-                    t[&#39;total_p&#39;][2],
-                    t[&#39;total_p&#39;][0],
-                    t[&#39;total_p&#39;][1],
-                    t[&#39;total_c&#39;][0],
-                    t[&#39;total_c&#39;][1],
-                    t[&#39;total_2p_p&#39;][2],
-                    t[&#39;total_2p_p&#39;][0],
-                    t[&#39;total_2p_p&#39;][1],
-                    t[&#39;total_2p_c&#39;][0],
-                    t[&#39;total_2p_c&#39;][1],
-                    t[&#39;total_3p_p&#39;][2],
-                    t[&#39;total_3p_p&#39;][0],
-                    t[&#39;total_3p_p&#39;][1],
-                    t[&#39;total_3p_c&#39;][0],
-                    t[&#39;total_3p_c&#39;][1]]
-                )
+def run_query(sql):
+    &#34;&#34;&#34;Runs a sql query.
+
+    Parameters
+    ----------
+    sql : str
+        A text containing a sql query.
+    Returns
+    -------
+    list
+        A list with results
+    &#34;&#34;&#34;
+    result = db.execute(sql)
+    return [row for row in result]
 
 
-def save_wr(data):
-    with open(&#39;output/winrate/highest_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Username&#39;, &#39;W(%)&#39;, &#39;Total games&#39;])
-        for k, v in sorted(data.items(), key=lambda item: item[1][&#39;Totals&#39;][&#39;total_p&#39;], reverse=True):
-            w.writerow([
-                k,
-                v[&#39;Totals&#39;][&#39;total_p&#39;][0],
-                v[&#39;Totals&#39;][&#39;total_c&#39;][2]
-            ])
+def run_workflow(path, header):
+    &#34;&#34;&#34;Workflow running a sql query and saving the results into tsv file.
 
-
-def save_data(data, filename, column):
-    with open(f&#39;output/winrate/{filename}.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([column, &#39;WR&#39;, &#39;Total games&#39;])
-        for k, v in data.items():
-            w.writerow([k, v[&#39;win&#39;], v[&#39;total&#39;]])
-
-
-def save_hours(data, hours_header):
-    with open(f&#39;output/time/hours_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Player: WR (Total games)&#39;] + hours_header)
-        for k in data.keys():
-            w.writerow([k] + [str(data[k][h][&#39;win&#39;]) + f&#39;% ({data[k][h][&#34;total&#34;]})&#39; for h in hours_header])
-
-
-def save_plots(data, hours_header):
-    for k, v in data.items():
-        x = hours_header
-        y = [v[key][&#39;win&#39;] for key in v.keys()]
-        n = [v[key][&#39;total&#39;] for key in v.keys()]
-        fig = plt.figure(figsize=(12, 5))
-        plt.xlabel(&#39;Hours (UTC)&#39;)
-        plt.ylabel(&#39;Total games (#)&#39;)
-        plt.scatter(x, n)
-        for i, txt in enumerate(y):
-            plt.annotate(txt, (x[i], n[i]))
-        plt.title(&#39;Win/loss ratio (%)&#39;)
-        plt.plot(x, n)
-        plt.savefig(f&#39;output/time/plots/{k}.png&#39;)
-        plt.close(fig)</code></pre>
+    Parameters
+    ----------
+    path : str
+        Path to the file location
+    header : list
+        Column names
+    &#34;&#34;&#34;
+    sql_file = read_file(f&#39;../../database/sql/{path}.sql&#39;)
+    sql = text(sql_file)
+    result = run_query(sql)
+    save_header(f&#39;../../{path}&#39;, header)
+    save_list_tsv(f&#39;../../{path}&#39;, result)</code></pre>
 </details>
 </section>
 <section>
@@ -2095,6 +2105,48 @@ def save_plots(data, hours_header):
     return [s for s in response if s[&#39;id&#39;] == game_id][0]</code></pre>
 </details>
 </dd>
+<dt id="py.utils.open_stats_from_id_start"><code class="name flex">
+<span>def <span class="ident">open_stats_from_id_start</span></span>(<span>user, id_start, session=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Gets user's statistics from the history page API starting from the game id.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>user</code></strong> :&ensp;<code>str</code></dt>
+<dd>Player name</dd>
+<dt><strong><code>id_start</code></strong> :&ensp;<code>int</code></dt>
+<dd>Start game id</dd>
+<dt><strong><code>session</code></strong> :&ensp;<code>session</code></dt>
+<dd>Current session</dd>
+</dl>
+<p>Returns history in json format starting from the game id</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def open_stats_from_id_start(user, id_start, session=None):
+    &#34;&#34;&#34;Gets user&#39;s statistics from the history page API starting from the game id.
+
+    Parameters
+    ----------
+    user : str
+        Player name
+    id_start : int
+        Start game id
+    session : session
+        Current session
+
+    Returns history in json format starting from the game id
+    &#34;&#34;&#34;
+    user = &#39;Mat%C3%ADas%20V5&#39; if user == &#39;Matías_V5&#39; else user
+    url = f&#39;https://hanab.live/api/v1/history-full/{user}?start={id_start}&#39;
+    if session is None:
+        response = requests.get(url)
+    else:
+        response = session.get(url)
+    return response.json()</code></pre>
+</details>
+</dd>
 <dt id="py.utils.open_tsv"><code class="name flex">
 <span>def <span class="ident">open_tsv</span></span>(<span>filename)</span>
 </code></dt>
@@ -2282,6 +2334,100 @@ def save_plots(data, hours_header):
     return str(num).replace(&#39;.&#39;, &#39;,&#39;)</code></pre>
 </details>
 </dd>
+<dt id="py.utils.read_file"><code class="name flex">
+<span>def <span class="ident">read_file</span></span>(<span>filename)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Simply reads a file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>filename</code></strong> :&ensp;<code>str</code></dt>
+<dd>File name</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_file(filename):
+    &#34;&#34;&#34;Simply reads a file.
+
+    Parameters
+    ----------
+    filename : str
+        File name
+    &#34;&#34;&#34;
+    with open(filename, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        return f.read()</code></pre>
+</details>
+</dd>
+<dt id="py.utils.run_query"><code class="name flex">
+<span>def <span class="ident">run_query</span></span>(<span>sql)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Runs a sql query.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>sql</code></strong> :&ensp;<code>str</code></dt>
+<dd>A text containing a sql query.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>A list with results</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run_query(sql):
+    &#34;&#34;&#34;Runs a sql query.
+
+    Parameters
+    ----------
+    sql : str
+        A text containing a sql query.
+    Returns
+    -------
+    list
+        A list with results
+    &#34;&#34;&#34;
+    result = db.execute(sql)
+    return [row for row in result]</code></pre>
+</details>
+</dd>
+<dt id="py.utils.run_workflow"><code class="name flex">
+<span>def <span class="ident">run_workflow</span></span>(<span>path, header)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Workflow running a sql query and saving the results into tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to the file location</dd>
+<dt><strong><code>header</code></strong> :&ensp;<code>list</code></dt>
+<dd>Column names</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run_workflow(path, header):
+    &#34;&#34;&#34;Workflow running a sql query and saving the results into tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to the file location
+    header : list
+        Column names
+    &#34;&#34;&#34;
+    sql_file = read_file(f&#39;../../database/sql/{path}.sql&#39;)
+    sql = text(sql_file)
+    result = run_query(sql)
+    save_header(f&#39;../../{path}&#39;, header)
+    save_list_tsv(f&#39;../../{path}&#39;, result)</code></pre>
+</details>
+</dd>
 <dt id="py.utils.save"><code class="name flex">
 <span>def <span class="ident">save</span></span>(<span>path, data, header)</span>
 </code></dt>
@@ -2323,7 +2469,7 @@ def save_plots(data, hours_header):
 <span>def <span class="ident">save_csv</span></span>(<span>path, data)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Saves data into a csv file.</p>
+<div class="desc"><p>Saves list into a csv file.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
 <dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
@@ -2336,7 +2482,7 @@ def save_plots(data, hours_header):
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def save_csv(path, data):
-    &#34;&#34;&#34;Saves data into a csv file.
+    &#34;&#34;&#34;Saves list into a csv file.
 
     Parameters
     ----------
@@ -2349,23 +2495,6 @@ def save_plots(data, hours_header):
         w = csv.writer(file, delimiter=&#39;,&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         for v in data:
             w.writerow(*v)</code></pre>
-</details>
-</dd>
-<dt id="py.utils.save_data"><code class="name flex">
-<span>def <span class="ident">save_data</span></span>(<span>data, filename, column)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def save_data(data, filename, column):
-    with open(f&#39;output/winrate/{filename}.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([column, &#39;WR&#39;, &#39;Total games&#39;])
-        for k, v in data.items():
-            w.writerow([k, v[&#39;win&#39;], v[&#39;total&#39;]])</code></pre>
 </details>
 </dd>
 <dt id="py.utils.save_header"><code class="name flex">
@@ -2399,88 +2528,36 @@ def save_plots(data, hours_header):
         w.writerow(header)</code></pre>
 </details>
 </dd>
-<dt id="py.utils.save_hours"><code class="name flex">
-<span>def <span class="ident">save_hours</span></span>(<span>data, hours_header)</span>
+<dt id="py.utils.save_list_tsv"><code class="name flex">
+<span>def <span class="ident">save_list_tsv</span></span>(<span>path, data)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Saves list into a tsv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to directory</dd>
+<dt><strong><code>data</code></strong> :&ensp;<code>list</code></dt>
+<dd>Saved data</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def save_hours(data, hours_header):
-    with open(f&#39;output/time/hours_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Player: WR (Total games)&#39;] + hours_header)
-        for k in data.keys():
-            w.writerow([k] + [str(data[k][h][&#39;win&#39;]) + f&#39;% ({data[k][h][&#34;total&#34;]})&#39; for h in hours_header])</code></pre>
-</details>
-</dd>
-<dt id="py.utils.save_plots"><code class="name flex">
-<span>def <span class="ident">save_plots</span></span>(<span>data, hours_header)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def save_plots(data, hours_header):
-    for k, v in data.items():
-        x = hours_header
-        y = [v[key][&#39;win&#39;] for key in v.keys()]
-        n = [v[key][&#39;total&#39;] for key in v.keys()]
-        fig = plt.figure(figsize=(12, 5))
-        plt.xlabel(&#39;Hours (UTC)&#39;)
-        plt.ylabel(&#39;Total games (#)&#39;)
-        plt.scatter(x, n)
-        for i, txt in enumerate(y):
-            plt.annotate(txt, (x[i], n[i]))
-        plt.title(&#39;Win/loss ratio (%)&#39;)
-        plt.plot(x, n)
-        plt.savefig(f&#39;output/time/plots/{k}.png&#39;)
-        plt.close(fig)</code></pre>
-</details>
-</dd>
-<dt id="py.utils.save_up_to_date_stats"><code class="name flex">
-<span>def <span class="ident">save_up_to_date_stats</span></span>(<span>data)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def save_up_to_date_stats(data):
-    with open(&#39;output/up_to_date_stats.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([
-            &#39;Username&#39;, &#39;Type&#39;,
-            &#39;W/L(%)&#39;, &#39;W(%)&#39;, &#39;L(%)&#39;, &#39;W(#)&#39;, &#39;L(#)&#39;,
-            &#39;W/L(%, 2p)&#39;, &#39;W(%, 2p)&#39;, &#39;L(%, 2p)&#39;, &#39;W(#, 2p)&#39;, &#39;L(#, 2p)&#39;,
-            &#39;W/L(%, 3p)&#39;, &#39;W(%, 3p+)&#39;, &#39;L(%, 3p+)&#39;, &#39;W(#, 3p+)&#39;, &#39;L(#, 3p+)&#39;]
-        )
-        for k, v in sort_by_key(data).items():
-            for k1, t in v.items():
-                w.writerow([
-                    k,
-                    k1,
-                    t[&#39;total_p&#39;][2],
-                    t[&#39;total_p&#39;][0],
-                    t[&#39;total_p&#39;][1],
-                    t[&#39;total_c&#39;][0],
-                    t[&#39;total_c&#39;][1],
-                    t[&#39;total_2p_p&#39;][2],
-                    t[&#39;total_2p_p&#39;][0],
-                    t[&#39;total_2p_p&#39;][1],
-                    t[&#39;total_2p_c&#39;][0],
-                    t[&#39;total_2p_c&#39;][1],
-                    t[&#39;total_3p_p&#39;][2],
-                    t[&#39;total_3p_p&#39;][0],
-                    t[&#39;total_3p_p&#39;][1],
-                    t[&#39;total_3p_c&#39;][0],
-                    t[&#39;total_3p_c&#39;][1]]
-                )</code></pre>
+<pre><code class="python">def save_list_tsv(path, data):
+    &#34;&#34;&#34;Saves list into a tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to directory
+    data : list
+        Saved data
+    &#34;&#34;&#34;
+    with open(f&#39;{path}.tsv&#39;, &#39;a&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
+        for v in data:
+            w.writerow(v)</code></pre>
 </details>
 </dd>
 <dt id="py.utils.save_value"><code class="name flex">
@@ -2515,27 +2592,6 @@ def save_plots(data, hours_header):
             w.writerow([k, v])</code></pre>
 </details>
 </dd>
-<dt id="py.utils.save_wr"><code class="name flex">
-<span>def <span class="ident">save_wr</span></span>(<span>data)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def save_wr(data):
-    with open(&#39;output/winrate/highest_wr.tsv&#39;, &#39;w&#39;, newline=&#39;&#39;) as file:
-        w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_MINIMAL)
-        w.writerow([&#39;Username&#39;, &#39;W(%)&#39;, &#39;Total games&#39;])
-        for k, v in sorted(data.items(), key=lambda item: item[1][&#39;Totals&#39;][&#39;total_p&#39;], reverse=True):
-            w.writerow([
-                k,
-                v[&#39;Totals&#39;][&#39;total_p&#39;][0],
-                v[&#39;Totals&#39;][&#39;total_c&#39;][2]
-            ])</code></pre>
-</details>
-</dd>
 <dt id="py.utils.sort"><code class="name flex">
 <span>def <span class="ident">sort</span></span>(<span>data, col_ind)</span>
 </code></dt>
@@ -2551,7 +2607,7 @@ def save_plots(data, hours_header):
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><code>dict</code></dt>
-<dd>A dictionary sorted by column index in descending order.</dd>
+<dd>A dictionary sorted by column index in descending order</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -2570,7 +2626,7 @@ def save_plots(data, hours_header):
     Returns
     -------
     dict
-        A dictionary sorted by column index in descending order.
+        A dictionary sorted by column index in descending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}</code></pre>
 </details>
@@ -2588,7 +2644,7 @@ def save_plots(data, hours_header):
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><code>dict</code></dt>
-<dd>A dictionary sorted by key in ascending order.</dd>
+<dd>A dictionary sorted by key in ascending order</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -2605,7 +2661,7 @@ def save_plots(data, hours_header):
     Returns
     -------
     dict
-        A dictionary sorted by key in ascending order.
+        A dictionary sorted by key in ascending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}</code></pre>
 </details>
@@ -2623,7 +2679,7 @@ def save_plots(data, hours_header):
 <h2 id="returns">Returns</h2>
 <dl>
 <dt><code>dict</code></dt>
-<dd>A dictionary sorted by value in descending order.</dd>
+<dd>A dictionary sorted by value in descending order</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -2640,7 +2696,7 @@ def save_plots(data, hours_header):
     Returns
     -------
     dict
-        A dictionary sorted by value in descending order.
+        A dictionary sorted by value in descending order
     &#34;&#34;&#34;
     return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}</code></pre>
 </details>
@@ -2781,20 +2837,20 @@ def save_plots(data, hours_header):
 <li><code><a title="py.utils.open_file" href="#py.utils.open_file">open_file</a></code></li>
 <li><code><a title="py.utils.open_stats" href="#py.utils.open_stats">open_stats</a></code></li>
 <li><code><a title="py.utils.open_stats_by_game_id" href="#py.utils.open_stats_by_game_id">open_stats_by_game_id</a></code></li>
+<li><code><a title="py.utils.open_stats_from_id_start" href="#py.utils.open_stats_from_id_start">open_stats_from_id_start</a></code></li>
 <li><code><a title="py.utils.open_tsv" href="#py.utils.open_tsv">open_tsv</a></code></li>
 <li><code><a title="py.utils.p" href="#py.utils.p">p</a></code></li>
 <li><code><a title="py.utils.p1" href="#py.utils.p1">p1</a></code></li>
 <li><code><a title="py.utils.p_no_round" href="#py.utils.p_no_round">p_no_round</a></code></li>
 <li><code><a title="py.utils.r" href="#py.utils.r">r</a></code></li>
+<li><code><a title="py.utils.read_file" href="#py.utils.read_file">read_file</a></code></li>
+<li><code><a title="py.utils.run_query" href="#py.utils.run_query">run_query</a></code></li>
+<li><code><a title="py.utils.run_workflow" href="#py.utils.run_workflow">run_workflow</a></code></li>
 <li><code><a title="py.utils.save" href="#py.utils.save">save</a></code></li>
 <li><code><a title="py.utils.save_csv" href="#py.utils.save_csv">save_csv</a></code></li>
-<li><code><a title="py.utils.save_data" href="#py.utils.save_data">save_data</a></code></li>
 <li><code><a title="py.utils.save_header" href="#py.utils.save_header">save_header</a></code></li>
-<li><code><a title="py.utils.save_hours" href="#py.utils.save_hours">save_hours</a></code></li>
-<li><code><a title="py.utils.save_plots" href="#py.utils.save_plots">save_plots</a></code></li>
-<li><code><a title="py.utils.save_up_to_date_stats" href="#py.utils.save_up_to_date_stats">save_up_to_date_stats</a></code></li>
+<li><code><a title="py.utils.save_list_tsv" href="#py.utils.save_list_tsv">save_list_tsv</a></code></li>
 <li><code><a title="py.utils.save_value" href="#py.utils.save_value">save_value</a></code></li>
-<li><code><a title="py.utils.save_wr" href="#py.utils.save_wr">save_wr</a></code></li>
 <li><code><a title="py.utils.sort" href="#py.utils.sort">sort</a></code></li>
 <li><code><a title="py.utils.sort_by_key" href="#py.utils.sort_by_key">sort_by_key</a></code></li>
 <li><code><a title="py.utils.sort_by_value" href="#py.utils.sort_by_value">sort_by_value</a></code></li>

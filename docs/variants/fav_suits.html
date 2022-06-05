@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>py.fav_suits API documentation</title>
+<title>py.variants.fav_suits API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,7 +19,7 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>py.fav_suits</code></h1>
+<h1 class="title">Module <code>py.variants.fav_suits</code></h1>
 </header>
 <section id="section-intro">
 <details class="source">
@@ -34,7 +34,7 @@ from database.db_connect import session, Game, Player
 
 def save_all():
     &#34;&#34;&#34;Saves all suits with number of games for each player.&#34;&#34;&#34;
-    with open(&#39;../output/variants/favourite_suits.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+    with open(&#39;../../output/variants/favourite_suits.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         w.writerow([&#39;Player&#39;,
                     &#39;Rainbow&#39;,
@@ -83,7 +83,7 @@ def save_all():
 
 def save_top():
     &#34;&#34;&#34;Saves top 5 suits with number of games for each player.&#34;&#34;&#34;
-    with open(&#39;../output/variants/favourite_suits_top_r.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+    with open(&#39;../../output/variants/favourite_suits_top_r.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         w.writerow([&#39;Player&#39;,
                     &#39;Suit #1&#39;, &#39;Count #1&#39;,
@@ -220,7 +220,7 @@ if __name__ == &#34;__main__&#34;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="py.fav_suits.clean_variant"><code class="name flex">
+<dt id="py.variants.fav_suits.clean_variant"><code class="name flex">
 <span>def <span class="ident">clean_variant</span></span>(<span>variant)</span>
 </code></dt>
 <dd>
@@ -260,7 +260,7 @@ if __name__ == &#34;__main__&#34;:
         .strip()</code></pre>
 </details>
 </dd>
-<dt id="py.fav_suits.get_suits"><code class="name flex">
+<dt id="py.variants.fav_suits.get_suits"><code class="name flex">
 <span>def <span class="ident">get_suits</span></span>(<span>username)</span>
 </code></dt>
 <dd>
@@ -304,7 +304,7 @@ if __name__ == &#34;__main__&#34;:
     return suits</code></pre>
 </details>
 </dd>
-<dt id="py.fav_suits.get_variants"><code class="name flex">
+<dt id="py.variants.fav_suits.get_variants"><code class="name flex">
 <span>def <span class="ident">get_variants</span></span>(<span>username)</span>
 </code></dt>
 <dd>
@@ -343,7 +343,7 @@ if __name__ == &#34;__main__&#34;:
         .all()</code></pre>
 </details>
 </dd>
-<dt id="py.fav_suits.init_suits"><code class="name flex">
+<dt id="py.variants.fav_suits.init_suits"><code class="name flex">
 <span>def <span class="ident">init_suits</span></span>(<span>)</span>
 </code></dt>
 <dd>
@@ -388,7 +388,7 @@ if __name__ == &#34;__main__&#34;:
     }</code></pre>
 </details>
 </dd>
-<dt id="py.fav_suits.save_all"><code class="name flex">
+<dt id="py.variants.fav_suits.save_all"><code class="name flex">
 <span>def <span class="ident">save_all</span></span>(<span>)</span>
 </code></dt>
 <dd>
@@ -399,7 +399,7 @@ if __name__ == &#34;__main__&#34;:
 </summary>
 <pre><code class="python">def save_all():
     &#34;&#34;&#34;Saves all suits with number of games for each player.&#34;&#34;&#34;
-    with open(&#39;../output/variants/favourite_suits.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+    with open(&#39;../../output/variants/favourite_suits.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         w.writerow([&#39;Player&#39;,
                     &#39;Rainbow&#39;,
@@ -446,7 +446,7 @@ if __name__ == &#34;__main__&#34;:
             ])</code></pre>
 </details>
 </dd>
-<dt id="py.fav_suits.save_top"><code class="name flex">
+<dt id="py.variants.fav_suits.save_top"><code class="name flex">
 <span>def <span class="ident">save_top</span></span>(<span>)</span>
 </code></dt>
 <dd>
@@ -457,7 +457,7 @@ if __name__ == &#34;__main__&#34;:
 </summary>
 <pre><code class="python">def save_top():
     &#34;&#34;&#34;Saves top 5 suits with number of games for each player.&#34;&#34;&#34;
-    with open(&#39;../output/variants/favourite_suits_top_r.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
+    with open(&#39;../../output/variants/favourite_suits_top_r.tsv&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;, newline=&#39;&#39;) as file:
         w = csv.writer(file, delimiter=&#39;\t&#39;, quotechar=&#39;&#34;&#39;, quoting=csv.QUOTE_NONE, escapechar=&#39;\\&#39;)
         w.writerow([&#39;Player&#39;,
                     &#39;Suit #1&#39;, &#39;Count #1&#39;,
@@ -492,17 +492,17 @@ if __name__ == &#34;__main__&#34;:
 <ul id="index">
 <li><h3>Super-module</h3>
 <ul>
-<li><code><a title="py" href="index.html">py</a></code></li>
+<li><code><a title="py.variants" href="index.html">py.variants</a></code></li>
 </ul>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="two-column">
-<li><code><a title="py.fav_suits.clean_variant" href="#py.fav_suits.clean_variant">clean_variant</a></code></li>
-<li><code><a title="py.fav_suits.get_suits" href="#py.fav_suits.get_suits">get_suits</a></code></li>
-<li><code><a title="py.fav_suits.get_variants" href="#py.fav_suits.get_variants">get_variants</a></code></li>
-<li><code><a title="py.fav_suits.init_suits" href="#py.fav_suits.init_suits">init_suits</a></code></li>
-<li><code><a title="py.fav_suits.save_all" href="#py.fav_suits.save_all">save_all</a></code></li>
-<li><code><a title="py.fav_suits.save_top" href="#py.fav_suits.save_top">save_top</a></code></li>
+<li><code><a title="py.variants.fav_suits.clean_variant" href="#py.variants.fav_suits.clean_variant">clean_variant</a></code></li>
+<li><code><a title="py.variants.fav_suits.get_suits" href="#py.variants.fav_suits.get_suits">get_suits</a></code></li>
+<li><code><a title="py.variants.fav_suits.get_variants" href="#py.variants.fav_suits.get_variants">get_variants</a></code></li>
+<li><code><a title="py.variants.fav_suits.init_suits" href="#py.variants.fav_suits.init_suits">init_suits</a></code></li>
+<li><code><a title="py.variants.fav_suits.save_all" href="#py.variants.fav_suits.save_all">save_all</a></code></li>
+<li><code><a title="py.variants.fav_suits.save_top" href="#py.variants.fav_suits.save_top">save_top</a></code></li>
 </ul>
 </li>
 </ul>
