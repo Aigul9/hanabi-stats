@@ -4,7 +4,6 @@ import logging
 import os
 import requests
 from datetime import datetime
-from matplotlib import pyplot as plt
 from os import listdir
 from os.path import isfile, join
 
@@ -851,7 +850,7 @@ def sort(data, col_ind):
     Returns
     -------
     dict
-        A dictionary sorted by column index in descending order.
+        A dictionary sorted by column index in descending order
     """
     return {k: v for k, v in sorted(data.items(), key=lambda item: -item[1][col_ind])}
 
@@ -867,7 +866,7 @@ def sort_by_key(data):
     Returns
     -------
     dict
-        A dictionary sorted by key in ascending order.
+        A dictionary sorted by key in ascending order
     """
     return {k: v for k, v in sorted(data.items(), key=lambda x: x[0].lower())}
 
@@ -883,88 +882,22 @@ def sort_by_value(data):
     Returns
     -------
     dict
-        A dictionary sorted by value in descending order.
+        A dictionary sorted by value in descending order
     """
     return {k: v for k, v in sorted(data.items(), key=lambda x: -x[1])}
 
 
-def save_up_to_date_stats(data):
-    with open('output/up_to_date_stats.tsv', 'w', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow([
-            'Username', 'Type',
-            'W/L(%)', 'W(%)', 'L(%)', 'W(#)', 'L(#)',
-            'W/L(%, 2p)', 'W(%, 2p)', 'L(%, 2p)', 'W(#, 2p)', 'L(#, 2p)',
-            'W/L(%, 3p)', 'W(%, 3p+)', 'L(%, 3p+)', 'W(#, 3p+)', 'L(#, 3p+)']
-        )
-        for k, v in sort_by_key(data).items():
-            for k1, t in v.items():
-                w.writerow([
-                    k,
-                    k1,
-                    t['total_p'][2],
-                    t['total_p'][0],
-                    t['total_p'][1],
-                    t['total_c'][0],
-                    t['total_c'][1],
-                    t['total_2p_p'][2],
-                    t['total_2p_p'][0],
-                    t['total_2p_p'][1],
-                    t['total_2p_c'][0],
-                    t['total_2p_c'][1],
-                    t['total_3p_p'][2],
-                    t['total_3p_p'][0],
-                    t['total_3p_p'][1],
-                    t['total_3p_c'][0],
-                    t['total_3p_c'][1]]
-                )
-
-
-def save_wr(data):
-    with open('output/winrate/highest_wr.tsv', 'w', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Username', 'W(%)', 'Total games'])
-        for k, v in sorted(data.items(), key=lambda item: item[1]['Totals']['total_p'], reverse=True):
-            w.writerow([
-                k,
-                v['Totals']['total_p'][0],
-                v['Totals']['total_c'][2]
-            ])
-
-
-def save_data(data, filename, column):
-    with open(f'output/winrate/{filename}.tsv', 'w', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow([column, 'WR', 'Total games'])
-        for k, v in data.items():
-            w.writerow([k, v['win'], v['total']])
-
-
-def save_hours(data, hours_header):
-    with open(f'output/time/hours_wr.tsv', 'w', newline='') as file:
-        w = csv.writer(file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        w.writerow(['Player: WR (Total games)'] + hours_header)
-        for k in data.keys():
-            w.writerow([k] + [str(data[k][h]['win']) + f'% ({data[k][h]["total"]})' for h in hours_header])
-
-
-def save_plots(data, hours_header):
-    for k, v in data.items():
-        x = hours_header
-        y = [v[key]['win'] for key in v.keys()]
-        n = [v[key]['total'] for key in v.keys()]
-        fig = plt.figure(figsize=(12, 5))
-        plt.xlabel('Hours (UTC)')
-        plt.ylabel('Total games (#)')
-        plt.scatter(x, n)
-        for i, txt in enumerate(y):
-            plt.annotate(txt, (x[i], n[i]))
-        plt.title('Win/loss ratio (%)')
-        plt.plot(x, n)
-        plt.savefig(f'output/time/plots/{k}.png')
-        plt.close(fig)
-
-
 def run_query(sql):
+    """Runs a sql query.
+
+    Parameters
+    ----------
+    sql: string
+        A text containing a sql query.
+    Returns
+    -------
+    list
+        A list with results
+    """
     result = db.execute(sql)
     return [row for row in result]
