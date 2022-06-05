@@ -18,12 +18,11 @@ See source code: https://github.com/Aigul9/hanabi-stats-vis
 
 ## Folders structure
 - ```database```: python and sql scripts related to PostgreSQL;
-- ```docs```: documentation of the main methods;
+- ```docs```: documentation of the python functions;
 - ```input```: data which should be provided to the program;
 - ```neo4j```: scripts and generated data fed into neo4j database;
 - ```output```: results;
 - ```py```: python scripts to download and parse statistics, calculate user data;
-- ```py_old```: undocumented unused python scripts;
 - ```resources```: list of available variants and their efficiency;
 - ```swagger```: API documentation.
 
