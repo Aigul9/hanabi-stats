@@ -7,6 +7,8 @@ from datetime import datetime
 from os import listdir
 from os.path import isfile, join
 
+from sqlalchemy import text
+
 from database.db_connect import db
 
 logging.basicConfig(
@@ -892,7 +894,7 @@ def run_query(sql):
 
     Parameters
     ----------
-    sql: string
+    sql : str
         A text containing a sql query.
     Returns
     -------
@@ -901,3 +903,20 @@ def run_query(sql):
     """
     result = db.execute(sql)
     return [row for row in result]
+
+
+def run_workflow(path, header):
+    """Workflow running a sql query and saving the results into tsv file.
+
+    Parameters
+    ----------
+    path : str
+        Path to the file location
+    header : list
+        Column names
+    """
+    sql_file = read_file(f'../../database/sql/{path}.sql')
+    sql = text(sql_file)
+    result = run_query(sql)
+    save_header(f'../../{path}', header)
+    save_list_tsv(f'../../{path}', result)

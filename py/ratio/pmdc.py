@@ -1,12 +1,19 @@
-from sqlalchemy import text
-
 import py.utils as u
 
 
 if __name__ == "__main__":
-    filename = 'clues'
-    sql_file = u.read_file(f'../../../database/sql/output/pmdc/{filename}.sql')
-    sql = text(sql_file)
-    result = u.run_query(sql)
-    u.save_header(f'../../../output/ratio/pmdc/{filename}', ['Player', 'Ratio', 'Clues', 'Games'])
-    u.save_list_tsv(f'../../../output/ratio/pmdc/{filename}', result)
+    path = 'output/ratio/pmdc/clues'
+    header = ['Player', 'Ratio', 'Clues', 'Games']
+    u.run_workflow(path, header)
+
+    path = 'output/ratio/pmdc/discards'
+    header = ['Player', 'Ratio', 'Discards', 'Games']
+    u.run_workflow(path, header)
+
+    path = 'output/ratio/pmdc/plays'
+    header = ['Player', 'Ratio', 'Plays', 'Games']
+    u.run_workflow(path, header)
+
+    path = 'output/ratio/pmdc/misplays'
+    header = ['Player', 'Ratio', 'Misplays', 'Games']
+    u.run_workflow(path, header)
