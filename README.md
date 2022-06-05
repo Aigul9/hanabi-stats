@@ -1,6 +1,6 @@
 # Hanabi stats
 
-The program parses users' statistics from https://hanab.live/, calculates percentage of wins and losses, filters it by each player, gets highest winrate, rank, preference, draws plots based on online activity and saves all statistics to the files in tsv format.
+The program loads users' games and actions from https://hanab.live/ via api, feeds it in the database, calculates various statistics, and saves them to files in tsv format.
 
 Code documentation: https://aigul9.github.io/hanabi-stats/
 
