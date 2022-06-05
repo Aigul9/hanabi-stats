@@ -13,7 +13,7 @@ with players as (
     group by player
 )
 select t1.player,
-       round(t1.count * 1.0 / p.count, 2) as ratio,
+       round(t1.count * 100.0 / p.count, 2) as ratio,
        t1.count as count_clean,
        p.count as count_total
 from (select pl.player, count(*) as count

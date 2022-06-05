@@ -1,6 +1,6 @@
 --player who bombed out the game
 select t1.player,
-       round("third strikes" * 1.0 / count, 2),
+       round("third strikes" * 100.0 / count, 2),
        "third strikes",
        count as "total games"
 from (select player, count(*) as "third strikes"
@@ -22,7 +22,7 @@ join
 (select player, count(*) as count from players_list pl join games
     on player = any(players)
     where num_players != 2
-      and end_condition = 2
+       and end_condition = 2
       and speedrun is false
     group by player) t2
 on t1.player = t2.player
