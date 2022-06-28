@@ -696,12 +696,14 @@ select * from games where 'Valetta6789' = any(players) order by game_id desc LIM
 --790027
 
 with game_id_ as (
-    select 793421 as game_id
+    select 73694 as game_id
 )
 select * from card_actions ca1
 join game_id_ gi on ca1.game_id = gi.game_id
 where ca1.game_id = gi.game_id and ca1.action_type in ('discard', 'misplay')
   and ca1.card_rank not in (1, 5)
+  and ca1.card_suit not in ('black', 'cocoa rainbow', 'gray pink')
+  and ca1.card_suit not like 'dark%'
 and concat(card_suit, card_rank) not in (
     select concat(card_suit, card_rank)
     from card_actions ca2
@@ -710,10 +712,13 @@ and concat(card_suit, card_rank) not in (
       and ca1.card_index != ca2.card_index
 );
 
+select distinct card_suit from card_actions;
+
 --all games
 with game_id_ as (
     select game_id from games
---      where game_id = 790027
+--      where game_id = 73694
+--     where 'Valetta6789' = any(players)
     where 'Libster' = any(players)
     and num_players != 2
     and speedrun is false
@@ -726,6 +731,8 @@ from (
          where ca1.game_id = gi.game_id
            and ca1.action_type in ('discard', 'misplay')
            and ca1.card_rank not in (1, 5)
+           and ca1.card_suit not in ('black', 'cocoa rainbow', 'gray pink')
+           and ca1.card_suit not like 'dark%'
            and concat(card_suit, card_rank) not in (
              select concat(card_suit, card_rank)
              from card_actions ca2
@@ -738,3 +745,6 @@ from (
 right join game_id_ gi on t.game_id = gi.game_id
 -- order by gi.game_id desc;
 order by bdr desc, gi.game_id;
+
+select * from games where variant like 'Up%';
+select * from card_actions where game_id = 66302;
