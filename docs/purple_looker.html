@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>purple_looker API documentation</title>
+<title>py.purple_looker API documentation</title>
 <meta name="description" content="Description:
 Number of games grouped by a year and a month in order to identify suitable green players for a purple role …" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
@@ -20,7 +20,7 @@ Number of games grouped by a year and a month in order to identify suitable gree
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>purple_looker</code></h1>
+<h1 class="title">Module <code>py.purple_looker</code></h1>
 </header>
 <section id="section-intro">
 <h2 id="description">Description</h2>
@@ -164,7 +164,7 @@ if __name__ == &#34;__main__&#34;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="purple_looker.clear_2p"><code class="name flex">
+<dt id="py.purple_looker.clear_2p"><code class="name flex">
 <span>def <span class="ident">clear_2p</span></span>(<span>stats)</span>
 </code></dt>
 <dd>
@@ -199,7 +199,7 @@ if __name__ == &#34;__main__&#34;:
     return [row for row in stats if int(row[&#39;options&#39;][&#39;numPlayers&#39;]) != 2]</code></pre>
 </details>
 </dd>
-<dt id="purple_looker.clear_speedruns"><code class="name flex">
+<dt id="py.purple_looker.clear_speedruns"><code class="name flex">
 <span>def <span class="ident">clear_speedruns</span></span>(<span>stats)</span>
 </code></dt>
 <dd>
@@ -234,7 +234,7 @@ if __name__ == &#34;__main__&#34;:
     return [row for row in stats if not row[&#39;options&#39;][&#39;speedrun&#39;]]</code></pre>
 </details>
 </dd>
-<dt id="purple_looker.group_stats"><code class="name flex">
+<dt id="py.purple_looker.group_stats"><code class="name flex">
 <span>def <span class="ident">group_stats</span></span>(<span>stats)</span>
 </code></dt>
 <dd>
@@ -274,7 +274,7 @@ if __name__ == &#34;__main__&#34;:
     return {k: v for k, v in sorted(grouped_stats.items())}</code></pre>
 </details>
 </dd>
-<dt id="purple_looker.open_stats"><code class="name flex">
+<dt id="py.purple_looker.open_stats"><code class="name flex">
 <span>def <span class="ident">open_stats</span></span>(<span>user)</span>
 </code></dt>
 <dd>
@@ -311,7 +311,7 @@ if __name__ == &#34;__main__&#34;:
     return response.json()</code></pre>
 </details>
 </dd>
-<dt id="purple_looker.save"><code class="name flex">
+<dt id="py.purple_looker.save"><code class="name flex">
 <span>def <span class="ident">save</span></span>(<span>grouped_stats, user)</span>
 </code></dt>
 <dd>
@@ -358,13 +358,18 @@ if __name__ == &#34;__main__&#34;:
 <ul></ul>
 </div>
 <ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py" href="index.html">py</a></code></li>
+</ul>
+</li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="purple_looker.clear_2p" href="#purple_looker.clear_2p">clear_2p</a></code></li>
-<li><code><a title="purple_looker.clear_speedruns" href="#purple_looker.clear_speedruns">clear_speedruns</a></code></li>
-<li><code><a title="purple_looker.group_stats" href="#purple_looker.group_stats">group_stats</a></code></li>
-<li><code><a title="purple_looker.open_stats" href="#purple_looker.open_stats">open_stats</a></code></li>
-<li><code><a title="purple_looker.save" href="#purple_looker.save">save</a></code></li>
+<li><code><a title="py.purple_looker.clear_2p" href="#py.purple_looker.clear_2p">clear_2p</a></code></li>
+<li><code><a title="py.purple_looker.clear_speedruns" href="#py.purple_looker.clear_speedruns">clear_speedruns</a></code></li>
+<li><code><a title="py.purple_looker.group_stats" href="#py.purple_looker.group_stats">group_stats</a></code></li>
+<li><code><a title="py.purple_looker.open_stats" href="#py.purple_looker.open_stats">open_stats</a></code></li>
+<li><code><a title="py.purple_looker.save" href="#py.purple_looker.save">save</a></code></li>
 </ul>
 </li>
 </ul>

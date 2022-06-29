@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>py API documentation</title>
-<meta name="description" content="" />
+<title>py.bdr.bdr_distribution API documentation</title>
+<meta name="description" content="Description:
+BDR distribution by player in normal or strikeout games …" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
 <link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
@@ -19,51 +20,67 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Namespace <code>py</code></h1>
+<h1 class="title">Module <code>py.bdr.bdr_distribution</code></h1>
 </header>
 <section id="section-intro">
+<h2 id="description">Description</h2>
+<p>BDR distribution by player in normal or strikeout games.</p>
+<h2 id="exclusions">Exclusions</h2>
+<ul>
+<li>2p games</li>
+<li>speedruns</li>
+<li>detrimental characters</li>
+<li>end condition other than normal and strikeout</li>
+</ul>
+<h2 id="columns">Columns</h2>
+<ul>
+<li>Player: player name</li>
+<li>Max BDR: max BDR</li>
+<li>n BDR %: percentage of n BDR</li>
+</ul>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+Description:
+    BDR distribution by player in normal or strikeout games.
+
+Exclusions:
+    - 2p games
+    - speedruns
+    - detrimental characters
+    - end condition other than normal and strikeout
+
+Columns:
+    - Player: player name
+    - Max BDR: max BDR
+    - n BDR %: percentage of n BDR
+&#34;&#34;&#34;
+
+import py.utils as u
+
+
+if __name__ == &#34;__main__&#34;:
+    path = &#39;output/bdr/bdr_distribution&#39;
+    header = [
+        &#39;Player&#39;,
+        &#39;Max BDR&#39;,
+        &#39;0 BDR %&#39;,
+        &#39;1 BDR %&#39;,
+        &#39;2 BDR %&#39;,
+        &#39;3 BDR %&#39;,
+        &#39;4 BDR %&#39;,
+        &#39;5 BDR %&#39;,
+        &#39;6 BDR %&#39;,
+        &#39;7 BDR %&#39;,
+        &#39;8 BDR %&#39;,
+        &#39;9 BDR %&#39;,
+        &#39;10 BDR %&#39;]
+    u.run_workflow(path, header)</code></pre>
+</details>
 </section>
 <section>
-<h2 class="section-title" id="header-submodules">Sub-modules</h2>
-<dl>
-<dt><code class="name"><a title="py.bdr" href="bdr/index.html">py.bdr</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.misc" href="misc/index.html">py.misc</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.notes" href="notes/index.html">py.notes</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.purple_looker" href="purple_looker.html">py.purple_looker</a></code></dt>
-<dd>
-<div class="desc"><h2 id="description">Description</h2>
-<p>Number of games grouped by a year and a month in order to identify suitable green players for a purple role …</p></div>
-</dd>
-<dt><code class="name"><a title="py.ratio" href="ratio/index.html">py.ratio</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.time" href="time/index.html">py.time</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.utils" href="utils.html">py.utils</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.variants" href="variants/index.html">py.variants</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="py.winrate" href="winrate/index.html">py.winrate</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-</dl>
 </section>
 <section>
 </section>
@@ -78,17 +95,9 @@
 <ul></ul>
 </div>
 <ul id="index">
-<li><h3><a href="#header-submodules">Sub-modules</a></h3>
+<li><h3>Super-module</h3>
 <ul>
-<li><code><a title="py.bdr" href="bdr/index.html">py.bdr</a></code></li>
-<li><code><a title="py.misc" href="misc/index.html">py.misc</a></code></li>
-<li><code><a title="py.notes" href="notes/index.html">py.notes</a></code></li>
-<li><code><a title="py.purple_looker" href="purple_looker.html">py.purple_looker</a></code></li>
-<li><code><a title="py.ratio" href="ratio/index.html">py.ratio</a></code></li>
-<li><code><a title="py.time" href="time/index.html">py.time</a></code></li>
-<li><code><a title="py.utils" href="utils.html">py.utils</a></code></li>
-<li><code><a title="py.variants" href="variants/index.html">py.variants</a></code></li>
-<li><code><a title="py.winrate" href="winrate/index.html">py.winrate</a></code></li>
+<li><code><a title="py.bdr" href="index.html">py.bdr</a></code></li>
 </ul>
 </li>
 </ul>

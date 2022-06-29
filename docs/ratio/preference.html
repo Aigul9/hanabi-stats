@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>preference API documentation</title>
+<title>py.ratio.preference API documentation</title>
 <meta name="description" content="Description:
 Average preference towards the player sorted in descending order. See the preference calculation algorithm below …" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
@@ -20,7 +20,7 @@ Average preference towards the player sorted in descending order. See the prefer
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>preference</code></h1>
+<h1 class="title">Module <code>py.ratio.preference</code></h1>
 </header>
 <section id="section-intro">
 <h2 id="description">Description</h2>
@@ -226,7 +226,7 @@ if __name__ == &#34;__main__&#34;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="preference.average_preference"><code class="name flex">
+<dt id="py.ratio.preference.average_preference"><code class="name flex">
 <span>def <span class="ident">average_preference</span></span>(<span>player_preference)</span>
 </code></dt>
 <dd>
@@ -266,7 +266,7 @@ if __name__ == &#34;__main__&#34;:
     return {player: preference for player, preference in player_preference.items() if player in users}</code></pre>
 </details>
 </dd>
-<dt id="preference.get_preference"><code class="name flex">
+<dt id="py.ratio.preference.get_preference"><code class="name flex">
 <span>def <span class="ident">get_preference</span></span>(<span>teammate_win_rate_dict)</span>
 </code></dt>
 <dd>
@@ -309,7 +309,7 @@ if __name__ == &#34;__main__&#34;:
     return teammate_preference_dict</code></pre>
 </details>
 </dd>
-<dt id="preference.get_teammate_win_rate"><code class="name flex">
+<dt id="py.ratio.preference.get_teammate_win_rate"><code class="name flex">
 <span>def <span class="ident">get_teammate_win_rate</span></span>(<span>username, teammates_list)</span>
 </code></dt>
 <dd>
@@ -366,7 +366,7 @@ if __name__ == &#34;__main__&#34;:
     return u.sort_by_value(teammate_win_rate_dict)</code></pre>
 </details>
 </dd>
-<dt id="preference.get_teammates"><code class="name flex">
+<dt id="py.ratio.preference.get_teammates"><code class="name flex">
 <span>def <span class="ident">get_teammates</span></span>(<span>username)</span>
 </code></dt>
 <dd>
@@ -407,7 +407,7 @@ if __name__ == &#34;__main__&#34;:
     return teammates_list</code></pre>
 </details>
 </dd>
-<dt id="preference.update_preference"><code class="name flex">
+<dt id="py.ratio.preference.update_preference"><code class="name flex">
 <span>def <span class="ident">update_preference</span></span>(<span>player_teammate_preference, teammate_preference_dict)</span>
 </code></dt>
 <dd>
@@ -463,13 +463,18 @@ if __name__ == &#34;__main__&#34;:
 <ul></ul>
 </div>
 <ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py.ratio" href="index.html">py.ratio</a></code></li>
+</ul>
+</li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="preference.average_preference" href="#preference.average_preference">average_preference</a></code></li>
-<li><code><a title="preference.get_preference" href="#preference.get_preference">get_preference</a></code></li>
-<li><code><a title="preference.get_teammate_win_rate" href="#preference.get_teammate_win_rate">get_teammate_win_rate</a></code></li>
-<li><code><a title="preference.get_teammates" href="#preference.get_teammates">get_teammates</a></code></li>
-<li><code><a title="preference.update_preference" href="#preference.update_preference">update_preference</a></code></li>
+<li><code><a title="py.ratio.preference.average_preference" href="#py.ratio.preference.average_preference">average_preference</a></code></li>
+<li><code><a title="py.ratio.preference.get_preference" href="#py.ratio.preference.get_preference">get_preference</a></code></li>
+<li><code><a title="py.ratio.preference.get_teammate_win_rate" href="#py.ratio.preference.get_teammate_win_rate">get_teammate_win_rate</a></code></li>
+<li><code><a title="py.ratio.preference.get_teammates" href="#py.ratio.preference.get_teammates">get_teammates</a></code></li>
+<li><code><a title="py.ratio.preference.update_preference" href="#py.ratio.preference.update_preference">update_preference</a></code></li>
 </ul>
 </li>
 </ul>

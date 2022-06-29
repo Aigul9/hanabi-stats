@@ -36,7 +36,7 @@ The module calculates percentage of notes based on the number of visible cards.<
 <h2 id="columns">Columns</h2>
 <ul>
 <li>Player: player name</li>
-<li>Percentage: percentage of notes per game</li>
+<li>%: percentage of notes per game</li>
 </ul>
 <details class="source">
 <summary>
@@ -54,7 +54,7 @@ Exclusions:
 
 Columns:
     - Player: player name
-    - Percentage: percentage of notes per game
+    - %: percentage of notes per game
 &#34;&#34;&#34;
 
 from sqlalchemy import true
@@ -167,7 +167,7 @@ if __name__ == &#34;__main__&#34;:
         user = user[0]
         users_notes[user] = get_notes_ratio(user)
 
-    u.save_header(&#39;../../output/notes/notes_per_game&#39;, [&#39;Player&#39;, &#39;Percentage&#39;])
+    u.save_header(&#39;../../output/notes/notes_per_game&#39;, [&#39;Player&#39;, &#39;%&#39;])
     for user, user_ratio in u.sort_by_value(users_notes).items():
         u.save_value(
             &#39;../../output/notes/notes_per_game&#39;,

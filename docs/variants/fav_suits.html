@@ -103,6 +103,7 @@ Columns:
 import csv
 from sqlalchemy import false
 
+import py.utils as u
 from database.db_connect import session, Game, Player
 
 
@@ -167,15 +168,15 @@ def save_top():
                     &#39;Suit #5&#39;, &#39;% #5&#39;])
         for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
             total = sum(v.values())
-            v = {k1: round(v1 / total * 100) for k1, v1 in v.items()}
+            v = {k1: u.p(v1, total) for k1, v1 in v.items()}
             v = sorted(v.items(), key=lambda x: -x[1])
             w.writerow([
                 k,
-                v[0][0], f&#39;{v[0][1]}%&#39;,
-                v[1][0], f&#39;{v[1][1]}%&#39;,
-                v[2][0], f&#39;{v[2][1]}%&#39;,
-                v[3][0], f&#39;{v[3][1]}%&#39;,
-                v[4][0], f&#39;{v[4][1]}%&#39;
+                v[0][0], v[0][1],
+                v[1][0], v[1][1],
+                v[2][0], v[2][1],
+                v[3][0], v[3][1],
+                v[4][0], v[4][1]
             ])
 
 
@@ -541,15 +542,15 @@ if __name__ == &#34;__main__&#34;:
                     &#39;Suit #5&#39;, &#39;% #5&#39;])
         for k, v in sorted(players_suits.items(), key=lambda x: x[0].lower()):
             total = sum(v.values())
-            v = {k1: round(v1 / total * 100) for k1, v1 in v.items()}
+            v = {k1: u.p(v1, total) for k1, v1 in v.items()}
             v = sorted(v.items(), key=lambda x: -x[1])
             w.writerow([
                 k,
-                v[0][0], f&#39;{v[0][1]}%&#39;,
-                v[1][0], f&#39;{v[1][1]}%&#39;,
-                v[2][0], f&#39;{v[2][1]}%&#39;,
-                v[3][0], f&#39;{v[3][1]}%&#39;,
-                v[4][0], f&#39;{v[4][1]}%&#39;
+                v[0][0], v[0][1],
+                v[1][0], v[1][1],
+                v[2][0], v[2][1],
+                v[3][0], v[3][1],
+                v[4][0], v[4][1]
             ])</code></pre>
 </details>
 </dd>
