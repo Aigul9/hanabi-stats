@@ -1,35 +1,24 @@
 Player	Game id	Variant	BDR
 Kyle	224510	Light-Pink-Ones & Gray (5 Suits)	9
 Kyle	72379	Ambiguous Mix	8
-Kyle	73522	Up or Down & Null (6 Suits)	8
-Kyle	111886	Up or Down & Omni (6 Suits)	8
 Kyle	171353	Pink-Ones & Omni (6 Suits)	8
 Kyle	632196	White-Fives & Rainbow (6 Suits)	8
 Kyle	43111	6 Suits	7
 Kyle	49590	Pink & Brown (6 Suits)	7
-Kyle	65009	Up or Down & White (6 Suits)	7
-Kyle	73523	Up or Down & Null (6 Suits)	7
-Kyle	114265	Up or Down (6 Suits)	7
 Kyle	249382	White Reversed (6 Suits)	7
 Kyle	250365	White-Fives & Light Pink (6 Suits)	7
-Kyle	457693	Up or Down & Prism (6 Suits)	7
 Kyle	594758	Rainbow-Ones & Cocoa Rainbow (6 Suits)	7
 Kyle	44299	Black (6 Suits)	6
-Kyle	46728	Up or Down (6 Suits)	6
 Kyle	49323	6 Suits	6
-Kyle	52079	Up or Down & Rainbow (6 Suits)	6
 Kyle	75051	Rainbow (5 Suits)	6
 Kyle	99863	White-Ones (6 Suits)	6
-Kyle	138566	Up or Down (6 Suits)	6
 Kyle	158677	No Variant	6
-Kyle	175419	Up or Down (6 Suits)	6
 Kyle	324050	Brown (6 Suits)	6
 Kyle	446243	Cow & Pig (6 Suits)	6
 Kyle	491414	White & Light Pink (6 Suits)	6
 Kyle	632021	Brown & Dark Omni (6 Suits)	6
 Kyle	658748	No Variant	6
 Kyle	668301	Rainbow (6 Suits)	6
-Kyle	702380	Up or Down & Null (6 Suits)	6
 Kyle	775049	Muddy Rainbow & Prism (6 Suits)	6
 Kyle	43955	White & Brown (5 Suits)	5
 Kyle	44366	6 Suits	5
@@ -39,14 +28,12 @@ Kyle	48302	Rainbow (6 Suits)	5
 Kyle	48464	Omni (6 Suits)	5
 Kyle	49438	4 Suits	5
 Kyle	49582	Black (6 Suits)	5
+Kyle	52079	Up or Down & Rainbow (6 Suits)	5
 Kyle	52714	White & Dark Rainbow (6 Suits)	5
 Kyle	52769	White & Dark Rainbow (6 Suits)	5
 Kyle	53214	No Variant	5
 Kyle	53525	Pink (6 Suits)	5
-Kyle	53606	Up or Down (6 Suits)	5
 Kyle	54156	Pink (6 Suits)	5
-Kyle	55296	Up or Down & Rainbow (6 Suits)	5
-Kyle	55297	Up or Down & Rainbow (6 Suits)	5
 Kyle	55947	Omni (6 Suits)	5
 Kyle	64843	Clue Starved (6 Suits)	5
 Kyle	65377	Rainbow (6 Suits)	5
@@ -54,13 +41,11 @@ Kyle	68410	6 Suits	5
 Kyle	68582	Omni & Null (6 Suits)	5
 Kyle	71312	Dark Rainbow (6 Suits)	5
 Kyle	73190	Extremely Ambiguous (6 Suits)	5
+Kyle	73522	Up or Down & Null (6 Suits)	5
 Kyle	73947	No Variant	5
 Kyle	83271	Rainbow (5 Suits)	5
-Kyle	83558	Up or Down & Omni (5 Suits)	5
 Kyle	84499	Rainbow (5 Suits)	5
-Kyle	86741	Up or Down & Omni (5 Suits)	5
-Kyle	86749	Up or Down & Omni (5 Suits)	5
-Kyle	114174	Up or Down (6 Suits)	5
+Kyle	111886	Up or Down & Omni (6 Suits)	5
 Kyle	117358	Ambiguous Mix	5
 Kyle	119438	Rainbow (6 Suits)	5
 Kyle	135038	No Variant	5
@@ -69,29 +54,21 @@ Kyle	143735	Omni-Ones (5 Suits)	5
 Kyle	155016	Black & Muddy Rainbow (6 Suits)	5
 Kyle	156253	No Variant	5
 Kyle	162114	White-Ones & Brown (5 Suits)	5
-Kyle	163424	Up or Down & White (6 Suits)	5
 Kyle	171267	Pink-Ones & Omni (6 Suits)	5
 Kyle	181397	Light Pink & Gray (6 Suits)	5
 Kyle	181841	White-Ones & White (6 Suits)	5
 Kyle	207722	Rainbow (6 Suits)	5
 Kyle	227355	Dual-Color & Black (6 Suits)	5
 Kyle	228177	Rainbow (6 Suits)	5
-Kyle	235878	Up or Down (5 Suits)	5
 Kyle	273934	White (6 Suits)	5
 Kyle	304073	Dual-Color & Pink (6 Suits)	5
 Kyle	312530	Prism (6 Suits)	5
 Kyle	320280	Extremely Ambiguous (5 Suits)	5
 Kyle	323330	Up or Down & Brown (6 Suits)	5
 Kyle	331192	Clue Starved & White (5 Suits)	5
-Kyle	331234	Up or Down & White (5 Suits)	5
-Kyle	332465	Up or Down & Rainbow (6 Suits)	5
-Kyle	332484	Up or Down & Rainbow (6 Suits)	5
 Kyle	334175	White & Dark Prism (5 Suits)	5
 Kyle	334979	Rainbow-Ones & Rainbow (6 Suits)	5
-Kyle	335352	Up or Down & Pink (6 Suits)	5
 Kyle	336081	Rainbow (6 Suits)	5
-Kyle	339500	Up or Down (6 Suits)	5
-Kyle	352928	Up or Down (6 Suits)	5
 Kyle	394739	6 Suits	5
 Kyle	398536	No Variant	5
 Kyle	400421	Clue Starved & Rainbow (5 Suits)	5
@@ -100,14 +77,13 @@ Kyle	414135	Dual-Color Mix	5
 Kyle	414688	Up or Down & Rainbow (6 Suits)	5
 Kyle	414900	No Variant	5
 Kyle	446716	Color Mute (6 Suits)	5
+Kyle	457693	Up or Down & Prism (6 Suits)	5
 Kyle	485743	Clue Starved & Brown (6 Suits)	5
 Kyle	507728	Rainbow & Brown (6 Suits)	5
 Kyle	509397	Rainbow & White (6 Suits)	5
 Kyle	521317	Up or Down & Prism (5 Suits)	5
-Kyle	521347	Up or Down & Prism (5 Suits)	5
 Kyle	560597	Deceptive-Ones & Rainbow (6 Suits)	5
 Kyle	596869	Rainbow-Fives & Black (6 Suits)	5
-Kyle	598116	Up or Down (5 Suits)	5
 Kyle	608492	6 Suits	5
 Kyle	608975	Clue Starved & Omni (6 Suits)	5
 Kyle	614968	Brown & Prism (6 Suits)	5
@@ -117,7 +93,6 @@ Kyle	633718	Gray Reversed (6 Suits)	5
 Kyle	635535	Muddy-Rainbow-Ones & Prism (5 Suits)	5
 Kyle	657613	Brown-Ones (6 Suits)	5
 Kyle	692596	No Variant	5
-Kyle	702764	Up or Down & Null (5 Suits)	5
 Kyle	753116	Rainbow-Ones & Light Pink (6 Suits)	5
 Kyle	763046	Deceptive-Ones & Gray Pink (6 Suits)	5
 Kyle	771842	Black & Rainbow (6 Suits)	5
@@ -147,7 +122,6 @@ Kyle	49331	White (6 Suits)	4
 Kyle	49432	6 Suits	4
 Kyle	50090	No Variant	4
 Kyle	50322	No Variant	4
-Kyle	52339	Up or Down (6 Suits)	4
 Kyle	52394	Omni (5 Suits)	4
 Kyle	52767	White & Dark Rainbow (6 Suits)	4
 Kyle	53211	Null (6 Suits)	4
@@ -166,23 +140,19 @@ Kyle	56688	Dark Pink (6 Suits)	4
 Kyle	57071	No Variant	4
 Kyle	57957	White (6 Suits)	4
 Kyle	57972	Rainbow & Pink (6 Suits)	4
-Kyle	58151	Up or Down (6 Suits)	4
 Kyle	58188	Null & Dark Brown (6 Suits)	4
 Kyle	58462	Rainbow-Ones (5 Suits)	4
 Kyle	58660	6 Suits	4
 Kyle	58776	Black (6 Suits)	4
-Kyle	64847	Up or Down & Omni (6 Suits)	4
-Kyle	65391	Up or Down & Pink (5 Suits)	4
+Kyle	65009	Up or Down & White (6 Suits)	4
 Kyle	68773	Black (5 Suits)	4
-Kyle	68927	Up or Down & White (6 Suits)	4
 Kyle	68938	Dual-Color (6 Suits)	4
-Kyle	70502	Up or Down & Brown (6 Suits)	4
-Kyle	70505	Up or Down & Brown (6 Suits)	4
 Kyle	70539	Color Blind (5 Suits)	4
 Kyle	71635	Dual-Color (6 Suits)	4
 Kyle	72358	Rainbow (5 Suits)	4
 Kyle	72591	Rainbow (6 Suits)	4
 Kyle	72787	Omni & Dark Rainbow (6 Suits)	4
+Kyle	73523	Up or Down & Null (6 Suits)	4
 Kyle	73664	Dual-Color (6 Suits)	4
 Kyle	74002	Pink & Brown (5 Suits)	4
 Kyle	74212	Black & Pink (6 Suits)	4
@@ -195,19 +165,19 @@ Kyle	81698	Gray Pink (6 Suits)	4
 Kyle	83078	Dual-Color & Rainbow (6 Suits)	4
 Kyle	83335	White (6 Suits)	4
 Kyle	83349	Dual-Color (6 Suits)	4
+Kyle	83558	Up or Down & Omni (5 Suits)	4
 Kyle	83846	6 Suits	4
 Kyle	84238	White (6 Suits)	4
 Kyle	84544	No Variant	4
 Kyle	85986	Brown (6 Suits)	4
 Kyle	86005	Dark Rainbow (5 Suits)	4
-Kyle	86748	Up or Down & Omni (5 Suits)	4
+Kyle	86749	Up or Down & Omni (5 Suits)	4
 Kyle	87528	No Variant	4
 Kyle	88514	No Variant	4
 Kyle	89415	Pink-Fives & Rainbow (6 Suits)	4
 Kyle	89847	Dark Rainbow (6 Suits)	4
 Kyle	109505	No Variant	4
 Kyle	114539	Rainbow (6 Suits)	4
-Kyle	116078	Up or Down (6 Suits)	4
 Kyle	118420	Pink (6 Suits)	4
 Kyle	121790	Rainbow (6 Suits)	4
 Kyle	123242	Duck (5 Suits)	4
@@ -216,6 +186,7 @@ Kyle	130187	Rainbow-Ones & Rainbow (6 Suits)	4
 Kyle	135003	No Variant	4
 Kyle	144996	Black (5 Suits)	4
 Kyle	161905	No Variant	4
+Kyle	163424	Up or Down & White (6 Suits)	4
 Kyle	164417	Throw It in a Hole & Light Pink (5 Suits)	4
 Kyle	172937	Black (6 Suits)	4
 Kyle	178396	Ambiguous (6 Suits)	4
@@ -231,20 +202,16 @@ Kyle	210710	Null-Ones & Rainbow (6 Suits)	4
 Kyle	211227	Dual-Color & White (6 Suits)	4
 Kyle	211689	Omni-Ones & Rainbow (5 Suits)	4
 Kyle	215343	No Variant	4
-Kyle	231298	Up or Down (5 Suits)	4
 Kyle	233213	Black (6 Suits)	4
 Kyle	233853	No Variant	4
-Kyle	236999	Up or Down (5 Suits)	4
 Kyle	238300	Rainbow (6 Suits)	4
 Kyle	241844	Brown (4 Suits)	4
 Kyle	247281	Black & Cocoa Rainbow (6 Suits)	4
 Kyle	251903	No Variant	4
 Kyle	253127	Black (6 Suits)	4
-Kyle	253295	Up or Down & White (6 Suits)	4
 Kyle	256324	Rainbow & Pink (5 Suits)	4
 Kyle	266810	Dual-Color (6 Suits)	4
 Kyle	275578	White (6 Suits)	4
-Kyle	275796	Up or Down & Pink (5 Suits)	4
 Kyle	279436	Rainbow (5 Suits)	4
 Kyle	287355	White & Prism (6 Suits)	4
 Kyle	294362	Cocoa Rainbow (6 Suits)	4
@@ -264,10 +231,10 @@ Kyle	339614	Clue Starved & Brown (6 Suits)	4
 Kyle	345606	Omni & Cocoa Rainbow (5 Suits)	4
 Kyle	348937	Up or Down & Prism (6 Suits)	4
 Kyle	350136	No Variant	4
+Kyle	352928	Up or Down (6 Suits)	4
 Kyle	354634	No Variant	4
 Kyle	356482	Black & Pink (6 Suits)	4
 Kyle	358849	Prism (6 Suits)	4
-Kyle	359154	Up or Down & Omni (5 Suits)	4
 Kyle	363752	No Variant	4
 Kyle	363869	Dual-Color & Rainbow (6 Suits)	4
 Kyle	363962	Rainbow & Prism (5 Suits)	4
@@ -275,21 +242,14 @@ Kyle	376590	No Variant	4
 Kyle	378952	Up or Down & Brown (5 Suits)	4
 Kyle	390543	Brown & Prism (6 Suits)	4
 Kyle	395027	Dual-Color Mix	4
-Kyle	409152	Up or Down & Muddy Rainbow (5 Suits)	4
-Kyle	411022	Up or Down & White (5 Suits)	4
 Kyle	414827	Dual-Color & Pink (6 Suits)	4
 Kyle	414882	Dual-Color & White (6 Suits)	4
 Kyle	422482	Dark Prism (5 Suits)	4
 Kyle	422616	Light Pink & Prism (6 Suits)	4
 Kyle	423767	6 Suits	4
 Kyle	457656	Up or Down & Prism (6 Suits)	4
-Kyle	473047	Up or Down & Muddy Rainbow (6 Suits)	4
-Kyle	484691	Up or Down & Muddy Rainbow (6 Suits)	4
-Kyle	486422	Up or Down & Omni (5 Suits)	4
 Kyle	487424	Pink & Omni (6 Suits)	4
-Kyle	488304	Up or Down & Muddy Rainbow (6 Suits)	4
 Kyle	501874	Omni & Dark Rainbow (6 Suits)	4
-Kyle	505612	Up or Down & White (6 Suits)	4
 Kyle	509481	White-Ones & Pink (6 Suits)	4
 Kyle	519413	Rainbow & Gray Pink (6 Suits)	4
 Kyle	519420	Rainbow & Gray Pink (6 Suits)	4
@@ -297,7 +257,6 @@ Kyle	522309	No Variant	4
 Kyle	527002	Rainbow & Light Pink (6 Suits)	4
 Kyle	532777	Deceptive-Fives & Light Pink (6 Suits)	4
 Kyle	534769	Dark Rainbow Reversed (6 Suits)	4
-Kyle	535712	Up or Down & Muddy Rainbow (6 Suits)	4
 Kyle	539522	Pink & Muddy Rainbow (6 Suits)	4
 Kyle	540425	Gray Reversed (6 Suits)	4
 Kyle	541905	Rainbow Reversed (6 Suits)	4
@@ -311,7 +270,6 @@ Kyle	582998	White & Prism (6 Suits)	4
 Kyle	583588	Rainbow (5 Suits)	4
 Kyle	584677	No Variant	4
 Kyle	585445	Up or Down & Muddy Rainbow (6 Suits)	4
-Kyle	585451	Up or Down & Muddy Rainbow (6 Suits)	4
 Kyle	587567	Rainbow & Dark Prism (5 Suits)	4
 Kyle	591207	Pink & Null (6 Suits)	4
 Kyle	596350	6 Suits	4
@@ -322,7 +280,6 @@ Kyle	622737	Brown & Gray (5 Suits)	4
 Kyle	623800	Pink & Dark Prism (6 Suits)	4
 Kyle	627728	Rainbow & Light Pink (6 Suits)	4
 Kyle	629764	Prism Reversed (6 Suits)	4
-Kyle	629842	Up or Down & Muddy Rainbow (6 Suits)	4
 Kyle	631080	Rainbow & Omni (6 Suits)	4
 Kyle	631934	White-Fives (6 Suits)	4
 Kyle	634045	Prism (5 Suits)	4
@@ -341,10 +298,6 @@ Kyle	664115	Pink-Ones & Muddy Rainbow (6 Suits)	4
 Kyle	674311	Null & Prism (5 Suits)	4
 Kyle	676965	Rainbow (6 Suits)	4
 Kyle	677590	Rainbow & Gray Pink (6 Suits)	4
-Kyle	701728	Up or Down & Null (5 Suits)	4
-Kyle	702372	Up or Down & Null (6 Suits)	4
-Kyle	702553	Up or Down & Null (5 Suits)	4
-Kyle	702773	Up or Down & Null (5 Suits)	4
 Kyle	705150	Clue Starved & Omni (6 Suits)	4
 Kyle	738886	Dual-Color Mix	4
 Kyle	761188	White-Ones & Rainbow (5 Suits)	4
@@ -406,6 +359,7 @@ Kyle	53053	White & Dark Rainbow (5 Suits)	3
 Kyle	53169	Ambiguous & Dual-Color	3
 Kyle	53171	Ambiguous & Dual-Color	3
 Kyle	53451	Black & Gray (6 Suits)	3
+Kyle	53606	Up or Down (6 Suits)	3
 Kyle	53762	Pink (6 Suits)	3
 Kyle	53769	Very Ambiguous (6 Suits)	3
 Kyle	53804	Black (6 Suits)	3
@@ -416,6 +370,7 @@ Kyle	54619	Rainbow (5 Suits)	3
 Kyle	54642	Rainbow (5 Suits)	3
 Kyle	54690	Rainbow (5 Suits)	3
 Kyle	55113	Dual-Color & Rainbow (6 Suits)	3
+Kyle	55297	Up or Down & Rainbow (6 Suits)	3
 Kyle	55500	Pink & Brown (6 Suits)	3
 Kyle	55535	Brown (6 Suits)	3
 Kyle	55539	Brown (6 Suits)	3
@@ -440,17 +395,14 @@ Kyle	57595	Color Mute (6 Suits)	3
 Kyle	57666	Muddy Rainbow (6 Suits)	3
 Kyle	57973	Rainbow & Pink (6 Suits)	3
 Kyle	58069	No Variant	3
-Kyle	58154	Up or Down (6 Suits)	3
 Kyle	58199	White & Omni (6 Suits)	3
 Kyle	58248	Rainbow (5 Suits)	3
-Kyle	58299	Up or Down (6 Suits)	3
 Kyle	59313	Null (6 Suits)	3
-Kyle	60203	Up or Down & Brown (6 Suits)	3
 Kyle	60368	Rainbow & White (5 Suits)	3
-Kyle	60377	Up or Down & Rainbow (6 Suits)	3
 Kyle	60525	Black (6 Suits)	3
 Kyle	60528	6 Suits	3
 Kyle	64521	Black & Rainbow (6 Suits)	3
+Kyle	64847	Up or Down & Omni (6 Suits)	3
 Kyle	65917	Null (6 Suits)	3
 Kyle	66110	Dual-Color (6 Suits)	3
 Kyle	66852	Pink & Dark Rainbow (5 Suits)	3
@@ -458,9 +410,9 @@ Kyle	66954	Black (5 Suits)	3
 Kyle	68748	Light Pink (6 Suits)	3
 Kyle	68905	Gray Pink (6 Suits)	3
 Kyle	68922	Pink & Dark Omni (5 Suits)	3
-Kyle	68924	Up or Down & White (6 Suits)	3
+Kyle	68927	Up or Down & White (6 Suits)	3
 Kyle	68936	Dual-Color (6 Suits)	3
-Kyle	70500	Up or Down & Brown (6 Suits)	3
+Kyle	70505	Up or Down & Brown (6 Suits)	3
 Kyle	70540	Color Blind (6 Suits)	3
 Kyle	71165	No Variant	3
 Kyle	71515	White (5 Suits)	3
@@ -475,7 +427,6 @@ Kyle	72777	Light Pink (5 Suits)	3
 Kyle	73308	Black & Rainbow (6 Suits)	3
 Kyle	73751	White & Brown (6 Suits)	3
 Kyle	73831	Pink & White (6 Suits)	3
-Kyle	73846	Up or Down & Brown (6 Suits)	3
 Kyle	74201	Null (5 Suits)	3
 Kyle	74222	Black & Pink (6 Suits)	3
 Kyle	74332	Black & Pink (6 Suits)	3
@@ -501,7 +452,6 @@ Kyle	79806	Cocoa Rainbow (6 Suits)	3
 Kyle	80418	No Variant	3
 Kyle	80584	Rainbow (6 Suits)	3
 Kyle	80897	No Variant	3
-Kyle	80899	Up or Down (5 Suits)	3
 Kyle	81299	No Variant	3
 Kyle	81357	Rainbow (6 Suits)	3
 Kyle	81429	Dark Omni (6 Suits)	3
@@ -513,8 +463,6 @@ Kyle	83065	Dual-Color & Rainbow (6 Suits)	3
 Kyle	83348	Dual-Color (6 Suits)	3
 Kyle	83516	Rainbow (5 Suits)	3
 Kyle	83602	Brown (6 Suits)	3
-Kyle	83650	Up or Down & Brown (6 Suits)	3
-Kyle	83651	Up or Down & Brown (6 Suits)	3
 Kyle	83654	Up or Down & Omni (6 Suits)	3
 Kyle	83855	6 Suits	3
 Kyle	84240	White (6 Suits)	3
@@ -532,6 +480,7 @@ Kyle	86212	No Variant	3
 Kyle	86379	Rainbow & Dark Omni (6 Suits)	3
 Kyle	86407	Rainbow (6 Suits)	3
 Kyle	86718	Null & Gray (5 Suits)	3
+Kyle	86741	Up or Down & Omni (5 Suits)	3
 Kyle	88480	No Variant	3
 Kyle	88500	Rainbow (5 Suits)	3
 Kyle	88532	Black (6 Suits)	3
@@ -557,24 +506,20 @@ Kyle	110873	Black (5 Suits)	3
 Kyle	113884	No Variant	3
 Kyle	114597	Rainbow (6 Suits)	3
 Kyle	115836	No Variant	3
-Kyle	116393	Up or Down & Rainbow (5 Suits)	3
 Kyle	117688	Black (6 Suits)	3
 Kyle	118490	Rainbow & White (6 Suits)	3
 Kyle	120917	No Variant	3
 Kyle	123290	Duck (5 Suits)	3
 Kyle	123315	Duck (5 Suits)	3
-Kyle	123347	Up or Down (5 Suits)	3
 Kyle	124300	White & Brown (6 Suits)	3
 Kyle	125540	No Variant	3
 Kyle	128114	White & Dark Brown (6 Suits)	3
-Kyle	129848	Up or Down (5 Suits)	3
 Kyle	130154	Rainbow-Ones & Light Pink (5 Suits)	3
 Kyle	131281	Throw It in a Hole (5 Suits)	3
 Kyle	131835	6 Suits	3
 Kyle	133907	Brown & Gray (6 Suits)	3
 Kyle	135206	No Variant	3
 Kyle	135848	Gray (6 Suits)	3
-Kyle	143814	Up or Down & Muddy Rainbow (6 Suits)	3
 Kyle	145214	Rainbow (6 Suits)	3
 Kyle	152067	Rainbow (5 Suits)	3
 Kyle	153117	No Variant	3
@@ -587,7 +532,6 @@ Kyle	161408	6 Suits	3
 Kyle	162278	No Variant	3
 Kyle	162366	No Variant	3
 Kyle	162414	No Variant	3
-Kyle	164324	Up or Down (5 Suits)	3
 Kyle	164474	Throw It in a Hole & Light Pink (5 Suits)	3
 Kyle	166432	Muddy Rainbow (6 Suits)	3
 Kyle	167007	Muddy Rainbow (6 Suits)	3
@@ -597,6 +541,7 @@ Kyle	167736	Rainbow (5 Suits)	3
 Kyle	172913	Black (6 Suits)	3
 Kyle	173145	Null-Ones (5 Suits)	3
 Kyle	174328	No Variant	3
+Kyle	175419	Up or Down (6 Suits)	3
 Kyle	176075	Pink-Ones & Muddy Rainbow (6 Suits)	3
 Kyle	178418	Dual-Color (5 Suits)	3
 Kyle	178842	Black (6 Suits)	3
@@ -606,7 +551,6 @@ Kyle	181385	Light Pink & Gray (6 Suits)	3
 Kyle	182426	Throw It in a Hole & Light Pink (5 Suits)	3
 Kyle	184295	Black & Rainbow (5 Suits)	3
 Kyle	189776	Black & Rainbow (5 Suits)	3
-Kyle	190701	Up or Down & White (6 Suits)	3
 Kyle	190814	Black & Rainbow (5 Suits)	3
 Kyle	191077	Reversed (6 Suits)	3
 Kyle	191808	Omni (6 Suits)	3
@@ -629,6 +573,7 @@ Kyle	222596	Rainbow (6 Suits)	3
 Kyle	230785	Special Mix (5 Suits)	3
 Kyle	231193	Gray Reversed (5 Suits)	3
 Kyle	231243	Brown (6 Suits)	3
+Kyle	231298	Up or Down (5 Suits)	3
 Kyle	231766	Muddy Rainbow (5 Suits)	3
 Kyle	231921	White & Dark Brown (6 Suits)	3
 Kyle	232591	Black (6 Suits)	3
@@ -639,8 +584,6 @@ Kyle	236516	Gray Pink (6 Suits)	3
 Kyle	236572	Gray Pink (6 Suits)	3
 Kyle	237478	Dual-Color & Rainbow (6 Suits)	3
 Kyle	237492	Dual-Color & Rainbow (6 Suits)	3
-Kyle	237791	Up or Down (5 Suits)	3
-Kyle	237853	Up or Down (5 Suits)	3
 Kyle	237980	Pink-Fives (6 Suits)	3
 Kyle	238341	Black & Rainbow (5 Suits)	3
 Kyle	238391	No Variant	3
@@ -687,7 +630,6 @@ Kyle	310529	Rainbow & Muddy Rainbow (5 Suits)	3
 Kyle	311157	Rainbow (5 Suits)	3
 Kyle	311389	Omni (5 Suits)	3
 Kyle	311605	Dark Prism (6 Suits)	3
-Kyle	312048	Up or Down & Prism (6 Suits)	3
 Kyle	314274	No Variant	3
 Kyle	314317	Clue Starved & Prism (6 Suits)	3
 Kyle	314395	Rainbow & White (6 Suits)	3
@@ -703,28 +645,23 @@ Kyle	320544	Brown & Dark Prism (6 Suits)	3
 Kyle	321146	Rainbow & White (6 Suits)	3
 Kyle	321228	Cocoa Rainbow (6 Suits)	3
 Kyle	321537	Pink & Omni (6 Suits)	3
-Kyle	322075	Up or Down & Rainbow (5 Suits)	3
 Kyle	322647	Special Mix (6 Suits)	3
-Kyle	323355	Up or Down & Brown (6 Suits)	3
 Kyle	323722	Dark Null (6 Suits)	3
 Kyle	324122	Cocoa Rainbow (6 Suits)	3
 Kyle	324496	No Variant	3
 Kyle	324864	No Variant	3
 Kyle	325497	Rainbow-Ones & Black (5 Suits)	3
 Kyle	328760	Dark Rainbow (6 Suits)	3
-Kyle	331268	Up or Down & Omni (5 Suits)	3
+Kyle	331234	Up or Down & White (5 Suits)	3
 Kyle	332081	Dark Prism (6 Suits)	3
+Kyle	332484	Up or Down & Rainbow (6 Suits)	3
 Kyle	333180	Rainbow & Light Pink (6 Suits)	3
-Kyle	334430	Up or Down & Rainbow (6 Suits)	3
 Kyle	334771	Rainbow-Ones & Rainbow (6 Suits)	3
+Kyle	335352	Up or Down & Pink (6 Suits)	3
 Kyle	335777	Dark Null (5 Suits)	3
-Kyle	336136	Up or Down & Rainbow (6 Suits)	3
-Kyle	336198	Up or Down & Pink (6 Suits)	3
 Kyle	336413	Rainbow & Pink (6 Suits)	3
-Kyle	336521	Up or Down & Brown (6 Suits)	3
 Kyle	336861	Prism (6 Suits)	3
-Kyle	337582	Up or Down & Light Pink (5 Suits)	3
-Kyle	339518	Up or Down (5 Suits)	3
+Kyle	339500	Up or Down (6 Suits)	3
 Kyle	340291	Dark Prism (6 Suits)	3
 Kyle	345105	Dark Pink (6 Suits)	3
 Kyle	346711	White & Dark Rainbow (6 Suits)	3
@@ -734,7 +671,6 @@ Kyle	347096	Clue Starved & Pink (5 Suits)	3
 Kyle	347377	Rainbow & Null (6 Suits)	3
 Kyle	348170	Clue Starved & Rainbow (5 Suits)	3
 Kyle	348851	Rainbow-Ones & Prism (6 Suits)	3
-Kyle	348955	Up or Down & Prism (6 Suits)	3
 Kyle	351459	Rainbow & Null (6 Suits)	3
 Kyle	351745	Rainbow & Pink (6 Suits)	3
 Kyle	353097	Rainbow & Dark Null (6 Suits)	3
@@ -744,16 +680,13 @@ Kyle	355467	White & Muddy Rainbow (6 Suits)	3
 Kyle	356443	Muddy Rainbow (6 Suits)	3
 Kyle	356565	Deceptive-Fives (6 Suits)	3
 Kyle	356751	Reversed (6 Suits)	3
+Kyle	359154	Up or Down & Omni (5 Suits)	3
 Kyle	359302	Dark Prism (6 Suits)	3
 Kyle	363920	Dual-Color & Rainbow (6 Suits)	3
-Kyle	364286	Up or Down & Omni (5 Suits)	3
 Kyle	370049	Clue Starved & Rainbow (6 Suits)	3
 Kyle	371220	Rainbow & Pink (6 Suits)	3
 Kyle	374741	Dark Rainbow (5 Suits)	3
 Kyle	374823	Brown (5 Suits)	3
-Kyle	376346	Up or Down & Rainbow (6 Suits)	3
-Kyle	376379	Up or Down & Rainbow (6 Suits)	3
-Kyle	378932	Up or Down & Brown (5 Suits)	3
 Kyle	379098	No Variant	3
 Kyle	379174	White & Brown (6 Suits)	3
 Kyle	379199	Gray Pink (6 Suits)	3
@@ -761,12 +694,12 @@ Kyle	380135	Dark Pink (6 Suits)	3
 Kyle	380470	Dark Null (6 Suits)	3
 Kyle	383493	No Variant	3
 Kyle	390824	Rainbow & Cocoa Rainbow (6 Suits)	3
-Kyle	391491	Up or Down & Brown (6 Suits)	3
 Kyle	394502	No Variant	3
 Kyle	398117	Dual-Color & Dark Brown (6 Suits)	3
 Kyle	400441	Clue Starved & Rainbow (5 Suits)	3
 Kyle	400545	Black Reversed (6 Suits)	3
 Kyle	401483	Rainbow & Null (6 Suits)	3
+Kyle	411022	Up or Down & White (5 Suits)	3
 Kyle	414108	Dual-Color Mix	3
 Kyle	418244	Dark Brown (6 Suits)	3
 Kyle	423339	Pink (5 Suits)	3
@@ -775,42 +708,32 @@ Kyle	424088	Prism (6 Suits)	3
 Kyle	424134	Prism (6 Suits)	3
 Kyle	426635	Rainbow-Ones & Prism (6 Suits)	3
 Kyle	426678	Special Mix (5 Suits)	3
-Kyle	426759	Up or Down & White (5 Suits)	3
 Kyle	427966	Rainbow & Muddy Rainbow (6 Suits)	3
 Kyle	432499	Rainbow (5 Suits)	3
 Kyle	441606	Up or Down & White (5 Suits)	3
-Kyle	445807	Up or Down & Light Pink (5 Suits)	3
-Kyle	445984	Up or Down & Muddy Rainbow (6 Suits)	3
 Kyle	446014	Up or Down & Prism (6 Suits)	3
 Kyle	446708	Color Mute (6 Suits)	3
 Kyle	446718	Color Mute (6 Suits)	3
 Kyle	457846	Black & Brown (6 Suits)	3
-Kyle	465814	Up or Down & Prism (6 Suits)	3
-Kyle	465823	Up or Down & Prism (6 Suits)	3
-Kyle	470791	Up or Down & Muddy Rainbow (5 Suits)	3
 Kyle	471732	Muddy Rainbow (4 Suits)	3
-Kyle	472364	Up or Down & Prism (5 Suits)	3
-Kyle	473785	Up or Down & Omni (5 Suits)	3
 Kyle	477352	Clue Starved (6 Suits)	3
-Kyle	483818	Up or Down & Light Pink (5 Suits)	3
 Kyle	483964	White & Dark Omni (6 Suits)	3
-Kyle	484397	Up or Down & Omni (6 Suits)	3
+Kyle	488304	Up or Down & Muddy Rainbow (6 Suits)	3
 Kyle	488428	No Variant	3
 Kyle	499737	Rainbow & White (6 Suits)	3
-Kyle	501056	Up or Down & Omni (6 Suits)	3
 Kyle	502909	Gray Reversed (5 Suits)	3
 Kyle	503065	Prism (5 Suits)	3
 Kyle	505951	Gray Pink (5 Suits)	3
 Kyle	508507	Brown & Muddy Rainbow (5 Suits)	3
 Kyle	509346	Dark Rainbow Reversed (6 Suits)	3
 Kyle	516805	Rainbow & Omni (6 Suits)	3
+Kyle	521347	Up or Down & Prism (5 Suits)	3
 Kyle	522143	Special Mix (6 Suits)	3
 Kyle	527848	Black (5 Suits)	3
 Kyle	533784	Light Pink & Prism (6 Suits)	3
 Kyle	534954	Gray Pink (5 Suits)	3
 Kyle	535776	Dark Rainbow Reversed (6 Suits)	3
 Kyle	536927	Rainbow (6 Suits)	3
-Kyle	540177	Up or Down & Light Pink (6 Suits)	3
 Kyle	541249	White Reversed (6 Suits)	3
 Kyle	541268	Prism Reversed (5 Suits)	3
 Kyle	542085	Dark Prism Reversed (6 Suits)	3
@@ -818,26 +741,21 @@ Kyle	542851	Pink & Gray Pink (6 Suits)	3
 Kyle	543167	Black & Light Pink (5 Suits)	3
 Kyle	544695	Rainbow Reversed (6 Suits)	3
 Kyle	553291	Pink & Prism (5 Suits)	3
-Kyle	557043	Up or Down & Muddy Rainbow (6 Suits)	3
 Kyle	564467	Rainbow & Brown (6 Suits)	3
 Kyle	566409	Black & Dark Pink (6 Suits)	3
 Kyle	568385	White-Fives & White (5 Suits)	3
-Kyle	568880	Up or Down & Muddy Rainbow (6 Suits)	3
-Kyle	568975	Up or Down & Muddy Rainbow (5 Suits)	3
-Kyle	572614	Up or Down & Muddy Rainbow (6 Suits)	3
 Kyle	573327	Ambiguous & Dual-Color	3
 Kyle	582983	White & Prism (6 Suits)	3
 Kyle	583017	No Variant	3
 Kyle	583054	No Variant	3
 Kyle	585334	Ambiguous (6 Suits)	3
-Kyle	585465	Up or Down & Prism (6 Suits)	3
 Kyle	587529	Rainbow & Cocoa Rainbow (5 Suits)	3
 Kyle	587635	Rainbow & Gray (6 Suits)	3
 Kyle	590470	White & Dark Brown (5 Suits)	3
 Kyle	592386	Rainbow & Pink (6 Suits)	3
 Kyle	594583	Rainbow-Ones & Dark Pink (6 Suits)	3
 Kyle	597027	Light-Pink-Ones & Dark Omni (6 Suits)	3
-Kyle	598096	Up or Down (5 Suits)	3
+Kyle	598116	Up or Down (5 Suits)	3
 Kyle	598139	White & Omni (5 Suits)	3
 Kyle	600549	Dual-Color & Dark Rainbow (6 Suits)	3
 Kyle	606427	Rainbow (6 Suits)	3
@@ -860,7 +778,6 @@ Kyle	631386	Rainbow-Ones & Black (5 Suits)	3
 Kyle	631487	Throw It in a Hole (6 Suits)	3
 Kyle	631613	Gray Pink (5 Suits)	3
 Kyle	631927	Pink-Ones & Rainbow (5 Suits)	3
-Kyle	632694	Up or Down & White (6 Suits)	3
 Kyle	634530	Rainbow-Ones & Rainbow (5 Suits)	3
 Kyle	634698	Rainbow & Dark Prism (6 Suits)	3
 Kyle	634952	Rainbow & Brown (6 Suits)	3
@@ -901,13 +818,13 @@ Kyle	693364	Light-Pink-Ones (5 Suits)	3
 Kyle	696004	Black & Prism (6 Suits)	3
 Kyle	697052	Black (6 Suits)	3
 Kyle	698093	Pink & Gray Pink (6 Suits)	3
-Kyle	698599	Up or Down & Null (5 Suits)	3
 Kyle	699314	Light Pink & Dark Rainbow (6 Suits)	3
 Kyle	699455	Pink & Dark Brown (5 Suits)	3
 Kyle	699617	Pink-Fives (5 Suits)	3
-Kyle	702329	Up or Down & Null (6 Suits)	3
+Kyle	701728	Up or Down & Null (5 Suits)	3
 Kyle	702591	Up or Down & Null (5 Suits)	3
 Kyle	702611	Up or Down & Null (5 Suits)	3
+Kyle	702764	Up or Down & Null (5 Suits)	3
 Kyle	746441	Rainbow & Dark Prism (6 Suits)	3
 Kyle	749904	Light-Pink-Ones & Dark Null (6 Suits)	3
 Kyle	753069	Light Pink & Prism (6 Suits)	3
@@ -973,6 +890,7 @@ Kyle	46425	White (5 Suits)	2
 Kyle	46459	6 Suits	2
 Kyle	46461	No Variant	2
 Kyle	46462	6 Suits	2
+Kyle	46728	Up or Down (6 Suits)	2
 Kyle	46876	No Variant	2
 Kyle	47383	6 Suits	2
 Kyle	47419	Black (6 Suits)	2
@@ -1033,6 +951,7 @@ Kyle	52217	Black & Pink (6 Suits)	2
 Kyle	52218	Black & Pink (6 Suits)	2
 Kyle	52234	Rainbow (6 Suits)	2
 Kyle	52236	Rainbow (6 Suits)	2
+Kyle	52339	Up or Down (6 Suits)	2
 Kyle	52351	White (3 Suits)	2
 Kyle	52414	Pink (5 Suits)	2
 Kyle	52513	White (6 Suits)	2
@@ -1055,7 +974,6 @@ Kyle	53521	Pink (6 Suits)	2
 Kyle	53601	Rainbow (6 Suits)	2
 Kyle	53717	Rainbow (5 Suits)	2
 Kyle	53729	Pink & White (5 Suits)	2
-Kyle	53732	Up or Down (5 Suits)	2
 Kyle	53780	Rainbow (5 Suits)	2
 Kyle	53799	Black (6 Suits)	2
 Kyle	53853	Rainbow (5 Suits)	2
@@ -1069,10 +987,10 @@ Kyle	54858	Dual-Color (5 Suits)	2
 Kyle	55016	Rainbow & Omni (6 Suits)	2
 Kyle	55021	Dual-Color & Rainbow (6 Suits)	2
 Kyle	55105	No Variant	2
+Kyle	55296	Up or Down & Rainbow (6 Suits)	2
 Kyle	55319	White & Brown (5 Suits)	2
 Kyle	55487	Black & Rainbow (5 Suits)	2
 Kyle	55529	Muddy Rainbow (6 Suits)	2
-Kyle	55541	Up or Down & Brown (5 Suits)	2
 Kyle	55542	Ambiguous & White (5 Suits)	2
 Kyle	55579	Gray (6 Suits)	2
 Kyle	55592	Up or Down & Omni (6 Suits)	2
@@ -1091,7 +1009,6 @@ Kyle	56539	Black (5 Suits)	2
 Kyle	56554	White (6 Suits)	2
 Kyle	56555	White (6 Suits)	2
 Kyle	56560	White (6 Suits)	2
-Kyle	56563	Up or Down & White (5 Suits)	2
 Kyle	57004	Dual-Color & Rainbow (6 Suits)	2
 Kyle	57062	Rainbow & Omni (5 Suits)	2
 Kyle	57080	No Variant	2
@@ -1110,7 +1027,6 @@ Kyle	57848	White (6 Suits)	2
 Kyle	57862	Omni (5 Suits)	2
 Kyle	57865	White (5 Suits)	2
 Kyle	57880	Muddy Rainbow (6 Suits)	2
-Kyle	57881	Up or Down & Rainbow (6 Suits)	2
 Kyle	57960	White (6 Suits)	2
 Kyle	57977	No Variant	2
 Kyle	58001	Pink & Brown (6 Suits)	2
@@ -1121,12 +1037,12 @@ Kyle	58051	Up or Down & Omni (6 Suits)	2
 Kyle	58075	No Variant	2
 Kyle	58088	No Variant	2
 Kyle	58109	White (5 Suits)	2
-Kyle	58157	Up or Down (6 Suits)	2
+Kyle	58154	Up or Down (6 Suits)	2
 Kyle	58186	Alternating Clues (5 Suits)	2
 Kyle	58190	Null & Dark Brown (6 Suits)	2
 Kyle	58194	Omni (6 Suits)	2
 Kyle	58296	Up or Down (5 Suits)	2
-Kyle	58297	Up or Down (5 Suits)	2
+Kyle	58299	Up or Down (6 Suits)	2
 Kyle	58340	Rainbow-Ones (5 Suits)	2
 Kyle	58459	Rainbow-Ones (5 Suits)	2
 Kyle	58617	Pink-Fives (6 Suits)	2
@@ -1156,6 +1072,8 @@ Kyle	69218	Light Pink (5 Suits)	2
 Kyle	69242	Pink & Dark Rainbow (6 Suits)	2
 Kyle	70336	Black (6 Suits)	2
 Kyle	70337	Black (6 Suits)	2
+Kyle	70500	Up or Down & Brown (6 Suits)	2
+Kyle	70502	Up or Down & Brown (6 Suits)	2
 Kyle	70682	Black & Rainbow (5 Suits)	2
 Kyle	70689	Rainbow (4 Suits)	2
 Kyle	70692	Ambiguous (6 Suits)	2
@@ -1214,7 +1132,6 @@ Kyle	79812	Cocoa Rainbow (6 Suits)	2
 Kyle	79813	Cocoa Rainbow (5 Suits)	2
 Kyle	79825	Rainbow & Pink (5 Suits)	2
 Kyle	80252	No Variant	2
-Kyle	80901	Up or Down (5 Suits)	2
 Kyle	81153	White (5 Suits)	2
 Kyle	81296	No Variant	2
 Kyle	81412	Dark Omni (6 Suits)	2
@@ -1239,7 +1156,7 @@ Kyle	85932	Pink & Dark Brown (6 Suits)	2
 Kyle	85948	No Variant	2
 Kyle	86012	Dark Rainbow (5 Suits)	2
 Kyle	86358	No Variant	2
-Kyle	86752	Up or Down & Omni (5 Suits)	2
+Kyle	86748	Up or Down & Omni (5 Suits)	2
 Kyle	86755	Pink (5 Suits)	2
 Kyle	87471	No Variant	2
 Kyle	87530	No Variant	2
@@ -1263,6 +1180,8 @@ Kyle	112374	No Variant	2
 Kyle	112889	Brown (5 Suits)	2
 Kyle	112996	Pink (6 Suits)	2
 Kyle	113902	No Variant	2
+Kyle	114174	Up or Down (6 Suits)	2
+Kyle	114265	Up or Down (6 Suits)	2
 Kyle	114318	Light-Pink-Ones & Muddy Rainbow (5 Suits)	2
 Kyle	114425	Gray Pink (5 Suits)	2
 Kyle	114995	Black (5 Suits)	2
@@ -1270,7 +1189,7 @@ Kyle	115735	Rainbow (6 Suits)	2
 Kyle	115851	Black (5 Suits)	2
 Kyle	115899	Black (5 Suits)	2
 Kyle	115993	Up or Down (5 Suits)	2
-Kyle	116122	Up or Down & Rainbow (5 Suits)	2
+Kyle	116393	Up or Down & Rainbow (5 Suits)	2
 Kyle	116420	Up or Down & Rainbow (5 Suits)	2
 Kyle	116835	Dual-Color Mix	2
 Kyle	116921	Dual-Color Mix	2
@@ -1281,7 +1200,6 @@ Kyle	118100	Black (6 Suits)	2
 Kyle	119175	Omni (5 Suits)	2
 Kyle	120656	Rainbow (6 Suits)	2
 Kyle	120958	Pink (6 Suits)	2
-Kyle	121096	Up or Down (5 Suits)	2
 Kyle	121712	Rainbow (6 Suits)	2
 Kyle	121766	No Variant	2
 Kyle	122970	Pink (6 Suits)	2
@@ -1289,6 +1207,7 @@ Kyle	122995	Dark Omni (5 Suits)	2
 Kyle	123109	White (6 Suits)	2
 Kyle	123260	Duck (5 Suits)	2
 Kyle	123269	Duck (5 Suits)	2
+Kyle	123347	Up or Down (5 Suits)	2
 Kyle	123724	No Variant	2
 Kyle	124338	White & Brown (6 Suits)	2
 Kyle	125525	No Variant	2
@@ -1300,6 +1219,7 @@ Kyle	126503	Light-Pink-Fives & Pink (6 Suits)	2
 Kyle	127832	Brown (5 Suits)	2
 Kyle	128312	Extremely Ambiguous (5 Suits)	2
 Kyle	129264	Null-Ones (5 Suits)	2
+Kyle	129848	Up or Down (5 Suits)	2
 Kyle	134838	Rainbow (5 Suits)	2
 Kyle	134974	No Variant	2
 Kyle	135178	No Variant	2
@@ -1308,7 +1228,7 @@ Kyle	135786	Pink-Ones & White (6 Suits)	2
 Kyle	135906	Gray (5 Suits)	2
 Kyle	137914	Black (5 Suits)	2
 Kyle	138513	Up or Down (6 Suits)	2
-Kyle	138665	Up or Down (6 Suits)	2
+Kyle	138566	Up or Down (6 Suits)	2
 Kyle	138741	Gray (6 Suits)	2
 Kyle	143690	Rainbow (6 Suits)	2
 Kyle	143780	Light-Pink-Ones (5 Suits)	2
@@ -1324,9 +1244,8 @@ Kyle	157190	Black (5 Suits)	2
 Kyle	157226	Black (6 Suits)	2
 Kyle	157434	Black (6 Suits)	2
 Kyle	159539	No Variant	2
-Kyle	163336	Up or Down (5 Suits)	2
 Kyle	163460	Up or Down & White (6 Suits)	2
-Kyle	163490	Up or Down & White (6 Suits)	2
+Kyle	164324	Up or Down (5 Suits)	2
 Kyle	164430	Throw It in a Hole & Light Pink (5 Suits)	2
 Kyle	164598	Pink-Fives & Pink (5 Suits)	2
 Kyle	164822	Up or Down & Pink (5 Suits)	2
@@ -1336,7 +1255,6 @@ Kyle	166239	Rainbow & Muddy Rainbow (6 Suits)	2
 Kyle	167140	Muddy-Rainbow-Ones (5 Suits)	2
 Kyle	167166	Muddy-Rainbow-Ones (5 Suits)	2
 Kyle	167831	Pink (5 Suits)	2
-Kyle	168732	Up or Down (5 Suits)	2
 Kyle	168759	Rainbow & Light Pink (6 Suits)	2
 Kyle	171858	Rainbow (5 Suits)	2
 Kyle	174153	Muddy-Rainbow-Ones & Light Pink (4 Suits)	2
@@ -1368,7 +1286,6 @@ Kyle	188135	Dual-Color (5 Suits)	2
 Kyle	188398	Black & Rainbow (5 Suits)	2
 Kyle	188683	Black & Rainbow (5 Suits)	2
 Kyle	189846	Black & Rainbow (5 Suits)	2
-Kyle	190530	Up or Down (5 Suits)	2
 Kyle	190757	Null (6 Suits)	2
 Kyle	191830	Omni (6 Suits)	2
 Kyle	192720	White (5 Suits)	2
@@ -1428,10 +1345,8 @@ Kyle	233285	No Variant	2
 Kyle	233342	Black (6 Suits)	2
 Kyle	234396	Rainbow-Fives & Cocoa Rainbow (5 Suits)	2
 Kyle	234464	Clue Starved (6 Suits)	2
+Kyle	235878	Up or Down (5 Suits)	2
 Kyle	236540	Gray Pink (5 Suits)	2
-Kyle	237075	Up or Down (5 Suits)	2
-Kyle	237104	Up or Down (5 Suits)	2
-Kyle	237237	Up or Down (5 Suits)	2
 Kyle	237464	Dual-Color & Rainbow (6 Suits)	2
 Kyle	237510	Dual-Color & Rainbow (6 Suits)	2
 Kyle	237552	Black & Cocoa Rainbow (6 Suits)	2
@@ -1475,7 +1390,7 @@ Kyle	270371	Null-Ones (6 Suits)	2
 Kyle	273514	Rainbow (5 Suits)	2
 Kyle	275090	Brown-Ones (5 Suits)	2
 Kyle	275607	White (6 Suits)	2
-Kyle	275805	Up or Down & Pink (5 Suits)	2
+Kyle	275796	Up or Down & Pink (5 Suits)	2
 Kyle	278545	Light Pink (4 Suits)	2
 Kyle	280796	No Variant	2
 Kyle	282774	Prism (6 Suits)	2
@@ -1508,6 +1423,7 @@ Kyle	309449	Duck (4 Suits)	2
 Kyle	309965	Black & Omni (5 Suits)	2
 Kyle	310670	Gray (5 Suits)	2
 Kyle	311110	Rainbow (5 Suits)	2
+Kyle	312048	Up or Down & Prism (6 Suits)	2
 Kyle	312377	Muddy Rainbow & Gray (5 Suits)	2
 Kyle	312793	Dark Prism (5 Suits)	2
 Kyle	314265	No Variant	2
@@ -1522,7 +1438,6 @@ Kyle	316630	Black & White (6 Suits)	2
 Kyle	318163	Black & Light Pink (5 Suits)	2
 Kyle	318647	Light Pink (4 Suits)	2
 Kyle	318839	Clue Starved & Prism (6 Suits)	2
-Kyle	320410	Up or Down & Prism (5 Suits)	2
 Kyle	320483	Brown & Dark Prism (6 Suits)	2
 Kyle	320915	Rainbow-Ones & Pink (6 Suits)	2
 Kyle	321312	Gray (6 Suits)	2
@@ -1548,6 +1463,7 @@ Kyle	329327	Null & Prism (5 Suits)	2
 Kyle	329508	No Variant	2
 Kyle	330893	Gray Pink (5 Suits)	2
 Kyle	332425	Pink-Fives & Brown (4 Suits)	2
+Kyle	332465	Up or Down & Rainbow (6 Suits)	2
 Kyle	332648	Pink (4 Suits)	2
 Kyle	333196	Rainbow & Light Pink (6 Suits)	2
 Kyle	333251	Rainbow & Light Pink (5 Suits)	2
@@ -1556,19 +1472,21 @@ Kyle	333929	Rainbow (5 Suits)	2
 Kyle	334069	Pink & Prism (6 Suits)	2
 Kyle	334086	White & Dark Prism (5 Suits)	2
 Kyle	334108	White & Dark Prism (5 Suits)	2
+Kyle	334430	Up or Down & Rainbow (6 Suits)	2
 Kyle	334442	Black Reversed (5 Suits)	2
 Kyle	335251	Rainbow & Light Pink (3 Suits)	2
 Kyle	335321	Null-Ones & Null (5 Suits)	2
-Kyle	335371	Up or Down & Pink (6 Suits)	2
 Kyle	335476	Rainbow (5 Suits)	2
 Kyle	335500	Rainbow (5 Suits)	2
 Kyle	335949	Dark Brown (6 Suits)	2
+Kyle	336136	Up or Down & Rainbow (6 Suits)	2
+Kyle	336198	Up or Down & Pink (6 Suits)	2
 Kyle	336399	Rainbow & Pink (6 Suits)	2
 Kyle	336406	Rainbow & Pink (6 Suits)	2
-Kyle	336467	Up or Down & Brown (6 Suits)	2
+Kyle	336521	Up or Down & Brown (6 Suits)	2
 Kyle	336604	Ambiguous & Rainbow (5 Suits)	2
 Kyle	336853	Prism (6 Suits)	2
-Kyle	337569	Up or Down & Light Pink (5 Suits)	2
+Kyle	337582	Up or Down & Light Pink (5 Suits)	2
 Kyle	339225	Dark Prism (6 Suits)	2
 Kyle	339435	White-Ones & Brown (5 Suits)	2
 Kyle	340306	Pink (6 Suits)	2
@@ -1587,25 +1505,20 @@ Kyle	351275	Black & White (5 Suits)	2
 Kyle	351425	Black & Null (5 Suits)	2
 Kyle	351775	Rainbow-Ones & Gray Pink (5 Suits)	2
 Kyle	351795	Rainbow-Ones & Gray Pink (5 Suits)	2
-Kyle	351859	Up or Down & Light Pink (6 Suits)	2
 Kyle	352554	Clue Starved & White (5 Suits)	2
 Kyle	353552	No Variant	2
 Kyle	354507	No Variant	2
 Kyle	354525	Dark Null (5 Suits)	2
 Kyle	354542	Dark Null (5 Suits)	2
-Kyle	354723	Up or Down & Omni (5 Suits)	2
 Kyle	355117	Black & White (5 Suits)	2
 Kyle	355172	Up or Down & Pink (5 Suits)	2
 Kyle	356405	Rainbow (6 Suits)	2
-Kyle	357693	Up or Down & Brown (6 Suits)	2
-Kyle	357781	Up or Down & Omni (5 Suits)	2
 Kyle	358372	Reversed (6 Suits)	2
 Kyle	358390	Reversed (6 Suits)	2
 Kyle	359377	Light-Pink-Fives & Black (6 Suits)	2
 Kyle	359426	Light-Pink-Fives & Prism (5 Suits)	2
 Kyle	359831	Light-Pink-Ones & Prism (6 Suits)	2
 Kyle	360013	Rainbow & White (5 Suits)	2
-Kyle	360205	Up or Down & Omni (5 Suits)	2
 Kyle	362842	Dark Prism (6 Suits)	2
 Kyle	367288	Rainbow Reversed (5 Suits)	2
 Kyle	367315	Reversed (5 Suits)	2
@@ -1622,7 +1535,6 @@ Kyle	374820	Brown (5 Suits)	2
 Kyle	374836	Clue Starved (5 Suits)	2
 Kyle	376320	Up or Down & Rainbow (6 Suits)	2
 Kyle	377221	Black & Pink (6 Suits)	2
-Kyle	377983	Up or Down & White (5 Suits)	2
 Kyle	378261	Gray Pink (5 Suits)	2
 Kyle	379967	Clue Starved & White (5 Suits)	2
 Kyle	380405	Dark Null (6 Suits)	2
@@ -1634,6 +1546,7 @@ Kyle	387273	Rainbow & Prism (5 Suits)	2
 Kyle	387531	4 Suits	2
 Kyle	388250	Brown & Gray Pink (6 Suits)	2
 Kyle	390493	Rainbow & Dark Brown (6 Suits)	2
+Kyle	391491	Up or Down & Brown (6 Suits)	2
 Kyle	392662	Brown (5 Suits)	2
 Kyle	392793	White (6 Suits)	2
 Kyle	394473	Black & Rainbow (5 Suits)	2
@@ -1654,6 +1567,7 @@ Kyle	404087	Dual-Color Mix	2
 Kyle	404129	Rainbow & Light Pink (5 Suits)	2
 Kyle	405336	Clue Starved & Light Pink (5 Suits)	2
 Kyle	409071	Special Mix (5 Suits)	2
+Kyle	409152	Up or Down & Muddy Rainbow (5 Suits)	2
 Kyle	410089	Dual-Color Mix	2
 Kyle	410129	Dual-Color Mix	2
 Kyle	411035	Up or Down & White (5 Suits)	2
@@ -1671,10 +1585,10 @@ Kyle	420932	White-Ones (6 Suits)	2
 Kyle	423690	Rainbow (5 Suits)	2
 Kyle	423816	Rainbow (5 Suits)	2
 Kyle	426580	White-Ones & Pink (6 Suits)	2
+Kyle	426759	Up or Down & White (5 Suits)	2
 Kyle	427913	Dark Rainbow (6 Suits)	2
 Kyle	433353	Black & Omni (6 Suits)	2
 Kyle	433895	Clue Starved & Prism (5 Suits)	2
-Kyle	441689	Up or Down & Muddy Rainbow (5 Suits)	2
 Kyle	442030	6 Suits	2
 Kyle	442260	No Variant	2
 Kyle	446042	Pink & Prism (6 Suits)	2
@@ -1689,19 +1603,22 @@ Kyle	464941	Special Mix (5 Suits)	2
 Kyle	465802	Up or Down & Light Pink (5 Suits)	2
 Kyle	466756	Black & Omni (6 Suits)	2
 Kyle	470289	Rainbow-Ones & Black (5 Suits)	2
-Kyle	470767	Up or Down & Muddy Rainbow (5 Suits)	2
+Kyle	470791	Up or Down & Muddy Rainbow (5 Suits)	2
 Kyle	471928	White-Ones & White (5 Suits)	2
+Kyle	472364	Up or Down & Prism (5 Suits)	2
+Kyle	473047	Up or Down & Muddy Rainbow (6 Suits)	2
 Kyle	473809	Up or Down & Omni (5 Suits)	2
 Kyle	473827	Up or Down & Omni (5 Suits)	2
 Kyle	476365	Null (5 Suits)	2
-Kyle	477984	Up or Down & Muddy Rainbow (5 Suits)	2
 Kyle	479116	No Variant	2
 Kyle	480322	Gray Reversed (5 Suits)	2
 Kyle	481416	No Variant	2
 Kyle	481498	Brown (5 Suits)	2
 Kyle	483786	Light Pink & Prism (5 Suits)	2
+Kyle	484397	Up or Down & Omni (6 Suits)	2
+Kyle	484691	Up or Down & Muddy Rainbow (6 Suits)	2
 Kyle	485767	Clue Starved & Brown (6 Suits)	2
-Kyle	486428	Up or Down & Omni (5 Suits)	2
+Kyle	486422	Up or Down & Omni (5 Suits)	2
 Kyle	486505	Up or Down & Omni (5 Suits)	2
 Kyle	488496	Gray Pink (6 Suits)	2
 Kyle	489435	Muddy-Rainbow-Ones (6 Suits)	2
@@ -1710,31 +1627,27 @@ Kyle	499870	Rainbow (5 Suits)	2
 Kyle	500029	Black (6 Suits)	2
 Kyle	500152	Rainbow Reversed (4 Suits)	2
 Kyle	500949	Dual-Color & Light Pink (6 Suits)	2
-Kyle	501022	Up or Down & Omni (6 Suits)	2
+Kyle	501056	Up or Down & Omni (6 Suits)	2
 Kyle	503544	Rainbow & Gray (6 Suits)	2
 Kyle	505730	Black & Dark Pink (6 Suits)	2
 Kyle	505972	Gray Pink (5 Suits)	2
 Kyle	508695	Rainbow & Prism (6 Suits)	2
 Kyle	509384	Rainbow & White (6 Suits)	2
 Kyle	509419	Brown (6 Suits)	2
-Kyle	509526	Up or Down (5 Suits)	2
 Kyle	510390	Prism Reversed (6 Suits)	2
 Kyle	511325	Black & Null (6 Suits)	2
 Kyle	514008	Prism & Gray Pink (6 Suits)	2
 Kyle	515774	Brown & Dark Pink (6 Suits)	2
 Kyle	520406	Rainbow & Dark Omni (6 Suits)	2
 Kyle	520571	Pink (5 Suits)	2
-Kyle	521326	Up or Down & Prism (5 Suits)	2
 Kyle	522271	Light Pink & Dark Prism (6 Suits)	2
 Kyle	526981	Light Pink (4 Suits)	2
-Kyle	527146	Up or Down & Prism (5 Suits)	2
 Kyle	527837	Black (5 Suits)	2
 Kyle	528128	Prism & Dark Rainbow (6 Suits)	2
 Kyle	528870	Dark Prism Reversed (5 Suits)	2
 Kyle	528896	Dark Prism Reversed (5 Suits)	2
 Kyle	529941	Light Pink & Dark Prism (6 Suits)	2
 Kyle	532749	Light-Pink-Ones & Dark Brown (6 Suits)	2
-Kyle	533754	Up or Down & Rainbow (6 Suits)	2
 Kyle	534766	Dark Rainbow Reversed (6 Suits)	2
 Kyle	534819	Rainbow-Ones & Prism (6 Suits)	2
 Kyle	535049	Black (6 Suits)	2
@@ -1747,7 +1660,6 @@ Kyle	542786	Pink & Dark Omni (6 Suits)	2
 Kyle	545978	White & Omni (4 Suits)	2
 Kyle	554568	Throw It in a Hole (5 Suits)	2
 Kyle	555163	Rainbow & Dark Pink (5 Suits)	2
-Kyle	555973	Up or Down & Omni (5 Suits)	2
 Kyle	556219	Rainbow & Dark Pink (5 Suits)	2
 Kyle	557258	White & Dark Pink (5 Suits)	2
 Kyle	557265	White & Dark Pink (5 Suits)	2
@@ -1760,15 +1672,18 @@ Kyle	564396	Rainbow & Dark Pink (5 Suits)	2
 Kyle	566433	Black & Dark Pink (6 Suits)	2
 Kyle	568184	Gray Pink (5 Suits)	2
 Kyle	568724	Pink & Light Pink (6 Suits)	2
+Kyle	568880	Up or Down & Muddy Rainbow (6 Suits)	2
 Kyle	568888	Pink-Fives & Pink (6 Suits)	2
 Kyle	570462	Special Mix (5 Suits)	2
 Kyle	572530	Up or Down & Null (5 Suits)	2
+Kyle	572614	Up or Down & Muddy Rainbow (6 Suits)	2
 Kyle	573810	Rainbow (5 Suits)	2
 Kyle	582947	Prism (6 Suits)	2
 Kyle	583707	Rainbow & Dark Brown (6 Suits)	2
 Kyle	584028	Rainbow & Dark Pink (6 Suits)	2
 Kyle	584590	Rainbow & Prism (4 Suits)	2
 Kyle	584695	No Variant	2
+Kyle	585451	Up or Down & Muddy Rainbow (6 Suits)	2
 Kyle	585477	Rainbow & Dark Prism (5 Suits)	2
 Kyle	587550	Rainbow & Dark Prism (5 Suits)	2
 Kyle	587559	Rainbow & Dark Prism (5 Suits)	2
@@ -1818,6 +1733,7 @@ Kyle	631526	Rainbow-Fives & Muddy Rainbow (5 Suits)	2
 Kyle	631595	White & Muddy Rainbow (4 Suits)	2
 Kyle	631998	Rainbow (6 Suits)	2
 Kyle	632140	White-Fives & Rainbow (6 Suits)	2
+Kyle	632694	Up or Down & White (6 Suits)	2
 Kyle	632791	White & Dark Pink (6 Suits)	2
 Kyle	633563	Muddy Rainbow & Dark Omni (6 Suits)	2
 Kyle	633678	Rainbow-Ones & Light Pink (5 Suits)	2
@@ -1888,12 +1804,13 @@ Kyle	690339	Rainbow & Gray Pink (6 Suits)	2
 Kyle	691058	Deceptive-Ones (6 Suits)	2
 Kyle	696956	White-Ones & Omni (5 Suits)	2
 Kyle	697061	Black (6 Suits)	2
-Kyle	698476	Up or Down & Null (5 Suits)	2
+Kyle	698599	Up or Down & Null (5 Suits)	2
 Kyle	699321	Light Pink & Dark Rainbow (6 Suits)	2
 Kyle	699475	White (5 Suits)	2
-Kyle	700103	Up or Down & Null (5 Suits)	2
 Kyle	702355	Omni-Fives & Dark Rainbow (6 Suits)	2
-Kyle	703360	Up or Down & Null (5 Suits)	2
+Kyle	702372	Up or Down & Null (6 Suits)	2
+Kyle	702380	Up or Down & Null (6 Suits)	2
+Kyle	702553	Up or Down & Null (5 Suits)	2
 Kyle	703445	Pink-Fives (5 Suits)	2
 Kyle	703471	Deceptive-Fives (6 Suits)	2
 Kyle	704152	Rainbow-Ones & Gray (6 Suits)	2
@@ -1906,7 +1823,6 @@ Kyle	757013	Rainbow & Gray Pink (6 Suits)	2
 Kyle	761180	White-Ones & Rainbow (5 Suits)	2
 Kyle	762657	Light-Pink-Fives & Dark Omni (5 Suits)	2
 Kyle	763032	Deceptive-Ones & Gray Pink (6 Suits)	2
-Kyle	763493	Up or Down & Brown (5 Suits)	2
 Kyle	763502	Black & Dark Pink (6 Suits)	2
 Kyle	763680	Pink & Gray Pink (6 Suits)	2
 Kyle	763686	Pink & Gray Pink (6 Suits)	2
@@ -2117,6 +2033,7 @@ Kyle	53515	Black (6 Suits)	1
 Kyle	53636	Black (6 Suits)	1
 Kyle	53721	Rainbow (5 Suits)	1
 Kyle	53728	Pink (6 Suits)	1
+Kyle	53732	Up or Down (5 Suits)	1
 Kyle	53771	Black (6 Suits)	1
 Kyle	53822	Rainbow (5 Suits)	1
 Kyle	53857	White (5 Suits)	1
@@ -2183,13 +2100,13 @@ Kyle	57292	White & Brown (6 Suits)	1
 Kyle	57300	Black (6 Suits)	1
 Kyle	57328	Brown (5 Suits)	1
 Kyle	57646	Black (6 Suits)	1
-Kyle	57653	Up or Down & Pink (5 Suits)	1
 Kyle	57673	Cocoa Rainbow (6 Suits)	1
 Kyle	57686	Black & White (5 Suits)	1
 Kyle	57834	Rainbow (6 Suits)	1
 Kyle	57839	Black (5 Suits)	1
 Kyle	57841	Rainbow (4 Suits)	1
 Kyle	57858	Omni (5 Suits)	1
+Kyle	57881	Up or Down & Rainbow (6 Suits)	1
 Kyle	57940	White (5 Suits)	1
 Kyle	57943	White (5 Suits)	1
 Kyle	57944	White (5 Suits)	1
@@ -2199,15 +2116,14 @@ Kyle	58010	White (6 Suits)	1
 Kyle	58041	Rainbow (4 Suits)	1
 Kyle	58042	Black (5 Suits)	1
 Kyle	58048	Black & White (6 Suits)	1
-Kyle	58053	Up or Down & Omni (6 Suits)	1
 Kyle	58080	No Variant	1
 Kyle	58083	No Variant	1
 Kyle	58085	No Variant	1
 Kyle	58092	No Variant	1
 Kyle	58106	White (5 Suits)	1
+Kyle	58151	Up or Down (6 Suits)	1
 Kyle	58193	White & Brown (4 Suits)	1
 Kyle	58246	Pink (5 Suits)	1
-Kyle	58298	Up or Down (5 Suits)	1
 Kyle	58337	Cocoa Rainbow (6 Suits)	1
 Kyle	58436	Dark Pink (6 Suits)	1
 Kyle	58619	Pink-Fives & Rainbow (3 Suits)	1
@@ -2226,9 +2142,11 @@ Kyle	59788	Dark Pink (6 Suits)	1
 Kyle	60159	Omni (5 Suits)	1
 Kyle	60195	Black & Rainbow (5 Suits)	1
 Kyle	60201	Up or Down & Brown (5 Suits)	1
+Kyle	60203	Up or Down & Brown (6 Suits)	1
 Kyle	60264	Rainbow & Gray (5 Suits)	1
 Kyle	60265	Rainbow & Gray (5 Suits)	1
 Kyle	60371	Rainbow & White (5 Suits)	1
+Kyle	60377	Up or Down & Rainbow (6 Suits)	1
 Kyle	60532	Black & Rainbow (5 Suits)	1
 Kyle	62114	Black (6 Suits)	1
 Kyle	62671	Black & Omni (6 Suits)	1
@@ -2236,6 +2154,7 @@ Kyle	62887	Black (6 Suits)	1
 Kyle	62890	Muddy Rainbow (5 Suits)	1
 Kyle	62891	Muddy Rainbow (5 Suits)	1
 Kyle	63512	White & Dark Omni (5 Suits)	1
+Kyle	65391	Up or Down & Pink (5 Suits)	1
 Kyle	65393	Up or Down & Pink (5 Suits)	1
 Kyle	65633	Black & White (5 Suits)	1
 Kyle	65927	Black & Null (5 Suits)	1
@@ -2254,6 +2173,7 @@ Kyle	68403	Alternating Clues (5 Suits)	1
 Kyle	68583	Omni & Null (6 Suits)	1
 Kyle	68754	Gray Pink (5 Suits)	1
 Kyle	68765	Rainbow & Gray (5 Suits)	1
+Kyle	68924	Up or Down & White (6 Suits)	1
 Kyle	68928	Rainbow (5 Suits)	1
 Kyle	68930	Black (6 Suits)	1
 Kyle	69205	Number Mute (4 Suits)	1
@@ -2262,7 +2182,6 @@ Kyle	70333	Gray (6 Suits)	1
 Kyle	70342	Pink (4 Suits)	1
 Kyle	70567	Light Pink (3 Suits)	1
 Kyle	70571	Special Mix (5 Suits)	1
-Kyle	70693	Up or Down & White (6 Suits)	1
 Kyle	70696	Pink-Fives (6 Suits)	1
 Kyle	70707	No Variant	1
 Kyle	70860	Rainbow & Gray (5 Suits)	1
@@ -2309,6 +2228,7 @@ Kyle	73840	Dark Brown (5 Suits)	1
 Kyle	73841	Rainbow & White (5 Suits)	1
 Kyle	73842	Rainbow & White (5 Suits)	1
 Kyle	73845	Up or Down & Brown (6 Suits)	1
+Kyle	73846	Up or Down & Brown (6 Suits)	1
 Kyle	73870	No Variant	1
 Kyle	73936	White & Dark Brown (6 Suits)	1
 Kyle	73941	White & Dark Brown (6 Suits)	1
@@ -2383,6 +2303,8 @@ Kyle	80578	6 Suits	1
 Kyle	80582	6 Suits	1
 Kyle	80583	Rainbow (6 Suits)	1
 Kyle	80585	Rainbow (6 Suits)	1
+Kyle	80899	Up or Down (5 Suits)	1
+Kyle	80901	Up or Down (5 Suits)	1
 Kyle	81396	Dark Omni (6 Suits)	1
 Kyle	82198	Dark Pink (5 Suits)	1
 Kyle	82200	Dark Pink (5 Suits)	1
@@ -2406,6 +2328,7 @@ Kyle	83536	Rainbow (5 Suits)	1
 Kyle	83553	Rainbow (5 Suits)	1
 Kyle	83584	No Variant	1
 Kyle	83595	Brown (6 Suits)	1
+Kyle	83651	Up or Down & Brown (6 Suits)	1
 Kyle	83836	White & Omni (5 Suits)	1
 Kyle	83839	White & Omni (5 Suits)	1
 Kyle	84205	No Variant	1
@@ -2424,6 +2347,7 @@ Kyle	86199	Pink & Dark Brown (6 Suits)	1
 Kyle	86385	Rainbow & Dark Omni (5 Suits)	1
 Kyle	86389	Rainbow & Dark Omni (5 Suits)	1
 Kyle	86405	Brown (5 Suits)	1
+Kyle	86752	Up or Down & Omni (5 Suits)	1
 Kyle	87469	Rainbow (4 Suits)	1
 Kyle	87875	No Variant	1
 Kyle	87954	No Variant	1
@@ -2470,6 +2394,8 @@ Kyle	114944	Black (5 Suits)	1
 Kyle	115788	Black (6 Suits)	1
 Kyle	115872	Black (5 Suits)	1
 Kyle	116037	Up or Down (5 Suits)	1
+Kyle	116078	Up or Down (6 Suits)	1
+Kyle	116122	Up or Down & Rainbow (5 Suits)	1
 Kyle	116526	Black (6 Suits)	1
 Kyle	116664	No Variant	1
 Kyle	119107	Null-Fives & Brown (4 Suits)	1
@@ -2482,12 +2408,10 @@ Kyle	123064	White (6 Suits)	1
 Kyle	123208	Black (5 Suits)	1
 Kyle	123228	Duck (5 Suits)	1
 Kyle	123333	Duck (5 Suits)	1
-Kyle	123379	Up or Down (5 Suits)	1
 Kyle	123829	Clue Starved & White (5 Suits)	1
 Kyle	124895	Rainbow (4 Suits)	1
 Kyle	126245	Up or Down (5 Suits)	1
 Kyle	126561	Up or Down (5 Suits)	1
-Kyle	126617	Up or Down & Omni (6 Suits)	1
 Kyle	127187	Pink (5 Suits)	1
 Kyle	127440	Pink (5 Suits)	1
 Kyle	128085	Brown-Fives & Pink (4 Suits)	1
@@ -2504,13 +2428,14 @@ Kyle	133646	Black & White (6 Suits)	1
 Kyle	134391	6 Suits	1
 Kyle	135253	Brown (5 Suits)	1
 Kyle	135939	Gray (5 Suits)	1
-Kyle	135956	Up or Down (5 Suits)	1
+Kyle	138665	Up or Down (6 Suits)	1
 Kyle	140665	Muddy Rainbow (4 Suits)	1
 Kyle	140691	Muddy Rainbow (3 Suits)	1
 Kyle	141258	Pink (5 Suits)	1
 Kyle	143542	No Variant	1
 Kyle	143591	Brown (5 Suits)	1
 Kyle	143760	Omni-Ones (5 Suits)	1
+Kyle	143814	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	145803	Light Pink (3 Suits)	1
 Kyle	153088	No Variant	1
 Kyle	153214	Pink-Ones & White (4 Suits)	1
@@ -2532,6 +2457,8 @@ Kyle	163189	Pink & Muddy Rainbow (5 Suits)	1
 Kyle	163242	White & Gray Pink (6 Suits)	1
 Kyle	163275	White & Light Pink (4 Suits)	1
 Kyle	163298	Muddy Rainbow & Dark Omni (6 Suits)	1
+Kyle	163336	Up or Down (5 Suits)	1
+Kyle	163490	Up or Down & White (6 Suits)	1
 Kyle	164526	Pink-Fives & Pink (5 Suits)	1
 Kyle	164837	4 Suits	1
 Kyle	165731	Black & Light Pink (5 Suits)	1
@@ -2543,6 +2470,7 @@ Kyle	166387	Rainbow & Muddy Rainbow (5 Suits)	1
 Kyle	166472	Muddy Rainbow & Light Pink (5 Suits)	1
 Kyle	167081	No Variant	1
 Kyle	167127	Black (5 Suits)	1
+Kyle	168732	Up or Down (5 Suits)	1
 Kyle	168782	Black (5 Suits)	1
 Kyle	170347	Brown & Gray Pink (6 Suits)	1
 Kyle	170374	Brown & Gray Pink (6 Suits)	1
@@ -2584,7 +2512,9 @@ Kyle	186529	Black & Rainbow (5 Suits)	1
 Kyle	188248	Muddy Rainbow (6 Suits)	1
 Kyle	190492	Rainbow-Fives & Pink (5 Suits)	1
 Kyle	190516	Rainbow-Fives & Pink (5 Suits)	1
+Kyle	190530	Up or Down (5 Suits)	1
 Kyle	190553	Rainbow (4 Suits)	1
+Kyle	190701	Up or Down & White (6 Suits)	1
 Kyle	190721	Null (6 Suits)	1
 Kyle	190787	Black & Rainbow (5 Suits)	1
 Kyle	191029	Reversed (5 Suits)	1
@@ -2645,7 +2575,6 @@ Kyle	226819	Rainbow & Brown (6 Suits)	1
 Kyle	228117	Rainbow (6 Suits)	1
 Kyle	228714	Special Mix (5 Suits)	1
 Kyle	230662	Special Mix (5 Suits)	1
-Kyle	231115	Up or Down (5 Suits)	1
 Kyle	231128	Pink (6 Suits)	1
 Kyle	231398	Light Pink (5 Suits)	1
 Kyle	231419	Light Pink (5 Suits)	1
@@ -2666,9 +2595,11 @@ Kyle	236479	Gray Pink (6 Suits)	1
 Kyle	236606	Rainbow & Brown (5 Suits)	1
 Kyle	236625	Rainbow & Brown (5 Suits)	1
 Kyle	236856	Rainbow-Ones & Light Pink (4 Suits)	1
-Kyle	236912	Up or Down (5 Suits)	1
+Kyle	236999	Up or Down (5 Suits)	1
+Kyle	237075	Up or Down (5 Suits)	1
 Kyle	237165	Up or Down (5 Suits)	1
 Kyle	237748	Brown-Fives & White (6 Suits)	1
+Kyle	237853	Up or Down (5 Suits)	1
 Kyle	238429	No Variant	1
 Kyle	238450	No Variant	1
 Kyle	238455	No Variant	1
@@ -2732,6 +2663,7 @@ Kyle	271347	White (6 Suits)	1
 Kyle	274449	Dark Null (5 Suits)	1
 Kyle	275093	Rainbow (5 Suits)	1
 Kyle	275529	White (6 Suits)	1
+Kyle	275805	Up or Down & Pink (5 Suits)	1
 Kyle	275845	Black & Gray Pink (6 Suits)	1
 Kyle	276479	Brown (6 Suits)	1
 Kyle	276497	Cocoa Rainbow (6 Suits)	1
@@ -2762,7 +2694,6 @@ Kyle	292568	Rainbow (5 Suits)	1
 Kyle	294406	Cocoa Rainbow (6 Suits)	1
 Kyle	297154	No Variant	1
 Kyle	297221	No Variant	1
-Kyle	297544	Up or Down & Pink (6 Suits)	1
 Kyle	300689	Light Pink (4 Suits)	1
 Kyle	300729	Prism (4 Suits)	1
 Kyle	303436	Dark Pink (5 Suits)	1
@@ -2829,7 +2760,6 @@ Kyle	320474	Brown & Dark Prism (6 Suits)	1
 Kyle	320506	Brown & Dark Prism (6 Suits)	1
 Kyle	320575	Brown & Dark Prism (6 Suits)	1
 Kyle	320933	Rainbow-Ones & Pink (6 Suits)	1
-Kyle	321104	Up or Down & Prism (5 Suits)	1
 Kyle	321120	Dark Null (5 Suits)	1
 Kyle	321161	No Variant	1
 Kyle	321349	Gray (6 Suits)	1
@@ -2840,10 +2770,12 @@ Kyle	321781	Black & Omni (6 Suits)	1
 Kyle	321799	Black & Omni (6 Suits)	1
 Kyle	321991	Dark Pink (5 Suits)	1
 Kyle	322051	Dark Omni (5 Suits)	1
+Kyle	322075	Up or Down & Rainbow (5 Suits)	1
 Kyle	322101	Ambiguous & Black (5 Suits)	1
 Kyle	322263	Black & Muddy Rainbow (5 Suits)	1
 Kyle	322483	Dark Pink (6 Suits)	1
 Kyle	323200	Rainbow & Light Pink (5 Suits)	1
+Kyle	323355	Up or Down & Brown (6 Suits)	1
 Kyle	323397	Pink & Brown (6 Suits)	1
 Kyle	324202	Prism (6 Suits)	1
 Kyle	324423	Black & Prism (6 Suits)	1
@@ -2867,6 +2799,7 @@ Kyle	329892	Dark Omni (5 Suits)	1
 Kyle	329980	4 Suits	1
 Kyle	330860	Gray Pink (5 Suits)	1
 Kyle	331240	Prism (3 Suits)	1
+Kyle	331268	Up or Down & Omni (5 Suits)	1
 Kyle	331360	Dark Prism (6 Suits)	1
 Kyle	332077	Prism (4 Suits)	1
 Kyle	332090	Gray Pink (5 Suits)	1
@@ -2890,7 +2823,7 @@ Kyle	337690	Dark Rainbow (5 Suits)	1
 Kyle	338697	White & Prism (6 Suits)	1
 Kyle	338791	Rainbow & Dark Brown (5 Suits)	1
 Kyle	339214	Prism (6 Suits)	1
-Kyle	339539	Up or Down (5 Suits)	1
+Kyle	339518	Up or Down (5 Suits)	1
 Kyle	339651	Throw It in a Hole (5 Suits)	1
 Kyle	340335	Gray Pink (5 Suits)	1
 Kyle	345049	Dark Pink (5 Suits)	1
@@ -2901,6 +2834,7 @@ Kyle	347114	Reversed (6 Suits)	1
 Kyle	347277	Dual-Color Mix	1
 Kyle	347315	Null (5 Suits)	1
 Kyle	347561	Rainbow & Null (6 Suits)	1
+Kyle	348955	Up or Down & Prism (6 Suits)	1
 Kyle	350321	Special Mix (6 Suits)	1
 Kyle	350831	Deceptive-Ones (4 Suits)	1
 Kyle	351016	Gray Pink (5 Suits)	1
@@ -2919,11 +2853,14 @@ Kyle	353603	White-Ones & Prism (5 Suits)	1
 Kyle	353864	Clue Starved & Prism (5 Suits)	1
 Kyle	354642	Muddy Rainbow (5 Suits)	1
 Kyle	354647	White-Ones & Brown (5 Suits)	1
+Kyle	354723	Up or Down & Omni (5 Suits)	1
 Kyle	354766	Black (5 Suits)	1
 Kyle	355126	Black & White (5 Suits)	1
 Kyle	355130	Gray Pink (6 Suits)	1
 Kyle	357616	Omni (6 Suits)	1
+Kyle	357693	Up or Down & Brown (6 Suits)	1
 Kyle	357752	Throw It in a Hole & Rainbow (5 Suits)	1
+Kyle	357781	Up or Down & Omni (5 Suits)	1
 Kyle	358513	Pink (4 Suits)	1
 Kyle	358641	No Variant	1
 Kyle	358836	Prism (6 Suits)	1
@@ -2936,6 +2873,7 @@ Kyle	361151	Rainbow & Omni (4 Suits)	1
 Kyle	363001	Pink & White (5 Suits)	1
 Kyle	363983	Rainbow & Prism (5 Suits)	1
 Kyle	363993	Rainbow & Prism (5 Suits)	1
+Kyle	364286	Up or Down & Omni (5 Suits)	1
 Kyle	364616	Gray Pink (6 Suits)	1
 Kyle	368062	Ambiguous & Brown (5 Suits)	1
 Kyle	370023	Clue Starved & Rainbow (6 Suits)	1
@@ -2953,10 +2891,14 @@ Kyle	373800	No Variant	1
 Kyle	373818	No Variant	1
 Kyle	374826	Brown (5 Suits)	1
 Kyle	374993	Rainbow & White (6 Suits)	1
+Kyle	376346	Up or Down & Rainbow (6 Suits)	1
+Kyle	376379	Up or Down & Rainbow (6 Suits)	1
 Kyle	377640	Rainbow Reversed (5 Suits)	1
 Kyle	377886	Black & Pink (5 Suits)	1
 Kyle	377900	White Reversed (4 Suits)	1
+Kyle	377983	Up or Down & White (5 Suits)	1
 Kyle	378103	Up or Down & Muddy Rainbow (6 Suits)	1
+Kyle	378932	Up or Down & Brown (5 Suits)	1
 Kyle	379259	No Variant	1
 Kyle	379998	Gray Pink (6 Suits)	1
 Kyle	380085	Throw It in a Hole (5 Suits)	1
@@ -3041,6 +2983,7 @@ Kyle	441414	Gray Pink (5 Suits)	1
 Kyle	442143	Brown-Ones & Prism (5 Suits)	1
 Kyle	442221	No Variant	1
 Kyle	444735	Rainbow & Light Pink (5 Suits)	1
+Kyle	445807	Up or Down & Light Pink (5 Suits)	1
 Kyle	446007	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	446086	Clue Starved & White (5 Suits)	1
 Kyle	446107	Clue Starved & White (5 Suits)	1
@@ -3057,10 +3000,13 @@ Kyle	461495	No Variant	1
 Kyle	464664	Pink & Cocoa Rainbow (6 Suits)	1
 Kyle	464782	White & Omni (5 Suits)	1
 Kyle	464969	Special Mix (5 Suits)	1
+Kyle	465814	Up or Down & Prism (6 Suits)	1
+Kyle	465823	Up or Down & Prism (6 Suits)	1
 Kyle	469164	Prism Reversed (4 Suits)	1
 Kyle	470267	Rainbow & Gray (6 Suits)	1
-Kyle	472415	Up or Down & Omni (5 Suits)	1
+Kyle	470767	Up or Down & Muddy Rainbow (5 Suits)	1
 Kyle	472474	No Variant	1
+Kyle	473785	Up or Down & Omni (5 Suits)	1
 Kyle	473799	Up or Down & Omni (5 Suits)	1
 Kyle	477128	Gray Pink (5 Suits)	1
 Kyle	477168	Gray Pink (5 Suits)	1
@@ -3069,11 +3015,11 @@ Kyle	480297	Gray Reversed (5 Suits)	1
 Kyle	480315	Gray Reversed (5 Suits)	1
 Kyle	481381	Pink (5 Suits)	1
 Kyle	481398	No Variant	1
-Kyle	484486	Up or Down & Omni (6 Suits)	1
-Kyle	484663	Up or Down & Muddy Rainbow (6 Suits)	1
+Kyle	483818	Up or Down & Light Pink (5 Suits)	1
 Kyle	485571	Omni-Fives & Light Pink (5 Suits)	1
 Kyle	485584	Brown (5 Suits)	1
 Kyle	485597	Brown (5 Suits)	1
+Kyle	486428	Up or Down & Omni (5 Suits)	1
 Kyle	487380	Pink & Dark Prism (6 Suits)	1
 Kyle	487384	Pink & Dark Prism (6 Suits)	1
 Kyle	487492	Rainbow & Brown (5 Suits)	1
@@ -3081,11 +3027,13 @@ Kyle	487516	Pink (5 Suits)	1
 Kyle	487680	Black & Brown (5 Suits)	1
 Kyle	499997	Black (6 Suits)	1
 Kyle	500189	Rainbow Reversed (6 Suits)	1
+Kyle	501022	Up or Down & Omni (6 Suits)	1
 Kyle	501095	Up or Down & Omni (6 Suits)	1
 Kyle	501848	Omni & Dark Rainbow (6 Suits)	1
 Kyle	501860	Omni & Dark Rainbow (6 Suits)	1
 Kyle	501870	Omni & Dark Rainbow (6 Suits)	1
 Kyle	502910	Gray Reversed (5 Suits)	1
+Kyle	505612	Up or Down & White (6 Suits)	1
 Kyle	505683	Black & Dark Pink (6 Suits)	1
 Kyle	505868	Pink & Brown (6 Suits)	1
 Kyle	506011	Gray Pink (5 Suits)	1
@@ -3094,6 +3042,7 @@ Kyle	507745	Rainbow & Muddy Rainbow (6 Suits)	1
 Kyle	507762	Rainbow & Muddy Rainbow (6 Suits)	1
 Kyle	508510	Brown & Muddy Rainbow (5 Suits)	1
 Kyle	509404	Up or Down (6 Suits)	1
+Kyle	509526	Up or Down (5 Suits)	1
 Kyle	509652	Rainbow (5 Suits)	1
 Kyle	510321	Black & Light Pink (6 Suits)	1
 Kyle	510454	Up or Down & Muddy Rainbow (6 Suits)	1
@@ -3109,6 +3058,7 @@ Kyle	516825	Black & Light Pink (6 Suits)	1
 Kyle	516956	Rainbow & Gray Pink (6 Suits)	1
 Kyle	520551	Black (5 Suits)	1
 Kyle	520561	Black (5 Suits)	1
+Kyle	521326	Up or Down & Prism (5 Suits)	1
 Kyle	521367	Pink & Dark Omni (6 Suits)	1
 Kyle	521660	Black & Prism (6 Suits)	1
 Kyle	522157	Black & White (5 Suits)	1
@@ -3118,6 +3068,7 @@ Kyle	523106	Rainbow & Dark Omni (5 Suits)	1
 Kyle	523245	No Variant	1
 Kyle	523274	Up or Down & Omni (5 Suits)	1
 Kyle	526984	Light Pink (4 Suits)	1
+Kyle	527146	Up or Down & Prism (5 Suits)	1
 Kyle	527169	Dark Prism Reversed (5 Suits)	1
 Kyle	527822	Black (5 Suits)	1
 Kyle	527886	White & Omni (3 Suits)	1
@@ -3135,6 +3086,7 @@ Kyle	534832	Muddy Rainbow (4 Suits)	1
 Kyle	534854	Muddy Rainbow (4 Suits)	1
 Kyle	535006	Gray Pink (5 Suits)	1
 Kyle	535650	Black & Rainbow (5 Suits)	1
+Kyle	535712	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	536070	Omni-Ones & White (5 Suits)	1
 Kyle	536592	Deceptive-Fives & Brown (6 Suits)	1
 Kyle	536607	Deceptive-Fives & Brown (6 Suits)	1
@@ -3145,6 +3097,7 @@ Kyle	537036	Prism Reversed (4 Suits)	1
 Kyle	539541	Pink & Muddy Rainbow (6 Suits)	1
 Kyle	540142	Dark Prism Reversed (6 Suits)	1
 Kyle	540150	Rainbow & Muddy Rainbow (5 Suits)	1
+Kyle	540177	Up or Down & Light Pink (6 Suits)	1
 Kyle	540280	Muddy Rainbow & Dark Omni (6 Suits)	1
 Kyle	540384	Omni & Muddy Rainbow (6 Suits)	1
 Kyle	540444	Gray Reversed (6 Suits)	1
@@ -3163,6 +3116,7 @@ Kyle	545962	Black & Light Pink (5 Suits)	1
 Kyle	554581	Gray Pink (5 Suits)	1
 Kyle	554659	Rainbow & Cocoa Rainbow (5 Suits)	1
 Kyle	554706	Brown & Omni (4 Suits)	1
+Kyle	557043	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	557113	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	557493	Pink & White (4 Suits)	1
 Kyle	558100	Rainbow-Ones & Omni (5 Suits)	1
@@ -3179,14 +3133,13 @@ Kyle	566449	Pink & Brown (5 Suits)	1
 Kyle	568430	White-Fives & White (5 Suits)	1
 Kyle	568694	Pink & Muddy Rainbow (5 Suits)	1
 Kyle	568889	Ambiguous & Light Pink (5 Suits)	1
-Kyle	568954	Up or Down (5 Suits)	1
+Kyle	568975	Up or Down & Muddy Rainbow (5 Suits)	1
 Kyle	570302	Rainbow & Dark Pink (6 Suits)	1
 Kyle	570328	Omni & Prism (5 Suits)	1
 Kyle	570355	Ambiguous & Prism (5 Suits)	1
 Kyle	570362	Ambiguous & Prism (5 Suits)	1
 Kyle	570379	Ambiguous & Prism (5 Suits)	1
 Kyle	571211	Black (6 Suits)	1
-Kyle	572522	Up or Down & Null (5 Suits)	1
 Kyle	573347	Rainbow-Fives & White (6 Suits)	1
 Kyle	573379	Pink & Brown (4 Suits)	1
 Kyle	573389	Pink & Brown (4 Suits)	1
@@ -3199,6 +3152,7 @@ Kyle	583935	No Variant	1
 Kyle	583981	Pink & Dark Rainbow (6 Suits)	1
 Kyle	584468	Up or Down & Muddy Rainbow (6 Suits)	1
 Kyle	584499	Black & Omni (6 Suits)	1
+Kyle	585465	Up or Down & Prism (6 Suits)	1
 Kyle	585524	Muddy Rainbow & Dark Rainbow (6 Suits)	1
 Kyle	587516	Special Mix (5 Suits)	1
 Kyle	587680	Up or Down & Muddy Rainbow (5 Suits)	1
@@ -3291,7 +3245,6 @@ Kyle	633576	Pink & Dark Prism (5 Suits)	1
 Kyle	633592	White & Dark Omni (5 Suits)	1
 Kyle	633617	Pink & Dark Brown (5 Suits)	1
 Kyle	633847	Null (5 Suits)	1
-Kyle	633953	Up or Down & Null (5 Suits)	1
 Kyle	634551	Rainbow-Ones & Rainbow (5 Suits)	1
 Kyle	634945	Rainbow & Gray Pink (5 Suits)	1
 Kyle	635530	Muddy-Rainbow-Ones & Prism (5 Suits)	1
@@ -3401,7 +3354,6 @@ Kyle	676998	Rainbow (6 Suits)	1
 Kyle	677573	Rainbow & Gray Pink (6 Suits)	1
 Kyle	677695	Alternating Clues & Omni (6 Suits)	1
 Kyle	678361	Critical Fours & Prism (5 Suits)	1
-Kyle	678428	Up or Down & Rainbow (5 Suits)	1
 Kyle	678708	Black & Rainbow (6 Suits)	1
 Kyle	678732	Pink-Ones & Pink (5 Suits)	1
 Kyle	678976	Special Mix (6 Suits)	1
@@ -3417,19 +3369,21 @@ Kyle	696211	Pink-Fives & Pink (5 Suits)	1
 Kyle	696858	Rainbow & White (6 Suits)	1
 Kyle	697110	Black (6 Suits)	1
 Kyle	697140	Black (5 Suits)	1
+Kyle	698476	Up or Down & Null (5 Suits)	1
 Kyle	698564	Up or Down & Null (5 Suits)	1
 Kyle	698572	Up or Down & Null (5 Suits)	1
-Kyle	698615	Up or Down & Null (5 Suits)	1
 Kyle	699353	Rainbow & Dark Brown (5 Suits)	1
 Kyle	699542	Rainbow & Prism (6 Suits)	1
+Kyle	700103	Up or Down & Null (5 Suits)	1
 Kyle	700225	Dual-Color Mix	1
 Kyle	700236	No Variant	1
 Kyle	701352	Brown & Dark Rainbow (6 Suits)	1
 Kyle	701580	Black (6 Suits)	1
+Kyle	702329	Up or Down & Null (6 Suits)	1
 Kyle	702430	Light-Pink-Fives (5 Suits)	1
 Kyle	702496	Rainbow-Fives (5 Suits)	1
+Kyle	702773	Up or Down & Null (5 Suits)	1
 Kyle	703293	Brown-Fives (5 Suits)	1
-Kyle	703331	Up or Down & Null (5 Suits)	1
 Kyle	703393	Pink-Fives & Rainbow (5 Suits)	1
 Kyle	704071	Rainbow & Pink (6 Suits)	1
 Kyle	704124	No Variant	1
@@ -3451,6 +3405,7 @@ Kyle	761173	White-Ones (4 Suits)	1
 Kyle	762991	No Variant	1
 Kyle	763039	Deceptive-Ones & Gray Pink (6 Suits)	1
 Kyle	763485	Pink-Fives & Gray Pink (5 Suits)	1
+Kyle	763493	Up or Down & Brown (5 Suits)	1
 Kyle	763702	Light-Pink-Fives & Gray Pink (6 Suits)	1
 Kyle	763713	Light-Pink-Fives & Gray Pink (6 Suits)	1
 Kyle	764189	White (5 Suits)	1
@@ -3719,6 +3674,7 @@ Kyle	55514	White (4 Suits)	0
 Kyle	55518	Rainbow (4 Suits)	0
 Kyle	55521	Dark Rainbow (5 Suits)	0
 Kyle	55536	Brown (6 Suits)	0
+Kyle	55541	Up or Down & Brown (5 Suits)	0
 Kyle	55686	Alternating Clues (4 Suits)	0
 Kyle	55721	Pink (3 Suits)	0
 Kyle	55726	White (3 Suits)	0
@@ -3739,6 +3695,7 @@ Kyle	56145	Rainbow & Brown (6 Suits)	0
 Kyle	56250	White (3 Suits)	0
 Kyle	56517	4 Suits	0
 Kyle	56534	No Variant	0
+Kyle	56563	Up or Down & White (5 Suits)	0
 Kyle	56677	No Variant	0
 Kyle	56693	Omni (4 Suits)	0
 Kyle	56995	Dual-Color & Rainbow (6 Suits)	0
@@ -3757,16 +3714,21 @@ Kyle	57630	Black & Rainbow (5 Suits)	0
 Kyle	57639	Black & Rainbow (5 Suits)	0
 Kyle	57642	Black & Rainbow (5 Suits)	0
 Kyle	57644	Black & Rainbow (5 Suits)	0
+Kyle	57653	Up or Down & Pink (5 Suits)	0
 Kyle	57722	White (5 Suits)	0
 Kyle	57849	Rainbow (5 Suits)	0
 Kyle	57981	No Variant	0
+Kyle	58053	Up or Down & Omni (6 Suits)	0
 Kyle	58068	Pink-Fives & Rainbow (4 Suits)	0
 Kyle	58071	No Variant	0
 Kyle	58078	No Variant	0
 Kyle	58101	No Variant	0
 Kyle	58155	Up or Down (6 Suits)	0
+Kyle	58157	Up or Down (6 Suits)	0
 Kyle	58166	Brown & Null (6 Suits)	0
 Kyle	58251	Pink (5 Suits)	0
+Kyle	58297	Up or Down (5 Suits)	0
+Kyle	58298	Up or Down (5 Suits)	0
 Kyle	58343	Rainbow-Ones (6 Suits)	0
 Kyle	58348	Rainbow-Ones (6 Suits)	0
 Kyle	58441	Dark Pink (5 Suits)	0
@@ -3822,6 +3784,7 @@ Kyle	70549	Rainbow & Brown (3 Suits)	0
 Kyle	70566	Light Pink (3 Suits)	0
 Kyle	70570	Special Mix (5 Suits)	0
 Kyle	70681	No Variant	0
+Kyle	70693	Up or Down & White (6 Suits)	0
 Kyle	70709	6 Suits	0
 Kyle	71087	No Variant	0
 Kyle	71091	No Variant	0
@@ -3937,6 +3900,7 @@ Kyle	83521	Rainbow (5 Suits)	0
 Kyle	83590	Rainbow (5 Suits)	0
 Kyle	83605	Brown (6 Suits)	0
 Kyle	83648	Color Mute (4 Suits)	0
+Kyle	83650	Up or Down & Brown (6 Suits)	0
 Kyle	84208	No Variant	0
 Kyle	84284	Pink-Fives (6 Suits)	0
 Kyle	84346	Rainbow (4 Suits)	0
@@ -4016,9 +3980,11 @@ Kyle	119712	Dark Pink (5 Suits)	0
 Kyle	119969	No Variant	0
 Kyle	120529	No Variant	0
 Kyle	120581	No Variant	0
+Kyle	121096	Up or Down (5 Suits)	0
 Kyle	121397	Black (6 Suits)	0
 Kyle	122940	Pink (5 Suits)	0
 Kyle	123174	Rainbow (6 Suits)	0
+Kyle	123379	Up or Down (5 Suits)	0
 Kyle	123782	Rainbow-Fives & Light Pink (3 Suits)	0
 Kyle	123800	Rainbow-Fives & Light Pink (3 Suits)	0
 Kyle	124174	No Variant	0
@@ -4026,6 +3992,7 @@ Kyle	126022	Pink (5 Suits)	0
 Kyle	126174	Up or Down (5 Suits)	0
 Kyle	126306	Pink (5 Suits)	0
 Kyle	126389	Light Pink (4 Suits)	0
+Kyle	126617	Up or Down & Omni (6 Suits)	0
 Kyle	127220	Pink (5 Suits)	0
 Kyle	127247	Pink (5 Suits)	0
 Kyle	127499	Pink (5 Suits)	0
@@ -4036,6 +4003,7 @@ Kyle	128498	No Variant	0
 Kyle	128539	No Variant	0
 Kyle	131098	4 Suits	0
 Kyle	135926	Gray (5 Suits)	0
+Kyle	135956	Up or Down (5 Suits)	0
 Kyle	137884	No Variant	0
 Kyle	143570	No Variant	0
 Kyle	144149	White (6 Suits)	0
@@ -4148,6 +4116,7 @@ Kyle	225899	Brown (5 Suits)	0
 Kyle	226140	Dark Omni (5 Suits)	0
 Kyle	228621	Special Mix (5 Suits)	0
 Kyle	230720	Special Mix (5 Suits)	0
+Kyle	231115	Up or Down (5 Suits)	0
 Kyle	231197	Gray Reversed (5 Suits)	0
 Kyle	231208	Gray Reversed (5 Suits)	0
 Kyle	231266	Omni (6 Suits)	0
@@ -4162,8 +4131,12 @@ Kyle	234701	Special Mix (5 Suits)	0
 Kyle	236446	Light Pink & Dark Rainbow (5 Suits)	0
 Kyle	236458	Gray Pink (5 Suits)	0
 Kyle	236684	Rainbow & Brown (5 Suits)	0
+Kyle	236912	Up or Down (5 Suits)	0
+Kyle	237104	Up or Down (5 Suits)	0
+Kyle	237237	Up or Down (5 Suits)	0
 Kyle	237535	Black & Cocoa Rainbow (6 Suits)	0
 Kyle	237724	Clue Starved & Brown (5 Suits)	0
+Kyle	237791	Up or Down (5 Suits)	0
 Kyle	238374	Pink & White (3 Suits)	0
 Kyle	238382	Pink & White (3 Suits)	0
 Kyle	238466	No Variant	0
@@ -4198,6 +4171,7 @@ Kyle	248971	Gray Reversed (5 Suits)	0
 Kyle	249866	Muddy Rainbow & Dark Brown (6 Suits)	0
 Kyle	250335	Special Mix (5 Suits)	0
 Kyle	253095	Black & Light Pink (5 Suits)	0
+Kyle	253295	Up or Down & White (6 Suits)	0
 Kyle	253409	3 Suits	0
 Kyle	253469	Reversed (4 Suits)	0
 Kyle	254717	Pink & Dark Brown (6 Suits)	0
@@ -4242,6 +4216,7 @@ Kyle	292717	Prism (4 Suits)	0
 Kyle	293605	Cocoa Rainbow (5 Suits)	0
 Kyle	295005	No Variant	0
 Kyle	296449	Black & Prism (5 Suits)	0
+Kyle	297544	Up or Down & Pink (6 Suits)	0
 Kyle	300738	Prism (4 Suits)	0
 Kyle	300785	Pink (4 Suits)	0
 Kyle	303471	Dark Pink (6 Suits)	0
@@ -4300,7 +4275,9 @@ Kyle	319067	Cocoa Rainbow (6 Suits)	0
 Kyle	319483	Rainbow & Omni (5 Suits)	0
 Kyle	319571	Special Mix (5 Suits)	0
 Kyle	319666	Dark Pink (6 Suits)	0
+Kyle	320410	Up or Down & Prism (5 Suits)	0
 Kyle	320922	Rainbow-Ones & Pink (6 Suits)	0
+Kyle	321104	Up or Down & Prism (5 Suits)	0
 Kyle	321135	Dark Null (5 Suits)	0
 Kyle	321256	Gray (6 Suits)	0
 Kyle	321625	4 Suits	0
@@ -4378,19 +4355,23 @@ Kyle	335256	Pink (4 Suits)	0
 Kyle	335274	Rainbow & Dark Omni (5 Suits)	0
 Kyle	335283	Rainbow & Dark Omni (5 Suits)	0
 Kyle	335289	Prism (4 Suits)	0
+Kyle	335371	Up or Down & Pink (6 Suits)	0
 Kyle	335523	Rainbow (5 Suits)	0
 Kyle	335754	Dark Null (5 Suits)	0
 Kyle	335913	Dark Brown (6 Suits)	0
 Kyle	335926	Dark Brown (6 Suits)	0
 Kyle	335975	Dark Brown (6 Suits)	0
 Kyle	336315	Brown-Ones & Omni (6 Suits)	0
+Kyle	336467	Up or Down & Brown (6 Suits)	0
 Kyle	336875	Black (5 Suits)	0
 Kyle	336880	Muddy Rainbow (4 Suits)	0
 Kyle	336884	Muddy Rainbow (4 Suits)	0
 Kyle	337250	Reversed (4 Suits)	0
+Kyle	337569	Up or Down & Light Pink (5 Suits)	0
 Kyle	338813	Rainbow & Dark Brown (5 Suits)	0
 Kyle	338836	Dark Brown (5 Suits)	0
 Kyle	339391	Reversed (4 Suits)	0
+Kyle	339539	Up or Down (5 Suits)	0
 Kyle	339629	Clue Starved & Brown (5 Suits)	0
 Kyle	340103	Dark Prism Reversed (5 Suits)	0
 Kyle	340321	Gray Pink (5 Suits)	0
@@ -4420,6 +4401,7 @@ Kyle	351144	Pink (6 Suits)	0
 Kyle	351242	Deceptive-Fives & Rainbow (5 Suits)	0
 Kyle	351353	Dark Null (6 Suits)	0
 Kyle	351495	Cocoa Rainbow (5 Suits)	0
+Kyle	351859	Up or Down & Light Pink (6 Suits)	0
 Kyle	353088	Rainbow & Dark Null (6 Suits)	0
 Kyle	353246	Pink-Ones & Gray (5 Suits)	0
 Kyle	353617	White-Ones & Prism (5 Suits)	0
@@ -4448,6 +4430,7 @@ Kyle	358595	White-Ones (5 Suits)	0
 Kyle	358623	No Variant	0
 Kyle	359023	Rainbow-Fives (6 Suits)	0
 Kyle	360092	Black & Omni (5 Suits)	0
+Kyle	360205	Up or Down & Omni (5 Suits)	0
 Kyle	361031	Dark Prism (6 Suits)	0
 Kyle	361197	Rainbow & Omni (4 Suits)	0
 Kyle	363725	No Variant	0
@@ -4553,9 +4536,11 @@ Kyle	429493	Gray Pink (5 Suits)	0
 Kyle	429569	Reversed (3 Suits)	0
 Kyle	441633	Up or Down & White (5 Suits)	0
 Kyle	441661	Up or Down & Light Pink (6 Suits)	0
+Kyle	441689	Up or Down & Muddy Rainbow (5 Suits)	0
 Kyle	444345	White-Ones & Dark Pink (5 Suits)	0
 Kyle	444355	White-Ones & Dark Brown (5 Suits)	0
 Kyle	444362	White-Ones & Dark Brown (5 Suits)	0
+Kyle	445984	Up or Down & Muddy Rainbow (6 Suits)	0
 Kyle	446026	Rainbow & White (4 Suits)	0
 Kyle	446057	Pink & Prism (6 Suits)	0
 Kyle	446174	Clue Starved & White (5 Suits)	0
@@ -4567,16 +4552,20 @@ Kyle	469179	Prism Reversed (4 Suits)	0
 Kyle	470257	Reversed (3 Suits)	0
 Kyle	470380	Black & White (5 Suits)	0
 Kyle	471952	White-Ones & White (5 Suits)	0
+Kyle	472415	Up or Down & Omni (5 Suits)	0
 Kyle	472872	White-Ones & Black (5 Suits)	0
 Kyle	473641	Pink & Brown (6 Suits)	0
 Kyle	476394	Null (5 Suits)	0
+Kyle	477984	Up or Down & Muddy Rainbow (5 Suits)	0
 Kyle	478017	Up or Down & Muddy Rainbow (5 Suits)	0
 Kyle	478165	No Variant	0
 Kyle	479135	Rainbow & Dark Omni (6 Suits)	0
 Kyle	480086	Special Mix (5 Suits)	0
 Kyle	480099	Special Mix (5 Suits)	0
 Kyle	480651	Brown & Prism (5 Suits)	0
+Kyle	484486	Up or Down & Omni (6 Suits)	0
 Kyle	484560	Dark Brown (6 Suits)	0
+Kyle	484663	Up or Down & Muddy Rainbow (6 Suits)	0
 Kyle	485618	Brown (5 Suits)	0
 Kyle	487373	Pink & Gray Pink (5 Suits)	0
 Kyle	487537	Pink (5 Suits)	0
@@ -4610,6 +4599,7 @@ Kyle	528916	Gray Reversed (6 Suits)	0
 Kyle	529790	Light Pink & Dark Omni (6 Suits)	0
 Kyle	529846	Ambiguous Mix	0
 Kyle	529858	Dual-Color Mix	0
+Kyle	533754	Up or Down & Rainbow (6 Suits)	0
 Kyle	534142	Rainbow & Dark Brown (5 Suits)	0
 Kyle	534253	Pink & Brown (6 Suits)	0
 Kyle	535722	Gray Reversed (6 Suits)	0
@@ -4629,6 +4619,7 @@ Kyle	544701	Prism Reversed (5 Suits)	0
 Kyle	545971	White & Omni (4 Suits)	0
 Kyle	554778	Brown & Omni (4 Suits)	0
 Kyle	555194	Pink & Gray Pink (6 Suits)	0
+Kyle	555973	Up or Down & Omni (5 Suits)	0
 Kyle	557028	Pink-Ones & Dark Omni (6 Suits)	0
 Kyle	557281	White & Dark Pink (5 Suits)	0
 Kyle	557457	White-Fives (6 Suits)	0
@@ -4640,9 +4631,11 @@ Kyle	562904	Black & Dark Rainbow (6 Suits)	0
 Kyle	566131	Black & Prism (6 Suits)	0
 Kyle	568172	Gray Pink (5 Suits)	0
 Kyle	568688	Pink & Muddy Rainbow (5 Suits)	0
+Kyle	568954	Up or Down (5 Suits)	0
 Kyle	570430	Dual-Color & Prism (6 Suits)	0
 Kyle	570441	White & Dark Brown (5 Suits)	0
 Kyle	571371	Brown (4 Suits)	0
+Kyle	572522	Up or Down & Null (5 Suits)	0
 Kyle	572526	Up or Down & Null (5 Suits)	0
 Kyle	573536	Ambiguous Mix	0
 Kyle	578680	Rainbow-Fives & Black (6 Suits)	0
@@ -4675,6 +4668,7 @@ Kyle	597016	Rainbow-Ones & Light Pink (4 Suits)	0
 Kyle	597048	Light-Pink-Ones & Dark Omni (6 Suits)	0
 Kyle	597475	Black & Omni (6 Suits)	0
 Kyle	597532	Rainbow & Light Pink (4 Suits)	0
+Kyle	598096	Up or Down (5 Suits)	0
 Kyle	598149	White & Omni (5 Suits)	0
 Kyle	598225	Pink & Dark Brown (5 Suits)	0
 Kyle	600548	Dark Prism Reversed (6 Suits)	0
@@ -4736,6 +4730,7 @@ Kyle	627680	White & Muddy Rainbow (5 Suits)	0
 Kyle	628272	Pink & Omni (3 Suits)	0
 Kyle	628280	Pink & Omni (3 Suits)	0
 Kyle	629819	White-Ones (3 Suits)	0
+Kyle	629842	Up or Down & Muddy Rainbow (6 Suits)	0
 Kyle	630448	No Variant	0
 Kyle	630941	Pink & Gray Pink (6 Suits)	0
 Kyle	630988	Rainbow & Omni (6 Suits)	0
@@ -4754,6 +4749,7 @@ Kyle	632804	White & Light Pink (6 Suits)	0
 Kyle	632971	No Variant	0
 Kyle	633639	Pink & Cocoa Rainbow (6 Suits)	0
 Kyle	633938	Null (5 Suits)	0
+Kyle	633953	Up or Down & Null (5 Suits)	0
 Kyle	634484	White & Dark Prism (5 Suits)	0
 Kyle	634494	Rainbow Reversed (4 Suits)	0
 Kyle	634510	Rainbow & Prism (5 Suits)	0
@@ -4856,6 +4852,7 @@ Kyle	674441	Null-Ones (6 Suits)	0
 Kyle	676115	White-Fives & White (6 Suits)	0
 Kyle	676160	Dark Brown (6 Suits)	0
 Kyle	678279	White-Ones & Brown (6 Suits)	0
+Kyle	678428	Up or Down & Rainbow (5 Suits)	0
 Kyle	684372	Pink & Brown (4 Suits)	0
 Kyle	684391	Brown-Fives (5 Suits)	0
 Kyle	684596	Pink & Omni (4 Suits)	0
@@ -4867,6 +4864,7 @@ Kyle	696072	White & Dark Brown (6 Suits)	0
 Kyle	696234	Pink-Fives & Pink (5 Suits)	0
 Kyle	698134	Pink & Dark Prism (6 Suits)	0
 Kyle	698423	Rainbow & Omni (4 Suits)	0
+Kyle	698615	Up or Down & Null (5 Suits)	0
 Kyle	698700	Brown & Prism (6 Suits)	0
 Kyle	699370	Rainbow & Dark Brown (5 Suits)	0
 Kyle	699388	Rainbow & Dark Brown (5 Suits)	0
@@ -4877,6 +4875,8 @@ Kyle	700115	Up or Down & Null (5 Suits)	0
 Kyle	700852	Pink-Fives & Black (5 Suits)	0
 Kyle	702474	Light-Pink-Fives (5 Suits)	0
 Kyle	703280	Brown-Fives (5 Suits)	0
+Kyle	703331	Up or Down & Null (5 Suits)	0
+Kyle	703360	Up or Down & Null (5 Suits)	0
 Kyle	704096	Rainbow & Dark Prism (5 Suits)	0
 Kyle	704766	Black Reversed (6 Suits)	0
 Kyle	730584	Black (6 Suits)	0

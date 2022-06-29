@@ -75,7 +75,6 @@ piper	596521	Clue Starved (6 Suits)	4
 piper	609791	Rainbow & Dark Null (6 Suits)	4
 piper	634177	Dual-Color & Dark Prism (6 Suits)	4
 piper	665555	Clue Starved & Omni (6 Suits)	4
-piper	732626	Up or Down & Pink (5 Suits)	4
 piper	98384	No Variant	3
 piper	98691	No Variant	3
 piper	99995	No Variant	3
@@ -223,7 +222,6 @@ piper	652028	Synesthesia (6 Suits)	3
 piper	653937	Null & Dark Pink (6 Suits)	3
 piper	665498	Light Pink & Dark Rainbow (5 Suits)	3
 piper	671286	Clue Starved (5 Suits)	3
-piper	672407	Up or Down & Rainbow (6 Suits)	3
 piper	672551	No Variant	3
 piper	693665	Null-Ones & Null (6 Suits)	3
 piper	699108	Muddy Rainbow & Light Pink (6 Suits)	3
@@ -403,7 +401,6 @@ piper	320694	Duck (6 Suits)	2
 piper	322456	Dark Pink (6 Suits)	2
 piper	322748	Black & Omni (5 Suits)	2
 piper	322769	Black & Omni (5 Suits)	2
-piper	322839	Up or Down & Prism (6 Suits)	2
 piper	323018	Dark Pink (6 Suits)	2
 piper	327483	Duck (5 Suits)	2
 piper	329063	Rainbow & Gray Pink (6 Suits)	2
@@ -555,6 +552,7 @@ piper	693758	No Variant	2
 piper	695335	White-Ones (6 Suits)	2
 piper	698904	Special Mix (6 Suits)	2
 piper	708266	No Variant	2
+piper	732626	Up or Down & Pink (5 Suits)	2
 piper	791290	Dual-Color (6 Suits)	2
 piper	792276	Pink (5 Suits)	2
 piper	97055	No Variant	1
@@ -806,6 +804,7 @@ piper	321981	Rainbow & White (4 Suits)	1
 piper	321996	Rainbow & White (4 Suits)	1
 piper	322483	Dark Pink (6 Suits)	1
 piper	322793	Rainbow & Prism (3 Suits)	1
+piper	322839	Up or Down & Prism (6 Suits)	1
 piper	325545	Black (5 Suits)	1
 piper	325582	Pink & Brown (6 Suits)	1
 piper	328058	Duck (5 Suits)	1
@@ -992,6 +991,7 @@ piper	669657	White-Fives (6 Suits)	1
 piper	669918	Brown & Null (6 Suits)	1
 piper	670396	Clue Starved & Null (5 Suits)	1
 piper	671158	Clue Starved & Pink (5 Suits)	1
+piper	672407	Up or Down & Rainbow (6 Suits)	1
 piper	675035	Brown-Ones (5 Suits)	1
 piper	676421	No Variant	1
 piper	676463	Rainbow (6 Suits)	1
@@ -1015,7 +1015,6 @@ piper	718226	No Variant	1
 piper	719392	No Variant	1
 piper	721050	Clue Starved (5 Suits)	1
 piper	721251	Clue Starved (5 Suits)	1
-piper	732667	Up or Down & Pink (5 Suits)	1
 piper	732696	Up or Down & Pink (5 Suits)	1
 piper	732794	Ambiguous & Black (5 Suits)	1
 piper	789732	No Variant	1
@@ -1610,6 +1609,7 @@ piper	721029	Clue Starved (5 Suits)	0
 piper	721076	Brown & Null (5 Suits)	0
 piper	721119	Brown & Null (5 Suits)	0
 piper	721284	Clue Starved & Pink (6 Suits)	0
+piper	732667	Up or Down & Pink (5 Suits)	0
 piper	789755	Ambiguous (6 Suits)	0
 piper	789776	No Variant	0
 piper	789788	No Variant	0

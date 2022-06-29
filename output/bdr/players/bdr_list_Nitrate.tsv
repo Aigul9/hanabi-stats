@@ -14,10 +14,8 @@ Nitrate	388399	6 Suits	5
 Nitrate	399510	White (6 Suits)	5
 Nitrate	403516	Dark Prism (6 Suits)	5
 Nitrate	405415	Black (6 Suits)	5
-Nitrate	409873	Up or Down (6 Suits)	5
 Nitrate	419998	White (6 Suits)	5
 Nitrate	422690	Light Pink & Prism (6 Suits)	5
-Nitrate	452599	Up or Down (5 Suits)	5
 Nitrate	479534	Black (6 Suits)	5
 Nitrate	523753	Muddy Rainbow (6 Suits)	5
 Nitrate	529039	Rainbow (6 Suits)	5
@@ -40,6 +38,7 @@ Nitrate	396787	No Variant	4
 Nitrate	400632	Rainbow (5 Suits)	4
 Nitrate	404314	No Variant	4
 Nitrate	404830	Very Ambiguous (6 Suits)	4
+Nitrate	409873	Up or Down (6 Suits)	4
 Nitrate	423503	Black (6 Suits)	4
 Nitrate	432849	Rainbow-Ones (5 Suits)	4
 Nitrate	432899	Rainbow-Ones (6 Suits)	4
@@ -66,7 +65,6 @@ Nitrate	553808	Muddy Rainbow & Light Pink (6 Suits)	4
 Nitrate	556238	No Variant	4
 Nitrate	556275	Dark Rainbow (6 Suits)	4
 Nitrate	558803	Ambiguous & Muddy Rainbow (5 Suits)	4
-Nitrate	569041	Up or Down & Muddy Rainbow (6 Suits)	4
 Nitrate	570439	Pink & Light Pink (6 Suits)	4
 Nitrate	577864	White (6 Suits)	4
 Nitrate	581423	No Variant	4
@@ -104,7 +102,6 @@ Nitrate	71165	No Variant	3
 Nitrate	75127	No Variant	3
 Nitrate	76411	White (5 Suits)	3
 Nitrate	76543	No Variant	3
-Nitrate	77349	Up or Down (6 Suits)	3
 Nitrate	77358	Rainbow (6 Suits)	3
 Nitrate	78159	No Variant	3
 Nitrate	78162	No Variant	3
@@ -128,7 +125,6 @@ Nitrate	403563	Dark Prism (6 Suits)	3
 Nitrate	405361	Black (6 Suits)	3
 Nitrate	406663	Rainbow (6 Suits)	3
 Nitrate	408011	No Variant	3
-Nitrate	409842	Up or Down (6 Suits)	3
 Nitrate	410124	Black (5 Suits)	3
 Nitrate	410961	Rainbow (5 Suits)	3
 Nitrate	411508	No Variant	3
@@ -325,7 +321,7 @@ Nitrate	445738	Brown-Ones & Rainbow (5 Suits)	2
 Nitrate	446004	Prism (5 Suits)	2
 Nitrate	446101	Black (5 Suits)	2
 Nitrate	452296	Black (6 Suits)	2
-Nitrate	452662	Up or Down (5 Suits)	2
+Nitrate	452599	Up or Down (5 Suits)	2
 Nitrate	460613	Brown (3 Suits)	2
 Nitrate	461673	Dark Prism (6 Suits)	2
 Nitrate	466349	Brown (6 Suits)	2
@@ -391,8 +387,8 @@ Nitrate	558768	Rainbow-Ones (5 Suits)	2
 Nitrate	566371	6 Suits	2
 Nitrate	566390	6 Suits	2
 Nitrate	568616	Dark Pink (5 Suits)	2
+Nitrate	569041	Up or Down & Muddy Rainbow (6 Suits)	2
 Nitrate	569135	Prism (5 Suits)	2
-Nitrate	571561	Up or Down & Rainbow (5 Suits)	2
 Nitrate	573349	Prism (4 Suits)	2
 Nitrate	574742	Omni (5 Suits)	2
 Nitrate	575559	Black & Prism (5 Suits)	2
@@ -512,6 +508,7 @@ Nitrate	77143	White (5 Suits)	1
 Nitrate	77323	Black (5 Suits)	1
 Nitrate	77325	No Variant	1
 Nitrate	77333	No Variant	1
+Nitrate	77349	Up or Down (6 Suits)	1
 Nitrate	77856	Black (5 Suits)	1
 Nitrate	77857	Rainbow (6 Suits)	1
 Nitrate	77901	No Variant	1
@@ -570,6 +567,7 @@ Nitrate	409128	Rainbow (4 Suits)	1
 Nitrate	409144	Rainbow (3 Suits)	1
 Nitrate	409156	Rainbow (3 Suits)	1
 Nitrate	409780	Rainbow (5 Suits)	1
+Nitrate	409842	Up or Down (6 Suits)	1
 Nitrate	410989	Brown (5 Suits)	1
 Nitrate	412800	No Variant	1
 Nitrate	412828	6 Suits	1
@@ -642,7 +640,6 @@ Nitrate	493580	Black & Rainbow (6 Suits)	1
 Nitrate	495535	Brown (3 Suits)	1
 Nitrate	495549	Brown (3 Suits)	1
 Nitrate	496619	Rainbow (5 Suits)	1
-Nitrate	497424	Up or Down (5 Suits)	1
 Nitrate	499087	Brown (3 Suits)	1
 Nitrate	499718	No Variant	1
 Nitrate	499997	Black (6 Suits)	1
@@ -961,6 +958,7 @@ Nitrate	448357	Rainbow & Pink (3 Suits)	0
 Nitrate	449455	Rainbow & Dark Prism (5 Suits)	0
 Nitrate	452131	White-Ones & Rainbow (5 Suits)	0
 Nitrate	452158	White-Ones & Rainbow (5 Suits)	0
+Nitrate	452662	Up or Down (5 Suits)	0
 Nitrate	454845	Brown (4 Suits)	0
 Nitrate	459724	6 Suits	0
 Nitrate	459760	No Variant	0
@@ -987,6 +985,7 @@ Nitrate	495720	Black (5 Suits)	0
 Nitrate	496580	3 Suits	0
 Nitrate	497363	Rainbow (3 Suits)	0
 Nitrate	497386	Rainbow (3 Suits)	0
+Nitrate	497424	Up or Down (5 Suits)	0
 Nitrate	497464	Prism (5 Suits)	0
 Nitrate	497501	Prism (5 Suits)	0
 Nitrate	499042	Rainbow (3 Suits)	0
@@ -1044,6 +1043,7 @@ Nitrate	567686	Dark Rainbow (5 Suits)	0
 Nitrate	569063	Rainbow & White (3 Suits)	0
 Nitrate	569098	Black & Rainbow (5 Suits)	0
 Nitrate	569249	Prism (5 Suits)	0
+Nitrate	571561	Up or Down & Rainbow (5 Suits)	0
 Nitrate	573338	Rainbow (3 Suits)	0
 Nitrate	573342	Rainbow (3 Suits)	0
 Nitrate	574766	Dark Brown (5 Suits)	0

@@ -2,8 +2,6 @@ Player	Game id	Variant	BDR
 eliclax	453021	6 Suits	7
 eliclax	662505	Clue Starved & Omni (6 Suits)	7
 eliclax	428992	White (6 Suits)	6
-eliclax	541512	Up or Down (6 Suits)	6
-eliclax	675177	Up or Down & Brown (6 Suits)	6
 eliclax	683954	Special Mix (6 Suits)	6
 eliclax	406295	No Variant	5
 eliclax	411354	No Variant	5
@@ -25,7 +23,6 @@ eliclax	585332	No Variant	5
 eliclax	586710	Black (6 Suits)	5
 eliclax	587375	Dual-Color (5 Suits)	5
 eliclax	604865	No Variant	5
-eliclax	605224	Up or Down (5 Suits)	5
 eliclax	608801	Clue Starved & Pink (6 Suits)	5
 eliclax	608905	Brown-Ones & Black (6 Suits)	5
 eliclax	625189	6 Suits	5
@@ -49,9 +46,7 @@ eliclax	435306	Dual-Color (5 Suits)	4
 eliclax	436745	Prism (6 Suits)	4
 eliclax	456021	Brown-Ones & White (5 Suits)	4
 eliclax	457195	Light Pink (6 Suits)	4
-eliclax	463637	Up or Down (5 Suits)	4
 eliclax	540038	Rainbow Reversed (5 Suits)	4
-eliclax	541541	Up or Down (6 Suits)	4
 eliclax	541758	Omni (6 Suits)	4
 eliclax	541764	Omni (6 Suits)	4
 eliclax	542591	Cocoa Rainbow (6 Suits)	4
@@ -85,7 +80,6 @@ eliclax	661513	Black (6 Suits)	4
 eliclax	671905	Prism Reversed (6 Suits)	4
 eliclax	671919	Prism Reversed (6 Suits)	4
 eliclax	674556	Clue Starved (5 Suits)	4
-eliclax	675352	Up or Down & Brown (6 Suits)	4
 eliclax	675418	No Variant	4
 eliclax	675428	No Variant	4
 eliclax	680595	Synesthesia (6 Suits)	4
@@ -139,7 +133,6 @@ eliclax	457547	Pink & Gray (6 Suits)	3
 eliclax	457604	Rainbow (6 Suits)	3
 eliclax	458510	Rainbow (6 Suits)	3
 eliclax	458743	Rainbow (6 Suits)	3
-eliclax	458753	Up or Down (5 Suits)	3
 eliclax	458793	Light-Pink-Ones & Pink (5 Suits)	3
 eliclax	458842	Brown (5 Suits)	3
 eliclax	460107	Black & White (6 Suits)	3
@@ -151,7 +144,7 @@ eliclax	538106	Rainbow (5 Suits)	3
 eliclax	538156	Rainbow & Muddy Rainbow (5 Suits)	3
 eliclax	540048	Rainbow Reversed (5 Suits)	3
 eliclax	541036	Dark Omni (5 Suits)	3
-eliclax	541489	Up or Down (6 Suits)	3
+eliclax	541512	Up or Down (6 Suits)	3
 eliclax	542513	Dark Prism (6 Suits)	3
 eliclax	543276	Black & Brown (6 Suits)	3
 eliclax	544174	Light Pink & Prism (6 Suits)	3
@@ -168,7 +161,6 @@ eliclax	559253	Rainbow-Ones & Brown (6 Suits)	3
 eliclax	561267	No Variant	3
 eliclax	561301	No Variant	3
 eliclax	562404	Dark Prism Reversed (6 Suits)	3
-eliclax	564058	Up or Down & Light Pink (6 Suits)	3
 eliclax	564960	Rainbow & Dark Pink (6 Suits)	3
 eliclax	564968	Rainbow & Dark Pink (6 Suits)	3
 eliclax	565672	Up or Down & Omni (5 Suits)	3
@@ -195,7 +187,6 @@ eliclax	593933	Black (6 Suits)	3
 eliclax	593942	Black (6 Suits)	3
 eliclax	593944	Black (6 Suits)	3
 eliclax	593966	White (4 Suits)	3
-eliclax	594410	Up or Down & Light Pink (6 Suits)	3
 eliclax	594531	Reversed (5 Suits)	3
 eliclax	603675	Rainbow & Pink (6 Suits)	3
 eliclax	606779	6 Suits	3
@@ -233,7 +224,7 @@ eliclax	671706	Gray Pink (5 Suits)	3
 eliclax	671785	Gray (6 Suits)	3
 eliclax	672430	Up or Down & Brown (6 Suits)	3
 eliclax	674537	Clue Starved (5 Suits)	3
-eliclax	675140	Up or Down & Brown (6 Suits)	3
+eliclax	675177	Up or Down & Brown (6 Suits)	3
 eliclax	675439	No Variant	3
 eliclax	675464	Clue Starved (6 Suits)	3
 eliclax	676671	Muddy Rainbow (6 Suits)	3
@@ -333,13 +324,13 @@ eliclax	538128	Pink & Dark Brown (6 Suits)	2
 eliclax	539198	Dark Prism (5 Suits)	2
 eliclax	540113	Dark Prism (6 Suits)	2
 eliclax	540140	Reversed (5 Suits)	2
+eliclax	541541	Up or Down (6 Suits)	2
 eliclax	541800	Rainbow & Dark Prism (6 Suits)	2
 eliclax	542568	Light-Pink-Fives & Dark Brown (6 Suits)	2
 eliclax	542639	White Reversed (6 Suits)	2
 eliclax	543245	Black & Brown (6 Suits)	2
 eliclax	543565	Rainbow & Dark Brown (6 Suits)	2
 eliclax	544057	No Variant	2
-eliclax	544162	Up or Down & White (5 Suits)	2
 eliclax	545308	Reversed (6 Suits)	2
 eliclax	547996	White & Dark Prism (6 Suits)	2
 eliclax	548035	Brown-Fives & White (5 Suits)	2
@@ -372,7 +363,6 @@ eliclax	561381	White & Prism (5 Suits)	2
 eliclax	562555	Rainbow & Dark Prism (6 Suits)	2
 eliclax	564126	No Variant	2
 eliclax	564256	White-Fives & White (4 Suits)	2
-eliclax	564811	Up or Down (5 Suits)	2
 eliclax	565013	White-Fives & Muddy Rainbow (6 Suits)	2
 eliclax	566027	Brown (3 Suits)	2
 eliclax	566099	Black (5 Suits)	2
@@ -418,6 +408,7 @@ eliclax	602363	Dark Rainbow (6 Suits)	2
 eliclax	604038	Black & Rainbow (6 Suits)	2
 eliclax	604177	No Variant	2
 eliclax	604839	Dual-Color & Omni (4 Suits)	2
+eliclax	605224	Up or Down (5 Suits)	2
 eliclax	606825	Black & Omni (5 Suits)	2
 eliclax	606893	Pink-Ones & Prism (4 Suits)	2
 eliclax	607771	Light Pink (6 Suits)	2
@@ -472,14 +463,13 @@ eliclax	670252	Rainbow & Pink (5 Suits)	2
 eliclax	670611	Dark Pink (5 Suits)	2
 eliclax	671311	Prism Reversed (6 Suits)	2
 eliclax	671880	Null-Ones & Brown (6 Suits)	2
-eliclax	672404	Up or Down & Brown (6 Suits)	2
-eliclax	672491	Up or Down & Brown (6 Suits)	2
 eliclax	673295	White & Dark Brown (5 Suits)	2
 eliclax	674148	Clue Starved & Prism (5 Suits)	2
 eliclax	674362	Dark Brown (5 Suits)	2
 eliclax	674511	Rainbow-Ones & Pink (6 Suits)	2
 eliclax	674529	Clue Starved (5 Suits)	2
 eliclax	674743	Null-Ones (6 Suits)	2
+eliclax	675352	Up or Down & Brown (6 Suits)	2
 eliclax	675385	Gray (6 Suits)	2
 eliclax	675477	Clue Starved & Brown (6 Suits)	2
 eliclax	675483	Omni (5 Suits)	2
@@ -613,6 +603,7 @@ eliclax	456477	Black & Prism (6 Suits)	1
 eliclax	457588	Rainbow (6 Suits)	1
 eliclax	458475	Brown (6 Suits)	1
 eliclax	458547	Rainbow (6 Suits)	1
+eliclax	458753	Up or Down (5 Suits)	1
 eliclax	458777	Throw It in a Hole (4 Suits)	1
 eliclax	458831	Black (5 Suits)	1
 eliclax	458860	Brown (5 Suits)	1
@@ -625,7 +616,7 @@ eliclax	462400	Pink & Dark Omni (6 Suits)	1
 eliclax	462422	Pink & Dark Omni (6 Suits)	1
 eliclax	463276	No Variant	1
 eliclax	463475	Dark Omni (5 Suits)	1
-eliclax	463663	Up or Down (5 Suits)	1
+eliclax	463637	Up or Down (5 Suits)	1
 eliclax	464204	Brown & Prism (5 Suits)	1
 eliclax	464228	White & Omni (5 Suits)	1
 eliclax	467843	No Variant	1
@@ -639,6 +630,7 @@ eliclax	538208	Light Pink (5 Suits)	1
 eliclax	539215	Rainbow & Dark Prism (5 Suits)	1
 eliclax	539239	Omni (6 Suits)	1
 eliclax	539251	Black & Brown (6 Suits)	1
+eliclax	541489	Up or Down (6 Suits)	1
 eliclax	541740	Ambiguous (4 Suits)	1
 eliclax	541818	Gray (5 Suits)	1
 eliclax	541838	Omni (5 Suits)	1
@@ -647,6 +639,7 @@ eliclax	542348	Rainbow & Pink (6 Suits)	1
 eliclax	543338	Black & Brown (6 Suits)	1
 eliclax	543413	Black & Brown (6 Suits)	1
 eliclax	544017	Cow & Pig (5 Suits)	1
+eliclax	544162	Up or Down & White (5 Suits)	1
 eliclax	544197	White-Fives & Cocoa Rainbow (5 Suits)	1
 eliclax	545171	No Variant	1
 eliclax	547238	Rainbow-Ones & Prism (6 Suits)	1
@@ -680,10 +673,10 @@ eliclax	561330	Light Pink (5 Suits)	1
 eliclax	562116	White & Prism (5 Suits)	1
 eliclax	562410	Black & Prism (6 Suits)	1
 eliclax	562417	Pink & Dark Prism (6 Suits)	1
+eliclax	564058	Up or Down & Light Pink (6 Suits)	1
 eliclax	564132	Rainbow (5 Suits)	1
 eliclax	564231	Ambiguous & Prism (5 Suits)	1
 eliclax	564241	Rainbow-Ones & Light Pink (6 Suits)	1
-eliclax	564825	Up or Down (5 Suits)	1
 eliclax	564994	Rainbow-Fives & Prism (6 Suits)	1
 eliclax	565001	Dual-Color (3 Suits)	1
 eliclax	565004	Brown & Prism (3 Suits)	1
@@ -692,7 +685,6 @@ eliclax	566038	Brown (3 Suits)	1
 eliclax	566761	Black & Muddy Rainbow (6 Suits)	1
 eliclax	566780	Prism (3 Suits)	1
 eliclax	566797	No Variant	1
-eliclax	567541	Up or Down & Prism (6 Suits)	1
 eliclax	568129	Rainbow & Brown (4 Suits)	1
 eliclax	568789	Brown (6 Suits)	1
 eliclax	568802	Deceptive-Fives (4 Suits)	1
@@ -738,10 +730,10 @@ eliclax	593912	Rainbow-Fives & Prism (3 Suits)	1
 eliclax	593920	Omni-Fives (5 Suits)	1
 eliclax	593950	Throw It in a Hole (5 Suits)	1
 eliclax	593956	Prism (4 Suits)	1
+eliclax	594410	Up or Down & Light Pink (6 Suits)	1
 eliclax	594540	Black & Prism (6 Suits)	1
 eliclax	594578	Reversed (5 Suits)	1
 eliclax	594588	White & Brown (5 Suits)	1
-eliclax	594597	Up or Down (6 Suits)	1
 eliclax	603383	Dual-Color & Black (6 Suits)	1
 eliclax	603685	Rainbow & Dark Brown (5 Suits)	1
 eliclax	604184	Black & Dark Brown (6 Suits)	1
@@ -831,6 +823,7 @@ eliclax	670671	Throw It in a Hole & Rainbow (5 Suits)	1
 eliclax	670893	6 Suits	1
 eliclax	671266	White-Ones (6 Suits)	1
 eliclax	671714	Ambiguous Mix	1
+eliclax	672404	Up or Down & Brown (6 Suits)	1
 eliclax	672549	Omni (3 Suits)	1
 eliclax	673236	Rainbow-Fives (6 Suits)	1
 eliclax	674170	No Variant	1
@@ -838,8 +831,8 @@ eliclax	674338	Rainbow & Prism (5 Suits)	1
 eliclax	674347	Light-Pink-Fives & White (6 Suits)	1
 eliclax	674407	Null-Ones (6 Suits)	1
 eliclax	674761	Null-Ones (6 Suits)	1
+eliclax	675140	Up or Down & Brown (6 Suits)	1
 eliclax	675148	Up or Down & Brown (6 Suits)	1
-eliclax	675264	Up or Down & Brown (6 Suits)	1
 eliclax	675367	No Variant	1
 eliclax	675405	Gray (6 Suits)	1
 eliclax	675456	No Variant	1
@@ -871,7 +864,6 @@ eliclax	680817	Omni (3 Suits)	1
 eliclax	680824	Omni (3 Suits)	1
 eliclax	681370	Critical Fours & Prism (6 Suits)	1
 eliclax	681414	Special Mix (6 Suits)	1
-eliclax	682238	Up or Down & Rainbow (5 Suits)	1
 eliclax	682353	Prism (3 Suits)	1
 eliclax	682391	Prism (3 Suits)	1
 eliclax	683123	Throw It in a Hole (5 Suits)	1
@@ -1013,6 +1005,7 @@ eliclax	463490	Black (5 Suits)	0
 eliclax	463496	Pink & Omni (4 Suits)	0
 eliclax	463504	Black (5 Suits)	0
 eliclax	463527	Black (5 Suits)	0
+eliclax	463663	Up or Down (5 Suits)	0
 eliclax	464264	6 Suits	0
 eliclax	464325	Dark Null (6 Suits)	0
 eliclax	537448	Gray (5 Suits)	0
@@ -1076,6 +1069,8 @@ eliclax	564204	White-Ones & Dark Brown (6 Suits)	0
 eliclax	564221	White-Fives & Brown (6 Suits)	0
 eliclax	564246	Rainbow-Ones & Light Pink (6 Suits)	0
 eliclax	564270	Gray (5 Suits)	0
+eliclax	564811	Up or Down (5 Suits)	0
+eliclax	564825	Up or Down (5 Suits)	0
 eliclax	564873	Dark Pink (6 Suits)	0
 eliclax	564947	Brown-Ones & Black (5 Suits)	0
 eliclax	564952	Black & Brown (5 Suits)	0
@@ -1085,6 +1080,7 @@ eliclax	566030	Brown (3 Suits)	0
 eliclax	566088	Rainbow & Pink (3 Suits)	0
 eliclax	566092	Rainbow (4 Suits)	0
 eliclax	566819	White & Muddy Rainbow (5 Suits)	0
+eliclax	567541	Up or Down & Prism (6 Suits)	0
 eliclax	568121	Rainbow-Ones (5 Suits)	0
 eliclax	568798	White-Fives & Light Pink (5 Suits)	0
 eliclax	570195	Rainbow & Pink (3 Suits)	0
@@ -1127,6 +1123,7 @@ eliclax	593811	4 Suits	0
 eliclax	593973	White (4 Suits)	0
 eliclax	594270	Black (6 Suits)	0
 eliclax	594341	White (3 Suits)	0
+eliclax	594597	Up or Down (6 Suits)	0
 eliclax	601080	White & Muddy Rainbow (5 Suits)	0
 eliclax	602269	White (3 Suits)	0
 eliclax	603107	White & Muddy Rainbow (3 Suits)	0
@@ -1213,6 +1210,7 @@ eliclax	670242	Brown & Prism (5 Suits)	0
 eliclax	670269	Rainbow & Prism (5 Suits)	0
 eliclax	670638	White (5 Suits)	0
 eliclax	671722	Gray Pink (5 Suits)	0
+eliclax	672491	Up or Down & Brown (6 Suits)	0
 eliclax	673276	No Variant	0
 eliclax	673290	White & Dark Brown (5 Suits)	0
 eliclax	673302	White & Dark Brown (5 Suits)	0
@@ -1228,6 +1226,7 @@ eliclax	674441	Null-Ones (6 Suits)	0
 eliclax	674587	No Variant	0
 eliclax	674603	Pink & Muddy Rainbow (5 Suits)	0
 eliclax	674745	Null-Ones (6 Suits)	0
+eliclax	675264	Up or Down & Brown (6 Suits)	0
 eliclax	675459	No Variant	0
 eliclax	675508	Pink (6 Suits)	0
 eliclax	676111	Brown & Prism (6 Suits)	0
@@ -1250,6 +1249,7 @@ eliclax	680771	4 Suits	0
 eliclax	680800	Black & Pink (5 Suits)	0
 eliclax	680820	Omni (3 Suits)	0
 eliclax	681375	Special Mix (6 Suits)	0
+eliclax	682238	Up or Down & Rainbow (5 Suits)	0
 eliclax	682348	White-Fives (4 Suits)	0
 eliclax	682366	Prism (3 Suits)	0
 eliclax	682580	Pink (5 Suits)	0

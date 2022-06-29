@@ -16,7 +16,7 @@ from (
                   join game_id_ gi on ca1.game_id = gi.game_id
          where ca1.game_id = gi.game_id
            and ca1.action_type in ('discard', 'misplay')
-           and ca1.card_rank not in (1, 5)
+           and ca1.card_rank not in (1, 5, 7)
            and ca1.card_suit not in ('black', 'cocoa rainbow', 'gray pink')
            and ca1.card_suit not like 'dark%'
            and concat(card_suit, card_rank) not in (

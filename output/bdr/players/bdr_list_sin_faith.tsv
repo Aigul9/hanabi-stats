@@ -1,14 +1,10 @@
 Player	Game id	Variant	BDR
 sin_faith	171353	Pink-Ones & Omni (6 Suits)	8
 sin_faith	296693	Rainbow (6 Suits)	8
-sin_faith	134653	Up or Down (6 Suits)	6
 sin_faith	149820	Rainbow (6 Suits)	6
-sin_faith	158616	Up or Down & Pink (5 Suits)	6
 sin_faith	191480	Special Mix (6 Suits)	6
-sin_faith	207470	Up or Down (6 Suits)	6
 sin_faith	283740	White (6 Suits)	6
 sin_faith	361763	Brown (6 Suits)	6
-sin_faith	487355	Up or Down & Omni (6 Suits)	6
 sin_faith	655767	Synesthesia (6 Suits)	6
 sin_faith	656131	Omni (6 Suits)	6
 sin_faith	96790	No Variant	5
@@ -28,19 +24,14 @@ sin_faith	286282	Prism & Gray (6 Suits)	5
 sin_faith	318736	Dark Rainbow (6 Suits)	5
 sin_faith	329783	Rainbow & Brown (6 Suits)	5
 sin_faith	344332	No Variant	5
-sin_faith	349679	Up or Down (5 Suits)	5
 sin_faith	349705	Rainbow (6 Suits)	5
 sin_faith	363522	Brown & Muddy Rainbow (5 Suits)	5
 sin_faith	368892	No Variant	5
-sin_faith	374736	Up or Down (6 Suits)	5
 sin_faith	494876	Ambiguous & Dual-Color	5
-sin_faith	512056	Up or Down & Null (5 Suits)	5
-sin_faith	537409	Up or Down & Rainbow (6 Suits)	5
 sin_faith	580632	White (6 Suits)	5
 sin_faith	599341	Rainbow-Fives & Rainbow (5 Suits)	5
 sin_faith	706361	Synesthesia & Rainbow (6 Suits)	5
 sin_faith	736724	Very Ambiguous (6 Suits)	5
-sin_faith	737067	Up or Down & Brown (5 Suits)	5
 sin_faith	775942	Muddy Rainbow & Dark Omni (6 Suits)	5
 sin_faith	92703	No Variant	4
 sin_faith	93375	No Variant	4
@@ -51,32 +42,26 @@ sin_faith	97405	Rainbow (4 Suits)	4
 sin_faith	97759	No Variant	4
 sin_faith	102578	White (5 Suits)	4
 sin_faith	107089	No Variant	4
-sin_faith	121464	Up or Down (6 Suits)	4
 sin_faith	121531	No Variant	4
 sin_faith	121790	Rainbow (6 Suits)	4
-sin_faith	121850	Up or Down (5 Suits)	4
 sin_faith	121954	No Variant	4
 sin_faith	123242	Duck (5 Suits)	4
 sin_faith	125283	Rainbow (6 Suits)	4
 sin_faith	130633	Light Pink (5 Suits)	4
 sin_faith	131896	6 Suits	4
 sin_faith	132961	No Variant	4
-sin_faith	134569	Up or Down (6 Suits)	4
 sin_faith	134896	Rainbow & Gray (6 Suits)	4
 sin_faith	135003	No Variant	4
 sin_faith	137573	No Variant	4
 sin_faith	150128	Black (6 Suits)	4
 sin_faith	152180	Special Mix (6 Suits)	4
 sin_faith	153277	White-Ones & Gray (6 Suits)	4
-sin_faith	157142	Up or Down (6 Suits)	4
 sin_faith	160452	Rainbow & White (6 Suits)	4
 sin_faith	161882	Throw It in a Hole & Muddy Rainbow (5 Suits)	4
 sin_faith	163092	Muddy Rainbow (6 Suits)	4
 sin_faith	164343	Throw It in a Hole & Light Pink (5 Suits)	4
 sin_faith	164417	Throw It in a Hole & Light Pink (5 Suits)	4
 sin_faith	285523	Prism (6 Suits)	4
-sin_faith	291705	Up or Down & Brown (6 Suits)	4
-sin_faith	294656	Up or Down & Muddy Rainbow (6 Suits)	4
 sin_faith	296584	Cocoa Rainbow (5 Suits)	4
 sin_faith	297635	No Variant	4
 sin_faith	298771	Black & Gray (6 Suits)	4
@@ -104,7 +89,6 @@ sin_faith	363752	No Variant	4
 sin_faith	366831	Omni (6 Suits)	4
 sin_faith	367761	Duck (5 Suits)	4
 sin_faith	371945	Muddy Rainbow & Light Pink (5 Suits)	4
-sin_faith	374720	Up or Down (6 Suits)	4
 sin_faith	377928	Dark Prism (6 Suits)	4
 sin_faith	378879	Omni (6 Suits)	4
 sin_faith	380832	No Variant	4
@@ -126,7 +110,6 @@ sin_faith	494794	Pink (5 Suits)	4
 sin_faith	499712	Brown-Ones & Brown (5 Suits)	4
 sin_faith	501874	Omni & Dark Rainbow (6 Suits)	4
 sin_faith	531608	Rainbow & Pink (6 Suits)	4
-sin_faith	537399	Up or Down & Rainbow (6 Suits)	4
 sin_faith	537553	Muddy Rainbow & Dark Rainbow (6 Suits)	4
 sin_faith	538242	Null (5 Suits)	4
 sin_faith	544377	White & Omni (6 Suits)	4
@@ -139,18 +122,13 @@ sin_faith	591527	6 Suits	4
 sin_faith	630391	White (6 Suits)	4
 sin_faith	637114	Muddy-Rainbow-Ones & Brown (6 Suits)	4
 sin_faith	637124	Pink & Dark Prism (6 Suits)	4
-sin_faith	640005	Up or Down & White (6 Suits)	4
 sin_faith	644509	White & Prism (6 Suits)	4
 sin_faith	662191	Rainbow & Muddy Rainbow (6 Suits)	4
-sin_faith	684725	Up or Down & Null (6 Suits)	4
 sin_faith	689340	Up or Down & Muddy Rainbow (6 Suits)	4
-sin_faith	706316	Up or Down & Light Pink (6 Suits)	4
 sin_faith	706379	Synesthesia (5 Suits)	4
 sin_faith	709608	Omni-Ones & White (6 Suits)	4
-sin_faith	711044	Up or Down & Null (6 Suits)	4
 sin_faith	711942	Clue Starved (6 Suits)	4
 sin_faith	712064	Rainbow & White (5 Suits)	4
-sin_faith	715833	Up or Down & Null (5 Suits)	4
 sin_faith	728973	Pink (6 Suits)	4
 sin_faith	749576	6 Suits	4
 sin_faith	754445	Brown (6 Suits)	4
@@ -180,14 +158,15 @@ sin_faith	113862	No Variant	3
 sin_faith	115492	Rainbow (4 Suits)	3
 sin_faith	115529	Black (6 Suits)	3
 sin_faith	115558	Black (6 Suits)	3
+sin_faith	121464	Up or Down (6 Suits)	3
 sin_faith	121543	No Variant	3
 sin_faith	121692	6 Suits	3
+sin_faith	121850	Up or Down (5 Suits)	3
 sin_faith	122830	Duck (5 Suits)	3
 sin_faith	122913	Pink (5 Suits)	3
 sin_faith	123019	White (5 Suits)	3
 sin_faith	123290	Duck (5 Suits)	3
 sin_faith	123315	Duck (5 Suits)	3
-sin_faith	123347	Up or Down (5 Suits)	3
 sin_faith	124145	No Variant	3
 sin_faith	124230	White & Brown (6 Suits)	3
 sin_faith	124300	White & Brown (6 Suits)	3
@@ -198,8 +177,9 @@ sin_faith	130835	6 Suits	3
 sin_faith	131615	6 Suits	3
 sin_faith	133023	Null (5 Suits)	3
 sin_faith	133273	No Variant	3
+sin_faith	134569	Up or Down (6 Suits)	3
+sin_faith	134653	Up or Down (6 Suits)	3
 sin_faith	135206	No Variant	3
-sin_faith	136289	Up or Down (5 Suits)	3
 sin_faith	140984	Omni (5 Suits)	3
 sin_faith	142193	No Variant	3
 sin_faith	142389	White & Dark Null (6 Suits)	3
@@ -234,6 +214,7 @@ sin_faith	187558	Null (6 Suits)	3
 sin_faith	187609	Null (6 Suits)	3
 sin_faith	192648	Light-Pink-Fives & Rainbow (5 Suits)	3
 sin_faith	202707	Black & Dark Pink (6 Suits)	3
+sin_faith	207470	Up or Down (6 Suits)	3
 sin_faith	283749	White (6 Suits)	3
 sin_faith	283758	White (6 Suits)	3
 sin_faith	284750	Black & Prism (6 Suits)	3
@@ -243,11 +224,11 @@ sin_faith	290468	Prism Reversed (6 Suits)	3
 sin_faith	290489	Prism Reversed (6 Suits)	3
 sin_faith	290516	Prism Reversed (6 Suits)	3
 sin_faith	291470	No Variant	3
+sin_faith	291705	Up or Down & Brown (6 Suits)	3
 sin_faith	292581	Null (4 Suits)	3
 sin_faith	293242	No Variant	3
 sin_faith	294139	Extremely Ambiguous & Cocoa Rainbow (5 Suits)	3
 sin_faith	294648	No Variant	3
-sin_faith	294735	Up or Down & Muddy Rainbow (6 Suits)	3
 sin_faith	295606	No Variant	3
 sin_faith	295679	No Variant	3
 sin_faith	295726	No Variant	3
@@ -266,7 +247,6 @@ sin_faith	322900	Up or Down (6 Suits)	3
 sin_faith	323494	Black & Brown (6 Suits)	3
 sin_faith	329780	Rainbow & Prism (6 Suits)	3
 sin_faith	329799	Throw It in a Hole & Muddy Rainbow (5 Suits)	3
-sin_faith	329872	Up or Down (5 Suits)	3
 sin_faith	332044	Black (5 Suits)	3
 sin_faith	336808	Duck (5 Suits)	3
 sin_faith	339044	Rainbow & Light Pink (5 Suits)	3
@@ -286,9 +266,10 @@ sin_faith	361682	Rainbow (6 Suits)	3
 sin_faith	366766	Rainbow (5 Suits)	3
 sin_faith	368757	Pink (5 Suits)	3
 sin_faith	370617	Black & Omni (6 Suits)	3
-sin_faith	371964	Up or Down & Muddy Rainbow (5 Suits)	3
 sin_faith	372825	Dual-Color (5 Suits)	3
 sin_faith	372858	Dual-Color (5 Suits)	3
+sin_faith	374720	Up or Down (6 Suits)	3
+sin_faith	374736	Up or Down (6 Suits)	3
 sin_faith	374823	Brown (5 Suits)	3
 sin_faith	378859	Omni (6 Suits)	3
 sin_faith	378954	Special Mix (5 Suits)	3
@@ -317,7 +298,7 @@ sin_faith	429179	Rainbow & Null (6 Suits)	3
 sin_faith	458842	Brown (5 Suits)	3
 sin_faith	459874	Rainbow & White (5 Suits)	3
 sin_faith	477967	Dark Prism (6 Suits)	3
-sin_faith	479057	Up or Down & Brown (6 Suits)	3
+sin_faith	487355	Up or Down & Omni (6 Suits)	3
 sin_faith	488168	Dual-Color Mix	3
 sin_faith	488223	No Variant	3
 sin_faith	492008	Dual-Color & Pink (6 Suits)	3
@@ -332,11 +313,8 @@ sin_faith	501668	Gray (6 Suits)	3
 sin_faith	501706	Rainbow & Muddy Rainbow (6 Suits)	3
 sin_faith	501714	Rainbow & Muddy Rainbow (6 Suits)	3
 sin_faith	507548	Dual-Color (6 Suits)	3
-sin_faith	512036	Up or Down & Null (5 Suits)	3
 sin_faith	512179	Omni (6 Suits)	3
 sin_faith	524920	White-Ones & Pink (5 Suits)	3
-sin_faith	530893	Up or Down (6 Suits)	3
-sin_faith	530910	Up or Down (6 Suits)	3
 sin_faith	530940	Throw It in a Hole & Brown (6 Suits)	3
 sin_faith	531730	Dark Prism (6 Suits)	3
 sin_faith	534605	Null (6 Suits)	3
@@ -345,14 +323,11 @@ sin_faith	538228	Extremely Ambiguous & Black (6 Suits)	3
 sin_faith	538403	Dual-Color Mix	3
 sin_faith	544382	Omni & Muddy Rainbow (6 Suits)	3
 sin_faith	544401	Brown & Muddy Rainbow (5 Suits)	3
-sin_faith	544431	Up or Down & Pink (6 Suits)	3
-sin_faith	544451	Up or Down & Pink (6 Suits)	3
 sin_faith	550905	Rainbow & Prism (6 Suits)	3
 sin_faith	562319	Prism (6 Suits)	3
 sin_faith	568061	Muddy Rainbow (5 Suits)	3
 sin_faith	568153	Throw It in a Hole (6 Suits)	3
 sin_faith	586548	Dark Rainbow Reversed (6 Suits)	3
-sin_faith	590924	Up or Down & Rainbow (6 Suits)	3
 sin_faith	591609	Muddy-Rainbow-Fives & Light Pink (6 Suits)	3
 sin_faith	599782	Pink-Ones & Dark Omni (6 Suits)	3
 sin_faith	603624	Omni-Fives & Gray (6 Suits)	3
@@ -366,13 +341,10 @@ sin_faith	648428	Brown-Fives & Brown (6 Suits)	3
 sin_faith	650782	Rainbow (5 Suits)	3
 sin_faith	651999	Synesthesia (6 Suits)	3
 sin_faith	655651	Omni-Ones & Dark Rainbow (6 Suits)	3
-sin_faith	657905	Up or Down & Prism (5 Suits)	3
-sin_faith	659485	Up or Down & Rainbow (5 Suits)	3
 sin_faith	668877	White & Dark Pink (6 Suits)	3
 sin_faith	673353	White-Ones & Rainbow (6 Suits)	3
-sin_faith	684703	Up or Down & Pink (6 Suits)	3
 sin_faith	684723	Up or Down & Null (6 Suits)	3
-sin_faith	684735	Up or Down & Null (6 Suits)	3
+sin_faith	684725	Up or Down & Null (6 Suits)	3
 sin_faith	693275	Black & Gray Pink (6 Suits)	3
 sin_faith	694367	Gray Pink (6 Suits)	3
 sin_faith	705653	Synesthesia & Rainbow (6 Suits)	3
@@ -380,9 +352,9 @@ sin_faith	706332	Synesthesia & Rainbow (5 Suits)	3
 sin_faith	706383	Synesthesia (5 Suits)	3
 sin_faith	709604	Omni-Ones & White (6 Suits)	3
 sin_faith	710309	Rainbow-Ones (5 Suits)	3
+sin_faith	711044	Up or Down & Null (6 Suits)	3
 sin_faith	713950	Rainbow (5 Suits)	3
 sin_faith	714021	Pink (5 Suits)	3
-sin_faith	715829	Up or Down & Null (5 Suits)	3
 sin_faith	718677	No Variant	3
 sin_faith	722798	No Variant	3
 sin_faith	728897	Clue Starved & Omni (5 Suits)	3
@@ -454,6 +426,7 @@ sin_faith	123038	White (6 Suits)	2
 sin_faith	123109	White (6 Suits)	2
 sin_faith	123260	Duck (5 Suits)	2
 sin_faith	123269	Duck (5 Suits)	2
+sin_faith	123347	Up or Down (5 Suits)	2
 sin_faith	124338	White & Brown (6 Suits)	2
 sin_faith	125409	No Variant	2
 sin_faith	125525	No Variant	2
@@ -480,6 +453,7 @@ sin_faith	135616	No Variant	2
 sin_faith	135640	No Variant	2
 sin_faith	135715	Pink-Ones & White (6 Suits)	2
 sin_faith	135786	Pink-Ones & White (6 Suits)	2
+sin_faith	136289	Up or Down (5 Suits)	2
 sin_faith	137500	Rainbow (5 Suits)	2
 sin_faith	139104	Throw It in a Hole (5 Suits)	2
 sin_faith	142065	No Variant	2
@@ -496,6 +470,7 @@ sin_faith	155967	Black & Pink (6 Suits)	2
 sin_faith	156432	No Variant	2
 sin_faith	158136	Rainbow & Brown (6 Suits)	2
 sin_faith	158587	Up or Down & Pink (5 Suits)	2
+sin_faith	158616	Up or Down & Pink (5 Suits)	2
 sin_faith	160502	Throw It in a Hole & Light Pink (4 Suits)	2
 sin_faith	160549	Throw It in a Hole & Light Pink (4 Suits)	2
 sin_faith	160630	Throw It in a Hole & Light Pink (5 Suits)	2
@@ -515,7 +490,6 @@ sin_faith	164598	Pink-Fives & Pink (5 Suits)	2
 sin_faith	164775	Up or Down & Pink (5 Suits)	2
 sin_faith	166890	Muddy Rainbow & Light Pink (5 Suits)	2
 sin_faith	168684	No Variant	2
-sin_faith	168732	Up or Down (5 Suits)	2
 sin_faith	168759	Rainbow & Light Pink (6 Suits)	2
 sin_faith	170069	Rainbow-Ones & White (6 Suits)	2
 sin_faith	170180	Rainbow (5 Suits)	2
@@ -525,7 +499,6 @@ sin_faith	171669	No Variant	2
 sin_faith	172048	Rainbow & White (6 Suits)	2
 sin_faith	172205	Muddy-Rainbow-Ones & Light Pink (5 Suits)	2
 sin_faith	173057	Black (6 Suits)	2
-sin_faith	173078	Up or Down & White (5 Suits)	2
 sin_faith	173141	Omni-Ones & Null (5 Suits)	2
 sin_faith	173692	Rainbow & Cocoa Rainbow (5 Suits)	2
 sin_faith	173968	White (5 Suits)	2
@@ -538,7 +511,6 @@ sin_faith	184842	Muddy-Rainbow-Ones & Null (5 Suits)	2
 sin_faith	193851	Black & Dark Pink (6 Suits)	2
 sin_faith	201335	No Variant	2
 sin_faith	205018	No Variant	2
-sin_faith	205248	Up or Down (6 Suits)	2
 sin_faith	228049	Omni-Fives & Light Pink (6 Suits)	2
 sin_faith	283782	No Variant	2
 sin_faith	285470	Dark Prism (5 Suits)	2
@@ -562,6 +534,7 @@ sin_faith	294056	No Variant	2
 sin_faith	294079	Prism (5 Suits)	2
 sin_faith	294645	No Variant	2
 sin_faith	294651	No Variant	2
+sin_faith	294735	Up or Down & Muddy Rainbow (6 Suits)	2
 sin_faith	294887	Pink (5 Suits)	2
 sin_faith	295598	No Variant	2
 sin_faith	295604	No Variant	2
@@ -607,7 +580,6 @@ sin_faith	336003	Gray (6 Suits)	2
 sin_faith	339435	White-Ones & Brown (5 Suits)	2
 sin_faith	339928	Gray (5 Suits)	2
 sin_faith	339971	Omni (6 Suits)	2
-sin_faith	340094	Up or Down & White (6 Suits)	2
 sin_faith	344232	Rainbow & Light Pink (5 Suits)	2
 sin_faith	346110	Rainbow & White (5 Suits)	2
 sin_faith	346135	Muddy-Rainbow-Fives & White (6 Suits)	2
@@ -620,6 +592,7 @@ sin_faith	347794	Cocoa Rainbow & Gray Pink (6 Suits)	2
 sin_faith	347829	Light Pink (6 Suits)	2
 sin_faith	348760	White & Brown (5 Suits)	2
 sin_faith	348820	Muddy-Rainbow-Ones & Rainbow (4 Suits)	2
+sin_faith	349679	Up or Down (5 Suits)	2
 sin_faith	349740	Rainbow (6 Suits)	2
 sin_faith	350721	Black & Dark Pink (6 Suits)	2
 sin_faith	350731	Black & Dark Pink (6 Suits)	2
@@ -632,13 +605,11 @@ sin_faith	353814	Rainbow-Fives & Light Pink (5 Suits)	2
 sin_faith	354316	Light Pink (6 Suits)	2
 sin_faith	354514	Rainbow & White (5 Suits)	2
 sin_faith	355117	Black & White (5 Suits)	2
-sin_faith	355848	Up or Down (5 Suits)	2
 sin_faith	355864	Rainbow & Pink (5 Suits)	2
 sin_faith	355906	Brown & Prism (6 Suits)	2
 sin_faith	355947	Brown & Prism (6 Suits)	2
 sin_faith	356738	No Variant	2
 sin_faith	358214	White (5 Suits)	2
-sin_faith	360205	Up or Down & Omni (5 Suits)	2
 sin_faith	360368	Brown (6 Suits)	2
 sin_faith	361541	No Variant	2
 sin_faith	361662	No Variant	2
@@ -658,7 +629,7 @@ sin_faith	368798	Clue Starved (5 Suits)	2
 sin_faith	368961	Dual-Color (6 Suits)	2
 sin_faith	370672	Black & Omni (6 Suits)	2
 sin_faith	371935	Muddy Rainbow & Light Pink (5 Suits)	2
-sin_faith	371973	Up or Down & Muddy Rainbow (5 Suits)	2
+sin_faith	371964	Up or Down & Muddy Rainbow (5 Suits)	2
 sin_faith	373765	Pink & Light Pink (5 Suits)	2
 sin_faith	373769	No Variant	2
 sin_faith	373788	No Variant	2
@@ -714,7 +685,6 @@ sin_faith	429140	Rainbow & Null (6 Suits)	2
 sin_faith	438134	Omni & Dark Prism (6 Suits)	2
 sin_faith	443015	Prism (6 Suits)	2
 sin_faith	443029	Omni-Fives & Gray Pink (6 Suits)	2
-sin_faith	446597	Up or Down & Null (6 Suits)	2
 sin_faith	451794	Rainbow & Dark Prism (5 Suits)	2
 sin_faith	451912	Gray Pink (6 Suits)	2
 sin_faith	463518	Muddy Rainbow & Gray (6 Suits)	2
@@ -727,7 +697,6 @@ sin_faith	468989	Pink & Cocoa Rainbow (6 Suits)	2
 sin_faith	469007	White (6 Suits)	2
 sin_faith	477915	Special Mix (5 Suits)	2
 sin_faith	477919	Special Mix (5 Suits)	2
-sin_faith	479028	Up or Down & Brown (6 Suits)	2
 sin_faith	488216	No Variant	2
 sin_faith	488455	White-Ones & Rainbow (5 Suits)	2
 sin_faith	488494	No Variant	2
@@ -758,8 +727,9 @@ sin_faith	518657	Omni-Ones & Muddy Rainbow (6 Suits)	2
 sin_faith	524117	Rainbow & Omni (5 Suits)	2
 sin_faith	530879	Up or Down (6 Suits)	2
 sin_faith	530923	Throw It in a Hole & Brown (6 Suits)	2
-sin_faith	531531	Up or Down & Pink (5 Suits)	2
 sin_faith	534630	Pink & Omni (5 Suits)	2
+sin_faith	537399	Up or Down & Rainbow (6 Suits)	2
+sin_faith	537409	Up or Down & Rainbow (6 Suits)	2
 sin_faith	537435	Rainbow (6 Suits)	2
 sin_faith	537451	Ambiguous & Dual-Color	2
 sin_faith	537463	Ambiguous & Dual-Color	2
@@ -778,6 +748,7 @@ sin_faith	580903	Rainbow (5 Suits)	2
 sin_faith	581715	Pink & White (6 Suits)	2
 sin_faith	586086	Pink & Dark Prism (6 Suits)	2
 sin_faith	586097	Rainbow-Ones & Light Pink (5 Suits)	2
+sin_faith	590924	Up or Down & Rainbow (6 Suits)	2
 sin_faith	591619	Dual-Color (6 Suits)	2
 sin_faith	595238	White (6 Suits)	2
 sin_faith	599816	Brown & Dark Pink (6 Suits)	2
@@ -798,6 +769,7 @@ sin_faith	633013	Muddy-Rainbow-Ones & White (6 Suits)	2
 sin_faith	633038	Gray (6 Suits)	2
 sin_faith	633043	Gray (6 Suits)	2
 sin_faith	637108	White & Prism (5 Suits)	2
+sin_faith	640005	Up or Down & White (6 Suits)	2
 sin_faith	640514	Rainbow & Dark Prism (5 Suits)	2
 sin_faith	640624	6 Suits	2
 sin_faith	641039	No Variant	2
@@ -806,7 +778,9 @@ sin_faith	655347	No Variant	2
 sin_faith	655762	Synesthesia (6 Suits)	2
 sin_faith	656196	Synesthesia & Gray (6 Suits)	2
 sin_faith	657430	Synesthesia (4 Suits)	2
+sin_faith	657905	Up or Down & Prism (5 Suits)	2
 sin_faith	659476	Rainbow & Brown (6 Suits)	2
+sin_faith	659485	Up or Down & Rainbow (5 Suits)	2
 sin_faith	660112	White-Fives & Omni (5 Suits)	2
 sin_faith	666403	Omni-Fives & Rainbow (5 Suits)	2
 sin_faith	670435	White-Ones & Black (6 Suits)	2
@@ -817,8 +791,7 @@ sin_faith	675501	Pink (6 Suits)	2
 sin_faith	675545	White-Fives & White (5 Suits)	2
 sin_faith	679784	Special Mix (6 Suits)	2
 sin_faith	679857	Pink-Ones (6 Suits)	2
-sin_faith	684688	Up or Down & Brown (5 Suits)	2
-sin_faith	684743	Up or Down & Null (6 Suits)	2
+sin_faith	684703	Up or Down & Pink (6 Suits)	2
 sin_faith	685121	Rainbow-Fives & Gray Pink (6 Suits)	2
 sin_faith	688110	No Variant	2
 sin_faith	691656	Muddy-Rainbow-Ones & Pink (6 Suits)	2
@@ -827,6 +800,7 @@ sin_faith	694267	Pink (5 Suits)	2
 sin_faith	695224	Pink-Ones (6 Suits)	2
 sin_faith	705640	Synesthesia & Rainbow (6 Suits)	2
 sin_faith	705710	Ambiguous & Muddy Rainbow (5 Suits)	2
+sin_faith	706316	Up or Down & Light Pink (6 Suits)	2
 sin_faith	706375	Muddy-Rainbow-Ones & Light Pink (5 Suits)	2
 sin_faith	707012	Dark Pink (6 Suits)	2
 sin_faith	707884	Black & Rainbow (5 Suits)	2
@@ -842,6 +816,7 @@ sin_faith	713927	No Variant	2
 sin_faith	713956	Rainbow (5 Suits)	2
 sin_faith	713986	Light Pink (5 Suits)	2
 sin_faith	715818	Clue Starved & Null (6 Suits)	2
+sin_faith	715829	Up or Down & Null (5 Suits)	2
 sin_faith	715841	Up or Down & Null (5 Suits)	2
 sin_faith	715914	Dark Rainbow (5 Suits)	2
 sin_faith	718662	Odds and Evens & Rainbow (6 Suits)	2
@@ -855,7 +830,7 @@ sin_faith	731075	Null-Ones (6 Suits)	2
 sin_faith	731089	Null-Ones (6 Suits)	2
 sin_faith	735483	Pink (5 Suits)	2
 sin_faith	735524	White & Dark Prism (6 Suits)	2
-sin_faith	737074	Up or Down & Brown (5 Suits)	2
+sin_faith	737067	Up or Down & Brown (5 Suits)	2
 sin_faith	737156	No Variant	2
 sin_faith	737600	Black & Omni (5 Suits)	2
 sin_faith	737603	Black & Omni (5 Suits)	2
@@ -873,7 +848,6 @@ sin_faith	763557	Pink & Dark Omni (6 Suits)	2
 sin_faith	769444	Dark Rainbow (6 Suits)	2
 sin_faith	769459	Black & Light Pink (5 Suits)	2
 sin_faith	772888	Brown-Fives & Light Pink (6 Suits)	2
-sin_faith	773218	Up or Down & Rainbow (5 Suits)	2
 sin_faith	776328	Rainbow-Fives & Dark Pink (6 Suits)	2
 sin_faith	776355	No Variant	2
 sin_faith	777285	No Variant	2
@@ -883,7 +857,6 @@ sin_faith	780764	Black & Muddy Rainbow (6 Suits)	2
 sin_faith	784839	Rainbow-Ones & Pink (6 Suits)	2
 sin_faith	784855	Pink & Muddy Rainbow (6 Suits)	2
 sin_faith	788186	Brown & Prism (6 Suits)	2
-sin_faith	790766	Up or Down & Muddy Rainbow (5 Suits)	2
 sin_faith	792334	Muddy-Rainbow-Ones & Dark Rainbow (5 Suits)	2
 sin_faith	795026	White (5 Suits)	2
 sin_faith	796228	Rainbow-Ones & White (5 Suits)	2
@@ -947,7 +920,6 @@ sin_faith	123064	White (6 Suits)	1
 sin_faith	123208	Black (5 Suits)	1
 sin_faith	123228	Duck (5 Suits)	1
 sin_faith	123333	Duck (5 Suits)	1
-sin_faith	123379	Up or Down (5 Suits)	1
 sin_faith	123408	No Variant	1
 sin_faith	124028	Rainbow (6 Suits)	1
 sin_faith	125344	Duck (5 Suits)	1
@@ -1021,16 +993,17 @@ sin_faith	162883	Muddy Rainbow (5 Suits)	1
 sin_faith	163189	Pink & Muddy Rainbow (5 Suits)	1
 sin_faith	164382	Throw It in a Hole & Light Pink (5 Suits)	1
 sin_faith	164526	Pink-Fives & Pink (5 Suits)	1
-sin_faith	164756	Up or Down & Pink (5 Suits)	1
 sin_faith	164798	Up or Down & Pink (5 Suits)	1
 sin_faith	167081	No Variant	1
 sin_faith	167127	Black (5 Suits)	1
+sin_faith	168732	Up or Down (5 Suits)	1
 sin_faith	168782	Black (5 Suits)	1
 sin_faith	171187	Rainbow-Ones & White (5 Suits)	1
 sin_faith	171536	No Variant	1
 sin_faith	172015	White (5 Suits)	1
 sin_faith	172105	Muddy-Rainbow-Ones & Light Pink (5 Suits)	1
 sin_faith	172144	Muddy-Rainbow-Ones & Light Pink (5 Suits)	1
+sin_faith	173078	Up or Down & White (5 Suits)	1
 sin_faith	173192	Omni-Ones & Null (5 Suits)	1
 sin_faith	173255	No Variant	1
 sin_faith	173583	Pink (5 Suits)	1
@@ -1061,6 +1034,7 @@ sin_faith	203668	No Variant	1
 sin_faith	203794	Dark Null (6 Suits)	1
 sin_faith	203984	Black & Light Pink (6 Suits)	1
 sin_faith	205037	No Variant	1
+sin_faith	205248	Up or Down (6 Suits)	1
 sin_faith	208593	No Variant	1
 sin_faith	272364	Dark Brown (6 Suits)	1
 sin_faith	284732	Black & Prism (5 Suits)	1
@@ -1085,6 +1059,7 @@ sin_faith	292517	Extremely Ambiguous & Black (6 Suits)	1
 sin_faith	292549	No Variant	1
 sin_faith	293246	No Variant	1
 sin_faith	294026	No Variant	1
+sin_faith	294656	Up or Down & Muddy Rainbow (6 Suits)	1
 sin_faith	294752	Dark Null (5 Suits)	1
 sin_faith	295564	No Variant	1
 sin_faith	295615	No Variant	1
@@ -1124,7 +1099,6 @@ sin_faith	322209	Extremely Ambiguous & Muddy Rainbow (5 Suits)	1
 sin_faith	322579	White & Dark Prism (5 Suits)	1
 sin_faith	322885	Throw It in a Hole (5 Suits)	1
 sin_faith	322897	Black (5 Suits)	1
-sin_faith	322906	Up or Down (6 Suits)	1
 sin_faith	324437	Rainbow-Ones & Dark Prism (6 Suits)	1
 sin_faith	325359	No Variant	1
 sin_faith	325370	No Variant	1
@@ -1135,6 +1109,7 @@ sin_faith	328622	Rainbow & Prism (6 Suits)	1
 sin_faith	329076	White (5 Suits)	1
 sin_faith	329777	Throw It in a Hole & Light Pink (5 Suits)	1
 sin_faith	329831	Rainbow & Brown (6 Suits)	1
+sin_faith	329872	Up or Down (5 Suits)	1
 sin_faith	332676	No Variant	1
 sin_faith	332707	Rainbow (5 Suits)	1
 sin_faith	333663	Null-Ones & Dark Null (6 Suits)	1
@@ -1145,6 +1120,7 @@ sin_faith	336803	Special Mix (5 Suits)	1
 sin_faith	336812	Duck (5 Suits)	1
 sin_faith	339060	Brown & Prism (3 Suits)	1
 sin_faith	339921	Gray (5 Suits)	1
+sin_faith	340094	Up or Down & White (6 Suits)	1
 sin_faith	341566	Omni (6 Suits)	1
 sin_faith	344142	Light-Pink-Ones & Muddy Rainbow (6 Suits)	1
 sin_faith	344161	Brown & Muddy Rainbow (4 Suits)	1
@@ -1203,7 +1179,6 @@ sin_faith	364565	Dark Brown (6 Suits)	1
 sin_faith	364645	Rainbow & Brown (5 Suits)	1
 sin_faith	365918	Duck (5 Suits)	1
 sin_faith	366069	Muddy Rainbow & Prism (5 Suits)	1
-sin_faith	366798	Up or Down & Pink (5 Suits)	1
 sin_faith	367745	Gray (6 Suits)	1
 sin_faith	367827	Omni-Ones & Gray Pink (5 Suits)	1
 sin_faith	368896	Rainbow & Omni (4 Suits)	1
@@ -1214,7 +1189,6 @@ sin_faith	371931	Ambiguous & Pink (5 Suits)	1
 sin_faith	371940	Muddy Rainbow & Light Pink (5 Suits)	1
 sin_faith	371949	Muddy Rainbow & Light Pink (5 Suits)	1
 sin_faith	371953	Muddy Rainbow & Light Pink (5 Suits)	1
-sin_faith	371959	Up or Down & Light Pink (5 Suits)	1
 sin_faith	371998	Black (5 Suits)	1
 sin_faith	372015	No Variant	1
 sin_faith	372079	Dark Rainbow (5 Suits)	1
@@ -1243,7 +1217,6 @@ sin_faith	383871	Pink (6 Suits)	1
 sin_faith	383877	Muddy Rainbow (5 Suits)	1
 sin_faith	384970	Dark Pink (5 Suits)	1
 sin_faith	384982	Null (6 Suits)	1
-sin_faith	387247	Up or Down (6 Suits)	1
 sin_faith	387322	Rainbow (5 Suits)	1
 sin_faith	387365	Rainbow (5 Suits)	1
 sin_faith	387437	Light-Pink-Ones & Pink (5 Suits)	1
@@ -1315,6 +1288,8 @@ sin_faith	469260	Black (5 Suits)	1
 sin_faith	476817	White & Dark Pink (6 Suits)	1
 sin_faith	476829	White & Dark Pink (6 Suits)	1
 sin_faith	477932	Special Mix (5 Suits)	1
+sin_faith	479028	Up or Down & Brown (6 Suits)	1
+sin_faith	479057	Up or Down & Brown (6 Suits)	1
 sin_faith	481156	Brown (6 Suits)	1
 sin_faith	482263	Light Pink (3 Suits)	1
 sin_faith	482266	Null-Ones & Pink (6 Suits)	1
@@ -1350,13 +1325,17 @@ sin_faith	501870	Omni & Dark Rainbow (6 Suits)	1
 sin_faith	502732	Omni & Dark Rainbow (6 Suits)	1
 sin_faith	503001	No Variant	1
 sin_faith	504149	Omni & Gray (6 Suits)	1
+sin_faith	512036	Up or Down & Null (5 Suits)	1
 sin_faith	512050	Up or Down & Null (5 Suits)	1
+sin_faith	512056	Up or Down & Null (5 Suits)	1
 sin_faith	512270	White-Fives & Pink (5 Suits)	1
 sin_faith	518530	Pink & Gray Pink (6 Suits)	1
 sin_faith	518539	Pink & Gray Pink (6 Suits)	1
 sin_faith	524898	Dark Rainbow (6 Suits)	1
 sin_faith	524913	White-Ones & Prism (4 Suits)	1
 sin_faith	530725	Pink (6 Suits)	1
+sin_faith	530910	Up or Down (6 Suits)	1
+sin_faith	531531	Up or Down & Pink (5 Suits)	1
 sin_faith	531588	Rainbow & Pink (6 Suits)	1
 sin_faith	531751	Dark Prism (6 Suits)	1
 sin_faith	533736	Rainbow (5 Suits)	1
@@ -1364,9 +1343,7 @@ sin_faith	533744	Cocoa Rainbow (5 Suits)	1
 sin_faith	534586	Pink & Muddy Rainbow (5 Suits)	1
 sin_faith	538198	White-Ones & Brown (4 Suits)	1
 sin_faith	543650	Rainbow & Brown (5 Suits)	1
-sin_faith	544475	Up or Down & Pink (6 Suits)	1
 sin_faith	549875	White & Omni (4 Suits)	1
-sin_faith	549917	Up or Down & White (6 Suits)	1
 sin_faith	549972	Black & Dark Rainbow (6 Suits)	1
 sin_faith	550872	Black & Pink (5 Suits)	1
 sin_faith	552451	Muddy Rainbow & Prism (5 Suits)	1
@@ -1374,7 +1351,6 @@ sin_faith	559214	Dual-Color (3 Suits)	1
 sin_faith	559276	Pink-Ones & Black (6 Suits)	1
 sin_faith	560391	Up or Down & Rainbow (6 Suits)	1
 sin_faith	562367	White & Prism (6 Suits)	1
-sin_faith	567541	Up or Down & Prism (6 Suits)	1
 sin_faith	568035	No Variant	1
 sin_faith	568050	Muddy Rainbow (5 Suits)	1
 sin_faith	575506	Ambiguous Mix	1
@@ -1425,9 +1401,11 @@ sin_faith	679316	Rainbow & Dark Prism (5 Suits)	1
 sin_faith	679787	Special Mix (6 Suits)	1
 sin_faith	684660	Null-Ones & White (5 Suits)	1
 sin_faith	684676	Prism & Dark Rainbow (5 Suits)	1
+sin_faith	684688	Up or Down & Brown (5 Suits)	1
 sin_faith	684713	Up or Down & Null (5 Suits)	1
-sin_faith	684719	Up or Down & Null (5 Suits)	1
 sin_faith	684730	Up or Down & Null (6 Suits)	1
+sin_faith	684735	Up or Down & Null (6 Suits)	1
+sin_faith	684743	Up or Down & Null (6 Suits)	1
 sin_faith	685091	Brown & Cocoa Rainbow (6 Suits)	1
 sin_faith	688154	Rainbow & Omni (5 Suits)	1
 sin_faith	690931	Brown & Prism (5 Suits)	1
@@ -1444,6 +1422,7 @@ sin_faith	713921	No Variant	1
 sin_faith	713938	No Variant	1
 sin_faith	713951	Rainbow (5 Suits)	1
 sin_faith	713961	Pink (5 Suits)	1
+sin_faith	715833	Up or Down & Null (5 Suits)	1
 sin_faith	715848	Up or Down & Null (5 Suits)	1
 sin_faith	715910	Dark Rainbow (5 Suits)	1
 sin_faith	715917	Dark Rainbow (5 Suits)	1
@@ -1462,7 +1441,7 @@ sin_faith	729691	White & Dark Brown (6 Suits)	1
 sin_faith	729694	Omni & Dark Pink (6 Suits)	1
 sin_faith	729699	Omni & Dark Pink (6 Suits)	1
 sin_faith	733578	Clue Starved (5 Suits)	1
-sin_faith	737082	Up or Down & Brown (5 Suits)	1
+sin_faith	737074	Up or Down & Brown (5 Suits)	1
 sin_faith	737088	Black & Dark Rainbow (6 Suits)	1
 sin_faith	737128	Rainbow & Light Pink (6 Suits)	1
 sin_faith	737173	No Variant	1
@@ -1494,6 +1473,7 @@ sin_faith	769461	Black & Light Pink (5 Suits)	1
 sin_faith	769923	Pink (5 Suits)	1
 sin_faith	771826	Null-Ones & Pink (6 Suits)	1
 sin_faith	772878	Brown-Fives & Light Pink (6 Suits)	1
+sin_faith	773218	Up or Down & Rainbow (5 Suits)	1
 sin_faith	775945	Muddy Rainbow & Dark Omni (6 Suits)	1
 sin_faith	776329	Rainbow-Fives & Dark Pink (6 Suits)	1
 sin_faith	776378	No Variant	1
@@ -1513,6 +1493,7 @@ sin_faith	784303	Dark Null (5 Suits)	1
 sin_faith	784841	Rainbow-Ones & Pink (6 Suits)	1
 sin_faith	788187	Prism Reversed (4 Suits)	1
 sin_faith	789343	Brown-Fives & Rainbow (5 Suits)	1
+sin_faith	790766	Up or Down & Muddy Rainbow (5 Suits)	1
 sin_faith	790772	Up or Down & Muddy Rainbow (5 Suits)	1
 sin_faith	795021	No Variant	1
 sin_faith	95183	No Variant	0
@@ -1561,6 +1542,7 @@ sin_faith	121575	No Variant	0
 sin_faith	121743	No Variant	0
 sin_faith	122818	No Variant	0
 sin_faith	122940	Pink (5 Suits)	0
+sin_faith	123379	Up or Down (5 Suits)	0
 sin_faith	124040	Rainbow (6 Suits)	0
 sin_faith	124060	3 Suits	0
 sin_faith	124087	3 Suits	0
@@ -1611,6 +1593,7 @@ sin_faith	154436	Dual-Color Mix	0
 sin_faith	154565	Special Mix (5 Suits)	0
 sin_faith	154905	Muddy-Rainbow-Fives & White (5 Suits)	0
 sin_faith	156128	Black & Rainbow (5 Suits)	0
+sin_faith	157142	Up or Down (6 Suits)	0
 sin_faith	158661	Clue Starved (5 Suits)	0
 sin_faith	158701	Brown-Fives & Omni (6 Suits)	0
 sin_faith	158775	Brown & Null (5 Suits)	0
@@ -1620,6 +1603,7 @@ sin_faith	161893	Rainbow-Fives & White (3 Suits)	0
 sin_faith	161924	Rainbow-Fives & White (3 Suits)	0
 sin_faith	161949	Brown (5 Suits)	0
 sin_faith	162618	Pink & Muddy Rainbow (5 Suits)	0
+sin_faith	164756	Up or Down & Pink (5 Suits)	0
 sin_faith	166767	No Variant	0
 sin_faith	166973	Muddy Rainbow & Light Pink (5 Suits)	0
 sin_faith	168982	Null (5 Suits)	0
@@ -1702,6 +1686,7 @@ sin_faith	318157	Prism (4 Suits)	0
 sin_faith	321662	4 Suits	0
 sin_faith	322868	Pink (5 Suits)	0
 sin_faith	322869	Pink (5 Suits)	0
+sin_faith	322906	Up or Down (6 Suits)	0
 sin_faith	323471	Black & Brown (6 Suits)	0
 sin_faith	324449	3 Suits	0
 sin_faith	324461	3 Suits	0
@@ -1742,6 +1727,7 @@ sin_faith	352526	Clue Starved & White (5 Suits)	0
 sin_faith	355017	4 Suits	0
 sin_faith	355082	Black & White (6 Suits)	0
 sin_faith	355105	Black & White (5 Suits)	0
+sin_faith	355848	Up or Down (5 Suits)	0
 sin_faith	355873	Rainbow & White (5 Suits)	0
 sin_faith	356757	Pink (5 Suits)	0
 sin_faith	357152	Brown (4 Suits)	0
@@ -1752,6 +1738,7 @@ sin_faith	360070	Dark Brown (5 Suits)	0
 sin_faith	360097	Brown (3 Suits)	0
 sin_faith	360104	Brown (3 Suits)	0
 sin_faith	360130	Pink & Muddy Rainbow (6 Suits)	0
+sin_faith	360205	Up or Down & Omni (5 Suits)	0
 sin_faith	360260	Rainbow (6 Suits)	0
 sin_faith	360350	Rainbow & Pink (4 Suits)	0
 sin_faith	360380	Rainbow & White (5 Suits)	0
@@ -1763,12 +1750,15 @@ sin_faith	363725	No Variant	0
 sin_faith	364576	Dark Prism (5 Suits)	0
 sin_faith	364784	Rainbow & Pink (4 Suits)	0
 sin_faith	366099	Rainbow (6 Suits)	0
+sin_faith	366798	Up or Down & Pink (5 Suits)	0
 sin_faith	366806	Alternating Clues (5 Suits)	0
 sin_faith	367808	Rainbow & Dark Brown (5 Suits)	0
 sin_faith	368906	Rainbow & Omni (4 Suits)	0
 sin_faith	368970	Brown-Ones (4 Suits)	0
 sin_faith	369742	Up or Down & Brown (5 Suits)	0
 sin_faith	370577	Black & Omni (6 Suits)	0
+sin_faith	371959	Up or Down & Light Pink (5 Suits)	0
+sin_faith	371973	Up or Down & Muddy Rainbow (5 Suits)	0
 sin_faith	371983	Black (5 Suits)	0
 sin_faith	371991	Black (5 Suits)	0
 sin_faith	372004	Black (5 Suits)	0
@@ -1793,6 +1783,7 @@ sin_faith	384998	Dual-Color (5 Suits)	0
 sin_faith	385021	Dual-Color (5 Suits)	0
 sin_faith	385506	No Variant	0
 sin_faith	387234	Black & White (5 Suits)	0
+sin_faith	387247	Up or Down (6 Suits)	0
 sin_faith	387285	Dark Prism (6 Suits)	0
 sin_faith	387295	No Variant	0
 sin_faith	388191	Brown & Prism (5 Suits)	0
@@ -1841,6 +1832,7 @@ sin_faith	428871	Light Pink & Dark Rainbow (6 Suits)	0
 sin_faith	438033	Light Pink & Dark Prism (5 Suits)	0
 sin_faith	443039	Omni-Fives & Gray Pink (6 Suits)	0
 sin_faith	443055	Omni-Fives & Gray Pink (6 Suits)	0
+sin_faith	446597	Up or Down & Null (6 Suits)	0
 sin_faith	448573	Rainbow & Null (5 Suits)	0
 sin_faith	451940	Black & Light Pink (5 Suits)	0
 sin_faith	451947	Black & Light Pink (5 Suits)	0
@@ -1879,6 +1871,7 @@ sin_faith	518524	Pink & Gray Pink (6 Suits)	0
 sin_faith	518681	Brown-Ones & Pink (5 Suits)	0
 sin_faith	523824	Cocoa Rainbow (5 Suits)	0
 sin_faith	524938	White-Ones & Pink (5 Suits)	0
+sin_faith	530893	Up or Down (6 Suits)	0
 sin_faith	534534	Rainbow & Null (5 Suits)	0
 sin_faith	534574	Pink & Muddy Rainbow (5 Suits)	0
 sin_faith	537474	Ambiguous & Dual-Color	0
@@ -1886,13 +1879,18 @@ sin_faith	543664	Rainbow & Brown (5 Suits)	0
 sin_faith	544389	Black Reversed (5 Suits)	0
 sin_faith	544393	Rainbow & Muddy Rainbow (5 Suits)	0
 sin_faith	544398	Light Pink (3 Suits)	0
+sin_faith	544431	Up or Down & Pink (6 Suits)	0
+sin_faith	544451	Up or Down & Pink (6 Suits)	0
+sin_faith	544475	Up or Down & Pink (6 Suits)	0
 sin_faith	549889	White & Omni (4 Suits)	0
+sin_faith	549917	Up or Down & White (6 Suits)	0
 sin_faith	559219	Dual-Color (3 Suits)	0
 sin_faith	560323	White-Ones & Rainbow (3 Suits)	0
 sin_faith	560326	White-Fives & Rainbow (6 Suits)	0
 sin_faith	560461	No Variant	0
 sin_faith	562344	Prism (6 Suits)	0
 sin_faith	567534	4 Suits	0
+sin_faith	567541	Up or Down & Prism (6 Suits)	0
 sin_faith	568139	Brown & Muddy Rainbow (5 Suits)	0
 sin_faith	568146	Brown & Muddy Rainbow (5 Suits)	0
 sin_faith	575542	Pink & Dark Prism (6 Suits)	0
@@ -1944,6 +1942,7 @@ sin_faith	683714	Gray Pink (5 Suits)	0
 sin_faith	684076	Black & Null (6 Suits)	0
 sin_faith	684078	Black & Null (6 Suits)	0
 sin_faith	684154	Pink & Dark Brown (5 Suits)	0
+sin_faith	684719	Up or Down & Null (5 Suits)	0
 sin_faith	685074	Brown-Ones & Omni (5 Suits)	0
 sin_faith	688711	Pink & Omni (5 Suits)	0
 sin_faith	691648	Muddy-Rainbow-Ones & Pink (6 Suits)	0
@@ -1995,6 +1994,7 @@ sin_faith	733576	Pink & Brown (5 Suits)	0
 sin_faith	733594	Clue Starved (5 Suits)	0
 sin_faith	734882	Null-Fives & Black (6 Suits)	0
 sin_faith	736718	Very Ambiguous (6 Suits)	0
+sin_faith	737082	Up or Down & Brown (5 Suits)	0
 sin_faith	737094	Black & Dark Rainbow (6 Suits)	0
 sin_faith	737130	Rainbow & Light Pink (6 Suits)	0
 sin_faith	737586	Rainbow & Dark Pink (5 Suits)	0

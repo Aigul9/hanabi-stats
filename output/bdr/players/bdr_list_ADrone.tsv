@@ -1,6 +1,5 @@
 Player	Game id	Variant	BDR
 ADrone	86590	Black (5 Suits)	8
-ADrone	745047	Up or Down & Muddy Rainbow (6 Suits)	7
 ADrone	746659	Rainbow (6 Suits)	7
 ADrone	754154	Rainbow (6 Suits)	7
 ADrone	86003	No Variant	6
@@ -19,15 +18,12 @@ ADrone	90333	No Variant	5
 ADrone	94940	Rainbow & White (5 Suits)	5
 ADrone	157502	Pink & Brown (5 Suits)	5
 ADrone	246206	Pink & Brown (5 Suits)	5
-ADrone	275314	Up or Down (5 Suits)	5
 ADrone	280254	No Variant	5
 ADrone	291795	Null (5 Suits)	5
-ADrone	331234	Up or Down & White (5 Suits)	5
 ADrone	392620	No Variant	5
 ADrone	451230	No Variant	5
 ADrone	502316	Null (5 Suits)	5
 ADrone	503695	Null (5 Suits)	5
-ADrone	519454	Up or Down & Brown (5 Suits)	5
 ADrone	608975	Clue Starved & Omni (6 Suits)	5
 ADrone	631949	Omni & Muddy Rainbow (6 Suits)	5
 ADrone	700160	Clue Starved (6 Suits)	5
@@ -55,7 +51,6 @@ ADrone	105938	No Variant	4
 ADrone	114657	No Variant	4
 ADrone	126529	Omni & Muddy Rainbow (6 Suits)	4
 ADrone	130633	Light Pink (5 Suits)	4
-ADrone	136611	Up or Down (5 Suits)	4
 ADrone	192730	Omni-Ones (5 Suits)	4
 ADrone	230674	Rainbow & Brown (5 Suits)	4
 ADrone	248791	Gray Reversed (5 Suits)	4
@@ -66,7 +61,6 @@ ADrone	294362	Cocoa Rainbow (6 Suits)	4
 ADrone	305697	Rainbow (6 Suits)	4
 ADrone	314473	Omni (6 Suits)	4
 ADrone	323872	No Variant	4
-ADrone	324745	Up or Down (5 Suits)	4
 ADrone	324772	Pink (6 Suits)	4
 ADrone	388346	No Variant	4
 ADrone	397805	Pink (5 Suits)	4
@@ -82,7 +76,6 @@ ADrone	479615	Prism Reversed (5 Suits)	4
 ADrone	483988	Pink (6 Suits)	4
 ADrone	501354	Pink (5 Suits)	4
 ADrone	517819	Rainbow & White (6 Suits)	4
-ADrone	519436	Up or Down & Brown (5 Suits)	4
 ADrone	564328	Pink & Muddy Rainbow (6 Suits)	4
 ADrone	585552	Black (6 Suits)	4
 ADrone	595432	Pink & Brown (5 Suits)	4
@@ -97,6 +90,7 @@ ADrone	669853	Gray (6 Suits)	4
 ADrone	682664	Rainbow & Brown (6 Suits)	4
 ADrone	700086	Rainbow (6 Suits)	4
 ADrone	738313	Rainbow & Prism (6 Suits)	4
+ADrone	745047	Up or Down & Muddy Rainbow (6 Suits)	4
 ADrone	753646	Rainbow (5 Suits)	4
 ADrone	755616	Black & Light Pink (6 Suits)	4
 ADrone	764869	Prism & Gray (6 Suits)	4
@@ -134,7 +128,6 @@ ADrone	113604	6 Suits	3
 ADrone	115284	Rainbow (6 Suits)	3
 ADrone	119055	Rainbow (5 Suits)	3
 ADrone	121286	Black (5 Suits)	3
-ADrone	136536	Up or Down (5 Suits)	3
 ADrone	140412	Null (5 Suits)	3
 ADrone	157431	Black (6 Suits)	3
 ADrone	157538	Cow & Pig (5 Suits)	3
@@ -153,7 +146,6 @@ ADrone	212231	No Variant	3
 ADrone	220960	Rainbow (6 Suits)	3
 ADrone	221151	Rainbow (6 Suits)	3
 ADrone	224498	Special Mix (6 Suits)	3
-ADrone	230599	Up or Down (5 Suits)	3
 ADrone	231999	White & Muddy Rainbow (6 Suits)	3
 ADrone	237980	Pink-Fives (6 Suits)	3
 ADrone	247869	Light Pink (5 Suits)	3
@@ -167,6 +159,7 @@ ADrone	264891	Cocoa Rainbow (5 Suits)	3
 ADrone	265543	Dual-Color (6 Suits)	3
 ADrone	266487	Dual-Color (6 Suits)	3
 ADrone	271194	Brown & Gray (5 Suits)	3
+ADrone	275314	Up or Down (5 Suits)	3
 ADrone	291384	Prism (5 Suits)	3
 ADrone	295851	No Variant	3
 ADrone	300247	Rainbow (6 Suits)	3
@@ -180,7 +173,7 @@ ADrone	314458	Omni (6 Suits)	3
 ADrone	318194	Gray (6 Suits)	3
 ADrone	318459	Dark Omni (5 Suits)	3
 ADrone	328480	Gray (6 Suits)	3
-ADrone	331268	Up or Down & Omni (5 Suits)	3
+ADrone	331234	Up or Down & White (5 Suits)	3
 ADrone	359396	Light Pink (6 Suits)	3
 ADrone	359457	Null (5 Suits)	3
 ADrone	379605	Muddy Rainbow (5 Suits)	3
@@ -209,13 +202,13 @@ ADrone	474153	Brown & Muddy Rainbow (6 Suits)	3
 ADrone	499156	Null (5 Suits)	3
 ADrone	502909	Gray Reversed (5 Suits)	3
 ADrone	503065	Prism (5 Suits)	3
-ADrone	519445	Up or Down & Brown (5 Suits)	3
+ADrone	519436	Up or Down & Brown (5 Suits)	3
+ADrone	519454	Up or Down & Brown (5 Suits)	3
 ADrone	522258	No Variant	3
 ADrone	531765	No Variant	3
 ADrone	532827	Black & White (6 Suits)	3
 ADrone	533784	Light Pink & Prism (6 Suits)	3
 ADrone	535161	No Variant	3
-ADrone	593048	Up or Down & Rainbow (5 Suits)	3
 ADrone	662145	No Variant	3
 ADrone	666708	6 Suits	3
 ADrone	678463	Rainbow-Ones & White (5 Suits)	3
@@ -307,6 +300,7 @@ ADrone	115111	No Variant	2
 ADrone	121122	Rainbow (5 Suits)	2
 ADrone	130730	6 Suits	2
 ADrone	134903	Dark Rainbow (5 Suits)	2
+ADrone	136611	Up or Down (5 Suits)	2
 ADrone	138741	Gray (6 Suits)	2
 ADrone	141539	Special Mix (5 Suits)	2
 ADrone	142203	Black (6 Suits)	2
@@ -373,6 +367,7 @@ ADrone	323839	Muddy Rainbow (6 Suits)	2
 ADrone	324028	No Variant	2
 ADrone	324048	Rainbow (5 Suits)	2
 ADrone	324465	Cocoa Rainbow (6 Suits)	2
+ADrone	324745	Up or Down (5 Suits)	2
 ADrone	328253	No Variant	2
 ADrone	328720	Black (5 Suits)	2
 ADrone	330127	No Variant	2
@@ -425,7 +420,6 @@ ADrone	514008	Prism & Gray Pink (6 Suits)	2
 ADrone	517839	Rainbow & White (6 Suits)	2
 ADrone	532791	Light Pink (6 Suits)	2
 ADrone	532794	Black & White (6 Suits)	2
-ADrone	533754	Up or Down & Rainbow (6 Suits)	2
 ADrone	535132	No Variant	2
 ADrone	535151	No Variant	2
 ADrone	564323	Pink & Omni (4 Suits)	2
@@ -434,7 +428,6 @@ ADrone	576494	Rainbow & Dark Pink (5 Suits)	2
 ADrone	580444	Omni-Ones & Muddy Rainbow (5 Suits)	2
 ADrone	580462	Omni-Ones & Muddy Rainbow (5 Suits)	2
 ADrone	584868	Dark Rainbow (5 Suits)	2
-ADrone	593076	Up or Down & Rainbow (5 Suits)	2
 ADrone	627613	White (5 Suits)	2
 ADrone	650242	Clue Starved & White (5 Suits)	2
 ADrone	660207	Rainbow (6 Suits)	2
@@ -556,6 +549,7 @@ ADrone	114747	Special Mix (5 Suits)	1
 ADrone	126487	Light Pink (4 Suits)	1
 ADrone	136133	Black (5 Suits)	1
 ADrone	136455	Black (5 Suits)	1
+ADrone	136536	Up or Down (5 Suits)	1
 ADrone	137788	Pink (6 Suits)	1
 ADrone	138250	Black (5 Suits)	1
 ADrone	138636	6 Suits	1
@@ -595,7 +589,7 @@ ADrone	222278	Rainbow (6 Suits)	1
 ADrone	222806	Rainbow (6 Suits)	1
 ADrone	222929	Rainbow (6 Suits)	1
 ADrone	229826	Pink (4 Suits)	1
-ADrone	232691	Up or Down (5 Suits)	1
+ADrone	230599	Up or Down (5 Suits)	1
 ADrone	234531	Special Mix (5 Suits)	1
 ADrone	241647	Brown (4 Suits)	1
 ADrone	241683	Omni (4 Suits)	1
@@ -621,9 +615,7 @@ ADrone	271133	Clue Starved (5 Suits)	1
 ADrone	271177	Brown & Gray (5 Suits)	1
 ADrone	271292	Pink & Cocoa Rainbow (5 Suits)	1
 ADrone	273568	Rainbow (5 Suits)	1
-ADrone	274219	Up or Down (5 Suits)	1
 ADrone	277610	No Variant	1
-ADrone	279675	Up or Down & Pink (5 Suits)	1
 ADrone	287354	White (5 Suits)	1
 ADrone	287651	Ambiguous & Dual-Color	1
 ADrone	288958	No Variant	1
@@ -648,6 +640,7 @@ ADrone	327357	Muddy Rainbow (6 Suits)	1
 ADrone	328196	No Variant	1
 ADrone	329892	Dark Omni (5 Suits)	1
 ADrone	331240	Prism (3 Suits)	1
+ADrone	331268	Up or Down & Omni (5 Suits)	1
 ADrone	332090	Gray Pink (5 Suits)	1
 ADrone	332108	Dark Rainbow (5 Suits)	1
 ADrone	337513	4 Suits	1
@@ -728,6 +721,7 @@ ADrone	501323	White (6 Suits)	1
 ADrone	502910	Gray Reversed (5 Suits)	1
 ADrone	505440	Null (5 Suits)	1
 ADrone	513979	White & Gray Pink (6 Suits)	1
+ADrone	519445	Up or Down & Brown (5 Suits)	1
 ADrone	522283	No Variant	1
 ADrone	528961	Black (5 Suits)	1
 ADrone	535844	No Variant	1
@@ -741,6 +735,8 @@ ADrone	576461	Black & Prism (5 Suits)	1
 ADrone	584929	Gray (5 Suits)	1
 ADrone	585525	Black (6 Suits)	1
 ADrone	585554	Black (6 Suits)	1
+ADrone	593048	Up or Down & Rainbow (5 Suits)	1
+ADrone	593076	Up or Down & Rainbow (5 Suits)	1
 ADrone	600122	Brown-Ones & Omni (4 Suits)	1
 ADrone	602739	Rainbow (5 Suits)	1
 ADrone	603838	Rainbow & Brown (5 Suits)	1
@@ -896,6 +892,7 @@ ADrone	208404	Omni & Muddy Rainbow (3 Suits)	0
 ADrone	229796	Pink (4 Suits)	0
 ADrone	229869	Rainbow & Brown (5 Suits)	0
 ADrone	230791	No Variant	0
+ADrone	232691	Up or Down (5 Suits)	0
 ADrone	235219	Rainbow (5 Suits)	0
 ADrone	235236	Light Pink (5 Suits)	0
 ADrone	237912	Brown-Fives (5 Suits)	0
@@ -927,10 +924,12 @@ ADrone	273904	Rainbow & White (3 Suits)	0
 ADrone	273924	Rainbow & White (3 Suits)	0
 ADrone	273933	Rainbow & White (3 Suits)	0
 ADrone	273950	Rainbow & White (3 Suits)	0
+ADrone	274219	Up or Down (5 Suits)	0
 ADrone	274318	Pink & Brown (5 Suits)	0
 ADrone	274330	Cocoa Rainbow (5 Suits)	0
 ADrone	275388	White (4 Suits)	0
 ADrone	275434	White (4 Suits)	0
+ADrone	279675	Up or Down & Pink (5 Suits)	0
 ADrone	286785	White & Prism (6 Suits)	0
 ADrone	287280	Prism (3 Suits)	0
 ADrone	287292	Prism (3 Suits)	0
@@ -1054,6 +1053,7 @@ ADrone	503135	Prism (5 Suits)	0
 ADrone	504192	Null (5 Suits)	0
 ADrone	505559	Null (5 Suits)	0
 ADrone	513996	Prism & Gray Pink (6 Suits)	0
+ADrone	533754	Up or Down & Rainbow (6 Suits)	0
 ADrone	539460	Rainbow & Dark Pink (6 Suits)	0
 ADrone	541092	Rainbow & Muddy Rainbow (5 Suits)	0
 ADrone	543859	Omni-Fives (5 Suits)	0

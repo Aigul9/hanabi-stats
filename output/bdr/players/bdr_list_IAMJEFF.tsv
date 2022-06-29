@@ -1,10 +1,7 @@
 Player	Game id	Variant	BDR
-IAMJEFF	22309	Up or Down (6 Suits)	8
-IAMJEFF	52563	Up or Down & Pink (6 Suits)	8
 IAMJEFF	72379	Ambiguous Mix	8
 IAMJEFF	41191	Rainbow (6 Suits)	7
 IAMJEFF	41215	Black & Rainbow (6 Suits)	7
-IAMJEFF	65009	Up or Down & White (6 Suits)	7
 IAMJEFF	20674	No Variant	6
 IAMJEFF	30407	Black & Rainbow (6 Suits)	6
 IAMJEFF	42729	Black & Brown (6 Suits)	6
@@ -14,28 +11,24 @@ IAMJEFF	94217	Black & Pink (6 Suits)	6
 IAMJEFF	99863	White-Ones (6 Suits)	6
 IAMJEFF	385726	Pink & Prism (6 Suits)	6
 IAMJEFF	587360	Dual-Color & Brown (6 Suits)	6
+IAMJEFF	22309	Up or Down (6 Suits)	5
 IAMJEFF	24937	No Variant	5
 IAMJEFF	25927	White (6 Suits)	5
 IAMJEFF	34878	Brown (6 Suits)	5
 IAMJEFF	34946	Gray (6 Suits)	5
-IAMJEFF	39386	Up or Down & White (6 Suits)	5
 IAMJEFF	44791	Black (6 Suits)	5
+IAMJEFF	52563	Up or Down & Pink (6 Suits)	5
 IAMJEFF	54743	Rainbow-Ones (6 Suits)	5
-IAMJEFF	55296	Up or Down & Rainbow (6 Suits)	5
-IAMJEFF	55297	Up or Down & Rainbow (6 Suits)	5
 IAMJEFF	55722	Throw It in a Hole (6 Suits)	5
 IAMJEFF	59603	Black (5 Suits)	5
-IAMJEFF	59815	Up or Down & Rainbow (6 Suits)	5
 IAMJEFF	65285	Duck (6 Suits)	5
 IAMJEFF	65346	Up or Down & Pink (6 Suits)	5
-IAMJEFF	65348	Up or Down & Omni (6 Suits)	5
 IAMJEFF	68582	Omni & Null (6 Suits)	5
 IAMJEFF	70753	Black & Omni (5 Suits)	5
 IAMJEFF	165289	Throw It in a Hole & Pink (6 Suits)	5
 IAMJEFF	318736	Dark Rainbow (6 Suits)	5
 IAMJEFF	332143	Rainbow & White (6 Suits)	5
 IAMJEFF	341229	Clue Starved & Rainbow (6 Suits)	5
-IAMJEFF	521102	Up or Down & Prism (5 Suits)	5
 IAMJEFF	576339	Muddy Rainbow & Light Pink (6 Suits)	5
 IAMJEFF	631719	Omni & Muddy Rainbow (6 Suits)	5
 IAMJEFF	728399	Null-Ones & Dark Omni (6 Suits)	5
@@ -59,14 +52,12 @@ IAMJEFF	44949	Black (6 Suits)	4
 IAMJEFF	50635	Rainbow-Ones & Pink (6 Suits)	4
 IAMJEFF	50830	Cow & Pig (6 Suits)	4
 IAMJEFF	52551	Pink & Gray (6 Suits)	4
-IAMJEFF	52554	Up or Down & Pink (5 Suits)	4
 IAMJEFF	57412	Light Pink (6 Suits)	4
 IAMJEFF	58020	Pink & Brown (5 Suits)	4
 IAMJEFF	58939	Rainbow-Ones & Pink (5 Suits)	4
-IAMJEFF	59803	Up or Down (5 Suits)	4
 IAMJEFF	59804	Up or Down (6 Suits)	4
+IAMJEFF	65009	Up or Down & White (6 Suits)	4
 IAMJEFF	65127	Brown (6 Suits)	4
-IAMJEFF	65147	Up or Down (6 Suits)	4
 IAMJEFF	65158	Pink (6 Suits)	4
 IAMJEFF	65284	Duck (6 Suits)	4
 IAMJEFF	65307	Duck (6 Suits)	4
@@ -74,9 +65,6 @@ IAMJEFF	65415	Black & Null (5 Suits)	4
 IAMJEFF	66458	Number Mute (6 Suits)	4
 IAMJEFF	67367	Black & Brown (6 Suits)	4
 IAMJEFF	67485	Brown & Omni (5 Suits)	4
-IAMJEFF	68812	Up or Down & Pink (6 Suits)	4
-IAMJEFF	68815	Up or Down & Rainbow (5 Suits)	4
-IAMJEFF	68836	Up or Down & Omni (6 Suits)	4
 IAMJEFF	69314	Brown & Omni (6 Suits)	4
 IAMJEFF	69523	Rainbow-Ones (6 Suits)	4
 IAMJEFF	70539	Color Blind (5 Suits)	4
@@ -92,7 +80,6 @@ IAMJEFF	130187	Rainbow-Ones & Rainbow (6 Suits)	4
 IAMJEFF	151707	Light-Pink-Fives & Muddy Rainbow (6 Suits)	4
 IAMJEFF	161784	Muddy-Rainbow-Ones & Rainbow (5 Suits)	4
 IAMJEFF	161883	Rainbow-Fives & White (6 Suits)	4
-IAMJEFF	204417	Up or Down & Light Pink (6 Suits)	4
 IAMJEFF	262070	Dark Omni (6 Suits)	4
 IAMJEFF	317859	Clue Starved & Rainbow (6 Suits)	4
 IAMJEFF	319462	Rainbow & Muddy Rainbow (6 Suits)	4
@@ -132,7 +119,6 @@ IAMJEFF	24515	No Variant	3
 IAMJEFF	24520	No Variant	3
 IAMJEFF	25049	Black (5 Suits)	3
 IAMJEFF	25941	White (6 Suits)	3
-IAMJEFF	27926	Up or Down (5 Suits)	3
 IAMJEFF	29422	Rainbow (4 Suits)	3
 IAMJEFF	30412	4 Suits	3
 IAMJEFF	32469	Rainbow (5 Suits)	3
@@ -150,6 +136,7 @@ IAMJEFF	38538	Rainbow & White (6 Suits)	3
 IAMJEFF	38725	Dark Pink (6 Suits)	3
 IAMJEFF	38751	White & Dark Rainbow (6 Suits)	3
 IAMJEFF	39331	Black (6 Suits)	3
+IAMJEFF	39386	Up or Down & White (6 Suits)	3
 IAMJEFF	39799	Gray (5 Suits)	3
 IAMJEFF	41189	Rainbow (6 Suits)	3
 IAMJEFF	41210	Black & Rainbow (6 Suits)	3
@@ -175,7 +162,6 @@ IAMJEFF	50637	Muddy Rainbow (6 Suits)	3
 IAMJEFF	50832	Cow & Pig (6 Suits)	3
 IAMJEFF	50845	Gray (6 Suits)	3
 IAMJEFF	52549	Pink & Gray (6 Suits)	3
-IAMJEFF	52558	Up or Down & Pink (5 Suits)	3
 IAMJEFF	52748	Black & White (5 Suits)	3
 IAMJEFF	52851	Black & White (5 Suits)	3
 IAMJEFF	53047	Pink & White (5 Suits)	3
@@ -183,16 +169,16 @@ IAMJEFF	53049	Pink & White (5 Suits)	3
 IAMJEFF	54736	Rainbow-Ones (6 Suits)	3
 IAMJEFF	54900	Omni (6 Suits)	3
 IAMJEFF	54902	Omni (5 Suits)	3
+IAMJEFF	55297	Up or Down & Rainbow (6 Suits)	3
 IAMJEFF	55699	Very Ambiguous (6 Suits)	3
 IAMJEFF	55730	Alternating Clues (5 Suits)	3
 IAMJEFF	55733	Alternating Clues (5 Suits)	3
 IAMJEFF	56888	Black & Pink (6 Suits)	3
 IAMJEFF	57873	Omni (6 Suits)	3
-IAMJEFF	58154	Up or Down (6 Suits)	3
 IAMJEFF	59145	Pink (5 Suits)	3
 IAMJEFF	59313	Null (6 Suits)	3
 IAMJEFF	59701	Dark Pink (5 Suits)	3
-IAMJEFF	59811	Up or Down & Rainbow (6 Suits)	3
+IAMJEFF	59803	Up or Down (5 Suits)	3
 IAMJEFF	60337	Pink & Null (6 Suits)	3
 IAMJEFF	62303	Black & Pink (6 Suits)	3
 IAMJEFF	62462	Rainbow & Dark Brown (6 Suits)	3
@@ -201,18 +187,18 @@ IAMJEFF	63843	White & Omni (6 Suits)	3
 IAMJEFF	64985	Rainbow & Omni (4 Suits)	3
 IAMJEFF	65121	Omni (6 Suits)	3
 IAMJEFF	65347	Up or Down & Omni (6 Suits)	3
+IAMJEFF	65348	Up or Down & Omni (6 Suits)	3
 IAMJEFF	66163	Black (6 Suits)	3
-IAMJEFF	66240	Up or Down & Rainbow (5 Suits)	3
 IAMJEFF	66397	Null (6 Suits)	3
 IAMJEFF	66416	Rainbow & Omni (5 Suits)	3
 IAMJEFF	66510	Gray Pink (6 Suits)	3
 IAMJEFF	68071	Omni & Null (4 Suits)	3
 IAMJEFF	68073	Omni & Null (4 Suits)	3
 IAMJEFF	68122	Ambiguous & White (5 Suits)	3
-IAMJEFF	68375	Up or Down & Pink (6 Suits)	3
 IAMJEFF	68631	Rainbow & Null (4 Suits)	3
 IAMJEFF	68635	Rainbow & Null (4 Suits)	3
 IAMJEFF	68748	Light Pink (6 Suits)	3
+IAMJEFF	68812	Up or Down & Pink (6 Suits)	3
 IAMJEFF	69291	Pink & Dark Rainbow (6 Suits)	3
 IAMJEFF	69317	Brown & Omni (6 Suits)	3
 IAMJEFF	70540	Color Blind (6 Suits)	3
@@ -229,8 +215,6 @@ IAMJEFF	79806	Cocoa Rainbow (6 Suits)	3
 IAMJEFF	81647	Rainbow-Ones & Pink (5 Suits)	3
 IAMJEFF	82733	White & Dark Rainbow (6 Suits)	3
 IAMJEFF	83044	Pink (6 Suits)	3
-IAMJEFF	83650	Up or Down & Brown (6 Suits)	3
-IAMJEFF	83651	Up or Down & Brown (6 Suits)	3
 IAMJEFF	83654	Up or Down & Omni (6 Suits)	3
 IAMJEFF	86313	Pink & Null (4 Suits)	3
 IAMJEFF	86379	Rainbow & Dark Omni (6 Suits)	3
@@ -249,7 +233,6 @@ IAMJEFF	152782	Brown-Fives (6 Suits)	3
 IAMJEFF	155855	Brown-Ones (4 Suits)	3
 IAMJEFF	155870	Brown-Ones (5 Suits)	3
 IAMJEFF	155880	Brown-Ones (6 Suits)	3
-IAMJEFF	161734	Up or Down & Muddy Rainbow (5 Suits)	3
 IAMJEFF	167007	Muddy Rainbow (6 Suits)	3
 IAMJEFF	170232	Brown & Gray Pink (6 Suits)	3
 IAMJEFF	178210	Black (6 Suits)	3
@@ -263,7 +246,6 @@ IAMJEFF	325061	Dark Prism (6 Suits)	3
 IAMJEFF	330287	Dark Omni (6 Suits)	3
 IAMJEFF	330342	Black & Pink (6 Suits)	3
 IAMJEFF	330410	Rainbow & Cocoa Rainbow (6 Suits)	3
-IAMJEFF	331268	Up or Down & Omni (5 Suits)	3
 IAMJEFF	337462	Dark Brown (6 Suits)	3
 IAMJEFF	339044	Rainbow & Light Pink (5 Suits)	3
 IAMJEFF	339049	Rainbow & Light Pink (5 Suits)	3
@@ -276,14 +258,12 @@ IAMJEFF	385657	Prism (6 Suits)	3
 IAMJEFF	386190	Pink & Light Pink (6 Suits)	3
 IAMJEFF	386201	Pink & Light Pink (6 Suits)	3
 IAMJEFF	521099	Up or Down & Prism (5 Suits)	3
+IAMJEFF	521102	Up or Down & Prism (5 Suits)	3
 IAMJEFF	540993	Dual-Color & Gray Pink (6 Suits)	3
-IAMJEFF	541050	Up or Down (6 Suits)	3
 IAMJEFF	542851	Pink & Gray Pink (6 Suits)	3
 IAMJEFF	548567	Brown & Cocoa Rainbow (6 Suits)	3
 IAMJEFF	576343	Muddy Rainbow & Light Pink (6 Suits)	3
-IAMJEFF	578020	Up or Down (6 Suits)	3
 IAMJEFF	579353	Black & Omni (6 Suits)	3
-IAMJEFF	580300	Up or Down & Prism (6 Suits)	3
 IAMJEFF	585270	Pink & Dark Prism (6 Suits)	3
 IAMJEFF	585313	Ambiguous Mix	3
 IAMJEFF	587352	Dual-Color & Brown (6 Suits)	3
@@ -353,8 +333,7 @@ IAMJEFF	25127	Black (5 Suits)	2
 IAMJEFF	25287	Black (5 Suits)	2
 IAMJEFF	25944	White (6 Suits)	2
 IAMJEFF	26182	No Variant	2
-IAMJEFF	27921	Up or Down (5 Suits)	2
-IAMJEFF	27924	Up or Down (5 Suits)	2
+IAMJEFF	27926	Up or Down (5 Suits)	2
 IAMJEFF	29315	Ambiguous (6 Suits)	2
 IAMJEFF	29425	Rainbow (4 Suits)	2
 IAMJEFF	29511	4 Suits	2
@@ -429,6 +408,7 @@ IAMJEFF	51532	Pink & Dark Rainbow (6 Suits)	2
 IAMJEFF	51634	Black & Pink (5 Suits)	2
 IAMJEFF	51643	Black & Brown (6 Suits)	2
 IAMJEFF	52534	Number Mute (3 Suits)	2
+IAMJEFF	52554	Up or Down & Pink (5 Suits)	2
 IAMJEFF	52594	Clue Starved (5 Suits)	2
 IAMJEFF	53237	Totally Blind (5 Suits)	2
 IAMJEFF	53431	Pink (6 Suits)	2
@@ -444,6 +424,7 @@ IAMJEFF	54904	Omni (5 Suits)	2
 IAMJEFF	54915	Omni (4 Suits)	2
 IAMJEFF	54937	Rainbow & Omni (6 Suits)	2
 IAMJEFF	54940	Rainbow & Omni (5 Suits)	2
+IAMJEFF	55296	Up or Down & Rainbow (6 Suits)	2
 IAMJEFF	55487	Black & Rainbow (5 Suits)	2
 IAMJEFF	55678	Rainbow & Brown (6 Suits)	2
 IAMJEFF	55727	Alternating Clues (6 Suits)	2
@@ -458,11 +439,12 @@ IAMJEFF	58001	Pink & Brown (6 Suits)	2
 IAMJEFF	58005	Black & Brown (6 Suits)	2
 IAMJEFF	58141	Rainbow & White (6 Suits)	2
 IAMJEFF	58143	Pink & White (6 Suits)	2
-IAMJEFF	58157	Up or Down (6 Suits)	2
+IAMJEFF	58154	Up or Down (6 Suits)	2
 IAMJEFF	58617	Pink-Fives (6 Suits)	2
 IAMJEFF	58680	White & Brown (6 Suits)	2
 IAMJEFF	59317	Pink & White (5 Suits)	2
-IAMJEFF	59808	Up or Down (5 Suits)	2
+IAMJEFF	59811	Up or Down & Rainbow (6 Suits)	2
+IAMJEFF	59815	Up or Down & Rainbow (6 Suits)	2
 IAMJEFF	59821	Up or Down & Rainbow (6 Suits)	2
 IAMJEFF	60113	Rainbow & White (5 Suits)	2
 IAMJEFF	60114	Omni (6 Suits)	2
@@ -481,17 +463,13 @@ IAMJEFF	65002	Up or Down & White (5 Suits)	2
 IAMJEFF	65012	Dual-Color (6 Suits)	2
 IAMJEFF	65033	Dual-Color & Rainbow (6 Suits)	2
 IAMJEFF	65056	Dual-Color (6 Suits)	2
-IAMJEFF	65148	Up or Down (5 Suits)	2
 IAMJEFF	65198	Black & Omni (6 Suits)	2
 IAMJEFF	65201	Black & Omni (5 Suits)	2
 IAMJEFF	65251	Duck (5 Suits)	2
 IAMJEFF	65272	Rainbow & White (6 Suits)	2
 IAMJEFF	65292	Duck (6 Suits)	2
 IAMJEFF	65298	Duck (6 Suits)	2
-IAMJEFF	65341	Up or Down & Rainbow (5 Suits)	2
-IAMJEFF	65345	Up or Down & Rainbow (5 Suits)	2
 IAMJEFF	65361	Black & Null (5 Suits)	2
-IAMJEFF	65484	Up or Down & White (5 Suits)	2
 IAMJEFF	65997	Brown (6 Suits)	2
 IAMJEFF	66087	Muddy Rainbow (5 Suits)	2
 IAMJEFF	66089	Brown (6 Suits)	2
@@ -512,6 +490,7 @@ IAMJEFF	68747	Light Pink (6 Suits)	2
 IAMJEFF	68822	White & Omni (5 Suits)	2
 IAMJEFF	68825	White & Omni (5 Suits)	2
 IAMJEFF	68828	White & Omni (6 Suits)	2
+IAMJEFF	68836	Up or Down & Omni (6 Suits)	2
 IAMJEFF	69182	Omni & Dark Rainbow (5 Suits)	2
 IAMJEFF	69218	Light Pink (5 Suits)	2
 IAMJEFF	69242	Pink & Dark Rainbow (6 Suits)	2
@@ -597,21 +576,19 @@ IAMJEFF	170069	Rainbow-Ones & White (6 Suits)	2
 IAMJEFF	170306	Brown & Gray Pink (6 Suits)	2
 IAMJEFF	171688	Brown-Fives & Light Pink (5 Suits)	2
 IAMJEFF	173733	White-Ones & Rainbow (5 Suits)	2
+IAMJEFF	204417	Up or Down & Light Pink (6 Suits)	2
 IAMJEFF	204535	Up or Down & Light Pink (6 Suits)	2
 IAMJEFF	261381	Rainbow & Light Pink (4 Suits)	2
 IAMJEFF	261445	Dark Rainbow (6 Suits)	2
 IAMJEFF	261464	Dark Rainbow (6 Suits)	2
 IAMJEFF	262114	Dark Omni (6 Suits)	2
 IAMJEFF	262160	Dark Omni (6 Suits)	2
-IAMJEFF	262204	Up or Down & Light Pink (5 Suits)	2
-IAMJEFF	262236	Up or Down & Light Pink (6 Suits)	2
 IAMJEFF	317331	Rainbow-Ones & White (6 Suits)	2
 IAMJEFF	317820	Black & Muddy Rainbow (6 Suits)	2
 IAMJEFF	317912	Clue Starved & Rainbow (6 Suits)	2
 IAMJEFF	317954	Clue Starved & Rainbow (6 Suits)	2
 IAMJEFF	318737	Rainbow & Prism (5 Suits)	2
 IAMJEFF	321408	Black & Light Pink (5 Suits)	2
-IAMJEFF	322839	Up or Down & Prism (6 Suits)	2
 IAMJEFF	330387	Black & Pink (6 Suits)	2
 IAMJEFF	332136	Rainbow & White (6 Suits)	2
 IAMJEFF	333274	Rainbow & Prism (6 Suits)	2
@@ -634,12 +611,11 @@ IAMJEFF	383850	Prism (6 Suits)	2
 IAMJEFF	383857	Extremely Ambiguous & Muddy Rainbow (5 Suits)	2
 IAMJEFF	384527	Omni (6 Suits)	2
 IAMJEFF	385687	Pink & Brown (6 Suits)	2
-IAMJEFF	385978	Up or Down & Muddy Rainbow (6 Suits)	2
 IAMJEFF	385994	Up or Down & Muddy Rainbow (5 Suits)	2
-IAMJEFF	386028	Up or Down & Muddy Rainbow (5 Suits)	2
 IAMJEFF	530855	Gray Reversed (6 Suits)	2
 IAMJEFF	530899	Omni & Light Pink (6 Suits)	2
 IAMJEFF	540777	Muddy Rainbow & Prism (6 Suits)	2
+IAMJEFF	541050	Up or Down (6 Suits)	2
 IAMJEFF	542786	Pink & Dark Omni (6 Suits)	2
 IAMJEFF	548501	Brown & Cocoa Rainbow (6 Suits)	2
 IAMJEFF	549876	Omni & Muddy Rainbow (6 Suits)	2
@@ -727,7 +703,6 @@ IAMJEFF	772820	No Variant	2
 IAMJEFF	772888	Brown-Fives & Light Pink (6 Suits)	2
 IAMJEFF	773210	Clue Starved & Omni (6 Suits)	2
 IAMJEFF	773212	Clue Starved & Omni (6 Suits)	2
-IAMJEFF	773218	Up or Down & Rainbow (5 Suits)	2
 IAMJEFF	773916	Rainbow & Prism (4 Suits)	2
 IAMJEFF	778255	Brown-Ones & Gray (6 Suits)	2
 IAMJEFF	778295	Ambiguous & Omni (5 Suits)	2
@@ -775,6 +750,7 @@ IAMJEFF	25948	Rainbow (4 Suits)	1
 IAMJEFF	25952	No Variant	1
 IAMJEFF	25954	No Variant	1
 IAMJEFF	26181	No Variant	1
+IAMJEFF	27921	Up or Down (5 Suits)	1
 IAMJEFF	28964	3 Suits	1
 IAMJEFF	29011	Pink-Fives (5 Suits)	1
 IAMJEFF	29441	Rainbow (4 Suits)	1
@@ -848,6 +824,7 @@ IAMJEFF	51541	Pink & Dark Rainbow (6 Suits)	1
 IAMJEFF	51639	Omni (4 Suits)	1
 IAMJEFF	51670	Brown (5 Suits)	1
 IAMJEFF	51674	Brown (5 Suits)	1
+IAMJEFF	52558	Up or Down & Pink (5 Suits)	1
 IAMJEFF	52560	Up or Down & Pink (5 Suits)	1
 IAMJEFF	52743	Black (5 Suits)	1
 IAMJEFF	52774	Brown & Dark Rainbow (6 Suits)	1
@@ -911,12 +888,11 @@ IAMJEFF	63780	Black (5 Suits)	1
 IAMJEFF	63801	Black (5 Suits)	1
 IAMJEFF	63837	White & Omni (6 Suits)	1
 IAMJEFF	64984	Rainbow & Omni (4 Suits)	1
-IAMJEFF	65007	Up or Down & White (6 Suits)	1
 IAMJEFF	65040	Dual-Color & Rainbow (4 Suits)	1
 IAMJEFF	65064	Dual-Color Mix	1
 IAMJEFF	65138	Black & Brown (6 Suits)	1
 IAMJEFF	65141	Black & Brown (6 Suits)	1
-IAMJEFF	65149	Up or Down & Rainbow (6 Suits)	1
+IAMJEFF	65147	Up or Down (6 Suits)	1
 IAMJEFF	65156	Pink (6 Suits)	1
 IAMJEFF	65190	Pink (4 Suits)	1
 IAMJEFF	65199	Black & Omni (6 Suits)	1
@@ -926,16 +902,18 @@ IAMJEFF	65261	Duck (5 Suits)	1
 IAMJEFF	65264	White & Brown (4 Suits)	1
 IAMJEFF	65266	Rainbow & White (4 Suits)	1
 IAMJEFF	65276	Duck (4 Suits)	1
-IAMJEFF	65344	Up or Down & Pink (6 Suits)	1
+IAMJEFF	65341	Up or Down & Rainbow (5 Suits)	1
 IAMJEFF	65372	Black & Null (5 Suits)	1
 IAMJEFF	65468	Rainbow & Brown (5 Suits)	1
 IAMJEFF	65470	Rainbow & Brown (5 Suits)	1
+IAMJEFF	65484	Up or Down & White (5 Suits)	1
 IAMJEFF	65485	Up or Down & White (5 Suits)	1
 IAMJEFF	66061	Pink-Fives (5 Suits)	1
 IAMJEFF	66076	Pink-Fives & Rainbow (4 Suits)	1
 IAMJEFF	66157	Black & Omni (5 Suits)	1
 IAMJEFF	66232	Black & Pink (5 Suits)	1
 IAMJEFF	66239	Up or Down & Rainbow (5 Suits)	1
+IAMJEFF	66240	Up or Down & Rainbow (5 Suits)	1
 IAMJEFF	66372	Rainbow & Omni (6 Suits)	1
 IAMJEFF	66513	Gray Pink (6 Suits)	1
 IAMJEFF	66523	Brown & Omni (4 Suits)	1
@@ -957,6 +935,7 @@ IAMJEFF	68121	Ambiguous (4 Suits)	1
 IAMJEFF	68125	Pink-Fives & Rainbow (5 Suits)	1
 IAMJEFF	68160	Black & Rainbow (5 Suits)	1
 IAMJEFF	68352	Pink & Brown (4 Suits)	1
+IAMJEFF	68375	Up or Down & Pink (6 Suits)	1
 IAMJEFF	68377	Throw It in a Hole (5 Suits)	1
 IAMJEFF	68388	Throw It in a Hole (4 Suits)	1
 IAMJEFF	68391	Throw It in a Hole (5 Suits)	1
@@ -1026,6 +1005,7 @@ IAMJEFF	83129	Pink & Omni (4 Suits)	1
 IAMJEFF	83319	Brown & Null (4 Suits)	1
 IAMJEFF	83640	White (6 Suits)	1
 IAMJEFF	83646	Color Mute (5 Suits)	1
+IAMJEFF	83651	Up or Down & Brown (6 Suits)	1
 IAMJEFF	84270	Throw It in a Hole (6 Suits)	1
 IAMJEFF	84276	Pink (6 Suits)	1
 IAMJEFF	84463	Up or Down & Null (6 Suits)	1
@@ -1037,11 +1017,9 @@ IAMJEFF	86389	Rainbow & Dark Omni (5 Suits)	1
 IAMJEFF	86396	Rainbow & Dark Omni (5 Suits)	1
 IAMJEFF	90642	Up or Down & Omni (5 Suits)	1
 IAMJEFF	90645	Up or Down & Brown (5 Suits)	1
-IAMJEFF	90648	Up or Down & Brown (5 Suits)	1
 IAMJEFF	91264	Color Mute (5 Suits)	1
 IAMJEFF	92339	Up or Down & Brown (6 Suits)	1
 IAMJEFF	92357	Up or Down & Brown (6 Suits)	1
-IAMJEFF	92387	Up or Down & Brown (6 Suits)	1
 IAMJEFF	92474	Number Mute (6 Suits)	1
 IAMJEFF	92532	Black & Dark Rainbow (6 Suits)	1
 IAMJEFF	93846	Brown & Gray (6 Suits)	1
@@ -1072,7 +1050,6 @@ IAMJEFF	113227	Muddy-Rainbow-Fives & Light Pink (5 Suits)	1
 IAMJEFF	113497	White-Ones & Rainbow (5 Suits)	1
 IAMJEFF	113525	Pink-Ones & Brown (6 Suits)	1
 IAMJEFF	126561	Up or Down (5 Suits)	1
-IAMJEFF	126617	Up or Down & Omni (6 Suits)	1
 IAMJEFF	128165	Extremely Ambiguous (4 Suits)	1
 IAMJEFF	128198	Extremely Ambiguous (4 Suits)	1
 IAMJEFF	128344	Brown & Dark Rainbow (6 Suits)	1
@@ -1114,6 +1091,8 @@ IAMJEFF	258646	Black & Dark Rainbow (6 Suits)	1
 IAMJEFF	261179	Muddy Rainbow (4 Suits)	1
 IAMJEFF	261251	Muddy Rainbow (4 Suits)	1
 IAMJEFF	261426	Dark Rainbow (6 Suits)	1
+IAMJEFF	262204	Up or Down & Light Pink (5 Suits)	1
+IAMJEFF	262236	Up or Down & Light Pink (6 Suits)	1
 IAMJEFF	262259	Rainbow & Light Pink (4 Suits)	1
 IAMJEFF	262331	Pink & Omni (6 Suits)	1
 IAMJEFF	262474	Dark Rainbow (6 Suits)	1
@@ -1126,6 +1105,7 @@ IAMJEFF	318745	Black & Muddy Rainbow (5 Suits)	1
 IAMJEFF	318754	Black & Muddy Rainbow (5 Suits)	1
 IAMJEFF	318784	Black (5 Suits)	1
 IAMJEFF	318800	No Variant	1
+IAMJEFF	322839	Up or Down & Prism (6 Suits)	1
 IAMJEFF	325047	Rainbow & Dark Pink (5 Suits)	1
 IAMJEFF	325545	Black (5 Suits)	1
 IAMJEFF	325582	Pink & Brown (6 Suits)	1
@@ -1139,6 +1119,7 @@ IAMJEFF	329856	Black & Pink (5 Suits)	1
 IAMJEFF	329865	Black & Pink (5 Suits)	1
 IAMJEFF	329868	Black & Pink (5 Suits)	1
 IAMJEFF	330276	Prism (4 Suits)	1
+IAMJEFF	331268	Up or Down & Omni (5 Suits)	1
 IAMJEFF	331673	Light Pink (6 Suits)	1
 IAMJEFF	333303	Rainbow & Prism (6 Suits)	1
 IAMJEFF	333551	Pink & Light Pink (3 Suits)	1
@@ -1181,7 +1162,7 @@ IAMJEFF	384828	Prism (4 Suits)	1
 IAMJEFF	384845	Prism (4 Suits)	1
 IAMJEFF	385584	Pink & White (6 Suits)	1
 IAMJEFF	385838	Reversed (6 Suits)	1
-IAMJEFF	530822	Up or Down & Muddy Rainbow (6 Suits)	1
+IAMJEFF	386028	Up or Down & Muddy Rainbow (5 Suits)	1
 IAMJEFF	530838	Gray Reversed (6 Suits)	1
 IAMJEFF	530939	Omni & Light Pink (6 Suits)	1
 IAMJEFF	542772	Black & Light Pink (6 Suits)	1
@@ -1209,9 +1190,9 @@ IAMJEFF	579146	Null-Ones & Brown (5 Suits)	1
 IAMJEFF	579171	Null-Ones & Brown (5 Suits)	1
 IAMJEFF	579347	Black & Omni (6 Suits)	1
 IAMJEFF	579427	Omni & Light Pink (5 Suits)	1
+IAMJEFF	580300	Up or Down & Prism (6 Suits)	1
 IAMJEFF	580836	Black & Null (5 Suits)	1
 IAMJEFF	580844	Black & Light Pink (5 Suits)	1
-IAMJEFF	580881	Up or Down & Muddy Rainbow (6 Suits)	1
 IAMJEFF	585262	Rainbow & Pink (5 Suits)	1
 IAMJEFF	585806	Rainbow & Light Pink (5 Suits)	1
 IAMJEFF	588251	Rainbow-Ones & Prism (4 Suits)	1
@@ -1351,6 +1332,7 @@ IAMJEFF	770446	Gray (5 Suits)	1
 IAMJEFF	770471	White-Fives & Brown (6 Suits)	1
 IAMJEFF	770475	White-Fives & Brown (6 Suits)	1
 IAMJEFF	772878	Brown-Fives & Light Pink (6 Suits)	1
+IAMJEFF	773218	Up or Down & Rainbow (5 Suits)	1
 IAMJEFF	773887	Rainbow & Prism (5 Suits)	1
 IAMJEFF	773889	Rainbow & Prism (5 Suits)	1
 IAMJEFF	773895	Rainbow & Prism (5 Suits)	1
@@ -1390,6 +1372,7 @@ IAMJEFF	25007	Rainbow (3 Suits)	0
 IAMJEFF	25253	Black (5 Suits)	0
 IAMJEFF	25283	Rainbow (4 Suits)	0
 IAMJEFF	25956	No Variant	0
+IAMJEFF	27924	Up or Down (5 Suits)	0
 IAMJEFF	29312	Ambiguous (4 Suits)	0
 IAMJEFF	29423	Rainbow (4 Suits)	0
 IAMJEFF	29442	Rainbow (4 Suits)	0
@@ -1528,6 +1511,7 @@ IAMJEFF	58031	Pink & Null (3 Suits)	0
 IAMJEFF	58034	Pink & Null (3 Suits)	0
 IAMJEFF	58142	Rainbow & Pink (6 Suits)	0
 IAMJEFF	58155	Up or Down (6 Suits)	0
+IAMJEFF	58157	Up or Down (6 Suits)	0
 IAMJEFF	58166	Brown & Null (6 Suits)	0
 IAMJEFF	58516	Rainbow & Pink (3 Suits)	0
 IAMJEFF	58519	Dark Rainbow (5 Suits)	0
@@ -1554,6 +1538,7 @@ IAMJEFF	59502	Dark Pink (5 Suits)	0
 IAMJEFF	59504	Dark Pink (5 Suits)	0
 IAMJEFF	59606	Black & Null (5 Suits)	0
 IAMJEFF	59613	No Variant	0
+IAMJEFF	59808	Up or Down (5 Suits)	0
 IAMJEFF	59828	Rainbow & Brown (4 Suits)	0
 IAMJEFF	59832	White & Brown (3 Suits)	0
 IAMJEFF	59841	Light Pink (3 Suits)	0
@@ -1592,11 +1577,14 @@ IAMJEFF	63824	Null (5 Suits)	0
 IAMJEFF	63825	Pink (5 Suits)	0
 IAMJEFF	63828	Dark Rainbow (5 Suits)	0
 IAMJEFF	63835	Dark Rainbow (5 Suits)	0
+IAMJEFF	65007	Up or Down & White (6 Suits)	0
 IAMJEFF	65008	Up or Down & White (6 Suits)	0
 IAMJEFF	65019	Dual-Color (5 Suits)	0
 IAMJEFF	65021	Dual-Color (3 Suits)	0
 IAMJEFF	65025	Dual-Color (3 Suits)	0
 IAMJEFF	65048	Dual-Color (3 Suits)	0
+IAMJEFF	65148	Up or Down (5 Suits)	0
+IAMJEFF	65149	Up or Down & Rainbow (6 Suits)	0
 IAMJEFF	65186	Pink (4 Suits)	0
 IAMJEFF	65187	Pink (4 Suits)	0
 IAMJEFF	65192	Pink (4 Suits)	0
@@ -1605,6 +1593,8 @@ IAMJEFF	65262	Duck (4 Suits)	0
 IAMJEFF	65265	White & Brown (4 Suits)	0
 IAMJEFF	65280	Duck (4 Suits)	0
 IAMJEFF	65282	Duck (3 Suits)	0
+IAMJEFF	65344	Up or Down & Pink (6 Suits)	0
+IAMJEFF	65345	Up or Down & Rainbow (5 Suits)	0
 IAMJEFF	65367	Black & Null (5 Suits)	0
 IAMJEFF	65463	White & Brown (3 Suits)	0
 IAMJEFF	65464	Omni (5 Suits)	0
@@ -1651,6 +1641,7 @@ IAMJEFF	68734	Throw It in a Hole (5 Suits)	0
 IAMJEFF	68737	Brown & Null (3 Suits)	0
 IAMJEFF	68742	Brown & Null (3 Suits)	0
 IAMJEFF	68756	Gray Pink (5 Suits)	0
+IAMJEFF	68815	Up or Down & Rainbow (5 Suits)	0
 IAMJEFF	68817	White & Omni (4 Suits)	0
 IAMJEFF	69176	White & Null (4 Suits)	0
 IAMJEFF	69195	Muddy Rainbow (5 Suits)	0
@@ -1736,12 +1727,15 @@ IAMJEFF	83321	Brown & Null (4 Suits)	0
 IAMJEFF	83432	Dark Null (5 Suits)	0
 IAMJEFF	83641	Color Mute (3 Suits)	0
 IAMJEFF	83648	Color Mute (4 Suits)	0
+IAMJEFF	83650	Up or Down & Brown (6 Suits)	0
 IAMJEFF	83806	Very Ambiguous (3 Suits)	0
 IAMJEFF	84462	Up or Down & Null (5 Suits)	0
 IAMJEFF	84470	White & Dark Omni (6 Suits)	0
 IAMJEFF	86299	Pink & Null (3 Suits)	0
 IAMJEFF	86380	Rainbow & Dark Omni (5 Suits)	0
+IAMJEFF	90648	Up or Down & Brown (5 Suits)	0
 IAMJEFF	91259	Color Mute (5 Suits)	0
+IAMJEFF	92387	Up or Down & Brown (6 Suits)	0
 IAMJEFF	92403	Black & Null (5 Suits)	0
 IAMJEFF	94225	Pink & Dark Rainbow (5 Suits)	0
 IAMJEFF	94303	Rainbow & Dark Pink (5 Suits)	0
@@ -1765,6 +1759,7 @@ IAMJEFF	101454	White-Ones & Muddy Rainbow (3 Suits)	0
 IAMJEFF	101482	Rainbow-Fives & Gray (5 Suits)	0
 IAMJEFF	105576	Black & White (6 Suits)	0
 IAMJEFF	111455	White-Ones (5 Suits)	0
+IAMJEFF	126617	Up or Down & Omni (6 Suits)	0
 IAMJEFF	126907	Omni-Fives & White (3 Suits)	0
 IAMJEFF	126918	Omni-Fives & White (3 Suits)	0
 IAMJEFF	127066	Black & Null (6 Suits)	0
@@ -1791,6 +1786,7 @@ IAMJEFF	153904	Muddy Rainbow (5 Suits)	0
 IAMJEFF	154400	Rainbow & Light Pink (3 Suits)	0
 IAMJEFF	154404	Rainbow & Light Pink (3 Suits)	0
 IAMJEFF	155866	Brown-Ones (4 Suits)	0
+IAMJEFF	161734	Up or Down & Muddy Rainbow (5 Suits)	0
 IAMJEFF	161888	Rainbow-Fives & White (3 Suits)	0
 IAMJEFF	161893	Rainbow-Fives & White (3 Suits)	0
 IAMJEFF	161924	Rainbow-Fives & White (3 Suits)	0
@@ -1890,6 +1886,8 @@ IAMJEFF	384698	Rainbow & Pink (5 Suits)	0
 IAMJEFF	384727	Pink (4 Suits)	0
 IAMJEFF	385560	Brown & Muddy Rainbow (6 Suits)	0
 IAMJEFF	385769	Reversed (5 Suits)	0
+IAMJEFF	385978	Up or Down & Muddy Rainbow (6 Suits)	0
+IAMJEFF	530822	Up or Down & Muddy Rainbow (6 Suits)	0
 IAMJEFF	530874	Rainbow & Dark Pink (5 Suits)	0
 IAMJEFF	541002	Prism & Dark Omni (6 Suits)	0
 IAMJEFF	541010	Prism & Dark Omni (6 Suits)	0
@@ -1909,6 +1907,7 @@ IAMJEFF	577263	White Reversed (3 Suits)	0
 IAMJEFF	577310	White Reversed (4 Suits)	0
 IAMJEFF	577951	Rainbow Reversed (4 Suits)	0
 IAMJEFF	577967	Rainbow Reversed (5 Suits)	0
+IAMJEFF	578020	Up or Down (6 Suits)	0
 IAMJEFF	578052	Rainbow & Dark Prism (5 Suits)	0
 IAMJEFF	578065	Rainbow & Light Pink (5 Suits)	0
 IAMJEFF	578150	Prism Reversed (3 Suits)	0
@@ -1918,6 +1917,7 @@ IAMJEFF	578162	Rainbow-Fives & Rainbow (4 Suits)	0
 IAMJEFF	579132	Null-Ones & Brown (5 Suits)	0
 IAMJEFF	579401	Omni & Light Pink (4 Suits)	0
 IAMJEFF	580771	Dark Brown (6 Suits)	0
+IAMJEFF	580881	Up or Down & Muddy Rainbow (6 Suits)	0
 IAMJEFF	585276	Rainbow & Pink (5 Suits)	0
 IAMJEFF	585283	Black Reversed (5 Suits)	0
 IAMJEFF	585293	Dark Prism Reversed (6 Suits)	0

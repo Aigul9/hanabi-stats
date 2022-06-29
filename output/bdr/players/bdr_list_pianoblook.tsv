@@ -13,7 +13,6 @@ pianoblook	303681	Rainbow (6 Suits)	6
 pianoblook	314990	Prism (6 Suits)	6
 pianoblook	411157	Dual-Color Mix	6
 pianoblook	539305	Rainbow (6 Suits)	6
-pianoblook	541512	Up or Down (6 Suits)	6
 pianoblook	605503	Clue Starved & Light Pink (6 Suits)	6
 pianoblook	656131	Omni (6 Suits)	6
 pianoblook	673303	Brown & Prism (6 Suits)	6
@@ -41,7 +40,6 @@ pianoblook	259912	No Variant	5
 pianoblook	261849	Dual-Color (6 Suits)	5
 pianoblook	263060	Muddy Rainbow (6 Suits)	5
 pianoblook	263855	Dual-Color (6 Suits)	5
-pianoblook	275314	Up or Down (5 Suits)	5
 pianoblook	287190	Brown (6 Suits)	5
 pianoblook	305134	Dark Null (6 Suits)	5
 pianoblook	321897	Black & Omni (6 Suits)	5
@@ -149,10 +147,7 @@ pianoblook	469118	Rainbow & Omni (6 Suits)	4
 pianoblook	469150	Rainbow & Omni (6 Suits)	4
 pianoblook	475642	Rainbow & White (6 Suits)	4
 pianoblook	515211	Brown-Ones & Omni (6 Suits)	4
-pianoblook	520755	Up or Down (6 Suits)	4
 pianoblook	539522	Pink & Muddy Rainbow (6 Suits)	4
-pianoblook	541541	Up or Down (6 Suits)	4
-pianoblook	546724	Up or Down & Pink (6 Suits)	4
 pianoblook	548455	Omni-Ones & Omni (5 Suits)	4
 pianoblook	553055	No Variant	4
 pianoblook	555468	White & Dark Rainbow (6 Suits)	4
@@ -162,12 +157,10 @@ pianoblook	574575	No Variant	4
 pianoblook	577999	Pink & Prism (6 Suits)	4
 pianoblook	580721	Clue Starved & Omni (6 Suits)	4
 pianoblook	585552	Black (6 Suits)	4
-pianoblook	586324	Up or Down (5 Suits)	4
 pianoblook	586751	Up or Down & Pink (6 Suits)	4
 pianoblook	590308	Null & Light Pink (5 Suits)	4
 pianoblook	593394	Pink & Dark Brown (6 Suits)	4
 pianoblook	596521	Clue Starved (6 Suits)	4
-pianoblook	601638	Up or Down & Rainbow (5 Suits)	4
 pianoblook	609791	Rainbow & Dark Null (6 Suits)	4
 pianoblook	634177	Dual-Color & Dark Prism (6 Suits)	4
 pianoblook	641468	Omni & Prism (5 Suits)	4
@@ -186,19 +179,15 @@ pianoblook	678985	Rainbow & Pink (5 Suits)	4
 pianoblook	682664	Rainbow & Brown (6 Suits)	4
 pianoblook	684258	Rainbow & White (6 Suits)	4
 pianoblook	684934	Brown & Prism (6 Suits)	4
-pianoblook	732626	Up or Down & Pink (5 Suits)	4
 pianoblook	732900	Pink & Muddy Rainbow (6 Suits)	4
-pianoblook	744323	Up or Down & Muddy Rainbow (6 Suits)	4
 pianoblook	744328	Rainbow & Prism (6 Suits)	4
 pianoblook	753485	No Variant	4
-pianoblook	753589	Up or Down & White (6 Suits)	4
 pianoblook	754445	Brown (6 Suits)	4
 pianoblook	765790	No Variant	4
 pianoblook	776744	Dual-Color (5 Suits)	4
 pianoblook	776752	Ambiguous (6 Suits)	4
 pianoblook	776764	White-Ones & Rainbow (6 Suits)	4
 pianoblook	778681	White (6 Suits)	4
-pianoblook	780932	Up or Down (5 Suits)	4
 pianoblook	790786	Rainbow & Omni (6 Suits)	4
 pianoblook	790799	Rainbow-Fives (6 Suits)	4
 pianoblook	797264	Muddy-Rainbow-Fives & Null (6 Suits)	4
@@ -270,7 +259,6 @@ pianoblook	221151	Rainbow (6 Suits)	3
 pianoblook	224128	Rainbow & Null (5 Suits)	3
 pianoblook	224498	Special Mix (6 Suits)	3
 pianoblook	224677	Rainbow (6 Suits)	3
-pianoblook	225330	Up or Down & Pink (5 Suits)	3
 pianoblook	225594	Rainbow & Brown (5 Suits)	3
 pianoblook	225644	Rainbow & Brown (6 Suits)	3
 pianoblook	225718	Pink & Light Pink (5 Suits)	3
@@ -278,7 +266,6 @@ pianoblook	226729	Brown (6 Suits)	3
 pianoblook	227958	Rainbow & White (5 Suits)	3
 pianoblook	227986	Rainbow & White (5 Suits)	3
 pianoblook	230212	Clue Starved (5 Suits)	3
-pianoblook	230599	Up or Down (5 Suits)	3
 pianoblook	231766	Muddy Rainbow (5 Suits)	3
 pianoblook	231852	Pink & White (5 Suits)	3
 pianoblook	231999	White & Muddy Rainbow (6 Suits)	3
@@ -318,6 +305,7 @@ pianoblook	268058	White-Ones & White (6 Suits)	3
 pianoblook	269207	Black & Light Pink (6 Suits)	3
 pianoblook	271194	Brown & Gray (5 Suits)	3
 pianoblook	272849	Brown-Ones & Gray Pink (5 Suits)	3
+pianoblook	275314	Up or Down (5 Suits)	3
 pianoblook	275664	White (6 Suits)	3
 pianoblook	280961	Black & Omni (6 Suits)	3
 pianoblook	284737	Omni (5 Suits)	3
@@ -363,7 +351,6 @@ pianoblook	330342	Black & Pink (6 Suits)	3
 pianoblook	330410	Rainbow & Cocoa Rainbow (6 Suits)	3
 pianoblook	334247	Prism (6 Suits)	3
 pianoblook	334308	Rainbow & Brown (6 Suits)	3
-pianoblook	336136	Up or Down & Rainbow (6 Suits)	3
 pianoblook	336728	Duck (6 Suits)	3
 pianoblook	341201	Omni (6 Suits)	3
 pianoblook	343642	Dark Pink & Dark Prism (6 Suits)	3
@@ -442,13 +429,15 @@ pianoblook	507025	Brown & Muddy Rainbow (5 Suits)	3
 pianoblook	507232	Rainbow & Dark Null (6 Suits)	3
 pianoblook	508111	Gray (5 Suits)	3
 pianoblook	512238	Null & Light Pink (6 Suits)	3
+pianoblook	520755	Up or Down (6 Suits)	3
 pianoblook	521561	Brown-Ones & Brown (6 Suits)	3
 pianoblook	528581	Brown & Prism (6 Suits)	3
 pianoblook	531393	Clue Starved & Null (6 Suits)	3
 pianoblook	531456	Rainbow & Null (6 Suits)	3
 pianoblook	533607	Rainbow & Dark Prism (6 Suits)	3
 pianoblook	537189	Rainbow & Dark Prism (6 Suits)	3
-pianoblook	540177	Up or Down & Light Pink (6 Suits)	3
+pianoblook	541512	Up or Down (6 Suits)	3
+pianoblook	546724	Up or Down & Pink (6 Suits)	3
 pianoblook	546846	Clue Starved & Omni (5 Suits)	3
 pianoblook	547317	Null-Ones & Rainbow (4 Suits)	3
 pianoblook	547999	Black & Light Pink (6 Suits)	3
@@ -462,7 +451,6 @@ pianoblook	570216	Pink & White (6 Suits)	3
 pianoblook	570621	Rainbow & Prism (6 Suits)	3
 pianoblook	570835	Pink & Omni (4 Suits)	3
 pianoblook	577942	No Variant	3
-pianoblook	578020	Up or Down (6 Suits)	3
 pianoblook	581713	Light Pink & Dark Prism (6 Suits)	3
 pianoblook	584484	Throw It in a Hole & Null (5 Suits)	3
 pianoblook	593165	Rainbow & Dark Pink (6 Suits)	3
@@ -470,9 +458,9 @@ pianoblook	594354	White & Null (4 Suits)	3
 pianoblook	594583	Rainbow-Ones & Dark Pink (6 Suits)	3
 pianoblook	594598	Clue Starved & Brown (6 Suits)	3
 pianoblook	594620	Clue Starved & Brown (6 Suits)	3
+pianoblook	601638	Up or Down & Rainbow (5 Suits)	3
 pianoblook	605556	Clue Starved & Null (6 Suits)	3
 pianoblook	605800	Clue Starved & Brown (6 Suits)	3
-pianoblook	607383	Up or Down & Rainbow (6 Suits)	3
 pianoblook	611733	Pink & Prism (5 Suits)	3
 pianoblook	618760	Rainbow & Dark Pink (6 Suits)	3
 pianoblook	628805	No Variant	3
@@ -508,7 +496,6 @@ pianoblook	670220	White & Dark Prism (5 Suits)	3
 pianoblook	671212	No Variant	3
 pianoblook	671248	Prism Reversed (5 Suits)	3
 pianoblook	671286	Clue Starved (5 Suits)	3
-pianoblook	672407	Up or Down & Rainbow (6 Suits)	3
 pianoblook	672551	No Variant	3
 pianoblook	673095	Brown & Light Pink (5 Suits)	3
 pianoblook	674537	Clue Starved (5 Suits)	3
@@ -528,7 +515,6 @@ pianoblook	700482	White & Omni (6 Suits)	3
 pianoblook	718278	No Variant	3
 pianoblook	727185	Brown-Ones (6 Suits)	3
 pianoblook	732889	Pink & Muddy Rainbow (6 Suits)	3
-pianoblook	744324	Up or Down & Prism (5 Suits)	3
 pianoblook	753508	No Variant	3
 pianoblook	757060	Brown-Ones (5 Suits)	3
 pianoblook	763060	White & Muddy Rainbow (6 Suits)	3
@@ -570,7 +556,6 @@ pianoblook	85395	Rainbow (5 Suits)	2
 pianoblook	86092	No Variant	2
 pianoblook	86207	No Variant	2
 pianoblook	86210	No Variant	2
-pianoblook	86330	Up or Down (5 Suits)	2
 pianoblook	86337	Up or Down (5 Suits)	2
 pianoblook	87076	No Variant	2
 pianoblook	87850	No Variant	2
@@ -701,6 +686,7 @@ pianoblook	224538	Special Mix (6 Suits)	2
 pianoblook	224590	Special Mix (5 Suits)	2
 pianoblook	225245	Rainbow (5 Suits)	2
 pianoblook	225292	6 Suits	2
+pianoblook	225330	Up or Down & Pink (5 Suits)	2
 pianoblook	225372	Rainbow & Brown (6 Suits)	2
 pianoblook	225656	Rainbow & Brown (6 Suits)	2
 pianoblook	226744	Black & Pink (5 Suits)	2
@@ -762,7 +748,6 @@ pianoblook	256599	Black & Dark Pink (6 Suits)	2
 pianoblook	256720	Black & Dark Rainbow (6 Suits)	2
 pianoblook	256968	No Variant	2
 pianoblook	257002	No Variant	2
-pianoblook	258367	Up or Down (5 Suits)	2
 pianoblook	258579	Black (5 Suits)	2
 pianoblook	259566	Black & White (6 Suits)	2
 pianoblook	260723	Dual-Color (6 Suits)	2
@@ -824,8 +809,6 @@ pianoblook	290431	Clue Starved & White (5 Suits)	2
 pianoblook	290488	Clue Starved & White (5 Suits)	2
 pianoblook	291436	Prism (5 Suits)	2
 pianoblook	292525	Cocoa Rainbow (6 Suits)	2
-pianoblook	293142	Up or Down & Brown (6 Suits)	2
-pianoblook	293171	Up or Down & Brown (6 Suits)	2
 pianoblook	293547	Cocoa Rainbow (6 Suits)	2
 pianoblook	295477	No Variant	2
 pianoblook	295513	No Variant	2
@@ -858,7 +841,6 @@ pianoblook	315679	6 Suits	2
 pianoblook	315730	No Variant	2
 pianoblook	318206	Black & Dark Prism (6 Suits)	2
 pianoblook	319234	Duck (5 Suits)	2
-pianoblook	320410	Up or Down & Prism (5 Suits)	2
 pianoblook	320594	Duck (5 Suits)	2
 pianoblook	320620	Duck (5 Suits)	2
 pianoblook	320694	Duck (6 Suits)	2
@@ -874,6 +856,7 @@ pianoblook	330387	Black & Pink (6 Suits)	2
 pianoblook	334157	Prism (6 Suits)	2
 pianoblook	335949	Dark Brown (6 Suits)	2
 pianoblook	336003	Gray (6 Suits)	2
+pianoblook	336136	Up or Down & Rainbow (6 Suits)	2
 pianoblook	338776	Prism (6 Suits)	2
 pianoblook	338835	Rainbow & Prism (6 Suits)	2
 pianoblook	339017	Dark Rainbow (6 Suits)	2
@@ -915,7 +898,6 @@ pianoblook	369750	Dark Pink & Gray (6 Suits)	2
 pianoblook	370770	White (5 Suits)	2
 pianoblook	372196	Prism (6 Suits)	2
 pianoblook	372230	Prism (6 Suits)	2
-pianoblook	372527	Up or Down (5 Suits)	2
 pianoblook	374241	Dark Pink (5 Suits)	2
 pianoblook	374302	Dark Pink (5 Suits)	2
 pianoblook	374528	Dark Omni (5 Suits)	2
@@ -1011,7 +993,6 @@ pianoblook	506985	Brown-Ones & White (6 Suits)	2
 pianoblook	507035	Brown & Muddy Rainbow (5 Suits)	2
 pianoblook	507104	Rainbow (6 Suits)	2
 pianoblook	507339	Dark Pink & Dark Omni (6 Suits)	2
-pianoblook	510637	Up or Down & Rainbow (6 Suits)	2
 pianoblook	511325	Black & Null (6 Suits)	2
 pianoblook	512800	Rainbow & Null (5 Suits)	2
 pianoblook	515545	Dark Omni & Dark Null (6 Suits)	2
@@ -1039,6 +1020,7 @@ pianoblook	539986	Dual-Color & Black (6 Suits)	2
 pianoblook	540140	Reversed (5 Suits)	2
 pianoblook	540777	Muddy Rainbow & Prism (6 Suits)	2
 pianoblook	541047	White-Ones & Prism (6 Suits)	2
+pianoblook	541541	Up or Down (6 Suits)	2
 pianoblook	542057	Prism & Dark Rainbow (6 Suits)	2
 pianoblook	543336	Brown (5 Suits)	2
 pianoblook	543686	Omni & Dark Pink (5 Suits)	2
@@ -1070,6 +1052,7 @@ pianoblook	582096	Pink & Muddy Rainbow (6 Suits)	2
 pianoblook	584733	Throw It in a Hole & Null (5 Suits)	2
 pianoblook	585898	Brown & Prism (6 Suits)	2
 pianoblook	586283	Muddy Rainbow & Light Pink (4 Suits)	2
+pianoblook	586324	Up or Down (5 Suits)	2
 pianoblook	586378	Rainbow & Cocoa Rainbow (6 Suits)	2
 pianoblook	587391	Pink & Brown (6 Suits)	2
 pianoblook	588211	No Variant	2
@@ -1090,6 +1073,7 @@ pianoblook	600400	Clue Starved (6 Suits)	2
 pianoblook	605579	Clue Starved & Null (6 Suits)	2
 pianoblook	607131	Pink-Ones (5 Suits)	2
 pianoblook	607227	Brown & Omni (6 Suits)	2
+pianoblook	607383	Up or Down & Rainbow (6 Suits)	2
 pianoblook	607404	Rainbow-Ones (6 Suits)	2
 pianoblook	607724	Dual-Color & Black (6 Suits)	2
 pianoblook	608699	Black & Prism (5 Suits)	2
@@ -1168,7 +1152,6 @@ pianoblook	669684	White-Ones (5 Suits)	2
 pianoblook	669784	Null (5 Suits)	2
 pianoblook	669863	Dark Null (5 Suits)	2
 pianoblook	670252	Rainbow & Pink (5 Suits)	2
-pianoblook	671187	Up or Down & Prism (6 Suits)	2
 pianoblook	671237	Pink & White (6 Suits)	2
 pianoblook	671793	No Variant	2
 pianoblook	671810	No Variant	2
@@ -1199,12 +1182,15 @@ pianoblook	695335	White-Ones (6 Suits)	2
 pianoblook	697190	Dual-Color & Muddy Rainbow (6 Suits)	2
 pianoblook	698904	Special Mix (6 Suits)	2
 pianoblook	704399	Null & Dark Pink (5 Suits)	2
+pianoblook	732626	Up or Down & Pink (5 Suits)	2
 pianoblook	744321	White & Dark Pink (6 Suits)	2
+pianoblook	744323	Up or Down & Muddy Rainbow (6 Suits)	2
 pianoblook	750692	No Variant	2
 pianoblook	750751	Rainbow-Ones & Gray Pink (6 Suits)	2
 pianoblook	751650	Clue Starved & Omni (6 Suits)	2
 pianoblook	753554	Pink-Ones & Brown (6 Suits)	2
 pianoblook	753579	Clue Starved & Light Pink (6 Suits)	2
+pianoblook	753589	Up or Down & White (6 Suits)	2
 pianoblook	754397	Omni & Muddy Rainbow (6 Suits)	2
 pianoblook	754433	Rainbow & Cocoa Rainbow (6 Suits)	2
 pianoblook	756803	No Variant	2
@@ -1230,6 +1216,7 @@ pianoblook	780054	No Variant	2
 pianoblook	780760	White & Omni (6 Suits)	2
 pianoblook	780764	Black & Muddy Rainbow (6 Suits)	2
 pianoblook	780882	Dual-Color (6 Suits)	2
+pianoblook	780932	Up or Down (5 Suits)	2
 pianoblook	781228	No Variant	2
 pianoblook	786397	Pink-Ones & Rainbow (6 Suits)	2
 pianoblook	786412	Pink-Ones & Rainbow (6 Suits)	2
@@ -1260,6 +1247,7 @@ pianoblook	85398	Rainbow (6 Suits)	1
 pianoblook	85992	No Variant	1
 pianoblook	86234	Pink & Brown (5 Suits)	1
 pianoblook	86298	Rainbow & White (5 Suits)	1
+pianoblook	86330	Up or Down (5 Suits)	1
 pianoblook	86344	Gray (5 Suits)	1
 pianoblook	86352	Gray (5 Suits)	1
 pianoblook	86353	White & Brown (5 Suits)	1
@@ -1438,6 +1426,7 @@ pianoblook	229687	Rainbow & Brown (5 Suits)	1
 pianoblook	229826	Pink (4 Suits)	1
 pianoblook	230191	Clue Starved (5 Suits)	1
 pianoblook	230426	Pink & Brown (5 Suits)	1
+pianoblook	230599	Up or Down (5 Suits)	1
 pianoblook	232022	Dark Omni (5 Suits)	1
 pianoblook	232065	Rainbow-Ones & Dark Brown (6 Suits)	1
 pianoblook	232125	No Variant	1
@@ -1613,6 +1602,8 @@ pianoblook	290330	No Variant	1
 pianoblook	291505	Black (6 Suits)	1
 pianoblook	291618	Rainbow & White (5 Suits)	1
 pianoblook	292641	Light Pink (4 Suits)	1
+pianoblook	293142	Up or Down & Brown (6 Suits)	1
+pianoblook	293171	Up or Down & Brown (6 Suits)	1
 pianoblook	294309	Cocoa Rainbow (5 Suits)	1
 pianoblook	294436	No Variant	1
 pianoblook	294476	No Variant	1
@@ -1748,6 +1739,7 @@ pianoblook	369576	Dark Pink & Gray (6 Suits)	1
 pianoblook	369669	Dark Pink & Gray (6 Suits)	1
 pianoblook	371029	4 Suits	1
 pianoblook	372079	Dark Rainbow (5 Suits)	1
+pianoblook	372527	Up or Down (5 Suits)	1
 pianoblook	372965	Black & Dark Rainbow (6 Suits)	1
 pianoblook	372983	Black & Dark Rainbow (6 Suits)	1
 pianoblook	373504	Gray (5 Suits)	1
@@ -1781,7 +1773,6 @@ pianoblook	400996	No Variant	1
 pianoblook	401414	Null (5 Suits)	1
 pianoblook	402738	Null (3 Suits)	1
 pianoblook	402882	Rainbow & Pink (6 Suits)	1
-pianoblook	402899	Up or Down & Prism (6 Suits)	1
 pianoblook	409502	Dark Prism (6 Suits)	1
 pianoblook	410382	Light-Pink-Fives & Brown (4 Suits)	1
 pianoblook	410402	Light-Pink-Fives & Muddy Rainbow (5 Suits)	1
@@ -1866,6 +1857,7 @@ pianoblook	509775	Rainbow-Fives & Dark Brown (6 Suits)	1
 pianoblook	509798	Rainbow-Fives & Dark Brown (6 Suits)	1
 pianoblook	509822	Light Pink & Prism (6 Suits)	1
 pianoblook	510578	Black (5 Suits)	1
+pianoblook	510637	Up or Down & Rainbow (6 Suits)	1
 pianoblook	510876	Pink & Dark Omni (6 Suits)	1
 pianoblook	510917	Dark Pink & Dark Null (6 Suits)	1
 pianoblook	511354	Black & Null (6 Suits)	1
@@ -1899,6 +1891,7 @@ pianoblook	538507	Black & Light Pink (6 Suits)	1
 pianoblook	539378	Rainbow & Dark Pink (6 Suits)	1
 pianoblook	539541	Pink & Muddy Rainbow (6 Suits)	1
 pianoblook	539589	White-Ones (5 Suits)	1
+pianoblook	540177	Up or Down & Light Pink (6 Suits)	1
 pianoblook	540475	Muddy Rainbow & Prism (6 Suits)	1
 pianoblook	540516	Rainbow & Muddy Rainbow (3 Suits)	1
 pianoblook	540541	White & Omni (6 Suits)	1
@@ -1924,7 +1917,6 @@ pianoblook	547416	Rainbow & Dark Brown (5 Suits)	1
 pianoblook	549397	Pink & Prism (5 Suits)	1
 pianoblook	549467	Duck (3 Suits)	1
 pianoblook	549875	White & Omni (4 Suits)	1
-pianoblook	549917	Up or Down & White (6 Suits)	1
 pianoblook	549972	Black & Dark Rainbow (6 Suits)	1
 pianoblook	550383	Dark Pink & Dark Omni (6 Suits)	1
 pianoblook	555537	Rainbow & Light Pink (5 Suits)	1
@@ -1961,7 +1953,6 @@ pianoblook	580588	No Variant	1
 pianoblook	580682	Omni (5 Suits)	1
 pianoblook	581721	Light Pink & Dark Prism (6 Suits)	1
 pianoblook	581730	Rainbow-Fives & White (6 Suits)	1
-pianoblook	582313	Up or Down & White (6 Suits)	1
 pianoblook	582656	Muddy-Rainbow-Ones & Black (6 Suits)	1
 pianoblook	582694	No Variant	1
 pianoblook	584762	Clue Starved & Brown (5 Suits)	1
@@ -2122,6 +2113,7 @@ pianoblook	671266	White-Ones (6 Suits)	1
 pianoblook	671778	No Variant	1
 pianoblook	672363	Brown & Prism (5 Suits)	1
 pianoblook	672388	White & Brown (5 Suits)	1
+pianoblook	672407	Up or Down & Rainbow (6 Suits)	1
 pianoblook	673236	Rainbow-Fives (6 Suits)	1
 pianoblook	675035	Brown-Ones (5 Suits)	1
 pianoblook	675346	White & Dark Omni (6 Suits)	1
@@ -2178,9 +2170,9 @@ pianoblook	718482	No Variant	1
 pianoblook	718513	No Variant	1
 pianoblook	721050	Clue Starved (5 Suits)	1
 pianoblook	721251	Clue Starved (5 Suits)	1
-pianoblook	732667	Up or Down & Pink (5 Suits)	1
 pianoblook	732696	Up or Down & Pink (5 Suits)	1
 pianoblook	732794	Ambiguous & Black (5 Suits)	1
+pianoblook	744324	Up or Down & Prism (5 Suits)	1
 pianoblook	751615	Clue Starved & Omni (6 Suits)	1
 pianoblook	753448	No Variant	1
 pianoblook	753567	Light Pink & Dark Prism (5 Suits)	1
@@ -2474,6 +2466,7 @@ pianoblook	258034	Black (5 Suits)	0
 pianoblook	258049	Black (5 Suits)	0
 pianoblook	258113	Pink (3 Suits)	0
 pianoblook	258154	No Variant	0
+pianoblook	258367	Up or Down (5 Suits)	0
 pianoblook	258546	Black (5 Suits)	0
 pianoblook	258995	Muddy Rainbow (3 Suits)	0
 pianoblook	258998	Muddy Rainbow (3 Suits)	0
@@ -2648,6 +2641,7 @@ pianoblook	318806	Cocoa Rainbow (5 Suits)	0
 pianoblook	319211	Duck (5 Suits)	0
 pianoblook	319263	No Variant	0
 pianoblook	320003	Duck (4 Suits)	0
+pianoblook	320410	Up or Down & Prism (5 Suits)	0
 pianoblook	320922	Rainbow-Ones & Pink (6 Suits)	0
 pianoblook	321563	Pink (6 Suits)	0
 pianoblook	321817	Black & Omni (6 Suits)	0
@@ -2767,6 +2761,7 @@ pianoblook	402705	Null (3 Suits)	0
 pianoblook	402727	Null (3 Suits)	0
 pianoblook	402757	Null (3 Suits)	0
 pianoblook	402787	Null (3 Suits)	0
+pianoblook	402899	Up or Down & Prism (6 Suits)	0
 pianoblook	402915	Ambiguous & Black (5 Suits)	0
 pianoblook	402938	Ambiguous & Black (5 Suits)	0
 pianoblook	403542	Dual-Color Mix	0
@@ -2944,6 +2939,7 @@ pianoblook	549318	White & Brown (5 Suits)	0
 pianoblook	549369	Pink & Prism (5 Suits)	0
 pianoblook	549537	Clue Starved & Null (5 Suits)	0
 pianoblook	549889	White & Omni (4 Suits)	0
+pianoblook	549917	Up or Down & White (6 Suits)	0
 pianoblook	550360	Dark Pink & Dark Omni (6 Suits)	0
 pianoblook	550436	Dark Pink & Dark Omni (6 Suits)	0
 pianoblook	555513	Rainbow & Dark Pink (6 Suits)	0
@@ -2974,6 +2970,7 @@ pianoblook	575579	Rainbow & Prism (4 Suits)	0
 pianoblook	577791	White & Dark Pink (6 Suits)	0
 pianoblook	577858	Rainbow & Dark Prism (6 Suits)	0
 pianoblook	577866	Pink & Cocoa Rainbow (5 Suits)	0
+pianoblook	578020	Up or Down (6 Suits)	0
 pianoblook	578052	Rainbow & Dark Prism (5 Suits)	0
 pianoblook	578065	Rainbow & Light Pink (5 Suits)	0
 pianoblook	580078	Brown (5 Suits)	0
@@ -2984,6 +2981,7 @@ pianoblook	580771	Dark Brown (6 Suits)	0
 pianoblook	580985	Omni (5 Suits)	0
 pianoblook	581006	Omni (5 Suits)	0
 pianoblook	582117	Dark Brown (6 Suits)	0
+pianoblook	582313	Up or Down & White (6 Suits)	0
 pianoblook	582681	No Variant	0
 pianoblook	582739	Black & Rainbow (6 Suits)	0
 pianoblook	585038	Omni (5 Suits)	0
@@ -3167,6 +3165,7 @@ pianoblook	669898	Rainbow & Null (5 Suits)	0
 pianoblook	670242	Brown & Prism (5 Suits)	0
 pianoblook	670269	Rainbow & Prism (5 Suits)	0
 pianoblook	671128	Clue Starved & Pink (5 Suits)	0
+pianoblook	671187	Up or Down & Prism (6 Suits)	0
 pianoblook	671222	Rainbow & Prism (5 Suits)	0
 pianoblook	672344	White & Dark Pink (6 Suits)	0
 pianoblook	672370	Brown & Prism (5 Suits)	0
@@ -3265,6 +3264,7 @@ pianoblook	721029	Clue Starved (5 Suits)	0
 pianoblook	721076	Brown & Null (5 Suits)	0
 pianoblook	721119	Brown & Null (5 Suits)	0
 pianoblook	721284	Clue Starved & Pink (6 Suits)	0
+pianoblook	732667	Up or Down & Pink (5 Suits)	0
 pianoblook	750733	No Variant	0
 pianoblook	751663	Black & Muddy Rainbow (6 Suits)	0
 pianoblook	753466	No Variant	0

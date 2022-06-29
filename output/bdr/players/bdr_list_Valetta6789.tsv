@@ -1,16 +1,11 @@
 Player	Game id	Variant	BDR
 Valetta6789	56270	6 Suits	7
-Valetta6789	65009	Up or Down & White (6 Suits)	7
 Valetta6789	178176	Black (6 Suits)	7
-Valetta6789	457693	Up or Down & Prism (6 Suits)	7
 Valetta6789	662505	Clue Starved & Omni (6 Suits)	7
 Valetta6789	52784	6 Suits	6
 Valetta6789	57771	Black & White (6 Suits)	6
-Valetta6789	57784	Up or Down (5 Suits)	6
 Valetta6789	63033	Gray Pink (6 Suits)	6
 Valetta6789	100221	Ambiguous (6 Suits)	6
-Valetta6789	131599	Up or Down & Muddy Rainbow (6 Suits)	6
-Valetta6789	131603	Up or Down & Muddy Rainbow (6 Suits)	6
 Valetta6789	196739	Pink-Fives & Dark Brown (6 Suits)	6
 Valetta6789	489531	White & Prism (6 Suits)	6
 Valetta6789	496337	Rainbow-Ones & White (6 Suits)	6
@@ -21,13 +16,10 @@ Valetta6789	54979	White (6 Suits)	5
 Valetta6789	56559	White (6 Suits)	5
 Valetta6789	56803	White (6 Suits)	5
 Valetta6789	58136	Pink-Fives & Rainbow (5 Suits)	5
-Valetta6789	59513	Up or Down & Rainbow (6 Suits)	5
 Valetta6789	60429	Rainbow & Pink (6 Suits)	5
 Valetta6789	61642	No Variant	5
 Valetta6789	62108	Alternating Clues (6 Suits)	5
-Valetta6789	64496	Up or Down (6 Suits)	5
 Valetta6789	65285	Duck (6 Suits)	5
-Valetta6789	65832	Up or Down & Omni (5 Suits)	5
 Valetta6789	70582	Throw It in a Hole (6 Suits)	5
 Valetta6789	72803	Dark Brown (6 Suits)	5
 Valetta6789	73190	Extremely Ambiguous (6 Suits)	5
@@ -35,9 +27,6 @@ Valetta6789	73694	Black & White (6 Suits)	5
 Valetta6789	74080	Pink & Null (6 Suits)	5
 Valetta6789	74940	Rainbow (5 Suits)	5
 Valetta6789	75619	Rainbow (6 Suits)	5
-Valetta6789	77347	Up or Down & Pink (5 Suits)	5
-Valetta6789	86741	Up or Down & Omni (5 Suits)	5
-Valetta6789	86749	Up or Down & Omni (5 Suits)	5
 Valetta6789	143735	Omni-Ones (5 Suits)	5
 Valetta6789	202698	Rainbow & Light Pink (6 Suits)	5
 Valetta6789	217309	Rainbow (6 Suits)	5
@@ -50,7 +39,7 @@ Valetta6789	407209	Pink-Ones & White (6 Suits)	5
 Valetta6789	409805	Dual-Color Mix	5
 Valetta6789	446643	Throw It in a Hole (6 Suits)	5
 Valetta6789	446716	Color Mute (6 Suits)	5
-Valetta6789	521102	Up or Down & Prism (5 Suits)	5
+Valetta6789	457693	Up or Down & Prism (6 Suits)	5
 Valetta6789	539254	Rainbow-Ones & Gray (6 Suits)	5
 Valetta6789	541437	Muddy Rainbow & Prism (5 Suits)	5
 Valetta6789	579252	White-Fives & Rainbow (5 Suits)	5
@@ -67,19 +56,19 @@ Valetta6789	56799	Ambiguous & Rainbow (5 Suits)	4
 Valetta6789	56939	Rainbow & White (5 Suits)	4
 Valetta6789	57071	No Variant	4
 Valetta6789	57891	Dark Rainbow (6 Suits)	4
-Valetta6789	58151	Up or Down (6 Suits)	4
 Valetta6789	58950	Rainbow & Dark Pink (6 Suits)	4
-Valetta6789	59104	Up or Down (6 Suits)	4
+Valetta6789	59513	Up or Down & Rainbow (6 Suits)	4
 Valetta6789	59514	Pink (6 Suits)	4
 Valetta6789	60431	Rainbow & Pink (6 Suits)	4
 Valetta6789	60436	White (5 Suits)	4
 Valetta6789	62124	Pink & Dark Rainbow (6 Suits)	4
 Valetta6789	62975	Up or Down & Rainbow (6 Suits)	4
 Valetta6789	63165	Rainbow & Dark Omni (6 Suits)	4
-Valetta6789	63470	Up or Down & Brown (5 Suits)	4
+Valetta6789	65009	Up or Down & White (6 Suits)	4
 Valetta6789	65127	Brown (6 Suits)	4
 Valetta6789	65284	Duck (6 Suits)	4
 Valetta6789	65307	Duck (6 Suits)	4
+Valetta6789	65832	Up or Down & Omni (5 Suits)	4
 Valetta6789	68082	White & Brown (6 Suits)	4
 Valetta6789	70573	Ambiguous & Dual-Color	4
 Valetta6789	71781	Throw It in a Hole (6 Suits)	4
@@ -94,7 +83,7 @@ Valetta6789	74919	Black & Pink (6 Suits)	4
 Valetta6789	77345	Up or Down & Pink (5 Suits)	4
 Valetta6789	79481	White & Null (6 Suits)	4
 Valetta6789	85952	Up or Down (6 Suits)	4
-Valetta6789	86748	Up or Down & Omni (5 Suits)	4
+Valetta6789	86749	Up or Down & Omni (5 Suits)	4
 Valetta6789	89542	No Variant	4
 Valetta6789	97949	Rainbow & Light Pink (6 Suits)	4
 Valetta6789	97970	Rainbow & Light Pink (6 Suits)	4
@@ -104,7 +93,6 @@ Valetta6789	156248	Light Pink & Gray (5 Suits)	4
 Valetta6789	178190	Black (6 Suits)	4
 Valetta6789	186744	Clue Starved (6 Suits)	4
 Valetta6789	199369	Rainbow Reversed (6 Suits)	4
-Valetta6789	237646	Up or Down (5 Suits)	4
 Valetta6789	240644	Rainbow (6 Suits)	4
 Valetta6789	255391	6 Suits	4
 Valetta6789	257067	Dual-Color (6 Suits)	4
@@ -128,8 +116,6 @@ Valetta6789	519413	Rainbow & Gray Pink (6 Suits)	4
 Valetta6789	519420	Rainbow & Gray Pink (6 Suits)	4
 Valetta6789	522014	Brown & Muddy Rainbow (6 Suits)	4
 Valetta6789	542829	Pink & Gray Pink (6 Suits)	4
-Valetta6789	546724	Up or Down & Pink (6 Suits)	4
-Valetta6789	569099	Up or Down & Brown (6 Suits)	4
 Valetta6789	577172	Rainbow & Dark Omni (6 Suits)	4
 Valetta6789	631934	White-Fives (6 Suits)	4
 Valetta6789	637746	Muddy-Rainbow-Fives & Prism (6 Suits)	4
@@ -160,14 +146,12 @@ Valetta6789	57431	Black & White (6 Suits)	3
 Valetta6789	57440	No Variant	3
 Valetta6789	57713	Black (6 Suits)	3
 Valetta6789	57778	Up or Down (5 Suits)	3
+Valetta6789	57784	Up or Down (5 Suits)	3
 Valetta6789	57873	Omni (6 Suits)	3
-Valetta6789	57887	Up or Down & Rainbow (6 Suits)	3
 Valetta6789	57905	Gray (5 Suits)	3
 Valetta6789	58134	Pink (6 Suits)	3
 Valetta6789	58135	Pink-Fives & Rainbow (5 Suits)	3
-Valetta6789	58154	Up or Down (6 Suits)	3
 Valetta6789	58964	6 Suits	3
-Valetta6789	59106	Up or Down & White (5 Suits)	3
 Valetta6789	59134	Muddy Rainbow (6 Suits)	3
 Valetta6789	60270	Dark Pink (5 Suits)	3
 Valetta6789	60283	White (6 Suits)	3
@@ -179,16 +163,14 @@ Valetta6789	61104	Rainbow & Pink (5 Suits)	3
 Valetta6789	61360	Dark Brown (5 Suits)	3
 Valetta6789	61641	No Variant	3
 Valetta6789	61649	No Variant	3
-Valetta6789	61745	Up or Down & Rainbow (6 Suits)	3
 Valetta6789	62088	6 Suits	3
 Valetta6789	62102	Pink (6 Suits)	3
 Valetta6789	62808	Black & Brown (6 Suits)	3
 Valetta6789	63186	Rainbow & Dark Brown (5 Suits)	3
 Valetta6789	63309	Rainbow & White (6 Suits)	3
-Valetta6789	63643	Up or Down & Omni (6 Suits)	3
-Valetta6789	63895	Up or Down & Pink (6 Suits)	3
 Valetta6789	64019	Rainbow & Brown (6 Suits)	3
 Valetta6789	64419	Black (6 Suits)	3
+Valetta6789	64496	Up or Down (6 Suits)	3
 Valetta6789	64521	Black & Rainbow (6 Suits)	3
 Valetta6789	64613	6 Suits	3
 Valetta6789	64985	Rainbow & Omni (4 Suits)	3
@@ -224,7 +206,6 @@ Valetta6789	73308	Black & Rainbow (6 Suits)	3
 Valetta6789	73738	Pink (5 Suits)	3
 Valetta6789	73740	Pink (5 Suits)	3
 Valetta6789	73831	Pink & White (6 Suits)	3
-Valetta6789	73846	Up or Down & Brown (6 Suits)	3
 Valetta6789	74201	Null (5 Suits)	3
 Valetta6789	74222	Black & Pink (6 Suits)	3
 Valetta6789	74332	Black & Pink (6 Suits)	3
@@ -233,7 +214,6 @@ Valetta6789	74629	Omni & Dark Pink (6 Suits)	3
 Valetta6789	75538	Black & Rainbow (6 Suits)	3
 Valetta6789	76411	White (5 Suits)	3
 Valetta6789	77105	Gray (6 Suits)	3
-Valetta6789	77349	Up or Down (6 Suits)	3
 Valetta6789	77479	Omni & Dark Pink (6 Suits)	3
 Valetta6789	77480	Omni & Dark Pink (5 Suits)	3
 Valetta6789	77486	No Variant	3
@@ -248,31 +228,27 @@ Valetta6789	85942	No Variant	3
 Valetta6789	86379	Rainbow & Dark Omni (6 Suits)	3
 Valetta6789	86392	Rainbow & Dark Omni (5 Suits)	3
 Valetta6789	86718	Null & Gray (5 Suits)	3
-Valetta6789	92142	Up or Down & Omni (6 Suits)	3
+Valetta6789	86741	Up or Down & Omni (5 Suits)	3
 Valetta6789	92165	Dual-Color Mix	3
 Valetta6789	92731	Omni & Dark Rainbow (5 Suits)	3
-Valetta6789	92834	Up or Down & Omni (5 Suits)	3
 Valetta6789	94492	No Variant	3
 Valetta6789	96411	Black & Brown (6 Suits)	3
 Valetta6789	97105	Brown-Ones & Dark Omni (6 Suits)	3
 Valetta6789	107099	Throw It in a Hole & White (6 Suits)	3
 Valetta6789	107158	Throw It in a Hole & White (6 Suits)	3
-Valetta6789	122063	Up or Down (6 Suits)	3
 Valetta6789	130868	Black (6 Suits)	3
-Valetta6789	143814	Up or Down & Muddy Rainbow (6 Suits)	3
+Valetta6789	131599	Up or Down & Muddy Rainbow (6 Suits)	3
+Valetta6789	131603	Up or Down & Muddy Rainbow (6 Suits)	3
 Valetta6789	154819	White & Null (6 Suits)	3
 Valetta6789	155855	Brown-Ones (4 Suits)	3
 Valetta6789	155870	Brown-Ones (5 Suits)	3
 Valetta6789	155880	Brown-Ones (6 Suits)	3
 Valetta6789	159098	Light Pink & Gray (6 Suits)	3
-Valetta6789	160232	Up or Down & Muddy Rainbow (5 Suits)	3
-Valetta6789	161734	Up or Down & Muddy Rainbow (5 Suits)	3
 Valetta6789	178150	Black (6 Suits)	3
 Valetta6789	178210	Black (6 Suits)	3
 Valetta6789	193599	Black & Dark Pink (6 Suits)	3
 Valetta6789	217293	Rainbow (6 Suits)	3
 Valetta6789	218242	Rainbow (5 Suits)	3
-Valetta6789	223146	Up or Down & Rainbow (5 Suits)	3
 Valetta6789	239245	Muddy Rainbow (5 Suits)	3
 Valetta6789	267180	Brown & Gray (5 Suits)	3
 Valetta6789	268915	Brown (6 Suits)	3
@@ -290,7 +266,6 @@ Valetta6789	326624	Duck (5 Suits)	3
 Valetta6789	327342	Duck (5 Suits)	3
 Valetta6789	328100	Duck (5 Suits)	3
 Valetta6789	333535	Prism (6 Suits)	3
-Valetta6789	336039	Up or Down & Pink (5 Suits)	3
 Valetta6789	339044	Rainbow & Light Pink (5 Suits)	3
 Valetta6789	339049	Rainbow & Light Pink (5 Suits)	3
 Valetta6789	348851	Rainbow-Ones & Prism (6 Suits)	3
@@ -301,29 +276,25 @@ Valetta6789	441024	Rainbow-Ones & Black (6 Suits)	3
 Valetta6789	441040	Rainbow-Ones & Black (6 Suits)	3
 Valetta6789	441092	White & Prism (6 Suits)	3
 Valetta6789	444089	Rainbow & Gray Pink (5 Suits)	3
-Valetta6789	445807	Up or Down & Light Pink (5 Suits)	3
 Valetta6789	445940	Pink-Fives & Muddy Rainbow (5 Suits)	3
-Valetta6789	445984	Up or Down & Muddy Rainbow (6 Suits)	3
 Valetta6789	446659	Throw It in a Hole (6 Suits)	3
 Valetta6789	446682	Throw It in a Hole (6 Suits)	3
 Valetta6789	446708	Color Mute (6 Suits)	3
 Valetta6789	446718	Color Mute (6 Suits)	3
 Valetta6789	457787	White-Fives & Pink (6 Suits)	3
 Valetta6789	464829	White & Muddy Rainbow (5 Suits)	3
-Valetta6789	465814	Up or Down & Prism (6 Suits)	3
-Valetta6789	465823	Up or Down & Prism (6 Suits)	3
 Valetta6789	469358	Rainbow & Gray Pink (6 Suits)	3
 Valetta6789	480046	Dark Pink (6 Suits)	3
 Valetta6789	492972	Rainbow-Fives & Dark Brown (6 Suits)	3
-Valetta6789	501056	Up or Down & Omni (6 Suits)	3
 Valetta6789	506827	Muddy Rainbow & Dark Prism (6 Suits)	3
 Valetta6789	511463	Black & Null (5 Suits)	3
 Valetta6789	512238	Null & Light Pink (6 Suits)	3
 Valetta6789	521099	Up or Down & Prism (5 Suits)	3
+Valetta6789	521102	Up or Down & Prism (5 Suits)	3
 Valetta6789	528581	Brown & Prism (6 Suits)	3
 Valetta6789	533784	Light Pink & Prism (6 Suits)	3
-Valetta6789	541050	Up or Down (6 Suits)	3
 Valetta6789	542851	Pink & Gray Pink (6 Suits)	3
+Valetta6789	546724	Up or Down & Pink (6 Suits)	3
 Valetta6789	547148	Omni (5 Suits)	3
 Valetta6789	552266	Omni (5 Suits)	3
 Valetta6789	579353	Black & Omni (6 Suits)	3
@@ -341,7 +312,6 @@ Valetta6789	714021	Pink (5 Suits)	3
 Valetta6789	719281	6 Suits	3
 Valetta6789	729788	White-Fives & White (5 Suits)	3
 Valetta6789	773392	No Variant	3
-Valetta6789	781004	Up or Down (6 Suits)	3
 Valetta6789	782677	Muddy Rainbow & Gray Pink (6 Suits)	3
 Valetta6789	784482	No Variant	3
 Valetta6789	784524	Null-Ones & Rainbow (5 Suits)	3
@@ -393,10 +363,9 @@ Valetta6789	57306	Cow & Pig (3 Suits)	2
 Valetta6789	57310	Black & Brown (6 Suits)	2
 Valetta6789	57327	Brown (5 Suits)	2
 Valetta6789	57706	Black (6 Suits)	2
-Valetta6789	57777	Up or Down (5 Suits)	2
 Valetta6789	57781	Up or Down (5 Suits)	2
 Valetta6789	57880	Muddy Rainbow (6 Suits)	2
-Valetta6789	57881	Up or Down & Rainbow (6 Suits)	2
+Valetta6789	57887	Up or Down & Rainbow (6 Suits)	2
 Valetta6789	58006	Rainbow (4 Suits)	2
 Valetta6789	58009	White (5 Suits)	2
 Valetta6789	58044	Black (5 Suits)	2
@@ -405,7 +374,7 @@ Valetta6789	58126	Black & Rainbow (5 Suits)	2
 Valetta6789	58133	Pink (6 Suits)	2
 Valetta6789	58141	Rainbow & White (6 Suits)	2
 Valetta6789	58143	Pink & White (6 Suits)	2
-Valetta6789	58157	Up or Down (6 Suits)	2
+Valetta6789	58154	Up or Down (6 Suits)	2
 Valetta6789	58186	Alternating Clues (5 Suits)	2
 Valetta6789	58194	Omni (6 Suits)	2
 Valetta6789	58605	No Variant	2
@@ -413,10 +382,6 @@ Valetta6789	58622	No Variant	2
 Valetta6789	58630	Black & White (5 Suits)	2
 Valetta6789	58962	Dark Brown (6 Suits)	2
 Valetta6789	58963	Dark Brown (6 Suits)	2
-Valetta6789	59105	Up or Down & White (5 Suits)	2
-Valetta6789	59108	Up or Down & White (5 Suits)	2
-Valetta6789	59153	Up or Down (6 Suits)	2
-Valetta6789	59511	Up or Down & Rainbow (6 Suits)	2
 Valetta6789	60278	Dark Pink (5 Suits)	2
 Valetta6789	60282	White (6 Suits)	2
 Valetta6789	60353	No Variant	2
@@ -445,7 +410,8 @@ Valetta6789	63029	White & Dark Rainbow (6 Suits)	2
 Valetta6789	63035	Gray & Dark Brown (6 Suits)	2
 Valetta6789	63151	Throw It in a Hole (5 Suits)	2
 Valetta6789	63204	Black & White (6 Suits)	2
-Valetta6789	63469	Up or Down & Brown (5 Suits)	2
+Valetta6789	63470	Up or Down & Brown (5 Suits)	2
+Valetta6789	63643	Up or Down & Omni (6 Suits)	2
 Valetta6789	63687	Dark Omni (6 Suits)	2
 Valetta6789	63721	Dark Omni (6 Suits)	2
 Valetta6789	63904	Dark Brown (6 Suits)	2
@@ -455,7 +421,6 @@ Valetta6789	64071	Dark Omni (6 Suits)	2
 Valetta6789	64415	Dark Rainbow (6 Suits)	2
 Valetta6789	64520	Black & Rainbow (6 Suits)	2
 Valetta6789	64605	4 Suits	2
-Valetta6789	64989	Up or Down (5 Suits)	2
 Valetta6789	65002	Up or Down & White (5 Suits)	2
 Valetta6789	65012	Dual-Color (6 Suits)	2
 Valetta6789	65033	Dual-Color & Rainbow (6 Suits)	2
@@ -549,6 +514,7 @@ Valetta6789	82745	No Variant	2
 Valetta6789	85930	Pink & Dark Brown (6 Suits)	2
 Valetta6789	85932	Pink & Dark Brown (6 Suits)	2
 Valetta6789	85948	No Variant	2
+Valetta6789	86748	Up or Down & Omni (5 Suits)	2
 Valetta6789	87490	Rainbow (6 Suits)	2
 Valetta6789	91883	Rainbow & Dark Null (6 Suits)	2
 Valetta6789	92122	Pink-Fives & Rainbow (6 Suits)	2
@@ -571,6 +537,7 @@ Valetta6789	115993	Up or Down (5 Suits)	2
 Valetta6789	119175	Omni (5 Suits)	2
 Valetta6789	121995	Up or Down (6 Suits)	2
 Valetta6789	122023	Up or Down (6 Suits)	2
+Valetta6789	122063	Up or Down (6 Suits)	2
 Valetta6789	122995	Dark Omni (5 Suits)	2
 Valetta6789	124464	Black (6 Suits)	2
 Valetta6789	129264	Null-Ones (5 Suits)	2
@@ -582,9 +549,7 @@ Valetta6789	154604	Rainbow-Ones & White (5 Suits)	2
 Valetta6789	155877	Brown-Ones (6 Suits)	2
 Valetta6789	158442	Null-Ones (5 Suits)	2
 Valetta6789	158455	Omni (5 Suits)	2
-Valetta6789	160241	Up or Down & Light Pink (6 Suits)	2
 Valetta6789	160756	Up or Down & Pink (5 Suits)	2
-Valetta6789	163336	Up or Down (5 Suits)	2
 Valetta6789	173141	Omni-Ones & Null (5 Suits)	2
 Valetta6789	177005	Throw It in a Hole (5 Suits)	2
 Valetta6789	177091	Clue Starved (5 Suits)	2
@@ -608,9 +573,8 @@ Valetta6789	218266	Rainbow (6 Suits)	2
 Valetta6789	218276	Rainbow (6 Suits)	2
 Valetta6789	222354	Rainbow (6 Suits)	2
 Valetta6789	223154	White Reversed (6 Suits)	2
-Valetta6789	237585	Up or Down (5 Suits)	2
 Valetta6789	237620	Up or Down (5 Suits)	2
-Valetta6789	237675	Up or Down (5 Suits)	2
+Valetta6789	237646	Up or Down (5 Suits)	2
 Valetta6789	240724	Pink-Ones (5 Suits)	2
 Valetta6789	245234	Cocoa Rainbow (6 Suits)	2
 Valetta6789	247151	Gray Reversed (5 Suits)	2
@@ -655,6 +619,7 @@ Valetta6789	334278	Prism (6 Suits)	2
 Valetta6789	334299	Prism (6 Suits)	2
 Valetta6789	335812	Prism (6 Suits)	2
 Valetta6789	335860	Prism (6 Suits)	2
+Valetta6789	336039	Up or Down & Pink (5 Suits)	2
 Valetta6789	337725	Prism (6 Suits)	2
 Valetta6789	337745	Prism (6 Suits)	2
 Valetta6789	338286	Prism (6 Suits)	2
@@ -693,17 +658,16 @@ Valetta6789	483628	Light Pink & Gray (5 Suits)	2
 Valetta6789	483641	Light Pink & Gray (5 Suits)	2
 Valetta6789	489571	Prism & Dark Rainbow (5 Suits)	2
 Valetta6789	490397	White & Dark Pink (5 Suits)	2
-Valetta6789	501022	Up or Down & Omni (6 Suits)	2
+Valetta6789	501056	Up or Down & Omni (6 Suits)	2
 Valetta6789	514008	Prism & Gray Pink (6 Suits)	2
 Valetta6789	522028	Brown & Muddy Rainbow (6 Suits)	2
 Valetta6789	526097	Prism & Cocoa Rainbow (6 Suits)	2
-Valetta6789	527146	Up or Down & Prism (5 Suits)	2
 Valetta6789	528870	Dark Prism Reversed (5 Suits)	2
 Valetta6789	528896	Dark Prism Reversed (5 Suits)	2
 Valetta6789	530855	Gray Reversed (6 Suits)	2
 Valetta6789	530899	Omni & Light Pink (6 Suits)	2
-Valetta6789	533754	Up or Down & Rainbow (6 Suits)	2
 Valetta6789	539252	Rainbow & Gray Pink (6 Suits)	2
+Valetta6789	541050	Up or Down (6 Suits)	2
 Valetta6789	541398	Muddy Rainbow & Prism (6 Suits)	2
 Valetta6789	542622	Brown & Light Pink (6 Suits)	2
 Valetta6789	542663	Omni (5 Suits)	2
@@ -718,6 +682,7 @@ Valetta6789	552314	Omni (5 Suits)	2
 Valetta6789	552327	Omni (5 Suits)	2
 Valetta6789	552398	Omni (5 Suits)	2
 Valetta6789	569074	Up or Down & Brown (6 Suits)	2
+Valetta6789	569099	Up or Down & Brown (6 Suits)	2
 Valetta6789	579260	White-Fives & Rainbow (5 Suits)	2
 Valetta6789	582461	Rainbow-Ones & Brown (4 Suits)	2
 Valetta6789	583702	No Variant	2
@@ -747,12 +712,12 @@ Valetta6789	691266	Rainbow & Light Pink (4 Suits)	2
 Valetta6789	696287	Dark Rainbow (6 Suits)	2
 Valetta6789	699519	Pink-Ones & Dark Rainbow (6 Suits)	2
 Valetta6789	719256	6 Suits	2
-Valetta6789	729161	Up or Down (5 Suits)	2
 Valetta6789	737758	White-Ones & Prism (6 Suits)	2
 Valetta6789	759148	Rainbow-Fives & Dark Rainbow (6 Suits)	2
 Valetta6789	759153	Rainbow-Fives & Dark Rainbow (6 Suits)	2
 Valetta6789	759462	Pink & Prism (6 Suits)	2
 Valetta6789	780882	Dual-Color (6 Suits)	2
+Valetta6789	781004	Up or Down (6 Suits)	2
 Valetta6789	781945	No Variant	2
 Valetta6789	785045	White & Dark Null (6 Suits)	2
 Valetta6789	791513	Rainbow (6 Suits)	2
@@ -816,14 +781,16 @@ Valetta6789	57686	Black & White (5 Suits)	1
 Valetta6789	57688	Black & White (5 Suits)	1
 Valetta6789	57768	Black & White (6 Suits)	1
 Valetta6789	57775	Up or Down (5 Suits)	1
+Valetta6789	57777	Up or Down (5 Suits)	1
 Valetta6789	57780	Up or Down (5 Suits)	1
+Valetta6789	57881	Up or Down & Rainbow (6 Suits)	1
 Valetta6789	57913	Gray (5 Suits)	1
 Valetta6789	58008	Rainbow (4 Suits)	1
 Valetta6789	58041	Rainbow (4 Suits)	1
 Valetta6789	58042	Black (5 Suits)	1
 Valetta6789	58048	Black & White (6 Suits)	1
-Valetta6789	58053	Up or Down & Omni (6 Suits)	1
 Valetta6789	58140	Alternating Clues (4 Suits)	1
+Valetta6789	58151	Up or Down (6 Suits)	1
 Valetta6789	58193	White & Brown (4 Suits)	1
 Valetta6789	58360	White (6 Suits)	1
 Valetta6789	58362	White (6 Suits)	1
@@ -835,8 +802,12 @@ Valetta6789	58616	No Variant	1
 Valetta6789	58635	Pink-Fives (4 Suits)	1
 Valetta6789	58636	Pink-Fives (5 Suits)	1
 Valetta6789	58956	Dark Brown (6 Suits)	1
+Valetta6789	59105	Up or Down & White (5 Suits)	1
+Valetta6789	59106	Up or Down & White (5 Suits)	1
 Valetta6789	59135	Muddy Rainbow (6 Suits)	1
 Valetta6789	59140	Muddy Rainbow (6 Suits)	1
+Valetta6789	59153	Up or Down (6 Suits)	1
+Valetta6789	59511	Up or Down & Rainbow (6 Suits)	1
 Valetta6789	60272	Dark Pink (5 Suits)	1
 Valetta6789	60281	White (6 Suits)	1
 Valetta6789	60417	Rainbow & Brown (5 Suits)	1
@@ -852,6 +823,7 @@ Valetta6789	61359	Dark Brown (5 Suits)	1
 Valetta6789	61639	Gray & Dark Brown (6 Suits)	1
 Valetta6789	61704	Omni (4 Suits)	1
 Valetta6789	61738	White & Dark Pink (6 Suits)	1
+Valetta6789	61745	Up or Down & Rainbow (6 Suits)	1
 Valetta6789	62032	Cow & Pig (3 Suits)	1
 Valetta6789	62091	Very Ambiguous (3 Suits)	1
 Valetta6789	62107	Brown (5 Suits)	1
@@ -863,15 +835,16 @@ Valetta6789	63185	Rainbow & Dark Pink (5 Suits)	1
 Valetta6789	63458	Rainbow & White (5 Suits)	1
 Valetta6789	63460	White (6 Suits)	1
 Valetta6789	63468	Up or Down & Rainbow (5 Suits)	1
+Valetta6789	63469	Up or Down & Brown (5 Suits)	1
 Valetta6789	63645	Up or Down & Omni (6 Suits)	1
 Valetta6789	63690	Dark Omni (6 Suits)	1
 Valetta6789	63708	Dark Omni (6 Suits)	1
+Valetta6789	63895	Up or Down & Pink (6 Suits)	1
 Valetta6789	64070	Dark Omni (6 Suits)	1
 Valetta6789	64414	Rainbow (6 Suits)	1
 Valetta6789	64604	4 Suits	1
 Valetta6789	64610	6 Suits	1
 Valetta6789	64984	Rainbow & Omni (4 Suits)	1
-Valetta6789	65007	Up or Down & White (6 Suits)	1
 Valetta6789	65103	Null (6 Suits)	1
 Valetta6789	65164	Rainbow & Brown (4 Suits)	1
 Valetta6789	65168	Black (5 Suits)	1
@@ -911,10 +884,8 @@ Valetta6789	69407	Pink & Dark Rainbow (5 Suits)	1
 Valetta6789	69605	Null & Dark Omni (5 Suits)	1
 Valetta6789	69991	Black & Dark Rainbow (6 Suits)	1
 Valetta6789	70334	White & Dark Rainbow (5 Suits)	1
-Valetta6789	70340	Up or Down & Rainbow (6 Suits)	1
 Valetta6789	70571	Special Mix (5 Suits)	1
 Valetta6789	70575	Ambiguous & Dual-Color	1
-Valetta6789	70693	Up or Down & White (6 Suits)	1
 Valetta6789	70696	Pink-Fives (6 Suits)	1
 Valetta6789	70700	Black & Dark Omni (6 Suits)	1
 Valetta6789	70809	Black & Pink (5 Suits)	1
@@ -954,6 +925,7 @@ Valetta6789	73840	Dark Brown (5 Suits)	1
 Valetta6789	73841	Rainbow & White (5 Suits)	1
 Valetta6789	73842	Rainbow & White (5 Suits)	1
 Valetta6789	73845	Up or Down & Brown (6 Suits)	1
+Valetta6789	73846	Up or Down & Brown (6 Suits)	1
 Valetta6789	73933	Gray Pink (5 Suits)	1
 Valetta6789	73936	White & Dark Brown (6 Suits)	1
 Valetta6789	73941	White & Dark Brown (6 Suits)	1
@@ -986,6 +958,8 @@ Valetta6789	77101	Rainbow (5 Suits)	1
 Valetta6789	77323	Black (5 Suits)	1
 Valetta6789	77339	Black & Omni (5 Suits)	1
 Valetta6789	77344	Black & Brown (6 Suits)	1
+Valetta6789	77347	Up or Down & Pink (5 Suits)	1
+Valetta6789	77349	Up or Down (6 Suits)	1
 Valetta6789	77485	No Variant	1
 Valetta6789	77487	No Variant	1
 Valetta6789	77999	Black & Rainbow (5 Suits)	1
@@ -1014,11 +988,11 @@ Valetta6789	86389	Rainbow & Dark Omni (5 Suits)	1
 Valetta6789	86396	Rainbow & Dark Omni (5 Suits)	1
 Valetta6789	90642	Up or Down & Omni (5 Suits)	1
 Valetta6789	90645	Up or Down & Brown (5 Suits)	1
-Valetta6789	90648	Up or Down & Brown (5 Suits)	1
+Valetta6789	92142	Up or Down & Omni (6 Suits)	1
 Valetta6789	92700	Omni & Dark Rainbow (5 Suits)	1
 Valetta6789	92748	Omni & Dark Rainbow (5 Suits)	1
 Valetta6789	92794	Dark Pink (5 Suits)	1
-Valetta6789	92812	Up or Down & Omni (5 Suits)	1
+Valetta6789	92834	Up or Down & Omni (5 Suits)	1
 Valetta6789	95980	Pink & Dark Brown (6 Suits)	1
 Valetta6789	95999	Pink & Dark Brown (6 Suits)	1
 Valetta6789	96014	Extremely Ambiguous (6 Suits)	1
@@ -1047,6 +1021,7 @@ Valetta6789	136153	Pink & Omni (5 Suits)	1
 Valetta6789	136193	Pink & Muddy Rainbow (6 Suits)	1
 Valetta6789	142004	Pink (6 Suits)	1
 Valetta6789	143760	Omni-Ones (5 Suits)	1
+Valetta6789	143814	Up or Down & Muddy Rainbow (6 Suits)	1
 Valetta6789	152105	Rainbow (5 Suits)	1
 Valetta6789	153214	Pink-Ones & White (4 Suits)	1
 Valetta6789	153228	Omni-Fives & Brown (5 Suits)	1
@@ -1061,9 +1036,11 @@ Valetta6789	155844	Brown-Ones (3 Suits)	1
 Valetta6789	155848	Brown-Ones (3 Suits)	1
 Valetta6789	156192	Light Pink & Gray (5 Suits)	1
 Valetta6789	156217	Light Pink & Gray (5 Suits)	1
+Valetta6789	160241	Up or Down & Light Pink (6 Suits)	1
 Valetta6789	163242	White & Gray Pink (6 Suits)	1
 Valetta6789	163275	White & Light Pink (4 Suits)	1
 Valetta6789	163298	Muddy Rainbow & Dark Omni (6 Suits)	1
+Valetta6789	163336	Up or Down (5 Suits)	1
 Valetta6789	173192	Omni-Ones & Null (5 Suits)	1
 Valetta6789	178141	Black (6 Suits)	1
 Valetta6789	178147	Black (6 Suits)	1
@@ -1089,7 +1066,9 @@ Valetta6789	218252	Rainbow (5 Suits)	1
 Valetta6789	222156	Rainbow (6 Suits)	1
 Valetta6789	222245	Rainbow (6 Suits)	1
 Valetta6789	222463	Rainbow (6 Suits)	1
+Valetta6789	223146	Up or Down & Rainbow (5 Suits)	1
 Valetta6789	224754	Dual-Color & White (6 Suits)	1
+Valetta6789	237585	Up or Down (5 Suits)	1
 Valetta6789	239264	Muddy Rainbow (4 Suits)	1
 Valetta6789	240685	Pink-Ones (6 Suits)	1
 Valetta6789	240789	Pink-Ones (5 Suits)	1
@@ -1101,7 +1080,6 @@ Valetta6789	268132	Brown-Ones & Pink (5 Suits)	1
 Valetta6789	268147	Ambiguous & Rainbow (5 Suits)	1
 Valetta6789	269092	Muddy Rainbow & Gray Pink (6 Suits)	1
 Valetta6789	270688	Up or Down (6 Suits)	1
-Valetta6789	270689	Up or Down (6 Suits)	1
 Valetta6789	275213	Rainbow & Muddy Rainbow (5 Suits)	1
 Valetta6789	275723	No Variant	1
 Valetta6789	275845	Black & Gray Pink (6 Suits)	1
@@ -1125,7 +1103,6 @@ Valetta6789	296191	Dual-Color & Dark Rainbow (6 Suits)	1
 Valetta6789	296665	No Variant	1
 Valetta6789	296668	No Variant	1
 Valetta6789	296866	Clue Starved & Rainbow (6 Suits)	1
-Valetta6789	297544	Up or Down & Pink (6 Suits)	1
 Valetta6789	297701	Dual-Color & Pink (6 Suits)	1
 Valetta6789	297740	Clue Starved & Prism (6 Suits)	1
 Valetta6789	305589	Dark Prism (5 Suits)	1
@@ -1151,7 +1128,6 @@ Valetta6789	368139	Ambiguous & Omni (5 Suits)	1
 Valetta6789	368156	Ambiguous & Omni (5 Suits)	1
 Valetta6789	369040	Muddy Rainbow & Gray Pink (6 Suits)	1
 Valetta6789	402882	Rainbow & Pink (6 Suits)	1
-Valetta6789	402899	Up or Down & Prism (6 Suits)	1
 Valetta6789	404387	Pink & Cocoa Rainbow (6 Suits)	1
 Valetta6789	406532	Dual-Color Mix	1
 Valetta6789	406567	Dual-Color Mix	1
@@ -1174,6 +1150,7 @@ Valetta6789	444239	Black & Light Pink (5 Suits)	1
 Valetta6789	444245	Black & Light Pink (5 Suits)	1
 Valetta6789	444248	Black & Light Pink (5 Suits)	1
 Valetta6789	444256	Black & Light Pink (5 Suits)	1
+Valetta6789	445807	Up or Down & Light Pink (5 Suits)	1
 Valetta6789	445850	Pink-Fives & Muddy Rainbow (5 Suits)	1
 Valetta6789	445901	Pink-Fives & Muddy Rainbow (5 Suits)	1
 Valetta6789	446007	Up or Down & Muddy Rainbow (6 Suits)	1
@@ -1183,6 +1160,8 @@ Valetta6789	452323	Rainbow & Prism (5 Suits)	1
 Valetta6789	457742	Up or Down & Prism (6 Suits)	1
 Valetta6789	460175	Throw It in a Hole (6 Suits)	1
 Valetta6789	464866	White & Muddy Rainbow (4 Suits)	1
+Valetta6789	465814	Up or Down & Prism (6 Suits)	1
+Valetta6789	465823	Up or Down & Prism (6 Suits)	1
 Valetta6789	469481	Throw It in a Hole (6 Suits)	1
 Valetta6789	478147	Brown (6 Suits)	1
 Valetta6789	478183	Brown (6 Suits)	1
@@ -1195,6 +1174,7 @@ Valetta6789	491391	Brown-Ones & Dark Rainbow (6 Suits)	1
 Valetta6789	492993	White-Fives & Muddy Rainbow (6 Suits)	1
 Valetta6789	496320	Black & Prism (6 Suits)	1
 Valetta6789	496325	Black & Prism (6 Suits)	1
+Valetta6789	501022	Up or Down & Omni (6 Suits)	1
 Valetta6789	501095	Up or Down & Omni (6 Suits)	1
 Valetta6789	505775	Omni & Gray Pink (6 Suits)	1
 Valetta6789	507894	Null (3 Suits)	1
@@ -1211,10 +1191,10 @@ Valetta6789	524329	Gray (5 Suits)	1
 Valetta6789	524343	Gray (5 Suits)	1
 Valetta6789	524451	Gray (5 Suits)	1
 Valetta6789	524507	Gray (5 Suits)	1
+Valetta6789	527146	Up or Down & Prism (5 Suits)	1
 Valetta6789	527169	Dark Prism Reversed (5 Suits)	1
 Valetta6789	528868	Dark Prism Reversed (5 Suits)	1
 Valetta6789	528942	Pink & Prism (6 Suits)	1
-Valetta6789	530822	Up or Down & Muddy Rainbow (6 Suits)	1
 Valetta6789	530838	Gray Reversed (6 Suits)	1
 Valetta6789	530939	Omni & Light Pink (6 Suits)	1
 Valetta6789	534742	Dark Rainbow Reversed (6 Suits)	1
@@ -1284,6 +1264,7 @@ Valetta6789	691257	Light Pink (4 Suits)	1
 Valetta6789	719243	Dual-Color (5 Suits)	1
 Valetta6789	719259	6 Suits	1
 Valetta6789	729103	No Variant	1
+Valetta6789	729161	Up or Down (5 Suits)	1
 Valetta6789	729779	Light-Pink-Fives & Muddy Rainbow (6 Suits)	1
 Valetta6789	729783	Reversed (3 Suits)	1
 Valetta6789	730616	Black (5 Suits)	1
@@ -1363,11 +1344,13 @@ Valetta6789	57468	No Variant	0
 Valetta6789	57482	No Variant	0
 Valetta6789	57715	Pink (5 Suits)	0
 Valetta6789	57910	Gray (5 Suits)	0
+Valetta6789	58053	Up or Down & Omni (6 Suits)	0
 Valetta6789	58116	Black & Rainbow (5 Suits)	0
 Valetta6789	58118	Black & Rainbow (5 Suits)	0
 Valetta6789	58130	Black & Rainbow (5 Suits)	0
 Valetta6789	58142	Rainbow & Pink (6 Suits)	0
 Valetta6789	58155	Up or Down (6 Suits)	0
+Valetta6789	58157	Up or Down (6 Suits)	0
 Valetta6789	58367	Light Pink (4 Suits)	0
 Valetta6789	58589	Gray (5 Suits)	0
 Valetta6789	58593	4 Suits	0
@@ -1382,6 +1365,8 @@ Valetta6789	58845	Pink & Brown (3 Suits)	0
 Valetta6789	58846	Pink & Brown (3 Suits)	0
 Valetta6789	58953	4 Suits	0
 Valetta6789	58967	Throw It in a Hole (5 Suits)	0
+Valetta6789	59104	Up or Down (6 Suits)	0
+Valetta6789	59108	Up or Down & White (5 Suits)	0
 Valetta6789	59141	Rainbow & Pink (4 Suits)	0
 Valetta6789	59502	Dark Pink (5 Suits)	0
 Valetta6789	59504	Dark Pink (5 Suits)	0
@@ -1443,7 +1428,9 @@ Valetta6789	64068	Pink & Omni (3 Suits)	0
 Valetta6789	64416	Rainbow (5 Suits)	0
 Valetta6789	64607	4 Suits	0
 Valetta6789	64614	6 Suits	0
+Valetta6789	64989	Up or Down (5 Suits)	0
 Valetta6789	64997	No Variant	0
+Valetta6789	65007	Up or Down & White (6 Suits)	0
 Valetta6789	65008	Up or Down & White (6 Suits)	0
 Valetta6789	65019	Dual-Color (5 Suits)	0
 Valetta6789	65021	Dual-Color (3 Suits)	0
@@ -1509,11 +1496,13 @@ Valetta6789	69409	Pink & Dark Rainbow (5 Suits)	0
 Valetta6789	69607	Null & Dark Omni (5 Suits)	0
 Valetta6789	70027	Rainbow & Brown (5 Suits)	0
 Valetta6789	70339	Rainbow & Dark Brown (5 Suits)	0
+Valetta6789	70340	Up or Down & Rainbow (6 Suits)	0
 Valetta6789	70509	Black & Rainbow (5 Suits)	0
 Valetta6789	70515	Black (5 Suits)	0
 Valetta6789	70518	Black (5 Suits)	0
 Valetta6789	70570	Special Mix (5 Suits)	0
 Valetta6789	70577	Throw It in a Hole (4 Suits)	0
+Valetta6789	70693	Up or Down & White (6 Suits)	0
 Valetta6789	70698	Black & Dark Omni (6 Suits)	0
 Valetta6789	70947	Cocoa Rainbow (6 Suits)	0
 Valetta6789	70948	Dark Omni (6 Suits)	0
@@ -1591,6 +1580,8 @@ Valetta6789	87499	Pink & Null (3 Suits)	0
 Valetta6789	87506	Pink & Null (3 Suits)	0
 Valetta6789	87508	Pink & Null (3 Suits)	0
 Valetta6789	87510	Pink & Null (3 Suits)	0
+Valetta6789	90648	Up or Down & Brown (5 Suits)	0
+Valetta6789	92812	Up or Down & Omni (5 Suits)	0
 Valetta6789	94452	No Variant	0
 Valetta6789	94552	Pink & Dark Rainbow (5 Suits)	0
 Valetta6789	94591	White & Brown (5 Suits)	0
@@ -1625,6 +1616,8 @@ Valetta6789	155866	Brown-Ones (4 Suits)	0
 Valetta6789	156090	Black & Rainbow (5 Suits)	0
 Valetta6789	156128	Black & Rainbow (5 Suits)	0
 Valetta6789	156162	Light Pink & Gray (5 Suits)	0
+Valetta6789	160232	Up or Down & Muddy Rainbow (5 Suits)	0
+Valetta6789	161734	Up or Down & Muddy Rainbow (5 Suits)	0
 Valetta6789	163250	White-Fives & Omni (5 Suits)	0
 Valetta6789	163258	White & Light Pink (4 Suits)	0
 Valetta6789	177063	Clue Starved (5 Suits)	0
@@ -1646,6 +1639,7 @@ Valetta6789	223157	White Reversed (6 Suits)	0
 Valetta6789	224745	Dual-Color & Dark Omni (6 Suits)	0
 Valetta6789	224764	Dual-Color & White (6 Suits)	0
 Valetta6789	237604	Up or Down (5 Suits)	0
+Valetta6789	237675	Up or Down (5 Suits)	0
 Valetta6789	237690	Up or Down (5 Suits)	0
 Valetta6789	239281	Muddy Rainbow (4 Suits)	0
 Valetta6789	240769	Pink-Ones (5 Suits)	0
@@ -1659,6 +1653,7 @@ Valetta6789	261472	Rainbow (3 Suits)	0
 Valetta6789	261477	Rainbow (3 Suits)	0
 Valetta6789	261480	Null (4 Suits)	0
 Valetta6789	261484	Null (4 Suits)	0
+Valetta6789	270689	Up or Down (6 Suits)	0
 Valetta6789	271807	Black & Dark Rainbow (6 Suits)	0
 Valetta6789	271873	Dark Pink (6 Suits)	0
 Valetta6789	272496	Dark Omni (6 Suits)	0
@@ -1677,6 +1672,7 @@ Valetta6789	296660	No Variant	0
 Valetta6789	296768	Clue Starved & Pink (5 Suits)	0
 Valetta6789	296810	No Variant	0
 Valetta6789	296853	Clue Starved & Rainbow (5 Suits)	0
+Valetta6789	297544	Up or Down & Pink (6 Suits)	0
 Valetta6789	300198	Black & Rainbow (6 Suits)	0
 Valetta6789	300242	Black & Muddy Rainbow (5 Suits)	0
 Valetta6789	323945	Prism & Gray Pink (6 Suits)	0
@@ -1692,6 +1688,7 @@ Valetta6789	333571	Prism (6 Suits)	0
 Valetta6789	339042	Dark Prism Reversed (6 Suits)	0
 Valetta6789	359061	Omni (5 Suits)	0
 Valetta6789	378881	Deceptive-Ones & Black (6 Suits)	0
+Valetta6789	402899	Up or Down & Prism (6 Suits)	0
 Valetta6789	404258	Deceptive-Ones & Cocoa Rainbow (5 Suits)	0
 Valetta6789	404287	Pink & Cocoa Rainbow (6 Suits)	0
 Valetta6789	404331	Pink & Cocoa Rainbow (6 Suits)	0
@@ -1710,6 +1707,7 @@ Valetta6789	444165	White-Fives & Gray (5 Suits)	0
 Valetta6789	444345	White-Ones & Dark Pink (5 Suits)	0
 Valetta6789	444355	White-Ones & Dark Brown (5 Suits)	0
 Valetta6789	444362	White-Ones & Dark Brown (5 Suits)	0
+Valetta6789	445984	Up or Down & Muddy Rainbow (6 Suits)	0
 Valetta6789	460157	Throw It in a Hole (6 Suits)	0
 Valetta6789	464836	White & Muddy Rainbow (5 Suits)	0
 Valetta6789	464883	White & Muddy Rainbow (4 Suits)	0
@@ -1735,7 +1733,9 @@ Valetta6789	524546	Gray (5 Suits)	0
 Valetta6789	528786	Brown-Fives (5 Suits)	0
 Valetta6789	528916	Gray Reversed (6 Suits)	0
 Valetta6789	529836	White & Muddy Rainbow (5 Suits)	0
+Valetta6789	530822	Up or Down & Muddy Rainbow (6 Suits)	0
 Valetta6789	530874	Rainbow & Dark Pink (5 Suits)	0
+Valetta6789	533754	Up or Down & Rainbow (6 Suits)	0
 Valetta6789	538402	Rainbow & Dark Prism (6 Suits)	0
 Valetta6789	539207	Light-Pink-Ones & Dark Rainbow (6 Suits)	0
 Valetta6789	541026	Dual-Color & Light Pink (6 Suits)	0

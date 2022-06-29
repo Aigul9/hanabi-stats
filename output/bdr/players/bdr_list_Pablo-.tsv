@@ -2,10 +2,8 @@ Player	Game id	Variant	BDR
 Pablo-	209530	6 Suits	8
 Pablo-	236392	Rainbow (6 Suits)	7
 Pablo-	294820	Rainbow (6 Suits)	7
-Pablo-	465707	Up or Down & Rainbow (6 Suits)	7
 Pablo-	193996	No Variant	6
 Pablo-	239129	Reversed (6 Suits)	6
-Pablo-	239148	Up or Down (6 Suits)	6
 Pablo-	255998	White-Ones (5 Suits)	6
 Pablo-	311325	Rainbow (6 Suits)	6
 Pablo-	339940	Prism (6 Suits)	6
@@ -19,7 +17,6 @@ Pablo-	201674	No Variant	5
 Pablo-	209878	Dual-Color & Dark Pink (6 Suits)	5
 Pablo-	214489	No Variant	5
 Pablo-	221894	Rainbow (6 Suits)	5
-Pablo-	230685	Up or Down (5 Suits)	5
 Pablo-	248735	Pink & Brown (5 Suits)	5
 Pablo-	250000	No Variant	5
 Pablo-	250612	Pink (6 Suits)	5
@@ -31,11 +28,8 @@ Pablo-	280315	Black (6 Suits)	5
 Pablo-	284708	Prism & Gray (6 Suits)	5
 Pablo-	286282	Prism & Gray (6 Suits)	5
 Pablo-	287190	Brown (6 Suits)	5
-Pablo-	295982	Up or Down (6 Suits)	5
 Pablo-	317253	Rainbow-Ones (6 Suits)	5
 Pablo-	328592	White (6 Suits)	5
-Pablo-	332465	Up or Down & Rainbow (6 Suits)	5
-Pablo-	332484	Up or Down & Rainbow (6 Suits)	5
 Pablo-	360923	No Variant	5
 Pablo-	371759	Rainbow-Fives (5 Suits)	5
 Pablo-	387201	White (5 Suits)	5
@@ -44,7 +38,6 @@ Pablo-	405073	Dual-Color Mix	5
 Pablo-	408441	Dual-Color Mix	5
 Pablo-	412194	Dual-Color Mix	5
 Pablo-	435679	Pink & Light Pink (5 Suits)	5
-Pablo-	520810	Up or Down (6 Suits)	5
 Pablo-	595171	Pink (6 Suits)	5
 Pablo-	667060	Omni-Ones & White (6 Suits)	5
 Pablo-	694646	Null-Ones & Rainbow (6 Suits)	5
@@ -56,7 +49,6 @@ Pablo-	218448	No Variant	4
 Pablo-	221866	No Variant	4
 Pablo-	221902	Rainbow (6 Suits)	4
 Pablo-	232381	No Variant	4
-Pablo-	233393	Up or Down (6 Suits)	4
 Pablo-	236692	Rainbow (5 Suits)	4
 Pablo-	237759	Brown-Fives & White (6 Suits)	4
 Pablo-	237825	Brown-Fives & White (6 Suits)	4
@@ -64,13 +56,10 @@ Pablo-	237872	Brown-Fives & White (6 Suits)	4
 Pablo-	243859	6 Suits	4
 Pablo-	246888	Rainbow (6 Suits)	4
 Pablo-	247364	Rainbow (6 Suits)	4
-Pablo-	248640	Up or Down (6 Suits)	4
 Pablo-	248791	Gray Reversed (5 Suits)	4
 Pablo-	250034	No Variant	4
-Pablo-	253295	Up or Down & White (6 Suits)	4
 Pablo-	267624	Rainbow (6 Suits)	4
 Pablo-	274423	Brown (5 Suits)	4
-Pablo-	275231	Up or Down (6 Suits)	4
 Pablo-	275724	Throw It in a Hole (6 Suits)	4
 Pablo-	276864	Light Pink & Dark Pink (5 Suits)	4
 Pablo-	277531	Light Pink (4 Suits)	4
@@ -89,7 +78,6 @@ Pablo-	306150	No Variant	4
 Pablo-	306279	Muddy Rainbow (5 Suits)	4
 Pablo-	310493	White (6 Suits)	4
 Pablo-	314178	Pink (6 Suits)	4
-Pablo-	315833	Up or Down & Prism (5 Suits)	4
 Pablo-	328015	Light Pink & Gray (6 Suits)	4
 Pablo-	338014	Null (5 Suits)	4
 Pablo-	341985	Gray (6 Suits)	4
@@ -103,8 +91,6 @@ Pablo-	377016	White & Prism (6 Suits)	4
 Pablo-	379156	Black & Rainbow (5 Suits)	4
 Pablo-	380832	No Variant	4
 Pablo-	382899	Dark Brown (6 Suits)	4
-Pablo-	384912	Up or Down (6 Suits)	4
-Pablo-	388181	Up or Down & Pink (6 Suits)	4
 Pablo-	390543	Brown & Prism (6 Suits)	4
 Pablo-	399248	Rainbow (6 Suits)	4
 Pablo-	400068	6 Suits	4
@@ -121,10 +107,8 @@ Pablo-	456704	Alternating Clues (6 Suits)	4
 Pablo-	459101	Throw It in a Hole (6 Suits)	4
 Pablo-	460324	Throw It in a Hole (6 Suits)	4
 Pablo-	481678	Number Mute (5 Suits)	4
-Pablo-	486422	Up or Down & Omni (5 Suits)	4
 Pablo-	504481	Null (5 Suits)	4
 Pablo-	515107	Gray Pink (6 Suits)	4
-Pablo-	520755	Up or Down (6 Suits)	4
 Pablo-	530804	Black & White (6 Suits)	4
 Pablo-	541758	Omni (6 Suits)	4
 Pablo-	541764	Omni (6 Suits)	4
@@ -134,7 +118,6 @@ Pablo-	558454	No Variant	4
 Pablo-	571988	Black & Muddy Rainbow (6 Suits)	4
 Pablo-	574675	Ambiguous Mix	4
 Pablo-	583785	No Variant	4
-Pablo-	586324	Up or Down (5 Suits)	4
 Pablo-	588995	White (6 Suits)	4
 Pablo-	614557	Black & Rainbow (6 Suits)	4
 Pablo-	641547	Rainbow & Light Pink (6 Suits)	4
@@ -163,17 +146,15 @@ Pablo-	221909	Rainbow (6 Suits)	3
 Pablo-	225588	Rainbow (6 Suits)	3
 Pablo-	225644	Rainbow & Brown (6 Suits)	3
 Pablo-	225861	Rainbow & Brown (6 Suits)	3
+Pablo-	230685	Up or Down (5 Suits)	3
 Pablo-	230810	No Variant	3
-Pablo-	231021	Up or Down (6 Suits)	3
 Pablo-	231375	No Variant	3
-Pablo-	233433	Up or Down (6 Suits)	3
+Pablo-	233393	Up or Down (6 Suits)	3
 Pablo-	234097	Black Reversed (6 Suits)	3
 Pablo-	234190	Up or Down (5 Suits)	3
-Pablo-	236295	Up or Down (6 Suits)	3
 Pablo-	236655	No Variant	3
 Pablo-	237549	6 Suits	3
 Pablo-	237789	Brown-Fives & White (6 Suits)	3
-Pablo-	238080	Up or Down & Rainbow (5 Suits)	3
 Pablo-	238159	No Variant	3
 Pablo-	240393	6 Suits	3
 Pablo-	243855	6 Suits	3
@@ -182,7 +163,6 @@ Pablo-	243896	Dark Pink (6 Suits)	3
 Pablo-	243904	Dark Pink (6 Suits)	3
 Pablo-	243911	Rainbow (6 Suits)	3
 Pablo-	247416	Rainbow (5 Suits)	3
-Pablo-	248645	Up or Down (6 Suits)	3
 Pablo-	248766	Gray Reversed (5 Suits)	3
 Pablo-	249894	No Variant	3
 Pablo-	250079	No Variant	3
@@ -203,7 +183,6 @@ Pablo-	268428	No Variant	3
 Pablo-	269200	Pink (5 Suits)	3
 Pablo-	269708	White (5 Suits)	3
 Pablo-	275183	Pink (6 Suits)	3
-Pablo-	275278	Up or Down & Rainbow (5 Suits)	3
 Pablo-	275765	Pink & Light Pink (6 Suits)	3
 Pablo-	275969	Dark Brown (6 Suits)	3
 Pablo-	276710	Light Pink (6 Suits)	3
@@ -213,7 +192,6 @@ Pablo-	277484	No Variant	3
 Pablo-	277673	No Variant	3
 Pablo-	277690	No Variant	3
 Pablo-	278471	Dark Rainbow (5 Suits)	3
-Pablo-	278521	Up or Down (5 Suits)	3
 Pablo-	280271	Black (5 Suits)	3
 Pablo-	281805	Prism (5 Suits)	3
 Pablo-	284272	Pink & Prism (6 Suits)	3
@@ -223,7 +201,6 @@ Pablo-	286365	Up or Down (6 Suits)	3
 Pablo-	287197	Gray (6 Suits)	3
 Pablo-	287225	Rainbow (6 Suits)	3
 Pablo-	287424	Rainbow (5 Suits)	3
-Pablo-	293264	Up or Down & Light Pink (5 Suits)	3
 Pablo-	296762	No Variant	3
 Pablo-	298150	Rainbow-Ones & Light Pink (5 Suits)	3
 Pablo-	298763	6 Suits	3
@@ -241,7 +218,6 @@ Pablo-	305594	Ambiguous (6 Suits)	3
 Pablo-	305645	Pink & Dark Prism (6 Suits)	3
 Pablo-	306128	Prism (5 Suits)	3
 Pablo-	307551	Prism (5 Suits)	3
-Pablo-	312048	Up or Down & Prism (6 Suits)	3
 Pablo-	317367	Pink (6 Suits)	3
 Pablo-	318714	Black (6 Suits)	3
 Pablo-	319680	Rainbow-Ones (6 Suits)	3
@@ -254,12 +230,11 @@ Pablo-	324609	Black (6 Suits)	3
 Pablo-	325034	White (6 Suits)	3
 Pablo-	327261	6 Suits	3
 Pablo-	328748	Null-Ones (5 Suits)	3
-Pablo-	329200	Up or Down (5 Suits)	3
 Pablo-	329341	Black (6 Suits)	3
 Pablo-	329398	Dark Omni (6 Suits)	3
 Pablo-	329606	Rainbow & Null (6 Suits)	3
 Pablo-	331133	Gray (6 Suits)	3
-Pablo-	332450	Up or Down (5 Suits)	3
+Pablo-	332484	Up or Down & Rainbow (6 Suits)	3
 Pablo-	332610	White-Ones & Brown (5 Suits)	3
 Pablo-	332616	Null-Ones & Omni (5 Suits)	3
 Pablo-	336828	White & Brown (6 Suits)	3
@@ -286,11 +261,8 @@ Pablo-	357639	No Variant	3
 Pablo-	357668	No Variant	3
 Pablo-	358174	Dark Omni (6 Suits)	3
 Pablo-	358721	Duck (5 Suits)	3
-Pablo-	358866	Up or Down & Rainbow (6 Suits)	3
 Pablo-	360864	White-Ones & Prism (5 Suits)	3
 Pablo-	361544	Omni & Null (5 Suits)	3
-Pablo-	363734	Up or Down & Pink (6 Suits)	3
-Pablo-	363756	Up or Down & Pink (5 Suits)	3
 Pablo-	368195	Dual-Color & White (6 Suits)	3
 Pablo-	371924	Rainbow (5 Suits)	3
 Pablo-	372366	White (5 Suits)	3
@@ -298,7 +270,6 @@ Pablo-	376136	Prism (6 Suits)	3
 Pablo-	377340	Black & White (5 Suits)	3
 Pablo-	377805	Rainbow & Pink (6 Suits)	3
 Pablo-	379114	Dark Prism (6 Suits)	3
-Pablo-	379769	Up or Down & White (5 Suits)	3
 Pablo-	379783	Ambiguous & Rainbow (5 Suits)	3
 Pablo-	380826	No Variant	3
 Pablo-	382868	Dark Brown (6 Suits)	3
@@ -332,7 +303,6 @@ Pablo-	456437	Gray Pink (6 Suits)	3
 Pablo-	456741	Muddy Rainbow (6 Suits)	3
 Pablo-	459438	White-Ones (5 Suits)	3
 Pablo-	461536	Dark Null (6 Suits)	3
-Pablo-	464760	Up or Down (6 Suits)	3
 Pablo-	474786	Cocoa Rainbow (5 Suits)	3
 Pablo-	493259	Null (5 Suits)	3
 Pablo-	495311	Brown-Ones & Black (5 Suits)	3
@@ -340,6 +310,8 @@ Pablo-	496342	Null (5 Suits)	3
 Pablo-	502284	Black & Rainbow (6 Suits)	3
 Pablo-	509510	Gray (5 Suits)	3
 Pablo-	515766	White-Fives & Rainbow (5 Suits)	3
+Pablo-	520755	Up or Down (6 Suits)	3
+Pablo-	520810	Up or Down (6 Suits)	3
 Pablo-	538522	Gray (5 Suits)	3
 Pablo-	539403	Black (6 Suits)	3
 Pablo-	543027	Omni (5 Suits)	3
@@ -422,20 +394,19 @@ Pablo-	225689	No Variant	2
 Pablo-	225763	No Variant	2
 Pablo-	226722	Brown (6 Suits)	2
 Pablo-	230547	Black (5 Suits)	2
-Pablo-	230637	Up or Down (5 Suits)	2
+Pablo-	231021	Up or Down (6 Suits)	2
 Pablo-	232212	Rainbow (5 Suits)	2
 Pablo-	233338	Pink (6 Suits)	2
 Pablo-	234092	Black Reversed (6 Suits)	2
 Pablo-	234128	Rainbow (5 Suits)	2
-Pablo-	234198	Up or Down (5 Suits)	2
+Pablo-	236295	Up or Down (6 Suits)	2
 Pablo-	236586	No Variant	2
 Pablo-	236617	No Variant	2
 Pablo-	237689	Rainbow (5 Suits)	2
-Pablo-	237923	Up or Down (5 Suits)	2
-Pablo-	238049	Up or Down & Rainbow (5 Suits)	2
+Pablo-	238080	Up or Down & Rainbow (5 Suits)	2
 Pablo-	238115	No Variant	2
 Pablo-	238142	No Variant	2
-Pablo-	239139	Up or Down (6 Suits)	2
+Pablo-	239148	Up or Down (6 Suits)	2
 Pablo-	239313	Rainbow (5 Suits)	2
 Pablo-	239531	Reversed (5 Suits)	2
 Pablo-	240294	No Variant	2
@@ -449,6 +420,7 @@ Pablo-	244933	No Variant	2
 Pablo-	245824	No Variant	2
 Pablo-	247477	Rainbow-Ones (4 Suits)	2
 Pablo-	247724	Rainbow (5 Suits)	2
+Pablo-	248640	Up or Down (6 Suits)	2
 Pablo-	249654	No Variant	2
 Pablo-	249758	Rainbow-Ones (5 Suits)	2
 Pablo-	249787	Muddy-Rainbow-Ones (5 Suits)	2
@@ -484,6 +456,8 @@ Pablo-	269698	White (6 Suits)	2
 Pablo-	269803	No Variant	2
 Pablo-	274447	Brown (5 Suits)	2
 Pablo-	275100	Dark Rainbow (5 Suits)	2
+Pablo-	275231	Up or Down (6 Suits)	2
+Pablo-	275278	Up or Down & Rainbow (5 Suits)	2
 Pablo-	275728	Throw It in a Hole (6 Suits)	2
 Pablo-	276687	Gray (5 Suits)	2
 Pablo-	276822	Light Pink & Dark Pink (5 Suits)	2
@@ -494,7 +468,6 @@ Pablo-	277734	No Variant	2
 Pablo-	277773	No Variant	2
 Pablo-	277816	No Variant	2
 Pablo-	278496	Dark Rainbow (6 Suits)	2
-Pablo-	278537	Up or Down (5 Suits)	2
 Pablo-	279491	No Variant	2
 Pablo-	279538	Up or Down (5 Suits)	2
 Pablo-	281095	Dark Rainbow (5 Suits)	2
@@ -514,8 +487,8 @@ Pablo-	287151	Rainbow (5 Suits)	2
 Pablo-	287185	Gray (6 Suits)	2
 Pablo-	287221	Rainbow (6 Suits)	2
 Pablo-	287258	Black (6 Suits)	2
-Pablo-	288810	Up or Down & Prism (6 Suits)	2
 Pablo-	288822	Up or Down & Prism (6 Suits)	2
+Pablo-	295982	Up or Down (6 Suits)	2
 Pablo-	296754	White & Brown (6 Suits)	2
 Pablo-	297634	Prism (5 Suits)	2
 Pablo-	298166	Gray Reversed (5 Suits)	2
@@ -538,11 +511,11 @@ Pablo-	309016	No Variant	2
 Pablo-	311293	Rainbow (6 Suits)	2
 Pablo-	311821	Null-Ones (5 Suits)	2
 Pablo-	312010	Black & Pink (5 Suits)	2
+Pablo-	312048	Up or Down & Prism (6 Suits)	2
 Pablo-	314182	Pink (6 Suits)	2
 Pablo-	314436	Black (6 Suits)	2
 Pablo-	314479	Light Pink (6 Suits)	2
 Pablo-	314510	White & Light Pink (5 Suits)	2
-Pablo-	315856	Up or Down & Muddy Rainbow (5 Suits)	2
 Pablo-	317213	No Variant	2
 Pablo-	318087	White (6 Suits)	2
 Pablo-	318092	White (6 Suits)	2
@@ -576,7 +549,7 @@ Pablo-	329330	Black (6 Suits)	2
 Pablo-	329653	Muddy Rainbow (6 Suits)	2
 Pablo-	329676	Omni (6 Suits)	2
 Pablo-	329838	Rainbow & Brown (6 Suits)	2
-Pablo-	332415	Up or Down (5 Suits)	2
+Pablo-	332465	Up or Down & Rainbow (6 Suits)	2
 Pablo-	332632	Prism (6 Suits)	2
 Pablo-	332648	Pink (4 Suits)	2
 Pablo-	334441	White & Prism (5 Suits)	2
@@ -586,7 +559,6 @@ Pablo-	336841	White & Brown (6 Suits)	2
 Pablo-	337105	Light-Pink-Ones (6 Suits)	2
 Pablo-	337937	Muddy Rainbow & Dark Prism (6 Suits)	2
 Pablo-	338043	Null (6 Suits)	2
-Pablo-	339215	Up or Down (5 Suits)	2
 Pablo-	339948	Black (5 Suits)	2
 Pablo-	340116	Brown (6 Suits)	2
 Pablo-	340764	Light-Pink-Ones (6 Suits)	2
@@ -626,7 +598,8 @@ Pablo-	359992	Gray Pink (6 Suits)	2
 Pablo-	360503	Black (5 Suits)	2
 Pablo-	360508	Deceptive-Ones (3 Suits)	2
 Pablo-	360690	Null-Ones & Muddy Rainbow (5 Suits)	2
-Pablo-	363766	Up or Down & Pink (5 Suits)	2
+Pablo-	363734	Up or Down & Pink (6 Suits)	2
+Pablo-	363756	Up or Down & Pink (5 Suits)	2
 Pablo-	364026	White & Prism (6 Suits)	2
 Pablo-	364090	White-Fives (5 Suits)	2
 Pablo-	366184	Rainbow-Fives (5 Suits)	2
@@ -645,11 +618,10 @@ Pablo-	372058	Light-Pink-Ones & Prism (5 Suits)	2
 Pablo-	372296	White Reversed (5 Suits)	2
 Pablo-	377815	Rainbow & Pink (6 Suits)	2
 Pablo-	377825	Rainbow (5 Suits)	2
-Pablo-	377983	Up or Down & White (5 Suits)	2
 Pablo-	378854	No Variant	2
+Pablo-	379769	Up or Down & White (5 Suits)	2
 Pablo-	382166	Prism (6 Suits)	2
-Pablo-	384916	Up or Down (6 Suits)	2
-Pablo-	384921	Up or Down (6 Suits)	2
+Pablo-	384912	Up or Down (6 Suits)	2
 Pablo-	384950	Muddy Rainbow (6 Suits)	2
 Pablo-	386626	Gray (5 Suits)	2
 Pablo-	389312	Omni & Dark Pink (6 Suits)	2
@@ -713,10 +685,12 @@ Pablo-	451371	Alternating Clues (6 Suits)	2
 Pablo-	456825	Muddy Rainbow (6 Suits)	2
 Pablo-	460548	Throw It in a Hole (6 Suits)	2
 Pablo-	460733	Dark Omni (5 Suits)	2
+Pablo-	464760	Up or Down (6 Suits)	2
+Pablo-	465707	Up or Down & Rainbow (6 Suits)	2
 Pablo-	474777	Cocoa Rainbow (5 Suits)	2
 Pablo-	477256	Black (5 Suits)	2
 Pablo-	485696	Dark Prism (6 Suits)	2
-Pablo-	486428	Up or Down & Omni (5 Suits)	2
+Pablo-	486422	Up or Down & Omni (5 Suits)	2
 Pablo-	487802	Black (6 Suits)	2
 Pablo-	492055	Special Mix (5 Suits)	2
 Pablo-	493218	Null (5 Suits)	2
@@ -769,6 +743,7 @@ Pablo-	582403	Null (6 Suits)	2
 Pablo-	582447	Null (5 Suits)	2
 Pablo-	582857	Black & Prism (6 Suits)	2
 Pablo-	584592	Null (6 Suits)	2
+Pablo-	586324	Up or Down (5 Suits)	2
 Pablo-	586378	Rainbow & Cocoa Rainbow (6 Suits)	2
 Pablo-	586723	White-Ones & Cocoa Rainbow (6 Suits)	2
 Pablo-	589964	No Variant	2
@@ -907,12 +882,12 @@ Pablo-	225810	No Variant	1
 Pablo-	226699	Black (5 Suits)	1
 Pablo-	226712	Rainbow (4 Suits)	1
 Pablo-	230505	Black (5 Suits)	1
-Pablo-	231115	Up or Down (5 Suits)	1
 Pablo-	231128	Pink (6 Suits)	1
 Pablo-	231474	No Variant	1
 Pablo-	232362	No Variant	1
 Pablo-	233359	Pink (5 Suits)	1
 Pablo-	234112	Rainbow (6 Suits)	1
+Pablo-	234198	Up or Down (5 Suits)	1
 Pablo-	236366	No Variant	1
 Pablo-	236749	Rainbow (5 Suits)	1
 Pablo-	237382	Pink (3 Suits)	1
@@ -921,9 +896,11 @@ Pablo-	237521	No Variant	1
 Pablo-	237748	Brown-Fives & White (6 Suits)	1
 Pablo-	237970	Up or Down (5 Suits)	1
 Pablo-	238013	Up or Down (5 Suits)	1
+Pablo-	238049	Up or Down & Rainbow (5 Suits)	1
 Pablo-	238176	4 Suits	1
 Pablo-	238177	Rainbow (4 Suits)	1
 Pablo-	239031	No Variant	1
+Pablo-	239139	Up or Down (6 Suits)	1
 Pablo-	239241	Rainbow (4 Suits)	1
 Pablo-	239273	Rainbow (5 Suits)	1
 Pablo-	239379	No Variant	1
@@ -950,6 +927,7 @@ Pablo-	245877	Special Mix (5 Suits)	1
 Pablo-	245880	Special Mix (5 Suits)	1
 Pablo-	245894	Special Mix (5 Suits)	1
 Pablo-	247462	Rainbow-Ones (4 Suits)	1
+Pablo-	248645	Up or Down (6 Suits)	1
 Pablo-	248652	Rainbow (6 Suits)	1
 Pablo-	249651	Dark Rainbow (5 Suits)	1
 Pablo-	249775	White-Ones & Rainbow (5 Suits)	1
@@ -1007,7 +985,6 @@ Pablo-	274274	Pink & Brown (5 Suits)	1
 Pablo-	275023	Brown (6 Suits)	1
 Pablo-	275118	Rainbow (5 Suits)	1
 Pablo-	275754	No Variant	1
-Pablo-	275774	Up or Down (5 Suits)	1
 Pablo-	275782	Omni (5 Suits)	1
 Pablo-	275866	Black (6 Suits)	1
 Pablo-	276880	Clue Starved & Rainbow (5 Suits)	1
@@ -1015,8 +992,9 @@ Pablo-	277505	No Variant	1
 Pablo-	277553	Rainbow-Ones (5 Suits)	1
 Pablo-	278480	Dark Rainbow (5 Suits)	1
 Pablo-	278504	Dark Rainbow (6 Suits)	1
+Pablo-	278521	Up or Down (5 Suits)	1
+Pablo-	278537	Up or Down (5 Suits)	1
 Pablo-	279325	Rainbow-Fives & Pink (4 Suits)	1
-Pablo-	280174	Up or Down (5 Suits)	1
 Pablo-	280396	White (6 Suits)	1
 Pablo-	281749	Dark Prism (6 Suits)	1
 Pablo-	281755	Dark Prism (6 Suits)	1
@@ -1044,6 +1022,8 @@ Pablo-	287236	Rainbow (6 Suits)	1
 Pablo-	287311	Black & White (6 Suits)	1
 Pablo-	287377	White & Prism (6 Suits)	1
 Pablo-	288756	Prism (6 Suits)	1
+Pablo-	288810	Up or Down & Prism (6 Suits)	1
+Pablo-	293264	Up or Down & Light Pink (5 Suits)	1
 Pablo-	295880	Brown (6 Suits)	1
 Pablo-	295895	Black & White (5 Suits)	1
 Pablo-	295912	Black & White (5 Suits)	1
@@ -1088,6 +1068,8 @@ Pablo-	312078	Pink-Fives (5 Suits)	1
 Pablo-	312140	Dark Pink (5 Suits)	1
 Pablo-	313388	Alternating Clues & Black (5 Suits)	1
 Pablo-	314457	Black (6 Suits)	1
+Pablo-	315833	Up or Down & Prism (5 Suits)	1
+Pablo-	315856	Up or Down & Muddy Rainbow (5 Suits)	1
 Pablo-	317252	Brown (4 Suits)	1
 Pablo-	317387	Light-Pink-Fives (5 Suits)	1
 Pablo-	317409	Brown-Fives (4 Suits)	1
@@ -1101,8 +1083,6 @@ Pablo-	321532	White & Prism (6 Suits)	1
 Pablo-	321757	Black (6 Suits)	1
 Pablo-	322483	Dark Pink (6 Suits)	1
 Pablo-	322897	Black (5 Suits)	1
-Pablo-	322906	Up or Down (6 Suits)	1
-Pablo-	323071	Up or Down & Muddy Rainbow (5 Suits)	1
 Pablo-	323200	Rainbow & Light Pink (5 Suits)	1
 Pablo-	323858	Dark Rainbow (6 Suits)	1
 Pablo-	323878	Gray (6 Suits)	1
@@ -1131,6 +1111,7 @@ Pablo-	328762	Null-Ones (5 Suits)	1
 Pablo-	328771	Null-Ones (5 Suits)	1
 Pablo-	329148	Rainbow & White (5 Suits)	1
 Pablo-	329161	Black (6 Suits)	1
+Pablo-	329200	Up or Down (5 Suits)	1
 Pablo-	329632	Omni (5 Suits)	1
 Pablo-	329802	Cocoa Rainbow (5 Suits)	1
 Pablo-	329831	Rainbow & Brown (6 Suits)	1
@@ -1145,13 +1126,13 @@ Pablo-	332250	No Variant	1
 Pablo-	332308	White-Ones & Brown (5 Suits)	1
 Pablo-	332381	Up or Down (5 Suits)	1
 Pablo-	332428	Up or Down (5 Suits)	1
+Pablo-	332450	Up or Down (5 Suits)	1
 Pablo-	332526	White-Ones & Brown (6 Suits)	1
 Pablo-	332643	Prism (3 Suits)	1
 Pablo-	332658	No Variant	1
 Pablo-	334865	Omni (4 Suits)	1
 Pablo-	335305	No Variant	1
 Pablo-	335324	No Variant	1
-Pablo-	336799	Up or Down (6 Suits)	1
 Pablo-	336823	White & Brown (5 Suits)	1
 Pablo-	337155	Light-Pink-Ones & Rainbow (5 Suits)	1
 Pablo-	337684	Light-Pink-Ones & White (5 Suits)	1
@@ -1161,6 +1142,7 @@ Pablo-	338403	Black (6 Suits)	1
 Pablo-	338437	Black (6 Suits)	1
 Pablo-	338455	Muddy-Rainbow-Fives (5 Suits)	1
 Pablo-	338485	Muddy-Rainbow-Fives (5 Suits)	1
+Pablo-	339215	Up or Down (5 Suits)	1
 Pablo-	340771	Light-Pink-Ones (6 Suits)	1
 Pablo-	341970	Rainbow (4 Suits)	1
 Pablo-	341979	Rainbow (4 Suits)	1
@@ -1214,6 +1196,7 @@ Pablo-	358642	Rainbow & Light Pink (5 Suits)	1
 Pablo-	358673	Rainbow-Ones (6 Suits)	1
 Pablo-	358697	Brown & Gray (5 Suits)	1
 Pablo-	358834	No Variant	1
+Pablo-	358866	Up or Down & Rainbow (6 Suits)	1
 Pablo-	360006	White-Ones (3 Suits)	1
 Pablo-	360485	Black (5 Suits)	1
 Pablo-	360527	White-Ones & White (4 Suits)	1
@@ -1225,6 +1208,7 @@ Pablo-	360936	Pink (5 Suits)	1
 Pablo-	360966	Pink (5 Suits)	1
 Pablo-	363557	Brown & Muddy Rainbow (5 Suits)	1
 Pablo-	363586	Rainbow & Omni (4 Suits)	1
+Pablo-	363766	Up or Down & Pink (5 Suits)	1
 Pablo-	364555	Cocoa Rainbow (5 Suits)	1
 Pablo-	366777	Rainbow & Brown (5 Suits)	1
 Pablo-	366781	Rainbow & Brown (5 Suits)	1
@@ -1259,6 +1243,7 @@ Pablo-	377067	Black & Muddy Rainbow (5 Suits)	1
 Pablo-	377314	Black & White (5 Suits)	1
 Pablo-	377743	Dark Brown (5 Suits)	1
 Pablo-	377836	Rainbow (5 Suits)	1
+Pablo-	377983	Up or Down & White (5 Suits)	1
 Pablo-	378820	No Variant	1
 Pablo-	378829	No Variant	1
 Pablo-	378839	No Variant	1
@@ -1270,6 +1255,8 @@ Pablo-	379810	White-Fives (5 Suits)	1
 Pablo-	380085	Throw It in a Hole (5 Suits)	1
 Pablo-	380831	No Variant	1
 Pablo-	380852	Cocoa Rainbow & Gray Pink (6 Suits)	1
+Pablo-	384916	Up or Down (6 Suits)	1
+Pablo-	384921	Up or Down (6 Suits)	1
 Pablo-	384961	Dark Rainbow (6 Suits)	1
 Pablo-	384982	Null (6 Suits)	1
 Pablo-	385385	Brown-Ones (5 Suits)	1
@@ -1278,6 +1265,7 @@ Pablo-	386187	Dark Null (5 Suits)	1
 Pablo-	386386	Gray (6 Suits)	1
 Pablo-	387196	White (5 Suits)	1
 Pablo-	387505	White-Ones & Prism (6 Suits)	1
+Pablo-	388181	Up or Down & Pink (6 Suits)	1
 Pablo-	389301	Omni & Dark Pink (6 Suits)	1
 Pablo-	390576	White-Ones & Omni (5 Suits)	1
 Pablo-	391027	Gray (5 Suits)	1
@@ -1363,7 +1351,6 @@ Pablo-	440064	White (4 Suits)	1
 Pablo-	440078	White (4 Suits)	1
 Pablo-	440160	Gray Pink (6 Suits)	1
 Pablo-	440971	Prism Reversed (5 Suits)	1
-Pablo-	441020	Up or Down & Prism (5 Suits)	1
 Pablo-	444486	Rainbow & Dark Brown (6 Suits)	1
 Pablo-	444502	Rainbow & Dark Brown (6 Suits)	1
 Pablo-	447815	Rainbow & Pink (5 Suits)	1
@@ -1394,6 +1381,7 @@ Pablo-	479075	Brown & Prism (4 Suits)	1
 Pablo-	481525	3 Suits	1
 Pablo-	481699	Black (5 Suits)	1
 Pablo-	486385	Muddy Rainbow & Gray Pink (6 Suits)	1
+Pablo-	486428	Up or Down & Omni (5 Suits)	1
 Pablo-	487232	No Variant	1
 Pablo-	487253	Null (5 Suits)	1
 Pablo-	492050	Muddy Rainbow & Gray (5 Suits)	1
@@ -1674,7 +1662,10 @@ Pablo-	224460	3 Suits	0
 Pablo-	224467	3 Suits	0
 Pablo-	224484	3 Suits	0
 Pablo-	225572	Black (5 Suits)	0
+Pablo-	230637	Up or Down (5 Suits)	0
+Pablo-	231115	Up or Down (5 Suits)	0
 Pablo-	231420	No Variant	0
+Pablo-	233433	Up or Down (6 Suits)	0
 Pablo-	234163	Rainbow (3 Suits)	0
 Pablo-	236510	No Variant	0
 Pablo-	237379	Pink (3 Suits)	0
@@ -1683,6 +1674,7 @@ Pablo-	237386	Pink (3 Suits)	0
 Pablo-	237392	Pink (6 Suits)	0
 Pablo-	237423	Dark Rainbow (6 Suits)	0
 Pablo-	237645	Black (5 Suits)	0
+Pablo-	237923	Up or Down (5 Suits)	0
 Pablo-	238180	Rainbow (4 Suits)	0
 Pablo-	238183	Rainbow (4 Suits)	0
 Pablo-	238194	Reversed (5 Suits)	0
@@ -1708,6 +1700,7 @@ Pablo-	250142	No Variant	0
 Pablo-	250671	Pink (5 Suits)	0
 Pablo-	252365	Light Pink (5 Suits)	0
 Pablo-	253257	Rainbow & Pink (5 Suits)	0
+Pablo-	253295	Up or Down & White (6 Suits)	0
 Pablo-	253429	No Variant	0
 Pablo-	253624	Special Mix (5 Suits)	0
 Pablo-	254468	Special Mix (5 Suits)	0
@@ -1743,6 +1736,7 @@ Pablo-	274400	Brown (5 Suits)	0
 Pablo-	275036	Brown-Ones (4 Suits)	0
 Pablo-	275741	White-Ones & Brown (5 Suits)	0
 Pablo-	275749	No Variant	0
+Pablo-	275774	Up or Down (5 Suits)	0
 Pablo-	275777	Up or Down (5 Suits)	0
 Pablo-	275894	Black (6 Suits)	0
 Pablo-	275927	Black (6 Suits)	0
@@ -1755,6 +1749,7 @@ Pablo-	277538	3 Suits	0
 Pablo-	277563	Rainbow-Ones (5 Suits)	0
 Pablo-	277579	Pink-Ones (5 Suits)	0
 Pablo-	277833	No Variant	0
+Pablo-	280174	Up or Down (5 Suits)	0
 Pablo-	281113	Rainbow & Omni (5 Suits)	0
 Pablo-	281744	Prism (6 Suits)	0
 Pablo-	282517	Rainbow & Pink (3 Suits)	0
@@ -1817,7 +1812,9 @@ Pablo-	322389	Dark Rainbow (5 Suits)	0
 Pablo-	322400	Rainbow (4 Suits)	0
 Pablo-	322506	Light-Pink-Fives (5 Suits)	0
 Pablo-	322512	Light-Pink-Fives (5 Suits)	0
+Pablo-	322906	Up or Down (6 Suits)	0
 Pablo-	323053	Gray Reversed (6 Suits)	0
+Pablo-	323071	Up or Down & Muddy Rainbow (5 Suits)	0
 Pablo-	323276	Light Pink (4 Suits)	0
 Pablo-	323318	Black & Rainbow (6 Suits)	0
 Pablo-	323724	Black (6 Suits)	0
@@ -1846,6 +1843,7 @@ Pablo-	331114	Brown (5 Suits)	0
 Pablo-	331156	Reversed (5 Suits)	0
 Pablo-	331169	Rainbow & Brown (5 Suits)	0
 Pablo-	332278	No Variant	0
+Pablo-	332415	Up or Down (5 Suits)	0
 Pablo-	332514	Up or Down & Rainbow (6 Suits)	0
 Pablo-	332560	Dark Null (5 Suits)	0
 Pablo-	332573	Dark Null (5 Suits)	0
@@ -1856,6 +1854,7 @@ Pablo-	334365	Dark Rainbow (6 Suits)	0
 Pablo-	335252	Rainbow & White (4 Suits)	0
 Pablo-	335259	No Variant	0
 Pablo-	336789	Brown (5 Suits)	0
+Pablo-	336799	Up or Down (6 Suits)	0
 Pablo-	337091	Rainbow (3 Suits)	0
 Pablo-	337121	Light-Pink-Ones & Black (5 Suits)	0
 Pablo-	337143	Light-Pink-Ones & Rainbow (5 Suits)	0
@@ -2021,6 +2020,7 @@ Pablo-	436730	3 Suits	0
 Pablo-	437983	Pink & Dark Rainbow (6 Suits)	0
 Pablo-	438008	Rainbow & Pink (6 Suits)	0
 Pablo-	438086	Muddy-Rainbow-Ones & White (5 Suits)	0
+Pablo-	441020	Up or Down & Prism (5 Suits)	0
 Pablo-	441827	Throw It in a Hole (6 Suits)	0
 Pablo-	443041	White-Ones & Dark Prism (6 Suits)	0
 Pablo-	445432	White & Prism (5 Suits)	0

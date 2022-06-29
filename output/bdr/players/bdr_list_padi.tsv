@@ -5,7 +5,6 @@ padi	322542	Duck (5 Suits)	7
 padi	79078	Rainbow & White (5 Suits)	6
 padi	84533	No Variant	6
 padi	85401	6 Suits	6
-padi	138566	Up or Down (6 Suits)	6
 padi	170533	Omni (5 Suits)	6
 padi	323284	Duck (5 Suits)	6
 padi	324753	Duck (5 Suits)	6
@@ -14,7 +13,6 @@ padi	94368	6 Suits	5
 padi	101751	Rainbow & White (6 Suits)	5
 padi	105845	6 Suits	5
 padi	122344	No Variant	5
-padi	147083	Up or Down & Rainbow (6 Suits)	5
 padi	168668	Omni-Fives & Pink (6 Suits)	5
 padi	172875	Pink & White (5 Suits)	5
 padi	190581	Pink (6 Suits)	5
@@ -26,7 +24,6 @@ padi	247831	Light Pink (6 Suits)	5
 padi	324214	Duck (5 Suits)	5
 padi	436132	Rainbow & Muddy Rainbow (6 Suits)	5
 padi	437673	Rainbow (6 Suits)	5
-padi	472655	Up or Down & White (5 Suits)	5
 padi	547633	Omni (5 Suits)	5
 padi	78161	No Variant	4
 padi	78238	No Variant	4
@@ -52,7 +49,6 @@ padi	112207	Rainbow (6 Suits)	4
 padi	112281	Rainbow (6 Suits)	4
 padi	130633	Light Pink (5 Suits)	4
 padi	133733	Black (6 Suits)	4
-padi	134826	Up or Down & Rainbow (5 Suits)	4
 padi	136759	Black (5 Suits)	4
 padi	167317	Light-Pink-Ones (5 Suits)	4
 padi	168698	Omni-Fives & Pink (6 Suits)	4
@@ -73,8 +69,6 @@ padi	241727	Light Pink (6 Suits)	4
 padi	324907	Duck (5 Suits)	4
 padi	324926	Duck (5 Suits)	4
 padi	326234	Duck (5 Suits)	4
-padi	394119	Up or Down & Brown (6 Suits)	4
-padi	488304	Up or Down & Muddy Rainbow (6 Suits)	4
 padi	531982	Extremely Ambiguous (6 Suits)	4
 padi	706557	Rainbow & Omni (6 Suits)	4
 padi	78133	6 Suits	3
@@ -120,7 +114,6 @@ padi	107801	6 Suits	3
 padi	113604	6 Suits	3
 padi	120635	Black (6 Suits)	3
 padi	123118	No Variant	3
-padi	123347	Up or Down (5 Suits)	3
 padi	124300	White & Brown (6 Suits)	3
 padi	127192	6 Suits	3
 padi	133273	No Variant	3
@@ -151,7 +144,6 @@ padi	214282	Extremely Ambiguous & White (6 Suits)	3
 padi	214314	Ambiguous & Black (5 Suits)	3
 padi	215785	Muddy-Rainbow-Ones & Rainbow (4 Suits)	3
 padi	215828	Muddy-Rainbow-Ones & Rainbow (4 Suits)	3
-padi	216236	Up or Down & Muddy Rainbow (5 Suits)	3
 padi	218139	Cocoa Rainbow (6 Suits)	3
 padi	218144	Cocoa Rainbow (6 Suits)	3
 padi	218159	Dark Pink (6 Suits)	3
@@ -159,7 +151,6 @@ padi	219668	No Variant	3
 padi	231394	Omni-Fives (6 Suits)	3
 padi	231852	Pink & White (5 Suits)	3
 padi	234410	Rainbow-Fives & Cocoa Rainbow (5 Suits)	3
-padi	236295	Up or Down (6 Suits)	3
 padi	237980	Pink-Fives (6 Suits)	3
 padi	238391	No Variant	3
 padi	238483	No Variant	3
@@ -182,10 +173,13 @@ padi	328331	Duck (5 Suits)	3
 padi	328347	Duck (5 Suits)	3
 padi	328367	Duck (5 Suits)	3
 padi	328473	Duck (5 Suits)	3
+padi	394119	Up or Down & Brown (6 Suits)	3
 padi	423308	Pink & White (5 Suits)	3
 padi	431237	No Variant	3
 padi	439410	No Variant	3
 padi	451634	Pink & Prism (5 Suits)	3
+padi	472655	Up or Down & White (5 Suits)	3
+padi	488304	Up or Down & Muddy Rainbow (6 Suits)	3
 padi	531891	Up or Down (6 Suits)	3
 padi	544801	Omni (5 Suits)	3
 padi	545758	Omni (5 Suits)	3
@@ -253,8 +247,8 @@ padi	110054	No Variant	2
 padi	120423	No Variant	2
 padi	120958	Pink (6 Suits)	2
 padi	122398	Black (6 Suits)	2
-padi	122498	Up or Down (5 Suits)	2
 padi	122547	Up or Down (5 Suits)	2
+padi	123347	Up or Down (5 Suits)	2
 padi	124338	White & Brown (6 Suits)	2
 padi	124528	Cow & Pig (3 Suits)	2
 padi	124586	Cow & Pig (3 Suits)	2
@@ -264,12 +258,14 @@ padi	130730	6 Suits	2
 padi	132752	Gray (5 Suits)	2
 padi	133823	Black (6 Suits)	2
 padi	134732	Black (6 Suits)	2
+padi	134826	Up or Down & Rainbow (5 Suits)	2
 padi	134903	Dark Rainbow (5 Suits)	2
 padi	135715	Pink-Ones & White (6 Suits)	2
-padi	138665	Up or Down (6 Suits)	2
+padi	138566	Up or Down (6 Suits)	2
 padi	141435	Rainbow (6 Suits)	2
 padi	143690	Rainbow (6 Suits)	2
 padi	145090	Light Pink (5 Suits)	2
+padi	147083	Up or Down & Rainbow (6 Suits)	2
 padi	150171	No Variant	2
 padi	150812	Special Mix (5 Suits)	2
 padi	153031	Black (6 Suits)	2
@@ -327,10 +323,9 @@ padi	227959	Brown-Fives & Black (5 Suits)	2
 padi	233646	Dark Omni (5 Suits)	2
 padi	234396	Rainbow-Fives & Cocoa Rainbow (5 Suits)	2
 padi	235420	White (6 Suits)	2
+padi	236295	Up or Down (6 Suits)	2
 padi	237444	Omni-Fives (5 Suits)	2
 padi	238042	Light-Pink-Ones (5 Suits)	2
-padi	239139	Up or Down (6 Suits)	2
-padi	241817	Up or Down & White (5 Suits)	2
 padi	244233	Black & Pink (6 Suits)	2
 padi	247060	No Variant	2
 padi	317331	Rainbow-Ones & White (6 Suits)	2
@@ -351,7 +346,6 @@ padi	459657	Muddy-Rainbow-Ones (4 Suits)	2
 padi	461429	No Variant	2
 padi	464150	Null (6 Suits)	2
 padi	465113	Pink & Muddy Rainbow (5 Suits)	2
-padi	477984	Up or Down & Muddy Rainbow (5 Suits)	2
 padi	531049	No Variant	2
 padi	534170	No Variant	2
 padi	534203	No Variant	2
@@ -443,8 +437,8 @@ padi	111075	Rainbow (5 Suits)	1
 padi	112788	Brown (5 Suits)	1
 padi	112848	Brown (5 Suits)	1
 padi	121889	No Variant	1
+padi	122498	Up or Down (5 Suits)	1
 padi	123333	Duck (5 Suits)	1
-padi	123379	Up or Down (5 Suits)	1
 padi	124613	Cow & Pig (3 Suits)	1
 padi	127228	Throw It in a Hole (5 Suits)	1
 padi	127599	Pink (6 Suits)	1
@@ -455,6 +449,7 @@ padi	133347	6 Suits	1
 padi	133646	Black & White (6 Suits)	1
 padi	136024	No Variant	1
 padi	136865	Black (5 Suits)	1
+padi	138665	Up or Down (6 Suits)	1
 padi	140156	Pink & Muddy Rainbow (5 Suits)	1
 padi	140269	Black (6 Suits)	1
 padi	140585	Black (5 Suits)	1
@@ -481,7 +476,6 @@ padi	172105	Muddy-Rainbow-Ones & Light Pink (5 Suits)	1
 padi	172144	Muddy-Rainbow-Ones & Light Pink (5 Suits)	1
 padi	172483	White & Light Pink (4 Suits)	1
 padi	172524	White & Light Pink (4 Suits)	1
-padi	183865	Up or Down (5 Suits)	1
 padi	186472	Black & Rainbow (5 Suits)	1
 padi	190553	Rainbow (4 Suits)	1
 padi	191547	Black & Brown (5 Suits)	1
@@ -543,9 +537,11 @@ padi	238063	Light-Pink-Ones (5 Suits)	1
 padi	238429	No Variant	1
 padi	238450	No Variant	1
 padi	238455	No Variant	1
+padi	239139	Up or Down (6 Suits)	1
 padi	239264	Muddy Rainbow (4 Suits)	1
 padi	240650	Brown-Ones & Dark Rainbow (5 Suits)	1
 padi	240681	Brown-Ones & Dark Rainbow (5 Suits)	1
+padi	241817	Up or Down & White (5 Suits)	1
 padi	243910	Rainbow (4 Suits)	1
 padi	243921	Black (5 Suits)	1
 padi	244251	Light-Pink-Fives & Gray (5 Suits)	1
@@ -675,6 +671,7 @@ padi	120529	No Variant	0
 padi	120982	Pink (6 Suits)	0
 padi	122972	3 Suits	0
 padi	123069	No Variant	0
+padi	123379	Up or Down (5 Suits)	0
 padi	124556	Cow & Pig (3 Suits)	0
 padi	133233	No Variant	0
 padi	140529	Black (5 Suits)	0
@@ -688,6 +685,7 @@ padi	172085	Null-Ones & Muddy Rainbow (5 Suits)	0
 padi	172888	Pink & White (5 Suits)	0
 padi	177128	Black (5 Suits)	0
 padi	177177	Black (5 Suits)	0
+padi	183865	Up or Down (5 Suits)	0
 padi	190482	Brown (5 Suits)	0
 padi	193772	White (5 Suits)	0
 padi	193890	Brown (5 Suits)	0
@@ -723,6 +721,7 @@ padi	211892	Omni-Ones & Rainbow (5 Suits)	0
 padi	214118	Rainbow-Ones (4 Suits)	0
 padi	214306	Ambiguous & White (3 Suits)	0
 padi	215173	Gray (5 Suits)	0
+padi	216236	Up or Down & Muddy Rainbow (5 Suits)	0
 padi	216341	Muddy-Rainbow-Ones & Dark Brown (6 Suits)	0
 padi	217201	Light-Pink-Fives (3 Suits)	0
 padi	218141	Cocoa Rainbow (6 Suits)	0
@@ -766,6 +765,7 @@ padi	461866	Dark Brown (5 Suits)	0
 padi	466127	Special Mix (5 Suits)	0
 padi	470940	White-Ones & Prism (6 Suits)	0
 padi	472580	White-Ones & White (5 Suits)	0
+padi	477984	Up or Down & Muddy Rainbow (5 Suits)	0
 padi	523147	Rainbow & Light Pink (6 Suits)	0
 padi	527012	Gray (6 Suits)	0
 padi	527026	Rainbow Reversed (4 Suits)	0

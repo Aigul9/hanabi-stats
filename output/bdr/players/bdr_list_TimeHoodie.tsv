@@ -9,7 +9,6 @@ TimeHoodie	148151	Rainbow (6 Suits)	7
 TimeHoodie	397759	White-Fives & Rainbow (6 Suits)	7
 TimeHoodie	660518	Clue Starved & Omni (6 Suits)	7
 TimeHoodie	712164	White Reversed (6 Suits)	7
-TimeHoodie	745047	Up or Down & Muddy Rainbow (6 Suits)	7
 TimeHoodie	775727	Prism & Dark Rainbow (6 Suits)	7
 TimeHoodie	75051	Rainbow (5 Suits)	6
 TimeHoodie	97365	Rainbow (6 Suits)	6
@@ -17,9 +16,7 @@ TimeHoodie	103269	White (6 Suits)	6
 TimeHoodie	107520	Rainbow (6 Suits)	6
 TimeHoodie	171078	Black & Dark Pink (6 Suits)	6
 TimeHoodie	172954	Black (6 Suits)	6
-TimeHoodie	175419	Up or Down (6 Suits)	6
 TimeHoodie	191480	Special Mix (6 Suits)	6
-TimeHoodie	207769	Up or Down (6 Suits)	6
 TimeHoodie	209745	Light-Pink-Ones & White (5 Suits)	6
 TimeHoodie	215137	Rainbow (6 Suits)	6
 TimeHoodie	302827	6 Suits	6
@@ -47,15 +44,11 @@ TimeHoodie	143189	White (6 Suits)	5
 TimeHoodie	144789	No Variant	5
 TimeHoodie	161111	Muddy Rainbow & Gray (6 Suits)	5
 TimeHoodie	162114	White-Ones & Brown (5 Suits)	5
-TimeHoodie	163424	Up or Down & White (6 Suits)	5
-TimeHoodie	170867	Up or Down & Omni (6 Suits)	5
 TimeHoodie	179466	Light-Pink-Ones & Black (6 Suits)	5
 TimeHoodie	181397	Light Pink & Gray (6 Suits)	5
 TimeHoodie	181729	Light Pink & Gray (6 Suits)	5
 TimeHoodie	184812	Clue Starved (6 Suits)	5
-TimeHoodie	193865	Up or Down (5 Suits)	5
 TimeHoodie	194884	Up or Down (6 Suits)	5
-TimeHoodie	194904	Up or Down (6 Suits)	5
 TimeHoodie	195041	No Variant	5
 TimeHoodie	196940	Clue Starved & White (6 Suits)	5
 TimeHoodie	205062	Pink (6 Suits)	5
@@ -73,7 +66,6 @@ TimeHoodie	321863	Black & Omni (6 Suits)	5
 TimeHoodie	323034	No Variant	5
 TimeHoodie	323330	Up or Down & Brown (6 Suits)	5
 TimeHoodie	326900	Rainbow-Ones & Black (5 Suits)	5
-TimeHoodie	327718	Up or Down & Prism (6 Suits)	5
 TimeHoodie	328697	White-Ones & Rainbow (5 Suits)	5
 TimeHoodie	333672	White (6 Suits)	5
 TimeHoodie	334175	White & Dark Prism (5 Suits)	5
@@ -82,7 +74,6 @@ TimeHoodie	341115	Omni-Fives (6 Suits)	5
 TimeHoodie	341145	Omni-Fives (6 Suits)	5
 TimeHoodie	356705	Black & White (5 Suits)	5
 TimeHoodie	378575	Rainbow & Light Pink (5 Suits)	5
-TimeHoodie	391378	Up or Down & White (6 Suits)	5
 TimeHoodie	414078	Dual-Color Mix	5
 TimeHoodie	414135	Dual-Color Mix	5
 TimeHoodie	414688	Up or Down & Rainbow (6 Suits)	5
@@ -90,11 +81,8 @@ TimeHoodie	419998	White (6 Suits)	5
 TimeHoodie	420213	6 Suits	5
 TimeHoodie	425978	Pink & Light Pink (6 Suits)	5
 TimeHoodie	432558	White-Ones & Gray Pink (6 Suits)	5
-TimeHoodie	435783	Up or Down & Muddy Rainbow (6 Suits)	5
-TimeHoodie	452599	Up or Down (5 Suits)	5
 TimeHoodie	651883	Dual-Color (6 Suits)	5
 TimeHoodie	652117	Synesthesia & Brown (5 Suits)	5
-TimeHoodie	659388	Up or Down (6 Suits)	5
 TimeHoodie	662655	No Variant	5
 TimeHoodie	663308	Rainbow-Fives & Brown (6 Suits)	5
 TimeHoodie	675458	Light-Pink-Ones & Rainbow (6 Suits)	5
@@ -142,18 +130,17 @@ TimeHoodie	146886	Rainbow (5 Suits)	4
 TimeHoodie	148120	Rainbow (6 Suits)	4
 TimeHoodie	151718	White (5 Suits)	4
 TimeHoodie	154289	Dual-Color (6 Suits)	4
-TimeHoodie	157142	Up or Down (6 Suits)	4
 TimeHoodie	157233	No Variant	4
 TimeHoodie	157507	Black (6 Suits)	4
 TimeHoodie	160452	Rainbow & White (6 Suits)	4
 TimeHoodie	161149	Black (6 Suits)	4
 TimeHoodie	161783	Rainbow (6 Suits)	4
 TimeHoodie	163092	Muddy Rainbow (6 Suits)	4
+TimeHoodie	163424	Up or Down & White (6 Suits)	4
 TimeHoodie	164920	Omni-Ones (5 Suits)	4
 TimeHoodie	167317	Light-Pink-Ones (5 Suits)	4
 TimeHoodie	168601	Dual-Color & Rainbow (6 Suits)	4
 TimeHoodie	168653	Pink & Brown (6 Suits)	4
-TimeHoodie	170760	Up or Down & Pink (5 Suits)	4
 TimeHoodie	172937	Black (6 Suits)	4
 TimeHoodie	173115	Null-Ones (5 Suits)	4
 TimeHoodie	174887	Rainbow & Brown (6 Suits)	4
@@ -166,8 +153,10 @@ TimeHoodie	183240	Clue Starved (6 Suits)	4
 TimeHoodie	185107	No Variant	4
 TimeHoodie	191793	Null-Ones (5 Suits)	4
 TimeHoodie	192585	Brown & Dark Rainbow (6 Suits)	4
+TimeHoodie	194904	Up or Down (6 Suits)	4
 TimeHoodie	195101	No Variant	4
 TimeHoodie	200718	Clue Starved & Pink (5 Suits)	4
+TimeHoodie	207769	Up or Down (6 Suits)	4
 TimeHoodie	211227	Dual-Color & White (6 Suits)	4
 TimeHoodie	215343	No Variant	4
 TimeHoodie	216229	Muddy-Rainbow-Ones & Dark Brown (6 Suits)	4
@@ -209,7 +198,6 @@ TimeHoodie	341767	Pink-Fives & White (6 Suits)	4
 TimeHoodie	346175	Rainbow-Ones & Dark Pink (6 Suits)	4
 TimeHoodie	346449	Omni-Ones (6 Suits)	4
 TimeHoodie	347929	Omni-Fives & Gray Pink (5 Suits)	4
-TimeHoodie	348617	Up or Down (5 Suits)	4
 TimeHoodie	352086	Clue Starved & Brown (6 Suits)	4
 TimeHoodie	352464	Dual-Color Mix	4
 TimeHoodie	353667	White & Light Pink (6 Suits)	4
@@ -218,11 +206,7 @@ TimeHoodie	355076	White & Prism (6 Suits)	4
 TimeHoodie	370271	Brown (6 Suits)	4
 TimeHoodie	374628	Ambiguous & Dual-Color	4
 TimeHoodie	385274	Prism (5 Suits)	4
-TimeHoodie	386043	Up or Down & Muddy Rainbow (5 Suits)	4
-TimeHoodie	387198	Up or Down & Omni (6 Suits)	4
-TimeHoodie	391372	Up or Down & White (6 Suits)	4
 TimeHoodie	396687	Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	4
-TimeHoodie	399742	Up or Down & Omni (6 Suits)	4
 TimeHoodie	404148	Brown & Prism (6 Suits)	4
 TimeHoodie	404467	No Variant	4
 TimeHoodie	417715	Black & White (6 Suits)	4
@@ -231,15 +215,12 @@ TimeHoodie	425300	White-Ones & Prism (5 Suits)	4
 TimeHoodie	426606	Rainbow-Ones & Prism (6 Suits)	4
 TimeHoodie	431797	Rainbow & Gray (6 Suits)	4
 TimeHoodie	433822	Clue Starved & Prism (5 Suits)	4
-TimeHoodie	435815	Up or Down & Muddy Rainbow (5 Suits)	4
 TimeHoodie	436792	Pink & Gray Pink (5 Suits)	4
 TimeHoodie	439997	Throw It in a Hole (6 Suits)	4
 TimeHoodie	445009	Throw It in a Hole (6 Suits)	4
-TimeHoodie	446570	Up or Down & Null (5 Suits)	4
 TimeHoodie	447275	Throw It in a Hole (6 Suits)	4
 TimeHoodie	449487	Throw It in a Hole (6 Suits)	4
 TimeHoodie	449558	Throw It in a Hole (6 Suits)	4
-TimeHoodie	450308	Up or Down & Omni (6 Suits)	4
 TimeHoodie	451903	Gray Pink (6 Suits)	4
 TimeHoodie	452920	Black & Brown (6 Suits)	4
 TimeHoodie	454184	Black & Pink (6 Suits)	4
@@ -288,6 +269,7 @@ TimeHoodie	743372	No Variant	4
 TimeHoodie	743938	Dark Rainbow & Gray (6 Suits)	4
 TimeHoodie	744363	White & Omni (6 Suits)	4
 TimeHoodie	744996	White-Fives & Dark Brown (6 Suits)	4
+TimeHoodie	745047	Up or Down & Muddy Rainbow (6 Suits)	4
 TimeHoodie	745477	Brown-Fives & Dark Prism (6 Suits)	4
 TimeHoodie	745676	White-Fives & Pink (5 Suits)	4
 TimeHoodie	746851	Null-Fives & Brown (5 Suits)	4
@@ -312,7 +294,6 @@ TimeHoodie	762546	Pink-Fives & Dark Prism (6 Suits)	4
 TimeHoodie	762801	No Variant	4
 TimeHoodie	762808	No Variant	4
 TimeHoodie	765834	Rainbow (6 Suits)	4
-TimeHoodie	766497	Up or Down (6 Suits)	4
 TimeHoodie	768063	Rainbow Reversed (6 Suits)	4
 TimeHoodie	768386	Pink-Ones & Light Pink (5 Suits)	4
 TimeHoodie	768435	Light-Pink-Ones & Dark Pink (6 Suits)	4
@@ -402,6 +383,8 @@ TimeHoodie	169657	Omni-Fives & Brown (6 Suits)	3
 TimeHoodie	170232	Brown & Gray Pink (6 Suits)	3
 TimeHoodie	170549	Brown-Fives (6 Suits)	3
 TimeHoodie	170730	White-Ones & Brown (6 Suits)	3
+TimeHoodie	170760	Up or Down & Pink (5 Suits)	3
+TimeHoodie	170867	Up or Down & Omni (6 Suits)	3
 TimeHoodie	171211	Black & Dark Pink (6 Suits)	3
 TimeHoodie	172846	Black (6 Suits)	3
 TimeHoodie	172913	Black (6 Suits)	3
@@ -409,6 +392,7 @@ TimeHoodie	173145	Null-Ones (5 Suits)	3
 TimeHoodie	173632	Duck (5 Suits)	3
 TimeHoodie	174328	No Variant	3
 TimeHoodie	174922	Rainbow & Brown (6 Suits)	3
+TimeHoodie	175419	Up or Down (6 Suits)	3
 TimeHoodie	176075	Pink-Ones & Muddy Rainbow (6 Suits)	3
 TimeHoodie	176284	Muddy Rainbow (6 Suits)	3
 TimeHoodie	177001	Black (6 Suits)	3
@@ -478,7 +462,6 @@ TimeHoodie	303742	White-Ones & Rainbow (6 Suits)	3
 TimeHoodie	305169	Dual-Color & Pink (6 Suits)	3
 TimeHoodie	305366	No Variant	3
 TimeHoodie	305434	Pink & Dark Prism (5 Suits)	3
-TimeHoodie	305913	Up or Down & Prism (6 Suits)	3
 TimeHoodie	307514	No Variant	3
 TimeHoodie	307583	No Variant	3
 TimeHoodie	307773	Pink & Muddy Rainbow (6 Suits)	3
@@ -507,7 +490,6 @@ TimeHoodie	321537	Pink & Omni (6 Suits)	3
 TimeHoodie	321674	White & Prism (6 Suits)	3
 TimeHoodie	322243	Dark Rainbow (6 Suits)	3
 TimeHoodie	323259	Rainbow-Ones & Black (6 Suits)	3
-TimeHoodie	323355	Up or Down & Brown (6 Suits)	3
 TimeHoodie	323702	Prism (5 Suits)	3
 TimeHoodie	323722	Dark Null (6 Suits)	3
 TimeHoodie	323747	Brown (6 Suits)	3
@@ -521,21 +503,16 @@ TimeHoodie	326641	Rainbow & White (6 Suits)	3
 TimeHoodie	326669	Throw It in a Hole (5 Suits)	3
 TimeHoodie	326865	Rainbow-Ones & Black (5 Suits)	3
 TimeHoodie	326892	Rainbow-Ones & Black (5 Suits)	3
-TimeHoodie	327737	Up or Down & Prism (6 Suits)	3
-TimeHoodie	327752	Up or Down & Prism (6 Suits)	3
-TimeHoodie	327773	Up or Down & Prism (6 Suits)	3
+TimeHoodie	327718	Up or Down & Prism (6 Suits)	3
 TimeHoodie	328300	Black & Rainbow (6 Suits)	3
 TimeHoodie	329716	Brown-Ones & Rainbow (5 Suits)	3
 TimeHoodie	332414	Null (6 Suits)	3
 TimeHoodie	333180	Rainbow & Light Pink (6 Suits)	3
-TimeHoodie	334430	Up or Down & Rainbow (6 Suits)	3
 TimeHoodie	334705	Black & Prism (6 Suits)	3
 TimeHoodie	334790	Black & Prism (6 Suits)	3
 TimeHoodie	334871	Rainbow-Ones & Rainbow (6 Suits)	3
 TimeHoodie	335586	Brown & Cocoa Rainbow (5 Suits)	3
-TimeHoodie	336198	Up or Down & Pink (6 Suits)	3
 TimeHoodie	336413	Rainbow & Pink (6 Suits)	3
-TimeHoodie	336521	Up or Down & Brown (6 Suits)	3
 TimeHoodie	336808	Duck (5 Suits)	3
 TimeHoodie	336861	Prism (6 Suits)	3
 TimeHoodie	337835	White & Muddy Rainbow (5 Suits)	3
@@ -544,7 +521,6 @@ TimeHoodie	338449	Prism (6 Suits)	3
 TimeHoodie	339186	Null (6 Suits)	3
 TimeHoodie	339317	Pink (6 Suits)	3
 TimeHoodie	339487	Prism (6 Suits)	3
-TimeHoodie	340070	Up or Down & Prism (5 Suits)	3
 TimeHoodie	340797	Omni-Fives (5 Suits)	3
 TimeHoodie	341201	Omni (6 Suits)	3
 TimeHoodie	343295	Rainbow-Ones (6 Suits)	3
@@ -562,7 +538,6 @@ TimeHoodie	346191	Rainbow-Ones & Dark Pink (6 Suits)	3
 TimeHoodie	346711	White & Dark Rainbow (6 Suits)	3
 TimeHoodie	346771	White & Dark Rainbow (6 Suits)	3
 TimeHoodie	346801	Dark Null (6 Suits)	3
-TimeHoodie	348610	Up or Down (5 Suits)	3
 TimeHoodie	351459	Rainbow & Null (6 Suits)	3
 TimeHoodie	351762	Pink (5 Suits)	3
 TimeHoodie	352064	Muddy Rainbow & Prism (6 Suits)	3
@@ -584,20 +559,19 @@ TimeHoodie	359825	Light-Pink-Ones & Prism (6 Suits)	3
 TimeHoodie	360177	Rainbow & Dark Pink (5 Suits)	3
 TimeHoodie	366435	Rainbow & Dark Prism (5 Suits)	3
 TimeHoodie	368526	Dark Rainbow (6 Suits)	3
-TimeHoodie	369714	Up or Down & White (6 Suits)	3
 TimeHoodie	370017	Muddy Rainbow & Prism (6 Suits)	3
 TimeHoodie	370617	Black & Omni (6 Suits)	3
-TimeHoodie	371964	Up or Down & Muddy Rainbow (5 Suits)	3
 TimeHoodie	374607	Dark Omni (5 Suits)	3
 TimeHoodie	374635	Dual-Color & Dark Pink (6 Suits)	3
 TimeHoodie	374668	Cocoa Rainbow (5 Suits)	3
-TimeHoodie	376346	Up or Down & Rainbow (6 Suits)	3
-TimeHoodie	376379	Up or Down & Rainbow (6 Suits)	3
+TimeHoodie	386043	Up or Down & Muddy Rainbow (5 Suits)	3
 TimeHoodie	386433	Pink & Prism (6 Suits)	3
 TimeHoodie	387194	Up or Down & Omni (6 Suits)	3
+TimeHoodie	387198	Up or Down & Omni (6 Suits)	3
 TimeHoodie	387366	Dual-Color & White (6 Suits)	3
 TimeHoodie	388162	Pink & Omni (5 Suits)	3
 TimeHoodie	389420	Rainbow (6 Suits)	3
+TimeHoodie	391378	Up or Down & White (6 Suits)	3
 TimeHoodie	392413	Cocoa Rainbow & Gray Pink (6 Suits)	3
 TimeHoodie	393385	Duck (5 Suits)	3
 TimeHoodie	393388	Duck (5 Suits)	3
@@ -609,6 +583,7 @@ TimeHoodie	396710	Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	3
 TimeHoodie	396726	Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	3
 TimeHoodie	397767	White (5 Suits)	3
 TimeHoodie	398117	Dual-Color & Dark Brown (6 Suits)	3
+TimeHoodie	399742	Up or Down & Omni (6 Suits)	3
 TimeHoodie	403769	Up or Down (5 Suits)	3
 TimeHoodie	404655	Pink & Dark Prism (6 Suits)	3
 TimeHoodie	406986	Rainbow & Omni (6 Suits)	3
@@ -647,6 +622,8 @@ TimeHoodie	434121	White & Brown (6 Suits)	3
 TimeHoodie	434479	Cocoa Rainbow (5 Suits)	3
 TimeHoodie	434813	Rainbow & Omni (6 Suits)	3
 TimeHoodie	434875	Omni & Gray Pink (5 Suits)	3
+TimeHoodie	435783	Up or Down & Muddy Rainbow (6 Suits)	3
+TimeHoodie	435815	Up or Down & Muddy Rainbow (5 Suits)	3
 TimeHoodie	435863	Black (6 Suits)	3
 TimeHoodie	436753	Pink & Gray Pink (5 Suits)	3
 TimeHoodie	438747	Black & Omni (6 Suits)	3
@@ -657,13 +634,10 @@ TimeHoodie	440972	White-Ones & Pink (6 Suits)	3
 TimeHoodie	441606	Up or Down & White (5 Suits)	3
 TimeHoodie	443178	Clue Starved & Rainbow (5 Suits)	3
 TimeHoodie	443965	Throw It in a Hole (6 Suits)	3
-TimeHoodie	446589	Up or Down & Null (5 Suits)	3
 TimeHoodie	447345	Gray (6 Suits)	3
 TimeHoodie	447751	Null & Muddy Rainbow (5 Suits)	3
 TimeHoodie	449860	Pink & Muddy Rainbow (6 Suits)	3
 TimeHoodie	450287	Brown & Light Pink (6 Suits)	3
-TimeHoodie	450298	Up or Down & Omni (5 Suits)	3
-TimeHoodie	450332	Up or Down & Omni (6 Suits)	3
 TimeHoodie	450764	Pink & Muddy Rainbow (6 Suits)	3
 TimeHoodie	451566	White-Ones & Rainbow (6 Suits)	3
 TimeHoodie	451606	Muddy-Rainbow-Ones & Dark Prism (6 Suits)	3
@@ -675,7 +649,6 @@ TimeHoodie	465911	Pink-Ones & Null (5 Suits)	3
 TimeHoodie	466860	Light-Pink-Fives (6 Suits)	3
 TimeHoodie	467782	Pink & Omni (5 Suits)	3
 TimeHoodie	468382	Rainbow & Dark Brown (6 Suits)	3
-TimeHoodie	468795	Up or Down & Prism (6 Suits)	3
 TimeHoodie	472083	Brown (6 Suits)	3
 TimeHoodie	472164	Brown (6 Suits)	3
 TimeHoodie	643372	Light-Pink-Fives & Pink (6 Suits)	3
@@ -703,8 +676,8 @@ TimeHoodie	651818	Muddy-Rainbow-Fives & Prism (6 Suits)	3
 TimeHoodie	652232	Synesthesia (6 Suits)	3
 TimeHoodie	653489	Black & Dark Omni (6 Suits)	3
 TimeHoodie	654502	Gray Reversed (6 Suits)	3
+TimeHoodie	659388	Up or Down (6 Suits)	3
 TimeHoodie	659789	Null (6 Suits)	3
-TimeHoodie	661197	Up or Down & Omni (5 Suits)	3
 TimeHoodie	661627	Omni & Cocoa Rainbow (6 Suits)	3
 TimeHoodie	661634	Omni & Cocoa Rainbow (6 Suits)	3
 TimeHoodie	661640	Omni & Cocoa Rainbow (6 Suits)	3
@@ -715,7 +688,6 @@ TimeHoodie	662585	Dark Null (5 Suits)	3
 TimeHoodie	662865	Muddy-Rainbow-Fives & Muddy Rainbow (6 Suits)	3
 TimeHoodie	663071	Deceptive-Fives & Dark Brown (5 Suits)	3
 TimeHoodie	663741	Clue Starved & Pink (5 Suits)	3
-TimeHoodie	663967	Up or Down & Rainbow (5 Suits)	3
 TimeHoodie	665719	Rainbow & Gray (6 Suits)	3
 TimeHoodie	666390	Rainbow & Gray (6 Suits)	3
 TimeHoodie	669392	White & Prism (6 Suits)	3
@@ -752,7 +724,6 @@ TimeHoodie	720738	Null-Ones (6 Suits)	3
 TimeHoodie	721338	Black & Rainbow (5 Suits)	3
 TimeHoodie	724027	No Variant	3
 TimeHoodie	724308	Deceptive-Ones (4 Suits)	3
-TimeHoodie	724623	Up or Down & Null (6 Suits)	3
 TimeHoodie	727876	Dark Omni (6 Suits)	3
 TimeHoodie	727885	Dark Omni (6 Suits)	3
 TimeHoodie	728990	Rainbow & White (6 Suits)	3
@@ -808,7 +779,6 @@ TimeHoodie	762243	Light-Pink-Fives & Dark Pink (6 Suits)	3
 TimeHoodie	762656	Brown & Omni (6 Suits)	3
 TimeHoodie	763635	Muddy Rainbow (6 Suits)	3
 TimeHoodie	764110	Rainbow (6 Suits)	3
-TimeHoodie	764218	Up or Down & Rainbow (6 Suits)	3
 TimeHoodie	765531	Dual-Color & Dark Prism (6 Suits)	3
 TimeHoodie	765959	White & Prism (6 Suits)	3
 TimeHoodie	766363	Null-Fives & Omni (6 Suits)	3
@@ -838,7 +808,6 @@ TimeHoodie	777390	Black (6 Suits)	3
 TimeHoodie	778106	Cow & Pig (6 Suits)	3
 TimeHoodie	778699	Special Mix (6 Suits)	3
 TimeHoodie	779016	Pink-Fives & Muddy Rainbow (6 Suits)	3
-TimeHoodie	779831	Up or Down & Pink (6 Suits)	3
 TimeHoodie	780732	Light Pink & Dark Rainbow (6 Suits)	3
 TimeHoodie	781462	Muddy-Rainbow-Ones (6 Suits)	3
 TimeHoodie	781890	Brown & Dark Prism (6 Suits)	3
@@ -941,15 +910,12 @@ TimeHoodie	162987	Brown-Ones & Rainbow (6 Suits)	2
 TimeHoodie	163024	Brown-Ones & Rainbow (6 Suits)	2
 TimeHoodie	163079	White (5 Suits)	2
 TimeHoodie	163136	Throw It in a Hole & Muddy Rainbow (5 Suits)	2
-TimeHoodie	163336	Up or Down (5 Suits)	2
 TimeHoodie	163460	Up or Down & White (6 Suits)	2
-TimeHoodie	163490	Up or Down & White (6 Suits)	2
 TimeHoodie	164235	No Variant	2
 TimeHoodie	164264	No Variant	2
 TimeHoodie	164279	Brown-Fives (5 Suits)	2
 TimeHoodie	164401	Muddy-Rainbow-Ones & Pink (5 Suits)	2
 TimeHoodie	164598	Pink-Fives & Pink (5 Suits)	2
-TimeHoodie	164713	Up or Down & Pink (5 Suits)	2
 TimeHoodie	164748	Up or Down & Omni (5 Suits)	2
 TimeHoodie	164775	Up or Down & Pink (5 Suits)	2
 TimeHoodie	164822	Up or Down & Pink (5 Suits)	2
@@ -970,7 +936,6 @@ TimeHoodie	167831	Pink (5 Suits)	2
 TimeHoodie	168500	White & Light Pink (5 Suits)	2
 TimeHoodie	168627	Pink & Brown (6 Suits)	2
 TimeHoodie	168684	No Variant	2
-TimeHoodie	168732	Up or Down (5 Suits)	2
 TimeHoodie	168759	Rainbow & Light Pink (6 Suits)	2
 TimeHoodie	169055	Null (5 Suits)	2
 TimeHoodie	169161	Black & Null (5 Suits)	2
@@ -1021,12 +986,12 @@ TimeHoodie	184842	Muddy-Rainbow-Ones & Null (5 Suits)	2
 TimeHoodie	185255	Reversed (6 Suits)	2
 TimeHoodie	186129	Rainbow-Fives & Pink (5 Suits)	2
 TimeHoodie	190028	Brown (6 Suits)	2
-TimeHoodie	190530	Up or Down (5 Suits)	2
 TimeHoodie	190925	White (5 Suits)	2
 TimeHoodie	191761	Null-Ones (5 Suits)	2
 TimeHoodie	193555	Gray (6 Suits)	2
 TimeHoodie	193692	Black & White (6 Suits)	2
 TimeHoodie	193851	Black & Dark Pink (6 Suits)	2
+TimeHoodie	193865	Up or Down (5 Suits)	2
 TimeHoodie	194938	White-Ones & Brown (5 Suits)	2
 TimeHoodie	195181	White-Ones & Brown (6 Suits)	2
 TimeHoodie	195200	White-Ones & Brown (5 Suits)	2
@@ -1069,7 +1034,6 @@ TimeHoodie	215281	Special Mix (5 Suits)	2
 TimeHoodie	216129	Special Mix (5 Suits)	2
 TimeHoodie	216561	Pink-Fives & Black (6 Suits)	2
 TimeHoodie	221427	Brown (5 Suits)	2
-TimeHoodie	296775	Up or Down (5 Suits)	2
 TimeHoodie	297264	Prism (6 Suits)	2
 TimeHoodie	298636	Special Mix (5 Suits)	2
 TimeHoodie	298658	Special Mix (5 Suits)	2
@@ -1191,6 +1155,7 @@ TimeHoodie	334020	Black & Omni (6 Suits)	2
 TimeHoodie	334069	Pink & Prism (6 Suits)	2
 TimeHoodie	334086	White & Dark Prism (5 Suits)	2
 TimeHoodie	334108	White & Dark Prism (5 Suits)	2
+TimeHoodie	334430	Up or Down & Rainbow (6 Suits)	2
 TimeHoodie	334441	White & Prism (5 Suits)	2
 TimeHoodie	334537	Clue Starved (6 Suits)	2
 TimeHoodie	334616	Black & Prism (6 Suits)	2
@@ -1199,9 +1164,10 @@ TimeHoodie	335251	Rainbow & Light Pink (3 Suits)	2
 TimeHoodie	335476	Rainbow (5 Suits)	2
 TimeHoodie	335500	Rainbow (5 Suits)	2
 TimeHoodie	335725	Brown & Cocoa Rainbow (5 Suits)	2
+TimeHoodie	336198	Up or Down & Pink (6 Suits)	2
 TimeHoodie	336399	Rainbow & Pink (6 Suits)	2
 TimeHoodie	336406	Rainbow & Pink (6 Suits)	2
-TimeHoodie	336467	Up or Down & Brown (6 Suits)	2
+TimeHoodie	336521	Up or Down & Brown (6 Suits)	2
 TimeHoodie	336821	Prism (6 Suits)	2
 TimeHoodie	336842	Prism (6 Suits)	2
 TimeHoodie	336853	Prism (6 Suits)	2
@@ -1216,7 +1182,7 @@ TimeHoodie	339586	Cocoa Rainbow (5 Suits)	2
 TimeHoodie	339968	Prism (6 Suits)	2
 TimeHoodie	339971	Omni (6 Suits)	2
 TimeHoodie	339976	Rainbow-Fives & Brown (5 Suits)	2
-TimeHoodie	340077	Up or Down & Prism (5 Suits)	2
+TimeHoodie	340070	Up or Down & Prism (5 Suits)	2
 TimeHoodie	340306	Pink (6 Suits)	2
 TimeHoodie	340338	Prism & Dark Rainbow (6 Suits)	2
 TimeHoodie	340370	Rainbow (4 Suits)	2
@@ -1242,6 +1208,7 @@ TimeHoodie	346336	Black Reversed (5 Suits)	2
 TimeHoodie	346621	White & Dark Rainbow (6 Suits)	2
 TimeHoodie	347794	Cocoa Rainbow & Gray Pink (6 Suits)	2
 TimeHoodie	347829	Light Pink (6 Suits)	2
+TimeHoodie	348617	Up or Down (5 Suits)	2
 TimeHoodie	348623	Up or Down (5 Suits)	2
 TimeHoodie	349083	Brown & Prism (5 Suits)	2
 TimeHoodie	349167	Null (5 Suits)	2
@@ -1260,10 +1227,8 @@ TimeHoodie	352553	Brown (6 Suits)	2
 TimeHoodie	352630	Rainbow-Ones & White (5 Suits)	2
 TimeHoodie	352737	Deceptive-Ones (6 Suits)	2
 TimeHoodie	352947	Pink (4 Suits)	2
-TimeHoodie	352991	Up or Down (5 Suits)	2
 TimeHoodie	353136	Rainbow & Prism (5 Suits)	2
 TimeHoodie	354480	Rainbow (5 Suits)	2
-TimeHoodie	354723	Up or Down & Omni (5 Suits)	2
 TimeHoodie	355117	Black & White (5 Suits)	2
 TimeHoodie	355225	Prism (6 Suits)	2
 TimeHoodie	355248	Prism (6 Suits)	2
@@ -1275,14 +1240,11 @@ TimeHoodie	355906	Brown & Prism (6 Suits)	2
 TimeHoodie	355947	Brown & Prism (6 Suits)	2
 TimeHoodie	356405	Rainbow (6 Suits)	2
 TimeHoodie	356935	Brown (6 Suits)	2
-TimeHoodie	357781	Up or Down & Omni (5 Suits)	2
 TimeHoodie	358738	Gray Pink (5 Suits)	2
 TimeHoodie	358748	Gray (5 Suits)	2
-TimeHoodie	358961	Up or Down & White (5 Suits)	2
 TimeHoodie	359339	Rainbow & Gray (6 Suits)	2
 TimeHoodie	359377	Light-Pink-Fives & Black (6 Suits)	2
 TimeHoodie	359426	Light-Pink-Fives & Prism (5 Suits)	2
-TimeHoodie	360205	Up or Down & Omni (5 Suits)	2
 TimeHoodie	364442	Gray (5 Suits)	2
 TimeHoodie	364455	Rainbow & White (4 Suits)	2
 TimeHoodie	364656	Pink & Brown (6 Suits)	2
@@ -1299,7 +1261,7 @@ TimeHoodie	370246	Brown (6 Suits)	2
 TimeHoodie	370307	Dark Rainbow (5 Suits)	2
 TimeHoodie	370672	Black & Omni (6 Suits)	2
 TimeHoodie	371133	Black & Prism (6 Suits)	2
-TimeHoodie	371973	Up or Down & Muddy Rainbow (5 Suits)	2
+TimeHoodie	371964	Up or Down & Muddy Rainbow (5 Suits)	2
 TimeHoodie	373788	No Variant	2
 TimeHoodie	373792	No Variant	2
 TimeHoodie	374437	Rainbow-Ones & Dark Rainbow (5 Suits)	2
@@ -1310,13 +1272,13 @@ TimeHoodie	376320	Up or Down & Rainbow (6 Suits)	2
 TimeHoodie	378442	No Variant	2
 TimeHoodie	378589	Rainbow & Light Pink (5 Suits)	2
 TimeHoodie	384801	Reversed (5 Suits)	2
-TimeHoodie	385245	Up or Down (5 Suits)	2
 TimeHoodie	387348	Dual-Color & White (6 Suits)	2
 TimeHoodie	388159	No Variant	2
 TimeHoodie	388250	Brown & Gray Pink (6 Suits)	2
 TimeHoodie	389312	Omni & Dark Pink (6 Suits)	2
 TimeHoodie	389432	Rainbow (6 Suits)	2
 TimeHoodie	390311	White & Dark Prism (6 Suits)	2
+TimeHoodie	391372	Up or Down & White (6 Suits)	2
 TimeHoodie	392553	Brown & Gray Pink (5 Suits)	2
 TimeHoodie	393683	Throw It in a Hole & White (6 Suits)	2
 TimeHoodie	394446	Black & Omni (5 Suits)	2
@@ -1383,7 +1345,6 @@ TimeHoodie	424812	White-Ones & Null (6 Suits)	2
 TimeHoodie	425206	White (5 Suits)	2
 TimeHoodie	425224	White & Prism (5 Suits)	2
 TimeHoodie	425359	Rainbow-Ones & Dark Pink (6 Suits)	2
-TimeHoodie	425692	Up or Down & Rainbow (6 Suits)	2
 TimeHoodie	425796	Special Mix (5 Suits)	2
 TimeHoodie	425884	Special Mix (5 Suits)	2
 TimeHoodie	425901	Special Mix (6 Suits)	2
@@ -1427,17 +1388,20 @@ TimeHoodie	443437	Dark Pink (6 Suits)	2
 TimeHoodie	445052	Throw It in a Hole (6 Suits)	2
 TimeHoodie	445553	Cocoa Rainbow (6 Suits)	2
 TimeHoodie	445683	Pink & Muddy Rainbow (6 Suits)	2
+TimeHoodie	446570	Up or Down & Null (5 Suits)	2
+TimeHoodie	446589	Up or Down & Null (5 Suits)	2
 TimeHoodie	446638	Omni (6 Suits)	2
 TimeHoodie	446689	Dark Pink (6 Suits)	2
 TimeHoodie	447371	Omni & Muddy Rainbow (5 Suits)	2
 TimeHoodie	447992	Gray Pink (5 Suits)	2
 TimeHoodie	448659	Rainbow & Brown (4 Suits)	2
-TimeHoodie	450466	Up or Down & Omni (6 Suits)	2
-TimeHoodie	450492	Up or Down & Omni (6 Suits)	2
+TimeHoodie	450308	Up or Down & Omni (6 Suits)	2
+TimeHoodie	450332	Up or Down & Omni (6 Suits)	2
 TimeHoodie	450786	Rainbow-Ones & White (6 Suits)	2
 TimeHoodie	450799	Light Pink & Prism (6 Suits)	2
 TimeHoodie	451912	Gray Pink (6 Suits)	2
 TimeHoodie	452285	Null-Ones & Dark Rainbow (6 Suits)	2
+TimeHoodie	452599	Up or Down (5 Suits)	2
 TimeHoodie	452659	Dark Pink (6 Suits)	2
 TimeHoodie	452931	White & Brown (6 Suits)	2
 TimeHoodie	454958	White & Dark Rainbow (6 Suits)	2
@@ -1462,7 +1426,6 @@ TimeHoodie	466756	Black & Omni (6 Suits)	2
 TimeHoodie	466895	Light-Pink-Fives (6 Suits)	2
 TimeHoodie	467700	Black & Brown (5 Suits)	2
 TimeHoodie	468009	Rainbow & Omni (6 Suits)	2
-TimeHoodie	468828	Up or Down & Prism (5 Suits)	2
 TimeHoodie	470825	Brown (6 Suits)	2
 TimeHoodie	471995	Brown (6 Suits)	2
 TimeHoodie	472020	Brown (6 Suits)	2
@@ -1559,6 +1522,7 @@ TimeHoodie	660218	Muddy Rainbow & Light Pink (6 Suits)	2
 TimeHoodie	660654	Rainbow & Dark Brown (6 Suits)	2
 TimeHoodie	660965	Dark Rainbow (5 Suits)	2
 TimeHoodie	661061	Muddy-Rainbow-Ones & Gray Pink (5 Suits)	2
+TimeHoodie	661197	Up or Down & Omni (5 Suits)	2
 TimeHoodie	661218	Brown-Ones & Prism (4 Suits)	2
 TimeHoodie	661227	Brown-Ones & Prism (4 Suits)	2
 TimeHoodie	661242	Light Pink & Dark Omni (5 Suits)	2
@@ -1582,10 +1546,9 @@ TimeHoodie	662921	Omni & Prism (5 Suits)	2
 TimeHoodie	662940	Special Mix (6 Suits)	2
 TimeHoodie	663030	Deceptive-Ones & Rainbow (6 Suits)	2
 TimeHoodie	663743	Clue Starved & Pink (5 Suits)	2
-TimeHoodie	663864	Up or Down & Rainbow (5 Suits)	2
 TimeHoodie	663916	Null-Fives (4 Suits)	2
 TimeHoodie	663945	Muddy-Rainbow-Fives & Light Pink (6 Suits)	2
-TimeHoodie	664386	Up or Down & Rainbow (5 Suits)	2
+TimeHoodie	663967	Up or Down & Rainbow (5 Suits)	2
 TimeHoodie	664668	Brown-Ones & Black (6 Suits)	2
 TimeHoodie	664677	Light-Pink-Fives (6 Suits)	2
 TimeHoodie	665598	White & Omni (5 Suits)	2
@@ -1605,7 +1568,6 @@ TimeHoodie	669832	White & Muddy Rainbow (5 Suits)	2
 TimeHoodie	670018	Omni-Ones & Light Pink (6 Suits)	2
 TimeHoodie	670042	Omni-Ones & Light Pink (6 Suits)	2
 TimeHoodie	670148	Pink & Dark Null (6 Suits)	2
-TimeHoodie	670529	Up or Down & Light Pink (6 Suits)	2
 TimeHoodie	671859	White & Light Pink (6 Suits)	2
 TimeHoodie	672857	Light-Pink-Fives & Prism (6 Suits)	2
 TimeHoodie	676101	Special Mix (6 Suits)	2
@@ -1651,7 +1613,6 @@ TimeHoodie	706382	Black & Rainbow (5 Suits)	2
 TimeHoodie	707017	No Variant	2
 TimeHoodie	707095	Alternating Clues & Cocoa Rainbow (6 Suits)	2
 TimeHoodie	707223	Rainbow & Pink (5 Suits)	2
-TimeHoodie	707879	Up or Down & Light Pink (6 Suits)	2
 TimeHoodie	709692	Pink-Ones & Gray (6 Suits)	2
 TimeHoodie	710378	Omni & Muddy Rainbow (6 Suits)	2
 TimeHoodie	711442	No Variant	2
@@ -1679,6 +1640,7 @@ TimeHoodie	722808	No Variant	2
 TimeHoodie	722814	No Variant	2
 TimeHoodie	724066	No Variant	2
 TimeHoodie	724270	Rainbow-Fives & Brown (6 Suits)	2
+TimeHoodie	724623	Up or Down & Null (6 Suits)	2
 TimeHoodie	724840	Pink-Ones & Black (6 Suits)	2
 TimeHoodie	724931	Omni & Dark Prism (5 Suits)	2
 TimeHoodie	725657	Brown & Gray (5 Suits)	2
@@ -1764,7 +1726,6 @@ TimeHoodie	754265	Rainbow & Muddy Rainbow (6 Suits)	2
 TimeHoodie	755439	Brown & Dark Prism (5 Suits)	2
 TimeHoodie	755633	No Variant	2
 TimeHoodie	755832	Null & Light Pink (6 Suits)	2
-TimeHoodie	756016	Up or Down & Pink (5 Suits)	2
 TimeHoodie	756075	Pink & Prism (6 Suits)	2
 TimeHoodie	757359	No Variant	2
 TimeHoodie	758277	Dual-Color & Dark Rainbow (6 Suits)	2
@@ -1786,7 +1747,6 @@ TimeHoodie	762690	White-Fives & Gray Pink (6 Suits)	2
 TimeHoodie	763035	Pink-Fives & Muddy Rainbow (6 Suits)	2
 TimeHoodie	763207	Muddy Rainbow & Light Pink (6 Suits)	2
 TimeHoodie	763242	Dual-Color & Cocoa Rainbow (6 Suits)	2
-TimeHoodie	763493	Up or Down & Brown (5 Suits)	2
 TimeHoodie	763859	Light-Pink-Fives & Gray Pink (6 Suits)	2
 TimeHoodie	764007	White Reversed (5 Suits)	2
 TimeHoodie	764008	White Reversed (5 Suits)	2
@@ -1798,6 +1758,7 @@ TimeHoodie	765537	White & Prism (6 Suits)	2
 TimeHoodie	765913	No Variant	2
 TimeHoodie	765993	Brown-Fives & Brown (5 Suits)	2
 TimeHoodie	766070	White-Ones (6 Suits)	2
+TimeHoodie	766497	Up or Down (6 Suits)	2
 TimeHoodie	766615	No Variant	2
 TimeHoodie	766808	Brown-Fives & Prism (4 Suits)	2
 TimeHoodie	767356	Rainbow-Ones & Dark Brown (5 Suits)	2
@@ -1989,6 +1950,8 @@ TimeHoodie	163054	No Variant	1
 TimeHoodie	163164	Muddy-Rainbow-Ones & Brown (3 Suits)	1
 TimeHoodie	163200	No Variant	1
 TimeHoodie	163228	Muddy-Rainbow-Ones & Omni (4 Suits)	1
+TimeHoodie	163336	Up or Down (5 Suits)	1
+TimeHoodie	163490	Up or Down & White (6 Suits)	1
 TimeHoodie	164377	Rainbow-Ones & Pink (5 Suits)	1
 TimeHoodie	164526	Pink-Fives & Pink (5 Suits)	1
 TimeHoodie	164798	Up or Down & Pink (5 Suits)	1
@@ -2003,6 +1966,7 @@ TimeHoodie	167127	Black (5 Suits)	1
 TimeHoodie	168474	White & Light Pink (5 Suits)	1
 TimeHoodie	168512	White & Light Pink (5 Suits)	1
 TimeHoodie	168542	Up or Down (5 Suits)	1
+TimeHoodie	168732	Up or Down (5 Suits)	1
 TimeHoodie	168782	Black (5 Suits)	1
 TimeHoodie	169033	Null (5 Suits)	1
 TimeHoodie	169709	Omni-Fives & Brown (6 Suits)	1
@@ -2066,6 +2030,7 @@ TimeHoodie	184828	Brown-Ones & Pink (5 Suits)	1
 TimeHoodie	185155	Brown (5 Suits)	1
 TimeHoodie	190492	Rainbow-Fives & Pink (5 Suits)	1
 TimeHoodie	190516	Rainbow-Fives & Pink (5 Suits)	1
+TimeHoodie	190530	Up or Down (5 Suits)	1
 TimeHoodie	190609	Pink & Light Pink (6 Suits)	1
 TimeHoodie	190984	Reversed (5 Suits)	1
 TimeHoodie	191029	Reversed (5 Suits)	1
@@ -2078,7 +2043,6 @@ TimeHoodie	192634	Light-Pink-Fives & Rainbow (4 Suits)	1
 TimeHoodie	193618	3 Suits	1
 TimeHoodie	193814	Up or Down (6 Suits)	1
 TimeHoodie	193836	Black & Dark Pink (6 Suits)	1
-TimeHoodie	194893	Up or Down (6 Suits)	1
 TimeHoodie	195046	No Variant	1
 TimeHoodie	196248	Reversed (4 Suits)	1
 TimeHoodie	196623	Black & Dark Pink (6 Suits)	1
@@ -2137,11 +2101,10 @@ TimeHoodie	219559	Muddy-Rainbow-Fives & Black (5 Suits)	1
 TimeHoodie	220084	Black & Null (5 Suits)	1
 TimeHoodie	220118	Black & Null (5 Suits)	1
 TimeHoodie	221512	White (5 Suits)	1
-TimeHoodie	221604	Up or Down (5 Suits)	1
 TimeHoodie	221968	Rainbow-Fives & Light Pink (6 Suits)	1
 TimeHoodie	294943	Prism (3 Suits)	1
 TimeHoodie	296763	Rainbow (4 Suits)	1
-TimeHoodie	296788	Up or Down (5 Suits)	1
+TimeHoodie	296775	Up or Down (5 Suits)	1
 TimeHoodie	296857	Rainbow & Prism (5 Suits)	1
 TimeHoodie	297156	Dark Pink (5 Suits)	1
 TimeHoodie	297238	Prism (6 Suits)	1
@@ -2194,6 +2157,7 @@ TimeHoodie	305411	Black & Rainbow (6 Suits)	1
 TimeHoodie	305426	Light Pink & Dark Rainbow (5 Suits)	1
 TimeHoodie	305520	Prism (5 Suits)	1
 TimeHoodie	305547	Prism (5 Suits)	1
+TimeHoodie	305913	Up or Down & Prism (6 Suits)	1
 TimeHoodie	306191	Pink-Fives & Black (6 Suits)	1
 TimeHoodie	306233	Muddy Rainbow (5 Suits)	1
 TimeHoodie	306254	Muddy Rainbow (5 Suits)	1
@@ -2291,6 +2255,7 @@ TimeHoodie	322562	White & Dark Prism (5 Suits)	1
 TimeHoodie	322579	White & Dark Prism (5 Suits)	1
 TimeHoodie	322961	No Variant	1
 TimeHoodie	323057	No Variant	1
+TimeHoodie	323355	Up or Down & Brown (6 Suits)	1
 TimeHoodie	323397	Pink & Brown (6 Suits)	1
 TimeHoodie	323669	Pink & Prism (5 Suits)	1
 TimeHoodie	325036	Rainbow & Dark Pink (5 Suits)	1
@@ -2309,7 +2274,8 @@ TimeHoodie	327437	Muddy Rainbow (5 Suits)	1
 TimeHoodie	327461	Muddy Rainbow (5 Suits)	1
 TimeHoodie	327472	Muddy Rainbow (5 Suits)	1
 TimeHoodie	327678	Up or Down & Light Pink (5 Suits)	1
-TimeHoodie	327700	Up or Down & Light Pink (5 Suits)	1
+TimeHoodie	327737	Up or Down & Prism (6 Suits)	1
+TimeHoodie	327752	Up or Down & Prism (6 Suits)	1
 TimeHoodie	328035	Light Pink & Gray (6 Suits)	1
 TimeHoodie	328070	Up or Down (5 Suits)	1
 TimeHoodie	328121	Prism (5 Suits)	1
@@ -2356,6 +2322,7 @@ TimeHoodie	338476	Prism (6 Suits)	1
 TimeHoodie	339682	Clue Starved & Brown (5 Suits)	1
 TimeHoodie	339806	Rainbow & Brown (6 Suits)	1
 TimeHoodie	340014	Black (6 Suits)	1
+TimeHoodie	340077	Up or Down & Prism (5 Suits)	1
 TimeHoodie	340771	Light-Pink-Ones (6 Suits)	1
 TimeHoodie	341008	Rainbow & Prism (5 Suits)	1
 TimeHoodie	341191	Extremely Ambiguous & Omni (5 Suits)	1
@@ -2402,6 +2369,7 @@ TimeHoodie	347773	Dark Pink & Cocoa Rainbow (6 Suits)	1
 TimeHoodie	347887	Black (5 Suits)	1
 TimeHoodie	347912	Omni-Fives & Gray Pink (5 Suits)	1
 TimeHoodie	348445	Cocoa Rainbow (5 Suits)	1
+TimeHoodie	348610	Up or Down (5 Suits)	1
 TimeHoodie	349212	Rainbow & Null (5 Suits)	1
 TimeHoodie	350360	Black & Rainbow (6 Suits)	1
 TimeHoodie	350403	Black & Rainbow (6 Suits)	1
@@ -2412,6 +2380,7 @@ TimeHoodie	351753	Pink (5 Suits)	1
 TimeHoodie	352211	Rainbow & Prism (6 Suits)	1
 TimeHoodie	352476	Dual-Color Mix	1
 TimeHoodie	352962	Pink (4 Suits)	1
+TimeHoodie	352991	Up or Down (5 Suits)	1
 TimeHoodie	353016	Black & Prism (5 Suits)	1
 TimeHoodie	353095	Prism (4 Suits)	1
 TimeHoodie	353105	Rainbow & Prism (5 Suits)	1
@@ -2425,6 +2394,7 @@ TimeHoodie	353728	Omni (4 Suits)	1
 TimeHoodie	354361	White & Dark Omni (6 Suits)	1
 TimeHoodie	354369	Muddy Rainbow (6 Suits)	1
 TimeHoodie	354647	White-Ones & Brown (5 Suits)	1
+TimeHoodie	354723	Up or Down & Omni (5 Suits)	1
 TimeHoodie	354766	Black (5 Suits)	1
 TimeHoodie	355098	No Variant	1
 TimeHoodie	355657	Omni (6 Suits)	1
@@ -2436,6 +2406,7 @@ TimeHoodie	357538	Pink & Muddy Rainbow (5 Suits)	1
 TimeHoodie	357570	Rainbow-Fives & Cocoa Rainbow (6 Suits)	1
 TimeHoodie	357675	White & Prism (6 Suits)	1
 TimeHoodie	357717	White & Prism (6 Suits)	1
+TimeHoodie	357781	Up or Down & Omni (5 Suits)	1
 TimeHoodie	357937	Null (5 Suits)	1
 TimeHoodie	358295	Rainbow-Ones & White (5 Suits)	1
 TimeHoodie	358620	Rainbow & Light Pink (5 Suits)	1
@@ -2458,6 +2429,7 @@ TimeHoodie	366815	White & Omni (4 Suits)	1
 TimeHoodie	368588	Dark Rainbow (6 Suits)	1
 TimeHoodie	368923	Cocoa Rainbow (5 Suits)	1
 TimeHoodie	368932	Cocoa Rainbow (5 Suits)	1
+TimeHoodie	369714	Up or Down & White (6 Suits)	1
 TimeHoodie	369727	Up or Down & Brown (5 Suits)	1
 TimeHoodie	369962	Dark Rainbow (6 Suits)	1
 TimeHoodie	370554	Black & Omni (6 Suits)	1
@@ -2471,6 +2443,8 @@ TimeHoodie	374488	Rainbow-Ones & Dark Rainbow (6 Suits)	1
 TimeHoodie	374662	Cocoa Rainbow (5 Suits)	1
 TimeHoodie	375756	Brown (5 Suits)	1
 TimeHoodie	375765	Black & Brown (5 Suits)	1
+TimeHoodie	376346	Up or Down & Rainbow (6 Suits)	1
+TimeHoodie	376379	Up or Down & Rainbow (6 Suits)	1
 TimeHoodie	377338	Dark Prism (5 Suits)	1
 TimeHoodie	377504	Dark Pink (5 Suits)	1
 TimeHoodie	377851	Muddy Rainbow (6 Suits)	1
@@ -2483,8 +2457,8 @@ TimeHoodie	384828	Prism (4 Suits)	1
 TimeHoodie	384845	Prism (4 Suits)	1
 TimeHoodie	384878	Dual-Color (5 Suits)	1
 TimeHoodie	384901	Up or Down & Prism (5 Suits)	1
-TimeHoodie	384908	Up or Down & Prism (5 Suits)	1
 TimeHoodie	384911	No Variant	1
+TimeHoodie	385245	Up or Down (5 Suits)	1
 TimeHoodie	385312	Prism (5 Suits)	1
 TimeHoodie	385584	Pink & White (6 Suits)	1
 TimeHoodie	386410	Rainbow & Pink (6 Suits)	1
@@ -2535,7 +2509,6 @@ TimeHoodie	399257	White-Ones & Prism (6 Suits)	1
 TimeHoodie	399289	Brown-Ones & Muddy Rainbow (5 Suits)	1
 TimeHoodie	399443	White-Ones & Rainbow (5 Suits)	1
 TimeHoodie	399485	Rainbow-Ones & Brown (6 Suits)	1
-TimeHoodie	399756	Up or Down & Omni (6 Suits)	1
 TimeHoodie	400144	White-Ones & Gray (6 Suits)	1
 TimeHoodie	401561	Black & White (6 Suits)	1
 TimeHoodie	402163	Clue Starved & Muddy Rainbow (6 Suits)	1
@@ -2545,7 +2518,6 @@ TimeHoodie	402599	Dual-Color & Muddy Rainbow (6 Suits)	1
 TimeHoodie	402638	Omni-Ones & Dark Prism (5 Suits)	1
 TimeHoodie	402671	Omni-Ones & Dark Prism (5 Suits)	1
 TimeHoodie	403154	Prism & Dark Rainbow (5 Suits)	1
-TimeHoodie	403785	Up or Down (5 Suits)	1
 TimeHoodie	404168	Brown & Prism (6 Suits)	1
 TimeHoodie	404332	Rainbow-Ones (5 Suits)	1
 TimeHoodie	404475	Omni (5 Suits)	1
@@ -2605,6 +2577,7 @@ TimeHoodie	424920	Pink & Light Pink (5 Suits)	1
 TimeHoodie	425254	Special Mix (5 Suits)	1
 TimeHoodie	425417	Pink-Ones & Null (4 Suits)	1
 TimeHoodie	425433	White-Ones & Cocoa Rainbow (6 Suits)	1
+TimeHoodie	425692	Up or Down & Rainbow (6 Suits)	1
 TimeHoodie	426087	Clue Starved & Prism (5 Suits)	1
 TimeHoodie	426245	Clue Starved & Prism (5 Suits)	1
 TimeHoodie	426653	Rainbow-Ones & Prism (6 Suits)	1
@@ -2636,7 +2609,6 @@ TimeHoodie	434490	Black & Rainbow (5 Suits)	1
 TimeHoodie	434895	Omni & Gray Pink (5 Suits)	1
 TimeHoodie	435755	Reversed (3 Suits)	1
 TimeHoodie	435791	Up or Down & Muddy Rainbow (5 Suits)	1
-TimeHoodie	435802	Up or Down & Muddy Rainbow (5 Suits)	1
 TimeHoodie	436766	Pink & Gray Pink (5 Suits)	1
 TimeHoodie	436872	Ambiguous & Muddy Rainbow (5 Suits)	1
 TimeHoodie	437597	Dark Pink (6 Suits)	1
@@ -2675,9 +2647,11 @@ TimeHoodie	448702	Special Mix (5 Suits)	1
 TimeHoodie	449364	Rainbow & Dark Prism (5 Suits)	1
 TimeHoodie	449877	Rainbow-Ones (5 Suits)	1
 TimeHoodie	449918	White & Prism (4 Suits)	1
-TimeHoodie	450348	Up or Down & Omni (6 Suits)	1
+TimeHoodie	450298	Up or Down & Omni (5 Suits)	1
 TimeHoodie	450385	Up or Down & Omni (6 Suits)	1
 TimeHoodie	450435	White & Dark Pink (5 Suits)	1
+TimeHoodie	450466	Up or Down & Omni (6 Suits)	1
+TimeHoodie	450492	Up or Down & Omni (6 Suits)	1
 TimeHoodie	450760	Light Pink & Prism (6 Suits)	1
 TimeHoodie	450776	Pink & Muddy Rainbow (6 Suits)	1
 TimeHoodie	451925	Black & Dark Brown (6 Suits)	1
@@ -2718,6 +2692,8 @@ TimeHoodie	466926	Special Mix (5 Suits)	1
 TimeHoodie	466967	Special Mix (5 Suits)	1
 TimeHoodie	467092	Brown & Light Pink (6 Suits)	1
 TimeHoodie	467999	Omni & Muddy Rainbow (6 Suits)	1
+TimeHoodie	468795	Up or Down & Prism (6 Suits)	1
+TimeHoodie	468828	Up or Down & Prism (5 Suits)	1
 TimeHoodie	470661	Brown (6 Suits)	1
 TimeHoodie	470669	Brown (6 Suits)	1
 TimeHoodie	470686	Brown (6 Suits)	1
@@ -2892,6 +2868,7 @@ TimeHoodie	663752	Clue Starved & Pink (5 Suits)	1
 TimeHoodie	663812	Muddy-Rainbow-Ones & Black (5 Suits)	1
 TimeHoodie	663822	Black & Pink (5 Suits)	1
 TimeHoodie	663884	Omni-Ones & Gray (5 Suits)	1
+TimeHoodie	664386	Up or Down & Rainbow (5 Suits)	1
 TimeHoodie	664398	Synesthesia (4 Suits)	1
 TimeHoodie	664463	Pink & Dark Rainbow (6 Suits)	1
 TimeHoodie	664873	Omni-Ones & Black (5 Suits)	1
@@ -3110,7 +3087,6 @@ TimeHoodie	743480	Brown-Ones & Prism (4 Suits)	1
 TimeHoodie	743793	Rainbow & Dark Null (5 Suits)	1
 TimeHoodie	743917	Rainbow & Dark Prism (5 Suits)	1
 TimeHoodie	743924	Rainbow & Dark Prism (5 Suits)	1
-TimeHoodie	744002	Up or Down & Muddy Rainbow (5 Suits)	1
 TimeHoodie	744008	White & Dark Pink (5 Suits)	1
 TimeHoodie	744143	Muddy-Rainbow-Ones & Cocoa Rainbow (5 Suits)	1
 TimeHoodie	744154	Muddy-Rainbow-Ones & Cocoa Rainbow (5 Suits)	1
@@ -3201,7 +3177,7 @@ TimeHoodie	755339	Clue Starved & Omni (6 Suits)	1
 TimeHoodie	755473	Pink (6 Suits)	1
 TimeHoodie	755899	Dark Prism (6 Suits)	1
 TimeHoodie	755927	Black & Rainbow (5 Suits)	1
-TimeHoodie	756025	Up or Down & Pink (5 Suits)	1
+TimeHoodie	756016	Up or Down & Pink (5 Suits)	1
 TimeHoodie	756636	No Variant	1
 TimeHoodie	756639	No Variant	1
 TimeHoodie	757316	Black & White (6 Suits)	1
@@ -3228,6 +3204,7 @@ TimeHoodie	762616	Null-Ones & Prism (6 Suits)	1
 TimeHoodie	762991	No Variant	1
 TimeHoodie	763179	Rainbow & Cocoa Rainbow (5 Suits)	1
 TimeHoodie	763188	No Variant	1
+TimeHoodie	763493	Up or Down & Brown (5 Suits)	1
 TimeHoodie	763496	Pink & Dark Omni (5 Suits)	1
 TimeHoodie	763655	Brown-Fives & White (5 Suits)	1
 TimeHoodie	763823	Light-Pink-Fives & Gray Pink (6 Suits)	1
@@ -3337,6 +3314,7 @@ TimeHoodie	778892	Brown-Fives (6 Suits)	1
 TimeHoodie	779000	Null-Ones & Dark Null (6 Suits)	1
 TimeHoodie	779514	Ambiguous & Black (5 Suits)	1
 TimeHoodie	779617	Ambiguous & Black (5 Suits)	1
+TimeHoodie	779831	Up or Down & Pink (6 Suits)	1
 TimeHoodie	780130	Rainbow (6 Suits)	1
 TimeHoodie	780506	Muddy-Rainbow-Fives & Black (6 Suits)	1
 TimeHoodie	780529	3 Suits	1
@@ -3469,6 +3447,7 @@ TimeHoodie	155701	Black (6 Suits)	0
 TimeHoodie	155811	Pink (6 Suits)	0
 TimeHoodie	155862	Rainbow (5 Suits)	0
 TimeHoodie	156128	Black & Rainbow (5 Suits)	0
+TimeHoodie	157142	Up or Down (6 Suits)	0
 TimeHoodie	157209	Black (5 Suits)	0
 TimeHoodie	159329	No Variant	0
 TimeHoodie	159372	No Variant	0
@@ -3481,6 +3460,7 @@ TimeHoodie	163152	Muddy-Rainbow-Ones & Brown (3 Suits)	0
 TimeHoodie	163170	Muddy-Rainbow-Ones & Brown (3 Suits)	0
 TimeHoodie	163255	Muddy-Rainbow-Ones & Brown (4 Suits)	0
 TimeHoodie	164431	Muddy-Rainbow-Ones & Pink (5 Suits)	0
+TimeHoodie	164713	Up or Down & Pink (5 Suits)	0
 TimeHoodie	165687	Black & Light Pink (5 Suits)	0
 TimeHoodie	165703	Black & Light Pink (5 Suits)	0
 TimeHoodie	165717	Black & Light Pink (5 Suits)	0
@@ -3544,6 +3524,7 @@ TimeHoodie	193833	Black & Dark Pink (6 Suits)	0
 TimeHoodie	193890	Brown (5 Suits)	0
 TimeHoodie	193907	Brown-Fives (5 Suits)	0
 TimeHoodie	194001	Muddy Rainbow (5 Suits)	0
+TimeHoodie	194893	Up or Down (6 Suits)	0
 TimeHoodie	195072	No Variant	0
 TimeHoodie	196237	Reversed (3 Suits)	0
 TimeHoodie	196242	Reversed (4 Suits)	0
@@ -3588,8 +3569,10 @@ TimeHoodie	219625	Muddy-Rainbow-Fives & Black (5 Suits)	0
 TimeHoodie	219648	Muddy-Rainbow-Fives & Black (5 Suits)	0
 TimeHoodie	220167	Black & Null (5 Suits)	0
 TimeHoodie	220648	Rainbow (6 Suits)	0
+TimeHoodie	221604	Up or Down (5 Suits)	0
 TimeHoodie	294905	Pink & White (4 Suits)	0
 TimeHoodie	294915	Pink & White (4 Suits)	0
+TimeHoodie	296788	Up or Down (5 Suits)	0
 TimeHoodie	296836	Brown (4 Suits)	0
 TimeHoodie	298231	Rainbow-Fives & White (5 Suits)	0
 TimeHoodie	298306	Special Mix (5 Suits)	0
@@ -3751,6 +3734,8 @@ TimeHoodie	326874	Rainbow-Ones & Black (5 Suits)	0
 TimeHoodie	326910	Rainbow-Ones & Black (5 Suits)	0
 TimeHoodie	326934	Rainbow-Ones & Black (5 Suits)	0
 TimeHoodie	327424	Muddy Rainbow (5 Suits)	0
+TimeHoodie	327700	Up or Down & Light Pink (5 Suits)	0
+TimeHoodie	327773	Up or Down & Prism (6 Suits)	0
 TimeHoodie	327976	White-Ones & Brown (5 Suits)	0
 TimeHoodie	327998	4 Suits	0
 TimeHoodie	328093	Rainbow & White (5 Suits)	0
@@ -3800,6 +3785,7 @@ TimeHoodie	335283	Rainbow & Dark Omni (5 Suits)	0
 TimeHoodie	335523	Rainbow (5 Suits)	0
 TimeHoodie	335637	Brown & Cocoa Rainbow (5 Suits)	0
 TimeHoodie	336133	Dark Pink (5 Suits)	0
+TimeHoodie	336467	Up or Down & Brown (6 Suits)	0
 TimeHoodie	336801	Pink (5 Suits)	0
 TimeHoodie	336875	Black (5 Suits)	0
 TimeHoodie	336880	Muddy Rainbow (4 Suits)	0
@@ -3886,9 +3872,11 @@ TimeHoodie	357543	Pink & Muddy Rainbow (5 Suits)	0
 TimeHoodie	357587	Rainbow-Fives & Cocoa Rainbow (6 Suits)	0
 TimeHoodie	358788	Gray (5 Suits)	0
 TimeHoodie	358929	Rainbow & Omni (5 Suits)	0
+TimeHoodie	358961	Up or Down & White (5 Suits)	0
 TimeHoodie	359323	Rainbow & Gray (6 Suits)	0
 TimeHoodie	359819	Rainbow & White (4 Suits)	0
 TimeHoodie	360130	Pink & Muddy Rainbow (6 Suits)	0
+TimeHoodie	360205	Up or Down & Omni (5 Suits)	0
 TimeHoodie	364476	Rainbow & White (4 Suits)	0
 TimeHoodie	365147	Light Pink (4 Suits)	0
 TimeHoodie	365344	Pink & Brown (4 Suits)	0
@@ -3914,6 +3902,7 @@ TimeHoodie	370542	Black & Omni (6 Suits)	0
 TimeHoodie	370577	Black & Omni (6 Suits)	0
 TimeHoodie	371158	Rainbow (6 Suits)	0
 TimeHoodie	371193	Pink & White (6 Suits)	0
+TimeHoodie	371973	Up or Down & Muddy Rainbow (5 Suits)	0
 TimeHoodie	372016	Rainbow (4 Suits)	0
 TimeHoodie	372044	Rainbow (4 Suits)	0
 TimeHoodie	372363	Muddy Rainbow (3 Suits)	0
@@ -3942,6 +3931,7 @@ TimeHoodie	378077	White Reversed (5 Suits)	0
 TimeHoodie	378376	Gray Pink (5 Suits)	0
 TimeHoodie	383165	Pink (6 Suits)	0
 TimeHoodie	384867	Dual-Color (5 Suits)	0
+TimeHoodie	384908	Up or Down & Prism (5 Suits)	0
 TimeHoodie	384915	No Variant	0
 TimeHoodie	387484	Black & Pink (5 Suits)	0
 TimeHoodie	388222	Light Pink (5 Suits)	0
@@ -3985,9 +3975,11 @@ TimeHoodie	398081	Brown (3 Suits)	0
 TimeHoodie	398675	Muddy-Rainbow-Ones & Dark Prism (6 Suits)	0
 TimeHoodie	399178	Special Mix (5 Suits)	0
 TimeHoodie	399374	Rainbow-Fives & Cocoa Rainbow (5 Suits)	0
+TimeHoodie	399756	Up or Down & Omni (6 Suits)	0
 TimeHoodie	400196	Rainbow & Muddy Rainbow (5 Suits)	0
 TimeHoodie	401537	White-Ones & Brown (3 Suits)	0
 TimeHoodie	402571	Ambiguous & Omni (5 Suits)	0
+TimeHoodie	403785	Up or Down (5 Suits)	0
 TimeHoodie	404179	Pink & Prism (3 Suits)	0
 TimeHoodie	404709	Pink & Dark Prism (6 Suits)	0
 TimeHoodie	405255	Null (3 Suits)	0
@@ -4086,6 +4078,7 @@ TimeHoodie	435720	Brown-Fives & Prism (4 Suits)	0
 TimeHoodie	435730	Brown-Fives & Prism (4 Suits)	0
 TimeHoodie	435740	Brown-Fives & Prism (4 Suits)	0
 TimeHoodie	435763	Reversed (3 Suits)	0
+TimeHoodie	435802	Up or Down & Muddy Rainbow (5 Suits)	0
 TimeHoodie	436785	Pink & Gray Pink (5 Suits)	0
 TimeHoodie	436839	Black & Rainbow (6 Suits)	0
 TimeHoodie	437345	Muddy Rainbow (4 Suits)	0
@@ -4116,6 +4109,7 @@ TimeHoodie	448396	Omni & Dark Brown (5 Suits)	0
 TimeHoodie	448676	Special Mix (5 Suits)	0
 TimeHoodie	449866	Rainbow-Ones & Rainbow (4 Suits)	0
 TimeHoodie	449911	Dark Prism (5 Suits)	0
+TimeHoodie	450348	Up or Down & Omni (6 Suits)	0
 TimeHoodie	450421	White & Dark Pink (5 Suits)	0
 TimeHoodie	450804	Light Pink & Prism (6 Suits)	0
 TimeHoodie	451468	Rainbow & Dark Prism (5 Suits)	0
@@ -4302,6 +4296,7 @@ TimeHoodie	663304	Omni-Fives & Dark Rainbow (6 Suits)	0
 TimeHoodie	663508	White-Ones (5 Suits)	0
 TimeHoodie	663694	Pink (6 Suits)	0
 TimeHoodie	663731	Pink & Dark Brown (5 Suits)	0
+TimeHoodie	663864	Up or Down & Rainbow (5 Suits)	0
 TimeHoodie	663921	Null-Fives (5 Suits)	0
 TimeHoodie	664880	Omni-Ones & Black (5 Suits)	0
 TimeHoodie	664886	Muddy Rainbow & Prism (4 Suits)	0
@@ -4342,6 +4337,7 @@ TimeHoodie	670264	Rainbow & Dark Pink (6 Suits)	0
 TimeHoodie	670466	Pink-Ones (3 Suits)	0
 TimeHoodie	670476	Pink-Ones (3 Suits)	0
 TimeHoodie	670479	Pink-Ones (3 Suits)	0
+TimeHoodie	670529	Up or Down & Light Pink (6 Suits)	0
 TimeHoodie	671332	Rainbow & Gray (5 Suits)	0
 TimeHoodie	671404	Muddy-Rainbow-Ones & Omni (5 Suits)	0
 TimeHoodie	671774	Prism Reversed (6 Suits)	0
@@ -4428,6 +4424,7 @@ TimeHoodie	706386	Black & Rainbow (5 Suits)	0
 TimeHoodie	707055	Alternating Clues (5 Suits)	0
 TimeHoodie	707082	Alternating Clues & Pink (5 Suits)	0
 TimeHoodie	707139	Deceptive-Fives & Dark Pink (5 Suits)	0
+TimeHoodie	707879	Up or Down & Light Pink (6 Suits)	0
 TimeHoodie	707901	Muddy-Rainbow-Ones & Black (6 Suits)	0
 TimeHoodie	707909	White & Dark Omni (5 Suits)	0
 TimeHoodie	707929	Muddy-Rainbow-Fives & Dark Rainbow (5 Suits)	0
@@ -4553,6 +4550,7 @@ TimeHoodie	743354	Black & Dark Brown (6 Suits)	0
 TimeHoodie	743776	Rainbow & Dark Null (5 Suits)	0
 TimeHoodie	743916	White & Cocoa Rainbow (5 Suits)	0
 TimeHoodie	743962	Dark Rainbow & Gray (6 Suits)	0
+TimeHoodie	744002	Up or Down & Muddy Rainbow (5 Suits)	0
 TimeHoodie	744135	Muddy-Rainbow-Ones & Cocoa Rainbow (5 Suits)	0
 TimeHoodie	744366	White & Omni (6 Suits)	0
 TimeHoodie	744373	White & Omni (6 Suits)	0
@@ -4624,6 +4622,7 @@ TimeHoodie	754245	Pink & Muddy Rainbow (5 Suits)	0
 TimeHoodie	754803	Brown & Dark Pink (6 Suits)	0
 TimeHoodie	755368	Clue Starved & Omni (6 Suits)	0
 TimeHoodie	755838	Muddy Rainbow & Prism (6 Suits)	0
+TimeHoodie	756025	Up or Down & Pink (5 Suits)	0
 TimeHoodie	757968	Pink-Ones (6 Suits)	0
 TimeHoodie	758295	Rainbow & Muddy Rainbow (5 Suits)	0
 TimeHoodie	758306	Rainbow & Muddy Rainbow (5 Suits)	0
@@ -4658,6 +4657,7 @@ TimeHoodie	763253	Dual-Color & Cocoa Rainbow (6 Suits)	0
 TimeHoodie	764026	Rainbow (5 Suits)	0
 TimeHoodie	764032	Pink & Dark Prism (5 Suits)	0
 TimeHoodie	764213	Brown-Fives & Muddy Rainbow (4 Suits)	0
+TimeHoodie	764218	Up or Down & Rainbow (6 Suits)	0
 TimeHoodie	764565	Pink-Ones & Gray (5 Suits)	0
 TimeHoodie	764705	Omni-Ones & Muddy Rainbow (6 Suits)	0
 TimeHoodie	764759	Rainbow & White (5 Suits)	0

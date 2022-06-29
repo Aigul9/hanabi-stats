@@ -9,10 +9,7 @@ RaKXeR	4059	6 Suits	6
 RaKXeR	6627	Rainbow (6 Suits)	6
 RaKXeR	10498	Rainbow (6 Suits)	6
 RaKXeR	14595	Rainbow (6 Suits)	6
-RaKXeR	19202	Up or Down & White (6 Suits)	6
 RaKXeR	20148	Rainbow (6 Suits)	6
-RaKXeR	21186	Up or Down (6 Suits)	6
-RaKXeR	52079	Up or Down & Rainbow (6 Suits)	6
 RaKXeR	668301	Rainbow (6 Suits)	6
 RaKXeR	2910	No Variant	5
 RaKXeR	3091	Dual-Color (6 Suits)	5
@@ -42,21 +39,17 @@ RaKXeR	12915	Rainbow (6 Suits)	5
 RaKXeR	14649	Dark Rainbow (6 Suits)	5
 RaKXeR	15830	Black (6 Suits)	5
 RaKXeR	18427	Clue Starved (6 Suits)	5
-RaKXeR	21753	Up or Down (6 Suits)	5
-RaKXeR	27896	Up or Down (6 Suits)	5
+RaKXeR	52079	Up or Down & Rainbow (6 Suits)	5
 RaKXeR	52441	Rainbow (4 Suits)	5
 RaKXeR	62175	No Variant	5
-RaKXeR	64496	Up or Down (6 Suits)	5
 RaKXeR	73190	Extremely Ambiguous (6 Suits)	5
 RaKXeR	83271	Rainbow (5 Suits)	5
-RaKXeR	83558	Up or Down & Omni (5 Suits)	5
 RaKXeR	93794	Dual-Color Mix	5
 RaKXeR	150467	Rainbow (6 Suits)	5
 RaKXeR	180782	Black (6 Suits)	5
 RaKXeR	246717	Rainbow (6 Suits)	5
 RaKXeR	322936	Duck (5 Suits)	5
 RaKXeR	337693	Prism (6 Suits)	5
-RaKXeR	647912	Up or Down & Prism (6 Suits)	5
 RaKXeR	700160	Clue Starved (6 Suits)	5
 RaKXeR	775238	White & Dark Pink (6 Suits)	5
 RaKXeR	2959	No Variant	4
@@ -110,12 +103,9 @@ RaKXeR	14596	Dark Rainbow (6 Suits)	4
 RaKXeR	14601	Dual-Color (6 Suits)	4
 RaKXeR	14632	No Variant	4
 RaKXeR	15815	No Variant	4
-RaKXeR	17960	Up or Down (6 Suits)	4
-RaKXeR	18020	Up or Down & White (6 Suits)	4
-RaKXeR	19201	Up or Down & White (6 Suits)	4
+RaKXeR	21186	Up or Down (6 Suits)	4
 RaKXeR	31550	6 Suits	4
 RaKXeR	33466	Black (6 Suits)	4
-RaKXeR	51330	Up or Down & Pink (5 Suits)	4
 RaKXeR	51940	Pink & Brown (5 Suits)	4
 RaKXeR	62444	No Variant	4
 RaKXeR	64635	6 Suits	4
@@ -126,6 +116,7 @@ RaKXeR	76094	No Variant	4
 RaKXeR	77183	Black (6 Suits)	4
 RaKXeR	78686	6 Suits	4
 RaKXeR	83102	Rainbow & White (6 Suits)	4
+RaKXeR	83558	Up or Down & Omni (5 Suits)	4
 RaKXeR	168601	Dual-Color & Rainbow (6 Suits)	4
 RaKXeR	168653	Pink & Brown (6 Suits)	4
 RaKXeR	267232	Rainbow-Fives & Brown (6 Suits)	4
@@ -250,13 +241,11 @@ RaKXeR	14256	Rainbow (6 Suits)	3
 RaKXeR	14629	No Variant	3
 RaKXeR	14756	Dark Rainbow (6 Suits)	3
 RaKXeR	15829	No Variant	3
-RaKXeR	17765	Up or Down (6 Suits)	3
-RaKXeR	17890	Up or Down (5 Suits)	3
+RaKXeR	17960	Up or Down (6 Suits)	3
 RaKXeR	17968	Up or Down (6 Suits)	3
 RaKXeR	18094	Pink-Fives & Rainbow (6 Suits)	3
 RaKXeR	18214	Pink-Fives (6 Suits)	3
 RaKXeR	18410	Dark Rainbow (5 Suits)	3
-RaKXeR	20249	Up or Down & Rainbow (5 Suits)	3
 RaKXeR	20256	Up or Down & Rainbow (5 Suits)	3
 RaKXeR	26736	4 Suits	3
 RaKXeR	31000	Brown (6 Suits)	3
@@ -264,7 +253,6 @@ RaKXeR	31048	6 Suits	3
 RaKXeR	31198	Pink (6 Suits)	3
 RaKXeR	31661	4 Suits	3
 RaKXeR	31846	No Variant	3
-RaKXeR	32072	Up or Down & Brown (6 Suits)	3
 RaKXeR	32086	Rainbow (6 Suits)	3
 RaKXeR	32381	Rainbow (6 Suits)	3
 RaKXeR	33331	Rainbow (6 Suits)	3
@@ -274,14 +262,13 @@ RaKXeR	47949	Brown (6 Suits)	3
 RaKXeR	47951	Brown (6 Suits)	3
 RaKXeR	51459	Gray & Dark Brown (6 Suits)	3
 RaKXeR	51915	Brown & Dark Rainbow (6 Suits)	3
-RaKXeR	52269	Up or Down & Brown (5 Suits)	3
 RaKXeR	55312	6 Suits	3
 RaKXeR	55667	Rainbow (5 Suits)	3
 RaKXeR	62097	6 Suits	3
+RaKXeR	64496	Up or Down (6 Suits)	3
 RaKXeR	64613	6 Suits	3
 RaKXeR	65836	Dark Rainbow (6 Suits)	3
 RaKXeR	66231	No Variant	3
-RaKXeR	66240	Up or Down & Rainbow (5 Suits)	3
 RaKXeR	72738	Dual-Color Mix	3
 RaKXeR	73056	No Variant	3
 RaKXeR	73209	Up or Down (6 Suits)	3
@@ -304,7 +291,6 @@ RaKXeR	86407	Rainbow (6 Suits)	3
 RaKXeR	89916	Black (6 Suits)	3
 RaKXeR	93814	White (6 Suits)	3
 RaKXeR	94809	Black & White (6 Suits)	3
-RaKXeR	116393	Up or Down & Rainbow (5 Suits)	3
 RaKXeR	246721	Rainbow (6 Suits)	3
 RaKXeR	246725	Rainbow (6 Suits)	3
 RaKXeR	267180	Brown & Gray (5 Suits)	3
@@ -482,28 +468,32 @@ RaKXeR	15832	Black (6 Suits)	2
 RaKXeR	16696	Rainbow (5 Suits)	2
 RaKXeR	17341	White (4 Suits)	2
 RaKXeR	17345	No Variant	2
-RaKXeR	17893	Up or Down (5 Suits)	2
-RaKXeR	17947	Up or Down (6 Suits)	2
-RaKXeR	17951	Up or Down (6 Suits)	2
+RaKXeR	17765	Up or Down (6 Suits)	2
 RaKXeR	17967	Up or Down (6 Suits)	2
 RaKXeR	17982	Rainbow (5 Suits)	2
 RaKXeR	17984	Rainbow (5 Suits)	2
+RaKXeR	18020	Up or Down & White (6 Suits)	2
 RaKXeR	18093	Pink-Fives & Rainbow (6 Suits)	2
 RaKXeR	18212	Pink-Fives (6 Suits)	2
 RaKXeR	18318	Dark Rainbow (5 Suits)	2
 RaKXeR	18417	Clue Starved (5 Suits)	2
 RaKXeR	19199	Up or Down & White (5 Suits)	2
+RaKXeR	19201	Up or Down & White (6 Suits)	2
+RaKXeR	19202	Up or Down & White (6 Suits)	2
+RaKXeR	20249	Up or Down & Rainbow (5 Suits)	2
 RaKXeR	21283	No Variant	2
 RaKXeR	21515	6 Suits	2
+RaKXeR	21753	Up or Down (6 Suits)	2
 RaKXeR	21970	No Variant	2
-RaKXeR	21985	Up or Down (5 Suits)	2
 RaKXeR	22197	Dark Rainbow (6 Suits)	2
 RaKXeR	26738	4 Suits	2
+RaKXeR	27896	Up or Down (6 Suits)	2
 RaKXeR	31038	6 Suits	2
 RaKXeR	31064	No Variant	2
 RaKXeR	31203	Pink (6 Suits)	2
 RaKXeR	31702	Rainbow (6 Suits)	2
 RaKXeR	31826	Rainbow (6 Suits)	2
+RaKXeR	32072	Up or Down & Brown (6 Suits)	2
 RaKXeR	32383	Rainbow (6 Suits)	2
 RaKXeR	33477	Black & Dark Rainbow (6 Suits)	2
 RaKXeR	33480	Black & Dark Rainbow (6 Suits)	2
@@ -581,6 +571,7 @@ RaKXeR	95046	Black (6 Suits)	2
 RaKXeR	98480	Dual-Color Mix	2
 RaKXeR	108809	No Variant	2
 RaKXeR	112050	Rainbow (6 Suits)	2
+RaKXeR	116393	Up or Down & Rainbow (5 Suits)	2
 RaKXeR	116420	Up or Down & Rainbow (5 Suits)	2
 RaKXeR	116835	Dual-Color Mix	2
 RaKXeR	116921	Dual-Color Mix	2
@@ -630,6 +621,7 @@ RaKXeR	630513	No Variant	2
 RaKXeR	630556	No Variant	2
 RaKXeR	638471	No Variant	2
 RaKXeR	638485	No Variant	2
+RaKXeR	647912	Up or Down & Prism (6 Suits)	2
 RaKXeR	662519	Omni (4 Suits)	2
 RaKXeR	662546	Muddy-Rainbow-Ones (6 Suits)	2
 RaKXeR	663159	Reversed (6 Suits)	2
@@ -656,7 +648,6 @@ RaKXeR	712545	No Variant	2
 RaKXeR	712564	No Variant	2
 RaKXeR	719312	No Variant	2
 RaKXeR	728642	Light Pink & Dark Pink (5 Suits)	2
-RaKXeR	729190	Up or Down (6 Suits)	2
 RaKXeR	734103	Light-Pink-Fives & Gray (5 Suits)	2
 RaKXeR	746251	Rainbow (6 Suits)	2
 RaKXeR	748381	4 Suits	2
@@ -829,15 +820,12 @@ RaKXeR	14597	Dark Rainbow (6 Suits)	1
 RaKXeR	14600	6 Suits	1
 RaKXeR	14646	Dark Rainbow (6 Suits)	1
 RaKXeR	15805	No Variant	1
-RaKXeR	16474	Up or Down (5 Suits)	1
-RaKXeR	16477	Up or Down (5 Suits)	1
-RaKXeR	16479	Up or Down (5 Suits)	1
 RaKXeR	16694	Rainbow (5 Suits)	1
 RaKXeR	17338	White (4 Suits)	1
 RaKXeR	17339	White (4 Suits)	1
 RaKXeR	17344	White (5 Suits)	1
-RaKXeR	17760	Up or Down (5 Suits)	1
-RaKXeR	17900	Up or Down (5 Suits)	1
+RaKXeR	17890	Up or Down (5 Suits)	1
+RaKXeR	17951	Up or Down (6 Suits)	1
 RaKXeR	17981	Rainbow (5 Suits)	1
 RaKXeR	18024	Dark Rainbow (5 Suits)	1
 RaKXeR	18219	6 Suits	1
@@ -851,6 +839,7 @@ RaKXeR	20567	No Variant	1
 RaKXeR	21182	White (4 Suits)	1
 RaKXeR	21434	Rainbow (6 Suits)	1
 RaKXeR	21966	Dark Rainbow (6 Suits)	1
+RaKXeR	21985	Up or Down (5 Suits)	1
 RaKXeR	21986	No Variant	1
 RaKXeR	24231	4 Suits	1
 RaKXeR	27404	Black (5 Suits)	1
@@ -876,10 +865,10 @@ RaKXeR	33453	Rainbow (5 Suits)	1
 RaKXeR	33472	Rainbow & Brown (3 Suits)	1
 RaKXeR	34139	Pink (6 Suits)	1
 RaKXeR	46049	No Variant	1
-RaKXeR	50133	Up or Down & Brown (5 Suits)	1
 RaKXeR	50774	Up or Down & Brown (5 Suits)	1
 RaKXeR	51033	No Variant	1
 RaKXeR	51035	No Variant	1
+RaKXeR	51330	Up or Down & Pink (5 Suits)	1
 RaKXeR	51464	Black (5 Suits)	1
 RaKXeR	51466	Black (5 Suits)	1
 RaKXeR	51725	4 Suits	1
@@ -891,6 +880,7 @@ RaKXeR	52059	Rainbow (5 Suits)	1
 RaKXeR	52082	Up or Down & White (6 Suits)	1
 RaKXeR	52259	Muddy Rainbow (5 Suits)	1
 RaKXeR	52267	Muddy Rainbow (5 Suits)	1
+RaKXeR	52269	Up or Down & Brown (5 Suits)	1
 RaKXeR	52433	Black (5 Suits)	1
 RaKXeR	52437	3 Suits	1
 RaKXeR	56518	Pink & White (4 Suits)	1
@@ -920,6 +910,7 @@ RaKXeR	65839	Dark Pink (5 Suits)	1
 RaKXeR	66232	Black & Pink (5 Suits)	1
 RaKXeR	66233	Rainbow & White (4 Suits)	1
 RaKXeR	66239	Up or Down & Rainbow (5 Suits)	1
+RaKXeR	66240	Up or Down & Rainbow (5 Suits)	1
 RaKXeR	69991	Black & Dark Rainbow (6 Suits)	1
 RaKXeR	70575	Ambiguous & Dual-Color	1
 RaKXeR	70671	Gray Pink (5 Suits)	1
@@ -1082,6 +1073,7 @@ RaKXeR	719270	No Variant	1
 RaKXeR	720711	Dark Rainbow (6 Suits)	1
 RaKXeR	720781	White & Dark Prism (5 Suits)	1
 RaKXeR	728627	Light Pink & Dark Pink (5 Suits)	1
+RaKXeR	729190	Up or Down (6 Suits)	1
 RaKXeR	730616	Black (5 Suits)	1
 RaKXeR	738783	Black (6 Suits)	1
 RaKXeR	738836	Black (6 Suits)	1
@@ -1186,13 +1178,20 @@ RaKXeR	14272	Dark Rainbow (6 Suits)	0
 RaKXeR	14625	Black (6 Suits)	0
 RaKXeR	14630	No Variant	0
 RaKXeR	16471	Up or Down (5 Suits)	0
+RaKXeR	16474	Up or Down (5 Suits)	0
+RaKXeR	16477	Up or Down (5 Suits)	0
+RaKXeR	16479	Up or Down (5 Suits)	0
 RaKXeR	16499	3 Suits	0
 RaKXeR	16547	Up or Down (5 Suits)	0
 RaKXeR	16695	Rainbow (5 Suits)	0
 RaKXeR	17332	White (5 Suits)	0
 RaKXeR	17343	White (5 Suits)	0
+RaKXeR	17760	Up or Down (5 Suits)	0
 RaKXeR	17883	No Variant	0
 RaKXeR	17884	Black (5 Suits)	0
+RaKXeR	17893	Up or Down (5 Suits)	0
+RaKXeR	17900	Up or Down (5 Suits)	0
+RaKXeR	17947	Up or Down (6 Suits)	0
 RaKXeR	17971	Dual-Color (3 Suits)	0
 RaKXeR	17975	Dual-Color (3 Suits)	0
 RaKXeR	17978	Dual-Color (3 Suits)	0
@@ -1246,6 +1245,7 @@ RaKXeR	47956	Brown (3 Suits)	0
 RaKXeR	47957	Rainbow & Gray (5 Suits)	0
 RaKXeR	48935	Rainbow (6 Suits)	0
 RaKXeR	48972	Pink (4 Suits)	0
+RaKXeR	50133	Up or Down & Brown (5 Suits)	0
 RaKXeR	50138	Dual-Color (6 Suits)	0
 RaKXeR	51028	No Variant	0
 RaKXeR	51141	Rainbow (5 Suits)	0

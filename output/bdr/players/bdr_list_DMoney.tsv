@@ -1,11 +1,7 @@
 Player	Game id	Variant	BDR
-DMoney	57204	Up or Down (6 Suits)	8
-DMoney	54089	Up or Down & Rainbow (6 Suits)	7
 DMoney	701551	6 Suits	7
 DMoney	43721	6 Suits	6
 DMoney	44370	6 Suits	6
-DMoney	51548	Up or Down (6 Suits)	6
-DMoney	60813	Up or Down & Rainbow (6 Suits)	6
 DMoney	719926	Omni-Ones & Prism (6 Suits)	6
 DMoney	735543	Black & Rainbow (6 Suits)	6
 DMoney	737281	Omni & Muddy Rainbow (6 Suits)	6
@@ -18,7 +14,7 @@ DMoney	47561	No Variant	5
 DMoney	47744	No Variant	5
 DMoney	54979	White (6 Suits)	5
 DMoney	56001	No Variant	5
-DMoney	59513	Up or Down & Rainbow (6 Suits)	5
+DMoney	60813	Up or Down & Rainbow (6 Suits)	5
 DMoney	64931	Black & Rainbow (6 Suits)	5
 DMoney	217309	Rainbow (6 Suits)	5
 DMoney	219968	No Variant	5
@@ -27,7 +23,6 @@ DMoney	225684	Rainbow & Brown (6 Suits)	5
 DMoney	227355	Dual-Color & Black (6 Suits)	5
 DMoney	228177	Rainbow (6 Suits)	5
 DMoney	230296	Brown (6 Suits)	5
-DMoney	233207	Up or Down (6 Suits)	5
 DMoney	307617	Black (5 Suits)	5
 DMoney	313279	Black & Light Pink (6 Suits)	5
 DMoney	318869	Black & Omni (6 Suits)	5
@@ -55,9 +50,13 @@ DMoney	47961	No Variant	4
 DMoney	48547	Brown (5 Suits)	4
 DMoney	48708	No Variant	4
 DMoney	50697	Null (6 Suits)	4
+DMoney	51548	Up or Down (6 Suits)	4
 DMoney	51879	Color Mute (5 Suits)	4
+DMoney	54089	Up or Down & Rainbow (6 Suits)	4
 DMoney	55975	Dark Pink (6 Suits)	4
 DMoney	55990	No Variant	4
+DMoney	57204	Up or Down (6 Suits)	4
+DMoney	59513	Up or Down & Rainbow (6 Suits)	4
 DMoney	59514	Pink (6 Suits)	4
 DMoney	64413	Rainbow (6 Suits)	4
 DMoney	65006	Brown & Omni (6 Suits)	4
@@ -69,10 +68,7 @@ DMoney	229311	Black (6 Suits)	4
 DMoney	229373	Up or Down & Pink (5 Suits)	4
 DMoney	229487	Rainbow & White (5 Suits)	4
 DMoney	230308	Brown (6 Suits)	4
-DMoney	231298	Up or Down (5 Suits)	4
 DMoney	233213	Black (6 Suits)	4
-DMoney	233393	Up or Down (6 Suits)	4
-DMoney	237646	Up or Down (5 Suits)	4
 DMoney	237825	Brown-Fives & White (6 Suits)	4
 DMoney	237872	Brown-Fives & White (6 Suits)	4
 DMoney	238017	Light-Pink-Ones (5 Suits)	4
@@ -87,19 +83,16 @@ DMoney	247364	Rainbow (6 Suits)	4
 DMoney	262894	Dual-Color (5 Suits)	4
 DMoney	264485	6 Suits	4
 DMoney	266810	Dual-Color (6 Suits)	4
-DMoney	270131	Up or Down & Brown (6 Suits)	4
 DMoney	270851	Omni (6 Suits)	4
 DMoney	277506	Null (6 Suits)	4
 DMoney	279436	Rainbow (5 Suits)	4
 DMoney	282020	Dark Prism (6 Suits)	4
-DMoney	300054	Up or Down & Pink (6 Suits)	4
 DMoney	312065	No Variant	4
 DMoney	321241	Cocoa Rainbow (6 Suits)	4
 DMoney	323976	Black & Prism (5 Suits)	4
 DMoney	690547	No Variant	4
 DMoney	690948	White-Ones & Rainbow (6 Suits)	4
 DMoney	696293	No Variant	4
-DMoney	701728	Up or Down & Null (5 Suits)	4
 DMoney	702411	Rainbow & Pink (6 Suits)	4
 DMoney	702790	Light-Pink-Ones & Prism (6 Suits)	4
 DMoney	708182	Null (5 Suits)	4
@@ -112,7 +105,6 @@ DMoney	729022	Deceptive-Ones & Rainbow (6 Suits)	4
 DMoney	729398	Brown & Omni (6 Suits)	4
 DMoney	731209	Omni & Prism (6 Suits)	4
 DMoney	731782	Rainbow (5 Suits)	4
-DMoney	732576	Up or Down & Muddy Rainbow (6 Suits)	4
 DMoney	733169	Omni & Light Pink (6 Suits)	4
 DMoney	737382	Dual-Color & Dark Rainbow (6 Suits)	4
 DMoney	746367	Omni & Muddy Rainbow (6 Suits)	4
@@ -155,7 +147,6 @@ DMoney	59532	Black (5 Suits)	3
 DMoney	59540	Muddy Rainbow (6 Suits)	3
 DMoney	59569	Pink (4 Suits)	3
 DMoney	60997	White (5 Suits)	3
-DMoney	61924	Up or Down (6 Suits)	3
 DMoney	62395	Black & Pink (6 Suits)	3
 DMoney	64419	Black (6 Suits)	3
 DMoney	64557	Pink (5 Suits)	3
@@ -178,16 +169,16 @@ DMoney	227958	Rainbow & White (5 Suits)	3
 DMoney	227986	Rainbow & White (5 Suits)	3
 DMoney	229526	Rainbow & White (5 Suits)	3
 DMoney	230212	Clue Starved (5 Suits)	3
-DMoney	230230	Up or Down (6 Suits)	3
 DMoney	230277	Brown (6 Suits)	3
 DMoney	230785	Special Mix (5 Suits)	3
 DMoney	231243	Brown (6 Suits)	3
+DMoney	231298	Up or Down (5 Suits)	3
 DMoney	231394	Omni-Fives (6 Suits)	3
 DMoney	231560	Ambiguous & Light Pink (5 Suits)	3
 DMoney	231921	White & Dark Brown (6 Suits)	3
 DMoney	232591	Black (6 Suits)	3
 DMoney	233257	Pink (5 Suits)	3
-DMoney	233433	Up or Down (6 Suits)	3
+DMoney	233393	Up or Down (6 Suits)	3
 DMoney	237980	Pink-Fives (6 Suits)	3
 DMoney	238618	Dual-Color & Rainbow (6 Suits)	3
 DMoney	239258	Pink-Ones & Black (5 Suits)	3
@@ -240,13 +231,13 @@ DMoney	285042	Rainbow (6 Suits)	3
 DMoney	285078	Brown (6 Suits)	3
 DMoney	300024	Pink & Light Pink (6 Suits)	3
 DMoney	300045	Pink & Light Pink (6 Suits)	3
+DMoney	300054	Up or Down & Pink (6 Suits)	3
 DMoney	304205	Black & Omni (5 Suits)	3
 DMoney	306960	Black & White (6 Suits)	3
 DMoney	307110	Rainbow (6 Suits)	3
 DMoney	307649	White (6 Suits)	3
 DMoney	310802	Dark Pink (6 Suits)	3
 DMoney	311094	Rainbow (5 Suits)	3
-DMoney	312048	Up or Down & Prism (6 Suits)	3
 DMoney	313893	Rainbow & Gray (6 Suits)	3
 DMoney	313933	Rainbow & Gray (6 Suits)	3
 DMoney	314317	Clue Starved & Prism (6 Suits)	3
@@ -281,6 +272,7 @@ DMoney	700296	White & Light Pink (6 Suits)	3
 DMoney	700520	Rainbow-Ones & Dark Pink (6 Suits)	3
 DMoney	701164	Rainbow (6 Suits)	3
 DMoney	701629	Brown & Omni (6 Suits)	3
+DMoney	701728	Up or Down & Null (5 Suits)	3
 DMoney	701915	No Variant	3
 DMoney	702668	Rainbow & Omni (6 Suits)	3
 DMoney	702779	Rainbow-Ones (6 Suits)	3
@@ -436,12 +428,10 @@ DMoney	58865	Pink (5 Suits)	2
 DMoney	58871	Pink (5 Suits)	2
 DMoney	58921	Rainbow (6 Suits)	2
 DMoney	59400	No Variant	2
-DMoney	59511	Up or Down & Rainbow (6 Suits)	2
 DMoney	59629	No Variant	2
 DMoney	59636	No Variant	2
 DMoney	61250	Black (5 Suits)	2
 DMoney	61283	White (5 Suits)	2
-DMoney	61926	Up or Down (6 Suits)	2
 DMoney	62419	Black & Pink (6 Suits)	2
 DMoney	63721	Dark Omni (6 Suits)	2
 DMoney	63742	Black & Rainbow (5 Suits)	2
@@ -456,7 +446,6 @@ DMoney	65184	Rainbow (6 Suits)	2
 DMoney	65669	Pink & Null (5 Suits)	2
 DMoney	65735	Dark Omni (6 Suits)	2
 DMoney	65985	Rainbow & Null (6 Suits)	2
-DMoney	66187	Up or Down & Rainbow (6 Suits)	2
 DMoney	66352	Black (5 Suits)	2
 DMoney	66382	No Variant	2
 DMoney	217338	Rainbow (6 Suits)	2
@@ -485,19 +474,18 @@ DMoney	228454	Pink (5 Suits)	2
 DMoney	228521	Special Mix (5 Suits)	2
 DMoney	228806	Special Mix (5 Suits)	2
 DMoney	229266	Rainbow (5 Suits)	2
-DMoney	229413	Up or Down (6 Suits)	2
+DMoney	230230	Up or Down (6 Suits)	2
 DMoney	230353	No Variant	2
 DMoney	230379	Pink (5 Suits)	2
 DMoney	231279	Omni (5 Suits)	2
 DMoney	231666	Rainbow & Gray Pink (6 Suits)	2
 DMoney	232550	Black (5 Suits)	2
 DMoney	232746	Clue Starved (6 Suits)	2
-DMoney	233167	Up or Down (6 Suits)	2
+DMoney	233207	Up or Down (6 Suits)	2
 DMoney	233338	Pink (6 Suits)	2
 DMoney	237573	Up or Down (5 Suits)	2
-DMoney	237585	Up or Down (5 Suits)	2
 DMoney	237620	Up or Down (5 Suits)	2
-DMoney	237675	Up or Down (5 Suits)	2
+DMoney	237646	Up or Down (5 Suits)	2
 DMoney	238700	Pink-Ones & Black (5 Suits)	2
 DMoney	238726	Pink-Ones & Black (5 Suits)	2
 DMoney	239158	White (6 Suits)	2
@@ -506,7 +494,6 @@ DMoney	239236	Pink-Ones & Black (5 Suits)	2
 DMoney	240798	White (6 Suits)	2
 DMoney	240814	White (6 Suits)	2
 DMoney	241186	Rainbow (5 Suits)	2
-DMoney	241817	Up or Down & White (5 Suits)	2
 DMoney	241971	Omni (4 Suits)	2
 DMoney	244001	Light Pink (6 Suits)	2
 DMoney	244027	Light Pink (6 Suits)	2
@@ -558,7 +545,7 @@ DMoney	266216	Up or Down (5 Suits)	2
 DMoney	266752	Dual-Color (6 Suits)	2
 DMoney	269045	Brown (5 Suits)	2
 DMoney	269842	Gray (6 Suits)	2
-DMoney	270160	Up or Down & Brown (6 Suits)	2
+DMoney	270131	Up or Down & Brown (6 Suits)	2
 DMoney	274296	Pink & Brown (5 Suits)	2
 DMoney	275159	Rainbow & Muddy Rainbow (5 Suits)	2
 DMoney	275164	Rainbow & Muddy Rainbow (5 Suits)	2
@@ -578,7 +565,6 @@ DMoney	282774	Prism (6 Suits)	2
 DMoney	284698	Light Pink (6 Suits)	2
 DMoney	299095	Gray (5 Suits)	2
 DMoney	299478	Dark Rainbow (5 Suits)	2
-DMoney	300080	Up or Down & Pink (6 Suits)	2
 DMoney	300231	Black & Rainbow (6 Suits)	2
 DMoney	303444	Dark Pink (5 Suits)	2
 DMoney	303537	Rainbow & Prism (6 Suits)	2
@@ -590,6 +576,7 @@ DMoney	308638	Dark Rainbow (5 Suits)	2
 DMoney	310780	Dark Pink (6 Suits)	2
 DMoney	310841	Dark Pink (6 Suits)	2
 DMoney	311110	Rainbow (5 Suits)	2
+DMoney	312048	Up or Down & Prism (6 Suits)	2
 DMoney	312793	Dark Prism (5 Suits)	2
 DMoney	313212	Rainbow & Prism (6 Suits)	2
 DMoney	313256	Black & Light Pink (6 Suits)	2
@@ -609,7 +596,6 @@ DMoney	318815	Black & Muddy Rainbow (6 Suits)	2
 DMoney	318929	Dark Null (6 Suits)	2
 DMoney	319083	Cocoa Rainbow (6 Suits)	2
 DMoney	319122	Rainbow & Light Pink (5 Suits)	2
-DMoney	320410	Up or Down & Prism (5 Suits)	2
 DMoney	321312	Gray (6 Suits)	2
 DMoney	321408	Black & Light Pink (5 Suits)	2
 DMoney	321787	Black & Omni (6 Suits)	2
@@ -658,6 +644,7 @@ DMoney	729530	Brown & Light Pink (6 Suits)	2
 DMoney	731162	Rainbow & Pink (6 Suits)	2
 DMoney	731768	No Variant	2
 DMoney	732376	White & Muddy Rainbow (6 Suits)	2
+DMoney	732576	Up or Down & Muddy Rainbow (6 Suits)	2
 DMoney	732603	Omni & Light Pink (6 Suits)	2
 DMoney	733045	Rainbow-Ones & Muddy Rainbow (6 Suits)	2
 DMoney	733272	White (5 Suits)	2
@@ -864,6 +851,7 @@ DMoney	58801	Brown (5 Suits)	1
 DMoney	58866	Pink (3 Suits)	1
 DMoney	59212	Black & Rainbow (6 Suits)	1
 DMoney	59397	No Variant	1
+DMoney	59511	Up or Down & Rainbow (6 Suits)	1
 DMoney	59536	Black (5 Suits)	1
 DMoney	59556	Black (6 Suits)	1
 DMoney	59563	Pink (4 Suits)	1
@@ -873,6 +861,7 @@ DMoney	59623	No Variant	1
 DMoney	59627	No Variant	1
 DMoney	60998	White (5 Suits)	1
 DMoney	61001	Rainbow (5 Suits)	1
+DMoney	61924	Up or Down (6 Suits)	1
 DMoney	61927	Rainbow (5 Suits)	1
 DMoney	62353	Black (6 Suits)	1
 DMoney	62355	Gray (5 Suits)	1
@@ -888,6 +877,7 @@ DMoney	64429	White & Omni (4 Suits)	1
 DMoney	65156	Pink (6 Suits)	1
 DMoney	65161	Rainbow & Pink (4 Suits)	1
 DMoney	65190	Pink (4 Suits)	1
+DMoney	66187	Up or Down & Rainbow (6 Suits)	1
 DMoney	66354	Black (5 Suits)	1
 DMoney	66565	Pink (3 Suits)	1
 DMoney	66620	Black & Null (5 Suits)	1
@@ -933,6 +923,7 @@ DMoney	228248	Rainbow (3 Suits)	1
 DMoney	228265	Omni-Fives (5 Suits)	1
 DMoney	228714	Special Mix (5 Suits)	1
 DMoney	229336	Black (6 Suits)	1
+DMoney	229413	Up or Down (6 Suits)	1
 DMoney	230191	Clue Starved (5 Suits)	1
 DMoney	230426	Pink & Brown (5 Suits)	1
 DMoney	230826	3 Suits	1
@@ -946,6 +937,7 @@ DMoney	232511	Black (6 Suits)	1
 DMoney	233313	Brown (4 Suits)	1
 DMoney	233359	Pink (5 Suits)	1
 DMoney	233447	Rainbow (3 Suits)	1
+DMoney	237585	Up or Down (5 Suits)	1
 DMoney	238464	Rainbow (4 Suits)	1
 DMoney	238569	Rainbow (5 Suits)	1
 DMoney	238599	Rainbow (5 Suits)	1
@@ -963,6 +955,7 @@ DMoney	241663	No Variant	1
 DMoney	241703	No Variant	1
 DMoney	241739	No Variant	1
 DMoney	241758	No Variant	1
+DMoney	241817	Up or Down & White (5 Suits)	1
 DMoney	242213	Brown-Ones & Dark Rainbow (5 Suits)	1
 DMoney	242235	Brown-Ones & Dark Rainbow (5 Suits)	1
 DMoney	242253	Brown-Ones & Dark Rainbow (5 Suits)	1
@@ -1041,6 +1034,7 @@ DMoney	267468	Dark Omni (6 Suits)	1
 DMoney	269092	Muddy Rainbow & Gray Pink (6 Suits)	1
 DMoney	269818	Gray (6 Suits)	1
 DMoney	270036	Muddy Rainbow (5 Suits)	1
+DMoney	270160	Up or Down & Brown (6 Suits)	1
 DMoney	270250	Omni (3 Suits)	1
 DMoney	270859	Omni (6 Suits)	1
 DMoney	270872	Omni (5 Suits)	1
@@ -1462,6 +1456,7 @@ DMoney	59517	Pink (4 Suits)	0
 DMoney	61004	Black (5 Suits)	0
 DMoney	61029	Black (5 Suits)	0
 DMoney	61290	White (5 Suits)	0
+DMoney	61926	Up or Down (6 Suits)	0
 DMoney	61929	Pink (4 Suits)	0
 DMoney	62321	No Variant	0
 DMoney	62350	White (6 Suits)	0
@@ -1519,9 +1514,12 @@ DMoney	231266	Omni (6 Suits)	0
 DMoney	231878	White & Dark Brown (6 Suits)	0
 DMoney	232465	Clue Starved (5 Suits)	0
 DMoney	232536	Black (6 Suits)	0
+DMoney	233167	Up or Down (6 Suits)	0
+DMoney	233433	Up or Down (6 Suits)	0
 DMoney	233463	Rainbow (3 Suits)	0
 DMoney	237558	Up or Down (5 Suits)	0
 DMoney	237604	Up or Down (5 Suits)	0
+DMoney	237675	Up or Down (5 Suits)	0
 DMoney	237690	Up or Down (5 Suits)	0
 DMoney	237912	Brown-Fives (5 Suits)	0
 DMoney	238316	White & Brown (4 Suits)	0
@@ -1652,6 +1650,7 @@ DMoney	284701	Light Pink (4 Suits)	0
 DMoney	296514	Ambiguous Mix	0
 DMoney	298912	Dark Rainbow (5 Suits)	0
 DMoney	299028	Gray (5 Suits)	0
+DMoney	300080	Up or Down & Pink (6 Suits)	0
 DMoney	300153	Black & Omni (6 Suits)	0
 DMoney	300198	Black & Rainbow (6 Suits)	0
 DMoney	300242	Black & Muddy Rainbow (5 Suits)	0
@@ -1702,6 +1701,7 @@ DMoney	319022	Cocoa Rainbow (6 Suits)	0
 DMoney	319067	Cocoa Rainbow (6 Suits)	0
 DMoney	319101	Cocoa Rainbow (6 Suits)	0
 DMoney	319666	Dark Pink (6 Suits)	0
+DMoney	320410	Up or Down & Prism (5 Suits)	0
 DMoney	321256	Gray (6 Suits)	0
 DMoney	321368	Black & Light Pink (5 Suits)	0
 DMoney	321385	Black & Light Pink (5 Suits)	0

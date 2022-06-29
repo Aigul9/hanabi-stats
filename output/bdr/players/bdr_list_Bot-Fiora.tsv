@@ -1,7 +1,6 @@
 Player	Game id	Variant	BDR
 Bot-Fiora	587052	Pink & Prism (6 Suits)	7
 Bot-Fiora	496594	Muddy Rainbow (5 Suits)	6
-Bot-Fiora	617958	Up or Down & Rainbow (6 Suits)	6
 Bot-Fiora	770957	No Variant	6
 Bot-Fiora	783855	Rainbow & White (6 Suits)	6
 Bot-Fiora	415899	Rainbow & Pink (6 Suits)	5
@@ -25,7 +24,6 @@ Bot-Fiora	415931	Rainbow & Pink (5 Suits)	4
 Bot-Fiora	418065	No Variant	4
 Bot-Fiora	418084	No Variant	4
 Bot-Fiora	422263	Pink-Ones & Rainbow (6 Suits)	4
-Bot-Fiora	431540	Up or Down (6 Suits)	4
 Bot-Fiora	432476	Brown-Ones & White (5 Suits)	4
 Bot-Fiora	436354	Ambiguous (6 Suits)	4
 Bot-Fiora	436412	Ambiguous (6 Suits)	4
@@ -44,7 +42,6 @@ Bot-Fiora	579038	Gray Pink (5 Suits)	4
 Bot-Fiora	582064	Rainbow-Fives & Dark Brown (6 Suits)	4
 Bot-Fiora	586924	Special Mix (6 Suits)	4
 Bot-Fiora	591396	Pink-Fives & Gray (6 Suits)	4
-Bot-Fiora	593630	Up or Down & Rainbow (5 Suits)	4
 Bot-Fiora	600976	Alternating Clues & Light Pink (5 Suits)	4
 Bot-Fiora	604010	Black & Rainbow (6 Suits)	4
 Bot-Fiora	604053	Rainbow-Ones (6 Suits)	4
@@ -53,7 +50,6 @@ Bot-Fiora	606027	Cocoa Rainbow (6 Suits)	4
 Bot-Fiora	606737	Gray (6 Suits)	4
 Bot-Fiora	614952	Rainbow (6 Suits)	4
 Bot-Fiora	621675	White & Dark Omni (6 Suits)	4
-Bot-Fiora	622402	Up or Down & Light Pink (6 Suits)	4
 Bot-Fiora	622475	Dual-Color & Brown (6 Suits)	4
 Bot-Fiora	622515	Rainbow & Null (6 Suits)	4
 Bot-Fiora	624069	Black & Omni (5 Suits)	4
@@ -196,7 +192,6 @@ Bot-Fiora	714343	Clue Starved & Omni (6 Suits)	3
 Bot-Fiora	715601	Clue Starved & Omni (5 Suits)	3
 Bot-Fiora	733346	Pink & Brown (6 Suits)	3
 Bot-Fiora	763513	Pink & Dark Omni (5 Suits)	3
-Bot-Fiora	764218	Up or Down & Rainbow (6 Suits)	3
 Bot-Fiora	769806	Black & Rainbow (6 Suits)	3
 Bot-Fiora	772705	Null-Ones & Dark Null (6 Suits)	3
 Bot-Fiora	775869	Omni-Ones & White (4 Suits)	3
@@ -237,7 +232,6 @@ Bot-Fiora	424214	No Variant	2
 Bot-Fiora	429529	Black & Light Pink (5 Suits)	2
 Bot-Fiora	429545	Rainbow-Ones & White (6 Suits)	2
 Bot-Fiora	429565	No Variant	2
-Bot-Fiora	430758	Up or Down (6 Suits)	2
 Bot-Fiora	431774	Rainbow (5 Suits)	2
 Bot-Fiora	432414	4 Suits	2
 Bot-Fiora	432432	Prism (5 Suits)	2
@@ -313,7 +307,6 @@ Bot-Fiora	577918	Prism (5 Suits)	2
 Bot-Fiora	578986	Black (6 Suits)	2
 Bot-Fiora	579018	Gray Pink (5 Suits)	2
 Bot-Fiora	594328	Pink & Dark Brown (5 Suits)	2
-Bot-Fiora	600337	Up or Down & Muddy Rainbow (5 Suits)	2
 Bot-Fiora	601020	Pink & Prism (6 Suits)	2
 Bot-Fiora	603992	Black & Prism (5 Suits)	2
 Bot-Fiora	605947	White & Dark Brown (6 Suits)	2
@@ -329,6 +322,7 @@ Bot-Fiora	616088	Black & Omni (5 Suits)	2
 Bot-Fiora	616432	Rainbow & Dark Brown (6 Suits)	2
 Bot-Fiora	616517	Black & Prism (5 Suits)	2
 Bot-Fiora	616766	Rainbow-Ones (5 Suits)	2
+Bot-Fiora	617958	Up or Down & Rainbow (6 Suits)	2
 Bot-Fiora	618386	Up or Down & Light Pink (5 Suits)	2
 Bot-Fiora	618624	Prism (5 Suits)	2
 Bot-Fiora	620859	Omni (5 Suits)	2
@@ -444,6 +438,8 @@ Bot-Fiora	424614	Rainbow (4 Suits)	1
 Bot-Fiora	427875	Pink & Omni (5 Suits)	1
 Bot-Fiora	429582	No Variant	1
 Bot-Fiora	429659	White (5 Suits)	1
+Bot-Fiora	430758	Up or Down (6 Suits)	1
+Bot-Fiora	431540	Up or Down (6 Suits)	1
 Bot-Fiora	431860	Brown (5 Suits)	1
 Bot-Fiora	432551	No Variant	1
 Bot-Fiora	433096	Null (5 Suits)	1
@@ -554,6 +550,7 @@ Bot-Fiora	591910	Pink-Fives & Gray (5 Suits)	1
 Bot-Fiora	593476	White Reversed (5 Suits)	1
 Bot-Fiora	593486	White Reversed (5 Suits)	1
 Bot-Fiora	593502	White Reversed (5 Suits)	1
+Bot-Fiora	593630	Up or Down & Rainbow (5 Suits)	1
 Bot-Fiora	593644	Up or Down & Rainbow (5 Suits)	1
 Bot-Fiora	593791	4 Suits	1
 Bot-Fiora	593806	4 Suits	1
@@ -606,6 +603,7 @@ Bot-Fiora	620844	Omni (5 Suits)	1
 Bot-Fiora	621658	6 Suits	1
 Bot-Fiora	621691	Rainbow-Ones & Black (6 Suits)	1
 Bot-Fiora	621879	Pink & White (6 Suits)	1
+Bot-Fiora	622402	Up or Down & Light Pink (6 Suits)	1
 Bot-Fiora	622450	Dark Null (6 Suits)	1
 Bot-Fiora	622891	Light Pink (5 Suits)	1
 Bot-Fiora	624044	Prism Reversed (5 Suits)	1
@@ -871,6 +869,7 @@ Bot-Fiora	593750	White Reversed (4 Suits)	0
 Bot-Fiora	593777	4 Suits	0
 Bot-Fiora	593811	4 Suits	0
 Bot-Fiora	600266	Dark Rainbow (5 Suits)	0
+Bot-Fiora	600337	Up or Down & Muddy Rainbow (5 Suits)	0
 Bot-Fiora	600895	Dark Omni (5 Suits)	0
 Bot-Fiora	601025	Pink & Prism (6 Suits)	0
 Bot-Fiora	603771	Rainbow & Prism (5 Suits)	0
@@ -944,6 +943,7 @@ Bot-Fiora	763550	Pink & Dark Omni (5 Suits)	0
 Bot-Fiora	763553	Pink & Dark Omni (6 Suits)	0
 Bot-Fiora	763558	Pink & Dark Omni (6 Suits)	0
 Bot-Fiora	764213	Brown-Fives & Muddy Rainbow (4 Suits)	0
+Bot-Fiora	764218	Up or Down & Rainbow (6 Suits)	0
 Bot-Fiora	767115	Rainbow-Fives & Brown (6 Suits)	0
 Bot-Fiora	769328	6 Suits	0
 Bot-Fiora	769433	Pink (3 Suits)	0

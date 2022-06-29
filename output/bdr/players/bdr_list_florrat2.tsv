@@ -1,13 +1,11 @@
 Player	Game id	Variant	BDR
 florrat2	2950	Rainbow (6 Suits)	8
 florrat2	6024	Rainbow (6 Suits)	8
-florrat2	52563	Up or Down & Pink (6 Suits)	8
 florrat2	3072	Rainbow (6 Suits)	7
 florrat2	3349	Black (6 Suits)	7
 florrat2	4116	Dual-Color (6 Suits)	7
 florrat2	6207	Rainbow (6 Suits)	7
 florrat2	15015	Rainbow (6 Suits)	7
-florrat2	18107	Up or Down (6 Suits)	7
 florrat2	3797	Dual-Color (6 Suits)	6
 florrat2	3891	Rainbow (6 Suits)	6
 florrat2	4059	6 Suits	6
@@ -17,7 +15,6 @@ florrat2	7122	Rainbow (6 Suits)	6
 florrat2	7227	Rainbow (6 Suits)	6
 florrat2	13431	No Variant	6
 florrat2	26018	Duck (6 Suits)	6
-florrat2	52079	Up or Down & Rainbow (6 Suits)	6
 florrat2	307414	Rainbow (6 Suits)	6
 florrat2	583116	Pink & Brown (6 Suits)	6
 florrat2	2945	Black (6 Suits)	5
@@ -47,14 +44,14 @@ florrat2	12389	Dual-Color (6 Suits)	5
 florrat2	13049	Rainbow (6 Suits)	5
 florrat2	14274	Dual-Color (6 Suits)	5
 florrat2	14649	Dark Rainbow (6 Suits)	5
-florrat2	18635	Up or Down (6 Suits)	5
 florrat2	18821	Ambiguous (6 Suits)	5
 florrat2	18994	White (6 Suits)	5
 florrat2	31740	Brown (6 Suits)	5
 florrat2	31744	Brown (6 Suits)	5
 florrat2	38469	Brown (6 Suits)	5
 florrat2	39387	Brown (6 Suits)	5
-florrat2	65734	Up or Down (6 Suits)	5
+florrat2	52079	Up or Down & Rainbow (6 Suits)	5
+florrat2	52563	Up or Down & Pink (6 Suits)	5
 florrat2	308052	Rainbow (6 Suits)	5
 florrat2	2939	Dual-Color (6 Suits)	4
 florrat2	2952	No Variant	4
@@ -123,8 +120,8 @@ florrat2	15028	Black (6 Suits)	4
 florrat2	17980	Pink-Fives (5 Suits)	4
 florrat2	18033	Rainbow (6 Suits)	4
 florrat2	18532	Clue Starved (6 Suits)	4
+florrat2	18635	Up or Down (6 Suits)	4
 florrat2	18904	No Variant	4
-florrat2	19044	Up or Down & Rainbow (6 Suits)	4
 florrat2	19497	No Variant	4
 florrat2	26030	Duck (6 Suits)	4
 florrat2	26328	Duck (5 Suits)	4
@@ -133,27 +130,21 @@ florrat2	31718	Brown (6 Suits)	4
 florrat2	33092	Brown (5 Suits)	4
 florrat2	36439	Rainbow (5 Suits)	4
 florrat2	49373	Black (6 Suits)	4
-florrat2	51330	Up or Down & Pink (5 Suits)	4
 florrat2	51799	Clue Starved (6 Suits)	4
 florrat2	51879	Color Mute (5 Suits)	4
 florrat2	51940	Pink & Brown (5 Suits)	4
-florrat2	52554	Up or Down & Pink (5 Suits)	4
 florrat2	52580	White & Dark Rainbow (6 Suits)	4
 florrat2	53211	Null (6 Suits)	4
 florrat2	62004	Rainbow & Gray (6 Suits)	4
 florrat2	63432	Black & Brown (6 Suits)	4
 florrat2	63519	Totally Blind (6 Suits)	4
 florrat2	64413	Rainbow (6 Suits)	4
-florrat2	65237	Up or Down & White (5 Suits)	4
-florrat2	70502	Up or Down & Brown (6 Suits)	4
-florrat2	70505	Up or Down & Brown (6 Suits)	4
 florrat2	71781	Throw It in a Hole (6 Suits)	4
 florrat2	72406	Pink (6 Suits)	4
 florrat2	258063	Dual-Color (6 Suits)	4
 florrat2	259307	Dual-Color (6 Suits)	4
 florrat2	265599	Dual-Color (6 Suits)	4
 florrat2	282242	White (6 Suits)	4
-florrat2	766497	Up or Down (6 Suits)	4
 florrat2	2951	No Variant	3
 florrat2	2956	Black (6 Suits)	3
 florrat2	2979	No Variant	3
@@ -256,23 +247,18 @@ florrat2	14589	Black & Dark Rainbow (6 Suits)	3
 florrat2	14669	Dark Rainbow (6 Suits)	3
 florrat2	14756	Dark Rainbow (6 Suits)	3
 florrat2	14854	Rainbow (6 Suits)	3
-florrat2	17890	Up or Down (5 Suits)	3
 florrat2	17903	Up or Down (6 Suits)	3
 florrat2	17906	Pink-Fives (6 Suits)	3
 florrat2	17968	Up or Down (6 Suits)	3
 florrat2	17977	Pink-Fives (5 Suits)	3
-florrat2	18013	Up or Down & White (6 Suits)	3
 florrat2	18025	Rainbow (6 Suits)	3
 florrat2	18104	White (5 Suits)	3
 florrat2	18123	Black (5 Suits)	3
 florrat2	18254	White (6 Suits)	3
 florrat2	18528	Clue Starved (6 Suits)	3
 florrat2	18995	Up or Down (5 Suits)	3
-florrat2	19009	Up or Down (5 Suits)	3
-florrat2	19512	Up or Down & White (6 Suits)	3
 florrat2	19531	No Variant	3
 florrat2	19533	No Variant	3
-florrat2	20249	Up or Down & Rainbow (5 Suits)	3
 florrat2	20256	Up or Down & Rainbow (5 Suits)	3
 florrat2	20997	6 Suits	3
 florrat2	21615	No Variant	3
@@ -286,27 +272,23 @@ florrat2	31198	Pink (6 Suits)	3
 florrat2	32381	Rainbow (6 Suits)	3
 florrat2	35099	Rainbow & White (5 Suits)	3
 florrat2	35572	Pink (6 Suits)	3
-florrat2	35576	Up or Down (6 Suits)	3
 florrat2	36768	Brown (5 Suits)	3
 florrat2	38235	Pink & White (6 Suits)	3
-florrat2	38549	Up or Down (5 Suits)	3
 florrat2	39065	Pink (6 Suits)	3
 florrat2	39418	6 Suits	3
 florrat2	39425	Cow & Pig (6 Suits)	3
 florrat2	51459	Gray & Dark Brown (6 Suits)	3
 florrat2	51858	Black & Rainbow (6 Suits)	3
 florrat2	51884	Color Mute (5 Suits)	3
-florrat2	52269	Up or Down & Brown (5 Suits)	3
-florrat2	52379	Up or Down & White (5 Suits)	3
-florrat2	52558	Up or Down & Pink (5 Suits)	3
 florrat2	52661	Gray (5 Suits)	3
 florrat2	58807	Pink (6 Suits)	3
 florrat2	62395	Black & Pink (6 Suits)	3
 florrat2	63516	Totally Blind (6 Suits)	3
 florrat2	65105	Black & Omni (6 Suits)	3
+florrat2	65237	Up or Down & White (5 Suits)	3
 florrat2	66163	Black (6 Suits)	3
 florrat2	67417	Brown & Omni (5 Suits)	3
-florrat2	70500	Up or Down & Brown (6 Suits)	3
+florrat2	70505	Up or Down & Brown (6 Suits)	3
 florrat2	70588	Dual-Color (6 Suits)	3
 florrat2	71780	Throw It in a Hole (6 Suits)	3
 florrat2	72403	Pink (6 Suits)	3
@@ -318,8 +300,6 @@ florrat2	187100	Black & Rainbow (5 Suits)	3
 florrat2	187274	Black & Rainbow (5 Suits)	3
 florrat2	222785	Rainbow (6 Suits)	3
 florrat2	222908	Rainbow (6 Suits)	3
-florrat2	230615	Up or Down (5 Suits)	3
-florrat2	236946	Up or Down (5 Suits)	3
 florrat2	265722	Dual-Color (6 Suits)	3
 florrat2	300435	Rainbow (6 Suits)	3
 florrat2	307943	Rainbow (6 Suits)	3
@@ -494,8 +474,8 @@ florrat2	14779	Dark Rainbow (6 Suits)	2
 florrat2	14932	Rainbow (6 Suits)	2
 florrat2	15020	Rainbow (6 Suits)	2
 florrat2	16738	Black & Dark Rainbow (6 Suits)	2
-florrat2	17893	Up or Down (5 Suits)	2
 florrat2	17967	Up or Down (6 Suits)	2
+florrat2	18107	Up or Down (6 Suits)	2
 florrat2	18257	Pink-Fives (6 Suits)	2
 florrat2	18299	Dark Rainbow (5 Suits)	2
 florrat2	18383	Dark Rainbow (5 Suits)	2
@@ -503,36 +483,29 @@ florrat2	18748	Clue Starved (6 Suits)	2
 florrat2	18822	Ambiguous (6 Suits)	2
 florrat2	18826	Very Ambiguous (6 Suits)	2
 florrat2	18873	No Variant	2
-florrat2	19013	Up or Down (5 Suits)	2
-florrat2	19046	Up or Down & Rainbow (6 Suits)	2
 florrat2	19447	Black & Dark Rainbow (6 Suits)	2
 florrat2	19452	Black & Dark Rainbow (6 Suits)	2
 florrat2	19457	Black & Dark Rainbow (6 Suits)	2
+florrat2	19512	Up or Down & White (6 Suits)	2
 florrat2	19525	No Variant	2
 florrat2	19529	No Variant	2
 florrat2	19530	No Variant	2
 florrat2	19899	6 Suits	2
+florrat2	20249	Up or Down & Rainbow (5 Suits)	2
 florrat2	20595	Dark Rainbow (5 Suits)	2
-florrat2	20992	Up or Down (5 Suits)	2
 florrat2	21095	6 Suits	2
 florrat2	21105	6 Suits	2
 florrat2	21252	Ambiguous (4 Suits)	2
-florrat2	21619	Up or Down (5 Suits)	2
 florrat2	21625	Up or Down (5 Suits)	2
 florrat2	21785	Dark Rainbow (6 Suits)	2
-florrat2	21985	Up or Down (5 Suits)	2
-florrat2	21990	Up or Down (6 Suits)	2
 florrat2	22197	Dark Rainbow (6 Suits)	2
-florrat2	23444	Up or Down & White (6 Suits)	2
 florrat2	25351	Pink-Fives (5 Suits)	2
 florrat2	25358	Ambiguous (6 Suits)	2
-florrat2	25771	Up or Down (6 Suits)	2
 florrat2	26026	Duck (6 Suits)	2
 florrat2	26287	Duck (4 Suits)	2
 florrat2	26303	Rainbow (5 Suits)	2
 florrat2	26334	Duck (5 Suits)	2
 florrat2	26357	Duck (5 Suits)	2
-florrat2	26752	Up or Down & White (6 Suits)	2
 florrat2	27400	Dual-Color (6 Suits)	2
 florrat2	28412	Black (5 Suits)	2
 florrat2	29079	Very Ambiguous (6 Suits)	2
@@ -565,7 +538,6 @@ florrat2	40023	Black & Rainbow (6 Suits)	2
 florrat2	40211	No Variant	2
 florrat2	40214	No Variant	2
 florrat2	50386	Null (6 Suits)	2
-florrat2	50416	Up or Down & Brown (5 Suits)	2
 florrat2	51049	Brown (5 Suits)	2
 florrat2	51861	Black & Pink (5 Suits)	2
 florrat2	51923	Brown & Dark Rainbow (5 Suits)	2
@@ -573,6 +545,8 @@ florrat2	52073	Rainbow (6 Suits)	2
 florrat2	52160	Rainbow (5 Suits)	2
 florrat2	52161	Gray (6 Suits)	2
 florrat2	52252	Gray (5 Suits)	2
+florrat2	52379	Up or Down & White (5 Suits)	2
+florrat2	52554	Up or Down & Pink (5 Suits)	2
 florrat2	52666	Gray (5 Suits)	2
 florrat2	53212	Pink-Fives (5 Suits)	2
 florrat2	55886	Rainbow & Omni (6 Suits)	2
@@ -588,14 +562,16 @@ florrat2	64415	Dark Rainbow (6 Suits)	2
 florrat2	64434	White & Omni (4 Suits)	2
 florrat2	65231	Up or Down & White (5 Suits)	2
 florrat2	65731	Up or Down & Brown (6 Suits)	2
+florrat2	65734	Up or Down (6 Suits)	2
 florrat2	65985	Rainbow & Null (6 Suits)	2
 florrat2	66167	Black (6 Suits)	2
-florrat2	66179	Up or Down (6 Suits)	2
 florrat2	66653	Up or Down (5 Suits)	2
 florrat2	67042	Up or Down (5 Suits)	2
 florrat2	68797	Throw It in a Hole (6 Suits)	2
 florrat2	68800	Throw It in a Hole (6 Suits)	2
 florrat2	70069	Cow & Pig (5 Suits)	2
+florrat2	70500	Up or Down & Brown (6 Suits)	2
+florrat2	70502	Up or Down & Brown (6 Suits)	2
 florrat2	70586	Dual-Color (6 Suits)	2
 florrat2	70599	6 Suits	2
 florrat2	70602	No Variant	2
@@ -618,10 +594,7 @@ florrat2	193555	Gray (6 Suits)	2
 florrat2	195208	Null (6 Suits)	2
 florrat2	220067	Rainbow (6 Suits)	2
 florrat2	222567	Rainbow (6 Suits)	2
-florrat2	229212	Up or Down (5 Suits)	2
-florrat2	230703	Up or Down (5 Suits)	2
-florrat2	231940	Up or Down (5 Suits)	2
-florrat2	236660	Up or Down (5 Suits)	2
+florrat2	230615	Up or Down (5 Suits)	2
 florrat2	259372	Dual-Color (6 Suits)	2
 florrat2	265827	Dual-Color (6 Suits)	2
 florrat2	265895	Dual-Color (6 Suits)	2
@@ -635,6 +608,7 @@ florrat2	549255	Omni (5 Suits)	2
 florrat2	567330	Dark Null (5 Suits)	2
 florrat2	582853	Light Pink & Dark Pink (6 Suits)	2
 florrat2	601480	Rainbow-Ones (5 Suits)	2
+florrat2	766497	Up or Down (6 Suits)	2
 florrat2	772478	Rainbow (6 Suits)	2
 florrat2	774530	Rainbow (6 Suits)	2
 florrat2	795859	Pink (6 Suits)	2
@@ -821,9 +795,9 @@ florrat2	14880	No Variant	1
 florrat2	14934	Rainbow (6 Suits)	1
 florrat2	15049	Dark Rainbow (6 Suits)	1
 florrat2	16750	Black & Dark Rainbow (6 Suits)	1
-florrat2	17900	Up or Down (5 Suits)	1
+florrat2	17890	Up or Down (5 Suits)	1
 florrat2	18008	Dark Rainbow (5 Suits)	1
-florrat2	18009	Up or Down & White (5 Suits)	1
+florrat2	18013	Up or Down & White (6 Suits)	1
 florrat2	18102	White (4 Suits)	1
 florrat2	18103	White (5 Suits)	1
 florrat2	18108	Black (5 Suits)	1
@@ -848,25 +822,32 @@ florrat2	18767	White (5 Suits)	1
 florrat2	18824	Very Ambiguous (6 Suits)	1
 florrat2	18860	No Variant	1
 florrat2	18864	No Variant	1
+florrat2	19009	Up or Down (5 Suits)	1
+florrat2	19013	Up or Down (5 Suits)	1
+florrat2	19044	Up or Down & Rainbow (6 Suits)	1
+florrat2	19046	Up or Down & Rainbow (6 Suits)	1
 florrat2	19051	Rainbow (5 Suits)	1
 florrat2	19444	Ambiguous & Rainbow (5 Suits)	1
 florrat2	19495	No Variant	1
 florrat2	19505	Black & Dark Rainbow (6 Suits)	1
-florrat2	20244	Up or Down & Rainbow (5 Suits)	1
 florrat2	20591	Dark Rainbow (5 Suits)	1
-florrat2	20984	Up or Down (5 Suits)	1
+florrat2	20992	Up or Down (5 Suits)	1
 florrat2	21250	Ambiguous (4 Suits)	1
+florrat2	21619	Up or Down (5 Suits)	1
 florrat2	21809	Dark Rainbow (6 Suits)	1
+florrat2	21985	Up or Down (5 Suits)	1
 florrat2	21986	No Variant	1
 florrat2	22743	Rainbow (5 Suits)	1
+florrat2	23444	Up or Down & White (6 Suits)	1
 florrat2	23450	Up or Down (5 Suits)	1
 florrat2	23455	Up or Down (5 Suits)	1
-florrat2	23460	Up or Down (5 Suits)	1
 florrat2	24052	Color Blind (5 Suits)	1
 florrat2	24066	Rainbow (5 Suits)	1
+florrat2	25771	Up or Down (6 Suits)	1
 florrat2	26031	No Variant	1
 florrat2	26306	Rainbow (5 Suits)	1
 florrat2	26744	No Variant	1
+florrat2	26752	Up or Down & White (6 Suits)	1
 florrat2	27655	No Variant	1
 florrat2	27656	No Variant	1
 florrat2	28074	White (3 Suits)	1
@@ -880,6 +861,7 @@ florrat2	31201	Pink (6 Suits)	1
 florrat2	31876	Brown (6 Suits)	1
 florrat2	34030	Dark Brown (5 Suits)	1
 florrat2	34444	Brown (6 Suits)	1
+florrat2	35576	Up or Down (6 Suits)	1
 florrat2	36126	4 Suits	1
 florrat2	36128	Rainbow (5 Suits)	1
 florrat2	36442	Rainbow-Ones (5 Suits)	1
@@ -890,6 +872,7 @@ florrat2	36783	Special Mix (5 Suits)	1
 florrat2	36785	Special Mix (5 Suits)	1
 florrat2	38233	Pink & White (6 Suits)	1
 florrat2	38470	Brown (6 Suits)	1
+florrat2	38549	Up or Down (5 Suits)	1
 florrat2	38787	Duck (4 Suits)	1
 florrat2	38885	Dark Brown (5 Suits)	1
 florrat2	38941	Dark Brown (6 Suits)	1
@@ -898,10 +881,12 @@ florrat2	49120	Omni (5 Suits)	1
 florrat2	49128	Omni (5 Suits)	1
 florrat2	49367	4 Suits	1
 florrat2	50393	Null (6 Suits)	1
+florrat2	50416	Up or Down & Brown (5 Suits)	1
 florrat2	50774	Up or Down & Brown (5 Suits)	1
 florrat2	50786	Black & White (5 Suits)	1
 florrat2	50865	Null (5 Suits)	1
 florrat2	50883	Black & Dark Brown (6 Suits)	1
+florrat2	51330	Up or Down & Pink (5 Suits)	1
 florrat2	51464	Black (5 Suits)	1
 florrat2	51466	Black (5 Suits)	1
 florrat2	51870	Black & Brown (5 Suits)	1
@@ -911,6 +896,8 @@ florrat2	51939	Muddy Rainbow (4 Suits)	1
 florrat2	52082	Up or Down & White (6 Suits)	1
 florrat2	52259	Muddy Rainbow (5 Suits)	1
 florrat2	52267	Muddy Rainbow (5 Suits)	1
+florrat2	52269	Up or Down & Brown (5 Suits)	1
+florrat2	52558	Up or Down & Pink (5 Suits)	1
 florrat2	52560	Up or Down & Pink (5 Suits)	1
 florrat2	52657	Gray (5 Suits)	1
 florrat2	52805	Color Mute (6 Suits)	1
@@ -947,15 +934,12 @@ florrat2	65103	Null (6 Suits)	1
 florrat2	65107	Black & Omni (6 Suits)	1
 florrat2	65164	Rainbow & Brown (4 Suits)	1
 florrat2	65168	Black (5 Suits)	1
-florrat2	65729	Up or Down & Rainbow (6 Suits)	1
 florrat2	65739	Up or Down (6 Suits)	1
 florrat2	65992	Black & Rainbow (6 Suits)	1
 florrat2	65996	Cow & Pig (3 Suits)	1
 florrat2	66004	Cow & Pig (4 Suits)	1
 florrat2	66157	Black & Omni (5 Suits)	1
-florrat2	66651	Up or Down & White (6 Suits)	1
-florrat2	66658	Up or Down (5 Suits)	1
-florrat2	67036	Up or Down & White (5 Suits)	1
+florrat2	66179	Up or Down (6 Suits)	1
 florrat2	67085	Black (6 Suits)	1
 florrat2	67114	Black (6 Suits)	1
 florrat2	67432	Black & Null (5 Suits)	1
@@ -992,13 +976,9 @@ florrat2	198750	No Variant	1
 florrat2	220000	Rainbow (6 Suits)	1
 florrat2	223768	Rainbow (6 Suits)	1
 florrat2	229243	Up or Down (5 Suits)	1
-florrat2	231003	Up or Down (5 Suits)	1
-florrat2	231825	Up or Down (5 Suits)	1
-florrat2	232027	Up or Down (5 Suits)	1
-florrat2	234608	Up or Down (5 Suits)	1
-florrat2	234796	Up or Down (5 Suits)	1
-florrat2	237810	Up or Down (5 Suits)	1
-florrat2	238026	Up or Down (5 Suits)	1
+florrat2	231940	Up or Down (5 Suits)	1
+florrat2	236660	Up or Down (5 Suits)	1
+florrat2	236946	Up or Down (5 Suits)	1
 florrat2	258059	Dual-Color (6 Suits)	1
 florrat2	259415	Dual-Color (6 Suits)	1
 florrat2	266904	Dual-Color (6 Suits)	1
@@ -1136,7 +1116,10 @@ florrat2	15013	Rainbow (6 Suits)	0
 florrat2	15178	Black (6 Suits)	0
 florrat2	17393	Black & Dark Rainbow (6 Suits)	0
 florrat2	17407	Black & Dark Rainbow (6 Suits)	0
+florrat2	17893	Up or Down (5 Suits)	0
+florrat2	17900	Up or Down (5 Suits)	0
 florrat2	17972	3 Suits	0
+florrat2	18009	Up or Down & White (5 Suits)	0
 florrat2	18109	Black (5 Suits)	0
 florrat2	18121	Black (5 Suits)	0
 florrat2	18153	Black (6 Suits)	0
@@ -1159,16 +1142,20 @@ florrat2	19494	No Variant	0
 florrat2	19500	No Variant	0
 florrat2	19501	Color Blind (3 Suits)	0
 florrat2	19504	Color Blind (3 Suits)	0
+florrat2	20244	Up or Down & Rainbow (5 Suits)	0
 florrat2	20245	Rainbow (3 Suits)	0
 florrat2	20582	Dark Rainbow (5 Suits)	0
 florrat2	20598	Black (5 Suits)	0
 florrat2	20982	No Variant	0
+florrat2	20984	Up or Down (5 Suits)	0
 florrat2	21088	Color Blind (6 Suits)	0
 florrat2	21219	Black & Dark Rainbow (6 Suits)	0
 florrat2	21221	Black & Dark Rainbow (6 Suits)	0
 florrat2	21251	Ambiguous (4 Suits)	0
 florrat2	21253	Ambiguous (4 Suits)	0
 florrat2	21254	Ambiguous & White (5 Suits)	0
+florrat2	21990	Up or Down (6 Suits)	0
+florrat2	23460	Up or Down (5 Suits)	0
 florrat2	24055	Color Blind (4 Suits)	0
 florrat2	24060	Color Blind (4 Suits)	0
 florrat2	24061	No Variant	0
@@ -1270,10 +1257,14 @@ florrat2	65167	Black (5 Suits)	0
 florrat2	65228	Rainbow (5 Suits)	0
 florrat2	65720	Black & Rainbow (6 Suits)	0
 florrat2	65724	Up or Down & Rainbow (5 Suits)	0
+florrat2	65729	Up or Down & Rainbow (6 Suits)	0
 florrat2	65999	Cow & Pig (3 Suits)	0
 florrat2	66001	Cow & Pig (3 Suits)	0
 florrat2	66008	Cow & Pig (4 Suits)	0
 florrat2	66182	Up or Down (6 Suits)	0
+florrat2	66651	Up or Down & White (6 Suits)	0
+florrat2	66658	Up or Down (5 Suits)	0
+florrat2	67036	Up or Down & White (5 Suits)	0
 florrat2	67440	Black (5 Suits)	0
 florrat2	68157	Black & Rainbow (5 Suits)	0
 florrat2	68162	Black (6 Suits)	0
@@ -1317,10 +1308,19 @@ florrat2	198579	No Variant	0
 florrat2	198666	No Variant	0
 florrat2	222642	Rainbow (6 Suits)	0
 florrat2	223609	Rainbow (6 Suits)	0
+florrat2	229212	Up or Down (5 Suits)	0
+florrat2	230703	Up or Down (5 Suits)	0
 florrat2	230915	Up or Down (5 Suits)	0
+florrat2	231003	Up or Down (5 Suits)	0
+florrat2	231825	Up or Down (5 Suits)	0
+florrat2	232027	Up or Down (5 Suits)	0
+florrat2	234608	Up or Down (5 Suits)	0
 florrat2	234717	Up or Down (5 Suits)	0
+florrat2	234796	Up or Down (5 Suits)	0
 florrat2	236817	Up or Down (5 Suits)	0
+florrat2	237810	Up or Down (5 Suits)	0
 florrat2	237915	Up or Down (5 Suits)	0
+florrat2	238026	Up or Down (5 Suits)	0
 florrat2	275428	White (6 Suits)	0
 florrat2	275540	White (6 Suits)	0
 florrat2	282323	White (6 Suits)	0

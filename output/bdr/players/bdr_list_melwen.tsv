@@ -1,20 +1,16 @@
 Player	Game id	Variant	BDR
 melwen	762357	Gray Reversed (6 Suits)	10
-melwen	147172	Up or Down (6 Suits)	9
 melwen	135902	Rainbow (6 Suits)	8
 melwen	171353	Pink-Ones & Omni (6 Suits)	8
 melwen	211626	Null-Ones & Rainbow (6 Suits)	8
 melwen	729267	Brown-Fives (6 Suits)	8
 melwen	145509	6 Suits	7
 melwen	156484	Rainbow (6 Suits)	7
-melwen	157618	Up or Down (5 Suits)	7
 melwen	250365	White-Fives & Light Pink (6 Suits)	7
 melwen	273070	White-Fives & Rainbow (6 Suits)	7
 melwen	294820	Rainbow (6 Suits)	7
 melwen	307654	Rainbow (6 Suits)	7
 melwen	322542	Duck (5 Suits)	7
-melwen	480023	Up or Down & Muddy Rainbow (6 Suits)	7
-melwen	481188	Up or Down & Prism (6 Suits)	7
 melwen	677075	Rainbow-Ones & Gray (6 Suits)	7
 melwen	688929	Very Ambiguous (6 Suits)	7
 melwen	120936	Black (6 Suits)	6
@@ -23,7 +19,6 @@ melwen	130784	Black (6 Suits)	6
 melwen	143921	6 Suits	6
 melwen	232259	Rainbow (6 Suits)	6
 melwen	275067	Brown-Ones (6 Suits)	6
-melwen	280503	Up or Down & Brown (5 Suits)	6
 melwen	291682	Up or Down & Brown (6 Suits)	6
 melwen	304155	Rainbow (6 Suits)	6
 melwen	304199	Rainbow (6 Suits)	6
@@ -38,9 +33,7 @@ melwen	334501	Prism (6 Suits)	6
 melwen	337603	Prism (6 Suits)	6
 melwen	341969	Extremely Ambiguous & Muddy Rainbow (6 Suits)	6
 melwen	438210	Clue Starved & Rainbow (6 Suits)	6
-melwen	451599	Up or Down & Pink (6 Suits)	6
 melwen	470812	Pink & Gray Pink (6 Suits)	6
-melwen	480455	Up or Down & Muddy Rainbow (6 Suits)	6
 melwen	481340	Brown (6 Suits)	6
 melwen	488791	Rainbow & Dark Brown (6 Suits)	6
 melwen	500467	Dual-Color & Omni (6 Suits)	6
@@ -63,44 +56,21 @@ melwen	137652	6 Suits	5
 melwen	137807	White (6 Suits)	5
 melwen	141183	6 Suits	5
 melwen	143534	6 Suits	5
-melwen	146633	Up or Down (5 Suits)	5
-melwen	147056	Up or Down (6 Suits)	5
-melwen	147097	Up or Down (6 Suits)	5
+melwen	147172	Up or Down (6 Suits)	5
 melwen	148105	6 Suits	5
 melwen	148362	6 Suits	5
 melwen	150423	6 Suits	5
-melwen	152083	Up or Down (6 Suits)	5
-melwen	152158	Up or Down (6 Suits)	5
-melwen	152171	Up or Down (6 Suits)	5
-melwen	152223	Up or Down (6 Suits)	5
-melwen	152330	Up or Down (5 Suits)	5
-melwen	156221	Up or Down (5 Suits)	5
 melwen	161111	Muddy Rainbow & Gray (6 Suits)	5
-melwen	164726	Up or Down (5 Suits)	5
-melwen	164739	Up or Down (5 Suits)	5
 melwen	171267	Pink-Ones & Omni (6 Suits)	5
-melwen	171889	Up or Down (5 Suits)	5
-melwen	171980	Up or Down (5 Suits)	5
-melwen	175815	Up or Down (6 Suits)	5
 melwen	181729	Light Pink & Gray (6 Suits)	5
-melwen	182858	Up or Down (5 Suits)	5
-melwen	183660	Up or Down (5 Suits)	5
 melwen	184120	Black & Rainbow (6 Suits)	5
-melwen	201781	Up or Down (6 Suits)	5
 melwen	203250	Duck (5 Suits)	5
 melwen	210595	No Variant	5
 melwen	212043	Omni-Ones & Rainbow (6 Suits)	5
-melwen	214324	Up or Down (5 Suits)	5
 melwen	215090	Rainbow (6 Suits)	5
 melwen	223184	Rainbow (6 Suits)	5
-melwen	224571	Up or Down (6 Suits)	5
-melwen	224591	Up or Down (6 Suits)	5
-melwen	224697	Up or Down (6 Suits)	5
 melwen	226123	Omni-Fives & Pink (5 Suits)	5
-melwen	233207	Up or Down (6 Suits)	5
 melwen	235136	Rainbow (6 Suits)	5
-melwen	235878	Up or Down (5 Suits)	5
-melwen	236293	Up or Down (5 Suits)	5
 melwen	246206	Pink & Brown (5 Suits)	5
 melwen	248735	Pink & Brown (5 Suits)	5
 melwen	262712	Pink (6 Suits)	5
@@ -109,7 +79,6 @@ melwen	269308	Pink-Fives & White (6 Suits)	5
 melwen	285862	Rainbow (6 Suits)	5
 melwen	289278	Clue Starved (5 Suits)	5
 melwen	294876	Pink & White (6 Suits)	5
-melwen	298006	Up or Down & White (6 Suits)	5
 melwen	298280	Gray (6 Suits)	5
 melwen	305741	Rainbow-Fives & Light Pink (5 Suits)	5
 melwen	305766	Rainbow-Fives & Light Pink (5 Suits)	5
@@ -121,18 +90,9 @@ melwen	323520	Black & Light Pink (6 Suits)	5
 melwen	323552	Black & Light Pink (6 Suits)	5
 melwen	324214	Duck (5 Suits)	5
 melwen	326900	Rainbow-Ones & Black (5 Suits)	5
-melwen	327718	Up or Down & Prism (6 Suits)	5
 melwen	330930	Rainbow & Prism (6 Suits)	5
-melwen	332465	Up or Down & Rainbow (6 Suits)	5
-melwen	332484	Up or Down & Rainbow (6 Suits)	5
 melwen	332756	Rainbow & Light Pink (6 Suits)	5
 melwen	334175	White & Dark Prism (5 Suits)	5
-melwen	335352	Up or Down & Pink (6 Suits)	5
-melwen	339403	Up or Down & Rainbow (6 Suits)	5
-melwen	339479	Up or Down & Rainbow (6 Suits)	5
-melwen	342472	Up or Down & White (6 Suits)	5
-melwen	342514	Up or Down & Rainbow (6 Suits)	5
-melwen	342625	Up or Down & Rainbow (6 Suits)	5
 melwen	345542	White & Dark Rainbow (6 Suits)	5
 melwen	356705	Black & White (5 Suits)	5
 melwen	378011	Pink & Omni (6 Suits)	5
@@ -147,14 +107,10 @@ melwen	427737	Clue Starved & Prism (6 Suits)	5
 melwen	427765	Clue Starved & Prism (6 Suits)	5
 melwen	433604	Rainbow & Null (6 Suits)	5
 melwen	439099	Throw It in a Hole (6 Suits)	5
-melwen	439359	Up or Down & Rainbow (6 Suits)	5
-melwen	439414	Up or Down & Rainbow (6 Suits)	5
 melwen	449989	White & Light Pink (6 Suits)	5
 melwen	450569	Brown & Prism (6 Suits)	5
 melwen	451464	Up or Down & Omni (6 Suits)	5
-melwen	451984	Up or Down & Omni (6 Suits)	5
 melwen	479841	Rainbow & Dark Omni (6 Suits)	5
-melwen	481178	Up or Down & Prism (6 Suits)	5
 melwen	492072	Null (5 Suits)	5
 melwen	493325	Light Pink & Prism (6 Suits)	5
 melwen	493569	Extremely Ambiguous & Light Pink (6 Suits)	5
@@ -166,9 +122,6 @@ melwen	507218	Dual-Color & White (6 Suits)	5
 melwen	515197	Prism & Dark Omni (6 Suits)	5
 melwen	517750	Pink & Gray Pink (6 Suits)	5
 melwen	517778	Brown & Omni (6 Suits)	5
-melwen	520810	Up or Down (6 Suits)	5
-melwen	520935	Up or Down & Prism (6 Suits)	5
-melwen	522046	Up or Down & Prism (6 Suits)	5
 melwen	529410	Pink-Ones & White (6 Suits)	5
 melwen	534031	Rainbow-Fives & Dark Brown (6 Suits)	5
 melwen	536484	Black & Null (6 Suits)	5
@@ -190,14 +143,11 @@ melwen	661474	Omni & Light Pink (5 Suits)	5
 melwen	662472	Pink & Null (6 Suits)	5
 melwen	666887	Pink & Omni (6 Suits)	5
 melwen	667060	Omni-Ones & White (6 Suits)	5
-melwen	675757	Up or Down & Brown (6 Suits)	5
-melwen	675825	Up or Down & Brown (6 Suits)	5
 melwen	680089	Synesthesia (6 Suits)	5
 melwen	681697	Very Ambiguous (6 Suits)	5
 melwen	683406	6 Suits	5
 melwen	690458	Very Ambiguous (6 Suits)	5
 melwen	694646	Null-Ones & Rainbow (6 Suits)	5
-melwen	702764	Up or Down & Null (5 Suits)	5
 melwen	706513	Pink-Ones & Gray (6 Suits)	5
 melwen	93438	Black (6 Suits)	4
 melwen	97814	Black (6 Suits)	4
@@ -256,38 +206,26 @@ melwen	143713	6 Suits	4
 melwen	143927	6 Suits	4
 melwen	143934	6 Suits	4
 melwen	145245	6 Suits	4
-melwen	146790	Up or Down (5 Suits)	4
 melwen	146818	6 Suits	4
-melwen	147141	Up or Down (6 Suits)	4
+melwen	147056	Up or Down (6 Suits)	4
 melwen	147156	Up or Down (6 Suits)	4
-melwen	148158	Up or Down (5 Suits)	4
-melwen	148210	Up or Down (5 Suits)	4
-melwen	148433	Up or Down (5 Suits)	4
 melwen	149096	6 Suits	4
 melwen	149127	6 Suits	4
 melwen	149175	6 Suits	4
 melwen	150498	6 Suits	4
 melwen	150832	Black (6 Suits)	4
 melwen	151795	6 Suits	4
-melwen	151804	Up or Down (5 Suits)	4
-melwen	152116	Up or Down (6 Suits)	4
-melwen	152190	Up or Down (6 Suits)	4
-melwen	152354	Up or Down (5 Suits)	4
+melwen	152083	Up or Down (6 Suits)	4
 melwen	160237	No Variant	4
 melwen	161149	Black (6 Suits)	4
 melwen	164596	Black (5 Suits)	4
 melwen	164920	Omni-Ones (5 Suits)	4
 melwen	168518	No Variant	4
-melwen	171954	Up or Down (5 Suits)	4
+melwen	171980	Up or Down (5 Suits)	4
 melwen	172370	Duck (5 Suits)	4
-melwen	175798	Up or Down (6 Suits)	4
 melwen	177028	Black (6 Suits)	4
-melwen	180733	Up or Down (6 Suits)	4
 melwen	181758	White-Ones & White (6 Suits)	4
-melwen	183669	Up or Down (5 Suits)	4
-melwen	183678	Up or Down (5 Suits)	4
 melwen	184390	Black & Rainbow (6 Suits)	4
-melwen	186232	Up or Down (5 Suits)	4
 melwen	189194	6 Suits	4
 melwen	189206	6 Suits	4
 melwen	193053	No Variant	4
@@ -297,6 +235,7 @@ melwen	197319	Black (6 Suits)	4
 melwen	198941	Rainbow & Brown (6 Suits)	4
 melwen	199500	No Variant	4
 melwen	200447	Black (5 Suits)	4
+melwen	201781	Up or Down (6 Suits)	4
 melwen	202085	Null (5 Suits)	4
 melwen	205127	No Variant	4
 melwen	207925	No Variant	4
@@ -310,18 +249,12 @@ melwen	216163	No Variant	4
 melwen	216505	Pink-Fives & Black (6 Suits)	4
 melwen	221558	Dual-Color Mix	4
 melwen	222058	Rainbow (5 Suits)	4
-melwen	224630	Up or Down (6 Suits)	4
 melwen	226214	No Variant	4
 melwen	227914	No Variant	4
 melwen	228492	Null-Ones & Rainbow (5 Suits)	4
-melwen	229174	Up or Down (5 Suits)	4
 melwen	229487	Rainbow & White (5 Suits)	4
 melwen	229621	Omni-Ones & White (6 Suits)	4
-melwen	230196	Up or Down (6 Suits)	4
 melwen	232041	Rainbow-Ones & Dark Brown (6 Suits)	4
-melwen	235693	Up or Down (5 Suits)	4
-melwen	235789	Up or Down (5 Suits)	4
-melwen	236300	Up or Down (5 Suits)	4
 melwen	237759	Brown-Fives & White (6 Suits)	4
 melwen	237825	Brown-Fives & White (6 Suits)	4
 melwen	237872	Brown-Fives & White (6 Suits)	4
@@ -337,11 +270,9 @@ melwen	258452	Dark Rainbow (6 Suits)	4
 melwen	260994	Cocoa Rainbow (5 Suits)	4
 melwen	263836	Black & Muddy Rainbow (5 Suits)	4
 melwen	264238	Pink-Ones (5 Suits)	4
-melwen	270131	Up or Down & Brown (6 Suits)	4
-melwen	270517	Up or Down (5 Suits)	4
 melwen	274214	Pink & White (6 Suits)	4
-melwen	275176	Up or Down (5 Suits)	4
 melwen	277506	Null (6 Suits)	4
+melwen	280503	Up or Down & Brown (5 Suits)	4
 melwen	280788	Dark Rainbow (6 Suits)	4
 melwen	282363	Special Mix (5 Suits)	4
 melwen	282628	Dark Prism (6 Suits)	4
@@ -350,10 +281,8 @@ melwen	284315	Special Mix (5 Suits)	4
 melwen	284953	Rainbow & Light Pink (5 Suits)	4
 melwen	285115	Black & Rainbow (6 Suits)	4
 melwen	287675	Clue Starved & Prism (5 Suits)	4
-melwen	291135	Up or Down & Pink (6 Suits)	4
 melwen	291193	Special Mix (6 Suits)	4
 melwen	293651	Pink (6 Suits)	4
-melwen	296508	Up or Down & Pink (5 Suits)	4
 melwen	300353	Special Mix (6 Suits)	4
 melwen	301328	Special Mix (6 Suits)	4
 melwen	301388	Special Mix (6 Suits)	4
@@ -379,17 +308,14 @@ melwen	326505	Rainbow-Ones & Black (5 Suits)	4
 melwen	327800	Omni (5 Suits)	4
 melwen	330895	Rainbow & Prism (6 Suits)	4
 melwen	334263	Rainbow & Prism (4 Suits)	4
-melwen	335420	Up or Down & Rainbow (6 Suits)	4
 melwen	335581	Clue Starved & Pink (5 Suits)	4
 melwen	336827	Prism (6 Suits)	4
-melwen	337535	Up or Down & White (5 Suits)	4
 melwen	338329	Prism (6 Suits)	4
 melwen	338378	Prism (6 Suits)	4
 melwen	340286	Black & White (6 Suits)	4
 melwen	340814	Omni & Muddy Rainbow (5 Suits)	4
 melwen	341262	Omni & Muddy Rainbow (5 Suits)	4
 melwen	341291	Omni & Muddy Rainbow (5 Suits)	4
-melwen	342567	Up or Down & Rainbow (6 Suits)	4
 melwen	343388	Black & Rainbow (6 Suits)	4
 melwen	343784	White & Prism (6 Suits)	4
 melwen	344376	White & Dark Rainbow (6 Suits)	4
@@ -413,10 +339,8 @@ melwen	392698	Pink & Dark Prism (5 Suits)	4
 melwen	392906	Rainbow & Dark Pink (5 Suits)	4
 melwen	394722	Dual-Color Mix	4
 melwen	396583	Omni-Fives & Pink (5 Suits)	4
-melwen	399742	Up or Down & Omni (6 Suits)	4
 melwen	404148	Brown & Prism (6 Suits)	4
 melwen	405203	Black & White (6 Suits)	4
-melwen	409152	Up or Down & Muddy Rainbow (5 Suits)	4
 melwen	422616	Light Pink & Prism (6 Suits)	4
 melwen	431143	Muddy Rainbow & Dark Brown (5 Suits)	4
 melwen	431797	Rainbow & Gray (6 Suits)	4
@@ -424,15 +348,10 @@ melwen	433822	Clue Starved & Prism (5 Suits)	4
 melwen	436354	Ambiguous (6 Suits)	4
 melwen	436412	Ambiguous (6 Suits)	4
 melwen	438089	Light Pink & Dark Prism (6 Suits)	4
-melwen	439122	Up or Down & Brown (6 Suits)	4
-melwen	439324	Up or Down & Rainbow (6 Suits)	4
 melwen	439846	Rainbow & Dark Pink (5 Suits)	4
 melwen	441923	Pink-Fives & Dark Omni (6 Suits)	4
 melwen	441947	Pink-Fives & Dark Omni (6 Suits)	4
 melwen	448745	Rainbow & Gray (6 Suits)	4
-melwen	449067	Up or Down & Muddy Rainbow (5 Suits)	4
-melwen	450308	Up or Down & Omni (6 Suits)	4
-melwen	452053	Up or Down & Omni (6 Suits)	4
 melwen	452624	Pink & Light Pink (5 Suits)	4
 melwen	452654	Pink & Light Pink (5 Suits)	4
 melwen	459085	Black & White (6 Suits)	4
@@ -445,16 +364,16 @@ melwen	468680	Pink & Dark Omni (6 Suits)	4
 melwen	471303	Rainbow & Dark Pink (6 Suits)	4
 melwen	471385	Rainbow & Pink (6 Suits)	4
 melwen	472421	Muddy Rainbow & Dark Brown (6 Suits)	4
-melwen	473047	Up or Down & Muddy Rainbow (6 Suits)	4
 melwen	473615	Brown & Prism (6 Suits)	4
 melwen	473963	White & Dark Pink (6 Suits)	4
 melwen	477639	Brown (6 Suits)	4
 melwen	478358	Brown-Fives & White (6 Suits)	4
 melwen	479067	Brown (6 Suits)	4
+melwen	480023	Up or Down & Muddy Rainbow (6 Suits)	4
+melwen	481178	Up or Down & Prism (6 Suits)	4
 melwen	481301	Brown (6 Suits)	4
 melwen	484315	No Variant	4
 melwen	485870	Rainbow & Omni (5 Suits)	4
-melwen	486528	Up or Down & Rainbow (6 Suits)	4
 melwen	490390	Rainbow-Ones & Pink (6 Suits)	4
 melwen	492065	Null (5 Suits)	4
 melwen	493027	Dark Omni (6 Suits)	4
@@ -476,11 +395,7 @@ melwen	516218	White & Prism (6 Suits)	4
 melwen	516387	Pink & White (6 Suits)	4
 melwen	516736	Pink & Gray Pink (6 Suits)	4
 melwen	519899	Clue Starved & Rainbow (6 Suits)	4
-melwen	520755	Up or Down (6 Suits)	4
 melwen	522014	Brown & Muddy Rainbow (6 Suits)	4
-melwen	522043	Up or Down & Prism (6 Suits)	4
-melwen	523330	Up or Down & Omni (6 Suits)	4
-melwen	523375	Up or Down & Omni (6 Suits)	4
 melwen	524659	Pink & Prism (6 Suits)	4
 melwen	532777	Deceptive-Fives & Light Pink (6 Suits)	4
 melwen	537173	Light Pink & Dark Prism (6 Suits)	4
@@ -490,7 +405,6 @@ melwen	545953	Rainbow & Gray (6 Suits)	4
 melwen	549951	Pink-Ones & Gray (6 Suits)	4
 melwen	550315	Brown & Cocoa Rainbow (6 Suits)	4
 melwen	558160	Rainbow & Cocoa Rainbow (6 Suits)	4
-melwen	558498	Up or Down & Muddy Rainbow (5 Suits)	4
 melwen	565038	White-Fives (6 Suits)	4
 melwen	586750	Dark Prism Reversed (6 Suits)	4
 melwen	587886	Pink & Null (6 Suits)	4
@@ -521,8 +435,7 @@ melwen	661154	Light Pink & Dark Omni (5 Suits)	4
 melwen	661338	Pink & Dark Null (6 Suits)	4
 melwen	661393	Rainbow (6 Suits)	4
 melwen	671177	Prism Reversed (6 Suits)	4
-melwen	672343	Up or Down & Brown (6 Suits)	4
-melwen	675172	Up or Down & Brown (6 Suits)	4
+melwen	675757	Up or Down & Brown (6 Suits)	4
 melwen	677024	Synesthesia (6 Suits)	4
 melwen	678483	Synesthesia (6 Suits)	4
 melwen	681983	Critical Fours & Prism (6 Suits)	4
@@ -530,7 +443,6 @@ melwen	682682	Null-Ones & Black (6 Suits)	4
 melwen	689636	Very Ambiguous (6 Suits)	4
 melwen	692046	Pink-Fives & Prism (6 Suits)	4
 melwen	698028	No Variant	4
-melwen	702773	Up or Down & Null (5 Suits)	4
 melwen	707046	White-Ones & Muddy Rainbow (6 Suits)	4
 melwen	712580	Rainbow-Fives & Light Pink (6 Suits)	4
 melwen	715499	Clue Starved & Null (5 Suits)	4
@@ -616,24 +528,20 @@ melwen	145527	6 Suits	3
 melwen	145552	6 Suits	3
 melwen	145567	6 Suits	3
 melwen	145592	6 Suits	3
-melwen	146477	Up or Down (5 Suits)	3
 melwen	146507	Up or Down (5 Suits)	3
+melwen	146790	Up or Down (5 Suits)	3
 melwen	146927	6 Suits	3
 melwen	146990	6 Suits	3
+melwen	147141	Up or Down (6 Suits)	3
 melwen	148275	6 Suits	3
-melwen	148416	Up or Down (5 Suits)	3
-melwen	148787	Up or Down (5 Suits)	3
-melwen	148837	Up or Down (5 Suits)	3
 melwen	149000	6 Suits	3
-melwen	150720	Up or Down (5 Suits)	3
 melwen	150782	Black (6 Suits)	3
 melwen	151771	No Variant	3
 melwen	151789	6 Suits	3
-melwen	154914	Up or Down (5 Suits)	3
+melwen	152116	Up or Down (6 Suits)	3
+melwen	152354	Up or Down (5 Suits)	3
 melwen	155059	Rainbow & Muddy Rainbow (6 Suits)	3
 melwen	156431	Rainbow (6 Suits)	3
-melwen	156740	Up or Down (5 Suits)	3
-melwen	157701	Up or Down (5 Suits)	3
 melwen	158569	Black (6 Suits)	3
 melwen	160342	Up or Down (5 Suits)	3
 melwen	160352	Up or Down (5 Suits)	3
@@ -641,53 +549,33 @@ melwen	161233	Black (6 Suits)	3
 melwen	161408	6 Suits	3
 melwen	162366	No Variant	3
 melwen	162414	No Variant	3
-melwen	163857	Up or Down (5 Suits)	3
 melwen	164275	No Variant	3
 melwen	165917	Up or Down (5 Suits)	3
-melwen	165945	Up or Down (5 Suits)	3
-melwen	165970	Up or Down (5 Suits)	3
-melwen	166955	Up or Down (5 Suits)	3
 melwen	168458	White (5 Suits)	3
 melwen	168554	Dual-Color (5 Suits)	3
 melwen	168567	Dual-Color (5 Suits)	3
 melwen	170354	Brown (5 Suits)	3
-melwen	170615	Up or Down (5 Suits)	3
-melwen	170722	Up or Down (5 Suits)	3
 melwen	171031	White (6 Suits)	3
-melwen	172032	Up or Down (5 Suits)	3
 melwen	172123	Black (6 Suits)	3
 melwen	172185	Pink (6 Suits)	3
-melwen	173153	Up or Down (5 Suits)	3
-melwen	173210	Up or Down (5 Suits)	3
 melwen	173413	Muddy-Rainbow-Ones & Gray Pink (6 Suits)	3
 melwen	173632	Duck (5 Suits)	3
 melwen	174717	No Variant	3
 melwen	175607	No Variant	3
+melwen	175815	Up or Down (6 Suits)	3
 melwen	175892	Duck (5 Suits)	3
-melwen	175973	Up or Down (6 Suits)	3
-melwen	176032	Up or Down (6 Suits)	3
-melwen	176117	Up or Down (6 Suits)	3
-melwen	176189	Up or Down (6 Suits)	3
-melwen	176266	Up or Down (6 Suits)	3
 melwen	176685	No Variant	3
 melwen	179256	Null-Ones & Pink (5 Suits)	3
 melwen	179327	Null-Ones & Pink (5 Suits)	3
-melwen	180042	Up or Down (5 Suits)	3
-melwen	180077	Up or Down (5 Suits)	3
-melwen	180117	Up or Down (5 Suits)	3
-melwen	180155	Up or Down (5 Suits)	3
 melwen	180409	Rainbow (5 Suits)	3
+melwen	180733	Up or Down (6 Suits)	3
 melwen	180791	Up or Down (6 Suits)	3
 melwen	181679	Light Pink & Gray (6 Suits)	3
-melwen	181941	Up or Down (5 Suits)	3
-melwen	182789	Up or Down (5 Suits)	3
-melwen	182877	Up or Down (5 Suits)	3
 melwen	183253	White-Ones & Brown (6 Suits)	3
-melwen	183642	Up or Down (5 Suits)	3
-melwen	183652	Up or Down (5 Suits)	3
+melwen	183660	Up or Down (5 Suits)	3
 melwen	184322	Black & Rainbow (6 Suits)	3
 melwen	185456	Rainbow (5 Suits)	3
-melwen	186569	Up or Down (5 Suits)	3
+melwen	186232	Up or Down (5 Suits)	3
 melwen	187055	White-Ones & Omni (5 Suits)	3
 melwen	187171	White-Ones & Omni (5 Suits)	3
 melwen	189752	No Variant	3
@@ -702,7 +590,6 @@ melwen	194413	No Variant	3
 melwen	199549	No Variant	3
 melwen	201868	No Variant	3
 melwen	205922	Duck (5 Suits)	3
-melwen	206465	Up or Down (5 Suits)	3
 melwen	206765	No Variant	3
 melwen	206913	Clue Starved (5 Suits)	3
 melwen	209116	White & Muddy Rainbow (6 Suits)	3
@@ -718,6 +605,7 @@ melwen	212192	Omni-Ones & Rainbow (6 Suits)	3
 melwen	212323	No Variant	3
 melwen	212969	Null-Ones & Rainbow (5 Suits)	3
 melwen	212976	Null-Ones & Rainbow (5 Suits)	3
+melwen	214324	Up or Down (5 Suits)	3
 melwen	214485	Special Mix (5 Suits)	3
 melwen	215518	Dual-Color (5 Suits)	3
 melwen	215539	Dual-Color (5 Suits)	3
@@ -728,24 +616,24 @@ melwen	219944	Light Pink & Dark Rainbow (6 Suits)	3
 melwen	221659	Null (5 Suits)	3
 melwen	224003	Rainbow & Null (5 Suits)	3
 melwen	224128	Rainbow & Null (5 Suits)	3
-melwen	226647	Up or Down (5 Suits)	3
-melwen	227343	Up or Down & White (5 Suits)	3
+melwen	224571	Up or Down (6 Suits)	3
+melwen	224591	Up or Down (6 Suits)	3
+melwen	224630	Up or Down (6 Suits)	3
 melwen	227401	Special Mix (5 Suits)	3
 melwen	227890	No Variant	3
+melwen	229174	Up or Down (5 Suits)	3
 melwen	229526	Rainbow & White (5 Suits)	3
-melwen	230230	Up or Down (6 Suits)	3
 melwen	230785	Special Mix (5 Suits)	3
-melwen	231169	Up or Down (5 Suits)	3
 melwen	231999	White & Muddy Rainbow (6 Suits)	3
 melwen	232572	Pink & Brown (5 Suits)	3
 melwen	232863	Clue Starved (5 Suits)	3
-melwen	233058	Up or Down (5 Suits)	3
-melwen	233075	Up or Down (5 Suits)	3
 melwen	235458	Clue Starved (6 Suits)	3
+melwen	235693	Up or Down (5 Suits)	3
 melwen	235759	Up or Down (5 Suits)	3
+melwen	235789	Up or Down (5 Suits)	3
 melwen	235827	Up or Down (5 Suits)	3
 melwen	235914	Up or Down (5 Suits)	3
-melwen	236608	Up or Down (5 Suits)	3
+melwen	236300	Up or Down (5 Suits)	3
 melwen	237478	Dual-Color & Rainbow (6 Suits)	3
 melwen	237492	Dual-Color & Rainbow (6 Suits)	3
 melwen	237789	Brown-Fives & White (6 Suits)	3
@@ -777,6 +665,7 @@ melwen	267550	Black (6 Suits)	3
 melwen	267739	Special Mix (5 Suits)	3
 melwen	268049	Rainbow & White (5 Suits)	3
 melwen	268058	White-Ones & White (6 Suits)	3
+melwen	270517	Up or Down (5 Suits)	3
 melwen	270725	Muddy-Rainbow-Ones & Dark Pink (6 Suits)	3
 melwen	270966	Pink & Dark Omni (5 Suits)	3
 melwen	271078	Rainbow (5 Suits)	3
@@ -784,12 +673,9 @@ melwen	271190	Light-Pink-Fives & Black (5 Suits)	3
 melwen	272785	Gray Pink (5 Suits)	3
 melwen	272849	Brown-Ones & Gray Pink (5 Suits)	3
 melwen	273993	Pink & White (5 Suits)	3
-melwen	280122	Up or Down & Pink (5 Suits)	3
 melwen	280542	Cow & Pig (5 Suits)	3
 melwen	281805	Prism (5 Suits)	3
-melwen	282269	Up or Down & Prism (6 Suits)	3
 melwen	282739	Prism (5 Suits)	3
-melwen	283128	Up or Down & Prism (5 Suits)	3
 melwen	283389	Rainbow & Prism (6 Suits)	3
 melwen	283824	Rainbow & Prism (6 Suits)	3
 melwen	284079	Dark Prism (6 Suits)	3
@@ -806,18 +692,16 @@ melwen	288530	Light Pink (6 Suits)	3
 melwen	289270	Clue Starved (5 Suits)	3
 melwen	289448	Clue Starved (6 Suits)	3
 melwen	290376	White-Fives & Prism (6 Suits)	3
-melwen	291677	Up or Down & Brown (6 Suits)	3
-melwen	293264	Up or Down & Light Pink (5 Suits)	3
-melwen	293727	Up or Down & Muddy Rainbow (5 Suits)	3
-melwen	293803	Up or Down (6 Suits)	3
 melwen	294059	Rainbow (5 Suits)	3
 melwen	294470	Prism (6 Suits)	3
 melwen	294491	Rainbow & Light Pink (5 Suits)	3
 melwen	294993	Rainbow & Prism (6 Suits)	3
 melwen	295011	Rainbow & Prism (6 Suits)	3
 melwen	295844	No Variant	3
+melwen	296508	Up or Down & Pink (5 Suits)	3
 melwen	297195	Brown (6 Suits)	3
 melwen	297874	Up or Down & White (6 Suits)	3
+melwen	298006	Up or Down & White (6 Suits)	3
 melwen	300249	Special Mix (6 Suits)	3
 melwen	300277	Special Mix (6 Suits)	3
 melwen	301975	Special Mix (6 Suits)	3
@@ -880,10 +764,7 @@ melwen	326496	Rainbow-Ones & Black (5 Suits)	3
 melwen	326865	Rainbow-Ones & Black (5 Suits)	3
 melwen	326892	Rainbow-Ones & Black (5 Suits)	3
 melwen	327071	Black (6 Suits)	3
-melwen	327317	Up or Down (5 Suits)	3
-melwen	327737	Up or Down & Prism (6 Suits)	3
-melwen	327752	Up or Down & Prism (6 Suits)	3
-melwen	327773	Up or Down & Prism (6 Suits)	3
+melwen	327718	Up or Down & Prism (6 Suits)	3
 melwen	328331	Duck (5 Suits)	3
 melwen	328347	Duck (5 Suits)	3
 melwen	328367	Duck (5 Suits)	3
@@ -891,26 +772,28 @@ melwen	328473	Duck (5 Suits)	3
 melwen	329716	Brown-Ones & Rainbow (5 Suits)	3
 melwen	332378	Null (6 Suits)	3
 melwen	332414	Null (6 Suits)	3
+melwen	332484	Up or Down & Rainbow (6 Suits)	3
 melwen	333180	Rainbow & Light Pink (6 Suits)	3
 melwen	334705	Black & Prism (6 Suits)	3
 melwen	334790	Black & Prism (6 Suits)	3
 melwen	334852	Rainbow-Ones & Rainbow (6 Suits)	3
 melwen	334871	Rainbow-Ones & Rainbow (6 Suits)	3
 melwen	335224	Pink & Prism (5 Suits)	3
+melwen	335352	Up or Down & Pink (6 Suits)	3
+melwen	335420	Up or Down & Rainbow (6 Suits)	3
 melwen	335586	Brown & Cocoa Rainbow (5 Suits)	3
-melwen	336198	Up or Down & Pink (6 Suits)	3
 melwen	336413	Rainbow & Pink (6 Suits)	3
-melwen	336521	Up or Down & Brown (6 Suits)	3
 melwen	336861	Prism (6 Suits)	3
-melwen	337582	Up or Down & Light Pink (5 Suits)	3
-melwen	337786	Up or Down & Rainbow (5 Suits)	3
 melwen	337835	White & Muddy Rainbow (5 Suits)	3
 melwen	337918	Muddy Rainbow & Dark Prism (6 Suits)	3
 melwen	338449	Prism (6 Suits)	3
+melwen	339403	Up or Down & Rainbow (6 Suits)	3
+melwen	339479	Up or Down & Rainbow (6 Suits)	3
 melwen	340297	Black & White (6 Suits)	3
 melwen	340556	Dark Rainbow (6 Suits)	3
 melwen	342223	Dark Omni (6 Suits)	3
 melwen	342384	Dark Omni (6 Suits)	3
+melwen	342567	Up or Down & Rainbow (6 Suits)	3
 melwen	343635	Muddy Rainbow (6 Suits)	3
 melwen	343768	White & Prism (6 Suits)	3
 melwen	343853	Dark Pink (5 Suits)	3
@@ -970,7 +853,7 @@ melwen	396599	Omni-Fives & Pink (5 Suits)	3
 melwen	396616	Omni-Fives & Pink (5 Suits)	3
 melwen	396867	Omni-Fives & Pink (5 Suits)	3
 melwen	396893	Omni-Fives & Pink (5 Suits)	3
-melwen	399721	Up or Down & Omni (5 Suits)	3
+melwen	399742	Up or Down & Omni (6 Suits)	3
 melwen	400545	Black Reversed (6 Suits)	3
 melwen	401494	Omni-Fives (6 Suits)	3
 melwen	403308	Pink & Dark Prism (6 Suits)	3
@@ -1010,28 +893,24 @@ melwen	435354	No Variant	3
 melwen	436296	Ambiguous (6 Suits)	3
 melwen	439041	White & Dark Omni (5 Suits)	3
 melwen	439111	Throw It in a Hole (6 Suits)	3
+melwen	439359	Up or Down & Rainbow (6 Suits)	3
 melwen	439491	Special Mix (5 Suits)	3
 melwen	440386	Pink-Fives & Brown (5 Suits)	3
 melwen	440568	White-Ones & White (6 Suits)	3
-melwen	443176	Up or Down & Brown (6 Suits)	3
 melwen	444922	Rainbow & Cocoa Rainbow (5 Suits)	3
-melwen	444947	Up or Down & Brown (6 Suits)	3
 melwen	444974	Pink & Dark Rainbow (6 Suits)	3
 melwen	445434	Pink & Muddy Rainbow (5 Suits)	3
-melwen	446906	Up or Down & Prism (6 Suits)	3
 melwen	447243	Rainbow & Gray (5 Suits)	3
 melwen	447284	Rainbow & Gray (5 Suits)	3
 melwen	447751	Null & Muddy Rainbow (5 Suits)	3
 melwen	448729	Pink & Muddy Rainbow (6 Suits)	3
-melwen	448967	Up or Down & Muddy Rainbow (5 Suits)	3
 melwen	449488	Muddy Rainbow & Light Pink (6 Suits)	3
 melwen	450287	Brown & Light Pink (6 Suits)	3
-melwen	450298	Up or Down & Omni (5 Suits)	3
-melwen	450332	Up or Down & Omni (6 Suits)	3
 melwen	450872	Brown & Prism (6 Suits)	3
 melwen	451503	Up or Down & Omni (6 Suits)	3
-melwen	451549	Up or Down & Omni (6 Suits)	3
+melwen	451599	Up or Down & Pink (6 Suits)	3
 melwen	451647	Up or Down & Pink (6 Suits)	3
+melwen	452053	Up or Down & Omni (6 Suits)	3
 melwen	454187	Rainbow & Gray (6 Suits)	3
 melwen	454322	No Variant	3
 melwen	455536	White-Ones & Black (6 Suits)	3
@@ -1074,7 +953,7 @@ melwen	478724	Brown & Light Pink (6 Suits)	3
 melwen	478941	Clue Starved & Pink (6 Suits)	3
 melwen	479889	Rainbow & Dark Omni (6 Suits)	3
 melwen	480018	Dual-Color & Prism (6 Suits)	3
-melwen	480727	Up or Down & Muddy Rainbow (6 Suits)	3
+melwen	481188	Up or Down & Prism (6 Suits)	3
 melwen	481226	Brown (6 Suits)	3
 melwen	482876	White & Dark Omni (6 Suits)	3
 melwen	483011	White & Dark Omni (6 Suits)	3
@@ -1085,6 +964,7 @@ melwen	483964	White & Dark Omni (6 Suits)	3
 melwen	484462	White-Ones & Brown (6 Suits)	3
 melwen	484941	White & Prism (6 Suits)	3
 melwen	485841	Dark Omni (6 Suits)	3
+melwen	486528	Up or Down & Rainbow (6 Suits)	3
 melwen	487974	Rainbow & Brown (6 Suits)	3
 melwen	488559	White & Dark Prism (5 Suits)	3
 melwen	488763	Rainbow & Dark Brown (6 Suits)	3
@@ -1131,7 +1011,6 @@ melwen	514381	Dual-Color & Rainbow (6 Suits)	3
 melwen	514513	Brown & Dark Prism (6 Suits)	3
 melwen	514930	Black & Brown (5 Suits)	3
 melwen	516352	Brown & Omni (6 Suits)	3
-melwen	516783	Up or Down (6 Suits)	3
 melwen	517834	Pink-Ones & Pink (5 Suits)	3
 melwen	518106	Black & Gray Pink (6 Suits)	3
 melwen	518628	Pink-Ones & White (6 Suits)	3
@@ -1141,11 +1020,11 @@ melwen	518868	Rainbow-Fives & Dark Brown (6 Suits)	3
 melwen	519213	Rainbow-Ones & Prism (6 Suits)	3
 melwen	520097	Brown & Omni (6 Suits)	3
 melwen	520717	Brown & Muddy Rainbow (5 Suits)	3
+melwen	520755	Up or Down (6 Suits)	3
+melwen	520810	Up or Down (6 Suits)	3
 melwen	521503	Gray (5 Suits)	3
 melwen	521704	Rainbow & Omni (6 Suits)	3
-melwen	522041	Up or Down & Prism (6 Suits)	3
 melwen	522057	Rainbow-Ones & Pink (6 Suits)	3
-melwen	522949	Up or Down & Rainbow (6 Suits)	3
 melwen	522959	Dual-Color & Muddy Rainbow (6 Suits)	3
 melwen	522970	Dual-Color & Muddy Rainbow (6 Suits)	3
 melwen	523408	Muddy Rainbow & Light Pink (6 Suits)	3
@@ -1153,14 +1032,12 @@ melwen	523461	Muddy Rainbow & Light Pink (6 Suits)	3
 melwen	523591	Muddy Rainbow & Light Pink (6 Suits)	3
 melwen	524059	Alternating Clues (5 Suits)	3
 melwen	524583	Gray (5 Suits)	3
-melwen	524822	Up or Down (6 Suits)	3
 melwen	525213	Pink-Ones & Pink (6 Suits)	3
 melwen	525301	Rainbow-Ones & Prism (6 Suits)	3
 melwen	525900	Light-Pink-Ones & Prism (6 Suits)	3
 melwen	526912	Muddy Rainbow & Dark Prism (6 Suits)	3
 melwen	526951	Up or Down & Muddy Rainbow (6 Suits)	3
 melwen	526983	Clue Starved (6 Suits)	3
-melwen	529361	Up or Down & Prism (6 Suits)	3
 melwen	530738	Brown (6 Suits)	3
 melwen	530775	Dual-Color & White (6 Suits)	3
 melwen	530823	Dual-Color & Rainbow (4 Suits)	3
@@ -1170,7 +1047,6 @@ melwen	534044	Rainbow-Fives & Dark Brown (6 Suits)	3
 melwen	534609	Ambiguous & Dual-Color	3
 melwen	536373	Omni & Light Pink (6 Suits)	3
 melwen	536481	Black & Null (6 Suits)	3
-melwen	536510	Up or Down (6 Suits)	3
 melwen	536797	White & Brown (6 Suits)	3
 melwen	536950	Omni & Gray Pink (6 Suits)	3
 melwen	537659	Dual-Color & Brown (6 Suits)	3
@@ -1179,13 +1055,13 @@ melwen	538664	Pink-Ones & Muddy Rainbow (6 Suits)	3
 melwen	540973	Clue Starved & Light Pink (6 Suits)	3
 melwen	540993	Dual-Color & Gray Pink (6 Suits)	3
 melwen	541265	Omni & Dark Prism (6 Suits)	3
-melwen	544451	Up or Down & Pink (6 Suits)	3
 melwen	546085	Rainbow-Ones & Prism (6 Suits)	3
 melwen	546663	Prism & Cocoa Rainbow (5 Suits)	3
 melwen	550351	Cow & Pig (6 Suits)	3
 melwen	550386	Cow & Pig (6 Suits)	3
 melwen	551813	Null-Ones (6 Suits)	3
 melwen	556115	Light Pink & Cocoa Rainbow (6 Suits)	3
+melwen	558498	Up or Down & Muddy Rainbow (5 Suits)	3
 melwen	559942	Omni & Dark Brown (5 Suits)	3
 melwen	559984	Light Pink & Cocoa Rainbow (6 Suits)	3
 melwen	561304	Omni & Light Pink (6 Suits)	3
@@ -1203,7 +1079,6 @@ melwen	583798	Dual-Color & Muddy Rainbow (6 Suits)	3
 melwen	585660	Dual-Color & Dark Omni (6 Suits)	3
 melwen	586188	Muddy-Rainbow-Fives & Rainbow (6 Suits)	3
 melwen	586838	Omni & Dark Brown (5 Suits)	3
-melwen	590224	Up or Down & Prism (6 Suits)	3
 melwen	592676	Brown-Ones & Gray (5 Suits)	3
 melwen	593326	Deceptive-Ones & Brown (6 Suits)	3
 melwen	593923	Light Pink & Dark Brown (6 Suits)	3
@@ -1257,12 +1132,8 @@ melwen	670733	Prism Reversed (6 Suits)	3
 melwen	671054	Prism Reversed (6 Suits)	3
 melwen	672068	No Variant	3
 melwen	672083	No Variant	3
-melwen	672199	Up or Down & Brown (6 Suits)	3
-melwen	672333	Up or Down & Brown (6 Suits)	3
+melwen	672343	Up or Down & Brown (6 Suits)	3
 melwen	673233	Muddy-Rainbow-Ones & White (6 Suits)	3
-melwen	673843	Up or Down & Brown (6 Suits)	3
-melwen	675147	Up or Down & Brown (6 Suits)	3
-melwen	675154	Up or Down & Brown (6 Suits)	3
 melwen	677822	Rainbow-Fives (4 Suits)	3
 melwen	677865	Rainbow-Ones & White (6 Suits)	3
 melwen	678504	Synesthesia (6 Suits)	3
@@ -1294,6 +1165,7 @@ melwen	701086	Critical Fours (6 Suits)	3
 melwen	701145	Critical Fours (6 Suits)	3
 melwen	701173	Rainbow-Ones & Prism (6 Suits)	3
 melwen	702730	Brown-Fives & Prism (6 Suits)	3
+melwen	702764	Up or Down & Null (5 Suits)	3
 melwen	704288	Pink-Ones & Gray (6 Suits)	3
 melwen	704344	Brown-Fives & Prism (6 Suits)	3
 melwen	706629	Brown & Dark Rainbow (6 Suits)	3
@@ -1417,12 +1289,14 @@ melwen	143973	6 Suits	2
 melwen	145202	6 Suits	2
 melwen	145753	No Variant	2
 melwen	146447	6 Suits	2
-melwen	146542	Up or Down (5 Suits)	2
 melwen	146875	6 Suits	2
 melwen	147222	6 Suits	2
 melwen	147243	6 Suits	2
+melwen	148158	Up or Down (5 Suits)	2
+melwen	148210	Up or Down (5 Suits)	2
 melwen	148264	6 Suits	2
 melwen	148311	6 Suits	2
+melwen	148433	Up or Down (5 Suits)	2
 melwen	148882	No Variant	2
 melwen	148927	No Variant	2
 melwen	148952	No Variant	2
@@ -1434,24 +1308,22 @@ melwen	150073	6 Suits	2
 melwen	150664	6 Suits	2
 melwen	150761	Up or Down (5 Suits)	2
 melwen	151809	Up or Down (5 Suits)	2
-melwen	152207	Up or Down (6 Suits)	2
+melwen	152158	Up or Down (6 Suits)	2
+melwen	152171	Up or Down (6 Suits)	2
+melwen	152190	Up or Down (6 Suits)	2
+melwen	152223	Up or Down (6 Suits)	2
+melwen	152330	Up or Down (5 Suits)	2
 melwen	152394	Up or Down (5 Suits)	2
-melwen	152426	Up or Down (5 Suits)	2
 melwen	154714	4 Suits	2
 melwen	154842	4 Suits	2
-melwen	154947	Up or Down (5 Suits)	2
+melwen	154914	Up or Down (5 Suits)	2
 melwen	155119	Rainbow & Muddy Rainbow (6 Suits)	2
 melwen	155945	3 Suits	2
-melwen	156189	Up or Down (5 Suits)	2
-melwen	156247	Up or Down (5 Suits)	2
-melwen	156265	Up or Down (5 Suits)	2
+melwen	156221	Up or Down (5 Suits)	2
 melwen	156333	Up or Down (5 Suits)	2
 melwen	156398	No Variant	2
 melwen	156609	Brown (5 Suits)	2
-melwen	157349	Up or Down (5 Suits)	2
-melwen	157419	Up or Down (5 Suits)	2
-melwen	157647	Up or Down (5 Suits)	2
-melwen	160368	Up or Down (5 Suits)	2
+melwen	157618	Up or Down (5 Suits)	2
 melwen	160519	Dual-Color (5 Suits)	2
 melwen	160554	Dual-Color (5 Suits)	2
 melwen	160590	Black (5 Suits)	2
@@ -1465,15 +1337,19 @@ melwen	163529	Black (5 Suits)	2
 melwen	163544	Black (5 Suits)	2
 melwen	163664	White-Ones & Brown (6 Suits)	2
 melwen	163798	Black (6 Suits)	2
+melwen	163857	Up or Down (5 Suits)	2
 melwen	164264	No Variant	2
 melwen	164279	Brown-Fives (5 Suits)	2
 melwen	164339	No Variant	2
 melwen	164351	No Variant	2
 melwen	164510	Black (5 Suits)	2
+melwen	164726	Up or Down (5 Suits)	2
+melwen	164739	Up or Down (5 Suits)	2
 melwen	165029	Black & White (6 Suits)	2
 melwen	165117	Black & White (6 Suits)	2
 melwen	165776	No Variant	2
-melwen	165888	Up or Down (5 Suits)	2
+melwen	165945	Up or Down (5 Suits)	2
+melwen	165970	Up or Down (5 Suits)	2
 melwen	166085	Rainbow-Ones & White (5 Suits)	2
 melwen	166102	Rainbow-Ones & Pink (3 Suits)	2
 melwen	166197	White & Gray Pink (5 Suits)	2
@@ -1484,8 +1360,7 @@ melwen	168433	White (5 Suits)	2
 melwen	170329	White (5 Suits)	2
 melwen	170400	Brown (5 Suits)	2
 melwen	171119	White (5 Suits)	2
-melwen	171860	Up or Down (5 Suits)	2
-melwen	171919	Up or Down (5 Suits)	2
+melwen	171889	Up or Down (5 Suits)	2
 melwen	173111	Up or Down (5 Suits)	2
 melwen	173278	6 Suits	2
 melwen	173305	6 Suits	2
@@ -1493,8 +1368,11 @@ melwen	173692	Rainbow & Cocoa Rainbow (5 Suits)	2
 melwen	174204	Rainbow (5 Suits)	2
 melwen	174369	Black (5 Suits)	2
 melwen	174634	No Variant	2
+melwen	175798	Up or Down (6 Suits)	2
 melwen	176072	Up or Down (6 Suits)	2
+melwen	176189	Up or Down (6 Suits)	2
 melwen	176217	Up or Down (6 Suits)	2
+melwen	176266	Up or Down (6 Suits)	2
 melwen	176667	Rainbow (6 Suits)	2
 melwen	177315	Rainbow (5 Suits)	2
 melwen	177365	Omni-Fives & White (6 Suits)	2
@@ -1504,18 +1382,18 @@ melwen	179349	Null-Ones & Pink (5 Suits)	2
 melwen	179406	Ambiguous (6 Suits)	2
 melwen	179724	Black (5 Suits)	2
 melwen	179740	Black (5 Suits)	2
-melwen	179984	Up or Down (5 Suits)	2
-melwen	180200	Up or Down (5 Suits)	2
-melwen	180239	Up or Down (5 Suits)	2
+melwen	180042	Up or Down (5 Suits)	2
+melwen	180117	Up or Down (5 Suits)	2
 melwen	180370	Rainbow (5 Suits)	2
 melwen	180684	Rainbow (5 Suits)	2
 melwen	181696	Light Pink & Gray (6 Suits)	2
 melwen	182112	Dark Omni (6 Suits)	2
+melwen	182789	Up or Down (5 Suits)	2
+melwen	182858	Up or Down (5 Suits)	2
 melwen	183152	White-Ones & Black (6 Suits)	2
 melwen	185246	Black & Rainbow (5 Suits)	2
 melwen	185662	4 Suits	2
-melwen	186258	Up or Down (5 Suits)	2
-melwen	186618	Up or Down (5 Suits)	2
+melwen	186569	Up or Down (5 Suits)	2
 melwen	186674	Rainbow (5 Suits)	2
 melwen	186755	Black & Rainbow (5 Suits)	2
 melwen	187096	White-Ones & Omni (5 Suits)	2
@@ -1524,11 +1402,8 @@ melwen	187235	White-Ones & Omni (5 Suits)	2
 melwen	187805	Black & Rainbow (5 Suits)	2
 melwen	189941	Brown (6 Suits)	2
 melwen	190028	Brown (6 Suits)	2
-melwen	190589	Up or Down (5 Suits)	2
-melwen	190627	Up or Down (5 Suits)	2
 melwen	191486	No Variant	2
 melwen	191497	No Variant	2
-melwen	191723	Up or Down (5 Suits)	2
 melwen	191767	Black (5 Suits)	2
 melwen	191788	Black (5 Suits)	2
 melwen	191843	No Variant	2
@@ -1565,7 +1440,6 @@ melwen	202182	Black & Gray (6 Suits)	2
 melwen	202563	Rainbow-Fives & Black (6 Suits)	2
 melwen	202632	Up or Down (5 Suits)	2
 melwen	202654	Up or Down (5 Suits)	2
-melwen	202682	Up or Down (5 Suits)	2
 melwen	203711	Black & Muddy Rainbow (5 Suits)	2
 melwen	205165	No Variant	2
 melwen	206331	No Variant	2
@@ -1575,10 +1449,7 @@ melwen	207763	White (5 Suits)	2
 melwen	208050	No Variant	2
 melwen	208195	Rainbow & Gray (5 Suits)	2
 melwen	208329	Rainbow & Gray (5 Suits)	2
-melwen	208782	Up or Down (5 Suits)	2
 melwen	208809	Up or Down (5 Suits)	2
-melwen	208836	Up or Down (5 Suits)	2
-melwen	208905	Up or Down (5 Suits)	2
 melwen	210091	Black Reversed (5 Suits)	2
 melwen	210578	No Variant	2
 melwen	210833	Black Reversed (5 Suits)	2
@@ -1587,7 +1458,6 @@ melwen	211020	Pink & Gray (6 Suits)	2
 melwen	211641	Null-Ones & Rainbow (6 Suits)	2
 melwen	211719	Omni-Ones & Rainbow (5 Suits)	2
 melwen	211804	Omni-Ones & Rainbow (5 Suits)	2
-melwen	214292	Up or Down (5 Suits)	2
 melwen	214347	Up or Down (5 Suits)	2
 melwen	214547	Special Mix (5 Suits)	2
 melwen	214575	Special Mix (5 Suits)	2
@@ -1611,51 +1481,51 @@ melwen	222749	Dark Brown (6 Suits)	2
 melwen	222837	Up or Down & White (6 Suits)	2
 melwen	223188	Rainbow (5 Suits)	2
 melwen	223742	Rainbow & Null (5 Suits)	2
+melwen	224697	Up or Down (6 Suits)	2
 melwen	224925	Ambiguous & Null (5 Suits)	2
 melwen	225033	Special Mix (5 Suits)	2
 melwen	225535	Black (6 Suits)	2
 melwen	226089	Dark Omni (6 Suits)	2
 melwen	226594	Brown (5 Suits)	2
 melwen	226637	Dual-Color & Pink (6 Suits)	2
+melwen	226647	Up or Down (5 Suits)	2
 melwen	226665	No Variant	2
 melwen	226970	Black & White (6 Suits)	2
 melwen	227064	No Variant	2
+melwen	227343	Up or Down & White (5 Suits)	2
 melwen	227540	White-Ones & Pink (5 Suits)	2
 melwen	228521	Special Mix (5 Suits)	2
 melwen	228806	Special Mix (5 Suits)	2
-melwen	229160	Up or Down (5 Suits)	2
-melwen	229200	Up or Down (5 Suits)	2
 melwen	229266	Rainbow (5 Suits)	2
-melwen	229413	Up or Down (6 Suits)	2
 melwen	229661	Rainbow & Brown (5 Suits)	2
 melwen	230157	Up or Down (6 Suits)	2
-melwen	230172	Up or Down (6 Suits)	2
+melwen	230196	Up or Down (6 Suits)	2
+melwen	230230	Up or Down (6 Suits)	2
 melwen	230353	No Variant	2
 melwen	230379	Pink (5 Suits)	2
 melwen	230623	Special Mix (5 Suits)	2
 melwen	231164	No Variant	2
+melwen	231169	Up or Down (5 Suits)	2
 melwen	231666	Rainbow & Gray Pink (6 Suits)	2
 melwen	232290	No Variant	2
 melwen	232326	Muddy Rainbow (5 Suits)	2
 melwen	232746	Clue Starved (6 Suits)	2
 melwen	232890	Clue Starved (5 Suits)	2
+melwen	233058	Up or Down (5 Suits)	2
+melwen	233207	Up or Down (6 Suits)	2
 melwen	233772	Gray Pink (5 Suits)	2
 melwen	234168	Pink (6 Suits)	2
 melwen	234741	No Variant	2
 melwen	235160	No Variant	2
-melwen	235218	Up or Down (5 Suits)	2
 melwen	235238	Up or Down (5 Suits)	2
 melwen	235554	Clue Starved (6 Suits)	2
-melwen	235741	Up or Down (5 Suits)	2
+melwen	235878	Up or Down (5 Suits)	2
+melwen	236293	Up or Down (5 Suits)	2
 melwen	236533	Up or Down (5 Suits)	2
-melwen	236647	Up or Down (5 Suits)	2
 melwen	236711	Rainbow-Fives & White (6 Suits)	2
 melwen	236964	No Variant	2
-melwen	237411	Up or Down (5 Suits)	2
 melwen	237428	Up or Down (5 Suits)	2
-melwen	237440	Up or Down (5 Suits)	2
 melwen	237510	Dual-Color & Rainbow (6 Suits)	2
-melwen	237597	Up or Down (5 Suits)	2
 melwen	237700	Black & Cocoa Rainbow (6 Suits)	2
 melwen	238700	Pink-Ones & Black (5 Suits)	2
 melwen	238726	Pink-Ones & Black (5 Suits)	2
@@ -1721,20 +1591,16 @@ melwen	269387	Rainbow & Light Pink (4 Suits)	2
 melwen	269407	Rainbow & Light Pink (4 Suits)	2
 melwen	269482	Rainbow & Light Pink (5 Suits)	2
 melwen	269842	Gray (6 Suits)	2
-melwen	270160	Up or Down & Brown (6 Suits)	2
+melwen	270131	Up or Down & Brown (6 Suits)	2
 melwen	270187	Pink (6 Suits)	2
 melwen	270222	Pink (4 Suits)	2
 melwen	271149	Muddy-Rainbow-Ones & Dark Pink (6 Suits)	2
 melwen	272675	Dark Brown (5 Suits)	2
 melwen	272993	Muddy-Rainbow-Fives & White (6 Suits)	2
 melwen	273036	White-Fives & Pink (5 Suits)	2
-melwen	273425	Up or Down (5 Suits)	2
 melwen	273606	Up or Down (5 Suits)	2
 melwen	273635	Dark Brown (5 Suits)	2
-melwen	275209	Up or Down (5 Suits)	2
-melwen	275228	Up or Down (5 Suits)	2
-melwen	275286	Up or Down (5 Suits)	2
-melwen	276428	Up or Down (5 Suits)	2
+melwen	275176	Up or Down (5 Suits)	2
 melwen	277014	Muddy Rainbow (5 Suits)	2
 melwen	277498	Null (5 Suits)	2
 melwen	279326	Rainbow-Fives & Pink (4 Suits)	2
@@ -1745,12 +1611,12 @@ melwen	281537	Cow & Pig (5 Suits)	2
 melwen	281565	Cow & Pig (5 Suits)	2
 melwen	281801	Prism (5 Suits)	2
 melwen	281894	Prism (6 Suits)	2
-melwen	282225	Up or Down & Prism (6 Suits)	2
 melwen	282308	Special Mix (5 Suits)	2
 melwen	282342	Special Mix (5 Suits)	2
 melwen	282401	Special Mix (5 Suits)	2
 melwen	282641	Dark Prism (6 Suits)	2
 melwen	282718	Prism (5 Suits)	2
+melwen	283128	Up or Down & Prism (5 Suits)	2
 melwen	283279	Prism (5 Suits)	2
 melwen	284202	Pink & Prism (6 Suits)	2
 melwen	284698	Light Pink (6 Suits)	2
@@ -1767,25 +1633,22 @@ melwen	287691	Prism Reversed (5 Suits)	2
 melwen	287818	Rainbow-Ones & Dark Omni (6 Suits)	2
 melwen	288373	Pink (4 Suits)	2
 melwen	288397	Pink (6 Suits)	2
-melwen	288810	Up or Down & Prism (6 Suits)	2
 melwen	288822	Up or Down & Prism (6 Suits)	2
 melwen	288892	Special Mix (5 Suits)	2
 melwen	289389	Clue Starved (6 Suits)	2
 melwen	289853	No Variant	2
 melwen	290757	Prism (5 Suits)	2
-melwen	291156	Up or Down & Pink (6 Suits)	2
-melwen	291690	Up or Down & Brown (6 Suits)	2
+melwen	291677	Up or Down & Brown (6 Suits)	2
 melwen	292184	Rainbow-Ones & Brown (5 Suits)	2
 melwen	293698	Up or Down & Muddy Rainbow (5 Suits)	2
+melwen	293727	Up or Down & Muddy Rainbow (5 Suits)	2
 melwen	294487	Rainbow & Light Pink (6 Suits)	2
 melwen	294511	Rainbow & Light Pink (5 Suits)	2
 melwen	295034	Rainbow & Prism (6 Suits)	2
 melwen	296467	Rainbow & Prism (6 Suits)	2
-melwen	296535	Up or Down & Pink (5 Suits)	2
 melwen	297264	Prism (6 Suits)	2
 melwen	297463	No Variant	2
 melwen	297789	Rainbow & Prism (5 Suits)	2
-melwen	297948	Up or Down & White (6 Suits)	2
 melwen	298636	Special Mix (5 Suits)	2
 melwen	298658	Special Mix (5 Suits)	2
 melwen	300087	Gray (6 Suits)	2
@@ -1885,6 +1748,7 @@ melwen	329676	Omni (6 Suits)	2
 melwen	330261	Dark Omni (6 Suits)	2
 melwen	330282	Dark Omni (5 Suits)	2
 melwen	330783	Dark Prism (5 Suits)	2
+melwen	332465	Up or Down & Rainbow (6 Suits)	2
 melwen	332746	White & Prism (6 Suits)	2
 melwen	333081	Rainbow & Prism (5 Suits)	2
 melwen	333196	Rainbow & Light Pink (6 Suits)	2
@@ -1894,24 +1758,22 @@ melwen	334230	Rainbow & Prism (4 Suits)	2
 melwen	334536	Prism (6 Suits)	2
 melwen	335212	Prism & Dark Rainbow (6 Suits)	2
 melwen	335251	Rainbow & Light Pink (3 Suits)	2
-melwen	335371	Up or Down & Pink (6 Suits)	2
 melwen	335476	Rainbow (5 Suits)	2
 melwen	335500	Rainbow (5 Suits)	2
+melwen	336198	Up or Down & Pink (6 Suits)	2
 melwen	336399	Rainbow & Pink (6 Suits)	2
 melwen	336406	Rainbow & Pink (6 Suits)	2
-melwen	336467	Up or Down & Brown (6 Suits)	2
+melwen	336521	Up or Down & Brown (6 Suits)	2
 melwen	336604	Ambiguous & Rainbow (5 Suits)	2
 melwen	336821	Prism (6 Suits)	2
 melwen	336842	Prism (6 Suits)	2
 melwen	336853	Prism (6 Suits)	2
 melwen	337077	Rainbow & Light Pink (4 Suits)	2
 melwen	337089	Rainbow & Light Pink (4 Suits)	2
-melwen	337569	Up or Down & Light Pink (5 Suits)	2
-melwen	337757	Up or Down & Light Pink (5 Suits)	2
+melwen	337582	Up or Down & Light Pink (5 Suits)	2
 melwen	337937	Muddy Rainbow & Dark Prism (6 Suits)	2
 melwen	338302	Prism (5 Suits)	2
 melwen	339123	Dark Rainbow (6 Suits)	2
-melwen	339506	Up or Down & Rainbow (6 Suits)	2
 melwen	339530	Clue Starved & White (5 Suits)	2
 melwen	339571	Cocoa Rainbow (6 Suits)	2
 melwen	339586	Cocoa Rainbow (5 Suits)	2
@@ -1928,7 +1790,8 @@ melwen	341977	Extremely Ambiguous (5 Suits)	2
 melwen	342236	Dark Omni (6 Suits)	2
 melwen	342367	Rainbow & Dark Pink (5 Suits)	2
 melwen	342400	Dark Omni (6 Suits)	2
-melwen	342487	Up or Down & Rainbow (6 Suits)	2
+melwen	342472	Up or Down & White (6 Suits)	2
+melwen	342514	Up or Down & Rainbow (6 Suits)	2
 melwen	343306	Rainbow-Ones & Light Pink (5 Suits)	2
 melwen	343752	Pink & Brown (6 Suits)	2
 melwen	343797	Pink & Omni (5 Suits)	2
@@ -1964,7 +1827,6 @@ melwen	353454	White & Omni (5 Suits)	2
 melwen	353465	Dark Rainbow (6 Suits)	2
 melwen	353839	Pink & Brown (6 Suits)	2
 melwen	354364	Dual-Color (6 Suits)	2
-melwen	354723	Up or Down & Omni (5 Suits)	2
 melwen	355058	Rainbow & Dark Pink (6 Suits)	2
 melwen	355064	Rainbow & Dark Pink (6 Suits)	2
 melwen	355144	Cocoa Rainbow (5 Suits)	2
@@ -2011,7 +1873,6 @@ melwen	371118	Special Mix (5 Suits)	2
 melwen	372181	Rainbow & Muddy Rainbow (6 Suits)	2
 melwen	373176	Dark Null (5 Suits)	2
 melwen	373622	Rainbow & Brown (4 Suits)	2
-melwen	373757	Up or Down & Pink (5 Suits)	2
 melwen	373788	No Variant	2
 melwen	373792	No Variant	2
 melwen	373921	Black & Brown (5 Suits)	2
@@ -2046,6 +1907,7 @@ melwen	398010	Black & Omni (5 Suits)	2
 melwen	398482	Black & Dark Brown (6 Suits)	2
 melwen	399364	Black & Omni (5 Suits)	2
 melwen	399695	Up or Down & Rainbow (6 Suits)	2
+melwen	399721	Up or Down & Omni (5 Suits)	2
 melwen	400436	Black & Omni (5 Suits)	2
 melwen	400460	Black & Omni (5 Suits)	2
 melwen	400711	Brown & Null (6 Suits)	2
@@ -2063,6 +1925,7 @@ melwen	408105	Pink & Brown (5 Suits)	2
 melwen	408311	Black & White (6 Suits)	2
 melwen	408665	Rainbow-Ones & Prism (5 Suits)	2
 melwen	409071	Special Mix (5 Suits)	2
+melwen	409152	Up or Down & Muddy Rainbow (5 Suits)	2
 melwen	410089	Dual-Color Mix	2
 melwen	410129	Dual-Color Mix	2
 melwen	410228	Brown & Muddy Rainbow (5 Suits)	2
@@ -2132,25 +1995,30 @@ melwen	436211	Ambiguous (6 Suits)	2
 melwen	436244	Ambiguous (6 Suits)	2
 melwen	437399	Brown & Prism (5 Suits)	2
 melwen	438026	Light Pink & Dark Prism (5 Suits)	2
+melwen	439122	Up or Down & Brown (6 Suits)	2
+melwen	439324	Up or Down & Rainbow (6 Suits)	2
+melwen	439414	Up or Down & Rainbow (6 Suits)	2
 melwen	439838	Rainbow & Dark Pink (5 Suits)	2
 melwen	440868	Pink & Gray Pink (6 Suits)	2
 melwen	441141	Muddy Rainbow & Dark Brown (5 Suits)	2
 melwen	442104	Omni & Null (5 Suits)	2
+melwen	443176	Up or Down & Brown (6 Suits)	2
 melwen	445029	White & Cocoa Rainbow (5 Suits)	2
 melwen	445441	Pink & Gray (5 Suits)	2
 melwen	445684	Muddy Rainbow & Dark Brown (6 Suits)	2
 melwen	446135	Pink & Dark Prism (5 Suits)	2
-melwen	447038	Up or Down & Light Pink (6 Suits)	2
 melwen	447192	Cocoa Rainbow (6 Suits)	2
 melwen	448910	Up or Down & Pink (5 Suits)	2
+melwen	448967	Up or Down & Muddy Rainbow (5 Suits)	2
 melwen	449368	Cocoa Rainbow (6 Suits)	2
 melwen	449578	Dark Brown (6 Suits)	2
 melwen	449874	Muddy Rainbow & Prism (6 Suits)	2
-melwen	450466	Up or Down & Omni (6 Suits)	2
-melwen	450492	Up or Down & Omni (6 Suits)	2
+melwen	450308	Up or Down & Omni (6 Suits)	2
+melwen	450332	Up or Down & Omni (6 Suits)	2
 melwen	451082	Dark Null (5 Suits)	2
 melwen	451217	Prism (5 Suits)	2
 melwen	451375	White (6 Suits)	2
+melwen	451549	Up or Down & Omni (6 Suits)	2
 melwen	451706	Up or Down & Pink (6 Suits)	2
 melwen	451960	Prism (5 Suits)	2
 melwen	452733	Pink & Light Pink (5 Suits)	2
@@ -2208,6 +2076,7 @@ melwen	470401	Rainbow & Gray (5 Suits)	2
 melwen	472140	White & Gray Pink (6 Suits)	2
 melwen	472236	Dual-Color & Light Pink (6 Suits)	2
 melwen	472763	Pink & Prism (6 Suits)	2
+melwen	473047	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	473468	White & Dark Omni (5 Suits)	2
 melwen	473477	Special Mix (5 Suits)	2
 melwen	474097	White & Dark Pink (6 Suits)	2
@@ -2226,8 +2095,9 @@ melwen	479437	Dark Prism Reversed (6 Suits)	2
 melwen	479593	Dual-Color & Pink (6 Suits)	2
 melwen	479672	Muddy Rainbow & Gray Pink (6 Suits)	2
 melwen	480010	White & Dark Rainbow (6 Suits)	2
+melwen	480455	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	480695	Up or Down & Muddy Rainbow (6 Suits)	2
-melwen	480767	Up or Down & Muddy Rainbow (6 Suits)	2
+melwen	480727	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	480790	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	480805	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	480825	Rainbow & Dark Omni (6 Suits)	2
@@ -2249,7 +2119,6 @@ melwen	485892	Rainbow & Omni (5 Suits)	2
 melwen	485982	Dual-Color & Prism (6 Suits)	2
 melwen	486143	Dual-Color & Prism (6 Suits)	2
 melwen	486336	White & Omni (6 Suits)	2
-melwen	486448	Up or Down & Omni (5 Suits)	2
 melwen	486505	Up or Down & Omni (5 Suits)	2
 melwen	486893	Omni-Ones & Pink (6 Suits)	2
 melwen	487082	Black & Omni (6 Suits)	2
@@ -2341,7 +2210,6 @@ melwen	509316	Black & Gray (6 Suits)	2
 melwen	509329	Rainbow & Dark Brown (6 Suits)	2
 melwen	509564	White-Ones & Omni (5 Suits)	2
 melwen	509655	Rainbow & Light Pink (6 Suits)	2
-melwen	509672	Up or Down (6 Suits)	2
 melwen	510266	Prism & Dark Omni (6 Suits)	2
 melwen	510720	Dark Prism Reversed (6 Suits)	2
 melwen	511302	White & Cocoa Rainbow (6 Suits)	2
@@ -2389,16 +2257,21 @@ melwen	519853	Clue Starved & Rainbow (6 Suits)	2
 melwen	520024	Omni & Gray Pink (6 Suits)	2
 melwen	520145	Pink-Fives (6 Suits)	2
 melwen	520675	White-Ones & Muddy Rainbow (5 Suits)	2
+melwen	520935	Up or Down & Prism (6 Suits)	2
 melwen	521393	Brown-Ones & White (6 Suits)	2
 melwen	521589	Gray (5 Suits)	2
 melwen	521844	Pink-Ones (6 Suits)	2
 melwen	522028	Brown & Muddy Rainbow (6 Suits)	2
+melwen	522041	Up or Down & Prism (6 Suits)	2
+melwen	522046	Up or Down & Prism (6 Suits)	2
 melwen	522653	Brown-Ones & Brown (6 Suits)	2
 melwen	522762	Brown-Ones & Prism (6 Suits)	2
 melwen	522802	White-Ones & Brown (6 Suits)	2
 melwen	522834	Rainbow-Ones & Light Pink (6 Suits)	2
+melwen	522949	Up or Down & Rainbow (6 Suits)	2
 melwen	522960	Dual-Color & Muddy Rainbow (6 Suits)	2
 melwen	523282	Up or Down & Brown (6 Suits)	2
+melwen	523330	Up or Down & Omni (6 Suits)	2
 melwen	523507	Muddy Rainbow & Light Pink (6 Suits)	2
 melwen	523693	Null (6 Suits)	2
 melwen	524057	Alternating Clues (5 Suits)	2
@@ -2408,19 +2281,15 @@ melwen	524768	Rainbow-Fives (4 Suits)	2
 melwen	524857	Up or Down (6 Suits)	2
 melwen	525263	Gray (5 Suits)	2
 melwen	525895	Brown-Ones & Prism (6 Suits)	2
-melwen	526972	Up or Down & Muddy Rainbow (6 Suits)	2
 melwen	527332	Omni & Light Pink (5 Suits)	2
 melwen	528053	Rainbow & Cocoa Rainbow (6 Suits)	2
 melwen	528128	Prism & Dark Rainbow (6 Suits)	2
 melwen	529282	Light Pink & Dark Omni (6 Suits)	2
+melwen	529361	Up or Down & Prism (6 Suits)	2
 melwen	530763	Brown & Dark Rainbow (6 Suits)	2
-melwen	530799	Up or Down & Pink (6 Suits)	2
 melwen	531549	Light-Pink-Fives & Black (5 Suits)	2
-melwen	531575	Up or Down & Rainbow (6 Suits)	2
 melwen	532749	Light-Pink-Ones & Dark Brown (6 Suits)	2
-melwen	533725	Up or Down & White (6 Suits)	2
 melwen	533963	Light Pink & Dark Omni (6 Suits)	2
-melwen	534457	Up or Down & Prism (6 Suits)	2
 melwen	534805	Rainbow-Ones & Prism (6 Suits)	2
 melwen	536397	Omni & Light Pink (6 Suits)	2
 melwen	536581	Deceptive-Fives & Brown (6 Suits)	2
@@ -2462,7 +2331,6 @@ melwen	556412	Rainbow (5 Suits)	2
 melwen	559958	Omni & Dark Brown (5 Suits)	2
 melwen	560285	Dual-Color & Muddy Rainbow (6 Suits)	2
 melwen	561311	Omni & Light Pink (6 Suits)	2
-melwen	562228	Up or Down & Prism (6 Suits)	2
 melwen	562397	Brown & Dark Prism (6 Suits)	2
 melwen	563937	Rainbow (5 Suits)	2
 melwen	564126	No Variant	2
@@ -2497,7 +2365,7 @@ melwen	588006	Pink & Null (6 Suits)	2
 melwen	588146	Brown-Fives & Prism (6 Suits)	2
 melwen	588713	Omni & Dark Brown (6 Suits)	2
 melwen	590206	Brown-Ones & Dark Pink (6 Suits)	2
-melwen	590239	Up or Down & Prism (6 Suits)	2
+melwen	590224	Up or Down & Prism (6 Suits)	2
 melwen	590444	Rainbow-Fives & Prism (6 Suits)	2
 melwen	591008	Rainbow-Ones & Light Pink (6 Suits)	2
 melwen	591359	Pink-Fives & Gray (6 Suits)	2
@@ -2599,10 +2467,10 @@ melwen	669554	Prism Reversed (6 Suits)	2
 melwen	669576	White & Brown (6 Suits)	2
 melwen	670742	Prism Reversed (6 Suits)	2
 melwen	670981	Null & Light Pink (6 Suits)	2
-melwen	672265	Up or Down & Brown (6 Suits)	2
 melwen	673142	Rainbow Reversed (6 Suits)	2
-melwen	673921	Up or Down & Brown (6 Suits)	2
-melwen	675774	Up or Down & Brown (6 Suits)	2
+melwen	673843	Up or Down & Brown (6 Suits)	2
+melwen	675147	Up or Down & Brown (6 Suits)	2
+melwen	675154	Up or Down & Brown (6 Suits)	2
 melwen	676391	Synesthesia (6 Suits)	2
 melwen	677819	Rainbow-Ones & Pink (5 Suits)	2
 melwen	677832	Rainbow-Ones & White (6 Suits)	2
@@ -2657,7 +2525,6 @@ melwen	705109	Brown-Fives & Prism (6 Suits)	2
 melwen	706034	No Variant	2
 melwen	706435	Rainbow & Dark Prism (6 Suits)	2
 melwen	707053	White-Ones & Muddy Rainbow (6 Suits)	2
-melwen	707879	Up or Down & Light Pink (6 Suits)	2
 melwen	707890	White-Ones & Dark Brown (6 Suits)	2
 melwen	708171	Light-Pink-Ones (5 Suits)	2
 melwen	709013	Black & White (6 Suits)	2
@@ -2796,12 +2663,17 @@ melwen	145612	6 Suits	1
 melwen	145632	6 Suits	1
 melwen	145880	Rainbow (5 Suits)	1
 melwen	145959	Pink (5 Suits)	1
-melwen	146413	Up or Down (5 Suits)	1
+melwen	146477	Up or Down (5 Suits)	1
+melwen	146542	Up or Down (5 Suits)	1
+melwen	146633	Up or Down (5 Suits)	1
 melwen	146662	Up or Down (5 Suits)	1
+melwen	147097	Up or Down (6 Suits)	1
 melwen	148098	6 Suits	1
 melwen	148125	Up or Down (5 Suits)	1
-melwen	148181	Up or Down (5 Suits)	1
 melwen	148249	6 Suits	1
+melwen	148416	Up or Down (5 Suits)	1
+melwen	148787	Up or Down (5 Suits)	1
+melwen	148837	Up or Down (5 Suits)	1
 melwen	148905	No Variant	1
 melwen	150035	6 Suits	1
 melwen	150051	6 Suits	1
@@ -2809,6 +2681,7 @@ melwen	150576	6 Suits	1
 melwen	150807	Black (6 Suits)	1
 melwen	150842	Black (6 Suits)	1
 melwen	150866	Black (6 Suits)	1
+melwen	151804	Up or Down (5 Suits)	1
 melwen	152957	3 Suits	1
 melwen	152970	3 Suits	1
 melwen	153262	3 Suits	1
@@ -2824,37 +2697,39 @@ melwen	154443	4 Suits	1
 melwen	154612	4 Suits	1
 melwen	154645	4 Suits	1
 melwen	155034	Black & Muddy Rainbow (6 Suits)	1
+melwen	156189	Up or Down (5 Suits)	1
+melwen	156265	Up or Down (5 Suits)	1
 melwen	156304	No Variant	1
 melwen	156685	Up or Down (5 Suits)	1
-melwen	157307	Up or Down (5 Suits)	1
-melwen	157528	Up or Down (5 Suits)	1
-melwen	157592	Up or Down (5 Suits)	1
+melwen	156740	Up or Down (5 Suits)	1
+melwen	157349	Up or Down (5 Suits)	1
+melwen	157419	Up or Down (5 Suits)	1
+melwen	157647	Up or Down (5 Suits)	1
+melwen	157701	Up or Down (5 Suits)	1
 melwen	158683	White-Ones & Rainbow (5 Suits)	1
 melwen	160315	No Variant	1
+melwen	160368	Up or Down (5 Suits)	1
 melwen	160733	Black (5 Suits)	1
 melwen	160858	Black (5 Suits)	1
 melwen	161851	Black (5 Suits)	1
 melwen	161948	Black (5 Suits)	1
 melwen	161969	Black (5 Suits)	1
-melwen	163099	Up or Down (5 Suits)	1
 melwen	163112	Up or Down (5 Suits)	1
 melwen	163415	Black (5 Suits)	1
 melwen	163439	Black (5 Suits)	1
 melwen	163480	Black (5 Suits)	1
 melwen	163593	Black (5 Suits)	1
 melwen	163713	White-Ones & Brown (6 Suits)	1
-melwen	164307	Up or Down (5 Suits)	1
 melwen	164323	Black (5 Suits)	1
 melwen	164532	Black (5 Suits)	1
 melwen	164618	Black (5 Suits)	1
 melwen	164656	Black (5 Suits)	1
-melwen	164699	Up or Down (5 Suits)	1
 melwen	164837	4 Suits	1
 melwen	164969	Omni-Ones (5 Suits)	1
-melwen	165618	Up or Down (5 Suits)	1
+melwen	165888	Up or Down (5 Suits)	1
 melwen	166038	Light-Pink-Ones & White (6 Suits)	1
 melwen	166417	No Variant	1
-melwen	166974	Up or Down (5 Suits)	1
+melwen	166955	Up or Down (5 Suits)	1
 melwen	166985	Black (5 Suits)	1
 melwen	166995	Black (5 Suits)	1
 melwen	168405	Black (5 Suits)	1
@@ -2866,14 +2741,15 @@ melwen	169402	White-Ones & Brown (6 Suits)	1
 melwen	169463	White-Ones & Brown (6 Suits)	1
 melwen	169539	White-Ones & Brown (6 Suits)	1
 melwen	170585	Up or Down (5 Suits)	1
+melwen	170615	Up or Down (5 Suits)	1
 melwen	170762	Up or Down (5 Suits)	1
 melwen	170921	Black (6 Suits)	1
 melwen	170993	Black (6 Suits)	1
 melwen	171187	Rainbow-Ones & White (5 Suits)	1
-melwen	172005	Up or Down (5 Suits)	1
-melwen	172021	Up or Down (5 Suits)	1
+melwen	171919	Up or Down (5 Suits)	1
+melwen	171954	Up or Down (5 Suits)	1
+melwen	172032	Up or Down (5 Suits)	1
 melwen	172081	Pink (5 Suits)	1
-melwen	173191	Up or Down (5 Suits)	1
 melwen	173262	White & Light Pink (5 Suits)	1
 melwen	173583	Pink (5 Suits)	1
 melwen	174246	Rainbow (5 Suits)	1
@@ -2885,21 +2761,31 @@ melwen	175710	Black (6 Suits)	1
 melwen	175744	Black (6 Suits)	1
 melwen	175763	Black (6 Suits)	1
 melwen	175922	Pink (5 Suits)	1
+melwen	175973	Up or Down (6 Suits)	1
+melwen	176032	Up or Down (6 Suits)	1
+melwen	176117	Up or Down (6 Suits)	1
 melwen	177066	Black (6 Suits)	1
 melwen	177214	Rainbow (5 Suits)	1
 melwen	177417	Omni-Fives & White (6 Suits)	1
 melwen	179312	Null-Ones & Pink (5 Suits)	1
 melwen	179714	Black (5 Suits)	1
-melwen	180225	Up or Down (5 Suits)	1
+melwen	179984	Up or Down (5 Suits)	1
+melwen	180077	Up or Down (5 Suits)	1
+melwen	180155	Up or Down (5 Suits)	1
+melwen	180200	Up or Down (5 Suits)	1
 melwen	180504	Rainbow (5 Suits)	1
 melwen	180574	Rainbow (5 Suits)	1
 melwen	180920	White-Ones & Black (6 Suits)	1
 melwen	181780	White-Ones & White (6 Suits)	1
 melwen	181822	Light Pink & Gray (5 Suits)	1
 melwen	181886	Light Pink (5 Suits)	1
+melwen	181941	Up or Down (5 Suits)	1
 melwen	182702	No Variant	1
-melwen	182907	Up or Down (5 Suits)	1
-melwen	183689	Up or Down (5 Suits)	1
+melwen	182877	Up or Down (5 Suits)	1
+melwen	183642	Up or Down (5 Suits)	1
+melwen	183652	Up or Down (5 Suits)	1
+melwen	183669	Up or Down (5 Suits)	1
+melwen	183678	Up or Down (5 Suits)	1
 melwen	184167	Black & Rainbow (6 Suits)	1
 melwen	185217	Reversed (5 Suits)	1
 melwen	185279	Black (5 Suits)	1
@@ -2910,7 +2796,9 @@ melwen	185416	Black (5 Suits)	1
 melwen	185482	Rainbow (5 Suits)	1
 melwen	185500	Rainbow (5 Suits)	1
 melwen	185567	Rainbow (5 Suits)	1
+melwen	186258	Up or Down (5 Suits)	1
 melwen	186534	Up or Down (5 Suits)	1
+melwen	186618	Up or Down (5 Suits)	1
 melwen	186778	Black & Rainbow (5 Suits)	1
 melwen	186797	White (5 Suits)	1
 melwen	186933	Black & Rainbow (6 Suits)	1
@@ -2921,10 +2809,11 @@ melwen	188378	3 Suits	1
 melwen	189582	Reversed (5 Suits)	1
 melwen	189665	Reversed (5 Suits)	1
 melwen	189860	Brown (5 Suits)	1
-melwen	190571	Up or Down (5 Suits)	1
+melwen	190589	Up or Down (5 Suits)	1
+melwen	190627	Up or Down (5 Suits)	1
 melwen	190806	No Variant	1
 melwen	190874	No Variant	1
-melwen	191683	Up or Down (5 Suits)	1
+melwen	191723	Up or Down (5 Suits)	1
 melwen	191813	No Variant	1
 melwen	191868	No Variant	1
 melwen	191904	Omni-Fives & Rainbow (4 Suits)	1
@@ -2966,12 +2855,12 @@ melwen	205832	Duck (5 Suits)	1
 melwen	205871	Duck (5 Suits)	1
 melwen	206307	Black (6 Suits)	1
 melwen	206348	No Variant	1
-melwen	206408	Up or Down (5 Suits)	1
-melwen	206441	Up or Down (5 Suits)	1
+melwen	206465	Up or Down (5 Suits)	1
 melwen	206728	No Variant	1
 melwen	207714	White (5 Suits)	1
 melwen	207979	No Variant	1
-melwen	208866	Up or Down (5 Suits)	1
+melwen	208782	Up or Down (5 Suits)	1
+melwen	208836	Up or Down (5 Suits)	1
 melwen	209070	Dual-Color & Muddy Rainbow (4 Suits)	1
 melwen	209578	Dual-Color & Muddy Rainbow (4 Suits)	1
 melwen	211352	Omni-Ones & Rainbow (5 Suits)	1
@@ -2985,6 +2874,7 @@ melwen	213674	Special Mix (5 Suits)	1
 melwen	213734	Special Mix (5 Suits)	1
 melwen	213787	Special Mix (5 Suits)	1
 melwen	213841	Special Mix (5 Suits)	1
+melwen	214292	Up or Down (5 Suits)	1
 melwen	214777	Special Mix (5 Suits)	1
 melwen	215107	Rainbow (5 Suits)	1
 melwen	215487	Dual-Color (5 Suits)	1
@@ -3007,7 +2897,6 @@ melwen	220084	Black & Null (5 Suits)	1
 melwen	220118	Black & Null (5 Suits)	1
 melwen	221329	Dark Omni (6 Suits)	1
 melwen	221409	Dark Omni (6 Suits)	1
-melwen	221604	Up or Down (5 Suits)	1
 melwen	221968	Rainbow-Fives & Light Pink (6 Suits)	1
 melwen	222010	Rainbow (6 Suits)	1
 melwen	222560	Pink (6 Suits)	1
@@ -3035,14 +2924,16 @@ melwen	227136	Special Mix (5 Suits)	1
 melwen	227466	Special Mix (5 Suits)	1
 melwen	228391	Rainbow & Null (5 Suits)	1
 melwen	228714	Special Mix (5 Suits)	1
-melwen	229150	Up or Down (5 Suits)	1
+melwen	229160	Up or Down (5 Suits)	1
 melwen	229190	Up or Down (5 Suits)	1
+melwen	229200	Up or Down (5 Suits)	1
+melwen	229413	Up or Down (6 Suits)	1
 melwen	229687	Rainbow & Brown (5 Suits)	1
+melwen	230172	Up or Down (6 Suits)	1
 melwen	230426	Pink & Brown (5 Suits)	1
 melwen	230502	Special Mix (5 Suits)	1
 melwen	230662	Special Mix (5 Suits)	1
 melwen	230826	3 Suits	1
-melwen	231172	Up or Down (5 Suits)	1
 melwen	231762	Rainbow & Gray Pink (6 Suits)	1
 melwen	231822	Rainbow & Gray Pink (6 Suits)	1
 melwen	231965	White & Dark Brown (6 Suits)	1
@@ -3051,6 +2942,7 @@ melwen	232065	Rainbow-Ones & Dark Brown (6 Suits)	1
 melwen	232348	Muddy Rainbow (5 Suits)	1
 melwen	232555	Pink & Brown (5 Suits)	1
 melwen	232613	Pink & Brown (5 Suits)	1
+melwen	233075	Up or Down (5 Suits)	1
 melwen	233822	Gray Pink (5 Suits)	1
 melwen	233865	Light-Pink-Fives & Dark Rainbow (5 Suits)	1
 melwen	234229	Reversed (5 Suits)	1
@@ -3059,11 +2951,17 @@ melwen	234594	Special Mix (5 Suits)	1
 melwen	234621	Special Mix (5 Suits)	1
 melwen	235153	No Variant	1
 melwen	235184	Special Mix (5 Suits)	1
+melwen	235218	Up or Down (5 Suits)	1
 melwen	235263	Up or Down (5 Suits)	1
+melwen	235741	Up or Down (5 Suits)	1
 melwen	236412	Dark Brown (5 Suits)	1
 melwen	236564	Up or Down (5 Suits)	1
+melwen	236608	Up or Down (5 Suits)	1
+melwen	236647	Up or Down (5 Suits)	1
 melwen	236754	Rainbow-Fives & White (6 Suits)	1
 melwen	236856	Rainbow-Ones & Light Pink (4 Suits)	1
+melwen	237411	Up or Down (5 Suits)	1
+melwen	237597	Up or Down (5 Suits)	1
 melwen	237748	Brown-Fives & White (6 Suits)	1
 melwen	238677	Pink-Ones & Black (5 Suits)	1
 melwen	238810	Pink-Ones & Black (5 Suits)	1
@@ -3172,6 +3070,7 @@ melwen	269439	Rainbow & Light Pink (4 Suits)	1
 melwen	269515	Rainbow & Light Pink (5 Suits)	1
 melwen	269774	Gray (5 Suits)	1
 melwen	269818	Gray (6 Suits)	1
+melwen	270160	Up or Down & Brown (6 Suits)	1
 melwen	270721	Pink & Muddy Rainbow (5 Suits)	1
 melwen	270724	Pink & Muddy Rainbow (5 Suits)	1
 melwen	270797	Null (5 Suits)	1
@@ -3189,14 +3088,18 @@ melwen	272973	White-Fives & Pink (5 Suits)	1
 melwen	273111	White-Fives & Rainbow (6 Suits)	1
 melwen	273414	White-Fives & Cocoa Rainbow (5 Suits)	1
 melwen	273418	White-Fives & Cocoa Rainbow (5 Suits)	1
+melwen	273425	Up or Down (5 Suits)	1
 melwen	273595	Up or Down (5 Suits)	1
 melwen	273945	Pink-Ones & Dark Pink (5 Suits)	1
 melwen	274676	Null (5 Suits)	1
 melwen	274708	Null (5 Suits)	1
 melwen	275073	Brown-Ones (6 Suits)	1
 melwen	275158	Up or Down (5 Suits)	1
-melwen	275244	Up or Down (5 Suits)	1
+melwen	275209	Up or Down (5 Suits)	1
+melwen	275228	Up or Down (5 Suits)	1
+melwen	275286	Up or Down (5 Suits)	1
 melwen	275723	No Variant	1
+melwen	276428	Up or Down (5 Suits)	1
 melwen	277514	Null (6 Suits)	1
 melwen	278980	Dark Rainbow (5 Suits)	1
 melwen	279300	No Variant	1
@@ -3205,7 +3108,6 @@ melwen	279325	Rainbow-Fives & Pink (4 Suits)	1
 melwen	279329	Pink-Ones & Omni (5 Suits)	1
 melwen	279389	Muddy Rainbow (5 Suits)	1
 melwen	279396	Muddy Rainbow (5 Suits)	1
-melwen	279675	Up or Down & Pink (5 Suits)	1
 melwen	279780	White-Ones & Black (5 Suits)	1
 melwen	280125	Up or Down & Pink (5 Suits)	1
 melwen	280400	Rainbow (5 Suits)	1
@@ -3219,6 +3121,7 @@ melwen	281581	Special Mix (5 Suits)	1
 melwen	281825	Prism (5 Suits)	1
 melwen	281832	Dark Prism (5 Suits)	1
 melwen	282112	Dark Prism (5 Suits)	1
+melwen	282225	Up or Down & Prism (6 Suits)	1
 melwen	282940	Dark Prism (6 Suits)	1
 melwen	283369	Rainbow & Prism (6 Suits)	1
 melwen	283750	Brown (3 Suits)	1
@@ -3251,11 +3154,13 @@ melwen	288324	Rainbow (4 Suits)	1
 melwen	288343	Pink (4 Suits)	1
 melwen	288494	Prism Reversed (5 Suits)	1
 melwen	288591	Rainbow & White (6 Suits)	1
+melwen	288810	Up or Down & Prism (6 Suits)	1
 melwen	290233	Rainbow & Pink (4 Suits)	1
 melwen	290247	Light Pink (3 Suits)	1
 melwen	290264	Rainbow-Ones & Pink (4 Suits)	1
 melwen	290284	Rainbow-Ones & Pink (4 Suits)	1
 melwen	290309	Rainbow-Ones & Brown (5 Suits)	1
+melwen	291135	Up or Down & Pink (6 Suits)	1
 melwen	291260	Prism (4 Suits)	1
 melwen	291284	Prism (4 Suits)	1
 melwen	291372	Rainbow & Prism (4 Suits)	1
@@ -3266,7 +3171,7 @@ melwen	292268	Rainbow Reversed (3 Suits)	1
 melwen	292475	Black (6 Suits)	1
 melwen	292548	Pink-Ones (5 Suits)	1
 melwen	292958	Brown (5 Suits)	1
-melwen	293677	Up or Down & Muddy Rainbow (5 Suits)	1
+melwen	293264	Up or Down & Light Pink (5 Suits)	1
 melwen	293769	Up or Down & Muddy Rainbow (5 Suits)	1
 melwen	294366	No Variant	1
 melwen	294387	No Variant	1
@@ -3284,6 +3189,7 @@ melwen	297238	Prism (6 Suits)	1
 melwen	297781	Rainbow & Prism (5 Suits)	1
 melwen	297810	Null (6 Suits)	1
 melwen	297843	Muddy Rainbow (3 Suits)	1
+melwen	297948	Up or Down & White (6 Suits)	1
 melwen	298073	No Variant	1
 melwen	298348	Pink-Fives & Black (6 Suits)	1
 melwen	298379	Pink-Fives & Black (6 Suits)	1
@@ -3401,10 +3307,12 @@ melwen	325394	Rainbow-Ones & Black (5 Suits)	1
 melwen	325470	Rainbow-Ones & Black (5 Suits)	1
 melwen	326048	Duck (5 Suits)	1
 melwen	326107	Duck (5 Suits)	1
+melwen	327317	Up or Down (5 Suits)	1
 melwen	327526	Up or Down (5 Suits)	1
 melwen	327634	Black & Light Pink (6 Suits)	1
 melwen	327678	Up or Down & Light Pink (5 Suits)	1
-melwen	327700	Up or Down & Light Pink (5 Suits)	1
+melwen	327737	Up or Down & Prism (6 Suits)	1
+melwen	327752	Up or Down & Prism (6 Suits)	1
 melwen	328283	Light Pink (3 Suits)	1
 melwen	328356	Duck (5 Suits)	1
 melwen	328378	Duck (5 Suits)	1
@@ -3440,8 +3348,10 @@ melwen	336433	Rainbow & Pink (6 Suits)	1
 melwen	336817	Prism (6 Suits)	1
 melwen	337100	Rainbow & Light Pink (4 Suits)	1
 melwen	337155	Light-Pink-Ones & Rainbow (5 Suits)	1
+melwen	337535	Up or Down & White (5 Suits)	1
 melwen	337544	Up or Down & Light Pink (5 Suits)	1
 melwen	337628	Prism (6 Suits)	1
+melwen	337757	Up or Down & Light Pink (5 Suits)	1
 melwen	337880	White & Muddy Rainbow (5 Suits)	1
 melwen	337907	Muddy Rainbow & Dark Prism (6 Suits)	1
 melwen	338410	Prism (6 Suits)	1
@@ -3450,7 +3360,6 @@ melwen	338566	Rainbow-Ones (6 Suits)	1
 melwen	338728	Clue Starved & White (5 Suits)	1
 melwen	338791	Rainbow & Dark Brown (5 Suits)	1
 melwen	339134	White (6 Suits)	1
-melwen	339360	Up or Down & Rainbow (5 Suits)	1
 melwen	339682	Clue Starved & Brown (5 Suits)	1
 melwen	339806	Rainbow & Brown (6 Suits)	1
 melwen	340014	Black (6 Suits)	1
@@ -3468,6 +3377,8 @@ melwen	342019	Brown-Fives & Dark Rainbow (5 Suits)	1
 melwen	342082	Brown-Fives & White (5 Suits)	1
 melwen	342192	Dark Omni (6 Suits)	1
 melwen	342228	Dark Omni (6 Suits)	1
+melwen	342487	Up or Down & Rainbow (6 Suits)	1
+melwen	342625	Up or Down & Rainbow (6 Suits)	1
 melwen	342783	Black & Rainbow (5 Suits)	1
 melwen	342860	Black & Rainbow (6 Suits)	1
 melwen	342898	Cocoa Rainbow (6 Suits)	1
@@ -3517,6 +3428,7 @@ melwen	353931	Omni & Null (5 Suits)	1
 melwen	354320	Dual-Color (6 Suits)	1
 melwen	354642	Muddy Rainbow (5 Suits)	1
 melwen	354647	White-Ones & Brown (5 Suits)	1
+melwen	354723	Up or Down & Omni (5 Suits)	1
 melwen	354766	Black (5 Suits)	1
 melwen	355046	Rainbow & Dark Pink (6 Suits)	1
 melwen	355050	Rainbow & Dark Pink (6 Suits)	1
@@ -3537,7 +3449,6 @@ melwen	358673	Rainbow-Ones (6 Suits)	1
 melwen	358697	Brown & Gray (5 Suits)	1
 melwen	358918	Rainbow & Omni (5 Suits)	1
 melwen	358941	Rainbow & Omni (5 Suits)	1
-melwen	359429	Up or Down & White (6 Suits)	1
 melwen	359975	Dark Omni (5 Suits)	1
 melwen	360148	Pink & Gray (5 Suits)	1
 melwen	360226	Cocoa Rainbow (5 Suits)	1
@@ -3565,6 +3476,7 @@ melwen	370914	Special Mix (5 Suits)	1
 melwen	371737	Rainbow & Dark Pink (6 Suits)	1
 melwen	373599	White & Omni (5 Suits)	1
 melwen	373612	Pink & White (4 Suits)	1
+melwen	373757	Up or Down & Pink (5 Suits)	1
 melwen	373800	No Variant	1
 melwen	373896	Black & Brown (5 Suits)	1
 melwen	374152	Black & Prism (6 Suits)	1
@@ -3584,7 +3496,6 @@ melwen	380229	Black & Dark Rainbow (6 Suits)	1
 melwen	380574	No Variant	1
 melwen	386563	Black & Dark Pink (6 Suits)	1
 melwen	386693	Rainbow & Dark Omni (5 Suits)	1
-melwen	387247	Up or Down (6 Suits)	1
 melwen	387404	Black & Dark Pink (6 Suits)	1
 melwen	387434	Black & Dark Pink (6 Suits)	1
 melwen	387547	Black & Dark Pink (6 Suits)	1
@@ -3627,7 +3538,6 @@ melwen	396662	Omni-Fives & Pink (5 Suits)	1
 melwen	397362	Rainbow-Ones (6 Suits)	1
 melwen	397435	Dark Brown (6 Suits)	1
 melwen	399381	Black & Omni (5 Suits)	1
-melwen	399756	Up or Down & Omni (6 Suits)	1
 melwen	400526	Black Reversed (6 Suits)	1
 melwen	400591	Rainbow & Prism (6 Suits)	1
 melwen	400650	Brown & Null (6 Suits)	1
@@ -3759,7 +3669,7 @@ melwen	440827	Muddy Rainbow & Dark Brown (5 Suits)	1
 melwen	440859	Rainbow & Pink (6 Suits)	1
 melwen	441059	Muddy Rainbow & Dark Brown (5 Suits)	1
 melwen	441865	White-Fives & Light Pink (4 Suits)	1
-melwen	443185	Up or Down & Brown (6 Suits)	1
+melwen	444947	Up or Down & Brown (6 Suits)	1
 melwen	445003	White & Cocoa Rainbow (5 Suits)	1
 melwen	445454	Pink & Gray (5 Suits)	1
 melwen	445736	Muddy Rainbow & Dark Brown (6 Suits)	1
@@ -3771,23 +3681,24 @@ melwen	446360	Brown & Dark Rainbow (5 Suits)	1
 melwen	446381	Brown & Dark Rainbow (5 Suits)	1
 melwen	446627	Special Mix (5 Suits)	1
 melwen	446651	Black & Pink (6 Suits)	1
-melwen	446958	Up or Down & Prism (6 Suits)	1
+melwen	447038	Up or Down & Light Pink (6 Suits)	1
 melwen	447083	4 Suits	1
 melwen	447140	Rainbow & Pink (6 Suits)	1
 melwen	447699	Null & Muddy Rainbow (5 Suits)	1
 melwen	447723	Null & Muddy Rainbow (5 Suits)	1
 melwen	448297	Omni & Dark Rainbow (5 Suits)	1
 melwen	448323	Omni & Dark Rainbow (5 Suits)	1
-melwen	449150	Up or Down & Muddy Rainbow (5 Suits)	1
+melwen	449067	Up or Down & Muddy Rainbow (5 Suits)	1
 melwen	449630	Black & Pink (5 Suits)	1
-melwen	450348	Up or Down & Omni (6 Suits)	1
+melwen	450298	Up or Down & Omni (5 Suits)	1
 melwen	450385	Up or Down & Omni (6 Suits)	1
 melwen	450435	White & Dark Pink (5 Suits)	1
+melwen	450466	Up or Down & Omni (6 Suits)	1
+melwen	450492	Up or Down & Omni (6 Suits)	1
 melwen	450967	Dark Null (5 Suits)	1
 melwen	451338	Cocoa Rainbow (5 Suits)	1
-melwen	451680	Up or Down & Pink (6 Suits)	1
-melwen	451736	Up or Down & Pink (6 Suits)	1
 melwen	451974	Brown (5 Suits)	1
+melwen	451984	Up or Down & Omni (6 Suits)	1
 melwen	452093	Black & Dark Brown (6 Suits)	1
 melwen	452167	Black & Dark Brown (6 Suits)	1
 melwen	452241	Black & Dark Brown (6 Suits)	1
@@ -3913,10 +3824,8 @@ melwen	479054	Brown (6 Suits)	1
 melwen	479552	Dual-Color & Black (6 Suits)	1
 melwen	479692	Muddy Rainbow & Gray Pink (6 Suits)	1
 melwen	479810	Dual-Color & Light Pink (6 Suits)	1
-melwen	480032	Up or Down & Light Pink (6 Suits)	1
 melwen	480860	Up or Down & Muddy Rainbow (6 Suits)	1
 melwen	480888	Brown & Dark Omni (5 Suits)	1
-melwen	480917	Up or Down & Muddy Rainbow (6 Suits)	1
 melwen	481209	Brown & Dark Omni (6 Suits)	1
 melwen	481325	Brown (6 Suits)	1
 melwen	481362	Brown (6 Suits)	1
@@ -3953,7 +3862,7 @@ melwen	485920	White & Dark Prism (5 Suits)	1
 melwen	485957	White & Muddy Rainbow (4 Suits)	1
 melwen	486036	Dual-Color & Prism (6 Suits)	1
 melwen	486177	Dual-Color & Prism (6 Suits)	1
-melwen	486459	Up or Down & Omni (5 Suits)	1
+melwen	486448	Up or Down & Omni (5 Suits)	1
 melwen	487362	Black & Rainbow (5 Suits)	1
 melwen	487557	Pink & Gray Pink (5 Suits)	1
 melwen	487653	White & Omni (6 Suits)	1
@@ -4057,6 +3966,7 @@ melwen	508699	Brown-Ones & Dark Brown (5 Suits)	1
 melwen	508966	Muddy-Rainbow-Ones & White (6 Suits)	1
 melwen	509293	Rainbow & Muddy Rainbow (6 Suits)	1
 melwen	509599	White-Ones & Omni (5 Suits)	1
+melwen	509672	Up or Down (6 Suits)	1
 melwen	509707	Light Pink & Dark Omni (6 Suits)	1
 melwen	509775	Rainbow-Fives & Dark Brown (6 Suits)	1
 melwen	509798	Rainbow-Fives & Dark Brown (6 Suits)	1
@@ -4104,6 +4014,7 @@ melwen	516173	Gray (5 Suits)	1
 melwen	516451	Muddy-Rainbow-Fives & Dark Prism (6 Suits)	1
 melwen	516755	Rainbow-Ones & White (6 Suits)	1
 melwen	516769	Brown & Omni (5 Suits)	1
+melwen	516783	Up or Down (6 Suits)	1
 melwen	517090	Gray (5 Suits)	1
 melwen	517239	Gray (5 Suits)	1
 melwen	517278	Pink & Gray Pink (6 Suits)	1
@@ -4112,7 +4023,6 @@ melwen	517886	Omni & Cocoa Rainbow (5 Suits)	1
 melwen	518149	Rainbow Reversed (6 Suits)	1
 melwen	518237	Rainbow & Light Pink (6 Suits)	1
 melwen	518376	Black (5 Suits)	1
-melwen	518625	Up or Down & White (6 Suits)	1
 melwen	518937	Rainbow-Ones & Dark Omni (6 Suits)	1
 melwen	518945	Rainbow-Ones & Dark Omni (6 Suits)	1
 melwen	519059	Brown-Ones & Pink (6 Suits)	1
@@ -4135,14 +4045,17 @@ melwen	521790	Rainbow-Ones & Pink (6 Suits)	1
 melwen	521855	Pink-Ones (6 Suits)	1
 melwen	522021	Brown & Muddy Rainbow (6 Suits)	1
 melwen	522039	Brown & Muddy Rainbow (6 Suits)	1
+melwen	522043	Up or Down & Prism (6 Suits)	1
 melwen	522458	Brown & Dark Pink (5 Suits)	1
 melwen	522566	Prism Reversed (6 Suits)	1
 melwen	522944	Up or Down & Rainbow (6 Suits)	1
 melwen	522966	Rainbow-Ones & White (5 Suits)	1
+melwen	523375	Up or Down & Omni (6 Suits)	1
 melwen	523737	Null (6 Suits)	1
 melwen	524413	Gray (5 Suits)	1
 melwen	524442	Gray (5 Suits)	1
 melwen	524481	Gray (5 Suits)	1
+melwen	524822	Up or Down (6 Suits)	1
 melwen	524877	Prism Reversed (4 Suits)	1
 melwen	525190	Pink-Ones & Pink (6 Suits)	1
 melwen	525401	Dual-Color & Muddy Rainbow (6 Suits)	1
@@ -4162,10 +4075,14 @@ melwen	530725	Pink (6 Suits)	1
 melwen	530830	Dual-Color & Rainbow (4 Suits)	1
 melwen	531347	Brown & Muddy Rainbow (6 Suits)	1
 melwen	531369	Light Pink & Dark Omni (6 Suits)	1
+melwen	531575	Up or Down & Rainbow (6 Suits)	1
 melwen	532266	Deceptive-Fives (6 Suits)	1
 melwen	532728	Light-Pink-Ones & Dark Brown (6 Suits)	1
+melwen	533725	Up or Down & White (6 Suits)	1
 melwen	533922	Light-Pink-Ones & Dark Brown (6 Suits)	1
+melwen	534457	Up or Down & Prism (6 Suits)	1
 melwen	535591	Clue Starved & Brown (6 Suits)	1
+melwen	536510	Up or Down (6 Suits)	1
 melwen	536592	Deceptive-Fives & Brown (6 Suits)	1
 melwen	536607	Deceptive-Fives & Brown (6 Suits)	1
 melwen	536873	Omni & Gray Pink (6 Suits)	1
@@ -4189,7 +4106,6 @@ melwen	541345	Omni & Dark Prism (6 Suits)	1
 melwen	543256	Rainbow Reversed (4 Suits)	1
 melwen	544007	Black & Muddy Rainbow (6 Suits)	1
 melwen	544024	Rainbow & Gray (6 Suits)	1
-melwen	544475	Up or Down & Pink (6 Suits)	1
 melwen	544760	Brown-Ones & Prism (4 Suits)	1
 melwen	545969	Omni & Dark Prism (6 Suits)	1
 melwen	545998	Dark Omni (6 Suits)	1
@@ -4213,6 +4129,7 @@ melwen	560249	Rainbow & Gray (6 Suits)	1
 melwen	560382	Dark Null (6 Suits)	1
 melwen	560391	Up or Down & Rainbow (6 Suits)	1
 melwen	562101	Muddy Rainbow & Dark Pink (5 Suits)	1
+melwen	562228	Up or Down & Prism (6 Suits)	1
 melwen	562405	Omni & Dark Brown (6 Suits)	1
 melwen	563975	White (5 Suits)	1
 melwen	563993	Prism (5 Suits)	1
@@ -4228,7 +4145,6 @@ melwen	566012	White & Dark Rainbow (5 Suits)	1
 melwen	566133	Null-Ones & Null (6 Suits)	1
 melwen	566336	Rainbow & Cocoa Rainbow (6 Suits)	1
 melwen	567102	Dark Pink & Dark Omni (6 Suits)	1
-melwen	567541	Up or Down & Prism (6 Suits)	1
 melwen	567569	6 Suits	1
 melwen	568654	Clue Starved & Null (6 Suits)	1
 melwen	568751	No Variant	1
@@ -4450,11 +4366,15 @@ melwen	671071	Prism Reversed (6 Suits)	1
 melwen	671396	Rainbow & Dark Prism (5 Suits)	1
 melwen	671731	Pink & Null (4 Suits)	1
 melwen	671770	White & Cocoa Rainbow (6 Suits)	1
-melwen	672226	Up or Down & Brown (6 Suits)	1
+melwen	672199	Up or Down & Brown (6 Suits)	1
+melwen	672265	Up or Down & Brown (6 Suits)	1
+melwen	672333	Up or Down & Brown (6 Suits)	1
 melwen	673176	Rainbow & White (6 Suits)	1
 melwen	673810	Muddy-Rainbow-Ones & White (6 Suits)	1
 melwen	674589	Light Pink & Dark Prism (5 Suits)	1
 melwen	674593	Light Pink & Dark Prism (5 Suits)	1
+melwen	675774	Up or Down & Brown (6 Suits)	1
+melwen	675825	Up or Down & Brown (6 Suits)	1
 melwen	675851	Deceptive-Ones & Cocoa Rainbow (6 Suits)	1
 melwen	676098	Brown-Ones & White (5 Suits)	1
 melwen	676403	Synesthesia (6 Suits)	1
@@ -4527,6 +4447,7 @@ melwen	701107	Critical Fours (6 Suits)	1
 melwen	701932	Rainbow & Pink (5 Suits)	1
 melwen	702661	Rainbow-Fives & Prism (6 Suits)	1
 melwen	702694	Black & Dark Brown (6 Suits)	1
+melwen	702773	Up or Down & Null (5 Suits)	1
 melwen	703577	Brown-Ones & Dark Prism (6 Suits)	1
 melwen	704306	Pink-Ones & Gray (6 Suits)	1
 melwen	704712	No Variant	1
@@ -4665,13 +4586,18 @@ melwen	143862	6 Suits	0
 melwen	143952	6 Suits	0
 melwen	144935	6 Suits	0
 melwen	145109	6 Suits	0
+melwen	146413	Up or Down (5 Suits)	0
+melwen	148181	Up or Down (5 Suits)	0
 melwen	150010	6 Suits	0
 melwen	150015	6 Suits	0
 melwen	150389	6 Suits	0
 melwen	150624	6 Suits	0
+melwen	150720	Up or Down (5 Suits)	0
 melwen	151779	No Variant	0
 melwen	152140	Up or Down (6 Suits)	0
+melwen	152207	Up or Down (6 Suits)	0
 melwen	152265	Up or Down (5 Suits)	0
+melwen	152426	Up or Down (5 Suits)	0
 melwen	152951	3 Suits	0
 melwen	152955	3 Suits	0
 melwen	152964	3 Suits	0
@@ -4702,6 +4628,7 @@ melwen	154745	4 Suits	0
 melwen	154766	4 Suits	0
 melwen	154810	4 Suits	0
 melwen	154869	4 Suits	0
+melwen	154947	Up or Down (5 Suits)	0
 melwen	155927	4 Suits	0
 melwen	155932	3 Suits	0
 melwen	155937	3 Suits	0
@@ -4711,6 +4638,10 @@ melwen	155981	3 Suits	0
 melwen	155993	Rainbow (5 Suits)	0
 melwen	156148	Up or Down (5 Suits)	0
 melwen	156170	Up or Down (5 Suits)	0
+melwen	156247	Up or Down (5 Suits)	0
+melwen	157307	Up or Down (5 Suits)	0
+melwen	157528	Up or Down (5 Suits)	0
+melwen	157592	Up or Down (5 Suits)	0
 melwen	158701	Brown-Fives & Omni (6 Suits)	0
 melwen	160286	No Variant	0
 melwen	160299	No Variant	0
@@ -4726,28 +4657,40 @@ melwen	161844	Black (5 Suits)	0
 melwen	162534	No Variant	0
 melwen	162618	Pink & Muddy Rainbow (5 Suits)	0
 melwen	163068	White (5 Suits)	0
+melwen	163099	Up or Down (5 Suits)	0
 melwen	163321	Black (5 Suits)	0
 melwen	163374	Black (5 Suits)	0
 melwen	163467	Black (5 Suits)	0
 melwen	163502	Black (5 Suits)	0
 melwen	163563	Black (5 Suits)	0
+melwen	164307	Up or Down (5 Suits)	0
 melwen	164381	No Variant	0
 melwen	164482	Black (5 Suits)	0
 melwen	164677	Black (5 Suits)	0
+melwen	164699	Up or Down (5 Suits)	0
 melwen	165606	Up or Down (5 Suits)	0
+melwen	165618	Up or Down (5 Suits)	0
 melwen	165794	No Variant	0
 melwen	166120	Rainbow-Ones & Pink (3 Suits)	0
 melwen	166143	Rainbow-Ones & Pink (3 Suits)	0
 melwen	166269	White & Gray Pink (5 Suits)	0
+melwen	166974	Up or Down (5 Suits)	0
 melwen	167008	Black (5 Suits)	0
 melwen	167024	Black (5 Suits)	0
 melwen	170428	Brown (5 Suits)	0
+melwen	170722	Up or Down (5 Suits)	0
 melwen	171059	White (6 Suits)	0
 melwen	171708	Rainbow (5 Suits)	0
+melwen	171860	Up or Down (5 Suits)	0
+melwen	172005	Up or Down (5 Suits)	0
+melwen	172021	Up or Down (5 Suits)	0
 melwen	172234	Duck (5 Suits)	0
 melwen	172271	Duck (5 Suits)	0
 melwen	172457	Throw It in a Hole (5 Suits)	0
+melwen	173153	Up or Down (5 Suits)	0
 melwen	173172	Up or Down (5 Suits)	0
+melwen	173191	Up or Down (5 Suits)	0
+melwen	173210	Up or Down (5 Suits)	0
 melwen	174230	Rainbow (5 Suits)	0
 melwen	174283	Rainbow (5 Suits)	0
 melwen	174338	Black (5 Suits)	0
@@ -4758,8 +4701,12 @@ melwen	177128	Black (5 Suits)	0
 melwen	177177	Black (5 Suits)	0
 melwen	177257	Rainbow (5 Suits)	0
 melwen	179288	Null-Ones & Pink (5 Suits)	0
+melwen	180225	Up or Down (5 Suits)	0
+melwen	180239	Up or Down (5 Suits)	0
 melwen	181798	White-Ones & White (6 Suits)	0
+melwen	182907	Up or Down (5 Suits)	0
 melwen	182942	Up or Down (5 Suits)	0
+melwen	183689	Up or Down (5 Suits)	0
 melwen	184584	Black & Rainbow (5 Suits)	0
 melwen	186725	Black & Rainbow (5 Suits)	0
 melwen	186996	Brown & Light Pink (5 Suits)	0
@@ -4771,7 +4718,9 @@ melwen	189087	Rainbow (4 Suits)	0
 melwen	189114	6 Suits	0
 melwen	189706	No Variant	0
 melwen	190557	Up or Down (5 Suits)	0
+melwen	190571	Up or Down (5 Suits)	0
 melwen	191023	No Variant	0
+melwen	191683	Up or Down (5 Suits)	0
 melwen	191747	Up or Down (5 Suits)	0
 melwen	191938	Brown-Fives (5 Suits)	0
 melwen	191963	Brown-Fives (5 Suits)	0
@@ -4792,9 +4741,12 @@ melwen	201381	Rainbow-Fives & Rainbow (3 Suits)	0
 melwen	201409	Muddy-Rainbow-Fives & Rainbow (4 Suits)	0
 melwen	202143	Null (5 Suits)	0
 melwen	202241	Black & White (5 Suits)	0
+melwen	202682	Up or Down (5 Suits)	0
 melwen	202908	Reversed (4 Suits)	0
 melwen	203687	Black & Muddy Rainbow (5 Suits)	0
 melwen	206318	Throw It in a Hole (5 Suits)	0
+melwen	206408	Up or Down (5 Suits)	0
+melwen	206441	Up or Down (5 Suits)	0
 melwen	206803	3 Suits	0
 melwen	206822	3 Suits	0
 melwen	206861	Dark Omni (6 Suits)	0
@@ -4808,6 +4760,8 @@ melwen	208085	No Variant	0
 melwen	208244	Rainbow & Gray (5 Suits)	0
 melwen	208285	Rainbow & Gray (5 Suits)	0
 melwen	208792	Up or Down (5 Suits)	0
+melwen	208866	Up or Down (5 Suits)	0
+melwen	208905	Up or Down (5 Suits)	0
 melwen	208991	Dual-Color & Muddy Rainbow (4 Suits)	0
 melwen	209009	Dual-Color & Muddy Rainbow (4 Suits)	0
 melwen	209029	Dual-Color & Muddy Rainbow (4 Suits)	0
@@ -4834,6 +4788,7 @@ melwen	218741	White & Light Pink (5 Suits)	0
 melwen	219013	Pink & Dark Brown (6 Suits)	0
 melwen	220167	Black & Null (5 Suits)	0
 melwen	220681	Brown (5 Suits)	0
+melwen	221604	Up or Down (5 Suits)	0
 melwen	222081	Rainbow (4 Suits)	0
 melwen	223569	Brown (5 Suits)	0
 melwen	223835	Rainbow & Null (5 Suits)	0
@@ -4851,11 +4806,13 @@ melwen	227565	White-Ones & Pink (5 Suits)	0
 melwen	227920	No Variant	0
 melwen	228440	Rainbow & Null (5 Suits)	0
 melwen	228621	Special Mix (5 Suits)	0
+melwen	229150	Up or Down (5 Suits)	0
 melwen	229217	Rainbow & White (5 Suits)	0
 melwen	229758	Rainbow & Brown (5 Suits)	0
 melwen	230140	Rainbow Reversed (5 Suits)	0
 melwen	230219	3 Suits	0
 melwen	230720	Special Mix (5 Suits)	0
+melwen	231172	Up or Down (5 Suits)	0
 melwen	232279	No Variant	0
 melwen	234163	Rainbow (3 Suits)	0
 melwen	234164	Pink (4 Suits)	0
@@ -4868,6 +4825,7 @@ melwen	236807	Rainbow-Ones & Light Pink (4 Suits)	0
 melwen	236894	Rainbow-Ones & Light Pink (4 Suits)	0
 melwen	237001	Rainbow-Ones & Light Pink (4 Suits)	0
 melwen	237041	Rainbow-Ones & Light Pink (4 Suits)	0
+melwen	237440	Up or Down (5 Suits)	0
 melwen	237570	Up or Down (5 Suits)	0
 melwen	237621	Up or Down (5 Suits)	0
 melwen	237724	Clue Starved & Brown (5 Suits)	0
@@ -4989,6 +4947,7 @@ melwen	275040	White & Light Pink (3 Suits)	0
 melwen	275045	White & Light Pink (3 Suits)	0
 melwen	275050	White & Light Pink (3 Suits)	0
 melwen	275057	White & Light Pink (3 Suits)	0
+melwen	275244	Up or Down (5 Suits)	0
 melwen	275725	Rainbow (4 Suits)	0
 melwen	275730	White Reversed (4 Suits)	0
 melwen	275737	White-Fives & Muddy Rainbow (4 Suits)	0
@@ -4998,7 +4957,9 @@ melwen	279331	Pink-Ones & Omni (5 Suits)	0
 melwen	279361	Up or Down (5 Suits)	0
 melwen	279526	Black Reversed (5 Suits)	0
 melwen	279549	Black Reversed (5 Suits)	0
+melwen	279675	Up or Down & Pink (5 Suits)	0
 melwen	279742	White-Ones & Black (5 Suits)	0
+melwen	280122	Up or Down & Pink (5 Suits)	0
 melwen	280563	Dark Rainbow (6 Suits)	0
 melwen	280735	No Variant	0
 melwen	281035	Rainbow & Pink (3 Suits)	0
@@ -5009,6 +4970,7 @@ melwen	281106	Rainbow (3 Suits)	0
 melwen	281447	Dark Rainbow (5 Suits)	0
 melwen	282088	Dark Prism (5 Suits)	0
 melwen	282165	Muddy Rainbow (6 Suits)	0
+melwen	282269	Up or Down & Prism (6 Suits)	0
 melwen	282859	Black (5 Suits)	0
 melwen	282904	Up or Down & Prism (5 Suits)	0
 melwen	283105	Pink & Prism (5 Suits)	0
@@ -5039,11 +5001,13 @@ melwen	290252	Light Pink (3 Suits)	0
 melwen	290258	Rainbow-Ones & Pink (4 Suits)	0
 melwen	290325	Rainbow-Ones & Brown (5 Suits)	0
 melwen	290753	Prism (5 Suits)	0
+melwen	291156	Up or Down & Pink (6 Suits)	0
 melwen	291239	Special Mix (5 Suits)	0
 melwen	291316	Prism (4 Suits)	0
 melwen	291333	Pink-Ones & Rainbow (3 Suits)	0
 melwen	291353	Rainbow & Prism (4 Suits)	0
 melwen	291429	Rainbow & Prism (4 Suits)	0
+melwen	291690	Up or Down & Brown (6 Suits)	0
 melwen	292103	Black (6 Suits)	0
 melwen	292148	Omni (6 Suits)	0
 melwen	292170	Rainbow & Prism (4 Suits)	0
@@ -5054,6 +5018,8 @@ melwen	292988	Prism (3 Suits)	0
 melwen	293003	Prism (3 Suits)	0
 melwen	293014	Prism (3 Suits)	0
 melwen	293350	Null (3 Suits)	0
+melwen	293677	Up or Down & Muddy Rainbow (5 Suits)	0
+melwen	293803	Up or Down (6 Suits)	0
 melwen	294067	Rainbow (5 Suits)	0
 melwen	294341	Black (5 Suits)	0
 melwen	294454	White & Prism (4 Suits)	0
@@ -5065,6 +5031,7 @@ melwen	295140	4 Suits	0
 melwen	295154	4 Suits	0
 melwen	295177	Rainbow & White (5 Suits)	0
 melwen	296449	Black & Prism (5 Suits)	0
+melwen	296535	Up or Down & Pink (5 Suits)	0
 melwen	296970	Black (5 Suits)	0
 melwen	296996	Black (5 Suits)	0
 melwen	297062	Dark Pink (5 Suits)	0
@@ -5175,6 +5142,8 @@ melwen	326999	Dark Null (5 Suits)	0
 melwen	327053	Rainbow & Light Pink (4 Suits)	0
 melwen	327572	Light Pink (4 Suits)	0
 melwen	327589	Dark Pink (5 Suits)	0
+melwen	327700	Up or Down & Light Pink (5 Suits)	0
+melwen	327773	Up or Down & Prism (6 Suits)	0
 melwen	327976	White-Ones & Brown (5 Suits)	0
 melwen	328746	Pink (3 Suits)	0
 melwen	328780	Muddy Rainbow (4 Suits)	0
@@ -5203,15 +5172,19 @@ melwen	335253	Rainbow & Light Pink (3 Suits)	0
 melwen	335256	Pink (4 Suits)	0
 melwen	335274	Rainbow & Dark Omni (5 Suits)	0
 melwen	335283	Rainbow & Dark Omni (5 Suits)	0
+melwen	335371	Up or Down & Pink (6 Suits)	0
 melwen	335523	Rainbow (5 Suits)	0
 melwen	335637	Brown & Cocoa Rainbow (5 Suits)	0
 melwen	336133	Dark Pink (5 Suits)	0
+melwen	336467	Up or Down & Brown (6 Suits)	0
 melwen	336668	Reversed (3 Suits)	0
 melwen	336674	Reversed (3 Suits)	0
 melwen	336690	Reversed (6 Suits)	0
 melwen	337119	Rainbow & Light Pink (4 Suits)	0
 melwen	337143	Light-Pink-Ones & Rainbow (5 Suits)	0
+melwen	337569	Up or Down & Light Pink (5 Suits)	0
 melwen	337612	Prism (6 Suits)	0
+melwen	337786	Up or Down & Rainbow (5 Suits)	0
 melwen	338313	Rainbow & Prism (4 Suits)	0
 melwen	338348	Prism (6 Suits)	0
 melwen	338764	Dual-Color (3 Suits)	0
@@ -5219,6 +5192,8 @@ melwen	338813	Rainbow & Dark Brown (5 Suits)	0
 melwen	338836	Dark Brown (5 Suits)	0
 melwen	339142	Dark Prism (5 Suits)	0
 melwen	339144	Dark Prism (5 Suits)	0
+melwen	339360	Up or Down & Rainbow (5 Suits)	0
+melwen	339506	Up or Down & Rainbow (6 Suits)	0
 melwen	339602	No Variant	0
 melwen	339611	No Variant	0
 melwen	339758	Rainbow & Brown (6 Suits)	0
@@ -5302,6 +5277,7 @@ melwen	358922	Rainbow & Omni (5 Suits)	0
 melwen	358929	Rainbow & Omni (5 Suits)	0
 melwen	359024	No Variant	0
 melwen	359124	Rainbow & Omni (6 Suits)	0
+melwen	359429	Up or Down & White (6 Suits)	0
 melwen	359957	Dark Omni (5 Suits)	0
 melwen	359985	Dark Omni (5 Suits)	0
 melwen	360092	Black & Omni (5 Suits)	0
@@ -5374,6 +5350,7 @@ melwen	381896	Black & Dark Pink (6 Suits)	0
 melwen	383913	Brown (6 Suits)	0
 melwen	386440	Black & Dark Pink (6 Suits)	0
 melwen	386508	Black & Dark Pink (6 Suits)	0
+melwen	387247	Up or Down (6 Suits)	0
 melwen	387281	Rainbow-Ones (4 Suits)	0
 melwen	387302	Dark Rainbow (6 Suits)	0
 melwen	387493	Black & Dark Pink (6 Suits)	0
@@ -5415,6 +5392,7 @@ melwen	398540	Dark Pink (5 Suits)	0
 melwen	398583	Dark Pink (5 Suits)	0
 melwen	398675	Muddy-Rainbow-Ones & Dark Prism (6 Suits)	0
 melwen	399401	Black & Omni (5 Suits)	0
+melwen	399756	Up or Down & Omni (6 Suits)	0
 melwen	400237	Pink-Fives & Black (5 Suits)	0
 melwen	400244	Pink-Fives & Black (5 Suits)	0
 melwen	400397	Black & Omni (5 Suits)	0
@@ -5539,10 +5517,13 @@ melwen	441974	Muddy Rainbow & Dark Brown (5 Suits)	0
 melwen	441987	Muddy Rainbow & Dark Brown (5 Suits)	0
 melwen	442001	Muddy Rainbow & Dark Brown (5 Suits)	0
 melwen	442020	Muddy Rainbow & Dark Brown (5 Suits)	0
+melwen	443185	Up or Down & Brown (6 Suits)	0
 melwen	445049	White & Cocoa Rainbow (5 Suits)	0
 melwen	445467	Pink & Gray (5 Suits)	0
 melwen	445649	Muddy Rainbow & Dark Brown (5 Suits)	0
 melwen	445704	Muddy Rainbow & Dark Brown (6 Suits)	0
+melwen	446906	Up or Down & Prism (6 Suits)	0
+melwen	446958	Up or Down & Prism (6 Suits)	0
 melwen	446989	Up or Down & Light Pink (5 Suits)	0
 melwen	447220	Rainbow & Gray (5 Suits)	0
 melwen	447882	Null (5 Suits)	0
@@ -5552,9 +5533,11 @@ melwen	448261	Omni & Dark Rainbow (5 Suits)	0
 melwen	448354	Omni & Dark Rainbow (5 Suits)	0
 melwen	448396	Omni & Dark Brown (5 Suits)	0
 melwen	448708	Brown & Muddy Rainbow (6 Suits)	0
+melwen	449150	Up or Down & Muddy Rainbow (5 Suits)	0
 melwen	449324	Muddy Rainbow (6 Suits)	0
 melwen	449885	Special Mix (5 Suits)	0
 melwen	449956	Rainbow-Ones & Rainbow (4 Suits)	0
+melwen	450348	Up or Down & Omni (6 Suits)	0
 melwen	450421	White & Dark Pink (5 Suits)	0
 melwen	450853	Light Pink & Dark Prism (5 Suits)	0
 melwen	450889	Rainbow Reversed (5 Suits)	0
@@ -5563,6 +5546,8 @@ melwen	451006	Dark Null (5 Suits)	0
 melwen	451057	Dark Null (5 Suits)	0
 melwen	451109	Dark Null (5 Suits)	0
 melwen	451267	Prism (5 Suits)	0
+melwen	451680	Up or Down & Pink (6 Suits)	0
+melwen	451736	Up or Down & Pink (6 Suits)	0
 melwen	452000	White-Fives & Rainbow (6 Suits)	0
 melwen	452128	Black & Dark Brown (6 Suits)	0
 melwen	452507	Dark Brown (5 Suits)	0
@@ -5665,8 +5650,11 @@ melwen	479637	Rainbow & Pink (3 Suits)	0
 melwen	479739	Light Pink & Dark Brown (6 Suits)	0
 melwen	479770	Dual-Color & Light Pink (6 Suits)	0
 melwen	480012	White & Dark Rainbow (6 Suits)	0
+melwen	480032	Up or Down & Light Pink (6 Suits)	0
 melwen	480039	White & Light Pink (5 Suits)	0
 melwen	480332	Gray Reversed (5 Suits)	0
+melwen	480767	Up or Down & Muddy Rainbow (6 Suits)	0
+melwen	480917	Up or Down & Muddy Rainbow (6 Suits)	0
 melwen	481492	3 Suits	0
 melwen	481903	Brown-Ones & Dark Brown (5 Suits)	0
 melwen	482485	Pink & Muddy Rainbow (5 Suits)	0
@@ -5688,6 +5676,7 @@ melwen	486344	Pink & Dark Omni (6 Suits)	0
 melwen	486355	Pink & Dark Omni (6 Suits)	0
 melwen	486374	Rainbow-Ones & Muddy Rainbow (3 Suits)	0
 melwen	486376	Rainbow-Ones & Muddy Rainbow (3 Suits)	0
+melwen	486459	Up or Down & Omni (5 Suits)	0
 melwen	486914	White & Brown (6 Suits)	0
 melwen	486932	Dual-Color & Prism (6 Suits)	0
 melwen	486962	Dual-Color & Prism (6 Suits)	0
@@ -5816,6 +5805,7 @@ melwen	516494	Muddy-Rainbow-Fives & Dark Prism (6 Suits)	0
 melwen	517110	Gray (5 Suits)	0
 melwen	517163	Gray (5 Suits)	0
 melwen	517192	Gray (5 Suits)	0
+melwen	518625	Up or Down & White (6 Suits)	0
 melwen	518921	Rainbow-Fives & Dark Brown (6 Suits)	0
 melwen	519179	Rainbow-Ones & White (5 Suits)	0
 melwen	519589	Muddy Rainbow (5 Suits)	0
@@ -5837,6 +5827,7 @@ melwen	525183	Rainbow-Ones & Pink (5 Suits)	0
 melwen	525331	Dual-Color & Muddy Rainbow (6 Suits)	0
 melwen	525886	Brown (4 Suits)	0
 melwen	526052	Rainbow & Dark Pink (5 Suits)	0
+melwen	526972	Up or Down & Muddy Rainbow (6 Suits)	0
 melwen	527385	Brown & Light Pink (6 Suits)	0
 melwen	527898	White & Muddy Rainbow (6 Suits)	0
 melwen	527949	Omni & Light Pink (6 Suits)	0
@@ -5846,6 +5837,7 @@ melwen	529514	White & Muddy Rainbow (5 Suits)	0
 melwen	529790	Light Pink & Dark Omni (6 Suits)	0
 melwen	530201	Brown-Ones & Brown (5 Suits)	0
 melwen	530712	Pink & White (3 Suits)	0
+melwen	530799	Up or Down & Pink (6 Suits)	0
 melwen	530816	Light Pink & Dark Omni (6 Suits)	0
 melwen	530836	Dual-Color & Rainbow (4 Suits)	0
 melwen	530850	Dual-Color & Rainbow (4 Suits)	0
@@ -5875,6 +5867,8 @@ melwen	543576	Pink & Dark Brown (6 Suits)	0
 melwen	543606	White-Fives (5 Suits)	0
 melwen	543843	Light Pink & Dark Brown (5 Suits)	0
 melwen	543966	Omni & Dark Prism (6 Suits)	0
+melwen	544451	Up or Down & Pink (6 Suits)	0
+melwen	544475	Up or Down & Pink (6 Suits)	0
 melwen	544775	Muddy Rainbow & Light Pink (4 Suits)	0
 melwen	546162	Dual-Color & Dark Omni (6 Suits)	0
 melwen	546355	Muddy-Rainbow-Ones (3 Suits)	0
@@ -5916,6 +5910,7 @@ melwen	567509	Pink & Light Pink (4 Suits)	0
 melwen	567518	Clue Starved & Brown (5 Suits)	0
 melwen	567525	Clue Starved & Brown (5 Suits)	0
 melwen	567534	4 Suits	0
+melwen	567541	Up or Down & Prism (6 Suits)	0
 melwen	568070	White-Fives & Rainbow (4 Suits)	0
 melwen	568075	White-Fives & Rainbow (4 Suits)	0
 melwen	568757	Rainbow (5 Suits)	0
@@ -5956,6 +5951,7 @@ melwen	586990	Muddy Rainbow (5 Suits)	0
 melwen	588966	Rainbow-Fives & Prism (5 Suits)	0
 melwen	589101	Muddy-Rainbow-Fives & Dark Prism (6 Suits)	0
 melwen	590112	Rainbow (5 Suits)	0
+melwen	590239	Up or Down & Prism (6 Suits)	0
 melwen	590453	Dual-Color & Dark Pink (6 Suits)	0
 melwen	590943	White & Dark Brown (5 Suits)	0
 melwen	590945	White & Dark Pink (5 Suits)	0
@@ -6100,8 +6096,11 @@ melwen	670667	Brown & Cocoa Rainbow (5 Suits)	0
 melwen	670726	Omni-Fives (5 Suits)	0
 melwen	671399	White (5 Suits)	0
 melwen	671744	Pink & Null (4 Suits)	0
+melwen	672226	Up or Down & Brown (6 Suits)	0
 melwen	673157	Rainbow Reversed (6 Suits)	0
 melwen	673187	Pink-Fives & Brown (3 Suits)	0
+melwen	673921	Up or Down & Brown (6 Suits)	0
+melwen	675172	Up or Down & Brown (6 Suits)	0
 melwen	676412	Synesthesia (6 Suits)	0
 melwen	677008	Synesthesia (6 Suits)	0
 melwen	677814	Rainbow-Ones & Pink (5 Suits)	0
@@ -6174,6 +6173,7 @@ melwen	706746	Pink & Brown (5 Suits)	0
 melwen	707040	Rainbow-Fives & Dark Prism (5 Suits)	0
 melwen	707298	Pink & Dark Brown (6 Suits)	0
 melwen	707484	Brown & Dark Rainbow (6 Suits)	0
+melwen	707879	Up or Down & Light Pink (6 Suits)	0
 melwen	708228	Brown-Ones & Omni (5 Suits)	0
 melwen	708809	White-Ones (6 Suits)	0
 melwen	709587	Rainbow-Fives & Prism (5 Suits)	0

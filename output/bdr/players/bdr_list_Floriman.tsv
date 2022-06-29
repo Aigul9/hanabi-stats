@@ -2,30 +2,23 @@ Player	Game id	Variant	BDR
 Floriman	60975	Pink & Gray (6 Suits)	9
 Floriman	72076	Pink (5 Suits)	7
 Floriman	662505	Clue Starved & Omni (6 Suits)	7
-Floriman	57784	Up or Down (5 Suits)	6
 Floriman	57845	White (6 Suits)	6
 Floriman	59677	Black & Pink (6 Suits)	6
-Floriman	60813	Up or Down & Rainbow (6 Suits)	6
-Floriman	60819	Up or Down & Rainbow (6 Suits)	6
-Floriman	61742	Up or Down & Rainbow (6 Suits)	6
 Floriman	72334	Rainbow (6 Suits)	6
 Floriman	75085	Dual-Color (6 Suits)	6
 Floriman	85401	6 Suits	6
 Floriman	99863	White-Ones (6 Suits)	6
 Floriman	100221	Ambiguous (6 Suits)	6
-Floriman	123302	Up or Down (6 Suits)	6
-Floriman	134653	Up or Down (6 Suits)	6
 Floriman	258940	Black (6 Suits)	6
-Floriman	391474	Up or Down & Brown (5 Suits)	6
 Floriman	497428	Null (5 Suits)	6
 Floriman	691040	White-Fives & Rainbow (6 Suits)	6
 Floriman	56559	White (6 Suits)	5
 Floriman	59199	Pink (6 Suits)	5
+Floriman	60813	Up or Down & Rainbow (6 Suits)	5
+Floriman	60819	Up or Down & Rainbow (6 Suits)	5
 Floriman	61519	Light Pink (6 Suits)	5
 Floriman	64843	Clue Starved (6 Suits)	5
 Floriman	65346	Up or Down & Pink (6 Suits)	5
-Floriman	65348	Up or Down & Omni (6 Suits)	5
-Floriman	65734	Up or Down (6 Suits)	5
 Floriman	65901	6 Suits	5
 Floriman	70582	Throw It in a Hole (6 Suits)	5
 Floriman	71312	Dark Rainbow (6 Suits)	5
@@ -71,13 +64,11 @@ Floriman	61505	Muddy Rainbow (5 Suits)	4
 Floriman	62444	No Variant	4
 Floriman	62975	Up or Down & Rainbow (6 Suits)	4
 Floriman	63691	Black (6 Suits)	4
-Floriman	65391	Up or Down & Pink (5 Suits)	4
 Floriman	67567	Rainbow & Brown (6 Suits)	4
 Floriman	68141	Omni (6 Suits)	4
 Floriman	68143	Alternating Clues (5 Suits)	4
 Floriman	68773	Black (5 Suits)	4
 Floriman	68789	Black (6 Suits)	4
-Floriman	68927	Up or Down & White (6 Suits)	4
 Floriman	69314	Brown & Omni (6 Suits)	4
 Floriman	70924	Brown (6 Suits)	4
 Floriman	72032	Pink & Omni (6 Suits)	4
@@ -103,17 +94,13 @@ Floriman	80573	Black & Rainbow (5 Suits)	4
 Floriman	81698	Gray Pink (6 Suits)	4
 Floriman	83846	6 Suits	4
 Floriman	86203	No Variant	4
-Floriman	87991	Up or Down & Omni (5 Suits)	4
 Floriman	89415	Pink-Fives & Rainbow (6 Suits)	4
 Floriman	97949	Rainbow & Light Pink (6 Suits)	4
 Floriman	97970	Rainbow & Light Pink (6 Suits)	4
 Floriman	99921	White-Fives (6 Suits)	4
 Floriman	114539	Rainbow (6 Suits)	4
-Floriman	116078	Up or Down (6 Suits)	4
 Floriman	121790	Rainbow (6 Suits)	4
 Floriman	123327	Brown (5 Suits)	4
-Floriman	134569	Up or Down (6 Suits)	4
-Floriman	134826	Up or Down & Rainbow (5 Suits)	4
 Floriman	139560	No Variant	4
 Floriman	150701	Pink & Brown (5 Suits)	4
 Floriman	152180	Special Mix (6 Suits)	4
@@ -131,14 +118,12 @@ Floriman	207912	Alternating Clues & Pink (6 Suits)	4
 Floriman	210669	Dual-Color & Brown (6 Suits)	4
 Floriman	210694	Dual-Color & Omni (6 Suits)	4
 Floriman	219759	Dual-Color & Brown (6 Suits)	4
-Floriman	233393	Up or Down (6 Suits)	4
 Floriman	245333	Brown-Fives & Pink (6 Suits)	4
 Floriman	257067	Dual-Color (6 Suits)	4
 Floriman	257141	Pink & Brown (5 Suits)	4
 Floriman	257897	No Variant	4
 Floriman	264485	6 Suits	4
 Floriman	267232	Rainbow-Fives & Brown (6 Suits)	4
-Floriman	270131	Up or Down & Brown (6 Suits)	4
 Floriman	275224	Dual-Color & Pink (6 Suits)	4
 Floriman	284027	White-Ones & Prism (6 Suits)	4
 Floriman	287355	White & Prism (6 Suits)	4
@@ -160,7 +145,6 @@ Floriman	340938	Black (6 Suits)	4
 Floriman	378952	Up or Down & Brown (5 Suits)	4
 Floriman	381990	Dark Pink (6 Suits)	4
 Floriman	383196	White & Gray Pink (6 Suits)	4
-Floriman	384912	Up or Down (6 Suits)	4
 Floriman	399077	Clue Starved & White (6 Suits)	4
 Floriman	401109	Rainbow & Light Pink (6 Suits)	4
 Floriman	404148	Brown & Prism (6 Suits)	4
@@ -174,9 +158,6 @@ Floriman	479615	Prism Reversed (5 Suits)	4
 Floriman	534769	Dark Rainbow Reversed (6 Suits)	4
 Floriman	540425	Gray Reversed (6 Suits)	4
 Floriman	541905	Rainbow Reversed (6 Suits)	4
-Floriman	546724	Up or Down & Pink (6 Suits)	4
-Floriman	569099	Up or Down & Brown (6 Suits)	4
-Floriman	586324	Up or Down (5 Suits)	4
 Floriman	591045	Dual-Color & Black (6 Suits)	4
 Floriman	624738	Dual-Color Mix	4
 Floriman	631080	Rainbow & Omni (6 Suits)	4
@@ -197,33 +178,27 @@ Floriman	56544	Black (6 Suits)	3
 Floriman	57325	Brown (5 Suits)	3
 Floriman	57713	Black (6 Suits)	3
 Floriman	57778	Up or Down (5 Suits)	3
+Floriman	57784	Up or Down (5 Suits)	3
 Floriman	58284	Black (5 Suits)	3
-Floriman	58299	Up or Down (6 Suits)	3
-Floriman	58302	Up or Down (6 Suits)	3
 Floriman	58783	Rainbow (6 Suits)	3
 Floriman	58864	Pink (5 Suits)	3
-Floriman	59205	Up or Down & Pink (6 Suits)	3
 Floriman	59682	Black & Pink (6 Suits)	3
 Floriman	60032	No Variant	3
-Floriman	60203	Up or Down & Brown (6 Suits)	3
 Floriman	60368	Rainbow & White (5 Suits)	3
-Floriman	60377	Up or Down & Rainbow (6 Suits)	3
-Floriman	60818	Up or Down & Rainbow (6 Suits)	3
 Floriman	61529	Light Pink (6 Suits)	3
-Floriman	61745	Up or Down & Rainbow (6 Suits)	3
+Floriman	61742	Up or Down & Rainbow (6 Suits)	3
 Floriman	61863	No Variant	3
 Floriman	61879	Black (6 Suits)	3
-Floriman	61950	Up or Down & White (5 Suits)	3
 Floriman	64613	6 Suits	3
 Floriman	64985	Rainbow & Omni (4 Suits)	3
 Floriman	65121	Omni (6 Suits)	3
 Floriman	65347	Up or Down & Omni (6 Suits)	3
+Floriman	65348	Up or Down & Omni (6 Suits)	3
 Floriman	65379	Black (5 Suits)	3
-Floriman	66240	Up or Down & Rainbow (5 Suits)	3
 Floriman	66571	Rainbow (4 Suits)	3
 Floriman	68138	Black & White (6 Suits)	3
 Floriman	68760	Light Pink (6 Suits)	3
-Floriman	68924	Up or Down & White (6 Suits)	3
+Floriman	68927	Up or Down & White (6 Suits)	3
 Floriman	69317	Brown & Omni (6 Suits)	3
 Floriman	70561	Totally Blind (6 Suits)	3
 Floriman	70922	Brown (6 Suits)	3
@@ -240,7 +215,6 @@ Floriman	73308	Black & Rainbow (6 Suits)	3
 Floriman	73738	Pink (5 Suits)	3
 Floriman	73740	Pink (5 Suits)	3
 Floriman	73751	White & Brown (6 Suits)	3
-Floriman	73846	Up or Down & Brown (6 Suits)	3
 Floriman	73919	Rainbow (5 Suits)	3
 Floriman	73950	No Variant	3
 Floriman	73972	No Variant	3
@@ -293,28 +267,26 @@ Floriman	101942	Dual-Color (6 Suits)	3
 Floriman	101972	Dual-Color (6 Suits)	3
 Floriman	103956	Rainbow & Brown (6 Suits)	3
 Floriman	114597	Rainbow (6 Suits)	3
-Floriman	123347	Up or Down (5 Suits)	3
+Floriman	123302	Up or Down (6 Suits)	3
 Floriman	124300	White & Brown (6 Suits)	3
 Floriman	127124	White (5 Suits)	3
 Floriman	130835	6 Suits	3
 Floriman	133047	Rainbow (6 Suits)	3
 Floriman	134156	Dual-Color (6 Suits)	3
+Floriman	134569	Up or Down (6 Suits)	3
+Floriman	134653	Up or Down (6 Suits)	3
 Floriman	134771	Gray (6 Suits)	3
-Floriman	136289	Up or Down (5 Suits)	3
 Floriman	139450	No Variant	3
 Floriman	140109	No Variant	3
 Floriman	140984	Omni (5 Suits)	3
-Floriman	143814	Up or Down & Muddy Rainbow (6 Suits)	3
 Floriman	143904	White & Light Pink (6 Suits)	3
 Floriman	143922	White & Light Pink (6 Suits)	3
-Floriman	160232	Up or Down & Muddy Rainbow (5 Suits)	3
 Floriman	169132	Black & Null (5 Suits)	3
 Floriman	178600	Black (6 Suits)	3
 Floriman	181352	Black (6 Suits)	3
 Floriman	183653	Dark Brown (6 Suits)	3
 Floriman	185456	Rainbow (5 Suits)	3
 Floriman	188200	Black & Rainbow (5 Suits)	3
-Floriman	190701	Up or Down & White (6 Suits)	3
 Floriman	191673	White-Fives & Light Pink (6 Suits)	3
 Floriman	191808	Omni (6 Suits)	3
 Floriman	202868	Black & Dark Pink (6 Suits)	3
@@ -328,7 +300,6 @@ Floriman	208729	Dark Pink (6 Suits)	3
 Floriman	212858	No Variant	3
 Floriman	212969	Null-Ones & Rainbow (5 Suits)	3
 Floriman	212976	Null-Ones & Rainbow (5 Suits)	3
-Floriman	216236	Up or Down & Muddy Rainbow (5 Suits)	3
 Floriman	217293	Rainbow (6 Suits)	3
 Floriman	218242	Rainbow (5 Suits)	3
 Floriman	219427	Brown-Ones & Omni (5 Suits)	3
@@ -336,7 +307,7 @@ Floriman	219671	Dual-Color & Brown (6 Suits)	3
 Floriman	224694	Dual-Color & Dark Omni (6 Suits)	3
 Floriman	229419	Rainbow & Light Pink (5 Suits)	3
 Floriman	231243	Brown (6 Suits)	3
-Floriman	233433	Up or Down (6 Suits)	3
+Floriman	233393	Up or Down (6 Suits)	3
 Floriman	235454	Rainbow-Fives & Gray (5 Suits)	3
 Floriman	238242	Black (6 Suits)	3
 Floriman	238483	No Variant	3
@@ -376,9 +347,7 @@ Floriman	318789	No Variant	3
 Floriman	318843	Black & Muddy Rainbow (6 Suits)	3
 Floriman	328748	Null-Ones (5 Suits)	3
 Floriman	328783	Null & Prism (5 Suits)	3
-Floriman	331268	Up or Down & Omni (5 Suits)	3
 Floriman	336237	No Variant	3
-Floriman	337582	Up or Down & Light Pink (5 Suits)	3
 Floriman	338488	Prism (6 Suits)	3
 Floriman	338544	Prism (6 Suits)	3
 Floriman	344356	Black & Omni (6 Suits)	3
@@ -387,14 +356,13 @@ Floriman	355467	White & Muddy Rainbow (6 Suits)	3
 Floriman	355903	Clue Starved & Prism (5 Suits)	3
 Floriman	372162	Prism (6 Suits)	3
 Floriman	375707	Rainbow (6 Suits)	3
-Floriman	378932	Up or Down & Brown (5 Suits)	3
 Floriman	382098	White Reversed (6 Suits)	3
 Floriman	384952	Reversed (6 Suits)	3
 Floriman	386433	Pink & Prism (6 Suits)	3
 Floriman	388162	Pink & Omni (5 Suits)	3
 Floriman	389198	Prism (6 Suits)	3
 Floriman	389250	Prism (6 Suits)	3
-Floriman	391491	Up or Down & Brown (6 Suits)	3
+Floriman	391474	Up or Down & Brown (5 Suits)	3
 Floriman	400545	Black Reversed (6 Suits)	3
 Floriman	409836	Dual-Color Mix	3
 Floriman	409891	Dual-Color Mix	3
@@ -416,7 +384,6 @@ Floriman	443017	Rainbow & Gray Pink (6 Suits)	3
 Floriman	446659	Throw It in a Hole (6 Suits)	3
 Floriman	446682	Throw It in a Hole (6 Suits)	3
 Floriman	448062	Cocoa Rainbow (6 Suits)	3
-Floriman	448877	Up or Down & Brown (6 Suits)	3
 Floriman	454064	Black & White (6 Suits)	3
 Floriman	454187	Rainbow & Gray (6 Suits)	3
 Floriman	456598	Omni-Fives & Dark Rainbow (5 Suits)	3
@@ -426,7 +393,6 @@ Floriman	462837	Cocoa Rainbow (6 Suits)	3
 Floriman	462990	Null & Cocoa Rainbow (6 Suits)	3
 Floriman	463689	Light-Pink-Fives & Muddy Rainbow (6 Suits)	3
 Floriman	464829	White & Muddy Rainbow (5 Suits)	3
-Floriman	473785	Up or Down & Omni (5 Suits)	3
 Floriman	474126	Light Pink & Prism (5 Suits)	3
 Floriman	474153	Brown & Muddy Rainbow (6 Suits)	3
 Floriman	477252	Pink & Brown (4 Suits)	3
@@ -441,6 +407,7 @@ Floriman	512238	Null & Light Pink (6 Suits)	3
 Floriman	527848	Black (5 Suits)	3
 Floriman	530760	No Variant	3
 Floriman	535776	Dark Rainbow Reversed (6 Suits)	3
+Floriman	546724	Up or Down & Pink (6 Suits)	3
 Floriman	611626	Light Pink & Prism (6 Suits)	3
 Floriman	611733	Pink & Prism (5 Suits)	3
 Floriman	614124	Pink & Gray Pink (6 Suits)	3
@@ -484,17 +451,15 @@ Floriman	57185	6 Suits	2
 Floriman	57191	White (6 Suits)	2
 Floriman	57327	Brown (5 Suits)	2
 Floriman	57706	Black (6 Suits)	2
-Floriman	57777	Up or Down (5 Suits)	2
 Floriman	57781	Up or Down (5 Suits)	2
 Floriman	57840	Rainbow (4 Suits)	2
 Floriman	57842	Rainbow (4 Suits)	2
 Floriman	57844	White (6 Suits)	2
 Floriman	58186	Alternating Clues (5 Suits)	2
 Floriman	58194	Omni (6 Suits)	2
-Floriman	58213	Up or Down (5 Suits)	2
 Floriman	58296	Up or Down (5 Suits)	2
-Floriman	58297	Up or Down (5 Suits)	2
-Floriman	58300	Up or Down (6 Suits)	2
+Floriman	58299	Up or Down (6 Suits)	2
+Floriman	58302	Up or Down (6 Suits)	2
 Floriman	58459	Rainbow-Ones (5 Suits)	2
 Floriman	58605	No Variant	2
 Floriman	58611	Black (6 Suits)	2
@@ -504,7 +469,6 @@ Floriman	58707	Black & Rainbow (5 Suits)	2
 Floriman	58782	Rainbow (6 Suits)	2
 Floriman	58865	Pink (5 Suits)	2
 Floriman	58871	Pink (5 Suits)	2
-Floriman	59153	Up or Down (6 Suits)	2
 Floriman	59317	Pink & White (5 Suits)	2
 Floriman	59341	Dark Pink (6 Suits)	2
 Floriman	59680	Black & Pink (6 Suits)	2
@@ -522,6 +486,7 @@ Floriman	61511	Muddy Rainbow (6 Suits)	2
 Floriman	61538	Dark Rainbow (5 Suits)	2
 Floriman	61910	Rainbow (5 Suits)	2
 Floriman	61918	White & Dark Pink (6 Suits)	2
+Floriman	61950	Up or Down & White (5 Suits)	2
 Floriman	61960	Pink-Fives & Rainbow (4 Suits)	2
 Floriman	61970	Pink-Fives & Rainbow (4 Suits)	2
 Floriman	62090	Very Ambiguous (3 Suits)	2
@@ -539,10 +504,10 @@ Floriman	64071	Dark Omni (6 Suits)	2
 Floriman	64101	Black & Pink (6 Suits)	2
 Floriman	64106	Dark Brown (6 Suits)	2
 Floriman	64622	6 Suits	2
-Floriman	65345	Up or Down & Rainbow (5 Suits)	2
 Floriman	65381	Null (6 Suits)	2
 Floriman	65383	Up or Down & Pink (5 Suits)	2
 Floriman	65731	Up or Down & Brown (6 Suits)	2
+Floriman	65734	Up or Down (6 Suits)	2
 Floriman	65841	No Variant	2
 Floriman	66352	Black (5 Suits)	2
 Floriman	66861	No Variant	2
@@ -661,6 +626,7 @@ Floriman	86069	Black & White (5 Suits)	2
 Floriman	86209	No Variant	2
 Floriman	87471	No Variant	2
 Floriman	87479	Light Pink (5 Suits)	2
+Floriman	87991	Up or Down & Omni (5 Suits)	2
 Floriman	88464	White & Brown (6 Suits)	2
 Floriman	91605	No Variant	2
 Floriman	91992	Rainbow (6 Suits)	2
@@ -686,11 +652,11 @@ Floriman	112889	Brown (5 Suits)	2
 Floriman	112996	Pink (6 Suits)	2
 Floriman	114318	Light-Pink-Ones & Muddy Rainbow (5 Suits)	2
 Floriman	115993	Up or Down (5 Suits)	2
-Floriman	116122	Up or Down & Rainbow (5 Suits)	2
 Floriman	117374	Ambiguous Mix	2
 Floriman	117771	Black (6 Suits)	2
 Floriman	118100	Black (6 Suits)	2
 Floriman	121766	No Variant	2
+Floriman	123347	Up or Down (5 Suits)	2
 Floriman	124338	White & Brown (6 Suits)	2
 Floriman	127151	White (5 Suits)	2
 Floriman	127832	Brown (5 Suits)	2
@@ -698,8 +664,9 @@ Floriman	128857	Dual-Color (6 Suits)	2
 Floriman	130730	6 Suits	2
 Floriman	132106	Rainbow (6 Suits)	2
 Floriman	134518	Up or Down (6 Suits)	2
+Floriman	134826	Up or Down & Rainbow (5 Suits)	2
 Floriman	135906	Gray (5 Suits)	2
-Floriman	138353	Up or Down & Pink (5 Suits)	2
+Floriman	136289	Up or Down (5 Suits)	2
 Floriman	139354	No Variant	2
 Floriman	139491	No Variant	2
 Floriman	139530	No Variant	2
@@ -710,7 +677,6 @@ Floriman	154934	Special Mix (5 Suits)	2
 Floriman	157434	Black (6 Suits)	2
 Floriman	162987	Brown-Ones & Rainbow (6 Suits)	2
 Floriman	163024	Brown-Ones & Rainbow (6 Suits)	2
-Floriman	164713	Up or Down & Pink (5 Suits)	2
 Floriman	164748	Up or Down & Omni (5 Suits)	2
 Floriman	166085	Rainbow-Ones & White (5 Suits)	2
 Floriman	168500	White & Light Pink (5 Suits)	2
@@ -719,7 +685,6 @@ Floriman	169055	Null (5 Suits)	2
 Floriman	169161	Black & Null (5 Suits)	2
 Floriman	171688	Brown-Fives & Light Pink (5 Suits)	2
 Floriman	173057	Black (6 Suits)	2
-Floriman	173078	Up or Down & White (5 Suits)	2
 Floriman	173141	Omni-Ones & Null (5 Suits)	2
 Floriman	176763	Rainbow & Muddy Rainbow (4 Suits)	2
 Floriman	176813	Rainbow & Light Pink (6 Suits)	2
@@ -789,7 +754,6 @@ Floriman	235420	White (6 Suits)	2
 Floriman	235530	Light-Pink-Ones & Brown (6 Suits)	2
 Floriman	237700	Black & Cocoa Rainbow (6 Suits)	2
 Floriman	240724	Pink-Ones (5 Suits)	2
-Floriman	241817	Up or Down & White (5 Suits)	2
 Floriman	242637	Pink & Brown (6 Suits)	2
 Floriman	245234	Cocoa Rainbow (6 Suits)	2
 Floriman	246102	Special Mix (5 Suits)	2
@@ -816,7 +780,7 @@ Floriman	267057	Dark Omni (6 Suits)	2
 Floriman	268204	White & Light Pink (5 Suits)	2
 Floriman	268265	Gray Pink (5 Suits)	2
 Floriman	269698	White (6 Suits)	2
-Floriman	270160	Up or Down & Brown (6 Suits)	2
+Floriman	270131	Up or Down & Brown (6 Suits)	2
 Floriman	272752	Muddy Rainbow (5 Suits)	2
 Floriman	275220	Dual-Color & Pink (6 Suits)	2
 Floriman	278817	Up or Down & White (6 Suits)	2
@@ -824,7 +788,6 @@ Floriman	283995	Dark Prism (6 Suits)	2
 Floriman	284802	White (6 Suits)	2
 Floriman	286502	Muddy Rainbow (5 Suits)	2
 Floriman	288028	Prism (5 Suits)	2
-Floriman	289814	Up or Down & Rainbow (6 Suits)	2
 Floriman	289849	Special Mix (5 Suits)	2
 Floriman	290672	Prism (4 Suits)	2
 Floriman	292802	Clue Starved (6 Suits)	2
@@ -845,7 +808,6 @@ Floriman	317283	Prism (5 Suits)	2
 Floriman	318227	Rainbow (6 Suits)	2
 Floriman	318815	Black & Muddy Rainbow (6 Suits)	2
 Floriman	320300	White & Prism (6 Suits)	2
-Floriman	320410	Up or Down & Prism (5 Suits)	2
 Floriman	320915	Rainbow-Ones & Pink (6 Suits)	2
 Floriman	321787	Black & Omni (6 Suits)	2
 Floriman	322456	Dark Pink (6 Suits)	2
@@ -858,7 +820,7 @@ Floriman	329276	Dark Rainbow (6 Suits)	2
 Floriman	331538	Muddy Rainbow & Gray (6 Suits)	2
 Floriman	333996	Up or Down & Rainbow (5 Suits)	2
 Floriman	336272	No Variant	2
-Floriman	337569	Up or Down & Light Pink (5 Suits)	2
+Floriman	337582	Up or Down & Light Pink (5 Suits)	2
 Floriman	338574	Prism (6 Suits)	2
 Floriman	338591	Prism (6 Suits)	2
 Floriman	339504	No Variant	2
@@ -873,9 +835,6 @@ Floriman	348949	Rainbow & White (5 Suits)	2
 Floriman	349631	Deceptive-Ones (5 Suits)	2
 Floriman	355172	Up or Down & Pink (5 Suits)	2
 Floriman	355917	Clue Starved & Prism (5 Suits)	2
-Floriman	357693	Up or Down & Brown (6 Suits)	2
-Floriman	357781	Up or Down & Omni (5 Suits)	2
-Floriman	358961	Up or Down & White (5 Suits)	2
 Floriman	360013	Rainbow & White (5 Suits)	2
 Floriman	361828	Dual-Color & Rainbow (6 Suits)	2
 Floriman	362857	Rainbow & Muddy Rainbow (5 Suits)	2
@@ -893,10 +852,10 @@ Floriman	381110	Dark Null (6 Suits)	2
 Floriman	382010	Cocoa Rainbow (5 Suits)	2
 Floriman	382060	Dark Pink (5 Suits)	2
 Floriman	382126	White Reversed (6 Suits)	2
-Floriman	384916	Up or Down (6 Suits)	2
-Floriman	384921	Up or Down (6 Suits)	2
+Floriman	384912	Up or Down (6 Suits)	2
 Floriman	387531	4 Suits	2
 Floriman	389233	Prism (6 Suits)	2
+Floriman	391491	Up or Down & Brown (6 Suits)	2
 Floriman	394521	Prism (6 Suits)	2
 Floriman	397926	Alternating Clues & Dark Prism (6 Suits)	2
 Floriman	399164	Gray & Dark Brown (6 Suits)	2
@@ -968,7 +927,6 @@ Floriman	501995	Null (5 Suits)	2
 Floriman	508790	Null (5 Suits)	2
 Floriman	508804	Null (5 Suits)	2
 Floriman	509621	White-Ones & Pink (6 Suits)	2
-Floriman	510637	Up or Down & Rainbow (6 Suits)	2
 Floriman	511325	Black & Null (6 Suits)	2
 Floriman	516027	Rainbow (6 Suits)	2
 Floriman	527837	Black (5 Suits)	2
@@ -980,6 +938,8 @@ Floriman	541398	Muddy Rainbow & Prism (6 Suits)	2
 Floriman	541874	Rainbow Reversed (6 Suits)	2
 Floriman	561387	Pink & Omni (6 Suits)	2
 Floriman	569074	Up or Down & Brown (6 Suits)	2
+Floriman	569099	Up or Down & Brown (6 Suits)	2
+Floriman	586324	Up or Down (5 Suits)	2
 Floriman	591518	Rainbow-Ones & Black (6 Suits)	2
 Floriman	593019	White-Ones & Dark Rainbow (6 Suits)	2
 Floriman	593554	Rainbow & Dark Prism (5 Suits)	2
@@ -1009,7 +969,6 @@ Floriman	647154	Muddy Rainbow & Light Pink (6 Suits)	2
 Floriman	654860	Rainbow-Ones & White (6 Suits)	2
 Floriman	662333	Brown-Fives & Prism (6 Suits)	2
 Floriman	662391	White & Muddy Rainbow (5 Suits)	2
-Floriman	671187	Up or Down & Prism (6 Suits)	2
 Floriman	672158	Omni-Ones (6 Suits)	2
 Floriman	691234	White & Omni (6 Suits)	2
 Floriman	696287	Dark Rainbow (6 Suits)	2
@@ -1027,7 +986,6 @@ Floriman	713160	Odds and Evens (6 Suits)	2
 Floriman	719256	6 Suits	2
 Floriman	743518	4 Suits	2
 Floriman	757812	Up or Down & White (6 Suits)	2
-Floriman	757831	Up or Down & Brown (5 Suits)	2
 Floriman	771443	Rainbow-Ones & Prism (6 Suits)	2
 Floriman	771479	Brown-Fives & Prism (5 Suits)	2
 Floriman	773407	Brown & Gray (5 Suits)	2
@@ -1051,6 +1009,7 @@ Floriman	56776	No Variant	1
 Floriman	57686	Black & White (5 Suits)	1
 Floriman	57688	Black & White (5 Suits)	1
 Floriman	57775	Up or Down (5 Suits)	1
+Floriman	57777	Up or Down (5 Suits)	1
 Floriman	57780	Up or Down (5 Suits)	1
 Floriman	57812	Black & White (5 Suits)	1
 Floriman	57841	Rainbow (4 Suits)	1
@@ -1060,8 +1019,9 @@ Floriman	57944	White (5 Suits)	1
 Floriman	57950	Black (6 Suits)	1
 Floriman	58193	White & Brown (4 Suits)	1
 Floriman	58206	Up or Down (5 Suits)	1
+Floriman	58213	Up or Down (5 Suits)	1
 Floriman	58281	Black (5 Suits)	1
-Floriman	58298	Up or Down (5 Suits)	1
+Floriman	58300	Up or Down (6 Suits)	1
 Floriman	58436	Dark Pink (6 Suits)	1
 Floriman	58603	No Variant	1
 Floriman	58607	No Variant	1
@@ -1069,11 +1029,15 @@ Floriman	58616	No Variant	1
 Floriman	58635	Pink-Fives (4 Suits)	1
 Floriman	58636	Pink-Fives (5 Suits)	1
 Floriman	58866	Pink (3 Suits)	1
+Floriman	59153	Up or Down (6 Suits)	1
+Floriman	59205	Up or Down & Pink (6 Suits)	1
 Floriman	59328	Dark Pink (6 Suits)	1
 Floriman	59337	Dark Pink (6 Suits)	1
 Floriman	59362	Dark Pink (5 Suits)	1
-Floriman	59867	Up or Down (5 Suits)	1
+Floriman	60203	Up or Down & Brown (6 Suits)	1
 Floriman	60371	Rainbow & White (5 Suits)	1
+Floriman	60377	Up or Down & Rainbow (6 Suits)	1
+Floriman	60818	Up or Down & Rainbow (6 Suits)	1
 Floriman	60824	Black & Pink (5 Suits)	1
 Floriman	60826	Rainbow & White (3 Suits)	1
 Floriman	61502	White & Brown (5 Suits)	1
@@ -1081,6 +1045,7 @@ Floriman	61719	Dark Brown (6 Suits)	1
 Floriman	61737	White & Brown (5 Suits)	1
 Floriman	61739	Up or Down & Rainbow (6 Suits)	1
 Floriman	61744	Up or Down & Rainbow (6 Suits)	1
+Floriman	61745	Up or Down & Rainbow (6 Suits)	1
 Floriman	61866	White (6 Suits)	1
 Floriman	61919	Rainbow & Dark Pink (6 Suits)	1
 Floriman	61920	Brown & Dark Pink (6 Suits)	1
@@ -1113,11 +1078,12 @@ Floriman	64984	Rainbow & Omni (4 Suits)	1
 Floriman	65161	Rainbow & Pink (4 Suits)	1
 Floriman	65168	Black (5 Suits)	1
 Floriman	65169	Black & White (6 Suits)	1
+Floriman	65391	Up or Down & Pink (5 Suits)	1
 Floriman	65393	Up or Down & Pink (5 Suits)	1
 Floriman	65707	Black & Dark Rainbow (6 Suits)	1
-Floriman	65729	Up or Down & Rainbow (6 Suits)	1
 Floriman	65739	Up or Down (6 Suits)	1
 Floriman	66239	Up or Down & Rainbow (5 Suits)	1
+Floriman	66240	Up or Down & Rainbow (5 Suits)	1
 Floriman	66354	Black (5 Suits)	1
 Floriman	66532	White & Omni (4 Suits)	1
 Floriman	66565	Pink (3 Suits)	1
@@ -1135,10 +1101,10 @@ Floriman	67570	Rainbow & Omni (3 Suits)	1
 Floriman	68140	4 Suits	1
 Floriman	68142	Alternating Clues (5 Suits)	1
 Floriman	68765	Rainbow & Gray (5 Suits)	1
+Floriman	68924	Up or Down & White (6 Suits)	1
 Floriman	68928	Rainbow (5 Suits)	1
 Floriman	68930	Black (6 Suits)	1
 Floriman	69407	Pink & Dark Rainbow (5 Suits)	1
-Floriman	70340	Up or Down & Rainbow (6 Suits)	1
 Floriman	70341	Rainbow & Pink (4 Suits)	1
 Floriman	70342	Pink (4 Suits)	1
 Floriman	70544	Rainbow-Ones & Pink (3 Suits)	1
@@ -1181,6 +1147,7 @@ Floriman	73747	Cocoa Rainbow (5 Suits)	1
 Floriman	73755	White & Brown (5 Suits)	1
 Floriman	73796	Gray Pink (5 Suits)	1
 Floriman	73845	Up or Down & Brown (6 Suits)	1
+Floriman	73846	Up or Down & Brown (6 Suits)	1
 Floriman	73918	Rainbow (5 Suits)	1
 Floriman	73933	Gray Pink (5 Suits)	1
 Floriman	73936	White & Dark Brown (6 Suits)	1
@@ -1309,9 +1276,10 @@ Floriman	112944	Brown (5 Suits)	1
 Floriman	113097	Rainbow-Ones & Light Pink (6 Suits)	1
 Floriman	114024	Black & White (6 Suits)	1
 Floriman	116037	Up or Down (5 Suits)	1
+Floriman	116078	Up or Down (6 Suits)	1
+Floriman	116122	Up or Down & Rainbow (5 Suits)	1
 Floriman	122143	Muddy Rainbow (4 Suits)	1
 Floriman	122170	Dark Brown (6 Suits)	1
-Floriman	123379	Up or Down (5 Suits)	1
 Floriman	127187	Pink (5 Suits)	1
 Floriman	128948	4 Suits	1
 Floriman	129458	No Variant	1
@@ -1321,13 +1289,14 @@ Floriman	132195	Rainbow (6 Suits)	1
 Floriman	133059	Black (6 Suits)	1
 Floriman	134147	Brown (6 Suits)	1
 Floriman	135939	Gray (5 Suits)	1
-Floriman	135956	Up or Down (5 Suits)	1
 Floriman	136153	Pink & Omni (5 Suits)	1
 Floriman	136193	Pink & Muddy Rainbow (6 Suits)	1
 Floriman	138307	Pink (5 Suits)	1
+Floriman	138353	Up or Down & Pink (5 Suits)	1
 Floriman	140156	Pink & Muddy Rainbow (5 Suits)	1
 Floriman	141008	Omni (5 Suits)	1
 Floriman	141334	No Variant	1
+Floriman	143814	Up or Down & Muddy Rainbow (6 Suits)	1
 Floriman	145291	No Variant	1
 Floriman	145419	No Variant	1
 Floriman	148827	Special Mix (5 Suits)	1
@@ -1343,6 +1312,7 @@ Floriman	166038	Light-Pink-Ones & White (6 Suits)	1
 Floriman	168474	White & Light Pink (5 Suits)	1
 Floriman	168512	White & Light Pink (5 Suits)	1
 Floriman	169033	Null (5 Suits)	1
+Floriman	173078	Up or Down & White (5 Suits)	1
 Floriman	173192	Omni-Ones & Null (5 Suits)	1
 Floriman	176837	Rainbow & Light Pink (5 Suits)	1
 Floriman	177133	Clue Starved (5 Suits)	1
@@ -1357,6 +1327,7 @@ Floriman	185416	Black (5 Suits)	1
 Floriman	186472	Black & Rainbow (5 Suits)	1
 Floriman	186719	Clue Starved (6 Suits)	1
 Floriman	190609	Pink & Light Pink (6 Suits)	1
+Floriman	190701	Up or Down & White (6 Suits)	1
 Floriman	190721	Null (6 Suits)	1
 Floriman	191412	Pink-Ones (6 Suits)	1
 Floriman	191727	White-Fives & Light Pink (6 Suits)	1
@@ -1394,7 +1365,6 @@ Floriman	225758	Rainbow & Brown (5 Suits)	1
 Floriman	226792	Omni-Fives & Light Pink (6 Suits)	1
 Floriman	226819	Rainbow & Brown (6 Suits)	1
 Floriman	228242	Gray & Dark Omni (6 Suits)	1
-Floriman	229135	Up or Down (6 Suits)	1
 Floriman	231398	Light Pink (5 Suits)	1
 Floriman	231419	Light Pink (5 Suits)	1
 Floriman	231448	Light Pink (5 Suits)	1
@@ -1412,6 +1382,7 @@ Floriman	240539	Rainbow & White (5 Suits)	1
 Floriman	240685	Pink-Ones (6 Suits)	1
 Floriman	240789	Pink-Ones (5 Suits)	1
 Floriman	240805	Pink-Ones (5 Suits)	1
+Floriman	241817	Up or Down & White (5 Suits)	1
 Floriman	242700	Special Mix (5 Suits)	1
 Floriman	242715	Special Mix (5 Suits)	1
 Floriman	244108	Rainbow (4 Suits)	1
@@ -1450,6 +1421,7 @@ Floriman	267081	Dark Omni (6 Suits)	1
 Floriman	268132	Brown-Ones & Pink (5 Suits)	1
 Floriman	268239	Gray Pink (5 Suits)	1
 Floriman	268900	6 Suits	1
+Floriman	270160	Up or Down & Brown (6 Suits)	1
 Floriman	270903	Omni (6 Suits)	1
 Floriman	270989	Ambiguous & Light Pink (5 Suits)	1
 Floriman	271914	Black & Dark Brown (6 Suits)	1
@@ -1479,6 +1451,7 @@ Floriman	286442	Black & Prism (6 Suits)	1
 Floriman	286724	Dark Prism (5 Suits)	1
 Floriman	287377	White & Prism (6 Suits)	1
 Floriman	288008	Prism (5 Suits)	1
+Floriman	289814	Up or Down & Rainbow (6 Suits)	1
 Floriman	289855	Special Mix (5 Suits)	1
 Floriman	290654	Prism (5 Suits)	1
 Floriman	294257	Prism (6 Suits)	1
@@ -1520,7 +1493,6 @@ Floriman	318800	No Variant	1
 Floriman	318855	Black & Muddy Rainbow (6 Suits)	1
 Floriman	319046	Black & White (6 Suits)	1
 Floriman	320933	Rainbow-Ones & Pink (6 Suits)	1
-Floriman	321104	Up or Down & Prism (5 Suits)	1
 Floriman	321120	Dark Null (5 Suits)	1
 Floriman	321767	Dark Omni (6 Suits)	1
 Floriman	321781	Black & Omni (6 Suits)	1
@@ -1548,13 +1520,13 @@ Floriman	329856	Black & Pink (5 Suits)	1
 Floriman	329865	Black & Pink (5 Suits)	1
 Floriman	329868	Black & Pink (5 Suits)	1
 Floriman	331240	Prism (3 Suits)	1
+Floriman	331268	Up or Down & Omni (5 Suits)	1
 Floriman	332103	Clue Starved & White (6 Suits)	1
 Floriman	332127	Muddy Rainbow & Gray (6 Suits)	1
 Floriman	332707	Rainbow (5 Suits)	1
 Floriman	332861	Pink & Dark Brown (5 Suits)	1
 Floriman	333976	Up or Down & Rainbow (5 Suits)	1
 Floriman	334015	Up or Down & Rainbow (5 Suits)	1
-Floriman	334030	Up or Down & Rainbow (5 Suits)	1
 Floriman	334509	Black & Pink (5 Suits)	1
 Floriman	336259	No Variant	1
 Floriman	336280	No Variant	1
@@ -1573,6 +1545,8 @@ Floriman	347277	Dual-Color Mix	1
 Floriman	349639	Deceptive-Ones (5 Suits)	1
 Floriman	355130	Gray Pink (6 Suits)	1
 Floriman	355425	White-Ones (4 Suits)	1
+Floriman	357693	Up or Down & Brown (6 Suits)	1
+Floriman	357781	Up or Down & Omni (5 Suits)	1
 Floriman	359074	Prism (5 Suits)	1
 Floriman	359785	No Variant	1
 Floriman	359972	Rainbow & White (5 Suits)	1
@@ -1597,11 +1571,14 @@ Floriman	376771	Brown (5 Suits)	1
 Floriman	376773	Brown (5 Suits)	1
 Floriman	376781	Dark Rainbow (5 Suits)	1
 Floriman	377184	Light Pink (6 Suits)	1
+Floriman	378932	Up or Down & Brown (5 Suits)	1
 Floriman	379824	Dark Rainbow (5 Suits)	1
 Floriman	379841	Reversed (4 Suits)	1
 Floriman	379848	Reversed (4 Suits)	1
 Floriman	382084	Prism Reversed (6 Suits)	1
 Floriman	384167	Muddy Rainbow (6 Suits)	1
+Floriman	384916	Up or Down (6 Suits)	1
+Floriman	384921	Up or Down (6 Suits)	1
 Floriman	384958	Reversed (6 Suits)	1
 Floriman	386392	Clue Starved (5 Suits)	1
 Floriman	386410	Rainbow & Pink (6 Suits)	1
@@ -1619,7 +1596,6 @@ Floriman	400526	Black Reversed (6 Suits)	1
 Floriman	401316	Dark Pink (5 Suits)	1
 Floriman	401375	Rainbow & Dark Brown (5 Suits)	1
 Floriman	402163	Clue Starved & Muddy Rainbow (6 Suits)	1
-Floriman	402899	Up or Down & Prism (6 Suits)	1
 Floriman	404168	Brown & Prism (6 Suits)	1
 Floriman	404387	Pink & Cocoa Rainbow (6 Suits)	1
 Floriman	406532	Dual-Color Mix	1
@@ -1684,6 +1660,7 @@ Floriman	466598	Clue Starved & Brown (5 Suits)	1
 Floriman	467092	Brown & Light Pink (6 Suits)	1
 Floriman	467161	Ambiguous & Brown (5 Suits)	1
 Floriman	471903	Special Mix (5 Suits)	1
+Floriman	473785	Up or Down & Omni (5 Suits)	1
 Floriman	473799	Up or Down & Omni (5 Suits)	1
 Floriman	478339	Brown & Prism (5 Suits)	1
 Floriman	479596	Clue Starved & Null (5 Suits)	1
@@ -1700,6 +1677,7 @@ Floriman	505911	Null (5 Suits)	1
 Floriman	505918	Null (5 Suits)	1
 Floriman	508832	Null (5 Suits)	1
 Floriman	509404	Up or Down (6 Suits)	1
+Floriman	510637	Up or Down & Rainbow (6 Suits)	1
 Floriman	511303	Prism Reversed (6 Suits)	1
 Floriman	511354	Black & Null (6 Suits)	1
 Floriman	511408	Rainbow & Null (6 Suits)	1
@@ -1715,7 +1693,6 @@ Floriman	524507	Gray (5 Suits)	1
 Floriman	527822	Black (5 Suits)	1
 Floriman	527886	White & Omni (3 Suits)	1
 Floriman	527927	White & Omni (4 Suits)	1
-Floriman	530822	Up or Down & Muddy Rainbow (6 Suits)	1
 Floriman	530838	Gray Reversed (6 Suits)	1
 Floriman	530939	Omni & Light Pink (6 Suits)	1
 Floriman	540384	Omni & Muddy Rainbow (6 Suits)	1
@@ -1829,6 +1806,7 @@ Floriman	719259	6 Suits	1
 Floriman	722982	Clue Starved & Pink (5 Suits)	1
 Floriman	726456	Pink & White (6 Suits)	1
 Floriman	730616	Black (5 Suits)	1
+Floriman	757831	Up or Down & Brown (5 Suits)	1
 Floriman	773395	Brown & Gray (5 Suits)	1
 Floriman	775611	No Variant	1
 Floriman	776163	Rainbow & Gray Pink (6 Suits)	1
@@ -1860,6 +1838,8 @@ Floriman	57790	Black & White (6 Suits)	0
 Floriman	57820	Black & Rainbow (5 Suits)	0
 Floriman	57910	Gray (5 Suits)	0
 Floriman	58283	Black (5 Suits)	0
+Floriman	58297	Up or Down (5 Suits)	0
+Floriman	58298	Up or Down (5 Suits)	0
 Floriman	58441	Dark Pink (5 Suits)	0
 Floriman	58443	White & Dark Pink (5 Suits)	0
 Floriman	58446	White & Dark Pink (5 Suits)	0
@@ -1872,6 +1852,7 @@ Floriman	58869	Pink (4 Suits)	0
 Floriman	58953	4 Suits	0
 Floriman	59201	Pink (6 Suits)	0
 Floriman	59359	Dark Pink (5 Suits)	0
+Floriman	59867	Up or Down (5 Suits)	0
 Floriman	60040	Dark Brown (5 Suits)	0
 Floriman	60160	Gray (6 Suits)	0
 Floriman	60161	Brown & Gray (5 Suits)	0
@@ -1918,7 +1899,9 @@ Floriman	64842	Ambiguous (4 Suits)	0
 Floriman	65166	Dark Rainbow (6 Suits)	0
 Floriman	65167	Black (5 Suits)	0
 Floriman	65170	Black (6 Suits)	0
+Floriman	65345	Up or Down & Rainbow (5 Suits)	0
 Floriman	65724	Up or Down & Rainbow (5 Suits)	0
+Floriman	65729	Up or Down & Rainbow (6 Suits)	0
 Floriman	65842	No Variant	0
 Floriman	65844	Rainbow & Pink (3 Suits)	0
 Floriman	65845	Rainbow & Pink (3 Suits)	0
@@ -1944,6 +1927,7 @@ Floriman	69439	Rainbow-Ones (5 Suits)	0
 Floriman	69465	Rainbow-Ones (3 Suits)	0
 Floriman	69478	Rainbow-Ones (3 Suits)	0
 Floriman	70339	Rainbow & Dark Brown (5 Suits)	0
+Floriman	70340	Up or Down & Rainbow (6 Suits)	0
 Floriman	70515	Black (5 Suits)	0
 Floriman	70518	Black (5 Suits)	0
 Floriman	70543	Pink & Brown (5 Suits)	0
@@ -2094,6 +2078,7 @@ Floriman	117927	Black (5 Suits)	0
 Floriman	117989	Black (5 Suits)	0
 Floriman	118039	Black (5 Suits)	0
 Floriman	121743	No Variant	0
+Floriman	123379	Up or Down (5 Suits)	0
 Floriman	124174	No Variant	0
 Floriman	124378	Rainbow & Pink (5 Suits)	0
 Floriman	124422	Duck (5 Suits)	0
@@ -2116,6 +2101,7 @@ Floriman	129025	Pink (4 Suits)	0
 Floriman	129600	Pink (5 Suits)	0
 Floriman	133075	Gray (5 Suits)	0
 Floriman	135926	Gray (5 Suits)	0
+Floriman	135956	Up or Down (5 Suits)	0
 Floriman	141034	Omni (5 Suits)	0
 Floriman	141095	Rainbow (6 Suits)	0
 Floriman	145523	Special Mix (5 Suits)	0
@@ -2123,6 +2109,8 @@ Floriman	150440	No Variant	0
 Floriman	154883	Black (5 Suits)	0
 Floriman	156162	Light Pink & Gray (5 Suits)	0
 Floriman	157506	Black (6 Suits)	0
+Floriman	160232	Up or Down & Muddy Rainbow (5 Suits)	0
+Floriman	164713	Up or Down & Pink (5 Suits)	0
 Floriman	168493	White & Light Pink (5 Suits)	0
 Floriman	169098	Null (5 Suits)	0
 Floriman	171708	Rainbow (5 Suits)	0
@@ -2171,13 +2159,16 @@ Floriman	211726	No Variant	0
 Floriman	211748	No Variant	0
 Floriman	213066	Brown (5 Suits)	0
 Floriman	213130	Dark Brown (5 Suits)	0
+Floriman	216236	Up or Down & Muddy Rainbow (5 Suits)	0
 Floriman	219438	Rainbow-Ones (5 Suits)	0
 Floriman	224745	Dual-Color & Dark Omni (6 Suits)	0
+Floriman	229135	Up or Down (6 Suits)	0
 Floriman	229162	Rainbow Reversed (5 Suits)	0
 Floriman	229444	White-Ones & Black (5 Suits)	0
 Floriman	231266	Omni (6 Suits)	0
 Floriman	232245	No Variant	0
 Floriman	232536	Black (6 Suits)	0
+Floriman	233433	Up or Down (6 Suits)	0
 Floriman	233463	Rainbow (3 Suits)	0
 Floriman	234235	No Variant	0
 Floriman	234273	Dark Brown (5 Suits)	0
@@ -2294,7 +2285,9 @@ Floriman	318208	Cocoa Rainbow (6 Suits)	0
 Floriman	318806	Cocoa Rainbow (5 Suits)	0
 Floriman	318822	Black & Muddy Rainbow (6 Suits)	0
 Floriman	319022	Cocoa Rainbow (6 Suits)	0
+Floriman	320410	Up or Down & Prism (5 Suits)	0
 Floriman	320922	Rainbow-Ones & Pink (6 Suits)	0
+Floriman	321104	Up or Down & Prism (5 Suits)	0
 Floriman	321135	Dark Null (5 Suits)	0
 Floriman	321817	Black & Omni (6 Suits)	0
 Floriman	322379	Dark Rainbow (5 Suits)	0
@@ -2317,12 +2310,14 @@ Floriman	332742	Prism (5 Suits)	0
 Floriman	332748	Prism (5 Suits)	0
 Floriman	332830	No Variant	0
 Floriman	333848	Omni (3 Suits)	0
+Floriman	334030	Up or Down & Rainbow (5 Suits)	0
 Floriman	334467	Black & Rainbow (6 Suits)	0
 Floriman	336227	Rainbow & Gray Pink (6 Suits)	0
 Floriman	336294	Brown-Ones (4 Suits)	0
 Floriman	336302	Brown-Ones & Omni (6 Suits)	0
 Floriman	336315	Brown-Ones & Omni (6 Suits)	0
 Floriman	337117	Brown & Prism (5 Suits)	0
+Floriman	337569	Up or Down & Light Pink (5 Suits)	0
 Floriman	338561	Prism (6 Suits)	0
 Floriman	339453	Rainbow & White (4 Suits)	0
 Floriman	341877	Rainbow & Dark Prism (5 Suits)	0
@@ -2343,6 +2338,7 @@ Floriman	351992	Rainbow & Muddy Rainbow (5 Suits)	0
 Floriman	354584	Rainbow & Dark Null (5 Suits)	0
 Floriman	357812	Black & Light Pink (5 Suits)	0
 Floriman	358320	Dark Brown (5 Suits)	0
+Floriman	358961	Up or Down & White (5 Suits)	0
 Floriman	359061	Omni (5 Suits)	0
 Floriman	359794	Reversed (6 Suits)	0
 Floriman	359956	Rainbow (6 Suits)	0
@@ -2375,6 +2371,7 @@ Floriman	398428	Dark Rainbow (6 Suits)	0
 Floriman	399178	Special Mix (5 Suits)	0
 Floriman	400518	Black (5 Suits)	0
 Floriman	401062	Cocoa Rainbow & Gray Pink (6 Suits)	0
+Floriman	402899	Up or Down & Prism (6 Suits)	0
 Floriman	402915	Ambiguous & Black (5 Suits)	0
 Floriman	403214	No Variant	0
 Floriman	403254	No Variant	0
@@ -2437,6 +2434,7 @@ Floriman	446003	Up or Down & Prism (5 Suits)	0
 Floriman	448082	Dual-Color & Pink (4 Suits)	0
 Floriman	448676	Special Mix (5 Suits)	0
 Floriman	448836	Gray (5 Suits)	0
+Floriman	448877	Up or Down & Brown (6 Suits)	0
 Floriman	448965	Dark Pink (5 Suits)	0
 Floriman	450745	Clue Starved & Pink (5 Suits)	0
 Floriman	451267	Prism (5 Suits)	0
@@ -2488,6 +2486,7 @@ Floriman	524401	Gray (5 Suits)	0
 Floriman	524546	Gray (5 Suits)	0
 Floriman	527857	Black (5 Suits)	0
 Floriman	527875	Black (5 Suits)	0
+Floriman	530822	Up or Down & Muddy Rainbow (6 Suits)	0
 Floriman	530874	Rainbow & Dark Pink (5 Suits)	0
 Floriman	541418	Muddy Rainbow & Prism (6 Suits)	0
 Floriman	542119	Pink-Ones & White (6 Suits)	0
@@ -2574,6 +2573,7 @@ Floriman	667644	White & Prism (5 Suits)	0
 Floriman	667663	Light Pink & Dark Brown (6 Suits)	0
 Floriman	670166	Rainbow-Fives & Omni (6 Suits)	0
 Floriman	671128	Clue Starved & Pink (5 Suits)	0
+Floriman	671187	Up or Down & Prism (6 Suits)	0
 Floriman	674416	No Variant	0
 Floriman	674442	No Variant	0
 Floriman	674980	Brown-Ones (5 Suits)	0

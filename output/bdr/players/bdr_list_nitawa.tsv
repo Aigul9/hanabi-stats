@@ -1,5 +1,4 @@
 Player	Game id	Variant	BDR
-nitawa	465707	Up or Down & Rainbow (6 Suits)	7
 nitawa	520379	Brown (6 Suits)	7
 nitawa	311325	Rainbow (6 Suits)	6
 nitawa	312685	Black (6 Suits)	6
@@ -8,13 +7,11 @@ nitawa	373144	6 Suits	6
 nitawa	581860	6 Suits	6
 nitawa	719246	Pink & Gray (6 Suits)	6
 nitawa	307261	Rainbow (6 Suits)	5
-nitawa	314452	Up or Down (6 Suits)	5
 nitawa	335342	No Variant	5
 nitawa	340988	No Variant	5
 nitawa	344096	Null-Ones & Prism (5 Suits)	5
 nitawa	358993	Duck (5 Suits)	5
 nitawa	360923	No Variant	5
-nitawa	374045	Up or Down (5 Suits)	5
 nitawa	403362	Null (6 Suits)	5
 nitawa	405073	Dual-Color Mix	5
 nitawa	408441	Dual-Color Mix	5
@@ -30,8 +27,6 @@ nitawa	306150	No Variant	4
 nitawa	308453	Prism (5 Suits)	4
 nitawa	310493	White (6 Suits)	4
 nitawa	314332	No Variant	4
-nitawa	314423	Up or Down (6 Suits)	4
-nitawa	315213	Up or Down (6 Suits)	4
 nitawa	329900	No Variant	4
 nitawa	330440	No Variant	4
 nitawa	356997	Dark Rainbow (6 Suits)	4
@@ -65,9 +60,6 @@ nitawa	606378	Black & Rainbow (6 Suits)	4
 nitawa	614557	Black & Rainbow (6 Suits)	4
 nitawa	660932	Prism & Gray (6 Suits)	4
 nitawa	669550	Prism Reversed (6 Suits)	4
-nitawa	672926	Up or Down & Brown (6 Suits)	4
-nitawa	672970	Up or Down & Brown (6 Suits)	4
-nitawa	676357	Up or Down & Brown (6 Suits)	4
 nitawa	691645	Pink & Gray (6 Suits)	4
 nitawa	700665	Dark Prism (6 Suits)	4
 nitawa	706643	Black & Cocoa Rainbow (6 Suits)	4
@@ -89,6 +81,8 @@ nitawa	307649	White (6 Suits)	3
 nitawa	309112	Prism (5 Suits)	3
 nitawa	309184	Black (6 Suits)	3
 nitawa	311768	No Variant	3
+nitawa	314452	Up or Down (6 Suits)	3
+nitawa	315213	Up or Down (6 Suits)	3
 nitawa	315793	Rainbow (5 Suits)	3
 nitawa	315891	No Variant	3
 nitawa	328748	Null-Ones (5 Suits)	3
@@ -103,7 +97,6 @@ nitawa	344835	Null-Ones (4 Suits)	3
 nitawa	345282	Null-Ones (5 Suits)	3
 nitawa	347741	No Variant	3
 nitawa	347746	No Variant	3
-nitawa	350907	Up or Down (5 Suits)	3
 nitawa	353860	Brown (6 Suits)	3
 nitawa	355489	Pink (5 Suits)	3
 nitawa	355877	Black & White (5 Suits)	3
@@ -122,6 +115,7 @@ nitawa	362421	Cow & Pig (5 Suits)	3
 nitawa	368803	White (5 Suits)	3
 nitawa	370864	Pink (6 Suits)	3
 nitawa	373184	White-Ones (5 Suits)	3
+nitawa	374045	Up or Down (5 Suits)	3
 nitawa	390328	Gray (5 Suits)	3
 nitawa	392121	Black (5 Suits)	3
 nitawa	394498	Brown (6 Suits)	3
@@ -200,6 +194,7 @@ nitawa	670446	Rainbow & Gray (5 Suits)	3
 nitawa	670616	Dark Pink (6 Suits)	3
 nitawa	672302	Dark Prism (6 Suits)	3
 nitawa	672674	Rainbow & Light Pink (6 Suits)	3
+nitawa	672970	Up or Down & Brown (6 Suits)	3
 nitawa	690197	Very Ambiguous (6 Suits)	3
 nitawa	691940	Rainbow & Gray Pink (5 Suits)	3
 nitawa	691959	Rainbow & Gray Pink (5 Suits)	3
@@ -249,6 +244,7 @@ nitawa	311136	Black (6 Suits)	2
 nitawa	311293	Rainbow (6 Suits)	2
 nitawa	311821	Null-Ones (5 Suits)	2
 nitawa	312723	Black (6 Suits)	2
+nitawa	314423	Up or Down (6 Suits)	2
 nitawa	315769	Brown (5 Suits)	2
 nitawa	315980	No Variant	2
 nitawa	325866	No Variant	2
@@ -279,7 +275,6 @@ nitawa	345378	Special Mix (5 Suits)	2
 nitawa	347292	Null-Ones & White (5 Suits)	2
 nitawa	347742	No Variant	2
 nitawa	347744	No Variant	2
-nitawa	350927	Up or Down (5 Suits)	2
 nitawa	355916	Dark Omni (5 Suits)	2
 nitawa	356305	Null-Ones (5 Suits)	2
 nitawa	356315	Null-Ones (5 Suits)	2
@@ -310,8 +305,6 @@ nitawa	369208	Cocoa Rainbow (5 Suits)	2
 nitawa	371935	Muddy Rainbow & Light Pink (5 Suits)	2
 nitawa	372058	Light-Pink-Ones & Prism (5 Suits)	2
 nitawa	373193	White-Ones (5 Suits)	2
-nitawa	373757	Up or Down & Pink (5 Suits)	2
-nitawa	374090	Up or Down (5 Suits)	2
 nitawa	376688	Pink (5 Suits)	2
 nitawa	376731	Dark Rainbow (5 Suits)	2
 nitawa	379797	Prism Reversed (5 Suits)	2
@@ -379,6 +372,7 @@ nitawa	456169	Throw It in a Hole (6 Suits)	2
 nitawa	456825	Muddy Rainbow (6 Suits)	2
 nitawa	460548	Throw It in a Hole (6 Suits)	2
 nitawa	460733	Dark Omni (5 Suits)	2
+nitawa	465707	Up or Down & Rainbow (6 Suits)	2
 nitawa	477256	Black (5 Suits)	2
 nitawa	478188	White (5 Suits)	2
 nitawa	480542	No Variant	2
@@ -468,8 +462,8 @@ nitawa	670061	No Variant	2
 nitawa	671216	Brown (6 Suits)	2
 nitawa	671224	Brown (6 Suits)	2
 nitawa	671427	No Variant	2
+nitawa	672926	Up or Down & Brown (6 Suits)	2
 nitawa	673758	Rainbow (5 Suits)	2
-nitawa	676337	Up or Down & Brown (6 Suits)	2
 nitawa	678097	Rainbow & Gray (6 Suits)	2
 nitawa	678111	Black & Gray Pink (6 Suits)	2
 nitawa	681276	Gray Pink (5 Suits)	2
@@ -591,7 +585,6 @@ nitawa	331302	Dark Prism Reversed (6 Suits)	1
 nitawa	332004	Brown (5 Suits)	1
 nitawa	332676	No Variant	1
 nitawa	336354	No Variant	1
-nitawa	336799	Up or Down (6 Suits)	1
 nitawa	337015	Rainbow (3 Suits)	1
 nitawa	337504	No Variant	1
 nitawa	337619	Rainbow (6 Suits)	1
@@ -606,6 +599,8 @@ nitawa	347072	Special Mix (5 Suits)	1
 nitawa	347185	Brown (5 Suits)	1
 nitawa	347203	Rainbow & Brown (5 Suits)	1
 nitawa	347740	No Variant	1
+nitawa	350907	Up or Down (5 Suits)	1
+nitawa	350927	Up or Down (5 Suits)	1
 nitawa	351103	Rainbow & Light Pink (5 Suits)	1
 nitawa	355119	Rainbow (6 Suits)	1
 nitawa	356668	Gray Pink (5 Suits)	1
@@ -639,6 +634,8 @@ nitawa	371953	Muddy Rainbow & Light Pink (5 Suits)	1
 nitawa	372013	Light-Pink-Ones & Brown (5 Suits)	1
 nitawa	373236	White-Ones (6 Suits)	1
 nitawa	373696	Prism (4 Suits)	1
+nitawa	373757	Up or Down & Pink (5 Suits)	1
+nitawa	374090	Up or Down (5 Suits)	1
 nitawa	374611	Black (6 Suits)	1
 nitawa	374885	4 Suits	1
 nitawa	374935	Muddy Rainbow (5 Suits)	1
@@ -728,7 +725,6 @@ nitawa	440160	Gray Pink (6 Suits)	1
 nitawa	440784	Brown (4 Suits)	1
 nitawa	440795	Pink (3 Suits)	1
 nitawa	440971	Prism Reversed (5 Suits)	1
-nitawa	441020	Up or Down & Prism (5 Suits)	1
 nitawa	443453	Dark Prism (5 Suits)	1
 nitawa	449826	Black (6 Suits)	1
 nitawa	450137	White-Ones & Black (5 Suits)	1
@@ -875,6 +871,7 @@ nitawa	672831	No Variant	1
 nitawa	673558	White (5 Suits)	1
 nitawa	673628	Pink & Gray (5 Suits)	1
 nitawa	673775	Rainbow (5 Suits)	1
+nitawa	676357	Up or Down & Brown (6 Suits)	1
 nitawa	677049	Black & Muddy Rainbow (6 Suits)	1
 nitawa	677463	Black & Gray (6 Suits)	1
 nitawa	677468	Black & Gray (6 Suits)	1
@@ -1088,6 +1085,7 @@ nitawa	333778	Black (5 Suits)	0
 nitawa	333812	Black (5 Suits)	0
 nitawa	333833	3 Suits	0
 nitawa	336332	No Variant	0
+nitawa	336799	Up or Down (6 Suits)	0
 nitawa	337763	Black (6 Suits)	0
 nitawa	338374	Brown (3 Suits)	0
 nitawa	339407	Prism (3 Suits)	0
@@ -1207,6 +1205,7 @@ nitawa	436730	3 Suits	0
 nitawa	439061	Rainbow (4 Suits)	0
 nitawa	439874	White-Ones & Rainbow (5 Suits)	0
 nitawa	440791	White (3 Suits)	0
+nitawa	441020	Up or Down & Prism (5 Suits)	0
 nitawa	441827	Throw It in a Hole (6 Suits)	0
 nitawa	443041	White-Ones & Dark Prism (6 Suits)	0
 nitawa	443478	Dark Brown (5 Suits)	0
@@ -1374,6 +1373,7 @@ nitawa	672677	Rainbow & Prism (5 Suits)	0
 nitawa	672806	No Variant	0
 nitawa	673729	Dark Prism (5 Suits)	0
 nitawa	676292	Rainbow (5 Suits)	0
+nitawa	676337	Up or Down & Brown (6 Suits)	0
 nitawa	677028	Black & Pink (6 Suits)	0
 nitawa	677484	Black & Gray Pink (6 Suits)	0
 nitawa	677490	Black & Gray Pink (6 Suits)	0

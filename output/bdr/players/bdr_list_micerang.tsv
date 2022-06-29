@@ -1,12 +1,10 @@
 Player	Game id	Variant	BDR
 micerang	634223	Omni & Muddy Rainbow (6 Suits)	10
-micerang	73522	Up or Down & Null (6 Suits)	8
 micerang	38217	Rainbow (6 Suits)	7
 micerang	38271	Black & Rainbow (6 Suits)	7
 micerang	41215	Black & Rainbow (6 Suits)	7
 micerang	43111	6 Suits	7
 micerang	50169	Muddy Rainbow (6 Suits)	7
-micerang	73523	Up or Down & Null (6 Suits)	7
 micerang	660518	Clue Starved & Omni (6 Suits)	7
 micerang	680562	Light-Pink-Ones & Gray Pink (6 Suits)	7
 micerang	34876	Brown (6 Suits)	6
@@ -15,14 +13,9 @@ micerang	46320	Black (5 Suits)	6
 micerang	50171	Muddy Rainbow (6 Suits)	6
 micerang	53361	No Variant	6
 micerang	57921	Black & Brown (6 Suits)	6
-micerang	60813	Up or Down & Rainbow (6 Suits)	6
-micerang	60819	Up or Down & Rainbow (6 Suits)	6
 micerang	72334	Rainbow (6 Suits)	6
-micerang	80194	Up or Down (6 Suits)	6
 micerang	94217	Black & Pink (6 Suits)	6
 micerang	100221	Ambiguous (6 Suits)	6
-micerang	131599	Up or Down & Muddy Rainbow (6 Suits)	6
-micerang	131603	Up or Down & Muddy Rainbow (6 Suits)	6
 micerang	215981	Rainbow (6 Suits)	6
 micerang	348525	Rainbow (6 Suits)	6
 micerang	352398	Muddy Rainbow & Prism (6 Suits)	6
@@ -37,37 +30,33 @@ micerang	38400	Up or Down (6 Suits)	5
 micerang	38469	Brown (6 Suits)	5
 micerang	38767	No Variant	5
 micerang	41242	6 Suits	5
-micerang	41583	Up or Down (6 Suits)	5
 micerang	43403	6 Suits	5
 micerang	43955	White & Brown (5 Suits)	5
 micerang	44114	Black (6 Suits)	5
 micerang	44410	Black & Pink (6 Suits)	5
 micerang	44815	Rainbow (5 Suits)	5
-micerang	47384	Up or Down (6 Suits)	5
 micerang	47711	Rainbow (6 Suits)	5
-micerang	47912	Up or Down (6 Suits)	5
 micerang	48302	Rainbow (6 Suits)	5
 micerang	49029	Rainbow (6 Suits)	5
-micerang	49168	Up or Down (6 Suits)	5
 micerang	49582	Black (6 Suits)	5
-micerang	53606	Up or Down (6 Suits)	5
-micerang	55341	Up or Down & Rainbow (6 Suits)	5
 micerang	55947	Omni (6 Suits)	5
 micerang	58915	Ambiguous & Rainbow (5 Suits)	5
 micerang	60129	Rainbow (6 Suits)	5
+micerang	60813	Up or Down & Rainbow (6 Suits)	5
+micerang	60819	Up or Down & Rainbow (6 Suits)	5
 micerang	61519	Light Pink (6 Suits)	5
 micerang	62175	No Variant	5
 micerang	64931	Black & Rainbow (6 Suits)	5
 micerang	66648	Throw It in a Hole (6 Suits)	5
 micerang	70753	Black & Omni (5 Suits)	5
 micerang	72803	Dark Brown (6 Suits)	5
+micerang	73522	Up or Down & Null (6 Suits)	5
 micerang	73694	Black & White (6 Suits)	5
 micerang	73781	Rainbow-Ones & Pink (6 Suits)	5
 micerang	78814	Rainbow (5 Suits)	5
 micerang	79383	White (6 Suits)	5
 micerang	93794	Dual-Color Mix	5
 micerang	98331	Rainbow (6 Suits)	5
-micerang	105213	Up or Down (6 Suits)	5
 micerang	132731	No Variant	5
 micerang	155016	Black & Muddy Rainbow (6 Suits)	5
 micerang	273934	White (6 Suits)	5
@@ -91,7 +80,6 @@ micerang	700160	Clue Starved (6 Suits)	5
 micerang	702142	No Variant	5
 micerang	743786	Brown & Dark Prism (6 Suits)	5
 micerang	757599	Brown & Dark Pink (6 Suits)	5
-micerang	781078	Up or Down & Pink (6 Suits)	5
 micerang	783814	Dual-Color & Rainbow (6 Suits)	5
 micerang	30866	Brown (6 Suits)	4
 micerang	30879	Brown (6 Suits)	4
@@ -109,7 +97,6 @@ micerang	40115	Gray (6 Suits)	4
 micerang	40282	No Variant	4
 micerang	41102	6 Suits	4
 micerang	41218	Rainbow & White (6 Suits)	4
-micerang	41580	Up or Down (6 Suits)	4
 micerang	43120	Black (6 Suits)	4
 micerang	43707	6 Suits	4
 micerang	43891	Black (6 Suits)	4
@@ -136,7 +123,6 @@ micerang	49373	Black (6 Suits)	4
 micerang	49494	Null (6 Suits)	4
 micerang	49845	Rainbow (5 Suits)	4
 micerang	50841	Pink-Fives (6 Suits)	4
-micerang	52339	Up or Down (6 Suits)	4
 micerang	52620	Dual-Color (5 Suits)	4
 micerang	53211	Null (6 Suits)	4
 micerang	55764	Rainbow & White (6 Suits)	4
@@ -147,26 +133,23 @@ micerang	57957	White (6 Suits)	4
 micerang	58325	Rainbow & Omni (6 Suits)	4
 micerang	58462	Rainbow-Ones (5 Suits)	4
 micerang	58939	Rainbow-Ones & Pink (5 Suits)	4
-micerang	59207	Up or Down & Pink (6 Suits)	4
-micerang	59801	Up or Down (6 Suits)	4
 micerang	61505	Muddy Rainbow (5 Suits)	4
 micerang	62004	Rainbow & Gray (6 Suits)	4
 micerang	62872	Dual-Color Mix	4
 micerang	65661	Pink & Null (5 Suits)	4
 micerang	67567	Rainbow & Brown (6 Suits)	4
-micerang	68812	Up or Down & Pink (6 Suits)	4
-micerang	68815	Up or Down & Rainbow (5 Suits)	4
 micerang	72509	Brown & Gray (5 Suits)	4
 micerang	72591	Rainbow (6 Suits)	4
 micerang	73327	Pink & Omni (6 Suits)	4
+micerang	73523	Up or Down & Null (6 Suits)	4
 micerang	73893	Rainbow & Dark Omni (6 Suits)	4
 micerang	73894	Light Pink (5 Suits)	4
 micerang	74002	Pink & Brown (5 Suits)	4
 micerang	74184	Omni (6 Suits)	4
 micerang	75494	Rainbow (6 Suits)	4
 micerang	75606	Rainbow & White (5 Suits)	4
-micerang	77609	Up or Down (6 Suits)	4
 micerang	79325	White (6 Suits)	4
+micerang	80194	Up or Down (6 Suits)	4
 micerang	82149	No Variant	4
 micerang	82161	No Variant	4
 micerang	86005	Dark Rainbow (5 Suits)	4
@@ -177,10 +160,10 @@ micerang	91245	Brown (6 Suits)	4
 micerang	95020	No Variant	4
 micerang	97949	Rainbow & Light Pink (6 Suits)	4
 micerang	97970	Rainbow & Light Pink (6 Suits)	4
+micerang	105213	Up or Down (6 Suits)	4
 micerang	106108	Rainbow (6 Suits)	4
 micerang	109505	No Variant	4
 micerang	118420	Pink (6 Suits)	4
-micerang	121850	Up or Down (5 Suits)	4
 micerang	126544	Light-Pink-Fives & Pink (6 Suits)	4
 micerang	176196	Totally Blind (6 Suits)	4
 micerang	190202	Black & Rainbow (5 Suits)	4
@@ -190,7 +173,6 @@ micerang	219121	Dual-Color & Brown (6 Suits)	4
 micerang	219759	Dual-Color & Brown (6 Suits)	4
 micerang	227815	White & Brown (5 Suits)	4
 micerang	229487	Rainbow & White (5 Suits)	4
-micerang	236999	Up or Down (5 Suits)	4
 micerang	241790	No Variant	4
 micerang	275578	White (6 Suits)	4
 micerang	297788	Prism (6 Suits)	4
@@ -198,15 +180,11 @@ micerang	299130	No Variant	4
 micerang	333557	Prism (6 Suits)	4
 micerang	335847	Prism (6 Suits)	4
 micerang	338320	Prism (6 Suits)	4
-micerang	359590	Up or Down (6 Suits)	4
 micerang	419536	Dark Prism (6 Suits)	4
 micerang	428777	No Variant	4
-micerang	491579	Up or Down & Omni (6 Suits)	4
-micerang	505612	Up or Down & White (6 Suits)	4
 micerang	531494	Rainbow & White (6 Suits)	4
 micerang	582064	Rainbow-Fives & Dark Brown (6 Suits)	4
 micerang	583100	Rainbow & White (6 Suits)	4
-micerang	605778	Up or Down & Light Pink (5 Suits)	4
 micerang	612572	Dark Prism (5 Suits)	4
 micerang	612587	White-Ones (5 Suits)	4
 micerang	618375	Pink-Ones & Black (6 Suits)	4
@@ -226,7 +204,6 @@ micerang	699427	Omni-Fives & Rainbow (6 Suits)	4
 micerang	700197	Prism & Gray (6 Suits)	4
 micerang	706557	Rainbow & Omni (6 Suits)	4
 micerang	727883	Pink & Omni (6 Suits)	4
-micerang	732576	Up or Down & Muddy Rainbow (6 Suits)	4
 micerang	736622	Rainbow & Pink (5 Suits)	4
 micerang	753399	Black & Cocoa Rainbow (6 Suits)	4
 micerang	759390	No Variant	4
@@ -258,7 +235,6 @@ micerang	38247	Brown (6 Suits)	3
 micerang	38258	Black (6 Suits)	3
 micerang	38436	No Variant	3
 micerang	38474	Brown (5 Suits)	3
-micerang	38549	Up or Down (5 Suits)	3
 micerang	38725	Dark Pink (6 Suits)	3
 micerang	39058	Brown (6 Suits)	3
 micerang	39060	Brown (6 Suits)	3
@@ -305,7 +281,6 @@ micerang	46428	Rainbow (6 Suits)	3
 micerang	46575	6 Suits	3
 micerang	46577	6 Suits	3
 micerang	46586	No Variant	3
-micerang	46731	Up or Down (6 Suits)	3
 micerang	46918	Rainbow (6 Suits)	3
 micerang	46999	Rainbow (6 Suits)	3
 micerang	47020	White (6 Suits)	3
@@ -316,14 +291,14 @@ micerang	47427	Muddy Rainbow (6 Suits)	3
 micerang	47431	No Variant	3
 micerang	47536	No Variant	3
 micerang	47653	Black & Brown (6 Suits)	3
-micerang	48041	Up or Down (6 Suits)	3
+micerang	47912	Up or Down (6 Suits)	3
 micerang	48311	White (5 Suits)	3
 micerang	48353	Rainbow (6 Suits)	3
 micerang	48428	Rainbow (6 Suits)	3
 micerang	48625	No Variant	3
 micerang	48630	No Variant	3
 micerang	48638	No Variant	3
-micerang	49340	Up or Down & Brown (5 Suits)	3
+micerang	49168	Up or Down (6 Suits)	3
 micerang	49386	Pink & Brown (6 Suits)	3
 micerang	49389	Pink & Brown (6 Suits)	3
 micerang	49480	Rainbow (5 Suits)	3
@@ -336,6 +311,7 @@ micerang	50872	Rainbow (5 Suits)	3
 micerang	50953	No Variant	3
 micerang	52168	No Variant	3
 micerang	53143	Pink & Gray (6 Suits)	3
+micerang	53606	Up or Down (6 Suits)	3
 micerang	53762	Pink (6 Suits)	3
 micerang	53769	Very Ambiguous (6 Suits)	3
 micerang	53804	Black (6 Suits)	3
@@ -344,6 +320,7 @@ micerang	53940	Rainbow (6 Suits)	3
 micerang	53943	Rainbow (6 Suits)	3
 micerang	53946	Rainbow (6 Suits)	3
 micerang	55151	Pink & Gray (6 Suits)	3
+micerang	55341	Up or Down & Rainbow (6 Suits)	3
 micerang	55359	White (5 Suits)	3
 micerang	55867	Black (6 Suits)	3
 micerang	56148	Muddy Rainbow (6 Suits)	3
@@ -355,13 +332,9 @@ micerang	57164	Black & White (6 Suits)	3
 micerang	57199	Gray (5 Suits)	3
 micerang	57200	Gray (6 Suits)	3
 micerang	57595	Color Mute (6 Suits)	3
-micerang	57615	Up or Down & White (6 Suits)	3
-micerang	57887	Up or Down & Rainbow (6 Suits)	3
 micerang	57922	Black & Brown (6 Suits)	3
 micerang	58069	No Variant	3
 micerang	58248	Rainbow (5 Suits)	3
-micerang	58299	Up or Down (6 Suits)	3
-micerang	58302	Up or Down (6 Suits)	3
 micerang	58335	Cocoa Rainbow (6 Suits)	3
 micerang	58495	No Variant	3
 micerang	58513	Ambiguous (6 Suits)	3
@@ -370,16 +343,14 @@ micerang	58807	Pink (6 Suits)	3
 micerang	58908	Light Pink (5 Suits)	3
 micerang	58919	Ambiguous & Rainbow (5 Suits)	3
 micerang	59070	Rainbow & White (6 Suits)	3
-micerang	59205	Up or Down & Pink (6 Suits)	3
+micerang	59207	Up or Down & Pink (6 Suits)	3
 micerang	59427	Dark Rainbow (5 Suits)	3
 micerang	59435	Dark Pink (6 Suits)	3
 micerang	60065	Black & Rainbow (5 Suits)	3
 micerang	60283	White (6 Suits)	3
-micerang	60818	Up or Down & Rainbow (6 Suits)	3
 micerang	60900	Null (6 Suits)	3
 micerang	60901	Null (6 Suits)	3
 micerang	61529	Light Pink (6 Suits)	3
-micerang	61924	Up or Down (6 Suits)	3
 micerang	62459	Rainbow & Dark Brown (6 Suits)	3
 micerang	62462	Rainbow & Dark Brown (6 Suits)	3
 micerang	63998	Null (5 Suits)	3
@@ -390,11 +361,11 @@ micerang	66231	No Variant	3
 micerang	66498	Brown & Dark Rainbow (6 Suits)	3
 micerang	66580	No Variant	3
 micerang	67955	Black (5 Suits)	3
+micerang	68812	Up or Down & Pink (6 Suits)	3
 micerang	69291	Pink & Dark Rainbow (6 Suits)	3
 micerang	70026	Rainbow & Pink (5 Suits)	3
 micerang	70030	Gray Pink (6 Suits)	3
 micerang	70486	Light Pink (6 Suits)	3
-micerang	70500	Up or Down & Brown (6 Suits)	3
 micerang	70953	Pink & Brown (6 Suits)	3
 micerang	71066	Brown & Gray (6 Suits)	3
 micerang	71067	Brown & Gray (6 Suits)	3
@@ -424,6 +395,7 @@ micerang	76513	White & Omni (6 Suits)	3
 micerang	76547	Pink & Brown (5 Suits)	3
 micerang	76552	Pink & Brown (5 Suits)	3
 micerang	77358	Rainbow (6 Suits)	3
+micerang	77609	Up or Down (6 Suits)	3
 micerang	80131	Ambiguous Mix	3
 micerang	80201	No Variant	3
 micerang	80584	Rainbow (6 Suits)	3
@@ -447,13 +419,15 @@ micerang	94809	Black & White (6 Suits)	3
 micerang	96829	No Variant	3
 micerang	98427	Brown & Gray (6 Suits)	3
 micerang	100142	Brown (5 Suits)	3
-micerang	105185	Up or Down (6 Suits)	3
 micerang	105244	Up or Down (6 Suits)	3
 micerang	112100	Rainbow (6 Suits)	3
 micerang	115423	No Variant	3
 micerang	118490	Rainbow & White (6 Suits)	3
+micerang	121850	Up or Down (5 Suits)	3
 micerang	123453	Black (6 Suits)	3
 micerang	128114	White & Dark Brown (6 Suits)	3
+micerang	131599	Up or Down & Muddy Rainbow (6 Suits)	3
+micerang	131603	Up or Down & Muddy Rainbow (6 Suits)	3
 micerang	148945	Black (5 Suits)	3
 micerang	155059	Rainbow & Muddy Rainbow (6 Suits)	3
 micerang	158247	Rainbow & Brown (6 Suits)	3
@@ -483,8 +457,6 @@ micerang	226838	No Variant	3
 micerang	228084	Pink-Ones & White (5 Suits)	3
 micerang	228127	Pink-Ones & White (5 Suits)	3
 micerang	229526	Rainbow & White (5 Suits)	3
-micerang	237791	Up or Down (5 Suits)	3
-micerang	237853	Up or Down (5 Suits)	3
 micerang	240665	Brown (5 Suits)	3
 micerang	241150	Dark Rainbow (6 Suits)	3
 micerang	254696	Pink (5 Suits)	3
@@ -505,12 +477,10 @@ micerang	313893	Rainbow & Gray (6 Suits)	3
 micerang	314967	Prism (5 Suits)	3
 micerang	317735	Cocoa Rainbow (5 Suits)	3
 micerang	317975	Rainbow (5 Suits)	3
-micerang	322075	Up or Down & Rainbow (5 Suits)	3
 micerang	323972	White & Brown (6 Suits)	3
 micerang	332610	White-Ones & Brown (5 Suits)	3
 micerang	332616	Null-Ones & Omni (5 Suits)	3
 micerang	333535	Prism (6 Suits)	3
-micerang	336521	Up or Down & Brown (6 Suits)	3
 micerang	340545	Dark Prism Reversed (6 Suits)	3
 micerang	345105	Dark Pink (6 Suits)	3
 micerang	352065	Black (5 Suits)	3
@@ -528,6 +498,7 @@ micerang	440386	Pink-Fives & Brown (5 Suits)	3
 micerang	446014	Up or Down & Prism (6 Suits)	3
 micerang	458735	Pink & Gray (6 Suits)	3
 micerang	459874	Rainbow & White (5 Suits)	3
+micerang	491579	Up or Down & Omni (6 Suits)	3
 micerang	491922	Rainbow & White (6 Suits)	3
 micerang	501668	Gray (6 Suits)	3
 micerang	534954	Gray Pink (5 Suits)	3
@@ -537,6 +508,7 @@ micerang	550905	Rainbow & Prism (6 Suits)	3
 micerang	552266	Omni (5 Suits)	3
 micerang	582075	Rainbow-Fives & Dark Brown (6 Suits)	3
 micerang	605756	Up or Down & Light Pink (5 Suits)	3
+micerang	605778	Up or Down & Light Pink (5 Suits)	3
 micerang	608789	Rainbow (5 Suits)	3
 micerang	616648	Throw It in a Hole & White (6 Suits)	3
 micerang	616901	Rainbow & Omni (6 Suits)	3
@@ -592,7 +564,6 @@ micerang	766268	Brown-Ones (6 Suits)	3
 micerang	769345	Rainbow-Fives & Dark Rainbow (6 Suits)	3
 micerang	770783	Omni-Ones & Dark Omni (6 Suits)	3
 micerang	781058	Up or Down & Pink (6 Suits)	3
-micerang	781063	Up or Down & Pink (6 Suits)	3
 micerang	791958	Rainbow-Fives & White (6 Suits)	3
 micerang	793466	No Variant	3
 micerang	797178	Brown (6 Suits)	3
@@ -668,11 +639,10 @@ micerang	41399	Brown (5 Suits)	2
 micerang	41544	No Variant	2
 micerang	41554	No Variant	2
 micerang	41577	No Variant	2
+micerang	41583	Up or Down (6 Suits)	2
 micerang	41594	Rainbow (5 Suits)	2
 micerang	41666	No Variant	2
 micerang	42011	6 Suits	2
-micerang	43104	Up or Down (5 Suits)	2
-micerang	43107	Up or Down (5 Suits)	2
 micerang	43210	No Variant	2
 micerang	43318	Brown (5 Suits)	2
 micerang	43396	No Variant	2
@@ -714,7 +684,7 @@ micerang	46425	White (5 Suits)	2
 micerang	46438	Brown (5 Suits)	2
 micerang	46445	Brown (5 Suits)	2
 micerang	46462	6 Suits	2
-micerang	46732	Up or Down (6 Suits)	2
+micerang	46731	Up or Down (6 Suits)	2
 micerang	46887	No Variant	2
 micerang	46942	Rainbow & Brown (3 Suits)	2
 micerang	46945	Rainbow & Brown (4 Suits)	2
@@ -723,6 +693,7 @@ micerang	47286	Brown (5 Suits)	2
 micerang	47290	Brown (5 Suits)	2
 micerang	47312	Black & Rainbow (6 Suits)	2
 micerang	47355	Black & Rainbow (6 Suits)	2
+micerang	47384	Up or Down (6 Suits)	2
 micerang	47417	Black (6 Suits)	2
 micerang	47424	Muddy Rainbow (6 Suits)	2
 micerang	47588	White (6 Suits)	2
@@ -731,6 +702,7 @@ micerang	47706	White (5 Suits)	2
 micerang	47827	Rainbow (6 Suits)	2
 micerang	47909	Up or Down (6 Suits)	2
 micerang	47969	White (6 Suits)	2
+micerang	48041	Up or Down (6 Suits)	2
 micerang	48100	Brown (6 Suits)	2
 micerang	48184	6 Suits	2
 micerang	48290	Rainbow (5 Suits)	2
@@ -749,7 +721,6 @@ micerang	49147	No Variant	2
 micerang	49151	No Variant	2
 micerang	49216	No Variant	2
 micerang	49324	No Variant	2
-micerang	49344	Up or Down & Brown (5 Suits)	2
 micerang	49478	Pink (6 Suits)	2
 micerang	49516	No Variant	2
 micerang	49567	No Variant	2
@@ -764,7 +735,6 @@ micerang	50046	Pink (5 Suits)	2
 micerang	50050	Rainbow (6 Suits)	2
 micerang	50108	6 Suits	2
 micerang	50120	Rainbow (5 Suits)	2
-micerang	50416	Up or Down & Brown (5 Suits)	2
 micerang	50554	Rainbow (6 Suits)	2
 micerang	50558	Rainbow (5 Suits)	2
 micerang	50692	Black (5 Suits)	2
@@ -781,7 +751,7 @@ micerang	51609	Pink & Dark Rainbow (6 Suits)	2
 micerang	51729	Rainbow (5 Suits)	2
 micerang	52052	Rainbow (5 Suits)	2
 micerang	52161	Gray (6 Suits)	2
-micerang	52268	Up or Down (5 Suits)	2
+micerang	52339	Up or Down (6 Suits)	2
 micerang	52548	Dual-Color (3 Suits)	2
 micerang	52958	Brown & Dark Rainbow (6 Suits)	2
 micerang	53144	Rainbow-Ones (5 Suits)	2
@@ -795,7 +765,6 @@ micerang	53596	Pink (5 Suits)	2
 micerang	53601	Rainbow (6 Suits)	2
 micerang	53717	Rainbow (5 Suits)	2
 micerang	53729	Pink & White (5 Suits)	2
-micerang	53732	Up or Down (5 Suits)	2
 micerang	53799	Black (6 Suits)	2
 micerang	53853	Rainbow (5 Suits)	2
 micerang	54178	Null (6 Suits)	2
@@ -816,18 +785,18 @@ micerang	57191	White (6 Suits)	2
 micerang	57359	Omni (5 Suits)	2
 micerang	57384	Omni (5 Suits)	2
 micerang	57398	Black (6 Suits)	2
-micerang	57409	Up or Down & Pink (5 Suits)	2
 micerang	57521	Pink-Fives (5 Suits)	2
 micerang	57524	Pink-Fives (5 Suits)	2
 micerang	57648	Black (6 Suits)	2
 micerang	57880	Muddy Rainbow (6 Suits)	2
-micerang	57881	Up or Down & Rainbow (6 Suits)	2
+micerang	57887	Up or Down & Rainbow (6 Suits)	2
 micerang	57960	White (6 Suits)	2
 micerang	58075	No Variant	2
 micerang	58088	No Variant	2
 micerang	58186	Alternating Clues (5 Suits)	2
 micerang	58194	Omni (6 Suits)	2
-micerang	58300	Up or Down (6 Suits)	2
+micerang	58299	Up or Down (6 Suits)	2
+micerang	58302	Up or Down (6 Suits)	2
 micerang	58331	Ambiguous (6 Suits)	2
 micerang	58340	Rainbow-Ones (5 Suits)	2
 micerang	58459	Rainbow-Ones (5 Suits)	2
@@ -837,14 +806,13 @@ micerang	58782	Rainbow (6 Suits)	2
 micerang	58842	Ambiguous (6 Suits)	2
 micerang	58871	Pink (5 Suits)	2
 micerang	58904	Muddy Rainbow (6 Suits)	2
-micerang	58909	Up or Down & Pink (5 Suits)	2
 micerang	58910	Rainbow & Null (6 Suits)	2
 micerang	59053	Rainbow (6 Suits)	2
 micerang	59227	Rainbow (5 Suits)	2
 micerang	59553	Black & Null (6 Suits)	2
 micerang	59568	Black & Null (5 Suits)	2
 micerang	59793	Dual-Color Mix	2
-micerang	59802	Up or Down (6 Suits)	2
+micerang	59801	Up or Down (6 Suits)	2
 micerang	59953	Gray (5 Suits)	2
 micerang	59954	Gray (5 Suits)	2
 micerang	59955	Gray (5 Suits)	2
@@ -859,7 +827,6 @@ micerang	61731	White & Dark Pink (6 Suits)	2
 micerang	61736	White & Dark Pink (6 Suits)	2
 micerang	61743	White & Dark Pink (6 Suits)	2
 micerang	61783	Very Ambiguous (3 Suits)	2
-micerang	61926	Up or Down (6 Suits)	2
 micerang	62698	Cocoa Rainbow (5 Suits)	2
 micerang	62914	Dark Pink (5 Suits)	2
 micerang	62921	Rainbow-Ones (5 Suits)	2
@@ -876,7 +843,6 @@ micerang	65669	Pink & Null (5 Suits)	2
 micerang	65818	Rainbow & Pink (5 Suits)	2
 micerang	65819	Rainbow & Pink (5 Suits)	2
 micerang	66167	Black (6 Suits)	2
-micerang	66179	Up or Down (6 Suits)	2
 micerang	66586	No Variant	2
 micerang	66593	No Variant	2
 micerang	67473	4 Suits	2
@@ -895,6 +861,7 @@ micerang	70042	Rainbow-Ones & Pink (5 Suits)	2
 micerang	70044	Pink-Fives (5 Suits)	2
 micerang	70069	Cow & Pig (5 Suits)	2
 micerang	70493	Dark Pink (5 Suits)	2
+micerang	70500	Up or Down & Brown (6 Suits)	2
 micerang	70749	White & Dark Pink (6 Suits)	2
 micerang	70835	Rainbow & Null (5 Suits)	2
 micerang	70839	Rainbow & Null (5 Suits)	2
@@ -950,7 +917,6 @@ micerang	78075	Rainbow (5 Suits)	2
 micerang	78187	Rainbow & Brown (5 Suits)	2
 micerang	78698	No Variant	2
 micerang	79884	Rainbow-Ones & Pink (6 Suits)	2
-micerang	80191	Up or Down (6 Suits)	2
 micerang	80197	4 Suits	2
 micerang	80198	No Variant	2
 micerang	80203	No Variant	2
@@ -968,7 +934,6 @@ micerang	86052	White (5 Suits)	2
 micerang	86053	Pink (5 Suits)	2
 micerang	86304	Pink & Null (4 Suits)	2
 micerang	86309	Pink & Null (4 Suits)	2
-micerang	86428	Up or Down & Omni (5 Suits)	2
 micerang	87479	Light Pink (5 Suits)	2
 micerang	87490	Rainbow (6 Suits)	2
 micerang	88226	White (6 Suits)	2
@@ -1020,7 +985,6 @@ micerang	151325	Rainbow-Fives (4 Suits)	2
 micerang	155093	Rainbow & Muddy Rainbow (6 Suits)	2
 micerang	158136	Rainbow & Brown (6 Suits)	2
 micerang	159293	White-Fives & Rainbow (5 Suits)	2
-micerang	160241	Up or Down & Light Pink (6 Suits)	2
 micerang	172205	Muddy-Rainbow-Ones & Light Pink (5 Suits)	2
 micerang	174906	Black (6 Suits)	2
 micerang	174991	Black (6 Suits)	2
@@ -1045,10 +1009,6 @@ micerang	225922	No Variant	2
 micerang	226813	Rainbow & Brown (6 Suits)	2
 micerang	227787	White & Brown (5 Suits)	2
 micerang	228454	Pink (5 Suits)	2
-micerang	230292	Up or Down (5 Suits)	2
-micerang	237075	Up or Down (5 Suits)	2
-micerang	237104	Up or Down (5 Suits)	2
-micerang	237237	Up or Down (5 Suits)	2
 micerang	237345	Up or Down (6 Suits)	2
 micerang	237896	Up or Down (5 Suits)	2
 micerang	239829	White (5 Suits)	2
@@ -1093,7 +1053,7 @@ micerang	334278	Prism (6 Suits)	2
 micerang	334299	Prism (6 Suits)	2
 micerang	335812	Prism (6 Suits)	2
 micerang	335860	Prism (6 Suits)	2
-micerang	336467	Up or Down & Brown (6 Suits)	2
+micerang	336521	Up or Down & Brown (6 Suits)	2
 micerang	337725	Prism (6 Suits)	2
 micerang	337745	Prism (6 Suits)	2
 micerang	338286	Prism (6 Suits)	2
@@ -1117,7 +1077,6 @@ micerang	419582	Special Mix (6 Suits)	2
 micerang	420953	No Variant	2
 micerang	422514	Rainbow (6 Suits)	2
 micerang	422811	Brown & Muddy Rainbow (5 Suits)	2
-micerang	430758	Up or Down (6 Suits)	2
 micerang	430927	4 Suits	2
 micerang	431995	No Variant	2
 micerang	432001	No Variant	2
@@ -1205,7 +1164,6 @@ micerang	650688	White-Fives (5 Suits)	2
 micerang	651271	White & Dark Omni (6 Suits)	2
 micerang	655957	Rainbow & White (6 Suits)	2
 micerang	656914	Critical Fours & Rainbow (6 Suits)	2
-micerang	659010	Up or Down & Muddy Rainbow (5 Suits)	2
 micerang	659136	White-Fives & Prism (5 Suits)	2
 micerang	664668	Brown-Ones & Black (6 Suits)	2
 micerang	666194	White & Prism (5 Suits)	2
@@ -1233,6 +1191,7 @@ micerang	729943	Omni (6 Suits)	2
 micerang	731768	No Variant	2
 micerang	732538	Rainbow-Ones (5 Suits)	2
 micerang	732544	4 Suits	2
+micerang	732576	Up or Down & Muddy Rainbow (6 Suits)	2
 micerang	734684	Rainbow-Ones & White (5 Suits)	2
 micerang	735085	Null-Fives & Black (6 Suits)	2
 micerang	736269	Rainbow & Dark Omni (5 Suits)	2
@@ -1277,6 +1236,8 @@ micerang	777113	Black (6 Suits)	2
 micerang	778295	Ambiguous & Omni (5 Suits)	2
 micerang	780097	Rainbow (6 Suits)	2
 micerang	780109	Rainbow (6 Suits)	2
+micerang	781063	Up or Down & Pink (6 Suits)	2
+micerang	781078	Up or Down & Pink (6 Suits)	2
 micerang	787051	White (6 Suits)	2
 micerang	787642	6 Suits	2
 micerang	789460	Light-Pink-Fives & Dark Pink (6 Suits)	2
@@ -1352,6 +1313,7 @@ micerang	38434	No Variant	1
 micerang	38470	Brown (6 Suits)	1
 micerang	38477	Brown (5 Suits)	1
 micerang	38542	Black (5 Suits)	1
+micerang	38549	Up or Down (5 Suits)	1
 micerang	38557	No Variant	1
 micerang	38793	Brown (6 Suits)	1
 micerang	38861	No Variant	1
@@ -1392,6 +1354,7 @@ micerang	41305	Dark Pink (6 Suits)	1
 micerang	41525	No Variant	1
 micerang	41549	No Variant	1
 micerang	41573	No Variant	1
+micerang	41580	Up or Down (6 Suits)	1
 micerang	41596	Brown (6 Suits)	1
 micerang	41660	No Variant	1
 micerang	41667	No Variant	1
@@ -1402,6 +1365,8 @@ micerang	42091	Black & Rainbow (5 Suits)	1
 micerang	42995	No Variant	1
 micerang	43003	No Variant	1
 micerang	43035	6 Suits	1
+micerang	43104	Up or Down (5 Suits)	1
+micerang	43107	Up or Down (5 Suits)	1
 micerang	43115	No Variant	1
 micerang	43143	Black & White (6 Suits)	1
 micerang	43148	Black & White (6 Suits)	1
@@ -1449,6 +1414,7 @@ micerang	46490	Rainbow (5 Suits)	1
 micerang	46674	No Variant	1
 micerang	46684	Rainbow & Brown (3 Suits)	1
 micerang	46689	Number Blind (4 Suits)	1
+micerang	46732	Up or Down (6 Suits)	1
 micerang	46735	3 Suits	1
 micerang	46749	6 Suits	1
 micerang	46915	Black (6 Suits)	1
@@ -1494,6 +1460,7 @@ micerang	49093	Dark Pink (5 Suits)	1
 micerang	49263	No Variant	1
 micerang	49271	No Variant	1
 micerang	49292	Black & Pink (5 Suits)	1
+micerang	49340	Up or Down & Brown (5 Suits)	1
 micerang	49367	4 Suits	1
 micerang	49383	Rainbow (5 Suits)	1
 micerang	49470	Rainbow (5 Suits)	1
@@ -1512,6 +1479,7 @@ micerang	50107	6 Suits	1
 micerang	50117	Rainbow (3 Suits)	1
 micerang	50214	Null (5 Suits)	1
 micerang	50271	Pink & Brown (6 Suits)	1
+micerang	50416	Up or Down & Brown (5 Suits)	1
 micerang	50693	Black (5 Suits)	1
 micerang	50828	Black & Brown (6 Suits)	1
 micerang	50844	Pink-Fives (6 Suits)	1
@@ -1530,7 +1498,7 @@ micerang	51725	4 Suits	1
 micerang	52003	Pink-Fives (5 Suits)	1
 micerang	52005	Pink-Fives (5 Suits)	1
 micerang	52169	No Variant	1
-micerang	52258	Up or Down (5 Suits)	1
+micerang	52268	Up or Down (5 Suits)	1
 micerang	52332	Pink & Dark Rainbow (5 Suits)	1
 micerang	52774	Brown & Dark Rainbow (6 Suits)	1
 micerang	52790	Dark Rainbow (5 Suits)	1
@@ -1550,6 +1518,7 @@ micerang	53365	No Variant	1
 micerang	53628	No Variant	1
 micerang	53721	Rainbow (5 Suits)	1
 micerang	53728	Pink (6 Suits)	1
+micerang	53732	Up or Down (5 Suits)	1
 micerang	53771	Black (6 Suits)	1
 micerang	53857	White (5 Suits)	1
 micerang	53859	White (5 Suits)	1
@@ -1586,21 +1555,23 @@ micerang	57165	Black & White (6 Suits)	1
 micerang	57166	Black & White (6 Suits)	1
 micerang	57300	Black (6 Suits)	1
 micerang	57392	Brown (3 Suits)	1
+micerang	57409	Up or Down & Pink (5 Suits)	1
 micerang	57476	Omni (4 Suits)	1
 micerang	57479	Omni (4 Suits)	1
 micerang	57486	Omni (4 Suits)	1
 micerang	57506	Black & Null (5 Suits)	1
 micerang	57508	Black & Null (5 Suits)	1
-micerang	57510	Up or Down (5 Suits)	1
 micerang	57533	Pink-Fives (5 Suits)	1
+micerang	57615	Up or Down & White (6 Suits)	1
 micerang	57646	Black (6 Suits)	1
+micerang	57881	Up or Down & Rainbow (6 Suits)	1
 micerang	57923	Black & Brown (6 Suits)	1
 micerang	58080	No Variant	1
 micerang	58083	No Variant	1
 micerang	58085	No Variant	1
 micerang	58092	No Variant	1
 micerang	58246	Pink (5 Suits)	1
-micerang	58298	Up or Down (5 Suits)	1
+micerang	58300	Up or Down (6 Suits)	1
 micerang	58334	Cocoa Rainbow (6 Suits)	1
 micerang	58337	Cocoa Rainbow (6 Suits)	1
 micerang	58421	Dark Pink (6 Suits)	1
@@ -1621,6 +1592,7 @@ micerang	58940	Rainbow-Ones & Pink (5 Suits)	1
 micerang	59057	Rainbow (6 Suits)	1
 micerang	59061	Pink (5 Suits)	1
 micerang	59067	White (5 Suits)	1
+micerang	59205	Up or Down & Pink (6 Suits)	1
 micerang	59212	Black & Rainbow (6 Suits)	1
 micerang	59231	Pink (6 Suits)	1
 micerang	59443	3 Suits	1
@@ -1630,15 +1602,18 @@ micerang	59560	Black & Null (6 Suits)	1
 micerang	59620	No Variant	1
 micerang	59622	No Variant	1
 micerang	59623	No Variant	1
+micerang	59802	Up or Down (6 Suits)	1
 micerang	59949	Gray (5 Suits)	1
 micerang	59952	Gray (5 Suits)	1
 micerang	59957	Gray (5 Suits)	1
 micerang	60060	Black & Rainbow (5 Suits)	1
+micerang	60818	Up or Down & Rainbow (6 Suits)	1
 micerang	60897	Black & White (6 Suits)	1
 micerang	61202	Muddy Rainbow (5 Suits)	1
 micerang	61203	Rainbow-Ones (5 Suits)	1
 micerang	61549	Cow & Pig (4 Suits)	1
 micerang	61738	White & Dark Pink (6 Suits)	1
+micerang	61924	Up or Down (6 Suits)	1
 micerang	61927	Rainbow (5 Suits)	1
 micerang	62012	Black & Null (5 Suits)	1
 micerang	62211	Number Mute (4 Suits)	1
@@ -1666,13 +1641,13 @@ micerang	64945	Rainbow-Ones (5 Suits)	1
 micerang	65168	Black (5 Suits)	1
 micerang	65169	Black & White (6 Suits)	1
 micerang	65190	Pink (4 Suits)	1
+micerang	66179	Up or Down (6 Suits)	1
 micerang	66232	Black & Pink (5 Suits)	1
 micerang	66233	Rainbow & White (4 Suits)	1
 micerang	66485	Rainbow & Gray (6 Suits)	1
 micerang	66492	White & Dark Rainbow (6 Suits)	1
 micerang	66504	Dual-Color Mix	1
 micerang	66507	Dual-Color Mix	1
-micerang	66651	Up or Down & White (6 Suits)	1
 micerang	67475	4 Suits	1
 micerang	67562	Rainbow & Pink (5 Suits)	1
 micerang	67568	Rainbow & Omni (3 Suits)	1
@@ -1788,6 +1763,7 @@ micerang	78948	Pink & Brown (4 Suits)	1
 micerang	78952	Black & Pink (5 Suits)	1
 micerang	79886	Rainbow-Ones & Pink (6 Suits)	1
 micerang	80128	Dual-Color & Rainbow (4 Suits)	1
+micerang	80191	Up or Down (6 Suits)	1
 micerang	80200	No Variant	1
 micerang	80376	4 Suits	1
 micerang	80381	4 Suits	1
@@ -1799,7 +1775,6 @@ micerang	83045	Color Mute (3 Suits)	1
 micerang	83236	Black & Rainbow (6 Suits)	1
 micerang	83595	Brown (6 Suits)	1
 micerang	84161	White (4 Suits)	1
-micerang	84169	Up or Down & Omni (5 Suits)	1
 micerang	84366	Dual-Color (6 Suits)	1
 micerang	84395	No Variant	1
 micerang	85886	No Variant	1
@@ -1831,7 +1806,6 @@ micerang	93040	Rainbow & Brown (5 Suits)	1
 micerang	93846	Brown & Gray (6 Suits)	1
 micerang	93875	Pink (4 Suits)	1
 micerang	94115	Black & White (6 Suits)	1
-micerang	94199	Up or Down & Pink (5 Suits)	1
 micerang	94304	Brown & Dark Pink (5 Suits)	1
 micerang	95843	No Variant	1
 micerang	96932	Rainbow-Ones & Brown (5 Suits)	1
@@ -1846,6 +1820,7 @@ micerang	103223	White (6 Suits)	1
 micerang	104161	Black & White (5 Suits)	1
 micerang	104299	Cocoa Rainbow (6 Suits)	1
 micerang	105146	Black & White (5 Suits)	1
+micerang	105185	Up or Down (6 Suits)	1
 micerang	107847	Black (5 Suits)	1
 micerang	108134	Pink (5 Suits)	1
 micerang	109783	No Variant	1
@@ -1861,7 +1836,6 @@ micerang	120934	Pink (5 Suits)	1
 micerang	123596	No Variant	1
 micerang	124904	Duck (4 Suits)	1
 micerang	126561	Up or Down (5 Suits)	1
-micerang	126617	Up or Down & Omni (6 Suits)	1
 micerang	128085	Brown-Fives & Pink (4 Suits)	1
 micerang	128165	Extremely Ambiguous (4 Suits)	1
 micerang	128637	White-Fives (6 Suits)	1
@@ -1871,6 +1845,7 @@ micerang	148970	Rainbow (5 Suits)	1
 micerang	151367	Rainbow-Fives (5 Suits)	1
 micerang	155034	Black & Muddy Rainbow (6 Suits)	1
 micerang	158184	Rainbow & Brown (6 Suits)	1
+micerang	160241	Up or Down & Light Pink (6 Suits)	1
 micerang	167081	No Variant	1
 micerang	176837	Rainbow & Light Pink (5 Suits)	1
 micerang	176916	Rainbow & Light Pink (5 Suits)	1
@@ -1901,8 +1876,10 @@ micerang	223068	4 Suits	1
 micerang	226635	No Variant	1
 micerang	236651	Rainbow & Brown (5 Suits)	1
 micerang	236856	Rainbow-Ones & Light Pink (4 Suits)	1
-micerang	236912	Up or Down (5 Suits)	1
+micerang	236999	Up or Down (5 Suits)	1
+micerang	237075	Up or Down (5 Suits)	1
 micerang	237165	Up or Down (5 Suits)	1
+micerang	237853	Up or Down (5 Suits)	1
 micerang	239773	Brown (5 Suits)	1
 micerang	239981	White Reversed (5 Suits)	1
 micerang	241119	Dark Rainbow (6 Suits)	1
@@ -1959,6 +1936,7 @@ micerang	317710	Cocoa Rainbow (6 Suits)	1
 micerang	318007	No Variant	1
 micerang	318188	Muddy Rainbow (6 Suits)	1
 micerang	322051	Dark Omni (5 Suits)	1
+micerang	322075	Up or Down & Rainbow (5 Suits)	1
 micerang	322792	Rainbow (5 Suits)	1
 micerang	323958	Gray Pink (5 Suits)	1
 micerang	324740	Pink (4 Suits)	1
@@ -1971,6 +1949,7 @@ micerang	344059	Ambiguous & Muddy Rainbow (3 Suits)	1
 micerang	345049	Dark Pink (5 Suits)	1
 micerang	346948	Rainbow (5 Suits)	1
 micerang	358865	Black (6 Suits)	1
+micerang	359590	Up or Down (6 Suits)	1
 micerang	360324	Rainbow & Light Pink (4 Suits)	1
 micerang	364477	Pink & Prism (4 Suits)	1
 micerang	368830	Dark Null (6 Suits)	1
@@ -1993,6 +1972,7 @@ micerang	425185	No Variant	1
 micerang	425195	No Variant	1
 micerang	427538	No Variant	1
 micerang	429761	4 Suits	1
+micerang	430758	Up or Down (6 Suits)	1
 micerang	431958	No Variant	1
 micerang	431984	No Variant	1
 micerang	433217	No Variant	1
@@ -2014,6 +1994,7 @@ micerang	487516	Pink (5 Suits)	1
 micerang	489186	No Variant	1
 micerang	498077	Up or Down & Brown (6 Suits)	1
 micerang	500189	Rainbow Reversed (6 Suits)	1
+micerang	505612	Up or Down & White (6 Suits)	1
 micerang	505680	White & Muddy Rainbow (6 Suits)	1
 micerang	506787	Black & Rainbow (6 Suits)	1
 micerang	506816	Black & Rainbow (6 Suits)	1
@@ -2119,6 +2100,7 @@ micerang	655889	White & Gray Pink (5 Suits)	1
 micerang	655908	Omni-Fives (6 Suits)	1
 micerang	656883	Synesthesia & Black (6 Suits)	1
 micerang	657450	Muddy Rainbow & Dark Pink (5 Suits)	1
+micerang	659010	Up or Down & Muddy Rainbow (5 Suits)	1
 micerang	659139	Light-Pink-Fives & Prism (5 Suits)	1
 micerang	661191	Rainbow (5 Suits)	1
 micerang	662265	Light Pink & Prism (6 Suits)	1
@@ -2421,6 +2403,7 @@ micerang	49085	Black (5 Suits)	0
 micerang	49099	White (5 Suits)	0
 micerang	49270	No Variant	0
 micerang	49294	Black & Pink (5 Suits)	0
+micerang	49344	Up or Down & Brown (5 Suits)	0
 micerang	49361	4 Suits	0
 micerang	49380	Rainbow (6 Suits)	0
 micerang	49452	4 Suits	0
@@ -2469,6 +2452,7 @@ micerang	51746	Omni (3 Suits)	0
 micerang	52050	Rainbow (5 Suits)	0
 micerang	52164	Gray (6 Suits)	0
 micerang	52257	Gray (5 Suits)	0
+micerang	52258	Up or Down (5 Suits)	0
 micerang	52496	Pink & Dark Rainbow (5 Suits)	0
 micerang	52497	White & Dark Rainbow (6 Suits)	0
 micerang	52500	Pink & White (3 Suits)	0
@@ -2508,6 +2492,7 @@ micerang	57031	Black & White (5 Suits)	0
 micerang	57160	White (6 Suits)	0
 micerang	57405	No Variant	0
 micerang	57497	Black & Null (6 Suits)	0
+micerang	57510	Up or Down (5 Suits)	0
 micerang	57512	Ambiguous (4 Suits)	0
 micerang	57518	Extremely Ambiguous (4 Suits)	0
 micerang	57598	Gray (6 Suits)	0
@@ -2522,6 +2507,7 @@ micerang	58078	No Variant	0
 micerang	58101	No Variant	0
 micerang	58223	Omni (4 Suits)	0
 micerang	58228	Omni (4 Suits)	0
+micerang	58298	Up or Down (5 Suits)	0
 micerang	58328	Ambiguous (4 Suits)	0
 micerang	58343	Rainbow-Ones (6 Suits)	0
 micerang	58348	Rainbow-Ones (6 Suits)	0
@@ -2533,6 +2519,7 @@ micerang	58675	Rainbow & White (6 Suits)	0
 micerang	58784	Rainbow (6 Suits)	0
 micerang	58794	White (4 Suits)	0
 micerang	58903	Ambiguous (6 Suits)	0
+micerang	58909	Up or Down & Pink (5 Suits)	0
 micerang	58942	Rainbow-Ones & Pink (5 Suits)	0
 micerang	58943	Dual-Color (6 Suits)	0
 micerang	58944	Dual-Color (6 Suits)	0
@@ -2565,6 +2552,7 @@ micerang	61544	Black & White (5 Suits)	0
 micerang	61548	Cow & Pig (4 Suits)	0
 micerang	61788	Very Ambiguous (3 Suits)	0
 micerang	61790	Very Ambiguous (3 Suits)	0
+micerang	61926	Up or Down (6 Suits)	0
 micerang	61929	Pink (4 Suits)	0
 micerang	62194	Black & Omni (6 Suits)	0
 micerang	62203	Pink (4 Suits)	0
@@ -2593,6 +2581,7 @@ micerang	65194	Pink (4 Suits)	0
 micerang	66141	White (3 Suits)	0
 micerang	66182	Up or Down (6 Suits)	0
 micerang	66235	White (4 Suits)	0
+micerang	66651	Up or Down & White (6 Suits)	0
 micerang	67463	4 Suits	0
 micerang	67466	4 Suits	0
 micerang	67467	4 Suits	0
@@ -2603,6 +2592,7 @@ micerang	67565	Rainbow & Omni (4 Suits)	0
 micerang	67612	Omni & Null (3 Suits)	0
 micerang	67979	Black (5 Suits)	0
 micerang	68157	Black & Rainbow (5 Suits)	0
+micerang	68815	Up or Down & Rainbow (5 Suits)	0
 micerang	68817	White & Omni (4 Suits)	0
 micerang	70027	Rainbow & Brown (5 Suits)	0
 micerang	70034	Cocoa Rainbow (6 Suits)	0
@@ -2711,6 +2701,7 @@ micerang	82664	No Variant	0
 micerang	83242	Black & Rainbow (6 Suits)	0
 micerang	83590	Rainbow (5 Suits)	0
 micerang	83605	Brown (6 Suits)	0
+micerang	84169	Up or Down & Omni (5 Suits)	0
 micerang	84365	Rainbow-Ones (5 Suits)	0
 micerang	84398	No Variant	0
 micerang	84493	Black (5 Suits)	0
@@ -2723,6 +2714,7 @@ micerang	86004	Dark Rainbow (5 Suits)	0
 micerang	86125	Black (6 Suits)	0
 micerang	86213	No Variant	0
 micerang	86299	Pink & Null (3 Suits)	0
+micerang	86428	Up or Down & Omni (5 Suits)	0
 micerang	86431	Up or Down & Omni (5 Suits)	0
 micerang	87481	Light Pink (5 Suits)	0
 micerang	88003	No Variant	0
@@ -2740,6 +2732,7 @@ micerang	91788	Gray Pink (5 Suits)	0
 micerang	92992	Pink (5 Suits)	0
 micerang	93010	White & Brown (5 Suits)	0
 micerang	93303	No Variant	0
+micerang	94199	Up or Down & Pink (5 Suits)	0
 micerang	94303	Rainbow & Dark Pink (5 Suits)	0
 micerang	96908	Rainbow-Ones & Brown (3 Suits)	0
 micerang	96918	Rainbow-Ones & Brown (3 Suits)	0
@@ -2762,6 +2755,7 @@ micerang	118457	Rainbow & White (6 Suits)	0
 micerang	118863	4 Suits	0
 micerang	119712	Dark Pink (5 Suits)	0
 micerang	120982	Pink (6 Suits)	0
+micerang	126617	Up or Down & Omni (6 Suits)	0
 micerang	128681	Alternating Clues (3 Suits)	0
 micerang	130366	Rainbow (6 Suits)	0
 micerang	131593	Throw It in a Hole & Rainbow (6 Suits)	0
@@ -2834,11 +2828,16 @@ micerang	226628	No Variant	0
 micerang	229038	White & Brown (5 Suits)	0
 micerang	229058	Rainbow & White (5 Suits)	0
 micerang	229064	Rainbow & White (5 Suits)	0
+micerang	230292	Up or Down (5 Suits)	0
 micerang	231208	Gray Reversed (5 Suits)	0
 micerang	233079	Up or Down (5 Suits)	0
 micerang	234313	Dark Brown (5 Suits)	0
 micerang	234323	Dark Brown (5 Suits)	0
 micerang	236684	Rainbow & Brown (5 Suits)	0
+micerang	236912	Up or Down (5 Suits)	0
+micerang	237104	Up or Down (5 Suits)	0
+micerang	237237	Up or Down (5 Suits)	0
+micerang	237791	Up or Down (5 Suits)	0
 micerang	239925	White (5 Suits)	0
 micerang	241223	4 Suits	0
 micerang	241253	4 Suits	0
@@ -2899,6 +2898,7 @@ micerang	332395	Rainbow (5 Suits)	0
 micerang	333571	Prism (6 Suits)	0
 micerang	334049	Pink & Prism (6 Suits)	0
 micerang	334125	White & Dark Prism (5 Suits)	0
+micerang	336467	Up or Down & Brown (6 Suits)	0
 micerang	346974	Rainbow (5 Suits)	0
 micerang	346995	4 Suits	0
 micerang	349327	Deceptive-Ones (6 Suits)	0

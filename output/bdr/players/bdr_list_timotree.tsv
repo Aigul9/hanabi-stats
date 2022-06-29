@@ -23,7 +23,6 @@ timotree	275350	No Variant	5
 timotree	280315	Black (6 Suits)	5
 timotree	285539	Prism (6 Suits)	5
 timotree	296826	Black (6 Suits)	5
-timotree	298006	Up or Down & White (6 Suits)	5
 timotree	298468	Gray (5 Suits)	5
 timotree	305741	Rainbow-Fives & Light Pink (5 Suits)	5
 timotree	305766	Rainbow-Fives & Light Pink (5 Suits)	5
@@ -42,7 +41,6 @@ timotree	481831	Rainbow-Fives & Brown (6 Suits)	5
 timotree	491547	Duck (6 Suits)	5
 timotree	507083	Brown-Ones & Black (6 Suits)	5
 timotree	512780	Rainbow & Null (6 Suits)	5
-timotree	525433	Up or Down (6 Suits)	5
 timotree	553510	Brown & Prism (6 Suits)	5
 timotree	597205	Rainbow (6 Suits)	5
 timotree	626128	No Variant	5
@@ -75,7 +73,6 @@ timotree	284979	No Variant	4
 timotree	285205	No Variant	4
 timotree	285523	Prism (6 Suits)	4
 timotree	295296	Brown (6 Suits)	4
-timotree	296508	Up or Down & Pink (5 Suits)	4
 timotree	296769	No Variant	4
 timotree	296975	No Variant	4
 timotree	305029	No Variant	4
@@ -91,7 +88,6 @@ timotree	321637	No Variant	4
 timotree	323605	No Variant	4
 timotree	324093	Brown (6 Suits)	4
 timotree	324257	No Variant	4
-timotree	328130	Up or Down (5 Suits)	4
 timotree	329690	Brown (6 Suits)	4
 timotree	331839	No Variant	4
 timotree	333486	White (6 Suits)	4
@@ -104,7 +100,6 @@ timotree	334683	Prism Reversed (5 Suits)	4
 timotree	335170	No Variant	4
 timotree	335558	Null-Ones (5 Suits)	4
 timotree	335798	Prism (5 Suits)	4
-timotree	339892	Up or Down & Pink (5 Suits)	4
 timotree	339903	Gray (5 Suits)	4
 timotree	341767	Pink-Fives & White (6 Suits)	4
 timotree	348227	6 Suits	4
@@ -119,15 +114,11 @@ timotree	381297	No Variant	4
 timotree	422613	No Variant	4
 timotree	422663	No Variant	4
 timotree	424871	No Variant	4
-timotree	473047	Up or Down & Muddy Rainbow (6 Suits)	4
-timotree	474558	Up or Down & Prism (6 Suits)	4
-timotree	484124	Up or Down (6 Suits)	4
 timotree	497009	Omni (6 Suits)	4
 timotree	497286	No Variant	4
 timotree	497331	Gray (6 Suits)	4
 timotree	499205	Special Mix (5 Suits)	4
 timotree	504221	Rainbow & White (6 Suits)	4
-timotree	505612	Up or Down & White (6 Suits)	4
 timotree	521774	No Variant	4
 timotree	522615	Dark Brown (6 Suits)	4
 timotree	523226	No Variant	4
@@ -135,7 +126,6 @@ timotree	525324	Gray Reversed (6 Suits)	4
 timotree	541919	Prism (6 Suits)	4
 timotree	580721	Clue Starved & Omni (6 Suits)	4
 timotree	582998	White & Prism (6 Suits)	4
-timotree	586324	Up or Down (5 Suits)	4
 timotree	587886	Pink & Null (6 Suits)	4
 timotree	589508	White & Light Pink (6 Suits)	4
 timotree	590726	Special Mix (6 Suits)	4
@@ -147,7 +137,6 @@ timotree	613909	6 Suits	4
 timotree	622992	Rainbow (5 Suits)	4
 timotree	631626	Pink (6 Suits)	4
 timotree	649217	White (5 Suits)	4
-timotree	675834	Up or Down & Brown (6 Suits)	4
 timotree	681983	Critical Fours & Prism (6 Suits)	4
 timotree	682534	No Variant	4
 timotree	686202	No Variant	4
@@ -191,7 +180,6 @@ timotree	278004	Dark Omni (6 Suits)	3
 timotree	280271	Black (5 Suits)	3
 timotree	280908	Dark Rainbow (6 Suits)	3
 timotree	282080	Black (5 Suits)	3
-timotree	282269	Up or Down & Prism (6 Suits)	3
 timotree	282829	Prism (6 Suits)	3
 timotree	283824	Rainbow & Prism (6 Suits)	3
 timotree	284272	Pink & Prism (6 Suits)	3
@@ -209,9 +197,11 @@ timotree	294491	Rainbow & Light Pink (5 Suits)	3
 timotree	295192	No Variant	3
 timotree	295218	Black (5 Suits)	3
 timotree	295606	No Variant	3
+timotree	296508	Up or Down & Pink (5 Suits)	3
 timotree	296762	No Variant	3
 timotree	297195	Brown (6 Suits)	3
 timotree	297874	Up or Down & White (6 Suits)	3
+timotree	298006	Up or Down & White (6 Suits)	3
 timotree	298604	No Variant	3
 timotree	302483	No Variant	3
 timotree	302498	No Variant	3
@@ -249,7 +239,6 @@ timotree	320446	No Variant	3
 timotree	320738	No Variant	3
 timotree	321371	Black (6 Suits)	3
 timotree	322767	No Variant	3
-timotree	323355	Up or Down & Brown (6 Suits)	3
 timotree	323494	Black & Brown (6 Suits)	3
 timotree	324114	Brown (6 Suits)	3
 timotree	324144	Prism (6 Suits)	3
@@ -257,7 +246,6 @@ timotree	324162	Prism (6 Suits)	3
 timotree	324228	Pink (5 Suits)	3
 timotree	324864	No Variant	3
 timotree	327160	Pink (5 Suits)	3
-timotree	328050	Up or Down & Prism (6 Suits)	3
 timotree	328760	Dark Rainbow (6 Suits)	3
 timotree	329606	Rainbow & Null (6 Suits)	3
 timotree	329757	Rainbow & White (5 Suits)	3
@@ -270,8 +258,6 @@ timotree	335153	No Variant	3
 timotree	335285	Rainbow (6 Suits)	3
 timotree	335777	Dark Null (5 Suits)	3
 timotree	339023	Black & Muddy Rainbow (6 Suits)	3
-timotree	339834	Up or Down & Pink (5 Suits)	3
-timotree	339846	Up or Down & Pink (5 Suits)	3
 timotree	340291	Dark Prism (6 Suits)	3
 timotree	340556	Dark Rainbow (6 Suits)	3
 timotree	340704	Prism (5 Suits)	3
@@ -319,7 +305,6 @@ timotree	489462	Rainbow & Brown (6 Suits)	3
 timotree	491880	Null (5 Suits)	3
 timotree	494886	Dark Prism (6 Suits)	3
 timotree	495609	Null (5 Suits)	3
-timotree	497249	Up or Down & Prism (6 Suits)	3
 timotree	497295	Gray (6 Suits)	3
 timotree	497681	Black (5 Suits)	3
 timotree	500434	No Variant	3
@@ -335,12 +320,10 @@ timotree	522408	Omni (6 Suits)	3
 timotree	522504	Light Pink (6 Suits)	3
 timotree	522795	No Variant	3
 timotree	524162	Alternating Clues & Black (6 Suits)	3
-timotree	524771	Up or Down (6 Suits)	3
-timotree	524822	Up or Down (6 Suits)	3
 timotree	525082	Omni (5 Suits)	3
 timotree	525104	Omni (5 Suits)	3
 timotree	525285	Gray Reversed (6 Suits)	3
-timotree	525451	Up or Down (6 Suits)	3
+timotree	525433	Up or Down (6 Suits)	3
 timotree	531784	Light-Pink-Ones & Dark Brown (6 Suits)	3
 timotree	538106	Rainbow (5 Suits)	3
 timotree	538586	Rainbow (5 Suits)	3
@@ -459,14 +442,12 @@ timotree	275303	No Variant	2
 timotree	275427	Pink (5 Suits)	2
 timotree	276467	Brown (6 Suits)	2
 timotree	278029	Dark Omni (6 Suits)	2
-timotree	278537	Up or Down (5 Suits)	2
 timotree	278922	No Variant	2
 timotree	279812	No Variant	2
 timotree	280232	Brown (4 Suits)	2
 timotree	281501	Cow & Pig (5 Suits)	2
 timotree	281537	Cow & Pig (5 Suits)	2
 timotree	281565	Cow & Pig (5 Suits)	2
-timotree	282225	Up or Down & Prism (6 Suits)	2
 timotree	282308	Special Mix (5 Suits)	2
 timotree	282342	Special Mix (5 Suits)	2
 timotree	282401	Special Mix (5 Suits)	2
@@ -498,12 +479,10 @@ timotree	295550	No Variant	2
 timotree	295598	No Variant	2
 timotree	295604	No Variant	2
 timotree	296467	Rainbow & Prism (6 Suits)	2
-timotree	296535	Up or Down & Pink (5 Suits)	2
 timotree	297583	No Variant	2
 timotree	297659	White (6 Suits)	2
 timotree	297748	Rainbow (6 Suits)	2
 timotree	297768	Rainbow (6 Suits)	2
-timotree	297948	Up or Down & White (6 Suits)	2
 timotree	298501	Muddy Rainbow (5 Suits)	2
 timotree	298651	Black (6 Suits)	2
 timotree	298720	No Variant	2
@@ -567,6 +546,7 @@ timotree	327759	No Variant	2
 timotree	327833	No Variant	2
 timotree	327852	No Variant	2
 timotree	327916	No Variant	2
+timotree	328130	Up or Down (5 Suits)	2
 timotree	328151	Gray (5 Suits)	2
 timotree	328165	Gray (5 Suits)	2
 timotree	328526	6 Suits	2
@@ -598,8 +578,8 @@ timotree	335912	No Variant	2
 timotree	338727	Dual-Color (5 Suits)	2
 timotree	338921	No Variant	2
 timotree	339045	No Variant	2
-timotree	339863	Up or Down & Pink (5 Suits)	2
-timotree	339880	Up or Down & Pink (5 Suits)	2
+timotree	339834	Up or Down & Pink (5 Suits)	2
+timotree	339846	Up or Down & Pink (5 Suits)	2
 timotree	339928	Gray (5 Suits)	2
 timotree	340306	Pink (6 Suits)	2
 timotree	340338	Prism & Dark Rainbow (6 Suits)	2
@@ -654,7 +634,9 @@ timotree	382994	No Variant	2
 timotree	384126	No Variant	2
 timotree	385533	No Variant	2
 timotree	389733	No Variant	2
+timotree	473047	Up or Down & Muddy Rainbow (6 Suits)	2
 timotree	474328	Gray (5 Suits)	2
+timotree	474558	Up or Down & Prism (6 Suits)	2
 timotree	475199	No Variant	2
 timotree	475219	No Variant	2
 timotree	475305	No Variant	2
@@ -687,14 +669,13 @@ timotree	496898	Omni (4 Suits)	2
 timotree	496936	Gray (6 Suits)	2
 timotree	496975	Rainbow & White (6 Suits)	2
 timotree	497043	No Variant	2
-timotree	497270	Up or Down & Prism (6 Suits)	2
+timotree	497249	Up or Down & Prism (6 Suits)	2
 timotree	504195	Prism (6 Suits)	2
 timotree	504252	Rainbow & White (6 Suits)	2
 timotree	505773	Brown & Light Pink (6 Suits)	2
 timotree	505972	Gray Pink (5 Suits)	2
 timotree	507184	Black (5 Suits)	2
 timotree	509655	Rainbow & Light Pink (6 Suits)	2
-timotree	509672	Up or Down (6 Suits)	2
 timotree	509849	No Variant	2
 timotree	511032	Muddy Rainbow (6 Suits)	2
 timotree	511739	Gray Pink (6 Suits)	2
@@ -715,6 +696,7 @@ timotree	522753	No Variant	2
 timotree	523693	Null (6 Suits)	2
 timotree	524176	Alternating Clues & Black (6 Suits)	2
 timotree	524857	Up or Down (6 Suits)	2
+timotree	525451	Up or Down (6 Suits)	2
 timotree	538128	Pink & Dark Brown (6 Suits)	2
 timotree	542483	Dark Omni (5 Suits)	2
 timotree	551875	No Variant	2
@@ -740,6 +722,7 @@ timotree	582569	Black & Omni (5 Suits)	2
 timotree	582643	6 Suits	2
 timotree	582693	White & Prism (6 Suits)	2
 timotree	582705	White & Prism (6 Suits)	2
+timotree	586324	Up or Down (5 Suits)	2
 timotree	588006	Pink & Null (6 Suits)	2
 timotree	592014	Special Mix (6 Suits)	2
 timotree	592331	Rainbow & Omni (5 Suits)	2
@@ -786,8 +769,8 @@ timotree	665493	Omni (6 Suits)	2
 timotree	667384	Prism Reversed (5 Suits)	2
 timotree	670777	Prism Reversed (6 Suits)	2
 timotree	670981	Null & Light Pink (6 Suits)	2
+timotree	675834	Up or Down & Brown (6 Suits)	2
 timotree	676423	Up or Down & Brown (6 Suits)	2
-timotree	676485	Up or Down & Brown (6 Suits)	2
 timotree	679676	Black (6 Suits)	2
 timotree	680324	6 Suits	2
 timotree	680373	No Variant	2
@@ -896,6 +879,7 @@ timotree	277556	No Variant	1
 timotree	277662	Dual-Color & Brown (6 Suits)	1
 timotree	277725	Light Pink (5 Suits)	1
 timotree	278088	White & Dark Pink (5 Suits)	1
+timotree	278537	Up or Down (5 Suits)	1
 timotree	278561	Black (5 Suits)	1
 timotree	278980	Dark Rainbow (5 Suits)	1
 timotree	279394	Rainbow (3 Suits)	1
@@ -910,6 +894,7 @@ timotree	281317	White (5 Suits)	1
 timotree	281380	White (5 Suits)	1
 timotree	281522	Cow & Pig (5 Suits)	1
 timotree	281581	Special Mix (5 Suits)	1
+timotree	282225	Up or Down & Prism (6 Suits)	1
 timotree	283133	Prism (6 Suits)	1
 timotree	283212	No Variant	1
 timotree	283339	No Variant	1
@@ -958,6 +943,7 @@ timotree	297360	Rainbow (6 Suits)	1
 timotree	297503	No Variant	1
 timotree	297605	White (6 Suits)	1
 timotree	297791	Rainbow (6 Suits)	1
+timotree	297948	Up or Down & White (6 Suits)	1
 timotree	298073	No Variant	1
 timotree	298311	No Variant	1
 timotree	298334	No Variant	1
@@ -1038,6 +1024,7 @@ timotree	321452	No Variant	1
 timotree	321747	Prism (4 Suits)	1
 timotree	322817	Prism (6 Suits)	1
 timotree	323057	No Variant	1
+timotree	323355	Up or Down & Brown (6 Suits)	1
 timotree	323397	Pink & Brown (6 Suits)	1
 timotree	323523	Light Pink (5 Suits)	1
 timotree	323600	No Variant	1
@@ -1059,6 +1046,7 @@ timotree	327682	Rainbow (5 Suits)	1
 timotree	327775	No Variant	1
 timotree	327909	No Variant	1
 timotree	327922	No Variant	1
+timotree	328050	Up or Down & Prism (6 Suits)	1
 timotree	328070	Up or Down (5 Suits)	1
 timotree	328106	No Variant	1
 timotree	328389	Dark Rainbow (5 Suits)	1
@@ -1095,6 +1083,9 @@ timotree	338791	Rainbow & Dark Brown (5 Suits)	1
 timotree	339054	No Variant	1
 timotree	339651	Throw It in a Hole (5 Suits)	1
 timotree	339806	Rainbow & Brown (6 Suits)	1
+timotree	339863	Up or Down & Pink (5 Suits)	1
+timotree	339880	Up or Down & Pink (5 Suits)	1
+timotree	339892	Up or Down & Pink (5 Suits)	1
 timotree	339921	Gray (5 Suits)	1
 timotree	340130	White (5 Suits)	1
 timotree	340197	Black (5 Suits)	1
@@ -1184,6 +1175,7 @@ timotree	483746	Black & Brown (5 Suits)	1
 timotree	484001	Black (5 Suits)	1
 timotree	484009	Dark Rainbow (5 Suits)	1
 timotree	484095	Up or Down (6 Suits)	1
+timotree	484124	Up or Down (6 Suits)	1
 timotree	488967	White (5 Suits)	1
 timotree	489012	Dark Rainbow (5 Suits)	1
 timotree	489613	Black & Muddy Rainbow (6 Suits)	1
@@ -1209,6 +1201,7 @@ timotree	495107	Black (6 Suits)	1
 timotree	495478	Dark Brown (6 Suits)	1
 timotree	495722	Rainbow & Dark Pink (5 Suits)	1
 timotree	495742	Dual-Color & Dark Omni (6 Suits)	1
+timotree	497270	Up or Down & Prism (6 Suits)	1
 timotree	497361	Gray (6 Suits)	1
 timotree	497415	Gray (6 Suits)	1
 timotree	497554	Rainbow (5 Suits)	1
@@ -1224,11 +1217,13 @@ timotree	504587	Black & Brown (6 Suits)	1
 timotree	504791	Pink & Dark Brown (5 Suits)	1
 timotree	505355	Rainbow & White (6 Suits)	1
 timotree	505420	Null (5 Suits)	1
+timotree	505612	Up or Down & White (6 Suits)	1
 timotree	505868	Pink & Brown (6 Suits)	1
 timotree	505913	Pink & Brown (6 Suits)	1
 timotree	506011	Gray Pink (5 Suits)	1
 timotree	507139	Black (5 Suits)	1
 timotree	508019	Muddy-Rainbow-Fives (5 Suits)	1
+timotree	509672	Up or Down (6 Suits)	1
 timotree	509737	No Variant	1
 timotree	509804	No Variant	1
 timotree	510970	Pink (5 Suits)	1
@@ -1250,6 +1245,8 @@ timotree	523245	No Variant	1
 timotree	523274	Up or Down & Omni (5 Suits)	1
 timotree	523737	Null (6 Suits)	1
 timotree	524183	Alternating Clues & Black (6 Suits)	1
+timotree	524771	Up or Down (6 Suits)	1
+timotree	524822	Up or Down (6 Suits)	1
 timotree	524877	Prism Reversed (4 Suits)	1
 timotree	525480	Prism Reversed (4 Suits)	1
 timotree	525807	Black Reversed (6 Suits)	1
@@ -1371,7 +1368,6 @@ timotree	670706	No Variant	1
 timotree	670746	No Variant	1
 timotree	670810	Prism Reversed (6 Suits)	1
 timotree	671264	Prism Reversed (6 Suits)	1
-timotree	675866	Up or Down & Brown (6 Suits)	1
 timotree	680064	No Variant	1
 timotree	680200	Black (5 Suits)	1
 timotree	681874	Black (6 Suits)	1
@@ -1522,6 +1518,7 @@ timotree	280563	Dark Rainbow (6 Suits)	0
 timotree	280655	No Variant	0
 timotree	280735	No Variant	0
 timotree	282105	No Variant	0
+timotree	282269	Up or Down & Prism (6 Suits)	0
 timotree	283986	White (5 Suits)	0
 timotree	284350	Special Mix (5 Suits)	0
 timotree	284738	Dark Prism (6 Suits)	0
@@ -1539,6 +1536,7 @@ timotree	294576	Black (5 Suits)	0
 timotree	294594	Black (5 Suits)	0
 timotree	295432	Cocoa Rainbow (5 Suits)	0
 timotree	296449	Black & Prism (5 Suits)	0
+timotree	296535	Up or Down & Pink (5 Suits)	0
 timotree	296935	No Variant	0
 timotree	297239	Black (5 Suits)	0
 timotree	297490	No Variant	0
@@ -1953,6 +1951,8 @@ timotree	667972	Prism Reversed (6 Suits)	0
 timotree	671245	Prism Reversed (6 Suits)	0
 timotree	671293	Prism Reversed (6 Suits)	0
 timotree	671774	Prism Reversed (6 Suits)	0
+timotree	675866	Up or Down & Brown (6 Suits)	0
+timotree	676485	Up or Down & Brown (6 Suits)	0
 timotree	679663	Black (6 Suits)	0
 timotree	680079	6 Suits	0
 timotree	680114	Rainbow-Ones & Pink (5 Suits)	0

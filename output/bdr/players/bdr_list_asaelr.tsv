@@ -1,12 +1,10 @@
 Player	Game id	Variant	BDR
-asaelr	57204	Up or Down (6 Suits)	8
 asaelr	39187	Brown (6 Suits)	7
 asaelr	43111	6 Suits	7
 asaelr	47161	6 Suits	7
 asaelr	74520	Extremely Ambiguous (6 Suits)	7
 asaelr	76157	Dual-Color (6 Suits)	7
 asaelr	656848	Rainbow & White (6 Suits)	7
-asaelr	696768	Up or Down & Omni (6 Suits)	7
 asaelr	37385	No Variant	6
 asaelr	42351	Black & White (6 Suits)	6
 asaelr	42729	Black & Brown (6 Suits)	6
@@ -20,7 +18,6 @@ asaelr	50148	No Variant	6
 asaelr	52765	Rainbow & White (6 Suits)	6
 asaelr	53472	Dark Pink (6 Suits)	6
 asaelr	57921	Black & Brown (6 Suits)	6
-asaelr	60819	Up or Down & Rainbow (6 Suits)	6
 asaelr	63033	Gray Pink (6 Suits)	6
 asaelr	72334	Rainbow (6 Suits)	6
 asaelr	75085	Dual-Color (6 Suits)	6
@@ -52,7 +49,6 @@ asaelr	43403	6 Suits	5
 asaelr	44114	Black (6 Suits)	5
 asaelr	46583	No Variant	5
 asaelr	46600	Rainbow (6 Suits)	5
-asaelr	47384	Up or Down (6 Suits)	5
 asaelr	47458	White (6 Suits)	5
 asaelr	47711	Rainbow (6 Suits)	5
 asaelr	48302	Rainbow (6 Suits)	5
@@ -64,17 +60,15 @@ asaelr	53830	Pink (6 Suits)	5
 asaelr	54156	Pink (6 Suits)	5
 asaelr	56803	White (6 Suits)	5
 asaelr	60129	Rainbow (6 Suits)	5
+asaelr	60819	Up or Down & Rainbow (6 Suits)	5
 asaelr	61642	No Variant	5
-asaelr	61787	Up or Down (6 Suits)	5
 asaelr	63154	Rainbow & White (6 Suits)	5
-asaelr	63765	Up or Down & Brown (5 Suits)	5
 asaelr	65901	6 Suits	5
 asaelr	68410	6 Suits	5
 asaelr	71312	Dark Rainbow (6 Suits)	5
 asaelr	74514	Extremely Ambiguous (6 Suits)	5
 asaelr	75084	Dual-Color (6 Suits)	5
 asaelr	75112	Brown (5 Suits)	5
-asaelr	77347	Up or Down & Pink (5 Suits)	5
 asaelr	102947	No Variant	5
 asaelr	105845	6 Suits	5
 asaelr	143644	Rainbow & Light Pink (5 Suits)	5
@@ -86,7 +80,6 @@ asaelr	210572	Rainbow & Brown (6 Suits)	5
 asaelr	230296	Brown (6 Suits)	5
 asaelr	246718	Black & Pink (6 Suits)	5
 asaelr	278718	Dual-Color (6 Suits)	5
-asaelr	295982	Up or Down (6 Suits)	5
 asaelr	309292	Ambiguous (6 Suits)	5
 asaelr	312741	Gray (6 Suits)	5
 asaelr	320280	Extremely Ambiguous (5 Suits)	5
@@ -104,7 +97,6 @@ asaelr	560597	Deceptive-Ones & Rainbow (6 Suits)	5
 asaelr	564290	No Variant	5
 asaelr	574775	White (5 Suits)	5
 asaelr	597147	White (6 Suits)	5
-asaelr	598116	Up or Down (5 Suits)	5
 asaelr	615598	Pink-Ones & Rainbow (6 Suits)	5
 asaelr	617503	Black (6 Suits)	5
 asaelr	625772	Omni-Ones & Rainbow (6 Suits)	5
@@ -114,7 +106,6 @@ asaelr	700925	White & Prism (6 Suits)	5
 asaelr	769658	Pink (6 Suits)	5
 asaelr	771806	Synesthesia (5 Suits)	5
 asaelr	771842	Black & Rainbow (6 Suits)	5
-asaelr	781078	Up or Down & Pink (6 Suits)	5
 asaelr	783294	Rainbow & White (6 Suits)	5
 asaelr	783324	Rainbow & White (6 Suits)	5
 asaelr	788339	Rainbow-Ones (6 Suits)	5
@@ -163,19 +154,18 @@ asaelr	55124	6 Suits	4
 asaelr	55385	Rainbow & White (6 Suits)	4
 asaelr	55419	Rainbow & White (6 Suits)	4
 asaelr	57180	Pink & White (6 Suits)	4
+asaelr	57204	Up or Down (6 Suits)	4
 asaelr	57846	White (6 Suits)	4
 asaelr	57957	White (6 Suits)	4
 asaelr	57964	White (5 Suits)	4
 asaelr	58660	6 Suits	4
 asaelr	58665	6 Suits	4
-asaelr	59104	Up or Down (6 Suits)	4
 asaelr	60386	Dual-Color Mix	4
 asaelr	60977	No Variant	4
 asaelr	61557	6 Suits	4
 asaelr	62004	Rainbow & Gray (6 Suits)	4
 asaelr	62872	Dual-Color Mix	4
 asaelr	63165	Rainbow & Dark Omni (6 Suits)	4
-asaelr	64230	Up or Down & Brown (6 Suits)	4
 asaelr	64413	Rainbow (6 Suits)	4
 asaelr	65006	Brown & Omni (6 Suits)	4
 asaelr	65158	Pink (6 Suits)	4
@@ -205,7 +195,6 @@ asaelr	78238	No Variant	4
 asaelr	81337	Rainbow (6 Suits)	4
 asaelr	81342	Brown & Omni (6 Suits)	4
 asaelr	83349	Dual-Color (6 Suits)	4
-asaelr	84663	Up or Down & Rainbow (6 Suits)	4
 asaelr	86223	No Variant	4
 asaelr	89542	No Variant	4
 asaelr	89559	No Variant	4
@@ -233,13 +222,9 @@ asaelr	224339	Rainbow (6 Suits)	4
 asaelr	229375	No Variant	4
 asaelr	230308	Brown (6 Suits)	4
 asaelr	232146	Rainbow (6 Suits)	4
-asaelr	237646	Up or Down (5 Suits)	4
 asaelr	254257	Light Pink (5 Suits)	4
-asaelr	257044	Up or Down (5 Suits)	4
 asaelr	257067	Dual-Color (6 Suits)	4
 asaelr	274214	Pink & White (6 Suits)	4
-asaelr	275231	Up or Down (6 Suits)	4
-asaelr	275796	Up or Down & Pink (5 Suits)	4
 asaelr	284027	White-Ones & Prism (6 Suits)	4
 asaelr	284953	Rainbow & Light Pink (5 Suits)	4
 asaelr	290132	Rainbow (6 Suits)	4
@@ -268,12 +253,9 @@ asaelr	451067	White & Prism (6 Suits)	4
 asaelr	478069	No Variant	4
 asaelr	478125	Brown (6 Suits)	4
 asaelr	478136	Brown (6 Suits)	4
-asaelr	491579	Up or Down & Omni (6 Suits)	4
-asaelr	493900	Up or Down & Light Pink (6 Suits)	4
 asaelr	504845	Muddy Rainbow & Light Pink (6 Suits)	4
 asaelr	518607	Pink-Ones (6 Suits)	4
 asaelr	526962	Prism Reversed (6 Suits)	4
-asaelr	531117	Up or Down & White (6 Suits)	4
 asaelr	541758	Omni (6 Suits)	4
 asaelr	541764	Omni (6 Suits)	4
 asaelr	545333	Dual-Color & Muddy Rainbow (6 Suits)	4
@@ -284,7 +266,6 @@ asaelr	596576	No Variant	4
 asaelr	599637	No Variant	4
 asaelr	602420	Pink & Dark Omni (6 Suits)	4
 asaelr	603035	Rainbow & Light Pink (6 Suits)	4
-asaelr	611446	Up or Down & Brown (6 Suits)	4
 asaelr	633478	Muddy-Rainbow-Ones (6 Suits)	4
 asaelr	634581	Brown (6 Suits)	4
 asaelr	650428	Pink & Light Pink (5 Suits)	4
@@ -353,8 +334,6 @@ asaelr	45759	No Variant	3
 asaelr	46575	6 Suits	3
 asaelr	46577	6 Suits	3
 asaelr	46582	No Variant	3
-asaelr	46730	Up or Down (6 Suits)	3
-asaelr	46731	Up or Down (6 Suits)	3
 asaelr	46886	Pink & White (6 Suits)	3
 asaelr	47459	White (6 Suits)	3
 asaelr	47716	Rainbow (6 Suits)	3
@@ -402,7 +381,6 @@ asaelr	58309	Black & White (6 Suits)	3
 asaelr	58313	Black & White (6 Suits)	3
 asaelr	58864	Pink (5 Suits)	3
 asaelr	58964	6 Suits	3
-asaelr	59106	Up or Down & White (5 Suits)	3
 asaelr	59134	Muddy Rainbow (6 Suits)	3
 asaelr	59458	White (5 Suits)	3
 asaelr	60065	Black & Rainbow (5 Suits)	3
@@ -421,9 +399,9 @@ asaelr	62808	Black & Brown (6 Suits)	3
 asaelr	63153	Rainbow & White (6 Suits)	3
 asaelr	63186	Rainbow & Dark Brown (5 Suits)	3
 asaelr	64026	Rainbow (6 Suits)	3
+asaelr	64230	Up or Down & Brown (6 Suits)	3
 asaelr	68083	Black & Dark Rainbow (6 Suits)	3
 asaelr	68122	Ambiguous & White (5 Suits)	3
-asaelr	68375	Up or Down & Pink (6 Suits)	3
 asaelr	68883	Gray Pink (6 Suits)	3
 asaelr	68936	Dual-Color (6 Suits)	3
 asaelr	70588	Dual-Color (6 Suits)	3
@@ -466,6 +444,7 @@ asaelr	83348	Dual-Color (6 Suits)	3
 asaelr	83512	Dark Brown (6 Suits)	3
 asaelr	84367	Dual-Color (6 Suits)	3
 asaelr	84370	Dual-Color (6 Suits)	3
+asaelr	84663	Up or Down & Rainbow (6 Suits)	3
 asaelr	89247	No Variant	3
 asaelr	91479	No Variant	3
 asaelr	94324	White & Dark Rainbow (6 Suits)	3
@@ -481,7 +460,6 @@ asaelr	121605	No Variant	3
 asaelr	124625	Rainbow (6 Suits)	3
 asaelr	124677	Rainbow (6 Suits)	3
 asaelr	124696	Rainbow (6 Suits)	3
-asaelr	127910	Up or Down (5 Suits)	3
 asaelr	130480	6 Suits	3
 asaelr	130835	6 Suits	3
 asaelr	132393	Rainbow (6 Suits)	3
@@ -496,7 +474,6 @@ asaelr	152209	Black (6 Suits)	3
 asaelr	153511	White-Ones (6 Suits)	3
 asaelr	154278	Dual-Color (6 Suits)	3
 asaelr	156992	6 Suits	3
-asaelr	161734	Up or Down & Muddy Rainbow (5 Suits)	3
 asaelr	164249	No Variant	3
 asaelr	172846	Black (6 Suits)	3
 asaelr	174042	No Variant	3
@@ -505,7 +482,6 @@ asaelr	178600	Black (6 Suits)	3
 asaelr	183653	Dark Brown (6 Suits)	3
 asaelr	188200	Black & Rainbow (5 Suits)	3
 asaelr	189462	No Variant	3
-asaelr	190701	Up or Down & White (6 Suits)	3
 asaelr	190814	Black & Rainbow (5 Suits)	3
 asaelr	191756	Gray Pink (5 Suits)	3
 asaelr	192749	Rainbow (6 Suits)	3
@@ -521,7 +497,6 @@ asaelr	218139	Cocoa Rainbow (6 Suits)	3
 asaelr	218144	Cocoa Rainbow (6 Suits)	3
 asaelr	232155	Rainbow (6 Suits)	3
 asaelr	234097	Black Reversed (6 Suits)	3
-asaelr	234140	Up or Down (5 Suits)	3
 asaelr	237403	Muddy Rainbow (5 Suits)	3
 asaelr	238242	Black (6 Suits)	3
 asaelr	245161	Clue Starved & White (5 Suits)	3
@@ -541,7 +516,6 @@ asaelr	284762	Black & Prism (6 Suits)	3
 asaelr	292000	Black (6 Suits)	3
 asaelr	293220	No Variant	3
 asaelr	293242	No Variant	3
-asaelr	293264	Up or Down & Light Pink (5 Suits)	3
 asaelr	293962	No Variant	3
 asaelr	294648	No Variant	3
 asaelr	296609	White & Prism (6 Suits)	3
@@ -559,11 +533,9 @@ asaelr	309849	Prism (6 Suits)	3
 asaelr	320440	Black & Brown (6 Suits)	3
 asaelr	323722	Dark Null (6 Suits)	3
 asaelr	329780	Rainbow & Prism (6 Suits)	3
-asaelr	334354	Up or Down & Prism (6 Suits)	3
 asaelr	334852	Rainbow-Ones & Rainbow (6 Suits)	3
 asaelr	334871	Rainbow-Ones & Rainbow (6 Suits)	3
 asaelr	335224	Pink & Prism (5 Suits)	3
-asaelr	336039	Up or Down & Pink (5 Suits)	3
 asaelr	338488	Prism (6 Suits)	3
 asaelr	338544	Prism (6 Suits)	3
 asaelr	357508	Black & Prism (6 Suits)	3
@@ -571,7 +543,6 @@ asaelr	361649	6 Suits	3
 asaelr	362358	Black & Omni (6 Suits)	3
 asaelr	369233	Black (6 Suits)	3
 asaelr	385071	Rainbow & Pink (6 Suits)	3
-asaelr	393760	Up or Down (6 Suits)	3
 asaelr	394543	White & Prism (6 Suits)	3
 asaelr	401494	Omni-Fives (6 Suits)	3
 asaelr	409836	Dual-Color Mix	3
@@ -603,13 +574,13 @@ asaelr	476428	Black & Muddy Rainbow (6 Suits)	3
 asaelr	476446	Black & Muddy Rainbow (6 Suits)	3
 asaelr	477903	No Variant	3
 asaelr	490559	Up or Down (6 Suits)	3
-asaelr	490587	Up or Down (6 Suits)	3
+asaelr	491579	Up or Down & Omni (6 Suits)	3
+asaelr	493900	Up or Down & Light Pink (6 Suits)	3
 asaelr	493920	Extremely Ambiguous & Pink (5 Suits)	3
 asaelr	496601	Null (5 Suits)	3
 asaelr	497481	Null (5 Suits)	3
 asaelr	499699	Rainbow-Ones (6 Suits)	3
 asaelr	499706	Rainbow-Ones (6 Suits)	3
-asaelr	501056	Up or Down & Omni (6 Suits)	3
 asaelr	502029	Null (5 Suits)	3
 asaelr	504330	Rainbow & Prism (5 Suits)	3
 asaelr	510203	Pink & Omni (6 Suits)	3
@@ -644,7 +615,7 @@ asaelr	593016	White & Cocoa Rainbow (6 Suits)	3
 asaelr	597170	White (6 Suits)	3
 asaelr	597744	Pink & Cocoa Rainbow (6 Suits)	3
 asaelr	597769	White & Muddy Rainbow (5 Suits)	3
-asaelr	598096	Up or Down (5 Suits)	3
+asaelr	598116	Up or Down (5 Suits)	3
 asaelr	601421	Brown & Prism (6 Suits)	3
 asaelr	608417	White & Light Pink (5 Suits)	3
 asaelr	612691	No Variant	3
@@ -674,6 +645,7 @@ asaelr	686119	Black (6 Suits)	3
 asaelr	689502	Rainbow & Cocoa Rainbow (6 Suits)	3
 asaelr	690294	Black & Dark Brown (6 Suits)	3
 asaelr	694486	Pink & Prism (6 Suits)	3
+asaelr	696768	Up or Down & Omni (6 Suits)	3
 asaelr	697606	Rainbow-Ones & Rainbow (5 Suits)	3
 asaelr	718507	White-Ones & Brown (6 Suits)	3
 asaelr	746790	6 Suits	3
@@ -694,7 +666,6 @@ asaelr	776977	Pink-Fives & Light Pink (6 Suits)	3
 asaelr	777321	6 Suits	3
 asaelr	777558	Muddy-Rainbow-Ones & Gray Pink (6 Suits)	3
 asaelr	779076	Deceptive-Fives & Dark Rainbow (6 Suits)	3
-asaelr	781063	Up or Down & Pink (6 Suits)	3
 asaelr	781234	Pink & Light Pink (6 Suits)	3
 asaelr	782500	Pink-Ones & Brown (6 Suits)	3
 asaelr	782675	Brown-Fives & Cocoa Rainbow (6 Suits)	3
@@ -747,8 +718,6 @@ asaelr	42861	Dark Brown (6 Suits)	2
 asaelr	42914	Dual-Color (6 Suits)	2
 asaelr	43045	Rainbow (6 Suits)	2
 asaelr	43052	No Variant	2
-asaelr	43104	Up or Down (5 Suits)	2
-asaelr	43107	Up or Down (5 Suits)	2
 asaelr	43174	6 Suits	2
 asaelr	43210	No Variant	2
 asaelr	43375	Dark Pink (6 Suits)	2
@@ -781,13 +750,15 @@ asaelr	46350	Black (5 Suits)	2
 asaelr	46416	No Variant	2
 asaelr	46461	No Variant	2
 asaelr	46462	6 Suits	2
-asaelr	46732	Up or Down (6 Suits)	2
+asaelr	46730	Up or Down (6 Suits)	2
+asaelr	46731	Up or Down (6 Suits)	2
 asaelr	46777	Brown (4 Suits)	2
 asaelr	46783	Black & Pink (6 Suits)	2
 asaelr	46790	Rainbow & Brown (4 Suits)	2
 asaelr	47212	4 Suits	2
 asaelr	47286	Brown (5 Suits)	2
 asaelr	47290	Brown (5 Suits)	2
+asaelr	47384	Up or Down (6 Suits)	2
 asaelr	47417	Black (6 Suits)	2
 asaelr	47424	Muddy Rainbow (6 Suits)	2
 asaelr	47588	White (6 Suits)	2
@@ -848,7 +819,6 @@ asaelr	56173	No Variant	2
 asaelr	56185	Dual-Color & Rainbow (6 Suits)	2
 asaelr	56262	No Variant	2
 asaelr	56560	White (6 Suits)	2
-asaelr	56563	Up or Down & White (5 Suits)	2
 asaelr	56600	Black & Rainbow (6 Suits)	2
 asaelr	56774	No Variant	2
 asaelr	56823	Black & Rainbow (6 Suits)	2
@@ -868,8 +838,6 @@ asaelr	58871	Pink (5 Suits)	2
 asaelr	58904	Muddy Rainbow (6 Suits)	2
 asaelr	58962	Dark Brown (6 Suits)	2
 asaelr	58963	Dark Brown (6 Suits)	2
-asaelr	59105	Up or Down & White (5 Suits)	2
-asaelr	59108	Up or Down & White (5 Suits)	2
 asaelr	60067	Black & Rainbow (5 Suits)	2
 asaelr	60282	White (6 Suits)	2
 asaelr	60450	Pink & Brown (6 Suits)	2
@@ -885,6 +853,7 @@ asaelr	61222	Dark Brown (6 Suits)	2
 asaelr	61250	Black (5 Suits)	2
 asaelr	61655	No Variant	2
 asaelr	61731	White & Dark Pink (6 Suits)	2
+asaelr	61787	Up or Down (6 Suits)	2
 asaelr	61918	White & Dark Pink (6 Suits)	2
 asaelr	61960	Pink-Fives & Rainbow (4 Suits)	2
 asaelr	61970	Pink-Fives & Rainbow (4 Suits)	2
@@ -898,6 +867,7 @@ asaelr	63086	Rainbow & Pink (6 Suits)	2
 asaelr	63161	Dark Omni (5 Suits)	2
 asaelr	63367	Black & Pink (5 Suits)	2
 asaelr	63687	Dark Omni (6 Suits)	2
+asaelr	63765	Up or Down & Brown (5 Suits)	2
 asaelr	63768	Pink & White (4 Suits)	2
 asaelr	63904	Dark Brown (6 Suits)	2
 asaelr	64025	Rainbow (6 Suits)	2
@@ -1009,6 +979,7 @@ asaelr	120357	Rainbow (6 Suits)	2
 asaelr	127301	Pink (5 Suits)	2
 asaelr	127732	Rainbow (6 Suits)	2
 asaelr	127785	Rainbow (6 Suits)	2
+asaelr	127910	Up or Down (5 Suits)	2
 asaelr	128857	Dual-Color (6 Suits)	2
 asaelr	131972	6 Suits	2
 asaelr	132070	6 Suits	2
@@ -1016,7 +987,6 @@ asaelr	135516	No Variant	2
 asaelr	135538	No Variant	2
 asaelr	137914	Black (5 Suits)	2
 asaelr	138166	No Variant	2
-asaelr	138353	Up or Down & Pink (5 Suits)	2
 asaelr	139156	Pink (5 Suits)	2
 asaelr	139354	No Variant	2
 asaelr	141291	Pink (5 Suits)	2
@@ -1092,11 +1062,9 @@ asaelr	233137	Rainbow (6 Suits)	2
 asaelr	233466	Dark Rainbow (5 Suits)	2
 asaelr	234092	Black Reversed (6 Suits)	2
 asaelr	235148	No Variant	2
-asaelr	237330	Up or Down (6 Suits)	2
 asaelr	237368	Rainbow (4 Suits)	2
-asaelr	237585	Up or Down (5 Suits)	2
 asaelr	237620	Up or Down (5 Suits)	2
-asaelr	237675	Up or Down (5 Suits)	2
+asaelr	237646	Up or Down (5 Suits)	2
 asaelr	239028	Pink (6 Suits)	2
 asaelr	240458	White (6 Suits)	2
 asaelr	242020	Pink (5 Suits)	2
@@ -1127,7 +1095,8 @@ asaelr	272514	Black (6 Suits)	2
 asaelr	272540	Dark Brown (6 Suits)	2
 asaelr	274172	Black (5 Suits)	2
 asaelr	274178	Black (5 Suits)	2
-asaelr	275805	Up or Down & Pink (5 Suits)	2
+asaelr	275231	Up or Down (6 Suits)	2
+asaelr	275796	Up or Down & Pink (5 Suits)	2
 asaelr	276352	Brown (5 Suits)	2
 asaelr	278416	No Variant	2
 asaelr	279312	Pink (6 Suits)	2
@@ -1147,6 +1116,7 @@ asaelr	288159	6 Suits	2
 asaelr	290602	Pink (6 Suits)	2
 asaelr	293228	No Variant	2
 asaelr	294645	No Variant	2
+asaelr	295982	Up or Down (6 Suits)	2
 asaelr	296312	White & Prism (6 Suits)	2
 asaelr	296803	No Variant	2
 asaelr	298767	Gray Pink (5 Suits)	2
@@ -1186,6 +1156,7 @@ asaelr	333720	Rainbow & Brown (6 Suits)	2
 asaelr	334370	Prism (5 Suits)	2
 asaelr	334372	Prism (5 Suits)	2
 asaelr	334441	White & Prism (5 Suits)	2
+asaelr	336039	Up or Down & Pink (5 Suits)	2
 asaelr	338574	Prism (6 Suits)	2
 asaelr	338591	Prism (6 Suits)	2
 asaelr	339530	Clue Starved & White (5 Suits)	2
@@ -1206,7 +1177,6 @@ asaelr	363509	White & Light Pink (5 Suits)	2
 asaelr	366040	Rainbow & Pink (4 Suits)	2
 asaelr	366173	Gray (5 Suits)	2
 asaelr	366864	White & Dark Prism (6 Suits)	2
-asaelr	367681	Up or Down & Prism (5 Suits)	2
 asaelr	371133	Black & Prism (6 Suits)	2
 asaelr	379224	Dark Pink (6 Suits)	2
 asaelr	379242	Dark Pink (6 Suits)	2
@@ -1217,6 +1187,7 @@ asaelr	384208	Alternating Clues (5 Suits)	2
 asaelr	390394	No Variant	2
 asaelr	390571	Rainbow & Brown (5 Suits)	2
 asaelr	390643	Light Pink (6 Suits)	2
+asaelr	393760	Up or Down (6 Suits)	2
 asaelr	394529	Pink (5 Suits)	2
 asaelr	401103	Rainbow & Pink (5 Suits)	2
 asaelr	401980	Black (5 Suits)	2
@@ -1261,7 +1232,7 @@ asaelr	465113	Pink & Muddy Rainbow (5 Suits)	2
 asaelr	470408	Rainbow & Prism (5 Suits)	2
 asaelr	478227	Brown (6 Suits)	2
 asaelr	478498	Rainbow & Gray Pink (5 Suits)	2
-asaelr	486297	Up or Down & Pink (5 Suits)	2
+asaelr	490587	Up or Down (6 Suits)	2
 asaelr	491645	Light Pink (5 Suits)	2
 asaelr	493015	Rainbow & Dark Brown (5 Suits)	2
 asaelr	494820	Prism (5 Suits)	2
@@ -1269,11 +1240,10 @@ asaelr	496537	Null (5 Suits)	2
 asaelr	496630	Null (5 Suits)	2
 asaelr	500152	Rainbow Reversed (4 Suits)	2
 asaelr	500986	6 Suits	2
-asaelr	501022	Up or Down & Omni (6 Suits)	2
+asaelr	501056	Up or Down & Omni (6 Suits)	2
 asaelr	501995	Null (5 Suits)	2
 asaelr	508695	Rainbow & Prism (6 Suits)	2
 asaelr	515290	Gray (6 Suits)	2
-asaelr	522973	Up or Down & Prism (5 Suits)	2
 asaelr	525429	Pink-Fives (5 Suits)	2
 asaelr	525907	White-Ones & Pink (6 Suits)	2
 asaelr	525975	White-Ones & Pink (6 Suits)	2
@@ -1281,11 +1251,10 @@ asaelr	527745	No Variant	2
 asaelr	528053	Rainbow & Cocoa Rainbow (6 Suits)	2
 asaelr	529149	Rainbow (6 Suits)	2
 asaelr	531049	No Variant	2
-asaelr	531181	Up or Down & Light Pink (6 Suits)	2
+asaelr	531117	Up or Down & White (6 Suits)	2
 asaelr	531286	No Variant	2
 asaelr	533336	Gray Pink (5 Suits)	2
 asaelr	533714	Up or Down & Pink (6 Suits)	2
-asaelr	533725	Up or Down & White (6 Suits)	2
 asaelr	534861	No Variant	2
 asaelr	535119	Pink & Dark Omni (6 Suits)	2
 asaelr	535148	Pink & Dark Omni (6 Suits)	2
@@ -1307,7 +1276,6 @@ asaelr	556976	Prism & Cocoa Rainbow (6 Suits)	2
 asaelr	564280	No Variant	2
 asaelr	569248	Up or Down & Muddy Rainbow (6 Suits)	2
 asaelr	570461	Pink & Light Pink (6 Suits)	2
-asaelr	571561	Up or Down & Rainbow (5 Suits)	2
 asaelr	573354	No Variant	2
 asaelr	574767	White (5 Suits)	2
 asaelr	575511	Ambiguous Mix	2
@@ -1328,6 +1296,7 @@ asaelr	608039	Rainbow & Dark Brown (5 Suits)	2
 asaelr	608192	Black & Muddy Rainbow (6 Suits)	2
 asaelr	608419	White & Cocoa Rainbow (6 Suits)	2
 asaelr	608635	Pink & Cocoa Rainbow (6 Suits)	2
+asaelr	611446	Up or Down & Brown (6 Suits)	2
 asaelr	612705	No Variant	2
 asaelr	615386	Rainbow-Fives & Rainbow (5 Suits)	2
 asaelr	615929	Black (6 Suits)	2
@@ -1389,7 +1358,6 @@ asaelr	697190	Dual-Color & Muddy Rainbow (6 Suits)	2
 asaelr	697942	No Variant	2
 asaelr	700132	Rainbow-Ones & Brown (5 Suits)	2
 asaelr	700144	Black & White (6 Suits)	2
-asaelr	700355	Up or Down (6 Suits)	2
 asaelr	700972	Muddy Rainbow (6 Suits)	2
 asaelr	705970	Black & Omni (6 Suits)	2
 asaelr	706133	Null-Ones & Null (6 Suits)	2
@@ -1416,6 +1384,8 @@ asaelr	777564	Muddy-Rainbow-Ones & Gray Pink (6 Suits)	2
 asaelr	778333	Rainbow & Muddy Rainbow (6 Suits)	2
 asaelr	778336	Rainbow & Muddy Rainbow (6 Suits)	2
 asaelr	779058	Deceptive-Fives & Dark Rainbow (6 Suits)	2
+asaelr	781063	Up or Down & Pink (6 Suits)	2
+asaelr	781078	Up or Down & Pink (6 Suits)	2
 asaelr	781546	Pink-Ones & White (6 Suits)	2
 asaelr	782711	Brown-Fives & Cocoa Rainbow (6 Suits)	2
 asaelr	785455	Muddy-Rainbow-Fives & Rainbow (5 Suits)	2
@@ -1431,7 +1401,6 @@ asaelr	788361	Pink-Fives & Prism (4 Suits)	2
 asaelr	788364	Pink-Fives & Prism (4 Suits)	2
 asaelr	788368	Alternating Clues & Rainbow (6 Suits)	2
 asaelr	790287	Pink & Dark Prism (5 Suits)	2
-asaelr	790766	Up or Down & Muddy Rainbow (5 Suits)	2
 asaelr	790951	Light Pink & Dark Rainbow (5 Suits)	2
 asaelr	792820	Light-Pink-Ones (6 Suits)	2
 asaelr	793331	6 Suits	2
@@ -1486,6 +1455,8 @@ asaelr	42976	Black (6 Suits)	1
 asaelr	42995	No Variant	1
 asaelr	43035	6 Suits	1
 asaelr	43054	No Variant	1
+asaelr	43104	Up or Down (5 Suits)	1
+asaelr	43107	Up or Down (5 Suits)	1
 asaelr	43175	4 Suits	1
 asaelr	43198	Black (6 Suits)	1
 asaelr	43207	No Variant	1
@@ -1534,6 +1505,7 @@ asaelr	46471	6 Suits	1
 asaelr	46552	Black (5 Suits)	1
 asaelr	46556	Pink (5 Suits)	1
 asaelr	46718	No Variant	1
+asaelr	46732	Up or Down (6 Suits)	1
 asaelr	46769	Black (5 Suits)	1
 asaelr	46770	Black (5 Suits)	1
 asaelr	46778	Brown (4 Suits)	1
@@ -1665,7 +1637,6 @@ asaelr	57328	Brown (5 Suits)	1
 asaelr	57344	Omni (4 Suits)	1
 asaelr	57506	Black & Null (5 Suits)	1
 asaelr	57508	Black & Null (5 Suits)	1
-asaelr	57510	Up or Down (5 Suits)	1
 asaelr	57812	Black & White (5 Suits)	1
 asaelr	57834	Rainbow (6 Suits)	1
 asaelr	57839	Black (5 Suits)	1
@@ -1678,6 +1649,8 @@ asaelr	58382	Pink (6 Suits)	1
 asaelr	58607	No Variant	1
 asaelr	58956	Dark Brown (6 Suits)	1
 asaelr	58979	Pink & Brown (4 Suits)	1
+asaelr	59105	Up or Down & White (5 Suits)	1
+asaelr	59106	Up or Down & White (5 Suits)	1
 asaelr	59135	Muddy Rainbow (6 Suits)	1
 asaelr	59140	Muddy Rainbow (6 Suits)	1
 asaelr	59726	Black & White (6 Suits)	1
@@ -1749,6 +1722,7 @@ asaelr	68121	Ambiguous (4 Suits)	1
 asaelr	68125	Pink-Fives & Rainbow (5 Suits)	1
 asaelr	68153	Dual-Color (6 Suits)	1
 asaelr	68352	Pink & Brown (4 Suits)	1
+asaelr	68375	Up or Down & Pink (6 Suits)	1
 asaelr	68377	Throw It in a Hole (5 Suits)	1
 asaelr	68388	Throw It in a Hole (4 Suits)	1
 asaelr	68391	Throw It in a Hole (5 Suits)	1
@@ -1841,6 +1815,7 @@ asaelr	76783	Brown & Gray (6 Suits)	1
 asaelr	76785	Pink-Fives & Rainbow (6 Suits)	1
 asaelr	77040	Dark Omni (5 Suits)	1
 asaelr	77344	Black & Brown (6 Suits)	1
+asaelr	77347	Up or Down & Pink (5 Suits)	1
 asaelr	78210	No Variant	1
 asaelr	78390	6 Suits	1
 asaelr	79077	Brown (5 Suits)	1
@@ -1905,6 +1880,7 @@ asaelr	133580	Rainbow (5 Suits)	1
 asaelr	134147	Brown (6 Suits)	1
 asaelr	134924	Rainbow & Gray (6 Suits)	1
 asaelr	138307	Pink (5 Suits)	1
+asaelr	138353	Up or Down & Pink (5 Suits)	1
 asaelr	140156	Pink & Muddy Rainbow (5 Suits)	1
 asaelr	140269	Black (6 Suits)	1
 asaelr	140943	6 Suits	1
@@ -1945,6 +1921,7 @@ asaelr	189511	No Variant	1
 asaelr	189582	Reversed (5 Suits)	1
 asaelr	189665	Reversed (5 Suits)	1
 asaelr	190447	No Variant	1
+asaelr	190701	Up or Down & White (6 Suits)	1
 asaelr	190787	Black & Rainbow (5 Suits)	1
 asaelr	191397	Dark Pink (5 Suits)	1
 asaelr	191412	Pink-Ones (6 Suits)	1
@@ -1990,9 +1967,12 @@ asaelr	232295	Muddy Rainbow (5 Suits)	1
 asaelr	232307	Muddy Rainbow (5 Suits)	1
 asaelr	232511	Black (6 Suits)	1
 asaelr	233528	Dark Omni (6 Suits)	1
+asaelr	234140	Up or Down (5 Suits)	1
 asaelr	234143	Up or Down (5 Suits)	1
+asaelr	237330	Up or Down (6 Suits)	1
 asaelr	237408	Muddy Rainbow (5 Suits)	1
 asaelr	237494	Dark Brown (6 Suits)	1
+asaelr	237585	Up or Down (5 Suits)	1
 asaelr	238176	4 Suits	1
 asaelr	238177	Rainbow (4 Suits)	1
 asaelr	239024	Up or Down (5 Suits)	1
@@ -2026,9 +2006,9 @@ asaelr	254536	Black & Omni (5 Suits)	1
 asaelr	254720	Throw It in a Hole & Rainbow (6 Suits)	1
 asaelr	255233	Dark Omni (5 Suits)	1
 asaelr	256990	Pink (6 Suits)	1
+asaelr	257044	Up or Down (5 Suits)	1
 asaelr	257103	Dual-Color (6 Suits)	1
 asaelr	257133	Up or Down (5 Suits)	1
-asaelr	260349	Up or Down (5 Suits)	1
 asaelr	260367	Rainbow (6 Suits)	1
 asaelr	260497	No Variant	1
 asaelr	260500	No Variant	1
@@ -2036,7 +2016,6 @@ asaelr	260688	Light-Pink-Ones & Brown (5 Suits)	1
 asaelr	261882	No Variant	1
 asaelr	261900	No Variant	1
 asaelr	262474	Dark Rainbow (6 Suits)	1
-asaelr	262729	Up or Down (6 Suits)	1
 asaelr	262823	Cocoa Rainbow (5 Suits)	1
 asaelr	264161	Gray Pink (5 Suits)	1
 asaelr	268202	Muddy Rainbow (5 Suits)	1
@@ -2050,6 +2029,7 @@ asaelr	274074	White (5 Suits)	1
 asaelr	274169	Dark Brown (6 Suits)	1
 asaelr	274174	Black (5 Suits)	1
 asaelr	275073	Brown-Ones (6 Suits)	1
+asaelr	275805	Up or Down & Pink (5 Suits)	1
 asaelr	276439	No Variant	1
 asaelr	276444	No Variant	1
 asaelr	277830	Throw It in a Hole (4 Suits)	1
@@ -2091,6 +2071,7 @@ asaelr	290813	No Variant	1
 asaelr	291260	Prism (4 Suits)	1
 asaelr	291284	Prism (4 Suits)	1
 asaelr	292549	No Variant	1
+asaelr	293264	Up or Down & Light Pink (5 Suits)	1
 asaelr	293568	Black & Light Pink (6 Suits)	1
 asaelr	293602	Black & Light Pink (6 Suits)	1
 asaelr	296289	White & Prism (6 Suits)	1
@@ -2131,7 +2112,6 @@ asaelr	320266	Extremely Ambiguous (5 Suits)	1
 asaelr	320422	Rainbow & Dark Omni (6 Suits)	1
 asaelr	320450	Black & Brown (6 Suits)	1
 asaelr	322320	Rainbow & Muddy Rainbow (5 Suits)	1
-asaelr	323071	Up or Down & Muddy Rainbow (5 Suits)	1
 asaelr	323115	Null (5 Suits)	1
 asaelr	323645	No Variant	1
 asaelr	324740	Pink (4 Suits)	1
@@ -2153,6 +2133,7 @@ asaelr	332129	Muddy Rainbow (6 Suits)	1
 asaelr	332320	Gray (5 Suits)	1
 asaelr	332674	No Variant	1
 asaelr	333663	Null-Ones & Dark Null (6 Suits)	1
+asaelr	334354	Up or Down & Prism (6 Suits)	1
 asaelr	334533	Black & Rainbow (5 Suits)	1
 asaelr	335229	Pink & Prism (5 Suits)	1
 asaelr	338403	Black (6 Suits)	1
@@ -2264,7 +2245,6 @@ asaelr	486770	Dark Omni (5 Suits)	1
 asaelr	489613	Black & Muddy Rainbow (6 Suits)	1
 asaelr	489778	Brown & Omni (6 Suits)	1
 asaelr	489791	White & Gray Pink (5 Suits)	1
-asaelr	490539	Up or Down (6 Suits)	1
 asaelr	491618	Null (5 Suits)	1
 asaelr	492135	Muddy Rainbow (5 Suits)	1
 asaelr	493026	Pink & Prism (5 Suits)	1
@@ -2281,6 +2261,7 @@ asaelr	498298	Dual-Color & Omni (6 Suits)	1
 asaelr	499003	Null (4 Suits)	1
 asaelr	500069	Dark Prism (5 Suits)	1
 asaelr	500189	Rainbow Reversed (6 Suits)	1
+asaelr	501022	Up or Down & Omni (6 Suits)	1
 asaelr	501095	Up or Down & Omni (6 Suits)	1
 asaelr	502017	Null (5 Suits)	1
 asaelr	502064	Null (5 Suits)	1
@@ -2312,8 +2293,10 @@ asaelr	528068	Rainbow & Cocoa Rainbow (6 Suits)	1
 asaelr	528708	No Variant	1
 asaelr	529736	Light-Pink-Ones (4 Suits)	1
 asaelr	530999	No Variant	1
+asaelr	531181	Up or Down & Light Pink (6 Suits)	1
 asaelr	531663	No Variant	1
 asaelr	533365	Gray Pink (5 Suits)	1
+asaelr	533725	Up or Down & White (6 Suits)	1
 asaelr	533989	Brown & Gray (6 Suits)	1
 asaelr	536155	Rainbow & Pink (6 Suits)	1
 asaelr	537792	No Variant	1
@@ -2523,6 +2506,7 @@ asaelr	789443	Muddy-Rainbow-Ones & Dark Omni (5 Suits)	1
 asaelr	789676	Muddy Rainbow & Prism (6 Suits)	1
 asaelr	789933	White-Ones (6 Suits)	1
 asaelr	789943	White-Ones (6 Suits)	1
+asaelr	790766	Up or Down & Muddy Rainbow (5 Suits)	1
 asaelr	790772	Up or Down & Muddy Rainbow (5 Suits)	1
 asaelr	790917	Brown-Fives & Black (6 Suits)	1
 asaelr	790997	Light Pink & Dark Rainbow (5 Suits)	1
@@ -2681,6 +2665,7 @@ asaelr	56423	Black & Null (6 Suits)	0
 asaelr	56424	No Variant	0
 asaelr	56520	No Variant	0
 asaelr	56524	6 Suits	0
+asaelr	56563	Up or Down & White (5 Suits)	0
 asaelr	56677	No Variant	0
 asaelr	56775	No Variant	0
 asaelr	56785	No Variant	0
@@ -2689,6 +2674,7 @@ asaelr	56884	Black & Rainbow (6 Suits)	0
 asaelr	57464	Black & Omni (5 Suits)	0
 asaelr	57466	Black & Omni (5 Suits)	0
 asaelr	57497	Black & Null (6 Suits)	0
+asaelr	57510	Up or Down (5 Suits)	0
 asaelr	57722	White (5 Suits)	0
 asaelr	57820	Black & Rainbow (5 Suits)	0
 asaelr	57849	Rainbow (5 Suits)	0
@@ -2700,6 +2686,8 @@ asaelr	58604	No Variant	0
 asaelr	58869	Pink (4 Suits)	0
 asaelr	58903	Ambiguous (6 Suits)	0
 asaelr	58953	4 Suits	0
+asaelr	59104	Up or Down (6 Suits)	0
+asaelr	59108	Up or Down & White (5 Suits)	0
 asaelr	59210	Black & Rainbow (6 Suits)	0
 asaelr	59258	Pink & White (4 Suits)	0
 asaelr	59717	Black & White (6 Suits)	0
@@ -2904,6 +2892,7 @@ asaelr	143482	No Variant	0
 asaelr	151699	Light-Pink-Fives & Muddy Rainbow (6 Suits)	0
 asaelr	152027	Pink & Brown (5 Suits)	0
 asaelr	158853	No Variant	0
+asaelr	161734	Up or Down & Muddy Rainbow (5 Suits)	0
 asaelr	164301	Brown-Fives (5 Suits)	0
 asaelr	171851	No Variant	0
 asaelr	171929	Black (5 Suits)	0
@@ -2978,6 +2967,7 @@ asaelr	237423	Dark Rainbow (6 Suits)	0
 asaelr	237483	Rainbow & Brown (5 Suits)	0
 asaelr	237508	Dark Brown (6 Suits)	0
 asaelr	237604	Up or Down (5 Suits)	0
+asaelr	237675	Up or Down (5 Suits)	0
 asaelr	237690	Up or Down (5 Suits)	0
 asaelr	238180	Rainbow (4 Suits)	0
 asaelr	238183	Rainbow (4 Suits)	0
@@ -3007,6 +2997,7 @@ asaelr	256343	Rainbow & Dark Brown (5 Suits)	0
 asaelr	257093	Dual-Color (6 Suits)	0
 asaelr	258933	Pink (3 Suits)	0
 asaelr	258936	Pink & White (6 Suits)	0
+asaelr	260349	Up or Down (5 Suits)	0
 asaelr	260510	No Variant	0
 asaelr	260513	No Variant	0
 asaelr	261472	Rainbow (3 Suits)	0
@@ -3015,6 +3006,7 @@ asaelr	261480	Null (4 Suits)	0
 asaelr	261484	Null (4 Suits)	0
 asaelr	261679	Gray (5 Suits)	0
 asaelr	262518	Dark Rainbow (6 Suits)	0
+asaelr	262729	Up or Down (6 Suits)	0
 asaelr	263443	White-Ones (5 Suits)	0
 asaelr	264165	Gray Pink (5 Suits)	0
 asaelr	269836	White (5 Suits)	0
@@ -3087,6 +3079,7 @@ asaelr	320821	Special Mix (5 Suits)	0
 asaelr	322286	Black & Muddy Rainbow (5 Suits)	0
 asaelr	322863	Special Mix (5 Suits)	0
 asaelr	322889	Black & Prism (5 Suits)	0
+asaelr	323071	Up or Down & Muddy Rainbow (5 Suits)	0
 asaelr	327946	Pink (4 Suits)	0
 asaelr	327994	White (5 Suits)	0
 asaelr	328626	Rainbow & Prism (6 Suits)	0
@@ -3139,6 +3132,7 @@ asaelr	362444	Rainbow & Pink (4 Suits)	0
 asaelr	362698	No Variant	0
 asaelr	366304	Dark Rainbow (5 Suits)	0
 asaelr	366830	White & Prism (5 Suits)	0
+asaelr	367681	Up or Down & Prism (5 Suits)	0
 asaelr	369289	Omni (3 Suits)	0
 asaelr	371154	Rainbow (5 Suits)	0
 asaelr	374673	Light Pink (3 Suits)	0
@@ -3208,9 +3202,11 @@ asaelr	474952	Rainbow-Ones & Pink (5 Suits)	0
 asaelr	478113	Brown (6 Suits)	0
 asaelr	478153	Brown (6 Suits)	0
 asaelr	485546	Black & Omni (6 Suits)	0
+asaelr	486297	Up or Down & Pink (5 Suits)	0
 asaelr	486719	Dark Omni (5 Suits)	0
 asaelr	487381	Black & Muddy Rainbow (6 Suits)	0
 asaelr	488204	Rainbow & Dark Brown (6 Suits)	0
+asaelr	490539	Up or Down (6 Suits)	0
 asaelr	491553	White & Prism (5 Suits)	0
 asaelr	491599	Ambiguous & Brown (5 Suits)	0
 asaelr	491635	Light Pink (5 Suits)	0
@@ -3237,6 +3233,7 @@ asaelr	519533	Brown-Ones & White (5 Suits)	0
 asaelr	519707	Dark Prism (6 Suits)	0
 asaelr	520343	Prism & Dark Pink (5 Suits)	0
 asaelr	520512	Rainbow & Muddy Rainbow (4 Suits)	0
+asaelr	522973	Up or Down & Prism (5 Suits)	0
 asaelr	524401	Gray (5 Suits)	0
 asaelr	524546	Gray (5 Suits)	0
 asaelr	525438	Rainbow & Dark Omni (5 Suits)	0
@@ -3266,6 +3263,7 @@ asaelr	570477	Pink & Light Pink (6 Suits)	0
 asaelr	571183	Prism Reversed (5 Suits)	0
 asaelr	571196	Special Mix (5 Suits)	0
 asaelr	571371	Brown (4 Suits)	0
+asaelr	571561	Up or Down & Rainbow (5 Suits)	0
 asaelr	575872	Black & Brown (5 Suits)	0
 asaelr	578186	Rainbow-Fives & Rainbow (4 Suits)	0
 asaelr	578197	Rainbow-Fives & Rainbow (4 Suits)	0
@@ -3291,6 +3289,7 @@ asaelr	595820	Pink & Dark Omni (5 Suits)	0
 asaelr	595829	Pink & Dark Omni (5 Suits)	0
 asaelr	596566	No Variant	0
 asaelr	596809	Muddy Rainbow & Light Pink (5 Suits)	0
+asaelr	598096	Up or Down (5 Suits)	0
 asaelr	598600	Brown & Muddy Rainbow (5 Suits)	0
 asaelr	598661	Rainbow & White (5 Suits)	0
 asaelr	598668	Rainbow & White (5 Suits)	0
@@ -3387,6 +3386,7 @@ asaelr	696328	Pink (5 Suits)	0
 asaelr	696834	Rainbow & Muddy Rainbow (4 Suits)	0
 asaelr	697669	No Variant	0
 asaelr	698731	Pink & White (6 Suits)	0
+asaelr	700355	Up or Down (6 Suits)	0
 asaelr	702395	Rainbow & Light Pink (6 Suits)	0
 asaelr	705988	Black & Omni (6 Suits)	0
 asaelr	707460	Ambiguous & Cocoa Rainbow (5 Suits)	0

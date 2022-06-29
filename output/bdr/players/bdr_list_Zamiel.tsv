@@ -1,19 +1,15 @@
 Player	Game id	Variant	BDR
 Zamiel	7497	Rainbow (6 Suits)	8
 Zamiel	10548	Rainbow (6 Suits)	8
-Zamiel	17488	Up or Down (6 Suits)	8
-Zamiel	52563	Up or Down & Pink (6 Suits)	8
 Zamiel	3349	Black (6 Suits)	7
 Zamiel	6839	Dual-Color (6 Suits)	7
 Zamiel	12624	Rainbow (6 Suits)	7
 Zamiel	12633	Rainbow (6 Suits)	7
 Zamiel	12660	Black (6 Suits)	7
 Zamiel	15015	Rainbow (6 Suits)	7
-Zamiel	18107	Up or Down (6 Suits)	7
 Zamiel	39187	Brown (6 Suits)	7
 Zamiel	42447	Gray (6 Suits)	7
 Zamiel	49590	Pink & Brown (6 Suits)	7
-Zamiel	457693	Up or Down & Prism (6 Suits)	7
 Zamiel	2944	Rainbow (6 Suits)	6
 Zamiel	2974	6 Suits	6
 Zamiel	3466	No Variant	6
@@ -93,6 +89,7 @@ Zamiel	14930	Rainbow (6 Suits)	5
 Zamiel	14994	Rainbow (6 Suits)	5
 Zamiel	15189	Rainbow (6 Suits)	5
 Zamiel	15466	No Variant	5
+Zamiel	17488	Up or Down (6 Suits)	5
 Zamiel	18092	Pink-Fives & Rainbow (6 Suits)	5
 Zamiel	18821	Ambiguous (6 Suits)	5
 Zamiel	19266	Rainbow (6 Suits)	5
@@ -107,6 +104,7 @@ Zamiel	43593	Rainbow & Pink (6 Suits)	5
 Zamiel	43955	White & Brown (5 Suits)	5
 Zamiel	44410	Black & Pink (6 Suits)	5
 Zamiel	48464	Omni (6 Suits)	5
+Zamiel	52563	Up or Down & Pink (6 Suits)	5
 Zamiel	52714	White & Dark Rainbow (6 Suits)	5
 Zamiel	52769	White & Dark Rainbow (6 Suits)	5
 Zamiel	53214	No Variant	5
@@ -127,8 +125,6 @@ Zamiel	233834	Pink-Ones (6 Suits)	5
 Zamiel	263060	Muddy Rainbow (6 Suits)	5
 Zamiel	273934	White (6 Suits)	5
 Zamiel	289130	Rainbow & Prism (6 Suits)	5
-Zamiel	332465	Up or Down & Rainbow (6 Suits)	5
-Zamiel	332484	Up or Down & Rainbow (6 Suits)	5
 Zamiel	334979	Rainbow-Ones & Rainbow (6 Suits)	5
 Zamiel	341115	Omni-Fives (6 Suits)	5
 Zamiel	341145	Omni-Fives (6 Suits)	5
@@ -137,8 +133,8 @@ Zamiel	341229	Clue Starved & Rainbow (6 Suits)	5
 Zamiel	368094	Ambiguous & Brown (5 Suits)	5
 Zamiel	403496	Cocoa Rainbow (6 Suits)	5
 Zamiel	422690	Light Pink & Prism (6 Suits)	5
+Zamiel	457693	Up or Down & Prism (6 Suits)	5
 Zamiel	471668	Brown-Ones & Pink (6 Suits)	5
-Zamiel	639300	Up or Down & Omni (6 Suits)	5
 Zamiel	715638	6 Suits	5
 Zamiel	2907	6 Suits	4
 Zamiel	2921	No Variant	4
@@ -248,15 +244,12 @@ Zamiel	16015	White (6 Suits)	4
 Zamiel	16048	White (6 Suits)	4
 Zamiel	16057	White (6 Suits)	4
 Zamiel	16101	Ambiguous (6 Suits)	4
-Zamiel	16468	Up or Down (5 Suits)	4
 Zamiel	16493	No Variant	4
 Zamiel	16568	No Variant	4
 Zamiel	16616	Rainbow (6 Suits)	4
-Zamiel	16705	Up or Down (5 Suits)	4
 Zamiel	16812	No Variant	4
 Zamiel	16818	No Variant	4
 Zamiel	16837	No Variant	4
-Zamiel	17960	Up or Down (6 Suits)	4
 Zamiel	17980	Pink-Fives (5 Suits)	4
 Zamiel	18418	No Variant	4
 Zamiel	18532	Clue Starved (6 Suits)	4
@@ -304,7 +297,6 @@ Zamiel	51799	Clue Starved (6 Suits)	4
 Zamiel	51879	Color Mute (5 Suits)	4
 Zamiel	51940	Pink & Brown (5 Suits)	4
 Zamiel	52551	Pink & Gray (6 Suits)	4
-Zamiel	52554	Up or Down & Pink (5 Suits)	4
 Zamiel	52580	White & Dark Rainbow (6 Suits)	4
 Zamiel	52767	White & Dark Rainbow (6 Suits)	4
 Zamiel	53211	Null (6 Suits)	4
@@ -315,8 +307,6 @@ Zamiel	55990	No Variant	4
 Zamiel	57534	No Variant	4
 Zamiel	58201	White & Omni (5 Suits)	4
 Zamiel	58325	Rainbow & Omni (6 Suits)	4
-Zamiel	59801	Up or Down (6 Suits)	4
-Zamiel	59803	Up or Down (5 Suits)	4
 Zamiel	59804	Up or Down (6 Suits)	4
 Zamiel	60917	Black & Null (6 Suits)	4
 Zamiel	62004	Rainbow & Gray (6 Suits)	4
@@ -325,18 +315,14 @@ Zamiel	63432	Black & Brown (6 Suits)	4
 Zamiel	63519	Totally Blind (6 Suits)	4
 Zamiel	65415	Black & Null (5 Suits)	4
 Zamiel	65661	Pink & Null (5 Suits)	4
-Zamiel	66185	Up or Down & Rainbow (6 Suits)	4
 Zamiel	66433	Brown & Omni (6 Suits)	4
 Zamiel	66436	Brown & Omni (5 Suits)	4
 Zamiel	67567	Rainbow & Brown (6 Suits)	4
-Zamiel	68812	Up or Down & Pink (6 Suits)	4
-Zamiel	68815	Up or Down & Rainbow (5 Suits)	4
 Zamiel	72591	Rainbow (6 Suits)	4
 Zamiel	72787	Omni & Dark Rainbow (6 Suits)	4
 Zamiel	73327	Pink & Omni (6 Suits)	4
 Zamiel	81337	Rainbow (6 Suits)	4
 Zamiel	81342	Brown & Omni (6 Suits)	4
-Zamiel	83238	Up or Down & Pink (6 Suits)	4
 Zamiel	95534	White & Omni (6 Suits)	4
 Zamiel	114979	Brown (5 Suits)	4
 Zamiel	115914	No Variant	4
@@ -346,14 +332,12 @@ Zamiel	134896	Rainbow & Gray (6 Suits)	4
 Zamiel	140533	No Variant	4
 Zamiel	140622	No Variant	4
 Zamiel	156248	Light Pink & Gray (5 Suits)	4
-Zamiel	164718	Up or Down & Pink (5 Suits)	4
 Zamiel	176196	Totally Blind (6 Suits)	4
 Zamiel	181758	White-Ones & White (6 Suits)	4
 Zamiel	183002	Black & Dark Rainbow (6 Suits)	4
 Zamiel	194214	Rainbow Reversed (6 Suits)	4
 Zamiel	199369	Rainbow Reversed (6 Suits)	4
 Zamiel	199500	No Variant	4
-Zamiel	204417	Up or Down & Light Pink (6 Suits)	4
 Zamiel	207094	Black & Muddy Rainbow (6 Suits)	4
 Zamiel	207912	Alternating Clues & Pink (6 Suits)	4
 Zamiel	219121	Dual-Color & Brown (6 Suits)	4
@@ -381,7 +365,6 @@ Zamiel	341767	Pink-Fives & White (6 Suits)	4
 Zamiel	350525	Special Mix (6 Suits)	4
 Zamiel	375565	Rainbow & Dark Null (6 Suits)	4
 Zamiel	399077	Clue Starved & White (6 Suits)	4
-Zamiel	399742	Up or Down & Omni (6 Suits)	4
 Zamiel	419536	Dark Prism (6 Suits)	4
 Zamiel	422616	Light Pink & Prism (6 Suits)	4
 Zamiel	425093	No Variant	4
@@ -391,6 +374,7 @@ Zamiel	457656	Up or Down & Prism (6 Suits)	4
 Zamiel	576909	White-Fives & Pink (6 Suits)	4
 Zamiel	585552	Black (6 Suits)	4
 Zamiel	588636	Rainbow (5 Suits)	4
+Zamiel	639300	Up or Down & Omni (6 Suits)	4
 Zamiel	2918	No Variant	3
 Zamiel	2940	Rainbow (6 Suits)	3
 Zamiel	2946	Dual-Color (6 Suits)	3
@@ -609,21 +593,19 @@ Zamiel	17781	No Variant	3
 Zamiel	17861	No Variant	3
 Zamiel	17906	Pink-Fives (6 Suits)	3
 Zamiel	17929	Pink-Fives (6 Suits)	3
+Zamiel	17960	Up or Down (6 Suits)	3
 Zamiel	17968	Up or Down (6 Suits)	3
 Zamiel	17977	Pink-Fives (5 Suits)	3
 Zamiel	17989	Pink-Fives (5 Suits)	3
 Zamiel	18094	Pink-Fives & Rainbow (6 Suits)	3
 Zamiel	18129	No Variant	3
 Zamiel	18528	Clue Starved (6 Suits)	3
-Zamiel	19009	Up or Down (5 Suits)	3
 Zamiel	19203	No Variant	3
 Zamiel	19341	Rainbow (5 Suits)	3
 Zamiel	19343	No Variant	3
 Zamiel	19349	Dual-Color & Rainbow (6 Suits)	3
-Zamiel	19512	Up or Down & White (6 Suits)	3
 Zamiel	19531	No Variant	3
 Zamiel	19533	No Variant	3
-Zamiel	20173	Up or Down & White (5 Suits)	3
 Zamiel	20260	Rainbow (5 Suits)	3
 Zamiel	20677	6 Suits	3
 Zamiel	20680	No Variant	3
@@ -648,7 +630,6 @@ Zamiel	27426	Duck (6 Suits)	3
 Zamiel	27451	Duck (6 Suits)	3
 Zamiel	28938	Pink-Fives & Rainbow (6 Suits)	3
 Zamiel	29342	Dual-Color (5 Suits)	3
-Zamiel	29353	Up or Down & White (6 Suits)	3
 Zamiel	29518	No Variant	3
 Zamiel	29524	Up or Down & Rainbow (6 Suits)	3
 Zamiel	30120	No Variant	3
@@ -678,7 +659,6 @@ Zamiel	40284	No Variant	3
 Zamiel	41017	Black & Rainbow (6 Suits)	3
 Zamiel	41019	Pink (5 Suits)	3
 Zamiel	41210	Black & Rainbow (6 Suits)	3
-Zamiel	41778	Up or Down & Brown (6 Suits)	3
 Zamiel	42080	Black & Rainbow (5 Suits)	3
 Zamiel	42257	Black & Pink (6 Suits)	3
 Zamiel	42335	No Variant	3
@@ -723,7 +703,6 @@ Zamiel	51887	Dark Pink (6 Suits)	3
 Zamiel	51915	Brown & Dark Rainbow (6 Suits)	3
 Zamiel	52346	No Variant	3
 Zamiel	52549	Pink & Gray (6 Suits)	3
-Zamiel	52558	Up or Down & Pink (5 Suits)	3
 Zamiel	53047	Pink & White (5 Suits)	3
 Zamiel	53049	Pink & White (5 Suits)	3
 Zamiel	53053	White & Dark Rainbow (5 Suits)	3
@@ -752,10 +731,10 @@ Zamiel	58199	White & Omni (6 Suits)	3
 Zamiel	59532	Black (5 Suits)	3
 Zamiel	59540	Muddy Rainbow (6 Suits)	3
 Zamiel	59783	White & Dark Pink (6 Suits)	3
+Zamiel	59803	Up or Down (5 Suits)	3
 Zamiel	60241	Pink & Omni (5 Suits)	3
 Zamiel	60900	Null (6 Suits)	3
 Zamiel	60901	Null (6 Suits)	3
-Zamiel	61251	Up or Down & Omni (6 Suits)	3
 Zamiel	61308	Black & White (6 Suits)	3
 Zamiel	61813	Light Pink (6 Suits)	3
 Zamiel	63087	Pink & Gray (6 Suits)	3
@@ -764,10 +743,12 @@ Zamiel	65105	Black & Omni (6 Suits)	3
 Zamiel	65430	Black & Dark Rainbow (6 Suits)	3
 Zamiel	65696	Black & Null (5 Suits)	3
 Zamiel	66163	Black (6 Suits)	3
+Zamiel	66185	Up or Down & Rainbow (6 Suits)	3
 Zamiel	66397	Null (6 Suits)	3
 Zamiel	66416	Rainbow & Omni (5 Suits)	3
 Zamiel	66725	Black & Null (5 Suits)	3
 Zamiel	67417	Brown & Omni (5 Suits)	3
+Zamiel	68812	Up or Down & Pink (6 Suits)	3
 Zamiel	72759	Light Pink (6 Suits)	3
 Zamiel	72777	Light Pink (5 Suits)	3
 Zamiel	73286	Null & Dark Rainbow (5 Suits)	3
@@ -785,7 +766,6 @@ Zamiel	86764	No Variant	3
 Zamiel	92520	Number Mute (6 Suits)	3
 Zamiel	92693	Omni & Dark Rainbow (6 Suits)	3
 Zamiel	92731	Omni & Dark Rainbow (5 Suits)	3
-Zamiel	92834	Up or Down & Omni (5 Suits)	3
 Zamiel	97105	Brown-Ones & Dark Omni (6 Suits)	3
 Zamiel	113389	Pink-Fives & Omni (6 Suits)	3
 Zamiel	115999	No Variant	3
@@ -793,15 +773,14 @@ Zamiel	124762	No Variant	3
 Zamiel	134750	No Variant	3
 Zamiel	138893	Muddy-Rainbow-Ones & Dark Brown (6 Suits)	3
 Zamiel	140578	No Variant	3
-Zamiel	143814	Up or Down & Muddy Rainbow (6 Suits)	3
 Zamiel	143904	White & Light Pink (6 Suits)	3
 Zamiel	143922	White & Light Pink (6 Suits)	3
 Zamiel	154819	White & Null (6 Suits)	3
 Zamiel	155059	Rainbow & Muddy Rainbow (6 Suits)	3
 Zamiel	159098	Light Pink & Gray (6 Suits)	3
+Zamiel	164718	Up or Down & Pink (5 Suits)	3
 Zamiel	165107	Black & Light Pink (6 Suits)	3
 Zamiel	166432	Muddy Rainbow (6 Suits)	3
-Zamiel	176051	Up or Down & Light Pink (5 Suits)	3
 Zamiel	176284	Muddy Rainbow (6 Suits)	3
 Zamiel	180177	No Variant	3
 Zamiel	184253	Black & Rainbow (5 Suits)	3
@@ -856,6 +835,7 @@ Zamiel	315331	Brown-Ones & White (6 Suits)	3
 Zamiel	318858	Clue Starved & Brown (6 Suits)	3
 Zamiel	322631	No Variant	3
 Zamiel	322652	No Variant	3
+Zamiel	332484	Up or Down & Rainbow (6 Suits)	3
 Zamiel	334771	Rainbow-Ones & Rainbow (6 Suits)	3
 Zamiel	334852	Rainbow-Ones & Rainbow (6 Suits)	3
 Zamiel	334871	Rainbow-Ones & Rainbow (6 Suits)	3
@@ -868,6 +848,7 @@ Zamiel	347377	Rainbow & Null (6 Suits)	3
 Zamiel	353097	Rainbow & Dark Null (6 Suits)	3
 Zamiel	356565	Deceptive-Fives (6 Suits)	3
 Zamiel	390946	Deceptive-Ones & Black (6 Suits)	3
+Zamiel	399742	Up or Down & Omni (6 Suits)	3
 Zamiel	399934	Rainbow & Dark Prism (6 Suits)	3
 Zamiel	401483	Rainbow & Null (6 Suits)	3
 Zamiel	416109	Special Mix (6 Suits)	3
@@ -1290,11 +1271,10 @@ Zamiel	17732	Pink-Fives (5 Suits)	2
 Zamiel	17739	Pink-Fives (5 Suits)	2
 Zamiel	17783	No Variant	2
 Zamiel	17787	No Variant	2
-Zamiel	17947	Up or Down (6 Suits)	2
-Zamiel	17951	Up or Down (6 Suits)	2
 Zamiel	17967	Up or Down (6 Suits)	2
 Zamiel	17991	Pink-Fives (5 Suits)	2
 Zamiel	18093	Pink-Fives & Rainbow (6 Suits)	2
+Zamiel	18107	Up or Down (6 Suits)	2
 Zamiel	18131	6 Suits	2
 Zamiel	18135	6 Suits	2
 Zamiel	18257	Pink-Fives (6 Suits)	2
@@ -1309,7 +1289,6 @@ Zamiel	18822	Ambiguous (6 Suits)	2
 Zamiel	18826	Very Ambiguous (6 Suits)	2
 Zamiel	18830	Very Ambiguous (6 Suits)	2
 Zamiel	18933	Color Blind (6 Suits)	2
-Zamiel	19013	Up or Down (5 Suits)	2
 Zamiel	19130	Clue Starved (5 Suits)	2
 Zamiel	19200	No Variant	2
 Zamiel	19279	Ambiguous & Rainbow (5 Suits)	2
@@ -1323,6 +1302,7 @@ Zamiel	19415	No Variant	2
 Zamiel	19447	Black & Dark Rainbow (6 Suits)	2
 Zamiel	19452	Black & Dark Rainbow (6 Suits)	2
 Zamiel	19457	Black & Dark Rainbow (6 Suits)	2
+Zamiel	19512	Up or Down & White (6 Suits)	2
 Zamiel	19525	No Variant	2
 Zamiel	19529	No Variant	2
 Zamiel	19530	No Variant	2
@@ -1339,7 +1319,6 @@ Zamiel	20675	Rainbow (5 Suits)	2
 Zamiel	20711	Rainbow (5 Suits)	2
 Zamiel	20714	Rainbow (5 Suits)	2
 Zamiel	20728	Rainbow (5 Suits)	2
-Zamiel	20992	Up or Down (5 Suits)	2
 Zamiel	21054	Ambiguous & Rainbow (5 Suits)	2
 Zamiel	21076	6 Suits	2
 Zamiel	21095	6 Suits	2
@@ -1350,7 +1329,6 @@ Zamiel	21316	No Variant	2
 Zamiel	21700	No Variant	2
 Zamiel	21785	Dark Rainbow (6 Suits)	2
 Zamiel	21943	Rainbow (5 Suits)	2
-Zamiel	21990	Up or Down (6 Suits)	2
 Zamiel	22675	Ambiguous & Rainbow (5 Suits)	2
 Zamiel	22694	No Variant	2
 Zamiel	22706	Rainbow (4 Suits)	2
@@ -1383,12 +1361,12 @@ Zamiel	26303	Rainbow (5 Suits)	2
 Zamiel	26334	Duck (5 Suits)	2
 Zamiel	26357	Duck (5 Suits)	2
 Zamiel	26461	Rainbow (5 Suits)	2
-Zamiel	26752	Up or Down & White (6 Suits)	2
 Zamiel	27400	Dual-Color (6 Suits)	2
 Zamiel	27420	Up or Down (5 Suits)	2
 Zamiel	27665	Rainbow (5 Suits)	2
 Zamiel	29079	Very Ambiguous (6 Suits)	2
 Zamiel	29155	Duck (6 Suits)	2
+Zamiel	29353	Up or Down & White (6 Suits)	2
 Zamiel	29511	4 Suits	2
 Zamiel	29522	Up or Down & Rainbow (6 Suits)	2
 Zamiel	30363	Brown (6 Suits)	2
@@ -1420,6 +1398,7 @@ Zamiel	40023	Black & Rainbow (6 Suits)	2
 Zamiel	40026	Rainbow-Ones (6 Suits)	2
 Zamiel	40128	Pink (6 Suits)	2
 Zamiel	41029	Black & Rainbow (6 Suits)	2
+Zamiel	41778	Up or Down & Brown (6 Suits)	2
 Zamiel	41793	Black & Rainbow (5 Suits)	2
 Zamiel	42294	Black & Pink (5 Suits)	2
 Zamiel	42295	Black & Pink (5 Suits)	2
@@ -1488,7 +1467,6 @@ Zamiel	49385	Pink & Brown (6 Suits)	2
 Zamiel	49516	No Variant	2
 Zamiel	50142	No Variant	2
 Zamiel	50386	Null (6 Suits)	2
-Zamiel	50416	Up or Down & Brown (5 Suits)	2
 Zamiel	50489	Gray (5 Suits)	2
 Zamiel	50554	Rainbow (6 Suits)	2
 Zamiel	50558	Rainbow (5 Suits)	2
@@ -1510,10 +1488,10 @@ Zamiel	51861	Black & Pink (5 Suits)	2
 Zamiel	51920	Brown & Dark Rainbow (6 Suits)	2
 Zamiel	51923	Brown & Dark Rainbow (5 Suits)	2
 Zamiel	52073	Rainbow (6 Suits)	2
-Zamiel	52268	Up or Down (5 Suits)	2
 Zamiel	52516	Dark Pink (6 Suits)	2
 Zamiel	52519	Dark Pink (6 Suits)	2
 Zamiel	52534	Number Mute (3 Suits)	2
+Zamiel	52554	Up or Down & Pink (5 Suits)	2
 Zamiel	52640	White & Dark Rainbow (6 Suits)	2
 Zamiel	52644	White & Dark Rainbow (6 Suits)	2
 Zamiel	52656	4 Suits	2
@@ -1577,7 +1555,7 @@ Zamiel	59568	Black & Null (5 Suits)	2
 Zamiel	59651	Throw It in a Hole (5 Suits)	2
 Zamiel	59774	White & Dark Pink (6 Suits)	2
 Zamiel	59796	Muddy Rainbow (6 Suits)	2
-Zamiel	59802	Up or Down (6 Suits)	2
+Zamiel	59801	Up or Down (6 Suits)	2
 Zamiel	60838	No Variant	2
 Zamiel	60898	Rainbow (4 Suits)	2
 Zamiel	60916	Black & Null (6 Suits)	2
@@ -1606,8 +1584,6 @@ Zamiel	65669	Pink & Null (5 Suits)	2
 Zamiel	65938	Black & Null (6 Suits)	2
 Zamiel	65985	Rainbow & Null (6 Suits)	2
 Zamiel	66167	Black (6 Suits)	2
-Zamiel	66179	Up or Down (6 Suits)	2
-Zamiel	66187	Up or Down & Rainbow (6 Suits)	2
 Zamiel	66383	Null (6 Suits)	2
 Zamiel	66393	Null (6 Suits)	2
 Zamiel	66456	No Variant	2
@@ -1685,6 +1661,7 @@ Zamiel	166137	Rainbow & Muddy Rainbow (6 Suits)	2
 Zamiel	166239	Rainbow & Muddy Rainbow (6 Suits)	2
 Zamiel	175842	No Variant	2
 Zamiel	176013	Up or Down & Light Pink (5 Suits)	2
+Zamiel	176051	Up or Down & Light Pink (5 Suits)	2
 Zamiel	176713	Dark Omni (6 Suits)	2
 Zamiel	176763	Rainbow & Muddy Rainbow (4 Suits)	2
 Zamiel	176813	Rainbow & Light Pink (6 Suits)	2
@@ -1703,6 +1680,7 @@ Zamiel	199466	Rainbow Reversed (6 Suits)	2
 Zamiel	203162	Gray Pink (5 Suits)	2
 Zamiel	203267	Gray Pink (6 Suits)	2
 Zamiel	204284	Cocoa Rainbow (6 Suits)	2
+Zamiel	204417	Up or Down & Light Pink (6 Suits)	2
 Zamiel	204535	Up or Down & Light Pink (6 Suits)	2
 Zamiel	205623	Light Pink (5 Suits)	2
 Zamiel	207876	Alternating Clues & Pink (6 Suits)	2
@@ -1769,6 +1747,7 @@ Zamiel	322639	No Variant	2
 Zamiel	331491	Muddy Rainbow & Gray (5 Suits)	2
 Zamiel	331538	Muddy Rainbow & Gray (6 Suits)	2
 Zamiel	332425	Pink-Fives & Brown (4 Suits)	2
+Zamiel	332465	Up or Down & Rainbow (6 Suits)	2
 Zamiel	333996	Up or Down & Rainbow (5 Suits)	2
 Zamiel	336272	No Variant	2
 Zamiel	337324	No Variant	2
@@ -2241,9 +2220,6 @@ Zamiel	16350	4 Suits	1
 Zamiel	16352	Rainbow (5 Suits)	1
 Zamiel	16453	Dark Rainbow (6 Suits)	1
 Zamiel	16456	Dark Rainbow (6 Suits)	1
-Zamiel	16474	Up or Down (5 Suits)	1
-Zamiel	16477	Up or Down (5 Suits)	1
-Zamiel	16479	Up or Down (5 Suits)	1
 Zamiel	16483	Dark Rainbow (6 Suits)	1
 Zamiel	16502	Rainbow (6 Suits)	1
 Zamiel	16507	Rainbow (6 Suits)	1
@@ -2256,6 +2232,7 @@ Zamiel	16692	Rainbow (5 Suits)	1
 Zamiel	16694	Rainbow (5 Suits)	1
 Zamiel	16697	Rainbow (5 Suits)	1
 Zamiel	16700	Rainbow (5 Suits)	1
+Zamiel	16705	Up or Down (5 Suits)	1
 Zamiel	16750	Black & Dark Rainbow (6 Suits)	1
 Zamiel	16824	No Variant	1
 Zamiel	16831	No Variant	1
@@ -2286,6 +2263,7 @@ Zamiel	17865	No Variant	1
 Zamiel	17870	No Variant	1
 Zamiel	17881	No Variant	1
 Zamiel	17933	Pink-Fives (6 Suits)	1
+Zamiel	17951	Up or Down (6 Suits)	1
 Zamiel	18108	Black (5 Suits)	1
 Zamiel	18219	6 Suits	1
 Zamiel	18237	Rainbow (4 Suits)	1
@@ -2302,6 +2280,8 @@ Zamiel	18590	Clue Starved (6 Suits)	1
 Zamiel	18773	Dark Rainbow (5 Suits)	1
 Zamiel	18824	Very Ambiguous (6 Suits)	1
 Zamiel	18938	Color Blind (5 Suits)	1
+Zamiel	19009	Up or Down (5 Suits)	1
+Zamiel	19013	Up or Down (5 Suits)	1
 Zamiel	19262	No Variant	1
 Zamiel	19284	Ambiguous & Rainbow (5 Suits)	1
 Zamiel	19301	No Variant	1
@@ -2323,7 +2303,7 @@ Zamiel	20406	Rainbow (6 Suits)	1
 Zamiel	20407	Color Blind (5 Suits)	1
 Zamiel	20682	No Variant	1
 Zamiel	20978	No Variant	1
-Zamiel	20984	Up or Down (5 Suits)	1
+Zamiel	20992	Up or Down (5 Suits)	1
 Zamiel	21008	Dark Rainbow (5 Suits)	1
 Zamiel	21066	Very Ambiguous (6 Suits)	1
 Zamiel	21250	Ambiguous (4 Suits)	1
@@ -2378,6 +2358,7 @@ Zamiel	26031	No Variant	1
 Zamiel	26306	Rainbow (5 Suits)	1
 Zamiel	26416	4 Suits	1
 Zamiel	26419	No Variant	1
+Zamiel	26752	Up or Down & White (6 Suits)	1
 Zamiel	26823	4 Suits	1
 Zamiel	27415	No Variant	1
 Zamiel	27653	4 Suits	1
@@ -2528,6 +2509,7 @@ Zamiel	50214	Null (5 Suits)	1
 Zamiel	50271	Pink & Brown (6 Suits)	1
 Zamiel	50380	White & Dark Rainbow (6 Suits)	1
 Zamiel	50393	Null (6 Suits)	1
+Zamiel	50416	Up or Down & Brown (5 Suits)	1
 Zamiel	50484	Black & White (6 Suits)	1
 Zamiel	50503	Pink & Brown (4 Suits)	1
 Zamiel	50734	Dark Pink (6 Suits)	1
@@ -2547,8 +2529,10 @@ Zamiel	51890	Omni (4 Suits)	1
 Zamiel	51931	Brown & Dark Rainbow (5 Suits)	1
 Zamiel	51939	Muddy Rainbow (4 Suits)	1
 Zamiel	51945	Pink & Dark Rainbow (6 Suits)	1
+Zamiel	52268	Up or Down (5 Suits)	1
 Zamiel	52332	Pink & Dark Rainbow (5 Suits)	1
 Zamiel	52515	Dark Pink (6 Suits)	1
+Zamiel	52558	Up or Down & Pink (5 Suits)	1
 Zamiel	52560	Up or Down & Pink (5 Suits)	1
 Zamiel	52647	No Variant	1
 Zamiel	52653	No Variant	1
@@ -2645,6 +2629,7 @@ Zamiel	59620	No Variant	1
 Zamiel	59622	No Variant	1
 Zamiel	59623	No Variant	1
 Zamiel	59788	Dark Pink (6 Suits)	1
+Zamiel	59802	Up or Down (6 Suits)	1
 Zamiel	59949	Gray (5 Suits)	1
 Zamiel	59952	Gray (5 Suits)	1
 Zamiel	60105	Gray (5 Suits)	1
@@ -2653,6 +2638,7 @@ Zamiel	60911	Black & Null (6 Suits)	1
 Zamiel	61050	Black & Null (5 Suits)	1
 Zamiel	61081	No Variant	1
 Zamiel	61086	No Variant	1
+Zamiel	61251	Up or Down & Omni (6 Suits)	1
 Zamiel	61303	Black & Null (5 Suits)	1
 Zamiel	61782	Very Ambiguous (3 Suits)	1
 Zamiel	61998	Rainbow & Gray (6 Suits)	1
@@ -2697,6 +2683,8 @@ Zamiel	65992	Black & Rainbow (6 Suits)	1
 Zamiel	65996	Cow & Pig (3 Suits)	1
 Zamiel	66004	Cow & Pig (4 Suits)	1
 Zamiel	66157	Black & Omni (5 Suits)	1
+Zamiel	66179	Up or Down (6 Suits)	1
+Zamiel	66187	Up or Down & Rainbow (6 Suits)	1
 Zamiel	66362	Black & Rainbow (6 Suits)	1
 Zamiel	66372	Rainbow & Omni (6 Suits)	1
 Zamiel	66385	White & Omni (3 Suits)	1
@@ -2705,7 +2693,6 @@ Zamiel	66424	White & Omni (3 Suits)	1
 Zamiel	66428	White & Omni (3 Suits)	1
 Zamiel	66453	No Variant	1
 Zamiel	66620	Black & Null (5 Suits)	1
-Zamiel	67036	Up or Down & White (5 Suits)	1
 Zamiel	67085	Black (6 Suits)	1
 Zamiel	67114	Black (6 Suits)	1
 Zamiel	67432	Black & Null (5 Suits)	1
@@ -2746,6 +2733,7 @@ Zamiel	81396	Dark Omni (6 Suits)	1
 Zamiel	82589	Rainbow (6 Suits)	1
 Zamiel	83057	White (6 Suits)	1
 Zamiel	83231	Dark Brown (6 Suits)	1
+Zamiel	83238	Up or Down & Pink (6 Suits)	1
 Zamiel	83254	White & Omni (6 Suits)	1
 Zamiel	83319	Brown & Null (4 Suits)	1
 Zamiel	86146	No Variant	1
@@ -2761,13 +2749,12 @@ Zamiel	92012	Pink & Omni (5 Suits)	1
 Zamiel	92280	Black & Rainbow (6 Suits)	1
 Zamiel	92339	Up or Down & Brown (6 Suits)	1
 Zamiel	92357	Up or Down & Brown (6 Suits)	1
-Zamiel	92387	Up or Down & Brown (6 Suits)	1
 Zamiel	92474	Number Mute (6 Suits)	1
 Zamiel	92532	Black & Dark Rainbow (6 Suits)	1
 Zamiel	92700	Omni & Dark Rainbow (5 Suits)	1
 Zamiel	92748	Omni & Dark Rainbow (5 Suits)	1
 Zamiel	92794	Dark Pink (5 Suits)	1
-Zamiel	92812	Up or Down & Omni (5 Suits)	1
+Zamiel	92834	Up or Down & Omni (5 Suits)	1
 Zamiel	95588	4 Suits	1
 Zamiel	97084	Brown-Ones & Dark Omni (6 Suits)	1
 Zamiel	113227	Muddy-Rainbow-Fives & Light Pink (5 Suits)	1
@@ -2796,6 +2783,7 @@ Zamiel	137355	Light Pink (4 Suits)	1
 Zamiel	138846	Omni-Ones & Brown (4 Suits)	1
 Zamiel	140665	Muddy Rainbow (4 Suits)	1
 Zamiel	140691	Muddy Rainbow (3 Suits)	1
+Zamiel	143814	Up or Down & Muddy Rainbow (6 Suits)	1
 Zamiel	145291	No Variant	1
 Zamiel	145409	No Variant	1
 Zamiel	145493	No Variant	1
@@ -2940,7 +2928,6 @@ Zamiel	331501	Muddy Rainbow & Gray (5 Suits)	1
 Zamiel	333958	No Variant	1
 Zamiel	333976	Up or Down & Rainbow (5 Suits)	1
 Zamiel	334015	Up or Down & Rainbow (5 Suits)	1
-Zamiel	334030	Up or Down & Rainbow (5 Suits)	1
 Zamiel	334900	Rainbow-Ones & Rainbow (6 Suits)	1
 Zamiel	336259	No Variant	1
 Zamiel	336280	No Variant	1
@@ -2962,7 +2949,6 @@ Zamiel	368156	Ambiguous & Omni (5 Suits)	1
 Zamiel	368186	No Variant	1
 Zamiel	375521	Rainbow & Dark Null (6 Suits)	1
 Zamiel	398059	Pink & Null (3 Suits)	1
-Zamiel	399756	Up or Down & Omni (6 Suits)	1
 Zamiel	400591	Rainbow & Prism (6 Suits)	1
 Zamiel	400650	Brown & Null (6 Suits)	1
 Zamiel	401538	Prism (5 Suits)	1
@@ -3294,7 +3280,11 @@ Zamiel	16357	Pink-Fives & Rainbow (5 Suits)	0
 Zamiel	16448	White (5 Suits)	0
 Zamiel	16450	White (5 Suits)	0
 Zamiel	16460	Rainbow (6 Suits)	0
+Zamiel	16468	Up or Down (5 Suits)	0
 Zamiel	16471	Up or Down (5 Suits)	0
+Zamiel	16474	Up or Down (5 Suits)	0
+Zamiel	16477	Up or Down (5 Suits)	0
+Zamiel	16479	Up or Down (5 Suits)	0
 Zamiel	16565	Rainbow (3 Suits)	0
 Zamiel	16566	Rainbow (3 Suits)	0
 Zamiel	16571	No Variant	0
@@ -3342,6 +3332,7 @@ Zamiel	17884	Black (5 Suits)	0
 Zamiel	17889	Black (5 Suits)	0
 Zamiel	17892	White (3 Suits)	0
 Zamiel	17894	White (3 Suits)	0
+Zamiel	17947	Up or Down (6 Suits)	0
 Zamiel	17972	3 Suits	0
 Zamiel	18109	Black (5 Suits)	0
 Zamiel	18153	Black (6 Suits)	0
@@ -3383,6 +3374,7 @@ Zamiel	19504	Color Blind (3 Suits)	0
 Zamiel	20152	4 Suits	0
 Zamiel	20153	4 Suits	0
 Zamiel	20161	No Variant	0
+Zamiel	20173	Up or Down & White (5 Suits)	0
 Zamiel	20177	Color Blind (3 Suits)	0
 Zamiel	20179	Color Blind (3 Suits)	0
 Zamiel	20397	No Variant	0
@@ -3394,6 +3386,7 @@ Zamiel	20598	Black (5 Suits)	0
 Zamiel	20972	Dark Rainbow (5 Suits)	0
 Zamiel	20973	Ambiguous (4 Suits)	0
 Zamiel	20982	No Variant	0
+Zamiel	20984	Up or Down (5 Suits)	0
 Zamiel	21000	Dark Rainbow (5 Suits)	0
 Zamiel	21004	Dark Rainbow (5 Suits)	0
 Zamiel	21075	6 Suits	0
@@ -3409,6 +3402,7 @@ Zamiel	21611	No Variant	0
 Zamiel	21687	Ambiguous & White (5 Suits)	0
 Zamiel	21696	Color Blind (5 Suits)	0
 Zamiel	21766	Rainbow (6 Suits)	0
+Zamiel	21990	Up or Down (6 Suits)	0
 Zamiel	22674	Black & Dark Rainbow (6 Suits)	0
 Zamiel	22702	4 Suits	0
 Zamiel	22709	Rainbow (4 Suits)	0
@@ -3819,10 +3813,12 @@ Zamiel	66610	Black & Null (5 Suits)	0
 Zamiel	66645	Black & Null (5 Suits)	0
 Zamiel	66731	Black & Null (5 Suits)	0
 Zamiel	66774	No Variant	0
+Zamiel	67036	Up or Down & White (5 Suits)	0
 Zamiel	67440	Black (5 Suits)	0
 Zamiel	67558	Rainbow & Pink (5 Suits)	0
 Zamiel	67565	Rainbow & Omni (4 Suits)	0
 Zamiel	67572	Very Ambiguous (3 Suits)	0
+Zamiel	68815	Up or Down & Rainbow (5 Suits)	0
 Zamiel	68957	Brown & Omni (3 Suits)	0
 Zamiel	68958	Brown & Omni (3 Suits)	0
 Zamiel	69286	Brown & Omni (3 Suits)	0
@@ -3877,7 +3873,9 @@ Zamiel	88595	Black (5 Suits)	0
 Zamiel	91578	No Variant	0
 Zamiel	92038	Pink & Null (3 Suits)	0
 Zamiel	92046	Pink & Null (3 Suits)	0
+Zamiel	92387	Up or Down & Brown (6 Suits)	0
 Zamiel	92403	Black & Null (5 Suits)	0
+Zamiel	92812	Up or Down & Omni (5 Suits)	0
 Zamiel	95512	White & Brown (4 Suits)	0
 Zamiel	97119	Brown-Ones & Dark Omni (6 Suits)	0
 Zamiel	114407	Gray Pink (5 Suits)	0
@@ -4008,6 +4006,7 @@ Zamiel	325294	No Variant	0
 Zamiel	331426	White & Muddy Rainbow (3 Suits)	0
 Zamiel	331444	White & Muddy Rainbow (3 Suits)	0
 Zamiel	332436	Alternating Clues & Rainbow (4 Suits)	0
+Zamiel	334030	Up or Down & Rainbow (5 Suits)	0
 Zamiel	334929	Rainbow-Ones & Rainbow (6 Suits)	0
 Zamiel	335004	4 Suits	0
 Zamiel	335009	4 Suits	0
@@ -4049,6 +4048,7 @@ Zamiel	398012	Pink & Null (3 Suits)	0
 Zamiel	398131	Rainbow & Prism (4 Suits)	0
 Zamiel	398161	Rainbow & Prism (4 Suits)	0
 Zamiel	398960	Cocoa Rainbow (6 Suits)	0
+Zamiel	399756	Up or Down & Omni (6 Suits)	0
 Zamiel	401558	Prism (5 Suits)	0
 Zamiel	403523	Pink & Prism (3 Suits)	0
 Zamiel	404179	Pink & Prism (3 Suits)	0
