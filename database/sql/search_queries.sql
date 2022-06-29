@@ -716,16 +716,19 @@ select distinct card_suit from card_actions;
 
 --all games
 with game_id_ as (
-    select game_id from games
+    select game_id, variant from games
 --      where game_id = 73694
---     where 'Valetta6789' = any(players)
-    where 'Libster' = any(players)
+    where 'Valetta6789' = any(players)
+--     where 'Libster' = any(players)
+
     and num_players != 2
     and speedrun is false
+    and detrimental_characters is false
+    and end_condition in (1, 2)  --normal and strikeout
 )
-select gi.game_id, coalesce(bdr_null, 0) as bdr
+select gi.game_id, gi.variant, coalesce(bdr_null, 0) as bdr
 from (
-         select gi.game_id, count(*) as bdr_null
+         select gi.game_id, gi.variant, count(*) as bdr_null
          from card_actions ca1
                   join game_id_ gi on ca1.game_id = gi.game_id
          where ca1.game_id = gi.game_id
@@ -740,7 +743,7 @@ from (
                and ca2.turn_drawn < ca1.turn_action
                and ca1.card_index != ca2.card_index
          )
-         group by gi.game_id
+         group by gi.game_id, gi.variant
      ) t
 right join game_id_ gi on t.game_id = gi.game_id
 -- order by gi.game_id desc;
