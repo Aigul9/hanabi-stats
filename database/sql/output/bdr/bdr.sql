@@ -10,7 +10,8 @@ with game_id_ as (
          ) t1
     where player in (select player from players_list)
 )
-select pl.player, gi.game_id, gi.variant, coalesce(bdr_null, 0) as bdr
+--select pl.player, gi.game_id, gi.variant, coalesce(bdr_null, 0) as bdr
+select pl.player, t.game_id, t.variant, bdr_null as bdr
 from (
          select gi.game_id, gi.variant, count(*) as bdr_null
          from card_actions ca1
@@ -29,10 +30,12 @@ from (
          )
          group by gi.game_id, gi.variant
      ) t
-right join game_id_ gi on t.game_id = gi.game_id
-join games g on g.game_id = gi.game_id
+--right join game_id_ gi on t.game_id = gi.game_id
+--join games g on g.game_id = gi.game_id
+join games g on g.game_id = t.game_id
 join players_list pl on pl.player = any(g.players)
-order by pl.player, bdr desc, gi.game_id;
+where bdr_null > 2
+order by pl.player, bdr desc, t.game_id;
 
 --distribution
 with game_id_ as (
