@@ -695,8 +695,9 @@ select * from games where end_condition = 9;
 select * from games where 'Valetta6789' = any(players) order by game_id desc LIMIT 1;
 --790027
 
+--list of bdrs
 with game_id_ as (
-    select 52563 as game_id
+    select 72379 as game_id
 )
 select * from card_actions ca1
 join game_id_ gi on ca1.game_id = gi.game_id
@@ -710,7 +711,8 @@ and concat(card_suit, card_rank) not in (
     where ca2.game_id = gi.game_id
       and ca2.turn_drawn < ca1.turn_action
       and ca1.card_index != ca2.card_index
-);
+)
+order by turn_action;
 
 select distinct card_suit from card_actions;
 
