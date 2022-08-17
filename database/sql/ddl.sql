@@ -330,3 +330,6 @@ update variants set colors = null where variant like 'Syn%' or variant like 'Cri
 select * into tags_copy from tags;
 alter table tags drop constraint tags_pkey;
 alter table tags add primary key(game_id, player, tag);
+
+alter table bugged_games drop constraint bugged_games_pkey;
+alter table bugged_games add primary key(game_id, test);
