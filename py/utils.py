@@ -2,7 +2,9 @@ import csv
 import errno
 import logging
 import os
+import re
 import requests
+from bs4 import BeautifulSoup
 from datetime import datetime
 from os import listdir
 from os.path import isfile, join
@@ -17,9 +19,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# fileHandler = logging.FileHandler('../database/errors.log')
-# fileHandler.setLevel(logging.DEBUG)
-# logger.addHandler(fileHandler)
+fileHandler = logging.FileHandler('../database/errors.log')
+fileHandler.setLevel(logging.DEBUG)
+logger.addHandler(fileHandler)
 
 consoleHandler = logging.StreamHandler()
 logger.addHandler(consoleHandler)
@@ -920,3 +922,10 @@ def run_workflow(path, header):
     result = run_query(sql)
     save_header(f'../../{path}', header)
     save_list_tsv(f'../../{path}', result)
+
+
+def get_total_games():
+    url = 'https://hanab.live/stats'
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, 'html.parser')
+    return int(re.findall(r'\d+', soup.find('li').text)[0])
