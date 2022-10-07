@@ -435,5 +435,3 @@ select * from players_list order by 1;
 
 insert into players_list values ('DMoney');
 insert into players_list values ('TimeHoodie');
-
-select * from games where left(variant, 7) = 'Funnels'

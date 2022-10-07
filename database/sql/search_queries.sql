@@ -753,3 +753,13 @@ order by bdr desc, gi.game_id;
 
 select * from games where variant like 'Up%';
 select * from card_actions where game_id = 66302;
+
+--distribution of clues used in funnels
+select * from games where left(variant, 7) = 'Funnels';
+
+with games as (
+    select game_id from games where left(variant, 7) = 'Funnels'
+)
+
+select clue, count(*) as count from clues c join games g on c.game_id = g.game_id
+group by clue;
