@@ -763,3 +763,27 @@ with games as (
 
 select clue, count(*) as count from clues c join games g on c.game_id = g.game_id
 group by clue;
+
+--purple criteria
+with players as (
+    select distinct unnest(players) as player from games
+)
+select player, count(*) as months
+from (
+         select player,
+                extract(year from date_time_started)  as year,
+                extract(month from date_time_started) as month,
+                count(*)                              as count
+         from games g
+                  join players p on p.player = any (g.players)
+         where num_players != 2
+           and speedrun is false
+         group by 1, 2, 3
+         having count(*) >= 20
+     ) t
+group by t.player
+having count(*) >= 12
+order by 2, 1;
+
+select min(game_id) from games;
+select * from games where game_id = 2906;
