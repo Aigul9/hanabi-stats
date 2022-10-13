@@ -15,12 +15,12 @@ from sqlalchemy import text
 import py.utils as u
 
 if __name__ == "__main__":
-    path = 'output/time/monthly_degenerates'
+    path = 'output/time/monthly_hanabaddicts'
     header = ['Player', 'Hours']
     date = datetime.now()  # .replace(2022, 9)
     month = date.month
     year = date.year
-    sub_path = f'output/time/monthly_degenerates/{year}_{date.strftime("%m")}'
+    sub_path = f'output/time/monthly_hanabaddicts/{year}_{date.strftime("%m")}'
 
     sql_file = u \
         .read_file(f'../../database/sql/{path}.sql') \
