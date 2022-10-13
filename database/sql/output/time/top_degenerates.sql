@@ -57,4 +57,4 @@ from (
      ) t_rank
 -- where player = 'scharkbite';
 where rank = 1
-order by year, TO_DATE (month::text, 'MM'), hours desc;
+order by year desc, TO_DATE (month::text, 'MM') desc, hours desc;
