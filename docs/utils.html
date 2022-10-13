@@ -30,7 +30,9 @@
 import errno
 import logging
 import os
+import re
 import requests
+from bs4 import BeautifulSoup
 from datetime import datetime
 from os import listdir
 from os.path import isfile, join
@@ -933,7 +935,7 @@ def run_query(sql):
     return [row for row in result]
 
 
-def run_workflow(path, header):
+def run_workflow(path, header, sub_path=None):
     &#34;&#34;&#34;Workflow running a sql query and saving the results into tsv file.
 
     Parameters
@@ -942,12 +944,22 @@ def run_workflow(path, header):
         Path to the file location
     header : list
         Column names
+    sub_path : str
+        Path to the file location different from the path
     &#34;&#34;&#34;
     sql_file = read_file(f&#39;../../database/sql/{path}.sql&#39;)
     sql = text(sql_file)
     result = run_query(sql)
-    save_header(f&#39;../../{path}&#39;, header)
-    save_list_tsv(f&#39;../../{path}&#39;, result)</code></pre>
+    sub_path = path if sub_path is None else sub_path
+    save_header(f&#39;../../{sub_path}&#39;, header)
+    save_list_tsv(f&#39;../../{sub_path}&#39;, result)
+
+
+def get_total_games():
+    url = &#39;https://hanab.live/stats&#39;
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, &#39;html.parser&#39;)
+    return int(re.findall(r&#39;\d+&#39;, soup.find(&#39;li&#39;).text)[0])</code></pre>
 </details>
 </section>
 <section>
@@ -1786,6 +1798,22 @@ def run_workflow(path, header):
     return game[&#39;players&#39;].index(player)</code></pre>
 </details>
 </dd>
+<dt id="py.utils.get_total_games"><code class="name flex">
+<span>def <span class="ident">get_total_games</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_total_games():
+    url = &#39;https://hanab.live/stats&#39;
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, &#39;html.parser&#39;)
+    return int(re.findall(r&#39;\d+&#39;, soup.find(&#39;li&#39;).text)[0])</code></pre>
+</details>
+</dd>
 <dt id="py.utils.get_wins"><code class="name flex">
 <span>def <span class="ident">get_wins</span></span>(<span>stats)</span>
 </code></dt>
@@ -2396,7 +2424,7 @@ def run_workflow(path, header):
 </details>
 </dd>
 <dt id="py.utils.run_workflow"><code class="name flex">
-<span>def <span class="ident">run_workflow</span></span>(<span>path, header)</span>
+<span>def <span class="ident">run_workflow</span></span>(<span>path, header, sub_path=None)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Workflow running a sql query and saving the results into tsv file.</p>
@@ -2406,12 +2434,14 @@ def run_workflow(path, header):
 <dd>Path to the file location</dd>
 <dt><strong><code>header</code></strong> :&ensp;<code>list</code></dt>
 <dd>Column names</dd>
+<dt><strong><code>sub_path</code></strong> :&ensp;<code>str</code></dt>
+<dd>Path to the file location different from the path</dd>
 </dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def run_workflow(path, header):
+<pre><code class="python">def run_workflow(path, header, sub_path=None):
     &#34;&#34;&#34;Workflow running a sql query and saving the results into tsv file.
 
     Parameters
@@ -2420,12 +2450,15 @@ def run_workflow(path, header):
         Path to the file location
     header : list
         Column names
+    sub_path : str
+        Path to the file location different from the path
     &#34;&#34;&#34;
     sql_file = read_file(f&#39;../../database/sql/{path}.sql&#39;)
     sql = text(sql_file)
     result = run_query(sql)
-    save_header(f&#39;../../{path}&#39;, header)
-    save_list_tsv(f&#39;../../{path}&#39;, result)</code></pre>
+    sub_path = path if sub_path is None else sub_path
+    save_header(f&#39;../../{sub_path}&#39;, header)
+    save_list_tsv(f&#39;../../{sub_path}&#39;, result)</code></pre>
 </details>
 </dd>
 <dt id="py.utils.save"><code class="name flex">
@@ -2828,6 +2861,7 @@ def run_workflow(path, header):
 <li><code><a title="py.utils.get_number_of_starting_cards" href="#py.utils.get_number_of_starting_cards">get_number_of_starting_cards</a></code></li>
 <li><code><a title="py.utils.get_number_of_suits" href="#py.utils.get_number_of_suits">get_number_of_suits</a></code></li>
 <li><code><a title="py.utils.get_player_index" href="#py.utils.get_player_index">get_player_index</a></code></li>
+<li><code><a title="py.utils.get_total_games" href="#py.utils.get_total_games">get_total_games</a></code></li>
 <li><code><a title="py.utils.get_wins" href="#py.utils.get_wins">get_wins</a></code></li>
 <li><code><a title="py.utils.get_wins_db" href="#py.utils.get_wins_db">get_wins_db</a></code></li>
 <li><code><a title="py.utils.is_clued" href="#py.utils.is_clued">is_clued</a></code></li>
