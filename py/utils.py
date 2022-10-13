@@ -907,7 +907,7 @@ def run_query(sql):
     return [row for row in result]
 
 
-def run_workflow(path, header):
+def run_workflow(path, header, sub_path=None):
     """Workflow running a sql query and saving the results into tsv file.
 
     Parameters
@@ -916,12 +916,15 @@ def run_workflow(path, header):
         Path to the file location
     header : list
         Column names
+    sub_path : str
+        Path to the file location different from the path
     """
     sql_file = read_file(f'../../database/sql/{path}.sql')
     sql = text(sql_file)
     result = run_query(sql)
-    save_header(f'../../{path}', header)
-    save_list_tsv(f'../../{path}', result)
+    sub_path = path if sub_path is None else sub_path
+    save_header(f'../../{sub_path}', header)
+    save_list_tsv(f'../../{sub_path}', result)
 
 
 def get_total_games():
