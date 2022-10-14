@@ -805,8 +805,8 @@ from (
                 extract(month from date_time_finished)                                        as month,
                 (sum(extract(epoch from date_time_finished - date_time_started)) / 3600)::int as hours
          from games
-         where 'kimbifille' = any (players)
+         where 'Valetta6789' = any (players)
          group by 1, 2, 3
      ) t
-where player = 'kimbifille'
+where player = 'Valetta6789'
 order by year, month;
