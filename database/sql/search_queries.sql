@@ -787,3 +787,26 @@ order by 2, 1;
 
 select min(game_id) from games;
 select * from games where game_id = 2906;
+
+select unnest(players),
+                (sum(extract(epoch from date_time_finished - date_time_started)) / 3600)::int
+from games
+where extract(year from date_time_finished) = 2020
+and extract(month from date_time_finished) = 4
+and 'kimbifille' = any(players)
+group by 1
+order by sum(extract(epoch from date_time_finished - date_time_started)) desc, 1
+limit 10;
+
+select player, year, month, hours
+from (
+         select unnest(players)                                                               as player,
+                extract(year from date_time_finished)                                         as year,
+                extract(month from date_time_finished)                                        as month,
+                (sum(extract(epoch from date_time_finished - date_time_started)) / 3600)::int as hours
+         from games
+         where 'kimbifille' = any (players)
+         group by 1, 2, 3
+     ) t
+where player = 'kimbifille'
+order by year, month;
