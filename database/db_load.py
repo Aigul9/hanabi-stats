@@ -145,11 +145,21 @@ def update_game(s):
     return 1
 
 
-def load_variant(variant, variant_id):
+def load_variant(variant, colors):
+    suits = variant.get('suits')
     var = Variant(
-        variant_id,
-        variant,
-        *[None] * 14
+        variant.get('id'),
+        variant.get('name'),
+        len(suits) * 5,
+        suits,
+        variant.get('special_rank'),
+        variant.get('special_deceptive'),
+        variant.get('special_all_clue_colors'),
+        variant.get('special_all_clue_ranks'),
+        variant.get('special_no_clue_colors'),
+        variant.get('special_no_clue_ranks'),
+        colors,
+        *[None] * 4
     )
     session.add(var)
 

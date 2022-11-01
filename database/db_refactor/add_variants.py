@@ -1,66 +1,56 @@
+import base64
 import json
 import logging
+import requests
 
 from database.db_connect import session, Variant
-
+from database.db_load import load_variant
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-# variants = u.open_tsv('../resources/variants_id.tsv')
-# for v in variants:
-#     var = session.query(Variant).filter(Variant.variant_id == v[1]).first()
-#     if var is None:
-#         d.load_variant(v[0][:-1], v[1][1:])
-#         d.session.commit()
-#     logger.info(v)
 
-with open('../../resources/variants_1103.json', "r") as variants_file:
-    variants = json.loads(variants_file.read())
 
-with open('../../resources/suits.json', "r") as suits_file:
-    suits_json = json.loads(suits_file.read())
+def req_json(url):
+    req = requests.get(url)
+    if req.status_code == requests.codes.ok:
+        req = req.json()
+        content = base64.b64decode(req['content'])
+        return json.loads(content)
+    else:
+        logger.error('Content was not found.')
+        exit()
 
-colors = ['Red', 'Yellow', 'Green', 'Blue', 'Purple', 'Teal', 'Black', 'Pink', 'Brown']
-for v in variants:
-    variant = session.query(Variant).filter(Variant.variant == v['name']).first()
-    if variant.colors:
-        continue
-    logger.info(v['name'])
-    suits = variant.suits
-    var_colors = []
-    var_clue_colors = set()
+
+def get_colors(variant):
+    colors_list = ['Red', 'Yellow', 'Green', 'Blue', 'Purple', 'Teal', 'Black', 'Pink', 'Brown']
+    suits = variant['suits']
+    var_colors = list()
     for s in suits:
+        # we need a 'clueColors' prop from the suits_json
         s_json = [sj for sj in suits_json if sj['name'] == s][0]
         if 'clueColors' in s_json:
-            clue_colors = s_json['clueColors']
-            # print(clue_colors)
-            var_clue_colors |= set(clue_colors)
-    # for c in colors:
-    #     if c in var_clue_colors:
-    #         var_colors.append(c)
-    # variant.colors = var_colors
-    # print(var_colors)
+            # add each color separately without duplicates
+            for cc in s_json['clueColors']:
+                if cc not in var_colors:
+                    var_colors.append(cc)
+        # otherwise, color = suit name
+        elif s in colors_list:
+            if s not in var_colors:
+                var_colors.append(s)
+    return var_colors
 
-        if s in colors:
-            var_colors.append(s)
-        if s == 'Dark Pink':
-            var_colors.append('Pink')
-        if s == 'Dark Brown':
-            var_colors.append('Brown')
-    variant.colors = var_colors
-    variant.suits = v['suits']
-    # if 'specialRank' in v:
-    #     variant.special_rank = v['specialRank']
-    # if 'specialDeceptive' in v:
-    #     variant.special_deceptive = v['specialDeceptive']
-    # if 'specialAllClueColors' in v:
-    #     variant.special_all_clue_colors = v['specialAllClueColors']
-    # if 'specialAllClueRanks' in v:
-    #     variant.special_all_clue_ranks = v['specialAllClueRanks']
-    # if 'specialNoClueColors' in v:
-    #     variant.special_no_clue_colors = v['specialNoClueColors']
-    # if 'specialNoClueRanks' in v:
-    #     variant.special_no_clue_ranks = v['specialNoClueRanks']
+
+# https://github.com/Hanabi-Live/hanabi-live/tree/main/packages/data/src/json
+url_var = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/variants.json'
+url_suits = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/suits.json'
+variants_json = req_json(url_var)
+suits_json = req_json(url_suits)
+for v in variants_json:
+    var = session.query(Variant).filter(Variant.variant_id == v['id']).first()
+    if var is None:
+        colors = get_colors(v)
+        load_variant(v, colors)
+        logger.info(v)
     session.commit()
 
 session.close()

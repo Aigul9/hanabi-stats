@@ -541,3 +541,13 @@ FROM variants WHERE variant = '4 Suits';
 INSERT INTO variants (variant_id, variant, max_score, suits, special_rank, special_deceptive, special_all_clue_colors, special_all_clue_ranks, special_no_clue_colors, special_no_clue_ranks, colors, eff_2p, eff_34p, eff_5p, eff_6p)
 SELECT 1899, 'Funnels (3 Suits)', max_score, suits, special_rank, special_deceptive, special_all_clue_colors, special_all_clue_ranks, special_no_clue_colors, special_no_clue_ranks, colors, eff_2p, eff_34p, eff_5p, eff_6p
 FROM variants WHERE variant = '3 Suits';
+
+select * from variants where variant_id = 1;
+select * from variants where variant like '%Dual%';
+select variant, suits, colors from variants where variant_id > 1901;
+
+delete from variants where variant like 'Funnels &%'
+or variant like 'Chimneys%'
+or variant like 'Candy%';
+
+select * from variants where variant like 'Funnels%'
