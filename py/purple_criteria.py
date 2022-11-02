@@ -13,7 +13,7 @@ if __name__ == "__main__":
         .distinct() \
         .filter(Game.players.op('&&')(purples)) \
         .group_by(func.unnest(Game.players)) \
-        .having(func.count(Game.game_id) >= 240) \
+        .having(func.count(Game.game_id) >= 100) \
         .all()
 
     results_pivot = {}
