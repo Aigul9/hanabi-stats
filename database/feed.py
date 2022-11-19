@@ -9,7 +9,7 @@ import py.utils as u
 import database.db_load as d
 
 last_id_db = session.query(func.max(Game.game_id)).scalar()  # start of the loop
-ID_DIFF = 112190  # last game id - total games from stats
+ID_DIFF = 115000  # last game id - total games from stats
 LAST_ID_SITE = u.get_total_games() + ID_DIFF  # end of the loop
 logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id_db}')
 req_session = requests.Session()
@@ -20,8 +20,9 @@ while last_id_db <= LAST_ID_SITE:
     g = u.export_game(g_id, req_session)
 
     if g == {}:  # if game does not exist
-        last_id_db += 1
-        continue
+        # last_id_db += 1
+        # continue
+        break
 
     if len(g['players']) == 0:
         logger.error(g_id)
