@@ -435,3 +435,19 @@ select * from players_list order by 1;
 
 insert into players_list values ('DMoney');
 insert into players_list values ('TimeHoodie');
+
+select * from variants where variant like 'Chimn%';
+
+select * from card_actions
+where game_id = 832701
+order by turn_action;
+
+select * from variants;
+
+select * from clues where game_id = 832701
+and turn_clued < 55;
+
+select card_suit, max(turn_action) from card_actions
+where game_id = 832701 and action_type = 'play'
+group by card_suit;
+

@@ -22,3 +22,4 @@ urllib3==1.26.4
 networkx~=2.6.3
 Flask~=2.0.2
 flasgger~=0.9.5
+pandas~=1.5.1

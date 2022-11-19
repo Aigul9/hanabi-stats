@@ -51,6 +51,8 @@ for v in variants_json:
         colors = get_colors(v)
         load_variant(v, colors)
         logger.info(v)
+    else:
+        logger.error(v)
     session.commit()
 
 session.close()
