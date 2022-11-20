@@ -88,6 +88,18 @@ class Game(Base):
         self.eff = eff
 
 
+class GameParticipant(Base):
+    __tablename__ = 'game_participants'
+    game_id = Column(Integer, ForeignKey('games.game_id'), primary_key=True)
+    player = Column(String)
+    seat = Column(Integer, primary_key=True)
+
+    def __init__(self, game_id, player, seat):
+        self.game_id = game_id
+        self.player = player
+        self.seat = seat
+
+
 class Card(Base):
     __tablename__ = 'decks'
     seed = Column(String, primary_key=True)

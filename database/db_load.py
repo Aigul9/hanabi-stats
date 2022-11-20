@@ -5,7 +5,7 @@ from sqlalchemy import and_
 import py.utils as u
 from py.utils import logger
 from database.db_connect import session, Game, Card, GameAction,\
-    PlayerNotes, Variant, CardAction, Clue, Player, Slot, Tag
+    PlayerNotes, Variant, CardAction, Clue, Player, Slot, Tag, GameParticipant
 
 
 def load_game(g, s):
@@ -25,10 +25,11 @@ def load_game(g, s):
         var_eff = session.query(Variant.eff_5p).filter(Variant.variant == opt['variantName']).scalar()
     elif num == 6:
         var_eff = session.query(Variant.eff_6p).filter(Variant.variant == opt['variantName']).scalar()
+    players = g['players']
     game = Game(
         g_id,
         opt['numPlayers'],
-        g['players'],
+        players,
         starting_player,
         opt['variantID'],
         opt['variantName'],
@@ -54,7 +55,16 @@ def load_game(g, s):
         var_eff
     )
     session.add(game)
+    players_mod = players[starting_player:] + players[:starting_player]
+    load_game_participants(g_id, players_mod)
     return game
+
+
+def load_game_participants(game_id, players_mod):
+    num_players = len(players_mod)
+    for i in range(num_players):
+        game_participant = GameParticipant(game_id, players_mod[i], i)
+        session.add(game_participant)
 
 
 def load_deck(g):
