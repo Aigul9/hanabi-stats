@@ -29,8 +29,9 @@ def current_eff(game):
     num_clues_lost = get_lost_clues(actions, clues, discard_value) if 'Throw' not in variant else 0
 
     # Efficiency is simply "cardsGotten / potentialCluesLost"
+    u.logger.info((game.game_id, score, num_clues, num_misplays, num_clues_lost))
     eff = round(score / (num_clues + (num_misplays + num_clues_lost) * discard_value), 2)
-    # print(game.game_id, eff, score, num_clues, num_misplays, num_clues_lost)
+    # print(eff)
     return eff
 
 
@@ -98,7 +99,6 @@ if __name__ == '__main__':
         .filter(GameParticipant.player.in_(PLAYERS))\
         .filter(Game.num_players != 2)\
         .filter(Game.speedrun == false())\
-        .filter(Game.all_or_nothing == false())\
         .group_by(GameParticipant.player)\
         .having(func.count(GameParticipant.game_id) >= 1000)\
         .all()
@@ -113,31 +113,31 @@ if __name__ == '__main__':
     GAMES = session.query(Game)\
         .join(Variant, Game.variant_id == Variant.variant_id)\
         .filter(Game.game_id.in_(game_ids))\
-        .filter(Game.end_condition == 1)\
         .filter(Game.score == Variant.max_score)\
+        .filter(Game.end_condition == 1)\
+        .filter(Game.num_players != 2)\
+        .filter(Game.speedrun == false())\
+        .filter(Game.detrimental_characters == false())\
+        .filter(Game.all_or_nothing == false())\
         .order_by(Game.game_id.desc())\
         .all()
 
-    print(len(GAMES))
+    u.logger.info(f'Num games: {len(GAMES)}')
+    num_hard_games = 0
 
     for g in GAMES:
-        # if g.game_id < 875000:
-        #     break
         if not is_hard_var(g.variant, u.get_number_of_suits(g.variant), g.num_players):
             continue
         u.logger.info(g.game_id)
+        num_hard_games += 1
         key = ', '.join(sorted(g.players))
         c_eff = current_eff(g)
         current_eff_dict[key] += c_eff
         num_games_dict[key] += 1
-        # print(current_eff_dict)
-        # print(num_games_dict)
 
     res = {k: round(current_eff_dict[k] / num_games_dict[k], 2) for k in current_eff_dict.keys()}
     sorted_res = dict(sorted(res.items(), key=lambda item: (-item[1], item[0])))
-    # sorted_res = {k: res[k] for k in sorted(res.keys())}
-    # print(sorted_res)
     path = '../output/requests/current_eff'
     u.save_header(path, ['Players', 'Average current efficiency'])
     u.save_value(path, sorted_res)
-    # TODO: backup db
+    u.logger.info(f'Num hard games: {num_hard_games}')
