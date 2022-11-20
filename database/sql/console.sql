@@ -451,3 +451,17 @@ select card_suit, max(turn_action) from card_actions
 where game_id = 832701 and action_type = 'play'
 group by card_suit;
 
+select distinct unnest(players) from games order by 1;
+
+select * from game_participants where game_id = 877906;
+select * from games where game_id = 877906;
+
+select count(game_id) from games where 'Valetta6789' = any(players)
+--and speedrun is false
+and num_players != 2;
+
+select * from games order by game_id limit 100;
+
+select * from game_participants gp join games g on gp.game_id = g.game_id;
+
+select * from variants where variant like '%Mix%';
