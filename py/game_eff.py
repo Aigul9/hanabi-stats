@@ -141,3 +141,5 @@ if __name__ == '__main__':
     u.save_header(path, ['Players', 'Average current efficiency'])
     u.save_value(path, sorted_res)
     u.logger.info(f'Num hard games: {num_hard_games}')
+
+    # TODO: update Zamiel, James, print number of games?
