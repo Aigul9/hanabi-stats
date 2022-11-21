@@ -7,7 +7,7 @@ if __name__ == '__main__':
     num_games_dict = defaultdict(int)
     HPLAYERS = u.open_file('../input/players.txt')
 
-    with open('../output/requests/current_eff_by_teams.tsv', 'r', encoding='utf-8') as f:
+    with open('../output/requests/current_eff_by_team.tsv', 'r', encoding='utf-8') as f:
         for line in f.readlines()[1:]:
             players, eff, _, _ = line.split('\t')
             players = players.split(', ')
