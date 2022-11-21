@@ -29,7 +29,7 @@ def current_eff(game):
     num_clues_lost = get_lost_clues(actions, clues, discard_value) if 'Throw' not in variant else 0
 
     # Efficiency is simply "cardsGotten / potentialCluesLost"
-    u.logger.info((game.game_id, score, num_clues, num_misplays, num_clues_lost))
+    u.logger.debug((game.game_id, score, num_clues, num_misplays, num_clues_lost))
     eff = round(score / (num_clues + (num_misplays + num_clues_lost) * discard_value), 2)
     # print(eff)
     return eff
@@ -122,7 +122,7 @@ if __name__ == '__main__':
         .order_by(Game.game_id.desc())\
         .all()
 
-    u.logger.info(f'Num games: {len(GAMES)}')
+    u.logger.debug(f'Num games: {len(GAMES)}')
     num_hard_games = 0
 
     for g in GAMES:
@@ -130,16 +130,13 @@ if __name__ == '__main__':
             continue
         u.logger.info(g.game_id)
         num_hard_games += 1
-        key = ', '.join(sorted(g.players))
+        key = ', '.join(sorted(g.players, key=lambda item: item.lower()))
         c_eff = current_eff(g)
         current_eff_dict[key] += c_eff
         num_games_dict[key] += 1
 
-    res = {k: round(current_eff_dict[k] / num_games_dict[k], 2) for k in current_eff_dict.keys()}
-    sorted_res = dict(sorted(res.items(), key=lambda item: (-item[1], item[0])))
+    res = {k: [round(current_eff_dict[k] / num_games_dict[k], 2), num_games_dict[k]] for k in current_eff_dict.keys()}
+    sorted_res = dict(sorted(res.items(), key=lambda item: (-item[1][0], item[0])))
     path = '../output/requests/current_eff'
-    u.save_header(path, ['Players', 'Average current efficiency'])
-    u.save_value(path, sorted_res)
-    u.logger.info(f'Num hard games: {num_hard_games}')
-
-    # TODO: update Zamiel, James, print number of games?
+    u.save(path, sorted_res, ['Players', 'Avg eff', 'Num of games'])
+    u.logger.debug(f'Num hard games: {num_hard_games}')

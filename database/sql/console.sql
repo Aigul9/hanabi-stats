@@ -465,3 +465,27 @@ select * from games order by game_id limit 100;
 select * from game_participants gp join games g on gp.game_id = g.game_id;
 
 select * from variants where variant like '%Mix%';
+
+update game_participants set player = 'James' where player = 'Zamiel';
+
+select * from games where game_id = 2906;
+update games set players = array_replace(players, 'Zamiel', 'James');
+
+select * from card_actions limit 10;
+update card_actions set player = 'James' where player = 'Zamiel';
+
+select * from clues limit 10;
+update clues set clue_giver = 'James' where clue_giver = 'Zamiel';
+update clues set clue_receiver = 'James' where clue_receiver = 'Zamiel';
+
+select * from player_notes limit 10;
+update player_notes set player = 'James' where player = 'Zamiel';
+
+select * from slots limit 10;
+
+select * from tags limit 10;
+update tags set player = 'James' where player = 'Zamiel';
+
+update players_list set player = 'James' where player = 'Zamiel';
+update hyphen_ated set player = 'James' where player = 'Zamiel';
+select * from game_actions limit 10;
