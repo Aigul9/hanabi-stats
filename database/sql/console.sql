@@ -489,3 +489,6 @@ update tags set player = 'James' where player = 'Zamiel';
 update players_list set player = 'James' where player = 'Zamiel';
 update hyphen_ated set player = 'James' where player = 'Zamiel';
 select * from game_actions limit 10;
+
+select max(game_id) from games;
+select * from variants order by 1 desc;

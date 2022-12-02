@@ -50,9 +50,9 @@ for v in variants_json:
     if var is None:
         colors = get_colors(v)
         load_variant(v, colors)
-        logger.info(v)
+        logger.debug(v)
     else:
-        logger.error(v)
+        continue
     session.commit()
 
 session.close()
