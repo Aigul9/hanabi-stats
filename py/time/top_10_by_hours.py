@@ -18,8 +18,8 @@ if __name__ == "__main__":
     path = 'output/time/top_10_by_hours'
     header = ['Player', 'Hours']
     date = datetime.now()  # .replace(2022, 9)
-    month = date.month - 1
-    year = date.year
+    month = 12 if date.month - 1 == 0 else date.month - 1
+    year = date.year - 1 if date.month - 1 == 0 else date.year
     sub_path = f'output/time/top_10_by_hours/{year}_{month}'
 
     sql_file = u \

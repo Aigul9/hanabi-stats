@@ -15,11 +15,12 @@ logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id_d
 req_session = requests.Session()
 histories = {}  # cache for players' histories
 
-while last_id_db <= LAST_ID_SITE:
+while True:
     g_id = last_id_db + 1
     g = u.export_game(g_id, req_session)
 
     if g == {}:  # if game does not exist
+        # if game is deleted before fetch
         # last_id_db += 1
         # continue
         break
@@ -32,7 +33,10 @@ while last_id_db <= LAST_ID_SITE:
     player = g['players'][0]
 
     if player in histories.keys():
-        s = u.open_stats_by_game_id(histories[player], g_id)
+        try:
+            s = u.open_stats_by_game_id(histories[player], g_id)
+        except IndexError:
+            break
     else:
         response = u.open_stats_from_id_start(player, last_id_db, req_session)
         s = u.open_stats_by_game_id(response, g_id)
