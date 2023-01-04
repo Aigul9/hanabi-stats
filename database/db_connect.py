@@ -24,7 +24,7 @@ class Game(Base):
     players = Column(ARRAY(String))
     starting_player = Column(Integer)
     variant_id = Column(Integer, ForeignKey('variants.variant_id'))
-    variant = Column(String)
+    variant = Column(String, ForeignKey('variants.variant'))
     timed = Column(Boolean)
     time_base = Column(Integer)
     time_per_turn = Column(Integer)

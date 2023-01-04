@@ -567,9 +567,25 @@ select * from decks where seed like '%old%';
 update decks set seed = replace(seed, '_old', '')
 where seed like '%_old%';
 
-select * from decks where seed like '%old%';
+select * from decks where seed like 'p2v150s1%';
 select * from games where seed like '%old%';
 
 select * from games where variant like 'Matr%';
 select * from clues where game_id = 902660;
 select * from card_actions where game_id = 902660 order by turn_action;
+
+select variant_id, variant, count(1) over (partition by variant_id) from variants
+order by 3 desc, 1, 2;
+
+select * from variants where variant_id > 3000;
+select * from variants where variant_id = 1820;
+update games set variant_id = 1820 where variant_id = 18201;
+update games set variant_id = 1646 where variant_id = 16461;
+update games set variant_id = 1808 where variant_id = 18081;
+update games set variant_id = 1812 where variant_id = 18121;
+update games set variant_id = 1816 where variant_id = 18161;
+update variants set variant_id = 1820 where variant_id = 18201;
+update variants set variant_id = 1646 where variant_id = 16461;
+update variants set variant_id = 1808 where variant_id = 18081;
+update variants set variant_id = 1812 where variant_id = 18121;
+update variants set variant_id = 1816 where variant_id = 18161;
