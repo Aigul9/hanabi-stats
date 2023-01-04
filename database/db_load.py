@@ -26,6 +26,10 @@ def load_game(g, s):
     elif num == 6:
         var_eff = session.query(Variant.eff_6p).filter(Variant.variant == opt['variantName']).scalar()
     players = g['players']
+    seed = g['seed']
+    if seed == 'JSON':
+        num_jsons = session.query(Game).filter(Game.seed.like('JSON%')).count()
+        seed = f'{seed}{num_jsons}'
     game = Game(
         g_id,
         opt['numPlayers'],
@@ -51,7 +55,7 @@ def load_game(g, s):
         s['datetimeFinished'],
         s['numGamesOnThisSeed'],
         s['tags'],
-        g['seed'],
+        seed,
         var_eff
     )
     session.add(game)
@@ -69,15 +73,20 @@ def load_game_participants(game_id, players_mod):
 
 def load_deck(g):
     deck = g['deck']
-    deck_res = session.query(Card) \
-        .filter(Card.seed == g['seed'])\
-        .all()
-    if len(deck_res) != 0:
-        return deck_res
+    seed = g['seed']
+    if seed != 'JSON':
+        deck_res = session.query(Card) \
+            .filter(Card.seed == seed)\
+            .all()
+        if len(deck_res) != 0:
+            return deck_res
     deck_res = []
+    if seed == 'JSON':
+        num_jsons = session.query(Game).filter(Game.seed.like('JSON%')).count()
+        seed = f'{seed}{num_jsons}'
     for i in range(len(deck)):
         card = Card(
-            g['seed'],
+            seed,
             i,
             deck[i]['suitIndex'],
             deck[i]['rank']

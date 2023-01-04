@@ -492,3 +492,41 @@ select * from game_actions limit 10;
 
 select max(game_id) from games;
 select * from variants order by 1 desc;
+
+select * from games where game_id = 309033;
+select * from clues where game_id = 309033;
+select * from card_actions where game_id = 309033 order by turn_action;
+select * from card_actions where game_id = 309033 order by turn_action;
+
+select * from tags where game_id = 332450;
+
+select num_turns, detrimental_characters from games where game_id = 901836;
+select count(turn_action) from card_actions where game_id = 901836;
+select count(turn_clued) from clues where game_id = 192177;
+select * from card_actions where game_id = 309033 order by turn_action;
+select * from clues where game_id = 309033 order by turn_clued;
+select * from decks where seed = 'JSON';
+select * from games where seed = 'JSON';
+
+delete from game_participants where game_id in (901832, 901834, 901836);
+delete from slots where game_id in (901832, 901834, 901836);
+delete from card_actions where game_id in (901832, 901834, 901836);
+delete from game_actions where game_id in (901832, 901834, 901836);
+delete from clues where game_id in (901832, 901834, 901836);
+delete from decks where seed like 'JSON%';
+delete from player_notes where game_id in (901832, 901834, 901836);
+delete from tags where game_id in (901832, 901834, 901836);
+delete from games where game_id in (901832, 901834, 901836);
+
+select *  from game_participants where game_id in (901832, 901834, 901836);
+select *  from slots where game_id in (901832, 901834, 901836);
+select *  from card_actions where game_id in (901832, 901834, 901836);
+select *  from game_actions where game_id in (901832, 901834, 901836);
+select *  from clues where game_id in (901832, 901834, 901836);
+select *  from decks where seed like 'JSON%';
+select *  from decks where seed = 'JSON-1';
+select *  from decks where seed = 'JSON0';
+select *  from decks where seed = 'JSON1';
+select *  from player_notes where game_id in (901832, 901834, 901836);
+select *  from tags where game_id in (901832, 901834, 901836);
+select *  from games where game_id in (901832, 901834, 901836, 901836);
