@@ -164,6 +164,16 @@ def update_game(s):
     return 1
 
 
+def update_old_decks(variant_id):
+    deck = session.query(Card).filter(Card.seed.like(f'%v{variant_id}s%')).all()
+    for card in deck:
+        card.seed = card.seed + '_old'
+    games = session.query(Game).filter(Game.seed.like(f'%v{variant_id}s%')).all()
+    for game in games:
+        game.seed = game.seed + '_old'
+    return
+
+
 def load_variant(variant, colors):
     suits = variant.get('suits')
     var = Variant(
@@ -180,7 +190,7 @@ def load_variant(variant, colors):
         colors,
         *[None] * 4
     )
-    session.add(var)
+    session.merge(var)
 
 
 def load_game_empty(g):
@@ -280,7 +290,10 @@ def load_card_actions_and_clues(db_game, game_actions, deck):
 
     players_mod = (players_orig[starting_player:] + players_orig[:starting_player])
 
-    suits, colors = session.query(Variant.suits, Variant.colors).filter(Variant.variant_id == variant_id).first()
+    suits, colors = session.query(Variant.suits, Variant.colors)\
+        .filter(Variant.variant_id == variant_id)\
+        .filter(Variant.variant == variant)\
+        .first()
     suits = [s.lower() for s in suits]
     colors = [c.lower() for c in colors]
     piles = init_piles(variant, suits)

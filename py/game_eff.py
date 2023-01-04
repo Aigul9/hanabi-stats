@@ -111,7 +111,7 @@ if __name__ == '__main__':
     game_ids = [g_id for g_id, in game_ids]
     
     GAMES = session.query(Game)\
-        .join(Variant, Game.variant_id == Variant.variant_id)\
+        .join(Variant, (Game.variant_id == Variant.variant_id) & (Game.variant == Variant.variant))\
         .filter(Game.game_id.in_(game_ids))\
         .filter(Game.score == Variant.max_score)\
         .filter(Game.end_condition == 1)\

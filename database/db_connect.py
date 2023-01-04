@@ -157,7 +157,7 @@ class PlayerNotes(Base):
 class Variant(Base):
     __tablename__ = 'variants'
     variant_id = Column(Integer, primary_key=True)
-    variant = Column(String)
+    variant = Column(String, primary_key=True)
     max_score = Column(Integer)
     suits = Column(ARRAY(String))
     special_rank = Column(Integer)

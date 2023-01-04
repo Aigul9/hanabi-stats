@@ -550,4 +550,13 @@ delete from variants where variant like 'Funnels &%'
 or variant like 'Chimneys%'
 or variant like 'Candy%';
 
-select * from variants where variant like 'Funnels%'
+select * from variants where variant like 'Funnels%';
+
+ALTER TABLE variants DROP CONSTRAINT variants_pkey;
+alter table variants add constraint variants_pkey primary key (variant_id, variant);
+
+ALTER TABLE games ADD CONSTRAINT games_variant_id_variant_fkey FOREIGN KEY (variant_id, variant) REFERENCES variants (variant_id, variant);
+
+select * from variants where variant like 'Odds%';
+update games set variant = replace(variant, 'Odds And', 'Odds and');
+select * from games;

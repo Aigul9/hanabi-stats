@@ -530,3 +530,46 @@ select *  from decks where seed = 'JSON1';
 select *  from player_notes where game_id in (901832, 901834, 901836);
 select *  from tags where game_id in (901832, 901834, 901836);
 select *  from games where game_id in (901832, 901834, 901836, 901836);
+
+select *  from games where game_id = 902570;
+select * from variants where variant_id = 193;
+select * from variants where variant like 'Matryoshka%';
+
+select * from games where variant_id = 193;
+
+select * from variants order by 1 desc;
+select * from variants where variant_id = 1646;
+delete from variants where variant_id > 3000;
+
+select * from variants where variant = 'Matryoshka (5 Suits)';
+select * from variants where variant = 'Odds And Even (6 Suits)';
+select * from variants where variant like 'Odds and Evens (6 Suits)%';
+--Odds And Evens (6 Suits)
+--Odds and Evens (6 Suits)
+
+update variants
+   set variant = replace(variant, 'And', 'and')
+where variant like 'Odds%';
+
+select * from game_actions where game_id = 902571;
+select * from card_actions where game_id = 902571;
+select * from games where game_id = 902571;
+
+select * from decks where seed = 'p2v193s1';
+select * from games where seed = 'p2v193s1';
+select * from card_actions where game_id = 68365 and action_type = 'play';
+
+select * from games where variant like 'Matryo%';
+select * from variants where variant like 'Matryo%';
+delete from variants where variant like 'Matryo%';
+
+select * from decks where seed like '%old%';
+update decks set seed = replace(seed, '_old', '')
+where seed like '%_old%';
+
+select * from decks where seed like '%old%';
+select * from games where seed like '%old%';
+
+select * from games where variant like 'Matr%';
+select * from clues where game_id = 902660;
+select * from card_actions where game_id = 902660 order by turn_action;
