@@ -1,6 +1,6 @@
 # Hanabi stats
 
-The program loads users' games and actions from https://hanab.live/ via api, feeds it in the database, calculates various statistics, and saves them to files in tsv format.
+The program loads users' games and actions from https://hanab.live/ via api, feeds it in the database, calculates various statistics, and saves them to files in tsv format. <kbd>test<kbd>
 
 Code documentation: https://aigul9.github.io/hanabi-stats/
 
