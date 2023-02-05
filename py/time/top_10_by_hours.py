@@ -20,7 +20,7 @@ if __name__ == "__main__":
     date = datetime.now()  # .replace(2022, 9)
     month = 12 if date.month - 1 == 0 else date.month - 1
     year = date.year - 1 if date.month - 1 == 0 else date.year
-    sub_path = f'output/time/top_10_by_hours/{year}_{month}'
+    sub_path = f'output/time/top_10_by_hours/{year}_{month:02}'
 
     sql_file = u \
         .read_file(f'../../database/sql/{path}.sql') \

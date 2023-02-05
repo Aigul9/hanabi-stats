@@ -589,3 +589,5 @@ update variants set variant_id = 1646 where variant_id = 16461;
 update variants set variant_id = 1808 where variant_id = 18081;
 update variants set variant_id = 1812 where variant_id = 18121;
 update variants set variant_id = 1816 where variant_id = 18161;
+
+select * from variants where variant_id = 2069;
