@@ -12,7 +12,7 @@ with dates as (
     from games
 --     where speedrun is false
 )
-select player, year,
+select player, cast(year as int),
        TO_CHAR(
            TO_DATE (month::text, 'MM')
            , 'Month') as month,

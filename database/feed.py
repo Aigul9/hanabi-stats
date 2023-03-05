@@ -21,9 +21,9 @@ while True:
 
     if g == {}:  # if game does not exist
         # if game is deleted before fetch
-        # last_id_db += 1
-        # continue
-        break
+        last_id_db += 1
+        continue
+        # break
 
     if len(g['players']) == 0:
         logger.error(g_id)
