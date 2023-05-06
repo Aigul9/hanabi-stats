@@ -591,3 +591,26 @@ update variants set variant_id = 1812 where variant_id = 18121;
 update variants set variant_id = 1816 where variant_id = 18161;
 
 select * from variants where variant_id = 2069;
+select * from variants order by variant_id desc limit 20;
+
+select max(game_id) from games;
+
+select * from card_actions limit 10;
+--game_id/range game_id
+select * from clues limit 10;
+select * from decks limit 10;
+select * from game_actions limit 10;
+select * from game_participants limit 10;
+select * from player_notes limit 10;
+select * from slots limit 10;
+
+select count(1) from player_notes;
+select count(1) from clues;
+select count(1) from card_actions;
+
+select * from card_actions
+where card_index = 1;
+
+select * from clues
+where game_id = 960111;
+
