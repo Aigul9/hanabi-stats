@@ -614,3 +614,12 @@ where card_index = 1;
 select * from clues
 where game_id = 960111;
 
+select date_time_started from games
+where game_id in (357913, 357915, 358627, 358630, 357917);
+
+select 1 from game_actions
+where game_id in (357913, 357915, 358627, 358630);
+
+select count(1) from games;
+select max(game_id) - min(game_id) from games;
+select max(game_id) from games;

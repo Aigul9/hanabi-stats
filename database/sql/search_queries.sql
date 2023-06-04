@@ -810,3 +810,9 @@ from (
      ) t
 where player = 'Valetta6789'
 order by year, month;
+
+select (sum(extract(epoch from date_time_finished - date_time_started)) / 3600)::int
+from games
+where extract(year from date_time_finished) = '2023'
+and extract(month from date_time_finished) = '03'
+and 'newduke' = any(players);
