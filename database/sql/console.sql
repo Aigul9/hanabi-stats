@@ -623,3 +623,7 @@ where game_id in (357913, 357915, 358627, 358630);
 select count(1) from games;
 select max(game_id) - min(game_id) from games;
 select max(game_id) from games;
+
+select * from games;
+select * from variants;
+select * from decks;
