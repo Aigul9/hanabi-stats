@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 
 import requests
@@ -30,17 +31,29 @@ while True:
         last_id_db += 1
         continue
 
-    player = g['players'][0]
+    is_success = False
+    player_idx = 0
+    while not is_success and player_idx < len(g['players']):
+        player = g['players'][player_idx]
+        if player in histories.keys():
+            try:
+                s = u.open_stats_by_game_id(histories[player], g_id)
+                is_success = True
+            except IndexError:
+                break
+        else:
+            try:
+                response = u.open_stats_from_id_start(player, last_id_db, req_session)
+                s = u.open_stats_by_game_id(response, g_id)
+                histories[player] = response
+                is_success = True
+            except json.decoder.JSONDecodeError:
+                player_idx += 1
 
-    if player in histories.keys():
-        try:
-            s = u.open_stats_by_game_id(histories[player], g_id)
-        except IndexError:
-            break
-    else:
-        response = u.open_stats_from_id_start(player, last_id_db, req_session)
-        s = u.open_stats_by_game_id(response, g_id)
-        histories[player] = response
+    if not is_success:
+        logger.error(f'====={g_id}: PLAYERS NOT FOUND====')
+        last_id_db += 1
+        continue
 
     deck = d.load_deck(g)
     db_game = d.load_game(g, s)

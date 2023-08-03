@@ -627,3 +627,5 @@ select max(game_id) from games;
 select * from games;
 select * from variants;
 select * from decks;
+
+select * from variants order by variant_id desc limit 30;
