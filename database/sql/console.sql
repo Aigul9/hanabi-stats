@@ -629,3 +629,9 @@ select * from variants;
 select * from decks;
 
 select * from variants order by variant_id desc limit 30;
+
+select * from games
+where game_id in (1004113, 1004115, 1004116);
+
+select * from card_actions where game_id in (1004117);
+select * from clues where game_id in (1004117);

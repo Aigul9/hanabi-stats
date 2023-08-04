@@ -16,15 +16,20 @@ from database.db_connect import db
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
+    handlers=[
+        logging.FileHandler('../database/errors.log'),
+        logging.StreamHandler()
+    ]
 )
 logger = logging.getLogger(__name__)
 
 # fileHandler = logging.FileHandler('../database/errors.log')
 # fileHandler.setLevel(logging.DEBUG)
 # logger.addHandler(fileHandler)
-
-consoleHandler = logging.StreamHandler()
-logger.addHandler(consoleHandler)
+#
+# consoleHandler = logging.StreamHandler()
+# consoleHandler.setLevel(logging.DEBUG)
+# logger.addHandler(consoleHandler)
 
 
 def open_stats(user, session=None):

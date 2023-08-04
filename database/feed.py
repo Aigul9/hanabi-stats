@@ -1,5 +1,4 @@
 import json
-from datetime import datetime
 
 import requests
 from sqlalchemy import func
@@ -10,19 +9,20 @@ import py.utils as u
 import database.db_load as d
 
 last_id_db = session.query(func.max(Game.game_id)).scalar()  # start of the loop
-ID_DIFF = 115000  # last game id - total games from stats
-LAST_ID_SITE = u.get_total_games() + ID_DIFF  # end of the loop
-logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tstart:\t{last_id_db}')
 req_session = requests.Session()
 histories = {}  # cache for players' histories
+counter = 0  # number of consecutive 404 games
 
 while True:
     g_id = last_id_db + 1
     g = u.export_game(g_id, req_session)
 
     if g == {}:  # if game does not exist
-        # if game is deleted before fetch
+        if counter > 5:
+            break
+
         last_id_db += 1
+        counter += 1
         continue
         # break
 
@@ -39,16 +39,19 @@ while True:
             try:
                 s = u.open_stats_by_game_id(histories[player], g_id)
                 is_success = True
-            except IndexError:
                 break
-        else:
-            try:
-                response = u.open_stats_from_id_start(player, last_id_db, req_session)
-                s = u.open_stats_by_game_id(response, g_id)
-                histories[player] = response
-                is_success = True
-            except json.decoder.JSONDecodeError:
-                player_idx += 1
+            except IndexError:
+                logger.error("The game does not exist in player's local history")
+                pass
+
+        try:
+            response = u.open_stats_from_id_start(player, last_id_db, req_session)
+            s = u.open_stats_by_game_id(response, g_id)
+            histories[player] = response
+            is_success = True
+        except (IndexError, json.decoder.JSONDecodeError):
+            logger.error("Can't read the stats from api")
+            player_idx += 1
 
     if not is_success:
         logger.error(f'====={g_id}: PLAYERS NOT FOUND====')
@@ -67,6 +70,6 @@ while True:
     last_id_db += 1
     d.load_slots(db_game)
     d.session.commit()
+    counter = 0
 
 d.session.close()
-logger.info(f'{datetime.now().strftime("%d.%m.%Y %H:%M:%S")}\tfinish:\t{last_id_db}')
