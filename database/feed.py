@@ -12,13 +12,14 @@ last_id_db = session.query(func.max(Game.game_id)).scalar()  # start of the loop
 req_session = requests.Session()
 histories = {}  # cache for players' histories
 counter = 0  # number of consecutive 404 games
+MAX_COUNTER = 5
 
 while True:
     g_id = last_id_db + 1
     g = u.export_game(g_id, req_session)
 
     if g == {}:  # if game does not exist
-        if counter > 5:
+        if counter > MAX_COUNTER:
             break
 
         last_id_db += 1
