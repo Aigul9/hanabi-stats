@@ -4,7 +4,7 @@ The program loads users' games and actions from https://hanab.live/ via api, fee
 
 Code documentation: https://aigul9.github.io/hanabi-stats/
 
-See graph visualization here: https://aigul9.github.io/hanabi-stats-vis/ (db might be frozen due to non-usage)
+See graph visualization here: https://aigul9.github.io/hanabi-stats-vis/ (db may be frozen due to non-usage)
 
 See source code: https://github.com/Aigul9/hanabi-stats-vis
 
