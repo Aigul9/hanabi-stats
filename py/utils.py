@@ -17,7 +17,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)s:%(funcName)s()',
     handlers=[
-        logging.FileHandler('../database/errors.log'),
+        logging.FileHandler('E:/Projects/Python Projects/HanabiStats/database/errors.log'),
         logging.StreamHandler()
     ]
 )
