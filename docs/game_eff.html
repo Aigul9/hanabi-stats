@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>py.game_eff API documentation</title>
+<meta name="description" content="TEST" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>py.game_eff</code></h1>
+</header>
+<section id="section-intro">
+<p>TEST</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+    TEST
+&#34;&#34;&#34;
+
+import pandas as pd
+from collections import defaultdict
+from sqlalchemy import func, false
+
+from database.db_connect import session, Game, Variant, CardAction, Clue, GameParticipant
+import py.utils as u
+
+
+def current_eff(game):
+    variant = game.variant
+    score = game.score
+
+    actions = pd.read_sql(session.query(CardAction)
+                          .filter(CardAction.game_id == game.game_id)
+                          .filter(CardAction.turn_action != None)
+                          .order_by(CardAction.turn_action)
+                          .statement,
+                          session.bind)
+    clues = pd.read_sql(session.query(Clue)
+                        .filter(Clue.game_id == game.game_id)
+                        .order_by(Clue.turn_clued)
+                        .statement,
+                        session.bind)
+
+    discard_value = 1 if &#39;Clue Starved&#39; not in variant else 0.5
+    num_misplays = len([a for idx, a in actions.iterrows() if a.action_type == &#39;misplay&#39;])
+    num_clues = len(clues)
+    # when the last card is played at 8 clues
+    num_clues_lost = get_lost_clues(actions, clues, discard_value) if &#39;Throw&#39; not in variant else 0
+
+    # Efficiency is simply &#34;cardsGotten / potentialCluesLost&#34;
+    u.logger.debug((game.game_id, score, num_clues, num_misplays, num_clues_lost))
+    eff = round(score / (num_clues + (num_misplays + num_clues_lost) * discard_value), 2)
+    # print(eff)
+    return eff
+
+
+# hard variants by default
+# https://github.com/Hanabi-Live/hanabi-live/blob/main/packages/client/src/game/rules/hGroup.ts
+# minEfficiency
+# https://github.com/Hanabi-Live/hanabi-live/blob/main/packages/client/src/game/rules/stats.ts#L228
+# efficiency
+# https://github.com/hanabi/hanabi.github.io/blob/main/misc/efficiency.md
+def is_hard_var(variant, num_suits, num_players):
+    if any(vp in variant for vp in VAR_PARTS):
+        return True
+    
+    num_dark = [vp in variant for vp in DARK_PARTS].count(True)
+    f_suits = f&#39;{num_suits} Suits&#39;
+    f_players = f&#39;{num_players}-player&#39; if num_players in (2, 5, 6) else &#39;3/4-player&#39;
+    one_of_each = &#39;w/ 1x 1oE&#39;
+    two_of_each = &#39;w/ 2x 1oE&#39;
+    eff = -1
+
+    if variant.startswith(&#39;Clue Starved&#39;):
+        eff = EFF_TABLE.loc[f&#39;{f_suits} (Clue Starved)&#39;, f_players]
+    elif variant.startswith(&#39;Critical Fours&#39;):
+        if num_dark &gt; 0:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} (Critical Fours) {one_of_each}&#39;, f_players]
+        else:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} (Critical Fours)&#39;, f_players]
+    elif num_players in (3, 4, 5, 6):
+        if num_dark == 2 or variant.count(&#39;Gray&#39;) == 2 or variant.count(&#39;Dark&#39;) == 2:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} {two_of_each}&#39;, f_players]
+        elif num_dark == 1 and (variant.count(&#39;Gray&#39;) in (0, 1) or variant.count(&#39;Dark&#39;) in (0, 1)):
+            eff = EFF_TABLE.loc[f&#39;{f_suits} {one_of_each}&#39;, f_players]
+        elif num_dark == 0:
+            eff = EFF_TABLE.loc[f_suits, f_players]
+    return eff &gt;= 1.25
+
+
+def get_lost_clues(actions, clues, discard_value):
+    play_actions = actions[actions[&#39;action_type&#39;] == &#39;play&#39;]
+    last_cards = play_actions.groupby([&#39;card_suit&#39;]).max().sort_values([&#39;turn_action&#39;])
+    num_clues_lost = 0
+    num_clues_back = 0
+    for suit, card in last_cards.iterrows():
+        num_discards = len(actions[(actions[&#39;action_type&#39;] == &#39;discard&#39;) &amp; (actions[&#39;turn_action&#39;] &lt; card.turn_action)])
+        num_clues = len(clues[clues[&#39;turn_clued&#39;] &lt; card.turn_action])
+        current_clues = 8 + (num_clues_back + num_discards) * discard_value - num_clues
+        num_clues_back += 1
+        num_clues_lost += 1 if current_clues == 8 else 0
+    return num_clues_lost
+
+
+if __name__ == &#39;__main__&#39;:
+    PLAYERS = u.open_file(&#39;../input/players.txt&#39;)
+    current_eff_dict = defaultdict(float)
+    num_games_dict = defaultdict(int)
+    games_set = set()
+    EFF_TABLE = pd.read_csv(&#39;../input/eff.tsv&#39;, sep=&#39;\t&#39;)
+    EFF_TABLE.set_index(&#39;Variant Type&#39;, inplace=True)
+    VAR_PARTS = [&#39;Mix&#39;, &#39;Color Mute&#39;, &#39;Number Mute&#39;, &#39;Throw It in a Hole&#39;, &#39;Cow &amp; Pig&#39;, &#39;Duck&#39;, &#39;Up or Down&#39;]
+    # Dark [Suit] / Gray / Cocoa Rainbow / Gray Pink
+    DARK_PARTS = [&#39;Black&#39;, &#39;Dark&#39;, &#39;Gray&#39;, &#39;Cocoa Rainbow&#39;]
+
+    selected_players = session.query(GameParticipant.player)\
+        .join(Game, GameParticipant.game_id == Game.game_id)\
+        .filter(GameParticipant.player.in_(PLAYERS))\
+        .filter(Game.num_players != 2)\
+        .filter(Game.speedrun == false())\
+        .group_by(GameParticipant.player)\
+        .having(func.count(GameParticipant.game_id) &gt;= 1000)\
+        .all()
+    selected_players = [p for p, in selected_players]
+
+    game_ids = session.query(GameParticipant.game_id)\
+        .distinct(GameParticipant.game_id)\
+        .filter(GameParticipant.player.in_(selected_players))\
+        .all()
+    game_ids = [g_id for g_id, in game_ids]
+    
+    GAMES = session.query(Game)\
+        .join(Variant, (Game.variant_id == Variant.variant_id) &amp; (Game.variant == Variant.variant))\
+        .filter(Game.game_id.in_(game_ids))\
+        .filter(Game.score == Variant.max_score)\
+        .filter(Game.end_condition == 1)\
+        .filter(Game.num_players != 2)\
+        .filter(Game.speedrun == false())\
+        .filter(Game.detrimental_characters == false())\
+        .filter(Game.all_or_nothing == false())\
+        .order_by(Game.game_id.desc())\
+        .all()
+
+    u.logger.debug(f&#39;Num games: {len(GAMES)}&#39;)
+    num_hard_games = 0
+
+    for g in GAMES:
+        if not is_hard_var(g.variant, u.get_number_of_suits(g.variant), g.num_players):
+            continue
+        u.logger.info(g.game_id)
+        num_hard_games += 1
+        key = &#39;, &#39;.join(sorted(g.players, key=lambda item: item.lower()))
+        c_eff = current_eff(g)
+        current_eff_dict[key] += c_eff
+        num_games_dict[key] += 1
+
+    res = {k: [round(current_eff_dict[k] / num_games_dict[k], 2), num_games_dict[k]] for k in current_eff_dict.keys()}
+    sorted_res = dict(sorted(res.items(), key=lambda item: (-item[1][0], item[0])))
+    path = &#39;../output/requests/current_eff&#39;
+    u.save(path, sorted_res, [&#39;Players&#39;, &#39;Avg eff&#39;, &#39;Num of games&#39;])
+    u.logger.debug(f&#39;Num hard games: {num_hard_games}&#39;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="py.game_eff.current_eff"><code class="name flex">
+<span>def <span class="ident">current_eff</span></span>(<span>game)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def current_eff(game):
+    variant = game.variant
+    score = game.score
+
+    actions = pd.read_sql(session.query(CardAction)
+                          .filter(CardAction.game_id == game.game_id)
+                          .filter(CardAction.turn_action != None)
+                          .order_by(CardAction.turn_action)
+                          .statement,
+                          session.bind)
+    clues = pd.read_sql(session.query(Clue)
+                        .filter(Clue.game_id == game.game_id)
+                        .order_by(Clue.turn_clued)
+                        .statement,
+                        session.bind)
+
+    discard_value = 1 if &#39;Clue Starved&#39; not in variant else 0.5
+    num_misplays = len([a for idx, a in actions.iterrows() if a.action_type == &#39;misplay&#39;])
+    num_clues = len(clues)
+    # when the last card is played at 8 clues
+    num_clues_lost = get_lost_clues(actions, clues, discard_value) if &#39;Throw&#39; not in variant else 0
+
+    # Efficiency is simply &#34;cardsGotten / potentialCluesLost&#34;
+    u.logger.debug((game.game_id, score, num_clues, num_misplays, num_clues_lost))
+    eff = round(score / (num_clues + (num_misplays + num_clues_lost) * discard_value), 2)
+    # print(eff)
+    return eff</code></pre>
+</details>
+</dd>
+<dt id="py.game_eff.get_lost_clues"><code class="name flex">
+<span>def <span class="ident">get_lost_clues</span></span>(<span>actions, clues, discard_value)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_lost_clues(actions, clues, discard_value):
+    play_actions = actions[actions[&#39;action_type&#39;] == &#39;play&#39;]
+    last_cards = play_actions.groupby([&#39;card_suit&#39;]).max().sort_values([&#39;turn_action&#39;])
+    num_clues_lost = 0
+    num_clues_back = 0
+    for suit, card in last_cards.iterrows():
+        num_discards = len(actions[(actions[&#39;action_type&#39;] == &#39;discard&#39;) &amp; (actions[&#39;turn_action&#39;] &lt; card.turn_action)])
+        num_clues = len(clues[clues[&#39;turn_clued&#39;] &lt; card.turn_action])
+        current_clues = 8 + (num_clues_back + num_discards) * discard_value - num_clues
+        num_clues_back += 1
+        num_clues_lost += 1 if current_clues == 8 else 0
+    return num_clues_lost</code></pre>
+</details>
+</dd>
+<dt id="py.game_eff.is_hard_var"><code class="name flex">
+<span>def <span class="ident">is_hard_var</span></span>(<span>variant, num_suits, num_players)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def is_hard_var(variant, num_suits, num_players):
+    if any(vp in variant for vp in VAR_PARTS):
+        return True
+    
+    num_dark = [vp in variant for vp in DARK_PARTS].count(True)
+    f_suits = f&#39;{num_suits} Suits&#39;
+    f_players = f&#39;{num_players}-player&#39; if num_players in (2, 5, 6) else &#39;3/4-player&#39;
+    one_of_each = &#39;w/ 1x 1oE&#39;
+    two_of_each = &#39;w/ 2x 1oE&#39;
+    eff = -1
+
+    if variant.startswith(&#39;Clue Starved&#39;):
+        eff = EFF_TABLE.loc[f&#39;{f_suits} (Clue Starved)&#39;, f_players]
+    elif variant.startswith(&#39;Critical Fours&#39;):
+        if num_dark &gt; 0:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} (Critical Fours) {one_of_each}&#39;, f_players]
+        else:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} (Critical Fours)&#39;, f_players]
+    elif num_players in (3, 4, 5, 6):
+        if num_dark == 2 or variant.count(&#39;Gray&#39;) == 2 or variant.count(&#39;Dark&#39;) == 2:
+            eff = EFF_TABLE.loc[f&#39;{f_suits} {two_of_each}&#39;, f_players]
+        elif num_dark == 1 and (variant.count(&#39;Gray&#39;) in (0, 1) or variant.count(&#39;Dark&#39;) in (0, 1)):
+            eff = EFF_TABLE.loc[f&#39;{f_suits} {one_of_each}&#39;, f_players]
+        elif num_dark == 0:
+            eff = EFF_TABLE.loc[f_suits, f_players]
+    return eff &gt;= 1.25</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="py" href="index.html">py</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="py.game_eff.current_eff" href="#py.game_eff.current_eff">current_eff</a></code></li>
+<li><code><a title="py.game_eff.get_lost_clues" href="#py.game_eff.get_lost_clues">get_lost_clues</a></code></li>
+<li><code><a title="py.game_eff.is_hard_var" href="#py.game_eff.is_hard_var">is_hard_var</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
