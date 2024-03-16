@@ -12,7 +12,7 @@ last_id_db = session.query(func.max(Game.game_id)).scalar()  # start of the loop
 req_session = requests.Session()
 histories = {}  # cache for players' histories
 counter = 0  # number of consecutive 404 games
-MAX_COUNTER = 5
+MAX_COUNTER = 5000
 
 while True:
     g_id = last_id_db + 1
@@ -63,7 +63,7 @@ while True:
     db_game = d.load_game(g, s)
     game_actions = d.load_actions(g)
     d.load_notes(g)
-    d.load_tags(s)
+    # d.load_tags(s)
 
     if not db_game.detrimental_characters:  # since they have different logic, they are just skipped
         d.load_card_actions_and_clues(db_game, game_actions, deck)

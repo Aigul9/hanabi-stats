@@ -40,12 +40,12 @@ def get_colors(variant):
     return var_colors
 
 
-# https://github.com/Hanabi-Live/hanabi-live/tree/main/packages/data/src/json
-url_var = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/variants.json'
-url_suits = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/suits.json'
+# https://github.com/Hanabi-Live/hanabi-live/tree/main/packages/game/src/json
+url_var = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/game/src/json/variants.json'
+url_suits = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/game/src/json/suits.json'
 # old vars
-# url_var = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/variants.json?ref=fbd6f94f58120a2cdeae0cb576228646823fe949'
-# url_suits = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/data/src/json/suits.json?ref=fbd6f94f58120a2cdeae0cb576228646823fe949'
+# url_var = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/game/src/json/variants.json?ref=fbd6f94f58120a2cdeae0cb576228646823fe949'
+# url_suits = 'https://api.github.com/repos/Hanabi-Live/hanabi-live/contents/packages/game/src/json/suits.json?ref=fbd6f94f58120a2cdeae0cb576228646823fe949'
 variants_json = req_json(url_var)
 suits_json = req_json(url_suits)
 for v in variants_json:

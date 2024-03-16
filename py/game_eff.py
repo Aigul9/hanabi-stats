@@ -1,7 +1,3 @@
-"""
-    TEST
-"""
-
 import pandas as pd
 from collections import defaultdict
 from sqlalchemy import func, false
